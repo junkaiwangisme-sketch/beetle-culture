@@ -24,15 +24,11 @@
   ],
   "sections": [
     {
-      "title": "Building the colony enclosure",
-      "text": "I used a 20-quart bin and filled it about halfway with Exo Terra desert sand. I mixed a small amount of wood into the sand, then set pieces of bark on top. The wood was a minor part of the mixture. The adults lived and laid in this same enclosure."
+      "title": "Colony",
+      "text": "I used a 20-quart bin and filled it about halfway with Exo Terra desert sand. I mixed a small amount of wood into the sand, then set pieces of bark on top. The wood was a minor part of the mixture. The adults lived and laid in this same enclosure.\nI left the eggs where the females laid them. The eggs hatched in the adult enclosure. Substrate moisture was the detail I watched. I kept the sand from drying out completely, while also avoiding soaking it. I did not need separate incubation cups to get the next generation."
     },
     {
-      "title": "Leaving the eggs in place",
-      "text": "I left the eggs where the females laid them. The eggs hatched in the adult enclosure. Substrate moisture was the detail I watched. I kept the sand from drying out completely, while also avoiding soaking it. I did not need separate incubation cups to get the next generation."
-    },
-    {
-      "title": "Feeding the colony",
+      "title": "Diet",
       "text": "I fed the beetles fish flakes and dog food. By August 2025 this arrangement had carried the culture through two generations. I followed the colony as a group, so I cannot attach a clutch size or a precise time from egg to adult to any one female."
     }
   ],
@@ -56,5 +52,27 @@
   ],
   "account_credit": "Breeding notes by Junkai Wang and Alan Jeon",
   "primary_url": "https://discord.com/channels/1285685926340726887/1384034410046689341/1411149251592982630",
-  "gallery": []
+  "gallery": [],
+  "distribution": {
+    "slug": "eleodes-hispilabris",
+    "kind": "regional",
+    "file": "map-eleodes-hispilabris.png",
+    "date": "2026-11-18",
+    "data_file": "map-data-eleodes-hispilabris.json",
+    "caption": "Published records span the Canadian prairies, the western and central United States, and northern Mexico.",
+    "alt": "Documented regions for Eleodes hispilabris: Alberta, Arizona, California, Chihuahua, Coahuila, Colorado, Idaho, Kansas, Manitoba, Montana, Nebraska, Nevada, New Mexico, North Dakota, Nuevo León, Oklahoma, Oregon, Saskatchewan, Sonora, South Dakota, Tamaulipas, Texas, Utah, Washington, Wyoming.",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5799738/",
+    "link_label": "Distribution source",
+    "data_label": "Mapped regions and sources",
+    "observations_url": "https://www.inaturalist.org/observations?quality_grade=research&captive=false&geo=true&place_id=97394&view=map&taxon_id=218969",
+    "live": {
+      "taxon_id": 218969,
+      "bounds": [
+        -124.71,
+        22.22,
+        -88.95,
+        60.0
+      ]
+    }
+  }
 }

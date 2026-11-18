@@ -24,16 +24,12 @@
   ],
   "sections": [
     {
-      "title": "Moving the larvae",
-      "text": "I first look beneath damaged specimens and in the loose debris around them. That was where I could recover living larvae among the remains. For a new colony I would move some of the material on which the larvae have already been feeding to a separate, close-fitting container. I considered crickets as a substitute for the dried insects. The damage I actually observed was to moths and orthopterans in the collection. I keep a live culture well away from pinned specimens."
+      "title": "Larvae",
+      "text": "I first look beneath damaged specimens and in the loose debris around them. That was where I could recover living larvae among the remains. For a new colony I would move some of the material on which the larvae have already been feeding to a separate, close-fitting container. I considered crickets as a substitute for the dried insects. The damage I actually observed was to moths and orthopterans in the collection. I keep a live culture well away from pinned specimens.\nSeveral larvae had matured during the two weeks before my March 15 check. On May 19, small larvae finally caught my eye in the enclosure. I would keep an apparently quiet container and examine the remaining food under magnification before starting over. A laboratory study found a typical life cycle of 12.8 months, with individuals ranging from about six and a half months to more than 46 months. My February founders were already larvae when I collected them, so their March emergence tells me when the first adults appeared, but not their total age."
     },
     {
-      "title": "Recognizing adults of both sexes",
+      "title": "Adults",
       "text": "An adult female can look so much like a larva that it is easy to overlook her during a count. Females are wingless throughout adult life. Males have wing covers, but the hind wings underneath vary considerably in size. I look for both forms when checking for maturity, then use the appearance of a new size class of small larvae as evidence of reproduction."
-    },
-    {
-      "title": "When the enclosure looks empty",
-      "text": "Several larvae had matured during the two weeks before my March 15 check. On May 19, small larvae finally caught my eye in the enclosure. I would keep an apparently quiet container and examine the remaining food under magnification before starting over. A laboratory study found a typical life cycle of 12.8 months, with individuals ranging from about six and a half months to more than 46 months. My February founders were already larvae when I collected them, so their March emergence tells me when the first adults appeared, but not their total age."
     }
   ],
   "sources": [
@@ -99,5 +95,27 @@
       "alt": "A small brown odd beetle against the pale blue surface of a lid.",
       "credit": "Alan Jeon"
     }
-  ]
+  ],
+  "distribution": {
+    "slug": "thylodrias-contractus",
+    "kind": "regional",
+    "file": "map-thylodrias-contractus.png",
+    "date": "2026-11-18",
+    "data_file": "map-data-thylodrias-contractus.json",
+    "caption": "The odd beetle has been introduced to North America. The map marks selected Canadian reports and a published Wisconsin specimen.",
+    "alt": "Documented regions for Thylodrias contractus: Alberta, Québec, Wisconsin, Yukon.",
+    "url": "https://publications.gc.ca/collections/collection_2015/aac-aafc/A43-1837-1989-eng.pdf",
+    "link_label": "Distribution source",
+    "data_label": "Mapped regions and sources",
+    "observations_url": "https://www.inaturalist.org/observations?quality_grade=research&captive=false&geo=true&place_id=97394&view=map&taxon_id=232585",
+    "live": {
+      "taxon_id": 232585,
+      "bounds": [
+        -141.0,
+        42.49,
+        -57.1,
+        69.65
+      ]
+    }
+  }
 }

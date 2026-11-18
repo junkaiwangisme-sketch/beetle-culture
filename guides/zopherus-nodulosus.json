@@ -20,11 +20,11 @@
   ],
   "sections": [
     {
-      "title": "Feeding the adults",
+      "title": "Adults",
       "text": "I offer lichen on its supporting bark so I can see where the beetles have been feeding. In the photograph, several adults are gathered on the same piece. For another group I would keep a feeding surface accessible at the front of the enclosure."
     },
     {
-      "title": "The upright-log trial",
+      "title": "Breeding logs",
       "text": "For my November 2026 setup I stacked spent mushroom logs vertically. I wanted to see whether wood already worked by the fungus would support the larvae. I would keep the logs stable while checking the adults and retain any piece that shows signs of tunnelling. Feeding was the result I had confirmed when I photographed the setup. I was still waiting to rear larvae from the wood."
     }
   ],
@@ -48,6 +48,58 @@
       "caption": "My Texas ironclads feeding together on lichen, November 2026.",
       "alt": "Black-and-white Texas ironclads clustered on a piece of lichen-covered bark.",
       "credit": "Junkai Wang"
+    },
+    {
+      "file": "zopherus-nodulosus-pair-wang.jpg",
+      "stage": "Adults",
+      "caption": "Two adults on dark substrate.",
+      "alt": "Two black-and-white Texas ironclad beetles seen from above, partly overlapping.",
+      "credit": "Junkai Wang",
+      "width": 414,
+      "height": 414,
+      "url": "https://www.facebook.com/photo/?fbid=1410443443045943"
+    },
+    {
+      "file": "zopherus-nodulosus-group-wang.jpg",
+      "stage": "Adults",
+      "caption": "Pattern variation among adults.",
+      "alt": "Several Texas ironclads on dark ground, each with a different arrangement of black patches on its pale back.",
+      "credit": "Junkai Wang",
+      "width": 414,
+      "height": 414,
+      "url": "https://www.facebook.com/photo/?fbid=1410443413045946"
+    },
+    {
+      "file": "zopherus-nodulosus-close-wang.jpg",
+      "stage": "Adults",
+      "caption": "Dorsal view of an adult.",
+      "alt": "Close view of a Texas ironclad with an irregular band of black across its white wing covers.",
+      "credit": "Junkai Wang",
+      "width": 414,
+      "height": 414,
+      "url": "https://www.facebook.com/photo/?fbid=1410443406379280"
     }
-  ]
+  ],
+  "distribution": {
+    "slug": "zopherus-nodulosus",
+    "kind": "regional",
+    "file": "map-zopherus-nodulosus.png",
+    "date": "2026-11-18",
+    "data_file": "map-data-zopherus-nodulosus.json",
+    "caption": "A USNM review illustrates the nominate form from Sonora and the subspecies haldemani from Texas.",
+    "alt": "Documented regions for Zopherus nodulosus: Sonora, Texas.",
+    "url": "https://www.govinfo.gov/content/pkg/GOVPUB-SI-PURL-gpo28752/pdf/GOVPUB-SI-PURL-gpo28752.pdf",
+    "link_label": "Distribution source",
+    "data_label": "Mapped regions and sources",
+    "observations_url": "https://www.inaturalist.org/observations?quality_grade=research&captive=false&geo=true&place_id=97394&view=map&taxon_id=126476",
+    "live": {
+      "taxon_id": 126476,
+      "bounds": [
+        -115.04,
+        25.87,
+        -93.53,
+        36.5
+      ]
+    }
+  }
 }

@@ -3,15 +3,11 @@
   "slug": "platycerus-oregonensis",
   "common": "Oregon stag beetle",
   "group": "lucanidae",
-  "intro": "One pair of Oregon stag beetles produced approximately 13 larvae for me. One of those grubs spent months pale and motionless after constructing a chamber. It looked ready to pupate, but by the following March it had resumed feeding as a larva.",
+  "intro": "One pair produced approximately 13 larvae. One survived the summer and reached the third instar.",
   "sections": [
     {
-      "title": "Rearing the brood",
-      "text": "The larvae grew well at first. During summer the room repeatedly became hot, and all but one of the young beetles died. The survivor reached the third instar. My experience is a reason to pay attention to the warmest temperature in the rearing room, especially in a place that stays comfortable for most of the day but heats up for a few hours. I did not measure a maximum safe temperature. If repeating the setup, I would choose a place with less summer heat and keep pieces of the food wood with each feeding grub."
-    },
-    {
-      "title": "Watching a resting larva",
-      "text": "As the room cooled after summer, the survivor made a chamber. Its gut emptied and the body became visibly pale. I initially expected a pupa and waited for several months. When I checked in March, I could again see brown wood in its gut, and the larva had a bluish cast while it fed. From this one animal I learned to leave a quiet third instar and its chamber intact. An empty gut can precede a long pause followed by renewed feeding. Look for the actual pupal molt before marking that stage in your records."
+      "title": "Larvae",
+      "text": "The room repeatedly became hot during summer, when the other larvae died. I did not measure the peak temperature. As the room cooled, the survivor built a chamber, emptied its gut and became pale. It stayed there for months. By March its gut contained brown wood again and its body had a bluish cast. I left the chamber intact. The larva had resumed feeding without pupating."
     }
   ],
   "facts": [
@@ -36,5 +32,27 @@
   ],
   "account_credit": "Breeding notes by Junkai Wang and Alan Jeon",
   "primary_url": "https://beetleforum.net/threads/interesting-behavior-i-observed-on-oregon-stag-beetle.1922/post-10221",
-  "gallery": []
+  "gallery": [],
+  "distribution": {
+    "slug": "platycerus-oregonensis",
+    "kind": "regional",
+    "file": "map-platycerus-oregonensis.png",
+    "date": "2026-11-18",
+    "data_file": "map-data-platycerus-oregonensis.json",
+    "caption": "Paulsen and Caterino document this western stag beetle in British Columbia, Washington, Oregon and California.",
+    "alt": "Documented regions for Platycerus oregonensis: British Columbia, California, Oregon, Washington.",
+    "url": "https://treatment.plazi.org/GgServer/xhtml/644C8795FFA4FFA6FF72FF77FEAFFEC6/4",
+    "link_label": "Distribution source",
+    "data_label": "Mapped regions and sources",
+    "observations_url": "https://www.inaturalist.org/observations?quality_grade=research&captive=false&geo=true&place_id=97394&view=map&taxon_id=244813",
+    "live": {
+      "taxon_id": 244813,
+      "bounds": [
+        -139.06,
+        32.53,
+        -114.05,
+        60.0
+      ]
+    }
+  }
 }

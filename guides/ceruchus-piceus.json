@@ -3,15 +3,15 @@
   "slug": "ceruchus-piceus",
   "common": "Black stag beetle",
   "group": "lucanidae",
-  "intro": "I photographed this small eastern stag beetle in the field. A decaying log can hold several stages of its life cycle, which makes the wood itself an important part of any attempt to keep it. My photograph documents an adult. The rearing suggestions below draw on its known habitat.",
+  "intro": "I photographed this small eastern stag beetle in the field.",
   "sections": [
     {
-      "title": "Recognizing adults",
-      "text": "The body is glossy and black to dark reddish brown. Adult body length is approximately 10–14 mm without the mandibles. In males, look for the enlarged mandibles and a prominent tooth on the inner edge. I recommend photographing the beetle from above before it disappears back into a crevice. The mandibles and the outline of the head can then be checked together."
+      "title": "Adults",
+      "text": "Adults are glossy black to dark reddish brown and measure about 10–14 mm excluding the mandibles. The enlarged male mandibles bear a prominent inner tooth."
     },
     {
-      "title": "Choosing wood",
-      "text": "Published records include decaying logs of beech, birch, black cherry, oak and red pine. When selecting material for a trial, I would start with the species and condition of the wood in which the beetle was found. Keep some intact sections as well as loose decayed wood. A field account from the Université de Montréal describes pupation within a decomposing stump. If you encounter an occupied chamber, leave the surrounding walls in place and inspect only where the cell is already visible. I have a field record for this species and no measured egg-to-adult interval from my own culture."
+      "title": "Host wood",
+      "text": "Records include decaying beech, birch, black cherry, oak and red pine. For a rearing trial I would retain intact wood and loose material from the occupied log. Pupation has been observed in a decomposing stump."
     }
   ],
   "facts": [
@@ -48,5 +48,27 @@
       "alt": "Small black Ceruchus piceus seen from above on a hand beside decaying wood.",
       "credit": "Alan Jeon"
     }
-  ]
+  ],
+  "distribution": {
+    "slug": "ceruchus-piceus",
+    "kind": "regional",
+    "file": "map-ceruchus-piceus.png",
+    "date": "2026-11-18",
+    "data_file": "map-data-ceruchus-piceus.json",
+    "caption": "This eastern North American stag beetle ranges into southeastern Canada. The map combines regional photo records with published Maritime records.",
+    "alt": "Documented regions for Ceruchus piceus: Delaware, Georgia, Illinois, Indiana, Iowa, Kentucky, Maine, Maryland, Massachusetts, Michigan, Minnesota, Nebraska, New Brunswick, New Hampshire, New Jersey, New York, North Carolina, North Dakota, Nova Scotia, Ohio, Ontario, Pennsylvania, Québec, Rhode Island, Virginia, West Virginia, Wisconsin.",
+    "url": "https://www.bugguide.net/node/view/14896/data",
+    "link_label": "Distribution source",
+    "data_label": "Mapped regions and sources",
+    "observations_url": "https://www.inaturalist.org/observations?quality_grade=research&captive=false&geo=true&place_id=97394&view=map&taxon_id=216534",
+    "live": {
+      "taxon_id": 216534,
+      "bounds": [
+        -104.03,
+        30.37,
+        -57.1,
+        62.57
+      ]
+    }
+  }
 }

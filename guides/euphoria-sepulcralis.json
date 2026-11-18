@@ -3,15 +3,11 @@
   "slug": "euphoria-sepulcralis",
   "group": "cetoniinae",
   "common": "Dark flower scarab",
-  "intro": "I photographed this small, mottled flower scarab between my fingertips. The body and wing covers are visible together, and the hand gives a sense of the adult’s size. My own record covers the adult stage.",
+  "intro": "I photographed an adult in the field. Published records document regional differences in its seasonal activity.",
   "sections": [
     {
-      "title": "Seasonal observations",
-      "text": "Published records give a useful starting point for looking for a wild brood. In Kentucky the species has an annual life cycle. Pupation was recorded in August, with adults active from late summer into autumn and again the following spring. Florida records span much more of the year. When following adults in different parts of the range, I keep the locality with the date so that the seasonal records remain comparable."
-    },
-    {
-      "title": "Larval habitat",
-      "text": "Larvae have been found in soil beneath dead sod or manure. That habitat is quite different from the exposed flowers where adults are often encountered. If checking for immature stages, I would look in the organic soil below the dead plant material and keep its origin with any larval observation."
+      "title": "Adults and larvae",
+      "text": "In Kentucky the species has an annual cycle. Pupation occurs in August, and adults are active from late summer into autumn and again the following spring. Florida records span more of the year. Adults visit exposed flowers. Larvae occur in soil beneath dead sod or manure."
     }
   ],
   "facts": [
@@ -43,6 +39,39 @@
       "caption": "Adult photographed outdoors.",
       "alt": "Small brown mottled Euphoria sepulcralis held gently between two fingertips.",
       "credit": "Alan Jeon"
+    },
+    {
+      "file": "euphoria-sepulcralis-inat-357018481.jpg",
+      "stage": "Adults",
+      "caption": "Adult among the dry flower parts.",
+      "alt": "A dark Euphoria sepulcralis partly concealed in the center of a dried flower head.",
+      "credit": "Alan Jeon",
+      "width": 1024,
+      "height": 1024,
+      "url": "https://www.inaturalist.org/observations/202175081",
+      "photo_url": "https://www.inaturalist.org/photos/357018481"
     }
-  ]
+  ],
+  "distribution": {
+    "slug": "euphoria-sepulcralis",
+    "kind": "regional",
+    "file": "map-euphoria-sepulcralis.png",
+    "date": "2026-11-18",
+    "data_file": "map-data-euphoria-sepulcralis.json",
+    "caption": "The map shows U.S. states with contributed photographs of this flower scarab. Its distribution also extends outside the mapped records.",
+    "alt": "Documented regions for Euphoria sepulcralis: Alabama, Arkansas, Delaware, Florida, Georgia, Illinois, Indiana, Iowa, Kansas, Kentucky, Louisiana, Maryland, Mississippi, Missouri, Nebraska, New Jersey, North Carolina, Ohio, Oklahoma, Pennsylvania, South Carolina, Tennessee, Texas, Virginia, West Virginia.",
+    "url": "https://www.bugguide.net/node/view/3769/data",
+    "link_label": "Distribution source",
+    "data_label": "Mapped regions and sources",
+    "observations_url": "https://www.inaturalist.org/observations?quality_grade=research&captive=false&geo=true&place_id=97394&view=map&taxon_id=53340",
+    "live": {
+      "taxon_id": 53340,
+      "bounds": [
+        -106.67,
+        24.54,
+        -73.91,
+        43.5
+      ]
+    }
+  }
 }

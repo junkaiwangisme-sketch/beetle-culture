@@ -32,20 +32,16 @@
   ],
   "sections": [
     {
-      "title": "Choosing and feeding the adults",
-      "text": "I start with fresh hickory foliage. My West Texas adults fed on it readily. Walnut works too, and pecan is a convenient alternative in the eastern United States. I keep spare cuttings in a closed bag in the refrigerator for up to a week and give the beetles fresh branches every three days. In the field, adults fly along mountain arroyos on cloudy days and at night, particularly in humid summer weather. To sex a pair, I check the underside of the abdomen. A female has a fine line down the middle of the terminal segment. A male has a dark segment that is absent in females. Adults measure about 25–35 mm."
+      "title": "Adults",
+      "text": "I start with fresh hickory foliage. My West Texas adults fed on it readily. Walnut works too, and pecan is a convenient alternative in the eastern United States. I keep spare cuttings in a closed bag in the refrigerator for up to a week and give the beetles fresh branches every three days. In the field, adults fly along mountain arroyos on cloudy days and at night, particularly in humid summer weather. To sex a pair, I check the underside of the abdomen. A female has a fine line down the middle of the terminal segment. A male has a dark segment that is absent in females. Adults measure about 25–35 mm.\nI had about 30 third-instar larvae from my West Texas culture on February 11, 2018. On March 4 I photographed a fully active adult walking on top of its substrate. This was a separate culture from my later 122-egg brood. I did not track the March adult back to an individual larva in the February count."
     },
     {
-      "title": "Setting up a laying enclosure",
+      "title": "Eggs",
       "text": "For a laying enclosure, I use a medium-size, well-ventilated Critter Keeper or larger, with a capacity of at least 1.75 US gallons (6.6 L). I add 3 inches (7.5 cm) of loose, lightly fermented hardwood flake soil. A handful should hold together when squeezed without releasing any water. I leave the soil uncompacted. A female may spend several days feeding, disappear below the surface to lay, then return to the branches. I leave the eggs in place because the adults leave them unharmed. I usually allow for 20–60 eggs or more and one to three months of adult life. I rate this species 8 out of 10 for breeding difficulty."
     },
     {
-      "title": "Larval food, winter cooling and pupation",
+      "title": "Larvae and pupae",
       "text": "I rear the grubs individually on lightly fermented hardwood flake soil. Decayed hardwood also serves as larval food. For a brood that reaches the late third instar in the fall, I put about 2 inches (5 cm) of clay or similarly textured pupation soil beneath the feeding layer. I keep the larvae in the low 40s to 50s °F (roughly 5–15 °C) through winter and warm them in spring. When I skipped cooling, some larvae failed to pupate and some adults emerged too far apart to pair. Adults surface on their own a few months after warming. I let new females feed away from males for several days before pairing them. In this seasonal setup, larval development took 1½–3 years and pupation about a month. My West Texas trial developed much faster.\nIn spring 2020, three of my adults emerged over the course of several weeks. I have the food plant ready before the first beetle surfaces so I can start feeding it while I wait for the others."
-    },
-    {
-      "title": "A West Texas series in 2018",
-      "text": "I had about 30 third-instar larvae from my West Texas culture on February 11, 2018. On March 4 I photographed a fully active adult walking on top of its substrate. This was a separate culture from my later 122-egg brood. I did not track the March adult back to an individual larva in the February count."
     }
   ],
   "sources": [
@@ -119,5 +115,8 @@
       "credit": "Junkai Wang",
       "stage": "Adults"
     }
+  ],
+  "related_species": [
+    "chrysina-beyeri"
   ]
 }

@@ -20,15 +20,30 @@
   ],
   "sections": [
     {
-      "title": "Setting up the female",
+      "title": "Eggs",
       "text": "I give each female a 32 oz (about 950 mL) container and fill it about three-quarters full with substrate. I check roughly once a month and move the eggs I find to a larger container. Keeping each female in her own laying cup lets me follow her output across successive checks. High in a tree one summer I found a pair with first-instar larvae. I have also seen remains in pieces that fell out of the canopy."
     },
     {
-      "title": "Feeding and recognizing adults",
-      "text": "My adults eat dog food, and I photographed one feeding. When I try to sex them I examine the final abdominal segment. The differences looked similar to those in Phileurus truncatus, but I had only a few males available for comparison. I would check that tentative identification against mating or laying. The last adult of my 2013 series emerged in autumn."
+      "title": "Adults",
+      "text": "My adults eat dog food, and I photographed one feeding. The last adult of my 2013 series emerged in autumn."
     },
     {
-      "title": "Recognizing pupation",
+      "title": "Sexing adults and pupae",
+      "anchor": "sexing",
+      "text": "In adults, examine the last plate on the underside of the abdomen. Alan Jeon found a similar difference to the one Junkai photographed in Phileurus truncatus, but had few males for comparison. Use the shorter male and more rounded female plate in the linked photographs as a provisional comparison for Phileurus valgus. An individually housed adult that lays eggs can be recorded as female.\nPupae have a separately documented character at the ventral tip of the abdomen. In a male, the genital swelling bears a U-shaped hardened structure at its base. In a female, the genital opening is W-shaped. Figures 13 and 14 of Ibarra-Polesel and colleagues (2017) illustrate these structures in the same orientation.",
+      "links": [
+        {
+          "title": "Compare the labeled adult Phileurus truncatus photographs",
+          "url": "species-phileurus-truncatus.html#sexing"
+        },
+        {
+          "title": "Figures 13–14, male and female Phileurus valgus pupae",
+          "url": "https://doi.org/10.11646/zootaxa.4290.3.10"
+        }
+      ]
+    },
+    {
+      "title": "Pupation",
       "text": "A study by Ibarra-Polesel and colleagues measured development in a separate population from northeastern Argentina. Before pupation the mature grub built a cell from wood particles and its own droppings. Under their laboratory conditions the third instar lasted 38–42 days, the prepupal period 6–9 days and the pupal stage 11–13 days. Seven adults lived about three months. I would leave any intact cell in place when checking the box. These figures describe a particular rearing series and give a point of comparison for a North American brood."
     }
   ],
@@ -55,6 +70,83 @@
       "caption": "An adult in its bark habitat.",
       "alt": "Shiny black Phileurus valgus crawling down the fissured bark of a tree.",
       "credit": "Alan Jeon"
+    },
+    {
+      "file": "phileurus-valgus-inat-643661026.jpg",
+      "stage": "Adults",
+      "caption": "A second view of the same adult on its tree.",
+      "alt": "An adult Phileurus valgus extends its legs across ridges in gray bark.",
+      "credit": "Alan Jeon",
+      "width": 1024,
+      "height": 1024,
+      "url": "https://www.inaturalist.org/observations/352697471",
+      "photo_url": "https://www.inaturalist.org/photos/643661026"
+    },
+    {
+      "file": "phileurus-valgus-feeding-jeon.jpg",
+      "stage": "Adults",
+      "caption": "Adults feeding on dog food in the colony.",
+      "alt": "Dark adult Phileurus valgus beside food on a bed of pale wood shavings.",
+      "credit": "Alan Jeon",
+      "url": "https://beetleforum.net/threads/phileurus-valgus.1613/",
+      "preferred": false,
+      "width": 960,
+      "height": 720
+    },
+    {
+      "file": "phileurus-valgus-pupal-cell-jeon.jpg",
+      "stage": "Prepupae and pupae",
+      "caption": "A pupa visible through an opening in its cell.",
+      "alt": "A hand holds a compact oval cell with part of a golden pupa visible inside.",
+      "credit": "Alan Jeon",
+      "url": "https://beetleforum.net/threads/phileurus-valgus.1613/",
+      "preferred": false,
+      "width": 960,
+      "height": 720
+    },
+    {
+      "file": "phileurus-valgus-cells-jeon.jpg",
+      "stage": "Prepupae and pupae",
+      "caption": "Opened cells from the September rearing series.",
+      "alt": "Several earthen cells in one container, showing pale grubs and darker developing individuals.",
+      "credit": "Alan Jeon",
+      "url": "https://beetleforum.net/threads/phileurus-valgus.1613/",
+      "preferred": false,
+      "width": 960,
+      "height": 720
+    },
+    {
+      "file": "phileurus-valgus-new-adult-jeon.jpg",
+      "stage": "Adults",
+      "caption": "A reddish adult from the September series.",
+      "alt": "A reddish brown Phileurus valgus on fingertips, seen from above.",
+      "credit": "Alan Jeon",
+      "url": "https://beetleforum.net/threads/phileurus-valgus.1613/",
+      "preferred": false,
+      "width": 960,
+      "height": 720
     }
-  ]
+  ],
+  "distribution": {
+    "slug": "phileurus-valgus",
+    "kind": "regional",
+    "file": "map-phileurus-valgus.png",
+    "date": "2026-11-18",
+    "data_file": "map-data-phileurus-valgus.json",
+    "caption": "The species ranges from the United States through Mexico, Central America and the Caribbean into South America. The map shows selected North American records.",
+    "alt": "Documented regions for Phileurus valgus: Alabama, Antigua and Barbuda, Arkansas, Barbados, Belize, Cayman Islands, Chiapas, Costa Rica, Cuba, Dominica, Dominican Republic, Durango, El Salvador, Florida, Georgia, Grenada, Guatemala, Guerrero, Hidalgo, Honduras, Illinois, Jalisco, Jamaica, Kansas, Kentucky, Louisiana, Maryland, Mexico City, Michoacán, Mississippi, Missouri, Montserrat, Morelos, Nayarit, Nebraska, Nicaragua, North Carolina, Nuevo León, Oaxaca, Oklahoma, Panama, Puebla, Puerto Rico, Querétaro, Quintana Roo, Saint Kitts and Nevis, Saint Lucia, Saint Vincent and the Grenadines, Sinaloa, Sonora, South Carolina, Tabasco, Tamaulipas, Tennessee, Texas, The Bahamas, United States Virgin Islands, Veracruz, Virginia, Yucatán.",
+    "url": "https://www.bugguide.net/node/view/11453/data",
+    "link_label": "Distribution source",
+    "data_label": "Mapped regions and sources",
+    "observations_url": "https://www.inaturalist.org/observations?quality_grade=research&captive=false&geo=true&place_id=97394&view=map&taxon_id=301519",
+    "live": {
+      "taxon_id": 301519,
+      "bounds": [
+        -115.04,
+        7.22,
+        -59.43,
+        43.0
+      ]
+    }
+  }
 }

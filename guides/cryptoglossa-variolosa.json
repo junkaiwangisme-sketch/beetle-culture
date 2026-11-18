@@ -20,15 +20,11 @@
   ],
   "sections": [
     {
-      "title": "Cover and surface activity",
-      "text": "I would give adults a dry walking surface and low, stable shelters they can reach from more than one side. A piece of bark placed where the beetles can be seen from the side lets me inspect a refuge without dismantling it. Aalbu described retreat into shelter and a head-down defensive posture among Cryptoglossa. An adult disturbed while cover is lifted may also become motionless. I would set the cover back gently and watch the beetle when it resumes walking."
+      "title": "Adults",
+      "text": "I would give adults a dry walking surface and low, stable shelters they can reach from more than one side. A piece of bark placed where the beetles can be seen from the side lets me inspect a refuge without dismantling it. Aalbu described retreat into shelter and a head-down defensive posture among Cryptoglossa. An adult disturbed while cover is lifted may also become motionless. I would set the cover back gently and watch the beetle when it resumes walking.\nThe Sand Tank Mountains survey recorded both this species and Cryptoglossa muricata in the same Arizona mountain range. I would keep identified founders in separate groups and retain a photograph of each from above. I watched the two adults on the surface of the wood. For a laying trial I would also give them accessible soil and keep part of it undisturbed."
     },
     {
-      "title": "Choosing a starting setup",
-      "text": "The Sand Tank Mountains survey recorded both this species and Cryptoglossa muricata in the same Arizona mountain range. I would keep identified founders in separate groups and retain a photograph of each from above. I watched the two adults on the surface of the wood. For a laying trial I would also give them accessible soil and keep part of it undisturbed."
-    },
-    {
-      "title": "Documenting the young",
+      "title": "Larvae",
       "text": "Aalbu’s illustrated treatment includes immature C. variolosa and provides a key to the young of several closely related species. I would use that work together with the identity of the parents if a larva appeared. The most helpful details to retain are the date and location of the first larva in the enclosure, its subsequent molts, and whether an adult ultimately emerges. I have no measured incubation or pupation schedule for these beetles."
     }
   ],
@@ -57,5 +53,27 @@
       "alt": "Two dark Cryptoglossa variolosa walking over a pale wooden surface.",
       "credit": "Alan Jeon"
     }
-  ]
+  ],
+  "distribution": {
+    "slug": "cryptoglossa-variolosa",
+    "kind": "regional",
+    "file": "map-cryptoglossa-variolosa.png",
+    "date": "2026-11-18",
+    "data_file": "map-data-cryptoglossa-variolosa.json",
+    "caption": "The North American darkling beetle catalog lists California, Arizona and New Mexico in the United States and Sinaloa and Sonora in Mexico.",
+    "alt": "Documented regions for Cryptoglossa variolosa: Arizona, California, New Mexico, Sinaloa, Sonora.",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5799738/",
+    "link_label": "Distribution source",
+    "data_label": "Mapped regions and sources",
+    "observations_url": "https://www.inaturalist.org/observations?quality_grade=research&captive=false&geo=true&place_id=97394&view=map&taxon_id=428610",
+    "live": {
+      "taxon_id": 428610,
+      "bounds": [
+        -124.37,
+        22.5,
+        -103.0,
+        42.0
+      ]
+    }
+  }
 }

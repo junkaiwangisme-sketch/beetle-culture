@@ -1,0 +1,110 @@
+{
+  "name": "Chrysina beyeri",
+  "slug": "chrysina-beyeri",
+  "common": "Beyer’s jewel scarab",
+  "group": "rutelinae",
+  "intro": "Beyer’s jewel scarab has green wing covers and lavender legs. Adults feed on fresh oak foliage. The breeding setup below follows the Chrysina woodi guide, with oak cuttings for the adults, decayed hardwood for the grubs, and a separate layer for building pupal cells.",
+  "facts": [
+    {
+      "title": "Adult food",
+      "text": "Fresh oak leaves, including Mexican blue oak"
+    },
+    {
+      "title": "Larval food",
+      "text": "Lightly fermented hardwood flake soil or soft, white-rotted hardwood"
+    }
+  ],
+  "sections": [
+    {
+      "title": "Adults",
+      "text": "Offer fresh oak cuttings with enough branch left for the adults to grip as they feed. Mexican blue oak (Quercus oblongifolia) is a recorded host. Replace wilted or stripped foliage with fresh leafy tips. Bark at the soil surface gives fallen beetles a foothold."
+    },
+    {
+      "title": "Eggs",
+      "text": "For a laying box, start with the setup described for Chrysina woodi. Use a ventilated enclosure of about 6.6 L with roughly 7.5 cm of loose, lightly fermented hardwood flake soil. Moisten the substrate until a handful holds together with a gentle squeeze. Leave the surface accessible so a female can move between the feeding branches and the soil."
+    },
+    {
+      "title": "Larvae and pupae",
+      "text": "As in the Chrysina woodi setup, rear grubs individually on lightly fermented hardwood flake soil or soft, decayed hardwood. Give mature third instars about 5 cm of moist clay beneath the feeding layer for cell construction. Once a grub closes its cell, leave it intact through pupation and adult hardening. Have fresh oak ready when the adult surfaces."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Host plants of North American jewel scarabs, Entomological Society of Manitoba",
+      "url": "https://entsocmb.ca/pdf/Newsletter/ESM_Newsletter_50.1.pdf"
+    },
+    {
+      "title": "Moore et al. (2017), annotated catalog of pelidnotine scarabs",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5534527/"
+    },
+    {
+      "title": "Junkai Wang, adult Beyer’s jewel scarabs photographed August 3, 2025",
+      "url": "https://www.facebook.com/photo/?fbid=1963937974363151"
+    }
+  ],
+  "primary_url": "https://www.facebook.com/photo/?fbid=1963937974363151",
+  "related_species": [
+    "chrysina-woodi"
+  ],
+  "gallery": [
+    {
+      "file": "chrysina-beyeri-adults-wang.jpg",
+      "stage": "Adults",
+      "caption": "Two adults on bark. The purple legs are visible on both beetles.",
+      "alt": "Two bright green Chrysina beyeri facing opposite directions on rough bark, with lavender legs.",
+      "credit": "Junkai Wang",
+      "width": 1440,
+      "height": 1354,
+      "url": "https://www.facebook.com/photo/?fbid=1963937974363151",
+      "preferred": true
+    }
+  ],
+  "record_type": "Rearing guide",
+  "native_status": {
+    "status": "native",
+    "text": "Recorded from Arizona in the United States and from Sonora, Chihuahua and Sinaloa in Mexico. In southern Arizona, adults have been photographed in Madera Canyon in the Santa Rita Mountains.",
+    "sources": [
+      {
+        "title": "Moore et al. (2017), annotated catalog of pelidnotine scarabs",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5534527/"
+      },
+      {
+        "title": "Texas A&M AgriLife, Madera Canyon record",
+        "url": "https://elp.tamu.edu/ipm/bugs/order-coleoptera-beetles/coleoptera-scarabaeidae-chrysina-beyeri-beyers-scarab-b/"
+      }
+    ]
+  },
+  "classification": [
+    {
+      "title": "BugGuide, Chrysina beyeri",
+      "url": "https://www.bugguide.net/node/view/6606"
+    }
+  ],
+  "aliases": [
+    "Beyer’s scarab",
+    "Beyers jewel scarab",
+    "Plusiotis beyeri"
+  ],
+  "distribution": {
+    "slug": "chrysina-beyeri",
+    "kind": "regional",
+    "file": "map-chrysina-beyeri.png",
+    "date": "2026-11-18",
+    "data_file": "map-data-chrysina-beyeri.json",
+    "caption": "Moore and colleagues list Arizona in the United States and Chihuahua, Sinaloa and Sonora in Mexico.",
+    "alt": "Documented regions for Chrysina beyeri: Arizona, Chihuahua, Sinaloa, Sonora.",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5534527/",
+    "link_label": "Distribution source",
+    "data_label": "Mapped regions and sources",
+    "observations_url": "https://www.inaturalist.org/observations?quality_grade=research&captive=false&geo=true&place_id=97394&view=map&taxon_id=324754",
+    "live": {
+      "taxon_id": 324754,
+      "bounds": [
+        -115.04,
+        22.5,
+        -103.31,
+        37.0
+      ]
+    }
+  }
+}

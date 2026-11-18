@@ -20,16 +20,12 @@
   ],
   "sections": [
     {
-      "title": "Setting up a laying group",
+      "title": "Adults",
       "text": "Smith, Dornburg and Wheeler housed their wild-collected adults in plastic containers with sand. They kept different species, localities and collecting dates separate. I would follow that arrangement, especially with several similar-looking Eleodes in the collection. The researchers sifted each enclosure at intervals of one to two weeks and recovered both eggs and small larvae. Keeping the siftings from each date in a separate container gives a useful age window, even when individual eggs are hard to see."
     },
     {
-      "title": "Feeding and moisture below the surface",
-      "text": "The young were raised in a mixture of sand and food. To maintain moisture the study used either daily watering or a plaster base supplied with water through a short tube. The latter establishes a gradient from the bottom up. I would keep one corner available for checking the damp layer and observe where the young settle. The study pooled its description of the rearing methods across several species, so it does not establish which watering method gave the best survival for this particular stock."
-    },
-    {
-      "title": "Recognizing a growing larva",
-      "text": "The published account followed 460 eggs and larvae from adults collected at Bentsen–Rio Grande Valley State Park. Only 25 reached the second instar or later. I would therefore count young again after their first molt before judging the success of a laying group. Late larvae have conspicuously darker dorsal plates on the eighth and ninth abdominal segments. These were useful in separating them from the other Eleodes larvae in the study. The illustrated descriptions were based on larvae in roughly their eighth through eleventh instars."
+      "title": "Larvae",
+      "text": "The young were raised in a mixture of sand and food. To maintain moisture the study used either daily watering or a plaster base supplied with water through a short tube. The latter establishes a gradient from the bottom up. I would keep one corner available for checking the damp layer and observe where the young settle. The study pooled its description of the rearing methods across several species, so it does not establish which watering method gave the best survival for this particular stock.\nThe published account followed 460 eggs and larvae from adults collected at Bentsen–Rio Grande Valley State Park. Only 25 reached the second instar or later. I would therefore count young again after their first molt before judging the success of a laying group. Late larvae have conspicuously darker dorsal plates on the eighth and ninth abdominal segments. These were useful in separating them from the other Eleodes larvae in the study. The illustrated descriptions were based on larvae in roughly their eighth through eleventh instars."
     }
   ],
   "sources": [
@@ -55,5 +51,27 @@
       "alt": "A glossy dark Eleodes goryi with extended legs on an open palm.",
       "credit": "Alan Jeon"
     }
-  ]
+  ],
+  "distribution": {
+    "slug": "eleodes-goryi",
+    "kind": "regional",
+    "file": "map-eleodes-goryi.png",
+    "date": "2026-11-18",
+    "data_file": "map-data-eleodes-goryi.json",
+    "caption": "Bousquet and colleagues list New Mexico and Texas, and the Mexican states of Puebla, Tamaulipas and Veracruz.",
+    "alt": "Documented regions for Eleodes goryi: New Mexico, Puebla, Tamaulipas, Texas, Veracruz.",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5799738/",
+    "link_label": "Distribution source",
+    "data_label": "Mapped regions and sources",
+    "observations_url": "https://www.inaturalist.org/observations?quality_grade=research&captive=false&geo=true&place_id=97394&view=map&taxon_id=334271",
+    "live": {
+      "taxon_id": 334271,
+      "bounds": [
+        -109.05,
+        17.15,
+        -93.53,
+        37.0
+      ]
+    }
+  }
 }

@@ -20,15 +20,11 @@
   ],
   "sections": [
     {
-      "title": "Care and feeding",
-      "text": "I use the same staple food that worked for my Gibbium colony. I would keep small portions of dog food in a secure container and check the food and crumbs together. I use a pale tray for looking through a small sample. Against a light surface it is easier to see the tiny, reddish-brown adults move away from the food. Before replacing the bottom material, I would keep a portion with the established group. In October 2025 I found grain mites in my Mezium culture. Since both can be present in the crumbs, I would check them under magnification before moving material to a fresh box."
+      "title": "Colony",
+      "text": "I use the same staple food that worked for my Gibbium colony. I would keep small portions of dog food in a secure container and check the food and crumbs together. I use a pale tray for looking through a small sample. Against a light surface it is easier to see the tiny, reddish-brown adults move away from the food. Before replacing the bottom material, I would keep a portion with the established group. In October 2025 I found grain mites in my Mezium culture. Since both can be present in the crumbs, I would check them under magnification before moving material to a fresh box.\nI compare the numbers of adults I can see at successive checks. My Mezium became established substantially sooner than the Gibbium, which took roughly three times as long to build up. That comparison is about the time it took my cultures to become productive. I did not follow a single egg through to adulthood in that comparison."
     },
     {
-      "title": "Following the colony",
-      "text": "I compare the numbers of adults I can see at successive checks. My Mezium became established substantially sooner than the Gibbium, which took roughly three times as long to build up. That comparison is about the time it took my cultures to become productive. I did not follow a single egg through to adulthood in that comparison."
-    },
-    {
-      "title": "Recognizing the species",
+      "title": "Adults",
       "text": "For a quick comparison, I look immediately behind the head. A coat of pale hairs covers the head and pronotum, while the much larger wing covers have a glossy surface. I check those characters before transferring beetles between cultures. The species occurs in North America and elsewhere in stored animal and plant products, which fits its readiness to use dog food in my care."
     }
   ],
@@ -64,5 +60,27 @@
       "alt": "Small, round, shiny brown spider beetles are scattered among chunks of dry food in a clear container.",
       "preferred": true
     }
-  ]
+  ],
+  "distribution": {
+    "slug": "mezium-affine",
+    "kind": "regional",
+    "file": "map-mezium-affine.png",
+    "date": "2026-11-18",
+    "data_file": "map-data-mezium-affine.json",
+    "caption": "North American records include Canada and the United States. Majka documents the species in all three Maritime Provinces.",
+    "alt": "Documented regions for Mezium affine: British Columbia, Colorado, Florida, Maine, Massachusetts, New Brunswick, New York, Nova Scotia, Ontario, Prince Edward Island, Québec, Saskatchewan.",
+    "url": "https://bugguide.net/node/view/245638/data",
+    "link_label": "Distribution source",
+    "data_label": "Mapped regions and sources",
+    "observations_url": "https://www.inaturalist.org/observations?quality_grade=research&captive=false&geo=true&place_id=97394&view=map&taxon_id=225015",
+    "live": {
+      "taxon_id": 225015,
+      "bounds": [
+        -139.06,
+        24.54,
+        -57.1,
+        62.57
+      ]
+    }
+  }
 }

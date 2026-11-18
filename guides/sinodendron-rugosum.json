@@ -3,15 +3,11 @@
   "slug": "sinodendron-rugosum",
   "common": "Rugose stag beetle",
   "group": "lucanidae",
-  "intro": "I tried breeding this small western stag beetle in both pieces of decaying wood and flake soil. The females readily bored into the logs. By the end of the trial I had found no larvae in either setup. A gallery was the clearest sign I saw of adult activity, but it was insufficient to establish a brood.",
+  "intro": "I tested two laying substrates, decaying logs and flake soil.",
   "sections": [
     {
-      "title": "Adults in wood",
-      "text": "These beetles reminded me of bess beetles in the way they worked into the wood. The adults appeared to eat it, although watching them excavate a tunnel could not tell me how much they actually swallowed. For another trial, I would keep intact pieces of wood available so the adults could continue boring and I could follow the occupied pieces separately."
-    },
-    {
-      "title": "What to try in a subsequent culture",
-      "text": "Wood species is one variable worth changing. Furniss and colleagues recorded this species emerging from decaying alder collected at Sheep Creek in Idaho. That gives me a specific wood to try and a reason to keep a note of its type and state of decay. In my earlier setups I saw females drill into logs, but I never found eggs or grubs to connect with those tunnels. For a repeat I would leave each occupied piece intact, check any loose material around it for young larvae, and record the first hatchling separately from the first sign of adult drilling."
+      "title": "Breeding trial",
+      "text": "Females bored into the logs. I found neither eggs nor larvae in either substrate. The adults appeared to feed while excavating, although I could not confirm ingestion. For another trial I would use decaying alder. Furniss and colleagues recorded adults emerging from alder collected at Sheep Creek, Idaho."
     }
   ],
   "facts": [
@@ -53,5 +49,27 @@
       "credit": "Junkai Wang",
       "preferred": true
     }
-  ]
+  ],
+  "distribution": {
+    "slug": "sinodendron-rugosum",
+    "kind": "regional",
+    "file": "map-sinodendron-rugosum.png",
+    "date": "2026-11-18",
+    "data_file": "map-data-sinodendron-rugosum.json",
+    "caption": "The museum account lists British Columbia, Washington, Oregon, California and Idaho.",
+    "alt": "Documented regions for Sinodendron rugosum: British Columbia, California, Idaho, Oregon, Washington.",
+    "url": "https://unsm-ento.unl.edu/Guide/Scarabaeoidea/Lucanidae/SYN/SINO/rugosum.html",
+    "link_label": "Distribution source",
+    "data_label": "Mapped regions and sources",
+    "observations_url": "https://www.inaturalist.org/observations?quality_grade=research&captive=false&geo=true&place_id=97394&view=map&taxon_id=321486",
+    "live": {
+      "taxon_id": 321486,
+      "bounds": [
+        -139.06,
+        32.53,
+        -111.05,
+        60.0
+      ]
+    }
+  }
 }

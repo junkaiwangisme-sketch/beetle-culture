@@ -24,20 +24,16 @@
   ],
   "sections": [
     {
-      "title": "Feeding and pairing the adults",
-      "text": "I prepare the breeding enclosure before I introduce the pair because the adults live only about a month. Mine accept beetle jelly, which I renew on my usual five-day schedule. I put it on an accessible part of the surface so I can replace it while leaving the log in position. At Key Largo I have found adults in numbers, yet even an active group in captivity gave me no offspring when I offered only my usual flake soil."
+      "title": "Adults",
+      "text": "I prepare the breeding enclosure before I introduce the pair because the adults live only about a month. Mine accept beetle jelly, which I renew on my usual five-day schedule. I put it on an accessible part of the surface so I can replace it while leaving the log in position. At Key Largo I have found adults in numbers, yet even an active group in captivity gave me no offspring when I offered only my usual flake soil.\nThe striped adult on bark is from my collection in September 2025. The Florida field photograph in the gallery is from December 2024. It shows the markings in natural light and gives a sense of the beetle’s size on a hand. I keep these field dates separate from the time an adult spends active in a breeding box."
     },
     {
-      "title": "What changed when I added a log",
+      "title": "Breeding logs",
       "text": "In 2021, my standard flake-soil setup failed to produce a brood. By May 2022 I had at least four pairs on hand. I keep that count separate from my later breeding results. In my later culture I used the same basic arrangement I use for Dorcus: a breeding log resting on the surface of the substrate. I choose decaying hardwood that still holds together as a log. The solid piece matters throughout the brood’s development. Once the female has had access to it, I leave it in the enclosure, even if I cannot see any young at the surface."
     },
     {
-      "title": "Following larvae inside the wood",
+      "title": "Larvae",
       "text": "My grubs fed through the log and hollowed it from within. I never saw them leave it, even in captivity. I would keep occupied wood intact when refreshing the surrounding material. An empty-looking layer of flake soil tells me very little about what is happening inside the log. In Florida, larvae, pupae and adults have also been found in the decayed heartwood of Bursera and Metopium logs. That field observation fits the way my grubs used the wood."
-    },
-    {
-      "title": "Adults in the field and in culture",
-      "text": "The striped adult on bark is from my collection in September 2025. The Florida field photograph in the gallery is from December 2024. It shows the markings in natural light and gives a sense of the beetle’s size on a hand. I keep these field dates separate from the time an adult spends active in a breeding box."
     }
   ],
   "sources": [
@@ -87,6 +83,48 @@
       "caption": "Florida field observation, December 2024.",
       "alt": "Adult Rutela formosa with metallic gold and dark stripes resting on a hand.",
       "credit": "Alan Jeon"
+    },
+    {
+      "file": "rutela-formosa-side-wang.jpg",
+      "stage": "Adults",
+      "caption": "The red legs and metallic wing markings of an adult.",
+      "alt": "Rutela formosa viewed from the side on a palm, with a gold and dark green banded back and reddish legs.",
+      "credit": "Junkai Wang",
+      "width": 414,
+      "height": 414,
+      "url": "https://www.facebook.com/photo/?fbid=1331131034310518"
+    },
+    {
+      "file": "rutela-formosa-dorsal-wang.jpg",
+      "stage": "Adults",
+      "caption": "An adult in dorsal view.",
+      "alt": "Rutela formosa facing left on an open hand, showing the lengthwise markings on both wing covers.",
+      "credit": "Junkai Wang",
+      "width": 414,
+      "height": 414,
+      "url": "https://www.facebook.com/photo/?fbid=1190482058375417"
     }
-  ]
+  ],
+  "distribution": {
+    "slug": "rutela-formosa",
+    "kind": "regional",
+    "file": "map-rutela-formosa.png",
+    "date": "2026-11-18",
+    "data_file": "map-data-rutela-formosa.json",
+    "caption": "The American Beetles account records Florida, Georgia, the Bahamas and Cuba. The Florida Keys contain documented breeding sites.",
+    "alt": "Documented regions for Rutela formosa: Cuba, Florida, Georgia, The Bahamas.",
+    "url": "https://api.pageplace.de/preview/DT0400.9781420041231_A24583113/preview-9781420041231_A24583113.pdf",
+    "link_label": "Distribution source",
+    "data_label": "Mapped regions and sources",
+    "observations_url": "https://www.inaturalist.org/observations?quality_grade=research&captive=false&geo=true&place_id=97394&view=map&taxon_id=230339",
+    "live": {
+      "taxon_id": 230339,
+      "bounds": [
+        -87.61,
+        19.86,
+        -72.75,
+        35.0
+      ]
+    }
+  }
 }

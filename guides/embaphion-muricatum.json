@@ -24,19 +24,19 @@
   ],
   "sections": [
     {
-      "title": "A substrate that produced an adult",
+      "title": "Substrate",
       "text": "Alan’s account from July 2024: I received fresh stock earlier that year and set it up in a gasket-sealed tub. I mixed ReptiSoil with excavator clay and gave the beetles about three inches (7.5 cm) of this mixture. I did not add rotten wood. On July 10 I saw the first adult from that group. This is the setup I would start with for another batch of pie-dish larvae."
     },
     {
-      "title": "Starting with adults",
+      "title": "Adults",
       "text": "I would give the adults cover they can walk under and a bed of diggable soil deep enough for the larvae to disappear into it. My Eleodes hispilabris setup offers one way to arrange a darkling enclosure. For pie-dish beetles I would leave a slightly damp area below the surface so a full-grown larva can form a cell that holds its shape. I would keep the feeding area accessible for checks without turning over the whole enclosure."
     },
     {
-      "title": "Feeding the larvae",
+      "title": "Larvae",
       "text": "Wheat, hulless oats and rye are useful foods to start with. Both adults and larvae accepted seeds in laboratory feeding trials. I would offer a small amount at a recognizable spot and check the grains as well as the soil beneath them. A larva can eat into a seed from below while leaving little sign at the surface."
     },
     {
-      "title": "Following pupation",
+      "title": "Pupation",
       "text": "Once I have larger larvae, I would leave part of the bed undisturbed and check through the side of the container. The finished cell is fragile, so I would wait for the adult to leave it before moving the beetle. In Kansas both larvae and adults have been found overwintering. My March 2022 larvae establish which stage I had that spring, but the interval after my December account is not a measured egg-to-larva time."
     }
   ],
@@ -88,5 +88,27 @@
       "alt": "Dorsal view of the dark pie-dish beetle beside a pale twig, showing the outlines of the pronotum and wing covers.",
       "preferred": false
     }
-  ]
+  ],
+  "distribution": {
+    "slug": "embaphion-muricatum",
+    "kind": "regional",
+    "file": "map-embaphion-muricatum.png",
+    "date": "2026-11-18",
+    "data_file": "map-data-embaphion-muricatum.json",
+    "caption": "The cataloged range extends from Alberta and Saskatchewan south through the Great Plains to Texas and Tamaulipas.",
+    "alt": "Documented regions for Embaphion muricatum: Alberta, Colorado, Kansas, Nebraska, Saskatchewan, South Dakota, Tamaulipas, Texas.",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5799738/",
+    "link_label": "Distribution source",
+    "data_label": "Mapped regions and sources",
+    "observations_url": "https://www.inaturalist.org/observations?quality_grade=research&captive=false&geo=true&place_id=97394&view=map&taxon_id=69727",
+    "live": {
+      "taxon_id": 69727,
+      "bounds": [
+        -120.0,
+        22.22,
+        -93.53,
+        60.0
+      ]
+    }
+  }
 }

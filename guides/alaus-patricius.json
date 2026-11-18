@@ -24,15 +24,15 @@
   ],
   "sections": [
     {
-      "title": "Recognizing an adult",
+      "title": "Adults",
       "text": "The paired spots are on the pronotum, the plate just behind the head. They are particularly small in A. patricius. The pale areas on the dark body are patches of tiny scales, and at the tip of each wing cover there are two points. The Florida specimens described by R. E. Woodruff measured 30–35 mm. Several were collected at ultraviolet light in May."
     },
     {
-      "title": "Egg laying and the first two instars",
+      "title": "Eggs and larvae",
       "text": "My Alaus laid directly into the substrate. Once the eggs hatched, the difficult part was locating and separating the young. The first- and second-instar click beetles I worked with were so small that I compared them to springtails. They would readily eat one another, so I separated them early. This was the most exacting part of rearing the group."
     },
     {
-      "title": "Following the brood to adulthood",
+      "title": "Emergence",
       "text": "I photographed A. patricius in March 2023, when I was hoping my remaining group would produce a pair for another generation. I recorded the beetles in their rearing cups in May and photographed the mottled adults together in June. The development time I measured from egg to adult was about one year. I do not have a separate incubation or pupal duration for this group."
     }
   ],
@@ -83,6 +83,39 @@
       "caption": "Adult in a field observation.",
       "alt": "Pale mottled Alaus patricius held just above rough ground.",
       "credit": "Alan Jeon"
+    },
+    {
+      "file": "alaus-patricius-inat-474275785.jpg",
+      "stage": "Adults",
+      "caption": "Adult viewed from the side.",
+      "alt": "A pale Alaus patricius lies across two fingertips with its speckled wing covers visible.",
+      "credit": "Alan Jeon",
+      "width": 1024,
+      "height": 1024,
+      "url": "https://www.inaturalist.org/observations/263951493",
+      "photo_url": "https://www.inaturalist.org/photos/474275785"
     }
-  ]
+  ],
+  "distribution": {
+    "slug": "alaus-patricius",
+    "kind": "regional",
+    "file": "map-alaus-patricius.png",
+    "date": "2026-11-18",
+    "data_file": "map-data-alaus-patricius.json",
+    "caption": "The species occurs in the Florida Keys and Cuba. The Florida highlight represents the state containing the Keys.",
+    "alt": "Documented regions for Alaus patricius: Cuba, Florida.",
+    "url": "https://edis.ifas.ufl.edu/publication/IN242/pdf",
+    "link_label": "Distribution source",
+    "data_label": "Mapped regions and sources",
+    "observations_url": "https://www.inaturalist.org/observations?quality_grade=research&captive=false&geo=true&place_id=97394&view=map&taxon_id=465469",
+    "live": {
+      "taxon_id": 465469,
+      "bounds": [
+        -87.61,
+        19.86,
+        -74.14,
+        31.0
+      ]
+    }
+  }
 }

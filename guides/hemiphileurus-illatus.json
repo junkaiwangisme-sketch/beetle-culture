@@ -3,7 +3,7 @@
   "slug": "hemiphileurus-illatus",
   "common": "",
   "group": "dynastinae",
-  "intro": "I started with one male and two females from Arizona. I housed them the way I had kept Phileurus valgus. Within twelve days I found eggs in one female’s substrate, and by winter I could follow the brood into its pupal cells.",
+  "intro": "I started with one male and two females from Arizona and followed their young through winter.",
   "facts": [
     {
       "title": "Starting group",
@@ -28,16 +28,12 @@
   ],
   "sections": [
     {
-      "title": "Starting with a trio",
-      "text": "I set up the trio on July 24, 2013. When I checked one female’s substrate on August 5, I found eggs. If I were repeating the trial, I would keep each female’s laying material together through the first inspection. The twelve days describe the interval between two checks. The female may have laid well before I discovered the eggs."
+      "title": "Adults and eggs",
+      "text": "I set up the trio on July 24, 2013, using the approach I used for Phileurus valgus. For that species I fill a 32 oz (950 mL) cup about three-quarters full for each female and transfer eggs to a larger box at the monthly check. On August 5 I found eggs in one H. illatus female’s substrate."
     },
     {
-      "title": "Using the comparison with Phileurus valgus",
-      "text": "My starting point was my Phileurus valgus method. For valgus I fill a 32 oz (about 950 mL) container about three-quarters full for each female, then move the eggs into a larger rearing box at a monthly check. I used comparable conditions for H. illatus. This group already had eggs when I checked well before the end of the first month."
-    },
-    {
-      "title": "A brood through the winter",
-      "text": "By September 11 the earliest batch had reached the third instar. On November 7 all 25 larvae I was following were still alive. On February 21, 2014, about four out of five had made cells and I could already see pupae. I leave closed cells intact when checking a mixed group. Some larvae may still be feeding while their siblings have settled into chambers against the wall."
+      "title": "Larvae and pupae",
+      "text": "The earliest larvae reached the third instar by September 11. On November 7 all 25 larvae under observation were alive. By February 21, 2014, about four-fifths had formed cells, and some had pupated."
     }
   ],
   "sources": [
@@ -60,5 +56,61 @@
   ],
   "primary_url": "https://beetleforum.net/threads/hemiphileurus-illatus.1626/",
   "account_credit": "Breeding account by Alan Jeon",
-  "gallery": []
+  "gallery": [
+    {
+      "file": "hemiphileurus-illatus-adults-jeon.jpg",
+      "stage": "Adults",
+      "caption": "Two adults from the Arizona breeding stock.",
+      "alt": "Two glossy black adult Hemiphileurus illatus on an open palm.",
+      "credit": "Alan Jeon",
+      "url": "https://beetleforum.net/threads/hemiphileurus-illatus.1626/",
+      "preferred": true,
+      "width": 960,
+      "height": 720
+    },
+    {
+      "file": "hemiphileurus-illatus-adult-profile-jeon.jpg",
+      "stage": "Adults",
+      "caption": "Adult in lateral view.",
+      "alt": "An adult Hemiphileurus illatus viewed from the side, showing the head and the sculptured pronotum.",
+      "credit": "Alan Jeon",
+      "url": "https://beetleforum.net/threads/hemiphileurus-illatus.1626/",
+      "preferred": false,
+      "width": 960,
+      "height": 720
+    },
+    {
+      "file": "hemiphileurus-illatus-eggs-jeon.jpg",
+      "stage": "Eggs",
+      "caption": "Eggs recovered from a female’s laying substrate on August 5, 2013.",
+      "alt": "Pale Hemiphileurus illatus eggs exposed among wood particles in a white cup.",
+      "credit": "Alan Jeon",
+      "url": "https://beetleforum.net/threads/hemiphileurus-illatus.1626/",
+      "preferred": false,
+      "width": 960,
+      "height": 720
+    }
+  ],
+  "distribution": {
+    "slug": "hemiphileurus-illatus",
+    "kind": "regional",
+    "file": "map-hemiphileurus-illatus.png",
+    "date": "2026-11-18",
+    "data_file": "map-data-hemiphileurus-illatus.json",
+    "caption": "Selected field records document the species in Arizona and on islands off Sinaloa, Mexico.",
+    "alt": "Documented regions for Hemiphileurus illatus: Arizona, Sinaloa.",
+    "url": "https://www.bugguide.net/node/view/1988288",
+    "link_label": "Distribution source",
+    "data_label": "Mapped regions and sources",
+    "observations_url": "https://www.inaturalist.org/observations?quality_grade=research&captive=false&geo=true&place_id=97394&view=map&taxon_id=267016",
+    "live": {
+      "taxon_id": 267016,
+      "bounds": [
+        -114.84,
+        22.5,
+        -105.39,
+        37.0
+      ]
+    }
+  }
 }

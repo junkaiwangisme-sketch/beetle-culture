@@ -20,16 +20,12 @@
   ],
   "sections": [
     {
-      "title": "The breeders and their young",
+      "title": "Adults and eggs",
       "text": "The published brood came from females collected near Glamis in Imperial County, California. The locality consisted of desert drainages with palo verde trees. Adults came to lights between dusk and roughly 11 p.m. The females laid eggs in captivity, which allowed the researchers to link their young to identified adults. I would keep the collection locality with any descendants. Three small North American Megasoma occur in the hobby, and an isolated grub is much harder to identify than a beetle with a documented parent."
     },
     {
-      "title": "Choosing a larval food",
-      "text": "The researchers raised their grubs on mulch made from coast live oak leaves. That oak does not grow at the collection site, making this a particularly useful rearing result. The same paper records larvae feeding on rotten palo verde wood in captivity. The food associated with the adult habitat and the food used in the documented larval series are therefore two distinct options. If I were setting up another group, I would keep the food type with the dates of each observed molt so the brood’s progress could be compared with the published series."
-    },
-    {
-      "title": "Recognizing mature larvae",
-      "text": "The third-instar description was based on three larvae, with a reported head-capsule width of 6.5 mm. That measurement and the accompanying illustrations are reference points for a grub already known to be this species. I would use an actual molt, where observed, to time the transition between instars."
+      "title": "Larvae",
+      "text": "The researchers raised their grubs on mulch made from coast live oak leaves. That oak does not grow at the collection site, making this a particularly useful rearing result. The same paper records larvae feeding on rotten palo verde wood in captivity. The food associated with the adult habitat and the food used in the documented larval series are therefore two distinct options. If I were setting up another group, I would keep the food type with the dates of each observed molt so the brood’s progress could be compared with the published series.\nThe third-instar description was based on three larvae, with a reported head-capsule width of 6.5 mm. That measurement and the accompanying illustrations are reference points for a grub already known to be this species. I would use an actual molt, where observed, to time the transition between instars."
     }
   ],
   "sources": [
@@ -49,5 +45,27 @@
     "chrysina-woodi"
   ],
   "account_credit": "Breeding notes by Junkai Wang and Alan Jeon",
-  "gallery": []
+  "gallery": [],
+  "distribution": {
+    "slug": "megasoma-sleeperi",
+    "kind": "regional",
+    "file": "map-megasoma-sleeperi.png",
+    "date": "2026-11-18",
+    "data_file": "map-data-megasoma-sleeperi.json",
+    "caption": "The documented range is in southern California. State shading locates those southern records.",
+    "alt": "Documented regions for Megasoma sleeperi: California.",
+    "url": "https://unsm-ento.unl.edu/Guide/Scarabaeoidea/Scarabaeidae/Dynastinae/Dynastinae-Tribes/Dynastini/Megasoma/Megasoma%20sleeperi/Msleeperi.html",
+    "link_label": "Distribution source",
+    "data_label": "Mapped regions and sources",
+    "observations_url": "https://www.inaturalist.org/observations?quality_grade=research&captive=false&geo=true&place_id=97394&view=map&taxon_id=321482",
+    "live": {
+      "taxon_id": 321482,
+      "bounds": [
+        -124.37,
+        32.53,
+        -114.12,
+        42.0
+      ]
+    }
+  }
 }

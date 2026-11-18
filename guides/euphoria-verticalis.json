@@ -3,11 +3,11 @@
   "slug": "euphoria-verticalis",
   "group": "cetoniinae",
   "common": "Flower scarab",
-  "intro": "I photographed a pinned adult of this dark flower scarab with its specimen label. I use this specimen as an adult comparison. The label and the beetle are visible together in the photograph.",
+  "intro": "My record is a pinned adult photographed with its specimen label.",
   "sections": [
     {
-      "title": "Comparing adults",
-      "text": "The photograph shows the outline of the beetle from above. Compare the rounded pronotum, the surface of the wing covers and the overall shape together. Orozco’s revision of Euphoria treats E. verticalis in its own species group and provides the comparative basis for identification. A specimen image of this kind is useful for checking an adult determination before assigning the same name to associated immature stages."
+      "title": "Adults",
+      "text": "I use the pronotum, elytral sculpture and body outline to compare adults. Orozco’s revision places Euphoria verticalis in its own species group."
     }
   ],
   "facts": [
@@ -35,6 +35,39 @@
       "caption": "A preserved adult specimen.",
       "alt": "Dark oval Euphoria verticalis pinned above a specimen label.",
       "credit": "Alan Jeon"
+    },
+    {
+      "file": "euphoria-verticalis-inat-453519078.jpg",
+      "stage": "Adults",
+      "caption": "Lateral view of the preserved specimen.",
+      "alt": "A pinned Euphoria verticalis in profile above its paper label.",
+      "credit": "Alan Jeon",
+      "width": 1024,
+      "height": 1024,
+      "url": "https://www.inaturalist.org/observations/253300577",
+      "photo_url": "https://www.inaturalist.org/photos/453519078"
     }
-  ]
+  ],
+  "distribution": {
+    "slug": "euphoria-verticalis",
+    "kind": "regional",
+    "file": "map-euphoria-verticalis.png",
+    "date": "2026-11-18",
+    "data_file": "map-data-euphoria-verticalis.json",
+    "caption": "The highlighted state contains a photographed field record from Santa Cruz County, Arizona.",
+    "alt": "Documented regions for Euphoria verticalis: Arizona.",
+    "url": "https://elp.tamu.edu/ipm/bugs/order-coleoptera-beetles/family-scarabaeidae-scarab-beetles/coleoptera-scarabaeidae-euphoria-verticalis-fruit-and-flower-chafers-e/",
+    "link_label": "Distribution source",
+    "data_label": "Mapped regions and sources",
+    "observations_url": "https://www.inaturalist.org/observations?quality_grade=research&captive=false&geo=true&place_id=97394&view=map&taxon_id=560817",
+    "live": {
+      "taxon_id": 560817,
+      "bounds": [
+        -116.84,
+        31.32,
+        -107.05,
+        37.0
+      ]
+    }
+  }
 }

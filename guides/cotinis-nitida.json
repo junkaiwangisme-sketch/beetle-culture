@@ -6,11 +6,11 @@
   "intro": "When green June beetles are flying over open grass, I find it easiest to intercept them in flight. The adults are conspicuous by day. One adult I photographed on the ground shows the green back and pale golden margins along the wing covers.",
   "sections": [
     {
-      "title": "Finding adults",
+      "title": "Adults",
       "text": "I recommend watching the open space just above the grass. Adult activity is easier to follow there than among the leaves of a tree. In a discussion of baits I suggested that banana mixed with wine might also attract Cotinis. My recommendation was based on how easily the beetles can be met in open flight. I did not establish a catch rate for that bait."
     },
     {
-      "title": "Eggs, overwintering and emergence",
+      "title": "Development",
       "text": "In North Carolina, females choose soil rich in organic matter and lay clusters of about 10–30 eggs. Hatching takes roughly two weeks. Grubs feed in the soil and may surface at night. They spend winter underground as larvae. Following spring pupation, adults develop in about two to three weeks. I use those published field intervals as seasonal reference points. The adult in the photograph is a field observation."
     }
   ],
@@ -48,5 +48,27 @@
       "alt": "A green June beetle at the base of a dark timber on coarse gravel.",
       "credit": "Alan Jeon"
     }
-  ]
+  ],
+  "distribution": {
+    "slug": "cotinis-nitida",
+    "kind": "regional",
+    "file": "map-cotinis-nitida.png",
+    "date": "2026-11-18",
+    "data_file": "map-data-cotinis-nitida.json",
+    "caption": "Contributed photographs document the green June beetle across the central and eastern United States.",
+    "alt": "Documented regions for Cotinis nitida: Alabama, Arkansas, Connecticut, Delaware, District of Columbia, Florida, Georgia, Illinois, Indiana, Iowa, Kansas, Kentucky, Louisiana, Maryland, Massachusetts, Michigan, Mississippi, Missouri, Nebraska, New Jersey, New York, North Carolina, Ohio, Oklahoma, Pennsylvania, Rhode Island, South Carolina, Tennessee, Texas, Virginia, West Virginia.",
+    "url": "https://www.bugguide.net/node/view/520/data",
+    "link_label": "Distribution source",
+    "data_label": "Mapped regions and sources",
+    "observations_url": "https://www.inaturalist.org/observations?quality_grade=research&captive=false&geo=true&place_id=97394&view=map&taxon_id=118538",
+    "live": {
+      "taxon_id": 118538,
+      "bounds": [
+        -106.67,
+        24.54,
+        -69.93,
+        48.3
+      ]
+    }
+  }
 }

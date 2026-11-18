@@ -6,16 +6,12 @@
   "intro": "My first broods of Dorcus brevis grew to the third instar and then died. Getting eggs was only the first part of the problem. I kept working with this species and eventually raised it through the adult molt. In January 2021 I photographed one of my captive-bred adults.",
   "sections": [
     {
-      "title": "Selecting a pair",
+      "title": "Adults",
       "text": "Check the adults against Dorcus parallelus before pairing them. Viewed from above, the rear corners of the pronotum lie close to the bases of the wing covers in D. brevis. A small male can have short jaws and a narrow head. The shape of the mandibles is more useful than jaw length alone for deciding whether a beetle is female. I have seen a small male mistaken for a newly emerged female on just those grounds."
     },
     {
-      "title": "Laying and larval development",
-      "text": "For a pair I recommend a piece of decaying hardwood embedded in less-fermented hardwood flake soil, the general Dorcus setup described on the Substrate page. Offer active adults beetle jelly every five days, with apple or banana as alternatives. My early attempts produced larvae repeatedly, but they died during the third instar. By the time I was setting up my third attempt in 2014, I suspected that the larvae might need a seasonal rest. I had no tested chilling temperature or duration."
-    },
-    {
-      "title": "Recognizing success",
-      "text": "For any repeat of this culture I recommend recording three dates separately, when the larva last fed, when a pupa became visible and when the adult molted. The captive-bred adult I later photographed establishes that this species can complete its development in culture. I did not establish which change allowed the successful brood to pass the stage where my earlier broods failed."
+      "title": "Development",
+      "text": "For a pair I recommend a piece of decaying hardwood embedded in less-fermented hardwood flake soil, the general Dorcus setup described on the Substrate page. Offer active adults beetle jelly every five days, with apple or banana as alternatives. My early attempts produced larvae repeatedly, but they died during the third instar. By the time I was setting up my third attempt in 2014, I suspected that the larvae might need a seasonal rest. I had no tested chilling temperature or duration.\nFor any repeat of this culture I recommend recording three dates separately, when the larva last fed, when a pupa became visible and when the adult molted. The captive-bred adult I later photographed establishes that this species can complete its development in culture. I did not establish which change allowed the successful brood to pass the stage where my earlier broods failed."
     }
   ],
   "facts": [
@@ -56,5 +52,27 @@
       "alt": "Black adult Dorcus brevis on soil-stained fingers against leaf litter.",
       "credit": "Alan Jeon"
     }
-  ]
+  ],
+  "distribution": {
+    "slug": "dorcus-brevis",
+    "kind": "regional",
+    "file": "map-dorcus-brevis.png",
+    "date": "2026-11-18",
+    "data_file": "map-data-dorcus-brevis.json",
+    "caption": "Paulsen examined specimens from twelve U.S. states. The map follows those specimen determinations.",
+    "alt": "Documented regions for Dorcus brevis: Alabama, Illinois, Indiana, Iowa, Maryland, Michigan, Nebraska, New York, Ohio, South Carolina, Tennessee, Virginia.",
+    "url": "https://doi.org/10.3897/zookeys.34.292",
+    "link_label": "Distribution source",
+    "data_label": "Mapped regions and sources",
+    "observations_url": "https://www.inaturalist.org/observations?quality_grade=research&captive=false&geo=true&place_id=97394&view=map&taxon_id=635155",
+    "live": {
+      "taxon_id": 635155,
+      "bounds": [
+        -104.03,
+        30.23,
+        -71.9,
+        48.3
+      ]
+    }
+  }
 }

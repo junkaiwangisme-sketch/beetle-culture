@@ -3,7 +3,7 @@
   "slug": "megasoma-vogti",
   "group": "dynastinae",
   "common": "Vogt’s elephant beetle",
-  "intro": "When I photographed my recently acquired Megasoma vogti larvae, they were still in their second instar. I was surprised they had not advanced further. I use that image as a record of a known larval stage, alongside the separately documented third instar of a beetle reared from a Texas female’s egg.",
+  "intro": "I received and photographed second-instar larvae. Their hatch dates were unknown.",
   "facts": [
     {
       "title": "Stage in my photograph",
@@ -20,12 +20,12 @@
   ],
   "sections": [
     {
-      "title": "Starting with larvae",
-      "text": "The grubs were already in their second instar when they came to me. I would put the arrival date and observed instar on the container together. Without a laying date it is easy to mistake the time a beetle has been in one’s care for its age. If a later molt is visible, that is a more useful point for comparing growth with a second brood. My photograph shows the larvae I had at that check."
+      "title": "Larvae",
+      "text": "Ratcliffe and Morón described and illustrated a third instar reared from an egg laid by a female collected in Live Oak County, Texas, in October 1989."
     },
     {
-      "title": "A Texas reference for the third instar",
-      "text": "Ratcliffe and Morón described a third-instar larva reared from an egg laid by a female collected in Live Oak County in October 1989. Their description and illustrations provide a reference for the next stage after the one in my photograph. In the field, adults have been recorded from July through October around mesquite, thorn shrubs and cacti. Both sexes have been observed at lights, on the ground and on mesquite branches. An adult on mesquite documents where it was found. I would want a larval feeding observation before treating that tree as a required rearing substrate."
+      "title": "Adults",
+      "text": "Field records extend from July through October in habitats with mesquite, thorn shrubs and cacti. Both sexes have been found at lights, on the ground and on mesquite branches. The larval food in these sites is undetermined."
     }
   ],
   "sources": [
@@ -58,5 +58,27 @@
       "credit": "Junkai Wang",
       "preferred": false
     }
-  ]
+  ],
+  "distribution": {
+    "slug": "megasoma-vogti",
+    "kind": "regional",
+    "file": "map-megasoma-vogti.png",
+    "date": "2026-11-18",
+    "data_file": "map-data-megasoma-vogti.json",
+    "caption": "The museum account places this scarab in Texas and Tamaulipas, Mexico. In Texas it occupies southern thornscrub.",
+    "alt": "Documented regions for Megasoma vogti: Tamaulipas, Texas.",
+    "url": "https://unsm-ento.unl.edu/Guide/Scarabaeoidea/Scarabaeidae/Dynastinae/Dynastinae-Tribes/Dynastini/Megasoma/Megasoma%20vogti/Mvogti.html",
+    "link_label": "Distribution source",
+    "data_label": "Mapped regions and sources",
+    "observations_url": "https://www.inaturalist.org/observations?quality_grade=research&captive=false&geo=true&place_id=97394&view=map&taxon_id=267027",
+    "live": {
+      "taxon_id": 267027,
+      "bounds": [
+        -106.67,
+        22.22,
+        -93.53,
+        36.5
+      ]
+    }
+  }
 }

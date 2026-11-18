@@ -3,7 +3,7 @@
   "slug": "callipogon-proletarius",
   "group": "cerambycidae",
   "common": "Puerto Rican longhorn beetle",
-  "intro": "This large Caribbean longhorn has long antennae and a broad head. I photographed an adult in January 2026 and recorded hatching later that month. My clearest result so far concerns the fungus used to rear the larvae. Two kinds of kinshi gave very different outcomes.",
+  "intro": "I photographed an adult in January 2026 and found hatchlings on January 30. I did not record the laying date.",
   "facts": [
     {
       "title": "Range",
@@ -24,16 +24,8 @@
   ],
   "sections": [
     {
-      "title": "Adults and hatching",
-      "text": "The January adult shows the heavy build of this longhorn clearly. On January 30 I photographed a small rearing cup when I found that the eggs had hatched. Those two dates show when I saw an adult and when I found young larvae. I did not record when each egg was laid, so I cannot give an incubation time for this group."
-    },
-    {
-      "title": "Choosing kinshi for feeding larvae",
-      "text": "I kept larvae on two kinds of kinshi, a substrate of wood colonized by a fungus. By early November the larvae in turkey-tail kinshi were growing well. Every larva I kept on oyster-mushroom kinshi had died. Most of my Stenodontes exsertus larvae were doing well in that same oyster batch, which is why I keep a separate substrate record for each longhorn species. For another group of C. proletarius, I would begin with turkey-tail kinshi."
-    },
-    {
-      "title": "What the trial established",
-      "text": "I followed this group from hatching into the feeding stage. My November check established which of the two substrates had supported growth up to that point. I still have no measured larval period, pupal duration or adult emergence rate from that comparison."
+      "title": "Larvae",
+      "text": "I reared larvae on two kinds of kinshi (fungus-colonized wood). By early November the larvae on turkey-tail kinshi were growing well. All those on oyster-mushroom kinshi had died, although most of my Stenodontes exsertus larvae on the same batch survived. I would start another group on turkey-tail kinshi. I followed this brood through the feeding stage."
     }
   ],
   "sources": [
@@ -76,5 +68,27 @@
       "alt": "A clear rearing cup viewed from below with several tiny pale marks against its dark substrate.",
       "preferred": false
     }
-  ]
+  ],
+  "distribution": {
+    "slug": "callipogon-proletarius",
+    "kind": "regional",
+    "file": "map-callipogon-proletarius.png",
+    "date": "2026-11-18",
+    "data_file": "map-data-callipogon-proletarius.json",
+    "caption": "Monné lists Puerto Rico and Martinique for the nominate form and Cuba for the subspecies shulzhenkoi.",
+    "alt": "Documented regions for Callipogon proletarius: Cuba, Martinique, Puerto Rico.",
+    "url": "https://cerambycids.com/catalog/Monne_Jun2024_NeotropicalCat_part_III.pdf",
+    "link_label": "Distribution source",
+    "data_label": "Mapped regions and sources",
+    "observations_url": "https://www.inaturalist.org/observations?quality_grade=research&captive=false&geo=true&place_id=97394&view=map&taxon_id=560868",
+    "live": {
+      "taxon_id": 560868,
+      "bounds": [
+        -84.89,
+        14.43,
+        -60.83,
+        23.19
+      ]
+    }
+  }
 }

@@ -20,15 +20,15 @@
   ],
   "sections": [
     {
-      "title": "Choosing the fungus",
+      "title": "Host fungi",
       "text": "I would favor a piece of host wood with a living bracket still attached. In their field study, Fornof and colleagues counted more egg-laying events on brackets with living growth. Large brackets drew more adult visits and courtship, but size alone did not predict where females laid. Give the beetles access to the underside as well as the upper surface. Adults commonly shelter under bark or in the fungus by day and come onto the surface after dark."
     },
     {
-      "title": "Recognizing a pair",
+      "title": "Adults",
       "text": "A male carries two forward-projecting horns on the segment behind the head, often with conspicuous yellow hairs underneath. A female has two low bumps there. During courtship the male climbs onto her facing the opposite way. This can last minutes to hours. A male can also remain with the female for several hours after mating, so a mounted pair seen on two successive checks could be the same encounter."
     },
     {
-      "title": "Following eggs through emergence",
+      "title": "Development",
       "text": "Look on the bracket itself for individual eggs covered with a dark secretion. I would mark the position on a photograph and leave the covering in place. A hatchling bores directly into the fungal tissue. Four larval instars were observed in laboratory rearings. Pupation also occurs inside the bracket. Keeping occupied brackets intact makes it possible to connect a later emergence with the eggs laid there. Some beetles reach adulthood by late summer. Many overwinter as larvae and appear the following summer, so I would retain a bracket through winter even after adults have disappeared from its surface."
     }
   ],
@@ -56,6 +56,39 @@
       "caption": "An adult forked fungus beetle.",
       "alt": "Rough brown Bolitotherus cornutus resting on the tip of a finger near a log.",
       "credit": "Alan Jeon"
+    },
+    {
+      "file": "bolitotherus-cornutus-inat-565526938.jpg",
+      "stage": "Adults",
+      "caption": "Forked fungus beetle viewed from above.",
+      "alt": "A small brown Bolitotherus cornutus with a rough back stands on two fingers.",
+      "credit": "Alan Jeon",
+      "width": 1024,
+      "height": 1024,
+      "url": "https://www.inaturalist.org/observations/313177985",
+      "photo_url": "https://www.inaturalist.org/photos/565526938"
     }
-  ]
+  ],
+  "distribution": {
+    "slug": "bolitotherus-cornutus",
+    "kind": "regional",
+    "file": "map-bolitotherus-cornutus.png",
+    "date": "2026-11-18",
+    "data_file": "map-data-bolitotherus-cornutus.json",
+    "caption": "The North American catalog records this fungus beetle in Canada and the United States.",
+    "alt": "Documented regions for Bolitotherus cornutus: Alberta, Connecticut, Florida, Georgia, Illinois, Indiana, Iowa, Kentucky, Louisiana, Maine, Manitoba, Maryland, Massachusetts, Michigan, Minnesota, Mississippi, Nebraska, New Brunswick, New Hampshire, New Jersey, New York, North Carolina, Nova Scotia, Ohio, Ontario, Pennsylvania, Prince Edward Island, Québec, Rhode Island, Saskatchewan, South Carolina, Tennessee, Texas, Vermont, Virginia, Wisconsin.",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5799738/",
+    "link_label": "Distribution source",
+    "data_label": "Mapped regions and sources",
+    "observations_url": "https://www.inaturalist.org/observations?quality_grade=research&captive=false&geo=true&place_id=97394&view=map&taxon_id=53814",
+    "live": {
+      "taxon_id": 53814,
+      "bounds": [
+        -120.0,
+        24.54,
+        -57.1,
+        62.57
+      ]
+    }
+  }
 }

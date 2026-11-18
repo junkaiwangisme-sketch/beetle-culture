@@ -20,15 +20,11 @@
   ],
   "sections": [
     {
-      "title": "Feeding and checking the colony",
-      "text": "I used dog food for both of my spider beetle species. With Gibbium I also considered trying oats and artificial pollen. The food I can recommend from my own breeding result is dog food. I would offer it in small pieces that I can lift and inspect, and keep the crumbs in the culture until I have checked them for tiny beetles. A close-fitting lid and fine ventilation are worthwhile with adults this small."
+      "title": "Colony",
+      "text": "I used dog food for both of my spider beetle species. With Gibbium I also considered trying oats and artificial pollen. The food I can recommend from my own breeding result is dog food. I would offer it in small pieces that I can lift and inspect, and keep the crumbs in the culture until I have checked them for tiny beetles. A close-fitting lid and fine ventilation are worthwhile with adults this small.\nBy my July 21 check I could see about 30 adults. The culture took roughly three times as long to get established as my Mezium affine. The adults seemed short-lived to me, although I could not tell whether a delay during the egg or larval stage accounted for the slow buildup. I use the two-year figure to describe the history of my colony. It does not represent the developmental time of an individual. I once thought I had lost the culture because I could hardly find adults during the day. A night check showed they were still active."
     },
     {
-      "title": "Allowing for a slow start",
-      "text": "By my July 21 check I could see about 30 adults. The culture took roughly three times as long to get established as my Mezium affine. The adults seemed short-lived to me, although I could not tell whether a delay during the egg or larval stage accounted for the slow buildup. I use the two-year figure to describe the history of my colony. It does not represent the developmental time of an individual. I once thought I had lost the culture because I could hardly find adults during the day. A night check showed they were still active."
-    },
-    {
-      "title": "Telling my two cultures apart",
+      "title": "Adults",
       "text": "I check the head and the narrow shield just behind it. Both are smooth in Gibbium, as are the shiny, swollen wing covers. In Mezium affine, the head and shield have conspicuous pale hairs. These are widespread spider beetles associated with stored materials and found in North America. I label each culture before moving food or beetles between containers."
     }
   ],
@@ -64,5 +60,27 @@
       "alt": "Round reddish-brown Gibbium adults walk among the pieces of dry food in a clear culture cup.",
       "preferred": true
     }
-  ]
+  ],
+  "distribution": {
+    "slug": "gibbium-aequinoctiale",
+    "kind": "regional",
+    "file": "map-gibbium-aequinoctiale.png",
+    "date": "2026-11-18",
+    "data_file": "map-data-gibbium-aequinoctiale.json",
+    "caption": "North American photo and specimen records include the eastern United States, Texas and Ontario. Indoor records can reflect transport in stored materials.",
+    "alt": "Documented regions for Gibbium aequinoctiale: Connecticut, Illinois, Missouri, New Hampshire, New York, Ohio, Ontario, Pennsylvania, Texas, Wisconsin.",
+    "url": "https://bugguide.net/node/view/55820/data",
+    "link_label": "Distribution source",
+    "data_label": "Mapped regions and sources",
+    "observations_url": "https://www.inaturalist.org/observations?quality_grade=research&captive=false&geo=true&place_id=97394&view=map&taxon_id=220380",
+    "live": {
+      "taxon_id": 220380,
+      "bounds": [
+        -106.67,
+        25.87,
+        -70.73,
+        56.85
+      ]
+    }
+  }
 }

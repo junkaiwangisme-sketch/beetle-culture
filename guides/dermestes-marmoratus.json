@@ -20,15 +20,11 @@
   ],
   "sections": [
     {
-      "title": "Starting a colony",
-      "text": "I would begin with a small amount of dry animal material and leave the group together. The food history of this species gives me a better starting point than a fruit or jelly feeder. Its published records include carrion and accumulations of dead insects. I would supply a separate piece of dry material to lift when I check the box so I can find young larvae without disturbing the whole group."
+      "title": "Colony",
+      "text": "I would begin with a small amount of dry animal material and leave the group together. The food history of this species gives me a better starting point than a fruit or jelly feeder. Its published records include carrion and accumulations of dead insects. I would supply a separate piece of dry material to lift when I check the box so I can find young larvae without disturbing the whole group.\nMy first breeding result came while the group was still in temporary housing. For that reason I check the food, loose debris and sheltered edges before moving the adults into a permanent setup. Small larvae can remain behind when the conspicuous adults have all been transferred. I keep this colony separate from the dry insects in my specimen collection."
     },
     {
-      "title": "Checking the holding box",
-      "text": "My first breeding result came while the group was still in temporary housing. For that reason I check the food, loose debris and sheltered edges before moving the adults into a permanent setup. Small larvae can remain behind when the conspicuous adults have all been transferred. I keep this colony separate from the dry insects in my specimen collection."
-    },
-    {
-      "title": "Recognizing the adults",
+      "title": "Adults",
       "text": "Under good light I look for a marbled pattern of dark and pale hairs on the wing covers. A paler band extends inward from behind each shoulder. Several North American Dermestes are mottled, so I use the identification key when starting with new field material. The September photograph shows the appearance of my own adult."
     }
   ],
@@ -68,5 +64,27 @@
       "alt": "A clear rearing cup holding folded white paper, a dark layer at the bottom and small beetles.",
       "preferred": false
     }
-  ]
+  ],
+  "distribution": {
+    "slug": "dermestes-marmoratus",
+    "kind": "regional",
+    "file": "map-dermestes-marmoratus.png",
+    "date": "2026-11-18",
+    "data_file": "map-data-dermestes-marmoratus.json",
+    "caption": "Biggs and colleagues report records in Canada and the United States, including the western interior, the Gulf states and New Brunswick.",
+    "alt": "Documented regions for Dermestes marmoratus: Alabama, Alberta, British Columbia, California, Colorado, Idaho, Kansas, Manitoba, Mississippi, Montana, Nevada, New Brunswick, New Mexico, North Dakota, Oklahoma, Oregon, Saskatchewan, South Dakota, Texas, Utah, Washington, Wyoming.",
+    "url": "https://doi.org/10.3752/cjai.2022.46",
+    "link_label": "Distribution source",
+    "data_label": "Mapped regions and sources",
+    "observations_url": "https://www.inaturalist.org/observations?quality_grade=research&captive=false&geo=true&place_id=97394&view=map&taxon_id=82465",
+    "live": {
+      "taxon_id": 82465,
+      "bounds": [
+        -139.06,
+        25.87,
+        -63.83,
+        60.0
+      ]
+    }
+  }
 }

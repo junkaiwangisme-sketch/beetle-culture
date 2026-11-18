@@ -20,15 +20,15 @@
   ],
   "sections": [
     {
-      "title": "Choosing adults and setting the pair",
+      "title": "Adults",
       "text": "Look for the contrasting pale and dark areas on the femora, the long segment of each leg nearest the body. These patches distinguish the adults from the similar smooth stag beetle, which has uniformly dark femora. I often see fungal growth on wild reddish-brown stags, so I look over the body and legs when choosing a pair. I offer beetle jelly every five days once adults are active, with apple or banana as alternatives. A piece of bark gives them a place to grip at the feeding site.\nThis was the first stag beetle I kept. I have found adults beneath streetlights in Alabama and have observed a pair mating. In my own laying boxes this species has accepted my usual flake soil."
     },
     {
-      "title": "Laying substrate and recovering grubs",
+      "title": "Eggs and larvae",
       "text": "I use aged hardwood sawdust for this species. For a laying box, I recommend less-fermented hardwood flake soil with pieces of decaying hardwood set into it. My flake mix contains sawdust, flour, yeast and a little oatmeal, and I stir the batch over one to two months as it ferments. I prepare the larval containers before taking down the breeding box. Lift each piece of wood over the box, then work through the surrounding material a little at a time so that tiny grubs are easy to see. Give growing larvae a fresh supply of woody substrate as they convert their food into fecal pellets."
     },
     {
-      "title": "Pupation and the adult molt",
+      "title": "Pupation",
       "text": "Before replacing substrate for a mature grub, look for a cell along the wall or bottom of the container. Leave the chamber intact and wait for the beetle to emerge and become active. I had adults emerging in September. In a later group some newly emerged beetles had abnormal abdomens. I could not establish a cause. I keep that observation separate from the fungal growth I have seen on wild adults."
     }
   ],
@@ -121,5 +121,16 @@
       "credit": "@alan69.",
       "stage": "Adults"
     }
-  ]
+  ],
+  "distribution": {
+    "slug": "lucanus-capreolus",
+    "file": "map-lucanus-capreolus.png",
+    "count": 21337,
+    "raw_count": 21338,
+    "excluded_count": 1,
+    "date": "2026-11-18",
+    "url": "https://www.inaturalist.org/observations?place_id=97394&quality_grade=research&captive=false&geo=true&taxon_id=60812&view=map",
+    "caption": "21,337 of 21,338 wild, research-grade iNaturalist observations in North America are plotted at their public coordinates. The geographic review excluded 1 remote report.",
+    "data_file": "map-data-lucanus-capreolus.json"
+  }
 }

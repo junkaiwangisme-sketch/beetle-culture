@@ -3,7 +3,7 @@
   "slug": "chalcolepidius-smaragdinus",
   "common": "Emerald metallic click beetle",
   "group": "elateridae",
-  "intro": "I kept an adult female Chalcolepidius smaragdinus in August 2021. The first decisions were simple ones: enough ventilation, a moist floor, and pieces of bark that a long-bodied adult could use to get back on her feet.",
+  "intro": "I kept a female in August 2021. Its metallic color comes from scale-like hairs, and both color and striping vary among adults.",
   "account_credit": "Adult care by Junkai Wang",
   "facts": [
     {
@@ -21,16 +21,8 @@
   ],
   "sections": [
     {
-      "title": "My holding enclosure",
-      "text": "I used a one-gallon tub, about 3.8 liters, with good ventilation and roughly 1.3 inches (3.3 cm) of moist coconut fiber. I laid bark flats on the surface. My C. lenzi female had the same arrangement in a separate tub. Bark with an accessible underside would let me check for eggs without having to sift all the coir."
-    },
-    {
-      "title": "Planning a laying trial",
-      "text": "My account for this female ends at adult housing. For another attempt, I would offer both pieces of bark and folded paper towel. In our Chalcolepidius webbi culture, both materials received eggs. I would mark the date when I first saw eggs and the date the young actually hatched. The approximately one-year rearing period we recorded for webbi is a comparison for keeping those records, not a measured duration for smaragdinus."
-    },
-    {
-      "title": "Recognizing southwestern material",
-      "text": "Casari recorded this species from Arizona, New Mexico and Sonora. The museum type series includes an Arizona specimen from the Gila Valley. The beetle’s metallic appearance comes from scale-like hairs. I would keep a close dorsal photograph with the locality when documenting new material, because both the color and stripes vary among adults."
+      "title": "Adults",
+      "text": "I housed the female in a ventilated one-gallon tub (3.8 L) with 1.3 inches (3.3 cm) of moist coconut fiber and flat bark for cover. I did not record eggs from this female. For a laying trial I would offer bark and folded paper towel, the two surfaces on which our Chalcolepidius webbi laid eggs."
     }
   ],
   "sources": [
@@ -56,5 +48,52 @@
     "chalcolepidius-webbi"
   ],
   "primary_url": "https://beetleforum.net/threads/chalcolepidius-breeding.5507/",
-  "gallery": []
+  "gallery": [
+    {
+      "file": "chalcolepidius-smaragdinus-sap-wang.jpg",
+      "stage": "Adults",
+      "caption": "Chalcolepidius cf. smaragdinus feeding at a sap flow, August 2, 2025. The species identification is provisional.",
+      "alt": "A metallic green click beetle with violet-blue legs feeding on exposed sap.",
+      "credit": "Junkai Wang",
+      "url": "https://www.facebook.com/photo.php?fbid=1963171441106471",
+      "preferred": true,
+      "width": 1440,
+      "height": 1373
+    }
+  ],
+  "native_status": {
+    "text": "Casari recorded this species in Arizona, New Mexico and Sonora, Mexico. The type series includes a specimen from the Gila Valley, Arizona.",
+    "sources": [
+      {
+        "title": "Casari (2002), revision of Chalcolepidius",
+        "url": "https://doi.org/10.1590/S0085-56262002000300007"
+      },
+      {
+        "title": "Museum of Comparative Zoology, Arizona specimen",
+        "url": "https://mczbase.mcz.harvard.edu/guid/MCZ%3AEnt%3A2382"
+      }
+    ]
+  },
+  "distribution": {
+    "slug": "chalcolepidius-smaragdinus",
+    "kind": "regional",
+    "file": "map-chalcolepidius-smaragdinus.png",
+    "date": "2026-11-18",
+    "data_file": "map-data-chalcolepidius-smaragdinus.json",
+    "caption": "Casari records Arizona and New Mexico in the United States and Sonora in Mexico.",
+    "alt": "Documented regions for Chalcolepidius smaragdinus: Arizona, New Mexico, Sonora.",
+    "url": "https://doi.org/10.1590/S0085-56262002000300007",
+    "link_label": "Distribution source",
+    "data_label": "Mapped regions and sources",
+    "observations_url": "https://www.inaturalist.org/observations?quality_grade=research&captive=false&geo=true&place_id=97394&view=map&taxon_id=625240",
+    "live": {
+      "taxon_id": 625240,
+      "bounds": [
+        -115.04,
+        26.24,
+        -103.0,
+        37.0
+      ]
+    }
+  }
 }

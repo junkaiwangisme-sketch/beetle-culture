@@ -24,15 +24,15 @@
   ],
   "sections": [
     {
-      "title": "Where to look for the eggs",
+      "title": "Eggs",
       "text": "In my culture, C. webbi females laid on pieces of bark or on paper towel. These were the first surfaces I checked for eggs. The Alaus I was rearing alongside them laid into the substrate. Looking for the eggs in the right place mattered because the young larvae were so small that they became difficult to recover once dispersed."
     },
     {
-      "title": "Separating young larvae",
+      "title": "Larvae",
       "text": "The first two instars of the click beetles I raised were about the size of springtails, and cannibalism was common. I separated the larvae early, despite the work involved in finding and moving them. When recording a brood I distinguish the number of larvae I recover from the number of eggs a female may have laid."
     },
     {
-      "title": "Adult emergence and markings",
+      "title": "Adults",
       "text": "I photographed a developing beetle in its rearing cup in May 2023. By June I could show four adults together, with the white bands standing out clearly against the green. The interval from egg to maturity in my culture was about a year. Published specimens show variation in the width of the pale markings. Some have white scales over much of the pronotum or wing covers."
     }
   ],
@@ -77,5 +77,27 @@
       "alt": "A pale developing Chalcolepidius webbi visible in the upper edge of a substrate-filled clear cup.",
       "preferred": false
     }
-  ]
+  ],
+  "distribution": {
+    "slug": "chalcolepidius-webbi",
+    "kind": "regional",
+    "file": "map-chalcolepidius-webbi.png",
+    "date": "2026-11-18",
+    "data_file": "map-data-chalcolepidius-webbi.json",
+    "caption": "Casari lists California, Arizona and New Mexico, together with Sonora and Durango in Mexico.",
+    "alt": "Documented regions for Chalcolepidius webbi: Arizona, California, Durango, New Mexico, Sonora.",
+    "url": "https://doi.org/10.1590/S0085-56262002000300007",
+    "link_label": "Distribution source",
+    "data_label": "Mapped regions and sources",
+    "observations_url": "https://www.inaturalist.org/observations?quality_grade=research&captive=false&geo=true&place_id=97394&view=map&taxon_id=183001",
+    "live": {
+      "taxon_id": 183001,
+      "bounds": [
+        -124.37,
+        22.32,
+        -102.49,
+        42.0
+      ]
+    }
+  }
 }

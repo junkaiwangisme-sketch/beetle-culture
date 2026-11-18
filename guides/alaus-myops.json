@@ -21,16 +21,12 @@
   ],
   "sections": [
     {
-      "title": "Recognizing the adult",
+      "title": "Adults",
       "text": "I look at the shield just behind the head. Each dark eyespot on A. myops measures less than a quarter of the shield’s length. Gray scales cover more than half the brown upper surface, giving the beetle the mottled appearance in my adult photograph. The familiar eastern eyed click beetle, A. oculatus, has larger spots, each about a third of the shield’s length, and sparse white scales over black."
     },
     {
-      "title": "What the young larvae hunt",
-      "text": "In pines that had died within the year, Savely found larvae up to about 10–15 mm long. He saw them take the longhorn Acanthocinus obsoletus, the fire-colored beetle Dendroides bicolor and other small larvae. For a young click beetle I would use a piece of pine with some bark still attached and offer small prey where the wood meets the bark. I would house it individually so I could tell what it had eaten."
-    },
-    {
-      "title": "Following a larva through the galleries",
-      "text": "Savely found larvae as long as 30 mm in second-year pine alongside larvae of 10 mm or less, suggesting females can lay eggs in a log after its first year. In third-year pine he still found them under bark and in tunnels made by longhorns and the darkling beetle Xylopinus rufipes. I would keep an occupied piece intact when adding fresh material, especially if the larva disappears from view in autumn. For a reared animal, I would record its hatch, pupation and emergence dates separately. Savely knew how long each tree had been dead, while the age of an individual beetle inside it could vary."
+      "title": "Larvae",
+      "text": "In pines that had died within the year, Savely found larvae up to about 10–15 mm long. He saw them take the longhorn Acanthocinus obsoletus, the fire-colored beetle Dendroides bicolor and other small larvae. For a young click beetle I would use a piece of pine with some bark still attached and offer small prey where the wood meets the bark. I would house it individually so I could tell what it had eaten.\nSavely found larvae as long as 30 mm in second-year pine alongside larvae of 10 mm or less, suggesting females can lay eggs in a log after its first year. In third-year pine he still found them under bark and in tunnels made by longhorns and the darkling beetle Xylopinus rufipes. I would keep an occupied piece intact when adding fresh material, especially if the larva disappears from view in autumn. For a reared animal, I would record its hatch, pupation and emergence dates separately. Savely knew how long each tree had been dead, while the age of an individual beetle inside it could vary."
     }
   ],
   "sources": [
@@ -62,6 +58,39 @@
       "caption": "Adult on a fingertip.",
       "alt": "Elongated gray speckled Alaus myops seen from above on a finger.",
       "credit": "Alan Jeon"
+    },
+    {
+      "file": "alaus-myops-inat-452597544.jpg",
+      "stage": "Adults",
+      "caption": "Dorsal view of the same adult.",
+      "alt": "Alaus myops resting on a hand, with its pronotum and mottled wing covers visible from above.",
+      "credit": "Alan Jeon",
+      "width": 1024,
+      "height": 1024,
+      "url": "https://www.inaturalist.org/observations/252808697",
+      "photo_url": "https://www.inaturalist.org/photos/452597544"
     }
-  ]
+  ],
+  "distribution": {
+    "slug": "alaus-myops",
+    "kind": "regional",
+    "file": "map-alaus-myops.png",
+    "date": "2026-11-18",
+    "data_file": "map-data-alaus-myops.json",
+    "caption": "Woodruff reports the species primarily in the southeastern United States, with northern records reaching New York, southern Manitoba and the Montréal area.",
+    "alt": "Documented regions for Alaus myops: Florida, Georgia, Indiana, Manitoba, New York, Québec.",
+    "url": "https://edis.ifas.ufl.edu/publication/IN242/pdf",
+    "link_label": "Distribution source",
+    "data_label": "Mapped regions and sources",
+    "observations_url": "https://www.inaturalist.org/observations?quality_grade=research&captive=false&geo=true&place_id=97394&view=map&taxon_id=212921",
+    "live": {
+      "taxon_id": 212921,
+      "bounds": [
+        -102.0,
+        24.54,
+        -57.1,
+        62.57
+      ]
+    }
+  }
 }

@@ -20,15 +20,15 @@
   ],
   "sections": [
     {
-      "title": "Starting a breeding group",
+      "title": "Adults",
       "text": "Both sexes come to lights in southern Arizona. Adults have also been observed on catclaw branches and trunks in desert scrub. The beetles I photographed were a group I found on the same evening. When keeping several females together, I record the eggs as a group count. The 30-plus eggs from my enclosure came from females that were still laying, so that count represents neither a finished brood nor the output of an individual female."
     },
     {
-      "title": "Separating the eggs",
+      "title": "Eggs",
       "text": "During an egg check I saw mites on some of the eggs. I separated all the eggs and planned to wash the affected ones and use fresh substrate. Separating them let me track the condition of each egg while leaving the females free to lay more. When describing that trial, I count the eggs I recovered separately from the larvae that eventually hatch. My update was written at the egg stage, before I knew the outcome of the affected eggs."
     },
     {
-      "title": "Following the grubs",
+      "title": "Larvae",
       "text": "Ratcliffe and Morón described two third-instar larvae reared from eggs laid by a female collected in Santa Cruz County, Arizona, in August 1997. The grubs were preserved in late August the following year. That gives a dated example of larvae still at the third instar about a year after the mother was collected. It is a useful reference when a brood spends a long time below the surface. Their study used the spelling punctulatus."
     }
   ],
@@ -72,6 +72,39 @@
       "caption": "Two adults photographed together.",
       "alt": "Two dark Megasoma punctulatum on an open hand.",
       "credit": "Alan Jeon"
+    },
+    {
+      "file": "megasoma-punctulatum-inat-550356459.jpg",
+      "stage": "Adults",
+      "caption": "Lateral view of an adult.",
+      "alt": "A dark Megasoma punctulatum held between two fingers, showing its arched side profile.",
+      "credit": "Alan Jeon",
+      "width": 1024,
+      "height": 1024,
+      "url": "https://www.inaturalist.org/observations/305250088",
+      "photo_url": "https://www.inaturalist.org/photos/550356459"
     }
-  ]
+  ],
+  "distribution": {
+    "slug": "megasoma-punctulatum",
+    "kind": "regional",
+    "file": "map-megasoma-punctulatum.png",
+    "date": "2026-11-18",
+    "data_file": "map-data-megasoma-punctulatum.json",
+    "caption": "The University of Nebraska State Museum lists Arizona for this species.",
+    "alt": "Documented regions for Megasoma punctulatum: Arizona.",
+    "url": "https://unsm-ento.unl.edu/Guide/Scarabaeoidea/Scarabaeidae/Dynastinae/Dynastinae-Tribes/Dynastini/Megasoma/Megasoma%20punctulatus/Mpunctulatus.html",
+    "link_label": "Distribution source",
+    "data_label": "Mapped regions and sources",
+    "observations_url": "https://www.inaturalist.org/observations?quality_grade=research&captive=false&geo=true&place_id=97394&view=map&taxon_id=503454",
+    "live": {
+      "taxon_id": 503454,
+      "bounds": [
+        -116.84,
+        31.32,
+        -107.05,
+        37.0
+      ]
+    }
+  }
 }
