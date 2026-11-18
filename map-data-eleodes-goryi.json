@@ -1,0 +1,47 @@
+{
+  "scientific_name": "Eleodes goryi",
+  "map_type": "Reported administrative regions",
+  "date_compiled": "2026-11-18",
+  "coverage": "Selected North American jurisdictions in the cited sources. The extent of suitable habitat, geographic continuity, abundance and establishment status are not represented.",
+  "caption": "Bousquet and colleagues list New Mexico and Texas, and the Mexican states of Puebla, Tamaulipas and Veracruz.",
+  "sources": [
+    {
+      "title": "Bousquet et al. (2018), Catalogue of Tenebrionidae of North America",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5799738/",
+      "regions": [
+        {
+          "code": "US-NM",
+          "name": "New Mexico"
+        },
+        {
+          "code": "US-TX",
+          "name": "Texas"
+        },
+        {
+          "code": "MX-PU",
+          "name": "Puebla"
+        },
+        {
+          "code": "MX-TM",
+          "name": "Tamaulipas"
+        },
+        {
+          "code": "MX-VE",
+          "name": "Veracruz"
+        }
+      ]
+    }
+  ],
+  "current_observation_map": "https://www.inaturalist.org/observations?place_id=97394&quality_grade=research&captive=false&geo=true&view=map&taxon_id=334271",
+  "projection": "Albers equal-area conic (standard parallels 20°N and 50°N, central meridian -101.289°).",
+  "boundary_sources": [
+    {
+      "title": "Natural Earth, 1:50m cultural vectors",
+      "url": "https://www.naturalearthdata.com/downloads/50m-cultural-vectors/"
+    },
+    {
+      "title": "Mexico boundaries from Highsoft map collection, based on Natural Earth",
+      "url": "https://code.highcharts.com/mapdata/countries/mx/mx-all.topo.json"
+    }
+  ]
+}

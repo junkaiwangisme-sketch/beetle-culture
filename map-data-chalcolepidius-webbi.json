@@ -1,0 +1,47 @@
+{
+  "scientific_name": "Chalcolepidius webbi",
+  "map_type": "Reported administrative regions",
+  "date_compiled": "2026-11-18",
+  "coverage": "Selected North American jurisdictions in the cited sources. The extent of suitable habitat, geographic continuity, abundance and establishment status are not represented.",
+  "caption": "Casari lists California, Arizona and New Mexico, together with Sonora and Durango in Mexico.",
+  "sources": [
+    {
+      "title": "Casari (2002), revision of Chalcolepidius",
+      "url": "https://doi.org/10.1590/S0085-56262002000300007",
+      "regions": [
+        {
+          "code": "US-CA",
+          "name": "California"
+        },
+        {
+          "code": "US-AZ",
+          "name": "Arizona"
+        },
+        {
+          "code": "US-NM",
+          "name": "New Mexico"
+        },
+        {
+          "code": "MX-SO",
+          "name": "Sonora"
+        },
+        {
+          "code": "MX-DG",
+          "name": "Durango"
+        }
+      ]
+    }
+  ],
+  "current_observation_map": "https://www.inaturalist.org/observations?place_id=97394&quality_grade=research&captive=false&geo=true&view=map&taxon_id=183001",
+  "projection": "Albers equal-area conic (standard parallels 20°N and 50°N, central meridian -113.430°).",
+  "boundary_sources": [
+    {
+      "title": "Natural Earth, 1:50m cultural vectors",
+      "url": "https://www.naturalearthdata.com/downloads/50m-cultural-vectors/"
+    },
+    {
+      "title": "Mexico boundaries from Highsoft map collection, based on Natural Earth",
+      "url": "https://code.highcharts.com/mapdata/countries/mx/mx-all.topo.json"
+    }
+  ]
+}

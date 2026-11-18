@@ -1,0 +1,115 @@
+{
+  "scientific_name": "Dermestes marmoratus",
+  "map_type": "Reported administrative regions",
+  "date_compiled": "2026-11-18",
+  "coverage": "Selected North American jurisdictions in the cited sources. The extent of suitable habitat, geographic continuity, abundance and establishment status are not represented.",
+  "caption": "Biggs and colleagues report records in Canada and the United States, including the western interior, the Gulf states and New Brunswick.",
+  "sources": [
+    {
+      "title": "Biggs, Herrmann and Cognato (2022), North American Dermestidae",
+      "url": "https://doi.org/10.3752/cjai.2022.46",
+      "regions": [
+        {
+          "code": "CA-AB",
+          "name": "Alberta"
+        },
+        {
+          "code": "US-AL",
+          "name": "Alabama"
+        },
+        {
+          "code": "CA-BC",
+          "name": "British Columbia"
+        },
+        {
+          "code": "US-CA",
+          "name": "California"
+        },
+        {
+          "code": "US-CO",
+          "name": "Colorado"
+        },
+        {
+          "code": "US-ID",
+          "name": "Idaho"
+        },
+        {
+          "code": "US-KS",
+          "name": "Kansas"
+        },
+        {
+          "code": "CA-MB",
+          "name": "Manitoba"
+        },
+        {
+          "code": "US-MS",
+          "name": "Mississippi"
+        },
+        {
+          "code": "US-MT",
+          "name": "Montana"
+        },
+        {
+          "code": "CA-NB",
+          "name": "New Brunswick"
+        },
+        {
+          "code": "US-ND",
+          "name": "North Dakota"
+        },
+        {
+          "code": "US-NM",
+          "name": "New Mexico"
+        },
+        {
+          "code": "US-NV",
+          "name": "Nevada"
+        },
+        {
+          "code": "US-OK",
+          "name": "Oklahoma"
+        },
+        {
+          "code": "US-OR",
+          "name": "Oregon"
+        },
+        {
+          "code": "US-SD",
+          "name": "South Dakota"
+        },
+        {
+          "code": "CA-SK",
+          "name": "Saskatchewan"
+        },
+        {
+          "code": "US-TX",
+          "name": "Texas"
+        },
+        {
+          "code": "US-UT",
+          "name": "Utah"
+        },
+        {
+          "code": "US-WA",
+          "name": "Washington"
+        },
+        {
+          "code": "US-WY",
+          "name": "Wyoming"
+        }
+      ]
+    }
+  ],
+  "current_observation_map": "https://www.inaturalist.org/observations?place_id=97394&quality_grade=research&captive=false&geo=true&view=map&taxon_name=Dermestes%20marmoratus",
+  "projection": "Albers equal-area conic (standard parallels 20°N and 50°N, central meridian -101.444°).",
+  "boundary_sources": [
+    {
+      "title": "Natural Earth, 1:50m cultural vectors",
+      "url": "https://www.naturalearthdata.com/downloads/50m-cultural-vectors/"
+    },
+    {
+      "title": "Mexico boundaries from Highsoft map collection, based on Natural Earth",
+      "url": "https://code.highcharts.com/mapdata/countries/mx/mx-all.topo.json"
+    }
+  ]
+}

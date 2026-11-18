@@ -1,0 +1,39 @@
+{
+  "scientific_name": "Stenodontes exsertus",
+  "map_type": "Reported administrative regions",
+  "date_compiled": "2026-11-18",
+  "coverage": "Selected North American jurisdictions in the cited sources. The extent of suitable habitat, geographic continuity, abundance and establishment status are not represented.",
+  "caption": "Monné records the species on Hispaniola and Puerto Rico. The two countries on Hispaniola are shaded together to identify the island.",
+  "sources": [
+    {
+      "title": "Monné (2024), Neotropical Cerambycidae catalog, Part III",
+      "url": "https://cerambycids.com/catalog/Monne_Jun2024_NeotropicalCat_part_III.pdf",
+      "regions": [
+        {
+          "code": "HT",
+          "name": "Haiti"
+        },
+        {
+          "code": "DO",
+          "name": "Dominican Republic"
+        },
+        {
+          "code": "PR",
+          "name": "Puerto Rico"
+        }
+      ]
+    }
+  ],
+  "current_observation_map": "https://www.inaturalist.org/observations?place_id=97394&quality_grade=research&captive=false&geo=true&view=map&taxon_id=491452",
+  "projection": "Albers equal-area conic (standard parallels 20°N and 50°N, central meridian -69.886°).",
+  "boundary_sources": [
+    {
+      "title": "Natural Earth, 1:50m cultural vectors",
+      "url": "https://www.naturalearthdata.com/downloads/50m-cultural-vectors/"
+    },
+    {
+      "title": "Mexico boundaries from Highsoft map collection, based on Natural Earth",
+      "url": "https://code.highcharts.com/mapdata/countries/mx/mx-all.topo.json"
+    }
+  ]
+}

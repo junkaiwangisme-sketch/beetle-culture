@@ -1,0 +1,127 @@
+{
+  "scientific_name": "Eleodes hispilabris",
+  "map_type": "Reported administrative regions",
+  "date_compiled": "2026-11-18",
+  "coverage": "Selected North American jurisdictions in the cited sources. The extent of suitable habitat, geographic continuity, abundance and establishment status are not represented.",
+  "caption": "Published records span the Canadian prairies, the western and central United States, and northern Mexico.",
+  "sources": [
+    {
+      "title": "Bousquet et al. (2018), Catalogue of Tenebrionidae of North America",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5799738/",
+      "regions": [
+        {
+          "code": "CA-AB",
+          "name": "Alberta"
+        },
+        {
+          "code": "CA-MB",
+          "name": "Manitoba"
+        },
+        {
+          "code": "CA-SK",
+          "name": "Saskatchewan"
+        },
+        {
+          "code": "US-AZ",
+          "name": "Arizona"
+        },
+        {
+          "code": "US-CA",
+          "name": "California"
+        },
+        {
+          "code": "US-CO",
+          "name": "Colorado"
+        },
+        {
+          "code": "US-ID",
+          "name": "Idaho"
+        },
+        {
+          "code": "US-KS",
+          "name": "Kansas"
+        },
+        {
+          "code": "US-MT",
+          "name": "Montana"
+        },
+        {
+          "code": "US-ND",
+          "name": "North Dakota"
+        },
+        {
+          "code": "US-NE",
+          "name": "Nebraska"
+        },
+        {
+          "code": "US-NM",
+          "name": "New Mexico"
+        },
+        {
+          "code": "US-NV",
+          "name": "Nevada"
+        },
+        {
+          "code": "US-OK",
+          "name": "Oklahoma"
+        },
+        {
+          "code": "US-OR",
+          "name": "Oregon"
+        },
+        {
+          "code": "US-SD",
+          "name": "South Dakota"
+        },
+        {
+          "code": "US-TX",
+          "name": "Texas"
+        },
+        {
+          "code": "US-UT",
+          "name": "Utah"
+        },
+        {
+          "code": "US-WA",
+          "name": "Washington"
+        },
+        {
+          "code": "US-WY",
+          "name": "Wyoming"
+        },
+        {
+          "code": "MX-CH",
+          "name": "Chihuahua"
+        },
+        {
+          "code": "MX-CO",
+          "name": "Coahuila"
+        },
+        {
+          "code": "MX-NL",
+          "name": "Nuevo León"
+        },
+        {
+          "code": "MX-SO",
+          "name": "Sonora"
+        },
+        {
+          "code": "MX-TM",
+          "name": "Tamaulipas"
+        }
+      ]
+    }
+  ],
+  "current_observation_map": "https://www.inaturalist.org/observations?place_id=97394&quality_grade=research&captive=false&geo=true&view=map&taxon_id=218969",
+  "projection": "Albers equal-area conic (standard parallels 20°N and 50°N, central meridian -106.829°).",
+  "boundary_sources": [
+    {
+      "title": "Natural Earth, 1:50m cultural vectors",
+      "url": "https://www.naturalearthdata.com/downloads/50m-cultural-vectors/"
+    },
+    {
+      "title": "Mexico boundaries from Highsoft map collection, based on Natural Earth",
+      "url": "https://code.highcharts.com/mapdata/countries/mx/mx-all.topo.json"
+    }
+  ]
+}

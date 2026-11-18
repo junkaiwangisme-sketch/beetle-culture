@@ -1,0 +1,279 @@
+{
+  "scientific_name": "Phileurus valgus",
+  "map_type": "Reported administrative regions",
+  "date_compiled": "2026-11-18",
+  "coverage": "Selected North American jurisdictions in the cited sources. The extent of suitable habitat, geographic continuity, abundance and establishment status are not represented.",
+  "caption": "The species ranges from the United States through Mexico, Central America and the Caribbean into South America. The map shows selected North American records.",
+  "sources": [
+    {
+      "title": "BugGuide photo records",
+      "url": "https://www.bugguide.net/node/view/11453/data",
+      "regions": [
+        {
+          "code": "US-AL",
+          "name": "Alabama"
+        },
+        {
+          "code": "US-AR",
+          "name": "Arkansas"
+        },
+        {
+          "code": "US-FL",
+          "name": "Florida"
+        },
+        {
+          "code": "US-GA",
+          "name": "Georgia"
+        },
+        {
+          "code": "US-IL",
+          "name": "Illinois"
+        },
+        {
+          "code": "US-KS",
+          "name": "Kansas"
+        },
+        {
+          "code": "US-KY",
+          "name": "Kentucky"
+        },
+        {
+          "code": "US-LA",
+          "name": "Louisiana"
+        },
+        {
+          "code": "US-MD",
+          "name": "Maryland"
+        },
+        {
+          "code": "US-MS",
+          "name": "Mississippi"
+        },
+        {
+          "code": "US-MO",
+          "name": "Missouri"
+        },
+        {
+          "code": "US-NE",
+          "name": "Nebraska"
+        },
+        {
+          "code": "US-NC",
+          "name": "North Carolina"
+        },
+        {
+          "code": "US-OK",
+          "name": "Oklahoma"
+        },
+        {
+          "code": "US-SC",
+          "name": "South Carolina"
+        },
+        {
+          "code": "US-TN",
+          "name": "Tennessee"
+        },
+        {
+          "code": "US-TX",
+          "name": "Texas"
+        },
+        {
+          "code": "US-VA",
+          "name": "Virginia"
+        }
+      ]
+    },
+    {
+      "title": "Revista Mexicana de Biodiversidad (2021), dynastine distribution by Mexican state",
+      "url": "https://rev-mex-biodivers.mx/2021/02/02/los-escarabajos-dynastinae/",
+      "regions": [
+        {
+          "code": "MX-CS",
+          "name": "Chiapas"
+        },
+        {
+          "code": "MX-DF",
+          "name": "Mexico City"
+        },
+        {
+          "code": "MX-DG",
+          "name": "Durango"
+        },
+        {
+          "code": "MX-GR",
+          "name": "Guerrero"
+        },
+        {
+          "code": "MX-HG",
+          "name": "Hidalgo"
+        },
+        {
+          "code": "MX-JA",
+          "name": "Jalisco"
+        },
+        {
+          "code": "MX-MI",
+          "name": "Michoacán"
+        },
+        {
+          "code": "MX-MO",
+          "name": "Morelos"
+        },
+        {
+          "code": "MX-NA",
+          "name": "Nayarit"
+        },
+        {
+          "code": "MX-NL",
+          "name": "Nuevo León"
+        },
+        {
+          "code": "MX-OA",
+          "name": "Oaxaca"
+        },
+        {
+          "code": "MX-PU",
+          "name": "Puebla"
+        },
+        {
+          "code": "MX-QT",
+          "name": "Querétaro"
+        },
+        {
+          "code": "MX-QR",
+          "name": "Quintana Roo"
+        },
+        {
+          "code": "MX-SI",
+          "name": "Sinaloa"
+        },
+        {
+          "code": "MX-SO",
+          "name": "Sonora"
+        },
+        {
+          "code": "MX-TB",
+          "name": "Tabasco"
+        },
+        {
+          "code": "MX-TM",
+          "name": "Tamaulipas"
+        },
+        {
+          "code": "MX-VE",
+          "name": "Veracruz"
+        },
+        {
+          "code": "MX-YU",
+          "name": "Yucatán"
+        }
+      ]
+    },
+    {
+      "title": "Pablo-Cea et al. (2023), scarab distribution atlas of El Salvador",
+      "url": "https://rev-mex-biodivers.mx/2023/05/02/catalog-and-distribution-atlas/",
+      "regions": [
+        {
+          "code": "GT",
+          "name": "Guatemala"
+        },
+        {
+          "code": "BZ",
+          "name": "Belize"
+        },
+        {
+          "code": "SV",
+          "name": "El Salvador"
+        },
+        {
+          "code": "HN",
+          "name": "Honduras"
+        },
+        {
+          "code": "NI",
+          "name": "Nicaragua"
+        },
+        {
+          "code": "CR",
+          "name": "Costa Rica"
+        },
+        {
+          "code": "PA",
+          "name": "Panama"
+        },
+        {
+          "code": "BS",
+          "name": "The Bahamas"
+        },
+        {
+          "code": "CU",
+          "name": "Cuba"
+        },
+        {
+          "code": "KY",
+          "name": "Cayman Islands"
+        },
+        {
+          "code": "JM",
+          "name": "Jamaica"
+        },
+        {
+          "code": "DO",
+          "name": "Dominican Republic"
+        },
+        {
+          "code": "PR",
+          "name": "Puerto Rico"
+        },
+        {
+          "code": "VI",
+          "name": "United States Virgin Islands"
+        },
+        {
+          "code": "KN",
+          "name": "Saint Kitts and Nevis"
+        },
+        {
+          "code": "AG",
+          "name": "Antigua and Barbuda"
+        },
+        {
+          "code": "MS",
+          "name": "Montserrat"
+        },
+        {
+          "code": "DM",
+          "name": "Dominica"
+        },
+        {
+          "code": "LC",
+          "name": "Saint Lucia"
+        },
+        {
+          "code": "VC",
+          "name": "Saint Vincent and the Grenadines"
+        },
+        {
+          "code": "BB",
+          "name": "Barbados"
+        },
+        {
+          "code": "GD",
+          "name": "Grenada"
+        }
+      ]
+    }
+  ],
+  "current_observation_map": "https://www.inaturalist.org/observations?place_id=97394&quality_grade=research&captive=false&geo=true&view=map&taxon_id=301519",
+  "projection": "Albers equal-area conic (standard parallels 20°N and 50°N, central meridian -87.234°).",
+  "boundary_sources": [
+    {
+      "title": "Natural Earth, 1:50m cultural vectors",
+      "url": "https://www.naturalearthdata.com/downloads/50m-cultural-vectors/"
+    },
+    {
+      "title": "Mexico boundaries from Highsoft map collection, based on Natural Earth",
+      "url": "https://code.highcharts.com/mapdata/countries/mx/mx-all.topo.json"
+    }
+  ]
+}

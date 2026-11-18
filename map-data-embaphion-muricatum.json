@@ -1,0 +1,59 @@
+{
+  "scientific_name": "Embaphion muricatum",
+  "map_type": "Reported administrative regions",
+  "date_compiled": "2026-11-18",
+  "coverage": "Selected North American jurisdictions in the cited sources. The extent of suitable habitat, geographic continuity, abundance and establishment status are not represented.",
+  "caption": "The cataloged range extends from Alberta and Saskatchewan south through the Great Plains to Texas and Tamaulipas.",
+  "sources": [
+    {
+      "title": "Bousquet et al. (2018), Catalogue of Tenebrionidae of North America",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5799738/",
+      "regions": [
+        {
+          "code": "CA-AB",
+          "name": "Alberta"
+        },
+        {
+          "code": "CA-SK",
+          "name": "Saskatchewan"
+        },
+        {
+          "code": "US-CO",
+          "name": "Colorado"
+        },
+        {
+          "code": "US-KS",
+          "name": "Kansas"
+        },
+        {
+          "code": "US-NE",
+          "name": "Nebraska"
+        },
+        {
+          "code": "US-SD",
+          "name": "South Dakota"
+        },
+        {
+          "code": "US-TX",
+          "name": "Texas"
+        },
+        {
+          "code": "MX-TM",
+          "name": "Tamaulipas"
+        }
+      ]
+    }
+  ],
+  "current_observation_map": "https://www.inaturalist.org/observations?place_id=97394&quality_grade=research&captive=false&geo=true&view=map&taxon_id=69727",
+  "projection": "Albers equal-area conic (standard parallels 20°N and 50°N, central meridian -106.766°).",
+  "boundary_sources": [
+    {
+      "title": "Natural Earth, 1:50m cultural vectors",
+      "url": "https://www.naturalearthdata.com/downloads/50m-cultural-vectors/"
+    },
+    {
+      "title": "Mexico boundaries from Highsoft map collection, based on Natural Earth",
+      "url": "https://code.highcharts.com/mapdata/countries/mx/mx-all.topo.json"
+    }
+  ]
+}

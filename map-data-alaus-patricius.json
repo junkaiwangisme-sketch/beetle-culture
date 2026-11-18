@@ -1,0 +1,35 @@
+{
+  "scientific_name": "Alaus patricius",
+  "map_type": "Reported administrative regions",
+  "date_compiled": "2026-11-18",
+  "coverage": "Selected North American jurisdictions in the cited sources. The extent of suitable habitat, geographic continuity, abundance and establishment status are not represented.",
+  "caption": "The species occurs in the Florida Keys and Cuba. The Florida highlight represents the state containing the Keys.",
+  "sources": [
+    {
+      "title": "Woodruff, click beetles of Florida",
+      "url": "https://edis.ifas.ufl.edu/publication/IN242/pdf",
+      "regions": [
+        {
+          "code": "US-FL",
+          "name": "Florida"
+        },
+        {
+          "code": "CU",
+          "name": "Cuba"
+        }
+      ]
+    }
+  ],
+  "current_observation_map": "https://www.inaturalist.org/observations?place_id=97394&quality_grade=research&captive=false&geo=true&view=map&taxon_id=465469",
+  "projection": "Albers equal-area conic (standard parallels 20°N and 50°N, central meridian -80.872°).",
+  "boundary_sources": [
+    {
+      "title": "Natural Earth, 1:50m cultural vectors",
+      "url": "https://www.naturalearthdata.com/downloads/50m-cultural-vectors/"
+    },
+    {
+      "title": "Mexico boundaries from Highsoft map collection, based on Natural Earth",
+      "url": "https://code.highcharts.com/mapdata/countries/mx/mx-all.topo.json"
+    }
+  ]
+}

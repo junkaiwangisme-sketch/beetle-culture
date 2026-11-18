@@ -1,0 +1,75 @@
+{
+  "scientific_name": "Dorcus brevis",
+  "map_type": "Reported administrative regions",
+  "date_compiled": "2026-11-18",
+  "coverage": "Selected North American jurisdictions in the cited sources. The extent of suitable habitat, geographic continuity, abundance and establishment status are not represented.",
+  "caption": "Paulsen examined specimens from twelve U.S. states. The map follows those specimen determinations.",
+  "sources": [
+    {
+      "title": "Paulsen (2010), North American Dorcus, specimens examined",
+      "url": "https://doi.org/10.3897/zookeys.34.292",
+      "regions": [
+        {
+          "code": "US-AL",
+          "name": "Alabama"
+        },
+        {
+          "code": "US-IL",
+          "name": "Illinois"
+        },
+        {
+          "code": "US-IN",
+          "name": "Indiana"
+        },
+        {
+          "code": "US-IA",
+          "name": "Iowa"
+        },
+        {
+          "code": "US-MD",
+          "name": "Maryland"
+        },
+        {
+          "code": "US-MI",
+          "name": "Michigan"
+        },
+        {
+          "code": "US-NE",
+          "name": "Nebraska"
+        },
+        {
+          "code": "US-NY",
+          "name": "New York"
+        },
+        {
+          "code": "US-OH",
+          "name": "Ohio"
+        },
+        {
+          "code": "US-SC",
+          "name": "South Carolina"
+        },
+        {
+          "code": "US-TN",
+          "name": "Tennessee"
+        },
+        {
+          "code": "US-VA",
+          "name": "Virginia"
+        }
+      ]
+    }
+  ],
+  "current_observation_map": "https://www.inaturalist.org/observations?place_id=97394&quality_grade=research&captive=false&geo=true&view=map&taxon_id=635155",
+  "projection": "Albers equal-area conic (standard parallels 20°N and 50°N, central meridian -87.966°).",
+  "boundary_sources": [
+    {
+      "title": "Natural Earth, 1:50m cultural vectors",
+      "url": "https://www.naturalearthdata.com/downloads/50m-cultural-vectors/"
+    },
+    {
+      "title": "Mexico boundaries from Highsoft map collection, based on Natural Earth",
+      "url": "https://code.highcharts.com/mapdata/countries/mx/mx-all.topo.json"
+    }
+  ]
+}

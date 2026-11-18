@@ -1,0 +1,47 @@
+{
+  "scientific_name": "Sinodendron rugosum",
+  "map_type": "Reported administrative regions",
+  "date_compiled": "2026-11-18",
+  "coverage": "Selected North American jurisdictions in the cited sources. The extent of suitable habitat, geographic continuity, abundance and establishment status are not represented.",
+  "caption": "The museum account lists British Columbia, Washington, Oregon, California and Idaho.",
+  "sources": [
+    {
+      "title": "University of Nebraska State Museum, Sinodendron rugosum",
+      "url": "https://unsm-ento.unl.edu/Guide/Scarabaeoidea/Lucanidae/SYN/SINO/rugosum.html",
+      "regions": [
+        {
+          "code": "CA-BC",
+          "name": "British Columbia"
+        },
+        {
+          "code": "US-WA",
+          "name": "Washington"
+        },
+        {
+          "code": "US-OR",
+          "name": "Oregon"
+        },
+        {
+          "code": "US-CA",
+          "name": "California"
+        },
+        {
+          "code": "US-ID",
+          "name": "Idaho"
+        }
+      ]
+    }
+  ],
+  "current_observation_map": "https://www.inaturalist.org/observations?place_id=97394&quality_grade=research&captive=false&geo=true&view=map&taxon_id=321486",
+  "projection": "Albers equal-area conic (standard parallels 20°N and 50°N, central meridian -125.053°).",
+  "boundary_sources": [
+    {
+      "title": "Natural Earth, 1:50m cultural vectors",
+      "url": "https://www.naturalearthdata.com/downloads/50m-cultural-vectors/"
+    },
+    {
+      "title": "Mexico boundaries from Highsoft map collection, based on Natural Earth",
+      "url": "https://code.highcharts.com/mapdata/countries/mx/mx-all.topo.json"
+    }
+  ]
+}

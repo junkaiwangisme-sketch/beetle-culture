@@ -1,0 +1,73 @@
+{
+  "scientific_name": "Gibbium aequinoctiale",
+  "map_type": "Reported administrative regions",
+  "date_compiled": "2026-11-18",
+  "coverage": "Selected North American jurisdictions in the cited sources. The extent of suitable habitat, geographic continuity, abundance and establishment status are not represented.",
+  "caption": "North American photo and specimen records include the eastern United States, Texas and Ontario. Indoor records can reflect transport in stored materials.",
+  "sources": [
+    {
+      "title": "BugGuide photo records",
+      "url": "https://bugguide.net/node/view/55820/data",
+      "regions": [
+        {
+          "code": "US-CT",
+          "name": "Connecticut"
+        },
+        {
+          "code": "US-IL",
+          "name": "Illinois"
+        },
+        {
+          "code": "US-MO",
+          "name": "Missouri"
+        },
+        {
+          "code": "US-NH",
+          "name": "New Hampshire"
+        },
+        {
+          "code": "US-NY",
+          "name": "New York"
+        },
+        {
+          "code": "US-OH",
+          "name": "Ohio"
+        },
+        {
+          "code": "CA-ON",
+          "name": "Ontario"
+        },
+        {
+          "code": "US-PA",
+          "name": "Pennsylvania"
+        },
+        {
+          "code": "US-TX",
+          "name": "Texas"
+        }
+      ]
+    },
+    {
+      "title": "Arango and Young (2012), Wisconsin spider beetles",
+      "url": "https://research.fs.usda.gov/download/treesearch/41369.pdf",
+      "regions": [
+        {
+          "code": "US-WI",
+          "name": "Wisconsin"
+        }
+      ]
+    }
+  ],
+  "current_observation_map": "https://www.inaturalist.org/observations?place_id=97394&quality_grade=research&captive=false&geo=true&view=map&taxon_id=220380",
+  "projection": "Albers equal-area conic (standard parallels 20°N and 50°N, central meridian -88.701°).",
+  "boundary_sources": [
+    {
+      "title": "Natural Earth, 1:50m cultural vectors",
+      "url": "https://www.naturalearthdata.com/downloads/50m-cultural-vectors/"
+    },
+    {
+      "title": "Mexico boundaries from Highsoft map collection, based on Natural Earth",
+      "url": "https://code.highcharts.com/mapdata/countries/mx/mx-all.topo.json"
+    }
+  ]
+}

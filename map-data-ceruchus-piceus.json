@@ -1,0 +1,145 @@
+{
+  "scientific_name": "Ceruchus piceus",
+  "map_type": "Reported administrative regions",
+  "date_compiled": "2026-11-18",
+  "coverage": "Selected North American jurisdictions in the cited sources. The extent of suitable habitat, geographic continuity, abundance and establishment status are not represented.",
+  "caption": "This eastern North American stag beetle ranges into southeastern Canada. The map combines regional photo records with published Maritime records.",
+  "sources": [
+    {
+      "title": "BugGuide photo records",
+      "url": "https://www.bugguide.net/node/view/14896/data",
+      "regions": [
+        {
+          "code": "US-DE",
+          "name": "Delaware"
+        },
+        {
+          "code": "US-GA",
+          "name": "Georgia"
+        },
+        {
+          "code": "US-IL",
+          "name": "Illinois"
+        },
+        {
+          "code": "US-IN",
+          "name": "Indiana"
+        },
+        {
+          "code": "US-IA",
+          "name": "Iowa"
+        },
+        {
+          "code": "US-KY",
+          "name": "Kentucky"
+        },
+        {
+          "code": "US-ME",
+          "name": "Maine"
+        },
+        {
+          "code": "US-MD",
+          "name": "Maryland"
+        },
+        {
+          "code": "US-MA",
+          "name": "Massachusetts"
+        },
+        {
+          "code": "US-MI",
+          "name": "Michigan"
+        },
+        {
+          "code": "US-MN",
+          "name": "Minnesota"
+        },
+        {
+          "code": "US-NE",
+          "name": "Nebraska"
+        },
+        {
+          "code": "CA-NB",
+          "name": "New Brunswick"
+        },
+        {
+          "code": "US-NH",
+          "name": "New Hampshire"
+        },
+        {
+          "code": "US-NJ",
+          "name": "New Jersey"
+        },
+        {
+          "code": "US-NY",
+          "name": "New York"
+        },
+        {
+          "code": "US-NC",
+          "name": "North Carolina"
+        },
+        {
+          "code": "US-ND",
+          "name": "North Dakota"
+        },
+        {
+          "code": "US-OH",
+          "name": "Ohio"
+        },
+        {
+          "code": "CA-ON",
+          "name": "Ontario"
+        },
+        {
+          "code": "US-PA",
+          "name": "Pennsylvania"
+        },
+        {
+          "code": "CA-QC",
+          "name": "Québec"
+        },
+        {
+          "code": "US-RI",
+          "name": "Rhode Island"
+        },
+        {
+          "code": "US-VA",
+          "name": "Virginia"
+        },
+        {
+          "code": "US-WV",
+          "name": "West Virginia"
+        },
+        {
+          "code": "US-WI",
+          "name": "Wisconsin"
+        }
+      ]
+    },
+    {
+      "title": "Majka (2008), stag beetles of the Maritime Provinces",
+      "url": "https://www.acadianes.ca/journal/papers/majkalucanid_0806.pdf",
+      "regions": [
+        {
+          "code": "CA-NS",
+          "name": "Nova Scotia"
+        },
+        {
+          "code": "CA-NB",
+          "name": "New Brunswick"
+        }
+      ]
+    }
+  ],
+  "current_observation_map": "https://www.inaturalist.org/observations?place_id=97394&quality_grade=research&captive=false&geo=true&view=map&taxon_id=216534",
+  "projection": "Albers equal-area conic (standard parallels 20°N and 50°N, central meridian -80.567°).",
+  "boundary_sources": [
+    {
+      "title": "Natural Earth, 1:50m cultural vectors",
+      "url": "https://www.naturalearthdata.com/downloads/50m-cultural-vectors/"
+    },
+    {
+      "title": "Mexico boundaries from Highsoft map collection, based on Natural Earth",
+      "url": "https://code.highcharts.com/mapdata/countries/mx/mx-all.topo.json"
+    }
+  ]
+}

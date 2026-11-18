@@ -1,0 +1,49 @@
+{
+  "scientific_name": "Thylodrias contractus",
+  "map_type": "Reported administrative regions",
+  "date_compiled": "2026-11-18",
+  "coverage": "Selected North American jurisdictions in the cited sources. The extent of suitable habitat, geographic continuity, abundance and establishment status are not represented.",
+  "caption": "The odd beetle has been introduced to North America. The map marks selected Canadian reports and a published Wisconsin specimen.",
+  "sources": [
+    {
+      "title": "Bousquet (1990), Beetles associated with stored products in Canada",
+      "url": "https://publications.gc.ca/collections/collection_2015/aac-aafc/A43-1837-1989-eng.pdf",
+      "regions": [
+        {
+          "code": "CA-AB",
+          "name": "Alberta"
+        },
+        {
+          "code": "CA-QC",
+          "name": "Québec"
+        },
+        {
+          "code": "CA-YT",
+          "name": "Yukon"
+        }
+      ]
+    },
+    {
+      "title": "Háva and Kadej (2015), Wisconsin specimen",
+      "url": "https://www.researchgate.net/publication/280719021_New_and_interesting_faunistic_records_of_Dermestidae_Coleoptera_from_Nearctic_Region",
+      "regions": [
+        {
+          "code": "US-WI",
+          "name": "Wisconsin"
+        }
+      ]
+    }
+  ],
+  "current_observation_map": "https://www.inaturalist.org/observations?place_id=97394&quality_grade=research&captive=false&geo=true&view=map&taxon_id=232585",
+  "projection": "Albers equal-area conic (standard parallels 20°N and 50°N, central meridian -99.051°).",
+  "boundary_sources": [
+    {
+      "title": "Natural Earth, 1:50m cultural vectors",
+      "url": "https://www.naturalearthdata.com/downloads/50m-cultural-vectors/"
+    },
+    {
+      "title": "Mexico boundaries from Highsoft map collection, based on Natural Earth",
+      "url": "https://code.highcharts.com/mapdata/countries/mx/mx-all.topo.json"
+    }
+  ]
+}

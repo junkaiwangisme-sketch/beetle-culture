@@ -1,0 +1,81 @@
+{
+  "scientific_name": "Mezium affine",
+  "map_type": "Reported administrative regions",
+  "date_compiled": "2026-11-18",
+  "coverage": "Selected North American jurisdictions in the cited sources. The extent of suitable habitat, geographic continuity, abundance and establishment status are not represented.",
+  "caption": "North American records include Canada and the United States. Majka documents the species in all three Maritime Provinces.",
+  "sources": [
+    {
+      "title": "BugGuide photo records",
+      "url": "https://bugguide.net/node/view/245638/data",
+      "regions": [
+        {
+          "code": "US-CO",
+          "name": "Colorado"
+        },
+        {
+          "code": "US-FL",
+          "name": "Florida"
+        },
+        {
+          "code": "US-ME",
+          "name": "Maine"
+        },
+        {
+          "code": "US-MA",
+          "name": "Massachusetts"
+        },
+        {
+          "code": "US-NY",
+          "name": "New York"
+        },
+        {
+          "code": "CA-ON",
+          "name": "Ontario"
+        },
+        {
+          "code": "CA-QC",
+          "name": "Québec"
+        }
+      ]
+    },
+    {
+      "title": "Majka (2007), Maritime Provinces records",
+      "url": "https://www.chebucto.ns.ca/cfn/Environment/NHR/PDF/Bostrichiformia-Majka.pdf",
+      "regions": [
+        {
+          "code": "CA-NB",
+          "name": "New Brunswick"
+        },
+        {
+          "code": "CA-NS",
+          "name": "Nova Scotia"
+        },
+        {
+          "code": "CA-PE",
+          "name": "Prince Edward Island"
+        },
+        {
+          "code": "CA-BC",
+          "name": "British Columbia"
+        },
+        {
+          "code": "CA-SK",
+          "name": "Saskatchewan"
+        }
+      ]
+    }
+  ],
+  "current_observation_map": "https://www.inaturalist.org/observations?place_id=97394&quality_grade=research&captive=false&geo=true&view=map&taxon_name=Mezium%20affine",
+  "projection": "Albers equal-area conic (standard parallels 20°N and 50°N, central meridian -98.078°).",
+  "boundary_sources": [
+    {
+      "title": "Natural Earth, 1:50m cultural vectors",
+      "url": "https://www.naturalearthdata.com/downloads/50m-cultural-vectors/"
+    },
+    {
+      "title": "Mexico boundaries from Highsoft map collection, based on Natural Earth",
+      "url": "https://code.highcharts.com/mapdata/countries/mx/mx-all.topo.json"
+    }
+  ]
+}

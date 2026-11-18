@@ -1,0 +1,171 @@
+{
+  "scientific_name": "Bolitotherus cornutus",
+  "map_type": "Reported administrative regions",
+  "date_compiled": "2026-11-18",
+  "coverage": "Selected North American jurisdictions in the cited sources. The extent of suitable habitat, geographic continuity, abundance and establishment status are not represented.",
+  "caption": "The North American catalog records this fungus beetle in Canada and the United States.",
+  "sources": [
+    {
+      "title": "Bousquet et al. (2018), Catalogue of Tenebrionidae of North America",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5799738/",
+      "regions": [
+        {
+          "code": "CA-AB",
+          "name": "Alberta"
+        },
+        {
+          "code": "CA-MB",
+          "name": "Manitoba"
+        },
+        {
+          "code": "CA-NB",
+          "name": "New Brunswick"
+        },
+        {
+          "code": "CA-NS",
+          "name": "Nova Scotia"
+        },
+        {
+          "code": "CA-ON",
+          "name": "Ontario"
+        },
+        {
+          "code": "CA-PE",
+          "name": "Prince Edward Island"
+        },
+        {
+          "code": "CA-QC",
+          "name": "Québec"
+        },
+        {
+          "code": "CA-SK",
+          "name": "Saskatchewan"
+        },
+        {
+          "code": "US-CT",
+          "name": "Connecticut"
+        },
+        {
+          "code": "US-FL",
+          "name": "Florida"
+        },
+        {
+          "code": "US-GA",
+          "name": "Georgia"
+        },
+        {
+          "code": "US-IA",
+          "name": "Iowa"
+        },
+        {
+          "code": "US-IL",
+          "name": "Illinois"
+        },
+        {
+          "code": "US-IN",
+          "name": "Indiana"
+        },
+        {
+          "code": "US-KY",
+          "name": "Kentucky"
+        },
+        {
+          "code": "US-LA",
+          "name": "Louisiana"
+        },
+        {
+          "code": "US-MA",
+          "name": "Massachusetts"
+        },
+        {
+          "code": "US-MD",
+          "name": "Maryland"
+        },
+        {
+          "code": "US-ME",
+          "name": "Maine"
+        },
+        {
+          "code": "US-MI",
+          "name": "Michigan"
+        },
+        {
+          "code": "US-MN",
+          "name": "Minnesota"
+        },
+        {
+          "code": "US-MS",
+          "name": "Mississippi"
+        },
+        {
+          "code": "US-NC",
+          "name": "North Carolina"
+        },
+        {
+          "code": "US-NE",
+          "name": "Nebraska"
+        },
+        {
+          "code": "US-NH",
+          "name": "New Hampshire"
+        },
+        {
+          "code": "US-NJ",
+          "name": "New Jersey"
+        },
+        {
+          "code": "US-NY",
+          "name": "New York"
+        },
+        {
+          "code": "US-OH",
+          "name": "Ohio"
+        },
+        {
+          "code": "US-PA",
+          "name": "Pennsylvania"
+        },
+        {
+          "code": "US-RI",
+          "name": "Rhode Island"
+        },
+        {
+          "code": "US-SC",
+          "name": "South Carolina"
+        },
+        {
+          "code": "US-TN",
+          "name": "Tennessee"
+        },
+        {
+          "code": "US-TX",
+          "name": "Texas"
+        },
+        {
+          "code": "US-VA",
+          "name": "Virginia"
+        },
+        {
+          "code": "US-VT",
+          "name": "Vermont"
+        },
+        {
+          "code": "US-WI",
+          "name": "Wisconsin"
+        }
+      ]
+    }
+  ],
+  "current_observation_map": "https://www.inaturalist.org/observations?place_id=97394&quality_grade=research&captive=false&geo=true&view=map&taxon_id=53814",
+  "projection": "Albers equal-area conic (standard parallels 20°N and 50°N, central meridian -88.551°).",
+  "boundary_sources": [
+    {
+      "title": "Natural Earth, 1:50m cultural vectors",
+      "url": "https://www.naturalearthdata.com/downloads/50m-cultural-vectors/"
+    },
+    {
+      "title": "Mexico boundaries from Highsoft map collection, based on Natural Earth",
+      "url": "https://code.highcharts.com/mapdata/countries/mx/mx-all.topo.json"
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "scientific_name": "Lucanus capreolus",
+  "taxon_id": 60812,
+  "date": "2026-11-18",
+  "filtered_url": "https://www.inaturalist.org/observations?place_id=97394&quality_grade=research&captive=false&geo=true&taxon_id=60812&view=map",
+  "api": "https://api.inaturalist.org/v2/observations",
+  "filters": {
+    "place_id": 97394,
+    "quality_grade": "research",
+    "captive": "false",
+    "geo": "true",
+    "taxon_id": 60812,
+    "id_below": 415371074
+  },
+  "geography": "Official iNaturalist North America place 97394, including Mexico, Central America and the Caribbean. Each figure is framed around the plotted observations.",
+  "api_total_at_start": 21338,
+  "retrieved_count": 21338,
+  "mapped_count": 21337,
+  "excluded_as_extreme_outlier": 1,
+  "missing_public_coordinate_ids": [],
+  "outlier_screen": "Group public positions into 0.25° longitude–latitude cells. Flag cells with one or two observations whose center is at least 500 km (great-circle distance) from every other occupied cell for that species. Omit an observation only when the review also finds substantive evidence against its use in the distribution plot. Document each decision, including retained candidates.",
+  "outlier_audit": [
+    {
+      "cell_center": [
+        -117.875,
+        33.625
+      ],
+      "observation_ids": [
+        225843090
+      ],
+      "nearest_occupied_cell_km": 1713.8,
+      "review": [
+        {
+          "id": 225843090,
+          "decision": "exclude_from_map",
+          "reason": "The observer confirmed a dead beetle washed ashore at Newport Beach, California. Its origin is unknown. This strandline report is more than 1,700 km from the nearest other occupied cell and does not locate a living population.",
+          "sources": [
+            "https://www.inaturalist.org/observations/225843090",
+            "https://www.bugguide.net/node/view/3107"
+          ]
+        }
+      ]
+    }
+  ],
+  "precision": "Filled symbols represent public, unobscured coordinates with reported public positional accuracy at most 10 km. Open symbols represent obscured coordinates or larger/unknown accuracy. All positions come from the anonymous public API.",
+  "precision_counts": {
+    "precise": 16167,
+    "coarse_or_unknown": 5170,
+    "obscured": 1660
+  },
+  "projection": {
+    "name": "Spherical Albers equal-area conic",
+    "standard_parallels_deg": [
+      20,
+      50
+    ],
+    "central_meridian_deg": -82.5,
+    "earth_radius_km": 6371.0088
+  },
+  "interpretation": "Points show reported occurrences. Sampling effort varies across the map. The record count includes coincident and overlapping locations.",
+  "sources": [
+    {
+      "title": "iNaturalist observations",
+      "url": "https://www.inaturalist.org/observations?place_id=97394&quality_grade=research&captive=false&geo=true&taxon_id=60812&view=map"
+    },
+    {
+      "title": "Region boundary (North America, iNaturalist place 97394)",
+      "url": "https://www.inaturalist.org/places/north-america"
+    },
+    {
+      "title": "iNaturalist geoprivacy",
+      "url": "https://www.inaturalist.org/pages/geoprivacy"
+    },
+    {
+      "title": "Natural Earth boundaries",
+      "url": "https://www.naturalearthdata.com/downloads/50m-cultural-vectors/"
+    }
+  ]
+}

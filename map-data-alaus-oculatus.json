@@ -1,0 +1,55 @@
+{
+  "scientific_name": "Alaus oculatus",
+  "map_type": "Reported administrative regions",
+  "date_compiled": "2026-11-18",
+  "coverage": "Selected North American jurisdictions in the cited sources. The extent of suitable habitat, geographic continuity, abundance and establishment status are not represented.",
+  "caption": "Woodruff reports the eyed click beetle across the eastern United States, including Texas, and in southern Ontario and Québec. The map highlights jurisdictions named in the account.",
+  "sources": [
+    {
+      "title": "Woodruff, click beetles of Florida",
+      "url": "https://edis.ifas.ufl.edu/publication/IN242/pdf",
+      "regions": [
+        {
+          "code": "US-IN",
+          "name": "Indiana"
+        },
+        {
+          "code": "US-TX",
+          "name": "Texas"
+        },
+        {
+          "code": "US-FL",
+          "name": "Florida"
+        },
+        {
+          "code": "US-GA",
+          "name": "Georgia"
+        },
+        {
+          "code": "US-NY",
+          "name": "New York"
+        },
+        {
+          "code": "CA-ON",
+          "name": "Ontario"
+        },
+        {
+          "code": "CA-QC",
+          "name": "Québec"
+        }
+      ]
+    }
+  ],
+  "current_observation_map": "https://www.inaturalist.org/observations?place_id=97394&quality_grade=research&captive=false&geo=true&view=map&taxon_id=81706",
+  "projection": "Albers equal-area conic (standard parallels 20°N and 50°N, central meridian -81.884°).",
+  "boundary_sources": [
+    {
+      "title": "Natural Earth, 1:50m cultural vectors",
+      "url": "https://www.naturalearthdata.com/downloads/50m-cultural-vectors/"
+    },
+    {
+      "title": "Mexico boundaries from Highsoft map collection, based on Natural Earth",
+      "url": "https://code.highcharts.com/mapdata/countries/mx/mx-all.topo.json"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "scientific_name": "Callipogon proletarius",
+  "map_type": "Reported administrative regions",
+  "date_compiled": "2026-11-18",
+  "coverage": "Selected North American jurisdictions in the cited sources. The extent of suitable habitat, geographic continuity, abundance and establishment status are not represented.",
+  "caption": "Monné lists Puerto Rico and Martinique for the nominate form and Cuba for the subspecies shulzhenkoi.",
+  "sources": [
+    {
+      "title": "Monné (2024), Neotropical Cerambycidae catalog, Part III",
+      "url": "https://cerambycids.com/catalog/Monne_Jun2024_NeotropicalCat_part_III.pdf",
+      "regions": [
+        {
+          "code": "PR",
+          "name": "Puerto Rico"
+        },
+        {
+          "code": "MQ",
+          "name": "Martinique"
+        },
+        {
+          "code": "CU",
+          "name": "Cuba"
+        }
+      ]
+    }
+  ],
+  "current_observation_map": "https://www.inaturalist.org/observations?place_id=97394&quality_grade=research&captive=false&geo=true&view=map&taxon_id=560868",
+  "projection": "Albers equal-area conic (standard parallels 20°N and 50°N, central meridian -72.857°).",
+  "boundary_sources": [
+    {
+      "title": "Natural Earth, 1:50m cultural vectors",
+      "url": "https://www.naturalearthdata.com/downloads/50m-cultural-vectors/"
+    },
+    {
+      "title": "Mexico boundaries from Highsoft map collection, based on Natural Earth",
+      "url": "https://code.highcharts.com/mapdata/countries/mx/mx-all.topo.json"
+    }
+  ]
+}
