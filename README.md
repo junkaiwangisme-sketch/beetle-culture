@@ -1,4 +1,4 @@
-# Beetle Culture
+# North American Beetle Breeding
 
 A photographic, searchable beetle-breeding field guide. Visitors can browse a family or scarab subfamily, open a species guide, and follow the sources for each account.
 

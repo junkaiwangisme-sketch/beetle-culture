@@ -284,9 +284,169 @@
           "url": "https://www.beetlebreeding.ch/lucanus-elephus/"
         }
       ]
+    },
+    {
+      "slug": "chrysina-woodi",
+      "name": "Chrysina woodi",
+      "common": "Texas jewel scarab",
+      "group": "rutelinae",
+      "intro": "One West Texas female laid 122 eggs in a single clutch. All 122 hatched in captivity.",
+      "sections": [
+        {
+          "title": "Oviposition",
+          "text": "Wang housed the adults in a ventilated enclosure with approximately one gallon of lightly fermented flake soil. One female deposited her entire clutch in this substrate."
+        },
+        {
+          "title": "Adult diet",
+          "text": "Adults fed on hickory foliage. Wang also proposed walnut and pecan as possible food plants. His account documents feeding on hickory."
+        },
+        {
+          "title": "Larval development",
+          "text": "Wang recommends rearing larvae individually and providing red clay for pupation. He reports development to adulthood in approximately six months. Two wild-caught females survived for about one week and more than one month, respectively, after collection."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Junkai Wang, Breeding Chrysina woodi, the jewel of Texas! (October 19, 2023)",
+          "url": "https://junkaiwangisme.wixsite.com/usbeetlebreeding/post/breeding-chrysina-woodi-the-jewel-of-texas"
+        }
+      ],
+      "record_type": "Original breeding account",
+      "observer": "Junkai Wang",
+      "primary_url": "https://junkaiwangisme.wixsite.com/usbeetlebreeding/post/breeding-chrysina-woodi-the-jewel-of-texas"
+    },
+    {
+      "slug": "xyloryctes-thestalus",
+      "name": "Xyloryctes thestalus",
+      "common": "Southwestern rhinoceros beetle",
+      "group": "dynastinae",
+      "intro": "In Wang’s culture, adults ceased feeding from late October until April. Most eggs and larvae appeared between April and July.",
+      "sections": [
+        {
+          "title": "Breeding substrate",
+          "text": "Wang used a ventilated enclosure with 4–5 inches (10–13 cm) of lightly fermented flake soil and bark on the surface. He kept the substrate slightly drier than that used for his other rhinoceros beetles."
+        },
+        {
+          "title": "Adult feeding and seasonal inactivity",
+          "text": "Adults fed on apple and other firm fruits. They burrowed in late October and resumed feeding in April. The enclosure remained at approximately 68–75 °F (20–24 °C) during this period. Some wild-caught adults survived more than a year after collection."
+        },
+        {
+          "title": "Offspring",
+          "text": "One egg laid before winter produced a male. Wang recorded the remaining eggs or larvae between April and July and confirmed that captive-bred offspring reached adulthood."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Junkai Wang, Breeding Xyloryctes thestalus at last!!!! (August 25, 2023, updated October 19, 2023)",
+          "url": "https://junkaiwangisme.wixsite.com/usbeetlebreeding/post/breeding-xyloryctes-thestalus-at-last"
+        }
+      ],
+      "record_type": "Original breeding account",
+      "observer": "Junkai Wang",
+      "primary_url": "https://junkaiwangisme.wixsite.com/usbeetlebreeding/post/breeding-xyloryctes-thestalus-at-last"
+    },
+    {
+      "slug": "strategus-aloeus",
+      "name": "Strategus aloeus",
+      "common": "Ox beetle",
+      "group": "dynastinae",
+      "intro": "Wang reared ox beetles from larvae to adults in less than a year. One captive-bred male measured 53 mm.",
+      "sections": [
+        {
+          "title": "Adult feeding and oviposition",
+          "text": "Wang reported substantial adult food consumption and recommended checking food at least every three days. Females laid eggs in several organic substrates."
+        },
+        {
+          "title": "Larval substrate and pupation",
+          "text": "Larvae developed in organic raised-bed soil. Wang recommended compacted topsoil for construction of pupal cells, although adults also emerged from containers without an added topsoil layer."
+        },
+        {
+          "title": "Adult longevity",
+          "text": "Wang recorded adult males surviving up to two years. The longest-lived female in his culture survived approximately nine months."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Junkai Wang, Strategus aloeus – the Ox Beetle (December 3, 2022)",
+          "url": "https://junkaiwangisme.wixsite.com/usbeetlebreeding/post/strategus-aloeus-the-ox-beetle"
+        }
+      ],
+      "record_type": "Original breeding account",
+      "observer": "Junkai Wang",
+      "primary_url": "https://junkaiwangisme.wixsite.com/usbeetlebreeding/post/strategus-aloeus-the-ox-beetle"
+    },
+    {
+      "slug": "mallodon-dasystomus",
+      "name": "Mallodon dasystomus",
+      "common": "Hardwood stump borer",
+      "group": "cerambycidae",
+      "intro": "Wang obtained eggs in a shallow layer of damp sawdust and reared larvae on hardwood sawdust prepared from pellets.",
+      "sections": [
+        {
+          "title": "Oviposition",
+          "text": "Adults laid eggs in approximately half an inch (1.3 cm) of damp sawdust. Wang described the eggs as hard-shelled and seed-like. This measurement refers to the laying layer."
+        },
+        {
+          "title": "Larval food",
+          "text": "Larvae fed on hardwood sawdust prepared from expanded pellets. Wang also reported development in kinshi, sawdust colonized by fungal mycelium."
+        },
+        {
+          "title": "Development",
+          "text": "The account gives a larval period of one to three years, depending on rearing conditions. Wang observed that larvae accepted supplementary protein and grew rapidly. The account does not specify the supplement or feeding schedule."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Junkai Wang, Keeping Mallodon dasystomus – The Hardwood Stump Borer (December 1, 2022)",
+          "url": "https://junkaiwangisme.wixsite.com/usbeetlebreeding/post/keeping-mallodon-dasystomus-the-hardwood-stump-borer"
+        }
+      ],
+      "record_type": "Original breeding account",
+      "observer": "Junkai Wang",
+      "primary_url": "https://junkaiwangisme.wixsite.com/usbeetlebreeding/post/keeping-mallodon-dasystomus-the-hardwood-stump-borer"
     }
   ],
   "photos": [
+    {
+      "file": "chrysina-woodi-wang.jpg",
+      "species": "Chrysina woodi",
+      "width": 1440,
+      "height": 1082,
+      "alt": "Metallic green adult Chrysina woodi on dark wood, showing the head, pronotum, and elytra in side view.",
+      "url": "https://junkaiwangisme.wixsite.com/usbeetlebreeding/post/breeding-chrysina-woodi-the-jewel-of-texas",
+      "credit": "Junkai Wang",
+      "hero": true
+    },
+    {
+      "file": "xyloryctes-thestalus-wang.jpg",
+      "species": "Xyloryctes thestalus",
+      "width": 1440,
+      "height": 1082,
+      "alt": "Black adult Xyloryctes thestalus viewed from above against a pale background.",
+      "url": "https://junkaiwangisme.wixsite.com/usbeetlebreeding/post/breeding-xyloryctes-thestalus-at-last",
+      "credit": "Junkai Wang",
+      "hero": false
+    },
+    {
+      "file": "strategus-aloeus-wang.jpg",
+      "species": "Strategus aloeus",
+      "width": 1816,
+      "height": 1364,
+      "alt": "A horned male Strategus aloeus feeding on fruit, photographed from the front.",
+      "url": "https://junkaiwangisme.wixsite.com/usbeetlebreeding/post/strategus-aloeus-the-ox-beetle",
+      "credit": "Junkai Wang",
+      "hero": false
+    },
+    {
+      "file": "mallodon-dasystomus-wang.jpg",
+      "species": "Mallodon dasystomus",
+      "width": 1816,
+      "height": 1364,
+      "alt": "Adult Mallodon dasystomus with amber elytra and a reddish pronotum, viewed from above.",
+      "url": "https://junkaiwangisme.wixsite.com/usbeetlebreeding/post/keeping-mallodon-dasystomus-the-hardwood-stump-borer",
+      "credit": "Junkai Wang",
+      "hero": false
+    },
     {
       "file": "dynastes-tityus-male.jpg",
       "species": "Dynastes tityus",
@@ -297,7 +457,7 @@
       "url": "https://commons.wikimedia.org/wiki/File:Dynastes_tityus_SC_2.jpg",
       "license": "CC BY 2.0 · resized for display",
       "license_url": "https://creativecommons.org/licenses/by/2.0/",
-      "hero": true
+      "hero": false
     }
   ]
 }
