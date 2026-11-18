@@ -1,0 +1,13 @@
+<section class="wrap block"><form class="editor-form" id="record-editor">
+<p>Add a species or revise its existing post. Download the post file here, then publish it with the GitHub account that manages this site.</p>
+<label>Existing post<select name="existing"><option value="">New species</option>%%SPECIES%%</select></label>
+<label>Scientific name<input name="name" required placeholder="Genus species"></label>
+<label>Common name<input name="common"></label>
+<label>Family or subfamily<select name="group" required><option value="">Select a group</option>%%GROUPS%%</select></label>
+<label>Summary<textarea name="intro" required rows="3"></textarea></label>
+<label>Life-history data<textarea name="facts" rows="5" placeholder="Adult lifespan | 1–4 months"></textarea></label>
+<label>Account sections<textarea name="sections" required rows="9" placeholder="Oviposition&#10;Enter the observation here.&#10;&#10;Larval development&#10;Enter the next observation here."></textarea></label>
+<label>Sources<textarea name="sources" required rows="4" placeholder="Title and date | https://..."></textarea></label>
+<button type="submit" class="cta">Download post file</button><p id="editor-status" role="status"></p>
+<a class="more" href="https://github.com/junkaiwangisme-sketch/beetle-culture/upload/main" target="_blank" rel="noopener">Sign in to GitHub and upload the post ↗</a>
+</form></section><script src="editor-data.js" defer></script><script src="editor.js" defer></script>
