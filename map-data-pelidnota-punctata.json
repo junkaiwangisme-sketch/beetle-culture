@@ -1,0 +1,99 @@
+{
+  "scientific_name": "Pelidnota punctata",
+  "taxon_id": 48259,
+  "date": "2026-11-18",
+  "filtered_url": "https://www.inaturalist.org/observations?place_id=97394&quality_grade=research&captive=false&geo=true&taxon_id=48259&view=map",
+  "api": "https://api.inaturalist.org/v2/observations",
+  "filters": {
+    "place_id": 97394,
+    "quality_grade": "research",
+    "captive": "false",
+    "geo": "true",
+    "taxon_id": 48259,
+    "id_below": 415298437
+  },
+  "geography": "Official iNaturalist North America place 97394, including Mexico, Central America and the Caribbean. Each figure is framed around the plotted observations.",
+  "api_total_at_start": 26331,
+  "retrieved_count": 26331,
+  "mapped_count": 26329,
+  "excluded_as_extreme_outlier": 2,
+  "missing_public_coordinate_ids": [],
+  "outlier_screen": "Group public positions into 0.25° longitude–latitude cells. Flag cells with one or two observations whose center is at least 500 km (great-circle distance) from every other occupied cell for that species. Omit an observation only when the review also finds substantive evidence against its use in the distribution plot. Document each decision, including retained candidates.",
+  "outlier_audit": [
+    {
+      "cell_center": [
+        -109.875,
+        34.125
+      ],
+      "observation_ids": [
+        179407588
+      ],
+      "nearest_occupied_cell_km": 704.0,
+      "review": [
+        {
+          "id": 179407588,
+          "decision": "exclude_from_map",
+          "reason": "The observer reported driving from Nebraska to Arizona five days before finding the beetle and raised the possibility of transport. The geographically isolated Arizona locality remains in the source record.",
+          "sources": [
+            "https://www.inaturalist.org/observations/179407588",
+            "https://animaldiversity.org/accounts/Pelidnota_punctata/"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_center": [
+        -85.375,
+        51.375
+      ],
+      "observation_ids": [
+        305135210
+      ],
+      "nearest_occupied_cell_km": 528.1,
+      "review": [
+        {
+          "id": 305135210,
+          "decision": "exclude_from_map",
+          "reason": "The locality is given only as Ontario, Canada. Its public coordinate has an uncertainty radius of 1,301.8 km, greater than the distance to other occupied cells. A point at this provincial-scale position would imply an unsupported northern locality.",
+          "sources": [
+            "https://www.inaturalist.org/observations/305135210"
+          ]
+        }
+      ]
+    }
+  ],
+  "precision": "Filled symbols represent public, unobscured coordinates with reported public positional accuracy at most 10 km. Open symbols represent obscured coordinates or larger/unknown accuracy. All positions come from the anonymous public API.",
+  "precision_counts": {
+    "coarse_or_unknown": 6964,
+    "precise": 19365,
+    "obscured": 2630
+  },
+  "projection": {
+    "name": "Spherical Albers equal-area conic",
+    "standard_parallels_deg": [
+      20,
+      50
+    ],
+    "central_meridian_deg": -82.18,
+    "earth_radius_km": 6371.0088
+  },
+  "interpretation": "Points show reported occurrences. Sampling effort varies across the map. The record count includes coincident and overlapping locations.",
+  "sources": [
+    {
+      "title": "iNaturalist observations",
+      "url": "https://www.inaturalist.org/observations?place_id=97394&quality_grade=research&captive=false&geo=true&taxon_id=48259&view=map"
+    },
+    {
+      "title": "Region boundary (North America, iNaturalist place 97394)",
+      "url": "https://www.inaturalist.org/places/north-america"
+    },
+    {
+      "title": "iNaturalist geoprivacy",
+      "url": "https://www.inaturalist.org/pages/geoprivacy"
+    },
+    {
+      "title": "Natural Earth boundaries",
+      "url": "https://www.naturalearthdata.com/downloads/50m-cultural-vectors/"
+    }
+  ]
+}

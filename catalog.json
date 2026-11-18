@@ -183,7 +183,36 @@
           "title": "iNaturalist — Pelidnota punctata",
           "url": "https://www.inaturalist.org/taxa/48259"
         }
-      ]
+      ],
+      "native_status": {
+        "text": "Native to eastern North America, including the eastern United States and southern Canada.",
+        "status": "native",
+        "sources": [
+          {
+            "title": "Animal Diversity Web, geographic range",
+            "url": "https://animaldiversity.org/accounts/Pelidnota_punctata/"
+          },
+          {
+            "title": "iNaturalist, regional establishment status",
+            "url": "https://www.inaturalist.org/taxa/48259#status-tab"
+          },
+          {
+            "title": "BugGuide, Pelidnota punctata",
+            "url": "https://www.bugguide.net/node/view/3139"
+          }
+        ]
+      },
+      "distribution": {
+        "slug": "pelidnota-punctata",
+        "file": "map-pelidnota-punctata.png",
+        "count": 26329,
+        "raw_count": 26331,
+        "excluded_count": 2,
+        "date": "2026-11-18",
+        "url": "https://www.inaturalist.org/observations?place_id=97394&quality_grade=research&captive=false&geo=true&taxon_id=48259&view=map",
+        "caption": "26,329 of 26,331 wild, research-grade iNaturalist observations in North America are plotted at their public coordinates. The geographic review excluded 2 remote reports.",
+        "data_file": "map-data-pelidnota-punctata.json"
+      }
     },
     {
       "slug": "odontotaenius-disjunctus",
@@ -234,7 +263,36 @@
           "title": "iNaturalist — Odontotaenius disjunctus",
           "url": "https://www.inaturalist.org/taxa/122214"
         }
-      ]
+      ],
+      "native_status": {
+        "text": "Native to eastern North America, including the eastern United States and southern Canada. Its range extends west to eastern Texas and the central Great Plains.",
+        "status": "native",
+        "sources": [
+          {
+            "title": "University of Florida, horned passalus distribution",
+            "url": "https://ask.ifas.ufl.edu/publication/IN879"
+          },
+          {
+            "title": "iNaturalist, regional establishment status",
+            "url": "https://www.inaturalist.org/taxa/122214#status-tab"
+          },
+          {
+            "title": "BugGuide, Odontotaenius disjunctus",
+            "url": "https://www.bugguide.net/node/view/2864"
+          }
+        ]
+      },
+      "distribution": {
+        "slug": "odontotaenius-disjunctus",
+        "file": "map-odontotaenius-disjunctus.png",
+        "count": 30988,
+        "raw_count": 30989,
+        "excluded_count": 1,
+        "date": "2026-11-18",
+        "url": "https://www.inaturalist.org/observations?place_id=97394&quality_grade=research&captive=false&geo=true&taxon_id=122214&view=map",
+        "caption": "30,988 of 30,989 wild, research-grade iNaturalist observations in North America are plotted at their public coordinates. The geographic review excluded 1 remote report.",
+        "data_file": "map-data-odontotaenius-disjunctus.json"
+      }
     },
     {
       "slug": "tenebrio-molitor",
@@ -290,6 +348,24 @@
           "url": "https://www.inaturalist.org/taxa/131970"
         }
       ],
+      "native_status": {
+        "text": "Introduced and established in North America, including Canada, the United States and Mexico. BugGuide places its North American introduction at approximately 1827.",
+        "status": "introduced",
+        "sources": [
+          {
+            "title": "BugGuide, yellow mealworm range and introduction",
+            "url": "https://www.bugguide.net/node/view/101010"
+          },
+          {
+            "title": "Canadian Grain Commission, yellow mealworm",
+            "url": "https://www.canada.ca/en/grain-commission/services/grain-quality/manage-stored-grain/identify-insect/secondary-insect-pests/yellow-mealworm.html"
+          },
+          {
+            "title": "iNaturalist, regional establishment status",
+            "url": "https://www.inaturalist.org/taxa/131970#status-tab"
+          }
+        ]
+      },
       "distribution": {
         "slug": "tenebrio-molitor",
         "file": "map-tenebrio-molitor.png",
@@ -348,6 +424,28 @@
           "url": "https://www.inaturalist.org/taxa/884494"
         }
       ],
+      "native_status": {
+        "text": "Native to Texas, Louisiana and the adjoining U.S.–Mexico border region. Introduced in Florida, where the state recorded it in 2003.",
+        "status": "native; introduced in Florida",
+        "sources": [
+          {
+            "title": "Skelley et al. (2025), Florida adventive arthropod records",
+            "url": "https://www1.montpellier.inrae.fr/CBGP/spmweb/pdf/Authors_S/Skelley_et_al_2025.pdf"
+          },
+          {
+            "title": "Ratcliffe (2018), Gymnetis revision and original description",
+            "url": "https://marketplace.unl.edu/default/genus-gymnetis.html"
+          },
+          {
+            "title": "iNaturalist, regional establishment status",
+            "url": "https://www.inaturalist.org/taxa/884494#status-tab"
+          },
+          {
+            "title": "BugGuide, Gymnetis thula",
+            "url": "https://www.bugguide.net/node/view/68158"
+          }
+        ]
+      },
       "distribution": {
         "slug": "gymnetis-thula",
         "file": "map-gymnetis-thula.png",
@@ -452,7 +550,40 @@
           ],
           "url": "https://discord.com/channels/1285685926340726887/1286131091987763264/1369773748776992869"
         }
-      ]
+      ],
+      "native_status": {
+        "text": "Native to the eastern United States, from New York south to Florida and west to the eastern Great Plains and eastern Texas.",
+        "status": "native",
+        "sources": [
+          {
+            "title": "Bunch and Evans (2020), eastern and western Hercules beetles",
+            "url": "https://virginianaturalhistorysociety.com/wp-content/uploads/sites/28/2023/07/Banisteria_54_2020.pdf"
+          },
+          {
+            "title": "University of Arkansas Arthropod Museum, eastern Hercules beetle",
+            "url": "https://arthropod.uark.edu/eastern-hercules-beetle/"
+          },
+          {
+            "title": "iNaturalist, regional establishment status",
+            "url": "https://www.inaturalist.org/taxa/83804#status-tab"
+          },
+          {
+            "title": "BugGuide, Dynastes tityus",
+            "url": "https://www.bugguide.net/node/view/2877"
+          }
+        ]
+      },
+      "distribution": {
+        "slug": "dynastes-tityus",
+        "file": "map-dynastes-tityus.png",
+        "count": 11993,
+        "raw_count": 11994,
+        "excluded_count": 1,
+        "date": "2026-11-18",
+        "url": "https://www.inaturalist.org/observations?place_id=97394&quality_grade=research&captive=false&geo=true&taxon_id=83804&view=map",
+        "caption": "11,993 of 11,994 wild, research-grade iNaturalist observations in North America are plotted at their public coordinates. The geographic review excluded 1 remote report.",
+        "data_file": "map-data-dynastes-tityus.json"
+      }
     },
     {
       "slug": "lucanus-elaphus",
@@ -504,6 +635,28 @@
           "url": "https://www.inaturalist.org/taxa/84834"
         }
       ],
+      "native_status": {
+        "text": "Native to eastern and central North America. Its documented range includes the eastern and central United States and southern Ontario.",
+        "status": "native",
+        "sources": [
+          {
+            "title": "Distribution of Lucanus elaphus, The Coleopterists Bulletin (2001)",
+            "url": "https://coleopsoc.org/wp-content/uploads/2018/05/CB55_4.pdf"
+          },
+          {
+            "title": "Ulyshen et al. (2017), distribution of the giant stag beetle",
+            "url": "https://research.fs.usda.gov/treesearch/54135"
+          },
+          {
+            "title": "iNaturalist, regional establishment status",
+            "url": "https://www.inaturalist.org/taxa/84834#status-tab"
+          },
+          {
+            "title": "BugGuide, Lucanus elaphus",
+            "url": "https://www.bugguide.net/node/view/3105"
+          }
+        ]
+      },
       "distribution": {
         "slug": "lucanus-elaphus",
         "file": "map-lucanus-elaphus.png",
@@ -591,6 +744,20 @@
           "url": "https://junkaiwangisme.wixsite.com/usbeetlebreeding/post/breeding-chrysina-woodi-the-jewel-of-texas"
         }
       ],
+      "native_status": {
+        "text": "Native to the mountains of the southwestern United States and northern Mexico, including Arizona, New Mexico, western Texas and Chihuahua.",
+        "status": "native",
+        "sources": [
+          {
+            "title": "New Mexico State Wildlife Action Plan, Wood’s jewel scarab",
+            "url": "https://swap.dgf.nm.gov/species/woods-jewel-scarab/"
+          },
+          {
+            "title": "BugGuide, Chrysina woodi",
+            "url": "https://www.bugguide.net/node/view/167323"
+          }
+        ]
+      },
       "distribution": {
         "slug": "chrysina-woodi",
         "file": "map-chrysina-woodi.png",
@@ -660,6 +827,24 @@
           "url": "https://www.inaturalist.org/taxa/267012"
         }
       ],
+      "native_status": {
+        "text": "Native from the southwestern United States through Mexico to Guatemala. The 2009 revision distinguishes it from the eastern U.S. species Xyloryctes jamaicensis.",
+        "status": "native",
+        "sources": [
+          {
+            "title": "Ratcliffe (2009), Xyloryctes in the United States",
+            "url": "https://digitalcommons.unl.edu/insectamundi/624/"
+          },
+          {
+            "title": "iNaturalist, regional establishment status",
+            "url": "https://www.inaturalist.org/taxa/267012#status-tab"
+          },
+          {
+            "title": "BugGuide, Xyloryctes thestalus",
+            "url": "https://www.bugguide.net/node/view/345795"
+          }
+        ]
+      },
       "distribution": {
         "slug": "xyloryctes-thestalus",
         "file": "map-xyloryctes-thestalus.png",
@@ -764,7 +949,32 @@
           "text": "Eggs were photographed in the substrate of a wild-caught female in July 2025. A later photographic series documented captive-bred larvae reared on flake soil. The collection locality of the photographed stocks was not specified.",
           "url": "https://discord.com/channels/1285685926340726887/1286131091987763264/1461064771502870602"
         }
-      ]
+      ],
+      "native_status": {
+        "text": "Native across the southern United States, including the Southwest and Southeast. Its range continues through Mexico and Central America into South America.",
+        "status": "native",
+        "sources": [
+          {
+            "title": "Ratcliffe (1976), revision of Strategus",
+            "url": "https://core.ac.uk/download/pdf/188143691.pdf"
+          },
+          {
+            "title": "BugGuide, ox beetle distribution",
+            "url": "https://www.bugguide.net/node/view/6278"
+          }
+        ]
+      },
+      "distribution": {
+        "slug": "strategus-aloeus",
+        "file": "map-strategus-aloeus.png",
+        "count": 6933,
+        "raw_count": 6934,
+        "excluded_count": 1,
+        "date": "2026-11-18",
+        "url": "https://www.inaturalist.org/observations?place_id=97394&quality_grade=research&captive=false&geo=true&taxon_id=199942&view=map",
+        "caption": "6,933 of 6,934 wild, research-grade iNaturalist observations in North America are plotted at their public coordinates. The geographic review excluded 1 remote report. Candidate labels use collection geography as a proxy. Records outside the specified U.S. corridor or with uncertain localities remain unassigned.",
+        "data_file": "map-data-strategus-aloeus.json"
+      }
     },
     {
       "slug": "mallodon-dasystomus",
@@ -815,6 +1025,24 @@
           "url": "https://www.inaturalist.org/taxa/269875"
         }
       ],
+      "native_status": {
+        "text": "Native to the southern United States and Mexico, including Florida.",
+        "status": "native",
+        "sources": [
+          {
+            "title": "Mankin et al. (2018), geographic origin of the hardwood stump borer",
+            "url": "https://www.ars.usda.gov/ARSUserFiles/3559/publications/mdasystomusdetectflaent18.pdf"
+          },
+          {
+            "title": "iNaturalist, regional establishment status",
+            "url": "https://www.inaturalist.org/taxa/269875#status-tab"
+          },
+          {
+            "title": "BugGuide, Mallodon dasystomus",
+            "url": "https://www.bugguide.net/node/view/4257"
+          }
+        ]
+      },
       "distribution": {
         "slug": "mallodon-dasystomus",
         "file": "map-mallodon-dasystomus.png",
@@ -896,6 +1124,24 @@
           "url": "https://www.inaturalist.org/taxa/231552"
         }
       ],
+      "native_status": {
+        "text": "Native to southern Florida and the Caribbean. Published records include Cuba, the Bahamas and the Cayman Islands. ITIS lists the species as native in the continental United States.",
+        "status": "native",
+        "sources": [
+          {
+            "title": "ITIS, jurisdictional origin for Stenodontes chevrolati",
+            "url": "https://www.itis.gov/ITISWebService/jsonservice/getJurisdictionalOriginFromTSN?tsn=703281"
+          },
+          {
+            "title": "Catalogue of the Cerambycidae of the Neotropical Region, Prioninae",
+            "url": "https://cerambycidae.cl/bibliografia/Parte3_Prioninae_Lepturinae_2018.pdf"
+          },
+          {
+            "title": "BugGuide, Stenodontes chevrolati",
+            "url": "https://www.bugguide.net/node/view/774233"
+          }
+        ]
+      },
       "distribution": {
         "slug": "stenodontes-chevrolati",
         "file": "map-stenodontes-chevrolati.png",
@@ -1021,6 +1267,20 @@
           "url": "https://discord.com/channels/1285685926340726887/1286131091987763264/1508290253901926563"
         }
       ],
+      "native_status": {
+        "text": "Native to the southwestern United States and northern Mexico. The documented range includes Arizona, New Mexico, Utah and Chihuahua.",
+        "status": "native",
+        "sources": [
+          {
+            "title": "University of Nebraska State Museum, western Hercules beetle",
+            "url": "https://www.unsm-ento.unl.edu/Guide/Scarabaeoidea/Scarabaeidae/Dynastinae/Dynastinae-Tribes/Dynastini/Dynastes/D-granti/D_granti.html"
+          },
+          {
+            "title": "BugGuide, Dynastes grantii",
+            "url": "https://www.bugguide.net/node/view/139578"
+          }
+        ]
+      },
       "distribution": {
         "slug": "dynastes-grantii",
         "file": "map-dynastes-grantii.png",
@@ -1089,6 +1349,24 @@
           "url": "https://www.inaturalist.org/taxa/301565-Euphoria-monticola"
         }
       ],
+      "native_status": {
+        "text": "Native to the southwestern United States and Mexico. The U.S. range includes southeastern Arizona.",
+        "status": "native",
+        "sources": [
+          {
+            "title": "Orozco (2012), Euphoria monticola distribution map",
+            "url": "https://doi.org/10.5281/zenodo.4907268"
+          },
+          {
+            "title": "BugGuide, Euphoria monticola",
+            "url": "https://www.bugguide.net/node/view/738513"
+          },
+          {
+            "title": "iNaturalist, regional establishment status",
+            "url": "https://www.inaturalist.org/taxa/301565-Euphoria-monticola#status-tab"
+          }
+        ]
+      },
       "distribution": {
         "slug": "euphoria-monticola",
         "file": "map-euphoria-monticola.png",
@@ -1165,6 +1443,28 @@
           "url": "https://www.inaturalist.org/taxa/226688-Osmoderma-eremicola"
         }
       ],
+      "native_status": {
+        "text": "Native to eastern North America, including the eastern United States and southern Canada.",
+        "status": "native",
+        "sources": [
+          {
+            "title": "Steffek et al. (2024), North American Osmoderma",
+            "url": "https://www.life.illinois.edu/hanks/pdfs/Steffek%20et%20al%202024%20-%20Osmoderma%20pher%20-%20JCE%2050.pdf"
+          },
+          {
+            "title": "Mountain Lake Biological Station, hermit flower beetle",
+            "url": "https://mlbs.virginia.edu/organism/hermit-flower-beetle"
+          },
+          {
+            "title": "iNaturalist, regional establishment status",
+            "url": "https://www.inaturalist.org/taxa/226688-Osmoderma-eremicola#status-tab"
+          },
+          {
+            "title": "BugGuide, Osmoderma eremicola",
+            "url": "https://www.bugguide.net/node/view/9891"
+          }
+        ]
+      },
       "distribution": {
         "slug": "osmoderma-eremicola",
         "file": "map-osmoderma-eremicola.png",
@@ -1241,6 +1541,20 @@
           "url": "https://www.inaturalist.org/taxa/325790-Chrysina-gloriosa"
         }
       ],
+      "native_status": {
+        "text": "Native to the southwestern United States and northern Mexico. Documented populations include Arizona, western Texas, Chihuahua and Sonora.",
+        "status": "native",
+        "sources": [
+          {
+            "title": "University of Nebraska State Museum, glorious scarab",
+            "url": "https://unsm-ento.unl.edu/Guide/Scarabaeoidea/Scarabaeidae/Rutelinae/Rutelinae-Tribes/Rutelini/Chrysina/Chrysina-species/C-gloriosa/Cgloriosa.html"
+          },
+          {
+            "title": "BugGuide, Chrysina gloriosa",
+            "url": "https://www.bugguide.net/node/view/6605"
+          }
+        ]
+      },
       "distribution": {
         "slug": "chrysina-gloriosa",
         "file": "map-chrysina-gloriosa.png",
@@ -1251,6 +1565,461 @@
         "url": "https://www.inaturalist.org/observations?place_id=97394&quality_grade=research&captive=false&geo=true&taxon_id=325790&view=map",
         "caption": "1,323 of 1,323 wild, research-grade iNaturalist observations in North America are plotted at their public coordinates.",
         "data_file": "map-data-chrysina-gloriosa.json"
+      }
+    },
+    {
+      "name": "Osmoderma subplanatum",
+      "slug": "osmoderma-subplanatum",
+      "group": "cetoniinae",
+      "common": "Hermit flower beetle",
+      "intro": "Larvae fed flake soil advanced from the first to the third instar in approximately one month.",
+      "facts": [
+        {
+          "title": "Recorded interval",
+          "text": "About one month from first to third instar"
+        },
+        {
+          "title": "Recorded substrate",
+          "text": "Flake soil"
+        }
+      ],
+      "sections": [
+        {
+          "title": "Larval development",
+          "text": "The June 2025 record identifies the larvae as first instars one month before they were photographed as third instars. They developed in commercially prepared flake soil. The interval records growth of this group under its rearing conditions."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Larvae on flake soil, 19 June 2025",
+          "url": "https://discord.com/channels/1285685926340726887/1286131091987763264/1385137293320261742"
+        }
+      ],
+      "record_type": "Rearing observations",
+      "primary_url": "https://discord.com/channels/1285685926340726887/1286131091987763264/1385137293320261742",
+      "classification": [
+        {
+          "title": "BugGuide — Osmoderma subplanatum",
+          "url": "https://www.bugguide.net/node/view/212819"
+        },
+        {
+          "title": "iNaturalist — Osmoderma subplanatum",
+          "url": "https://www.inaturalist.org/taxa/226689"
+        }
+      ],
+      "native_status": {
+        "text": "Native to the Great Plains of North America. Its taxonomic relationship to the eastern Osmoderma eremicola remains under discussion.",
+        "status": "native",
+        "sources": [
+          {
+            "title": "Steffek et al. (2024), North American Osmoderma",
+            "url": "https://www.life.illinois.edu/hanks/pdfs/Steffek%20et%20al%202024%20-%20Osmoderma%20pher%20-%20JCE%2050.pdf"
+          },
+          {
+            "title": "BugGuide, Osmoderma subplanatum and spelling history",
+            "url": "https://www.bugguide.net/node/view/212819"
+          },
+          {
+            "title": "iNaturalist, regional establishment status",
+            "url": "https://www.inaturalist.org/taxa/226689#status-tab"
+          }
+        ]
+      },
+      "distribution": {
+        "slug": "osmoderma-subplanatum",
+        "file": "map-osmoderma-subplanatum.png",
+        "count": 432,
+        "raw_count": 432,
+        "excluded_count": 0,
+        "date": "2026-11-18",
+        "url": "https://www.inaturalist.org/observations?place_id=97394&quality_grade=research&captive=false&geo=true&taxon_id=226689&view=map",
+        "caption": "432 of 432 wild, research-grade iNaturalist observations in North America are plotted at their public coordinates.",
+        "data_file": "map-data-osmoderma-subplanatum.json"
+      },
+      "aliases": [
+        "Osmoderma subplanata"
+      ]
+    },
+    {
+      "name": "Osmoderma scabrum",
+      "slug": "osmoderma-scabrum",
+      "group": "cetoniinae",
+      "common": "Rough hermit beetle",
+      "intro": "In January, individuals in a captive group were photographed within dormancy cells.",
+      "facts": [
+        {
+          "title": "Dormancy record",
+          "text": "24 January 2026"
+        }
+      ],
+      "sections": [
+        {
+          "title": "Dormancy cells",
+          "text": "The January photographs record individuals occupying cells in the rearing substrate. The observation establishes the presence of a dormant period in this group. Its duration and temperature were not recorded in the post."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Dormancy cells in culture, 24 January 2026",
+          "url": "https://discord.com/channels/1285685926340726887/1286131091987763264/1464549636529197137"
+        }
+      ],
+      "record_type": "Rearing observations",
+      "primary_url": "https://discord.com/channels/1285685926340726887/1286131091987763264/1464549636529197137",
+      "classification": [
+        {
+          "title": "BugGuide — Osmoderma scabrum",
+          "url": "https://www.bugguide.net/node/view/15974"
+        },
+        {
+          "title": "iNaturalist — Osmoderma scabrum",
+          "url": "https://www.inaturalist.org/taxa/199455"
+        }
+      ],
+      "native_status": {
+        "text": "Native to eastern North America, including the eastern United States and southern Canada.",
+        "status": "native",
+        "sources": [
+          {
+            "title": "Steffek et al. (2024), North American Osmoderma",
+            "url": "https://www.life.illinois.edu/hanks/pdfs/Steffek%20et%20al%202024%20-%20Osmoderma%20pher%20-%20JCE%2050.pdf"
+          },
+          {
+            "title": "BugGuide, Osmoderma scabrum and spelling history",
+            "url": "https://www.bugguide.net/node/view/15974"
+          },
+          {
+            "title": "iNaturalist, regional establishment status",
+            "url": "https://www.inaturalist.org/taxa/199455#status-tab"
+          }
+        ]
+      },
+      "distribution": {
+        "slug": "osmoderma-scabrum",
+        "file": "map-osmoderma-scabrum.png",
+        "count": 5069,
+        "raw_count": 5069,
+        "excluded_count": 0,
+        "date": "2026-11-18",
+        "url": "https://www.inaturalist.org/observations?place_id=97394&quality_grade=research&captive=false&geo=true&taxon_id=199455&view=map",
+        "caption": "5,069 of 5,069 wild, research-grade iNaturalist observations in North America are plotted at their public coordinates.",
+        "data_file": "map-data-osmoderma-scabrum.json"
+      },
+      "aliases": [
+        "Osmoderma scabra"
+      ]
+    },
+    {
+      "name": "Lucanus mazama",
+      "slug": "lucanus-mazama",
+      "group": "lucanidae",
+      "common": "Cottonwood stag beetle",
+      "intro": "A breeding enclosure yielded 46 larvae when dismantled in September 2025. A separate observation records successful breeding on flake soil.",
+      "facts": [
+        {
+          "title": "Larval count",
+          "text": "46 in one enclosure"
+        },
+        {
+          "title": "Breeding substrate",
+          "text": "Flake soil"
+        }
+      ],
+      "sections": [
+        {
+          "title": "Breeding substrate",
+          "text": "In July 2025, the breeder reported that this species reproduced on flake soil. The substrate formulation was not specified."
+        },
+        {
+          "title": "Brood recovery",
+          "text": "The breeder dismantled a separate enclosure on 22 September and counted 46 larvae. The number of founding females was not stated, so the count applies to the enclosure."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Larval recovery, 22 September 2025",
+          "url": "https://discord.com/channels/1285685926340726887/1286131091987763264/1419733822483730474"
+        },
+        {
+          "title": "Breeding on flake soil, 22 July 2025",
+          "url": "https://discord.com/channels/1285685926340726887/1384034410046689341/1397101097981837322"
+        }
+      ],
+      "record_type": "Rearing observations",
+      "primary_url": "https://discord.com/channels/1285685926340726887/1286131091987763264/1419733822483730474",
+      "classification": [
+        {
+          "title": "BugGuide — Lucanus mazama",
+          "url": "https://www.bugguide.net/node/view/93340"
+        },
+        {
+          "title": "iNaturalist — Lucanus mazama",
+          "url": "https://www.inaturalist.org/taxa/60817"
+        }
+      ],
+      "native_status": {
+        "text": "Native to the southwestern United States and Mexico, including the mountains of Arizona and New Mexico.",
+        "status": "native",
+        "sources": [
+          {
+            "title": "University of Nebraska State Museum, cottonwood stag beetle",
+            "url": "https://unsm-ento.unl.edu/Guide/Scarabaeoidea/Lucanidae/LUC/LUCA/mazama/mazama.html"
+          },
+          {
+            "title": "Animal Diversity Web, native range of Lucanus mazama",
+            "url": "https://animaldiversity.org/accounts/Lucanus_mazama/"
+          },
+          {
+            "title": "iNaturalist, regional establishment status",
+            "url": "https://www.inaturalist.org/taxa/60817#status-tab"
+          },
+          {
+            "title": "BugGuide, Lucanus mazama",
+            "url": "https://www.bugguide.net/node/view/93340"
+          }
+        ]
+      },
+      "distribution": {
+        "slug": "lucanus-mazama",
+        "file": "map-lucanus-mazama.png",
+        "count": 1397,
+        "raw_count": 1397,
+        "excluded_count": 0,
+        "date": "2026-11-18",
+        "url": "https://www.inaturalist.org/observations?place_id=97394&quality_grade=research&captive=false&geo=true&taxon_id=60817&view=map",
+        "caption": "1,397 of 1,397 wild, research-grade iNaturalist observations in North America are plotted at their public coordinates.",
+        "data_file": "map-data-lucanus-mazama.json"
+      }
+    },
+    {
+      "name": "Lucanus capreolus",
+      "slug": "lucanus-capreolus",
+      "group": "lucanidae",
+      "common": "Reddish-brown stag beetle",
+      "intro": "A September brood census recorded 65 larvae. Photographs also documented adult emergence, although later individuals in culture developed abdominal abnormalities.",
+      "facts": [
+        {
+          "title": "Brood count",
+          "text": "65 larvae in the reported census"
+        }
+      ],
+      "sections": [
+        {
+          "title": "Brood census",
+          "text": "The September 2025 count was posted alongside a separate census for Lucanus mazama. Both counts refer to larvae recovered from breeding enclosures."
+        },
+        {
+          "title": "Adult emergence",
+          "text": "Adults were photographed after emergence on 17 September. In a later report, the breeder described abdominal abnormalities in a number of newly emerged adults. The cause was undetermined."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Brood census, 22 September 2025",
+          "url": "https://discord.com/channels/1285685926340726887/1286131091987763264/1419733879580786819"
+        },
+        {
+          "title": "Adult emergence, 17 September 2025",
+          "url": "https://discord.com/channels/1285685926340726887/1286131091987763264/1417728693908013147"
+        },
+        {
+          "title": "Emergence difficulties, 12 January 2026",
+          "url": "https://discord.com/channels/1285685926340726887/1286131091987763264/1460410684524462161"
+        }
+      ],
+      "record_type": "Rearing observations",
+      "primary_url": "https://discord.com/channels/1285685926340726887/1286131091987763264/1419733879580786819",
+      "classification": [
+        {
+          "title": "BugGuide — Lucanus capreolus",
+          "url": "https://www.bugguide.net/node/view/3107"
+        },
+        {
+          "title": "iNaturalist — Lucanus capreolus",
+          "url": "https://www.inaturalist.org/taxa/60812"
+        }
+      ],
+      "native_status": {
+        "text": "Native to eastern North America, including the eastern United States and southeastern Canada.",
+        "status": "native",
+        "sources": [
+          {
+            "title": "University of Nebraska State Museum, Lucanus capreolus distribution",
+            "url": "https://unsm-ento.unl.edu/Guide/Scarabaeoidea/Lucanidae/LUC/LUCA/capreolus/capreolus.html"
+          },
+          {
+            "title": "NatureServe, Lucanus capreolus",
+            "url": "https://explorer.natureserve.org/Taxon/ELEMENT_GLOBAL.2.747305/Lucanus_capreolus"
+          },
+          {
+            "title": "iNaturalist, regional establishment status",
+            "url": "https://www.inaturalist.org/taxa/60812#status-tab"
+          },
+          {
+            "title": "BugGuide, Lucanus capreolus",
+            "url": "https://www.bugguide.net/node/view/3107"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Lucanus placidus",
+      "slug": "lucanus-placidus",
+      "group": "lucanidae",
+      "common": "Smooth stag beetle",
+      "intro": "Several months elapsed before larvae entered the prepupal stage. The transition followed a brief period of cooler room temperatures in July.",
+      "facts": [
+        {
+          "title": "Stage documented",
+          "text": "Prepupa and pupa"
+        },
+        {
+          "title": "Pupa photographed",
+          "text": "31 July 2025"
+        }
+      ],
+      "sections": [
+        {
+          "title": "Timing of prepupation",
+          "text": "During a period of cooler room temperatures, larvae of both Lucanus placidus and L. elaphus entered the prepupal stage after several months without doing so. No temperature measurements or comparison group were reported."
+        },
+        {
+          "title": "Pupation",
+          "text": "A photograph from 31 July documents a pupa of L. placidus, five days after the prepupal observation. The reports do not establish the pupation interval of an individual."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Pupa, 31 July 2025",
+          "url": "https://discord.com/channels/1285685926340726887/1286131091987763264/1400484325639585873"
+        },
+        {
+          "title": "Transition to prepupae, 26 July 2025",
+          "url": "https://discord.com/channels/1285685926340726887/1286131091987763264/1398829436912275552"
+        }
+      ],
+      "record_type": "Rearing observations",
+      "primary_url": "https://discord.com/channels/1285685926340726887/1286131091987763264/1400484325639585873",
+      "classification": [
+        {
+          "title": "BugGuide — Lucanus placidus",
+          "url": "https://www.bugguide.net/node/view/4180"
+        },
+        {
+          "title": "iNaturalist — Lucanus placidus",
+          "url": "https://www.inaturalist.org/taxa/224156"
+        }
+      ],
+      "native_status": {
+        "text": "Native to the central and eastern United States and southern Canada, including Ontario.",
+        "status": "native",
+        "sources": [
+          {
+            "title": "University of Nebraska State Museum, Lucanus placidus distribution",
+            "url": "https://unsm-ento.unl.edu/Guide/Scarabaeoidea/Lucanidae/LUC/LUCA/placidus/placidus.html"
+          },
+          {
+            "title": "The family Lucanidae in Louisiana, geographic distribution of Lucanus placidus",
+            "url": "https://www.academia.edu/69627435/THE_FAMILY_LUCANIDAE_LATREILLE_1804_COLEOPTERA_IN_LOUISIANA"
+          },
+          {
+            "title": "iNaturalist, regional establishment status",
+            "url": "https://www.inaturalist.org/taxa/224156#status-tab"
+          },
+          {
+            "title": "BugGuide, Lucanus placidus",
+            "url": "https://www.bugguide.net/node/view/4180"
+          }
+        ]
+      },
+      "distribution": {
+        "slug": "lucanus-placidus",
+        "file": "map-lucanus-placidus.png",
+        "count": 2964,
+        "raw_count": 2964,
+        "excluded_count": 0,
+        "date": "2026-11-18",
+        "url": "https://www.inaturalist.org/observations?place_id=97394&quality_grade=research&captive=false&geo=true&taxon_id=224156&view=map",
+        "caption": "2,964 of 2,964 wild, research-grade iNaturalist observations in North America are plotted at their public coordinates.",
+        "data_file": "map-data-lucanus-placidus.json"
+      }
+    },
+    {
+      "name": "Dorcus parallelus",
+      "slug": "dorcus-parallelus",
+      "group": "lucanidae",
+      "common": "Antelope stag beetle",
+      "intro": "A May census recorded five surviving larvae. A separate June culture was photographed on flake soil.",
+      "facts": [
+        {
+          "title": "May census",
+          "text": "Five larvae remaining"
+        },
+        {
+          "title": "Larval substrate recorded",
+          "text": "Flake soil"
+        }
+      ],
+      "sections": [
+        {
+          "title": "Larval rearing",
+          "text": "Five larvae remained in the culture examined on 8 May 2026. In June, the breeder photographed the species on a prepared flake-soil formulation. The starting number of larvae and the composition of the substrate were not reported in these messages."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Flake-soil culture, 12 June 2026",
+          "url": "https://discord.com/channels/1285685926340726887/1286131091987763264/1515001135667220541"
+        },
+        {
+          "title": "Larval census, 8 May 2026",
+          "url": "https://discord.com/channels/1285685926340726887/1286131091987763264/1502193244379807834"
+        }
+      ],
+      "record_type": "Rearing observations",
+      "primary_url": "https://discord.com/channels/1285685926340726887/1286131091987763264/1515001135667220541",
+      "classification": [
+        {
+          "title": "BugGuide — Dorcus parallelus",
+          "url": "https://www.bugguide.net/node/view/18864"
+        },
+        {
+          "title": "iNaturalist — Dorcus parallelus",
+          "url": "https://www.inaturalist.org/taxa/218677"
+        }
+      ],
+      "native_status": {
+        "text": "Native to the eastern United States and southeastern Canada.",
+        "status": "native",
+        "sources": [
+          {
+            "title": "University of Nebraska State Museum, Dorcus parallelus distribution",
+            "url": "https://unsm-ento.unl.edu/Guide/Scarabaeoidea/Lucanidae/LUC/DOR/parallelus.html"
+          },
+          {
+            "title": "Stag beetles of the genus Dorcus in North America",
+            "url": "https://pensoft.net/J_FILES/1/articles/292/292-G-1-layout.pdf"
+          },
+          {
+            "title": "iNaturalist, regional establishment status",
+            "url": "https://www.inaturalist.org/taxa/218677#status-tab"
+          },
+          {
+            "title": "BugGuide, Dorcus parallelus",
+            "url": "https://www.bugguide.net/node/view/18864"
+          }
+        ]
+      },
+      "distribution": {
+        "slug": "dorcus-parallelus",
+        "file": "map-dorcus-parallelus.png",
+        "count": 2349,
+        "raw_count": 2349,
+        "excluded_count": 0,
+        "date": "2026-11-18",
+        "url": "https://www.inaturalist.org/observations?place_id=97394&quality_grade=research&captive=false&geo=true&taxon_id=218677&view=map",
+        "caption": "2,349 of 2,349 wild, research-grade iNaturalist observations in North America are plotted at their public coordinates.",
+        "data_file": "map-data-dorcus-parallelus.json"
       }
     }
   ],
@@ -1283,7 +2052,8 @@
       "license": "Used with permission",
       "license_url": "",
       "original_url": "https://static.wixstatic.com/media/72e972_b67b869c5de941ff8f44f667087503f8~mv2.jpg",
-      "hero": false
+      "hero": false,
+      "stage": "Adults"
     },
     {
       "file": "strategus-aloeus-wang.jpg",
@@ -1298,7 +2068,8 @@
       "license": "Used with permission",
       "license_url": "",
       "original_url": "https://static.wixstatic.com/media/72e972_344502be56b842bea1b6f20735b02837~mv2.jpg",
-      "hero": false
+      "hero": false,
+      "stage": "Adults"
     },
     {
       "file": "mallodon-dasystomus-wang.jpg",
@@ -1327,7 +2098,7 @@
       "url": "https://junkaiwangisme.wixsite.com/usbeetlebreeding",
       "license": "Used with permission",
       "license_url": "",
-      "stage": "pupa",
+      "stage": "Prepupae and pupae",
       "original_url": "https://static.wixstatic.com/media/72e972_56821f8829be4d5c9b98e22ffc104ac2~mv2.jpg",
       "hero": false
     },
@@ -1442,7 +2213,8 @@
       "caption": "Adult pair in the rearing enclosure.",
       "url": "https://discord.com/channels/1285685926340726887/1463425635379843248",
       "credit": "@alan69.",
-      "hero": false
+      "hero": false,
+      "stage": "Adults"
     },
     {
       "file": "guide-1463425635379843248-01.jpg",
@@ -1453,7 +2225,8 @@
       "caption": "Larva viewed from the side on a hand.",
       "url": "https://discord.com/channels/1285685926340726887/1463425635379843248",
       "credit": "@alan69.",
-      "hero": false
+      "hero": false,
+      "stage": "Larvae"
     },
     {
       "file": "guide-1463425635379843248-02.jpg",
@@ -1464,7 +2237,8 @@
       "caption": "Larval head and mandibles visible against the palm.",
       "url": "https://discord.com/channels/1285685926340726887/1463425635379843248",
       "credit": "@alan69.",
-      "hero": false
+      "hero": false,
+      "stage": "Larvae"
     },
     {
       "file": "guide-1463425635379843248-04.jpg",
@@ -1475,7 +2249,8 @@
       "caption": "Pupa in a chamber against the wall of a one-gallon jar.",
       "url": "https://discord.com/channels/1285685926340726887/1463425635379843248",
       "credit": "@alan69.",
-      "hero": false
+      "hero": false,
+      "stage": "Prepupae and pupae"
     },
     {
       "file": "guide-1463425635379843248-05.jpg",
@@ -1486,7 +2261,8 @@
       "caption": "A small male alongside a larger adult.",
       "url": "https://discord.com/channels/1285685926340726887/1463425635379843248",
       "credit": "@alan69.",
-      "hero": false
+      "hero": false,
+      "stage": "Adults"
     },
     {
       "file": "guide-1463425635379843248-06.jpg",
@@ -1497,7 +2273,8 @@
       "caption": "Major male in dorsal view.",
       "url": "https://discord.com/channels/1285685926340726887/1463425635379843248",
       "credit": "@alan69.",
-      "hero": false
+      "hero": false,
+      "stage": "Adults"
     },
     {
       "file": "guide-1463425635379843248-07.jpg",
@@ -1508,7 +2285,8 @@
       "caption": "Larva visible near the base of a substrate-filled rearing container.",
       "url": "https://discord.com/channels/1285685926340726887/1463425635379843248",
       "credit": "@alan69.",
-      "hero": false
+      "hero": false,
+      "stage": "Larvae"
     },
     {
       "file": "guide-1379292918245756968-01.jpg",
@@ -1519,7 +2297,8 @@
       "caption": "Metallic green adult in dorsal view.",
       "url": "https://discord.com/channels/1285685926340726887/1379292918245756968",
       "credit": "@alan69.",
-      "hero": false
+      "hero": false,
+      "stage": "Adults"
     },
     {
       "file": "guide-1379292918245756968-02.jpg",
@@ -1530,7 +2309,8 @@
       "caption": "Blue-black adult viewed from above.",
       "url": "https://discord.com/channels/1285685926340726887/1379292918245756968",
       "credit": "@alan69.",
-      "hero": false
+      "hero": false,
+      "stage": "Adults"
     },
     {
       "file": "guide-1384712332667519138-01.jpg",
@@ -1541,7 +2321,8 @@
       "caption": "Adults grouped in a specimen cup.",
       "url": "https://discord.com/channels/1285685926340726887/1384712332667519138",
       "credit": "@alan69.",
-      "hero": false
+      "hero": false,
+      "stage": "Adults"
     },
     {
       "file": "guide-1384712332667519138-02.jpg",
@@ -1552,7 +2333,8 @@
       "caption": "Second view of the adults in the specimen cup.",
       "url": "https://discord.com/channels/1285685926340726887/1384712332667519138",
       "credit": "@alan69.",
-      "hero": false
+      "hero": false,
+      "stage": "Adults"
     },
     {
       "file": "guide-1369773748776992869-01.jpg",
@@ -1563,7 +2345,8 @@
       "caption": "Male in a clear container, viewed obliquely from above.",
       "url": "https://discord.com/channels/1285685926340726887/1286131091987763264/1369773748776992869",
       "credit": "@alan69.",
-      "hero": false
+      "hero": false,
+      "stage": "Adults"
     },
     {
       "file": "guide-1369773748776992869-02.jpg",
@@ -1574,7 +2357,8 @@
       "caption": "Dorsal view of the same male in the container.",
       "url": "https://discord.com/channels/1285685926340726887/1286131091987763264/1369773748776992869",
       "credit": "@alan69.",
-      "hero": false
+      "hero": false,
+      "stage": "Adults"
     },
     {
       "file": "guide-1369773748776992869-03.jpg",
@@ -1585,7 +2369,8 @@
       "caption": "Male resting on the palm, showing the yellow elytra and dark spots.",
       "url": "https://discord.com/channels/1285685926340726887/1286131091987763264/1369773748776992869",
       "credit": "@alan69.",
-      "hero": false
+      "hero": false,
+      "stage": "Adults"
     },
     {
       "file": "guide-1369773748776992869-04.jpg",
@@ -1596,7 +2381,8 @@
       "caption": "Adult male viewed along the midline of the body.",
       "url": "https://discord.com/channels/1285685926340726887/1286131091987763264/1369773748776992869",
       "credit": "@alan69.",
-      "hero": false
+      "hero": false,
+      "stage": "Adults"
     },
     {
       "file": "guide-1369773748776992869-05.jpg",
@@ -1607,7 +2393,8 @@
       "caption": "Oblique view of the male, showing the markings on the wing covers.",
       "url": "https://discord.com/channels/1285685926340726887/1286131091987763264/1369773748776992869",
       "credit": "@alan69.",
-      "hero": false
+      "hero": false,
+      "stage": "Adults"
     },
     {
       "file": "guide-1377160749536907274-01.jpg",
@@ -1618,7 +2405,8 @@
       "caption": "Five larvae recovered from a forest site.",
       "url": "https://discord.com/channels/1285685926340726887/1286131091987763264/1377160749536907274",
       "credit": "@alan69.",
-      "hero": false
+      "hero": false,
+      "stage": "Larvae"
     },
     {
       "file": "guide-1377160749536907274-02.jpg",
@@ -1629,7 +2417,8 @@
       "caption": "Second view of the five larvae in substrate.",
       "url": "https://discord.com/channels/1285685926340726887/1286131091987763264/1377160749536907274",
       "credit": "@alan69.",
-      "hero": false
+      "hero": false,
+      "stage": "Larvae"
     },
     {
       "file": "guide-1440152216483790880-01.jpg",
@@ -1640,7 +2429,8 @@
       "caption": "Large male in profile, showing the curvature of the two horns.",
       "url": "https://discord.com/channels/1285685926340726887/1286131091987763264/1440152216483790880",
       "credit": "@alan69.",
-      "hero": false
+      "hero": false,
+      "stage": "Adults"
     },
     {
       "file": "guide-1508290253901926563-01.jpg",
@@ -1651,7 +2441,8 @@
       "caption": "Eggs recovered from the enclosure of a single female.",
       "url": "https://discord.com/channels/1285685926340726887/1286131091987763264/1508290253901926563",
       "credit": "@alan69.",
-      "hero": false
+      "hero": false,
+      "stage": "Eggs"
     },
     {
       "file": "guide-1374546943577165957-01.jpg",
@@ -1662,7 +2453,8 @@
       "caption": "Prepupa visible in an opened earthen cell.",
       "url": "https://discord.com/channels/1285685926340726887/1286131091987763264/1374546943577165957",
       "credit": "@alan69.",
-      "hero": false
+      "hero": false,
+      "stage": "Prepupae and pupae"
     },
     {
       "file": "guide-1420192506674679828-01.jpg",
@@ -1673,7 +2465,8 @@
       "caption": "Larva at the edge of the enclosure during pupal cell construction.",
       "url": "https://discord.com/channels/1285685926340726887/1286131091987763264/1420192506674679828",
       "credit": "@alan69.",
-      "hero": false
+      "hero": false,
+      "stage": "Prepupae and pupae"
     },
     {
       "file": "guide-1428785524616990862-01.jpg",
@@ -1684,7 +2477,8 @@
       "caption": "Pupa visible through the side of the rearing enclosure.",
       "url": "https://discord.com/channels/1285685926340726887/1286131091987763264/1428785524616990862",
       "credit": "@alan69.",
-      "hero": false
+      "hero": false,
+      "stage": "Prepupae and pupae"
     },
     {
       "file": "guide-1442575367419465728-01.jpg",
@@ -1695,7 +2489,8 @@
       "caption": "One pupa in ventral view alongside a second individual in its cell.",
       "url": "https://discord.com/channels/1285685926340726887/1286131091987763264/1442575367419465728",
       "credit": "@alan69.",
-      "hero": false
+      "hero": false,
+      "stage": "Prepupae and pupae"
     },
     {
       "file": "guide-1525425131634294846-01.jpg",
@@ -1706,7 +2501,8 @@
       "caption": "Surviving larvae in a container of substrate.",
       "url": "https://discord.com/channels/1285685926340726887/1286131091987763264/1525425131634294846",
       "credit": "@alan69.",
-      "hero": false
+      "hero": false,
+      "stage": "Larvae"
     },
     {
       "file": "guide-1394714323632521327-01.jpg",
@@ -1717,7 +2513,8 @@
       "caption": "Eggs visible on and in the substrate.",
       "url": "https://discord.com/channels/1285685926340726887/1286131091987763264/1394714323632521327",
       "credit": "@alan69.",
-      "hero": false
+      "hero": false,
+      "stage": "Eggs"
     },
     {
       "file": "guide-1398163127065116774-01.jpg",
@@ -1728,7 +2525,8 @@
       "caption": "Eggs visible against the side of the rearing container.",
       "url": "https://discord.com/channels/1285685926340726887/1286131091987763264/1398163127065116774",
       "credit": "@alan69.",
-      "hero": false
+      "hero": false,
+      "stage": "Eggs"
     },
     {
       "file": "guide-1415671851656544417-01.jpg",
@@ -1739,7 +2537,8 @@
       "caption": "Larva resting on fingertips.",
       "url": "https://discord.com/channels/1285685926340726887/1286131091987763264/1415671851656544417",
       "credit": "@alan69.",
-      "hero": false
+      "hero": false,
+      "stage": "Larvae"
     },
     {
       "file": "guide-1416157937428336651-01.jpg",
@@ -1750,7 +2549,8 @@
       "caption": "Group of larvae in a shallow tray.",
       "url": "https://discord.com/channels/1285685926340726887/1286131091987763264/1416157937428336651",
       "credit": "@alan69.",
-      "hero": false
+      "hero": false,
+      "stage": "Larvae"
     },
     {
       "file": "guide-1416157937428336651-02.jpg",
@@ -1761,7 +2561,8 @@
       "caption": "Second view of the larval group.",
       "url": "https://discord.com/channels/1285685926340726887/1286131091987763264/1416157937428336651",
       "credit": "@alan69.",
-      "hero": false
+      "hero": false,
+      "stage": "Larvae"
     },
     {
       "file": "guide-1423671129922338818-01.jpg",
@@ -1772,7 +2573,8 @@
       "caption": "Larvae reared on flake soil.",
       "url": "https://discord.com/channels/1285685926340726887/1286131091987763264/1423671129922338818",
       "credit": "@alan69.",
-      "hero": false
+      "hero": false,
+      "stage": "Larvae"
     },
     {
       "file": "guide-1423671129922338818-02.jpg",
@@ -1783,7 +2585,8 @@
       "caption": "Larva viewed from the side.",
       "url": "https://discord.com/channels/1285685926340726887/1286131091987763264/1423671129922338818",
       "credit": "@alan69.",
-      "hero": false
+      "hero": false,
+      "stage": "Larvae"
     },
     {
       "file": "guide-1423671129922338818-03.jpg",
@@ -1794,7 +2597,8 @@
       "caption": "One larva in the hand above the rest of the group.",
       "url": "https://discord.com/channels/1285685926340726887/1286131091987763264/1423671129922338818",
       "credit": "@alan69.",
-      "hero": false
+      "hero": false,
+      "stage": "Larvae"
     },
     {
       "file": "guide-1441944304535732385-01.jpg",
@@ -1805,7 +2609,8 @@
       "caption": "Pupa viewed obliquely from below.",
       "url": "https://discord.com/channels/1285685926340726887/1286131091987763264/1441944304535732385",
       "credit": "@alan69.",
-      "hero": false
+      "hero": false,
+      "stage": "Prepupae and pupae"
     },
     {
       "file": "guide-1441944304535732385-02.jpg",
@@ -1816,7 +2621,284 @@
       "caption": "Male and female pupae viewed from below.",
       "url": "https://discord.com/channels/1285685926340726887/1286131091987763264/1441944304535732385",
       "credit": "@alan69.",
+      "hero": false,
+      "stage": "Prepupae and pupae"
+    },
+    {
+      "file": "guide-1385137293320261742-01.jpg",
+      "species": "Osmoderma subplanatum",
+      "width": 2992,
+      "height": 2992,
+      "alt": "Osmoderma subplanatum. Larvae from the flake-soil culture.",
+      "caption": "Larvae from the flake-soil culture.",
+      "url": "https://discord.com/channels/1285685926340726887/1286131091987763264/1385137293320261742",
+      "credit": "@alan69.",
+      "hero": false,
+      "stage": "Larvae"
+    },
+    {
+      "file": "guide-1464549636529197137-01.jpg",
+      "species": "Osmoderma scabrum",
+      "width": 2992,
+      "height": 2992,
+      "alt": "Osmoderma scabrum. First view of an individual in its dormancy cell.",
+      "caption": "First view of an individual in its dormancy cell.",
+      "url": "https://discord.com/channels/1285685926340726887/1286131091987763264/1464549636529197137",
+      "credit": "@alan69.",
+      "hero": false
+    },
+    {
+      "file": "guide-1464549636529197137-02.jpg",
+      "species": "Osmoderma scabrum",
+      "width": 2992,
+      "height": 2992,
+      "alt": "Osmoderma scabrum. Second view from the dormancy-cell series.",
+      "caption": "Second view from the dormancy-cell series.",
+      "url": "https://discord.com/channels/1285685926340726887/1286131091987763264/1464549636529197137",
+      "credit": "@alan69.",
+      "hero": false
+    },
+    {
+      "file": "guide-1419733822483730474-01.jpg",
+      "species": "Lucanus mazama",
+      "width": 2992,
+      "height": 2992,
+      "alt": "Lucanus mazama. First photograph from the larval recovery series.",
+      "caption": "First photograph from the larval recovery series.",
+      "url": "https://discord.com/channels/1285685926340726887/1286131091987763264/1419733822483730474",
+      "credit": "@alan69.",
+      "hero": false,
+      "stage": "Larvae"
+    },
+    {
+      "file": "guide-1419733822483730474-02.jpg",
+      "species": "Lucanus mazama",
+      "width": 2992,
+      "height": 2992,
+      "alt": "Lucanus mazama. Second photograph from the same enclosure.",
+      "caption": "Second photograph from the same enclosure.",
+      "url": "https://discord.com/channels/1285685926340726887/1286131091987763264/1419733822483730474",
+      "credit": "@alan69.",
+      "hero": false
+    },
+    {
+      "file": "guide-1419733879580786819-01.jpg",
+      "species": "Lucanus capreolus",
+      "width": 2992,
+      "height": 2992,
+      "alt": "Lucanus capreolus. First photograph from the brood census.",
+      "caption": "First photograph from the brood census.",
+      "url": "https://discord.com/channels/1285685926340726887/1286131091987763264/1419733879580786819",
+      "credit": "@alan69.",
+      "hero": false
+    },
+    {
+      "file": "guide-1419733879580786819-02.jpg",
+      "species": "Lucanus capreolus",
+      "width": 2992,
+      "height": 2992,
+      "alt": "Lucanus capreolus. Second photograph from the brood census.",
+      "caption": "Second photograph from the brood census.",
+      "url": "https://discord.com/channels/1285685926340726887/1286131091987763264/1419733879580786819",
+      "credit": "@alan69.",
+      "hero": false
+    },
+    {
+      "file": "guide-1417728693908013147-01.jpg",
+      "species": "Lucanus capreolus",
+      "width": 2992,
+      "height": 2992,
+      "alt": "Lucanus capreolus. First view of the newly emerged adult.",
+      "caption": "First view of the newly emerged adult.",
+      "url": "https://discord.com/channels/1285685926340726887/1286131091987763264/1417728693908013147",
+      "credit": "@alan69.",
+      "hero": false,
+      "stage": "Adults"
+    },
+    {
+      "file": "guide-1417728693908013147-02.jpg",
+      "species": "Lucanus capreolus",
+      "width": 2992,
+      "height": 2992,
+      "alt": "Lucanus capreolus. Second view from the emergence series.",
+      "caption": "Second view from the emergence series.",
+      "url": "https://discord.com/channels/1285685926340726887/1286131091987763264/1417728693908013147",
+      "credit": "@alan69.",
+      "hero": false
+    },
+    {
+      "file": "guide-1400484325639585873-01.jpg",
+      "species": "Lucanus placidus",
+      "width": 2992,
+      "height": 2992,
+      "alt": "Lucanus placidus. Pupa of the smooth stag beetle.",
+      "caption": "Pupa of the smooth stag beetle.",
+      "url": "https://discord.com/channels/1285685926340726887/1286131091987763264/1400484325639585873",
+      "credit": "@alan69.",
+      "hero": false,
+      "stage": "Prepupae and pupae"
+    },
+    {
+      "file": "guide-1515001135667220541-01.jpg",
+      "species": "Dorcus parallelus",
+      "width": 2992,
+      "height": 2992,
+      "alt": "Dorcus parallelus. First photograph from the flake-soil culture.",
+      "caption": "First photograph from the flake-soil culture.",
+      "url": "https://discord.com/channels/1285685926340726887/1286131091987763264/1515001135667220541",
+      "credit": "@alan69.",
+      "hero": false
+    },
+    {
+      "file": "guide-1515001135667220541-02.jpg",
+      "species": "Dorcus parallelus",
+      "width": 2992,
+      "height": 2992,
+      "alt": "Dorcus parallelus. Second photograph from the same culture.",
+      "caption": "Second photograph from the same culture.",
+      "url": "https://discord.com/channels/1285685926340726887/1286131091987763264/1515001135667220541",
+      "credit": "@alan69.",
+      "hero": false
+    },
+    {
+      "file": "guide-1502193244379807834-01.jpg",
+      "species": "Dorcus parallelus",
+      "width": 2992,
+      "height": 2992,
+      "alt": "Dorcus parallelus. First photograph of the larval group.",
+      "caption": "First photograph of the larval group.",
+      "url": "https://discord.com/channels/1285685926340726887/1286131091987763264/1502193244379807834",
+      "credit": "@alan69.",
+      "hero": false,
+      "stage": "Larvae"
+    },
+    {
+      "file": "guide-1502193244379807834-02.jpg",
+      "species": "Dorcus parallelus",
+      "width": 2992,
+      "height": 2992,
+      "alt": "Dorcus parallelus. Second photograph from the May census.",
+      "caption": "Second photograph from the May census.",
+      "url": "https://discord.com/channels/1285685926340726887/1286131091987763264/1502193244379807834",
+      "credit": "@alan69.",
       "hero": false
     }
-  ]
+  ],
+  "facebook_url": "https://www.facebook.com/junkai.wang.1694",
+  "substrate": {
+    "title": "Beetle Substrate Guide",
+    "source": {
+      "title": "Junkai Wang, Beetle Basics",
+      "url": "https://junkaiwangisme.wixsite.com/usbeetlebreeding/beetle-basics"
+    },
+    "credit": "Flour ratio correction by Leg and Leaf: 15 lb of unbleached flour per 40 lb of sawdust. The original 20 lb batch therefore uses 7.5 lb of flour.",
+    "credit_after": {
+      "section": "How to Make Flake Soil",
+      "paragraph_index": 2
+    },
+    "sections": [
+      {
+        "title": "Beetle Substrate Guide",
+        "heading_tag": "h1",
+        "subtitle": "Lets make this as easy as possible",
+        "paragraphs": [
+          "Here are the very basics: in regards to US native species, Dynastes tityus and granti, Strategus aloeus and antaeus, Gymnetis thula and any Cotinis species, Osmoderma species and Euphoria species can be raised on \"Organic Raised Bed Soil\" alone! If a larger size is desired, simply mix in raw sawdust! This will be explained in the next slide. But without any mixtures, the organic soil alone will achieve average sized adult beetles!"
+        ],
+        "source_styles": {
+          "heading": "text-align:left; line-height:1.25em; font-size:72px;",
+          "subtitle": "text-align:left; line-height:1.67em; font-size:20px;",
+          "paragraphs": [
+            "text-align:left; line-height:1.875em; font-size:15px;"
+          ]
+        }
+      },
+      {
+        "title": "Mixing the Organic Raised Bed Soil",
+        "heading_tag": "h2",
+        "subtitle": "Say goodbye to hard to make flake soil!",
+        "paragraphs": [
+          "So if you decide to go down the dark path of ditching flake soil once and for all, but still want that sweet large major male, know that it is still very doable, and easy! Mix in 3/10th of the substrate mass in raw sawdust, you can use any of the hardwood grilling pellets consisting of Oak or Mesquite wood. I personally opt for Mesquite as it is the most affordable option. Make sure the sawdust expands and stir it with the \"Organic Raised Bed Soil\" throughly. Leave the mixture for two weeks, and stir it whenever you remember to do so (doesn't have to be often). Once the two weeks is up, it is ready for you to add beetles! ",
+          "",
+          "A few words of caution:",
+          "A. make sure the organic soil you use do not compose of cow manure. Cow manure contains a bacteria that can cause leg rot with a lot of beetle larvae species and can kill your larvae quickly. That said, most \"Organic Raised Bed Soil\" purchased from Walmart or Home Depot does not contain cow manure and can be used without issues.",
+          "B. This substrate mix is not meant for: any US Lucanid (stag beetles), and any of them Phileurus or Hemiphileurus species.",
+          "C. If the intent is to raise large cetoniids (flower beetles), adding a large portion of rotting leaves will also yield desirable results, although raw sawdust works perfectly fine."
+        ],
+        "source_styles": {
+          "heading": "text-align:left; line-height:1.35em; font-size:40px;",
+          "subtitle": "text-align:left; line-height:1.75em; font-size:18px;",
+          "paragraphs": [
+            "line-height:1.875em; font-size:15px;",
+            "line-height:1.875em; font-size:15px;",
+            "line-height:1.875em; font-size:15px;",
+            "line-height:1.875em; font-size:15px;",
+            "line-height:1.875em; font-size:15px;",
+            "line-height:1.875em; font-size:15px;"
+          ]
+        }
+      },
+      {
+        "title": "Making Flake Soil",
+        "heading_tag": "h2",
+        "subtitle": "You gotta do it sometime",
+        "paragraphs": [
+          "You really don't have to stress about making flake soil - things ferment in the wild all without human intervention after all. But sometimes, we just gotta speed it up!"
+        ],
+        "source_styles": {
+          "heading": "text-align:center; line-height:1.25em; font-size:72px;",
+          "subtitle": "text-align:center; line-height:1.67em; font-size:20px;",
+          "paragraphs": [
+            "text-align:center; line-height:1.875em; font-size:15px;"
+          ]
+        }
+      },
+      {
+        "title": "How to Make Flake Soil",
+        "heading_tag": "h2",
+        "subtitle": "Can't be that hard can it?",
+        "paragraphs": [
+          "First up - if you leave raw sawdust by itself in a moist state long enough, certain lucanids will eat it. Yes, you heard me right, the more hardy species will do just fine on aged sawdust. But this might cost you 6 months - a year's time.",
+          "So, how do you make flake soil?",
+          "Well, you will need ingredients first. 20lbs of hardwood grilling pellets of just about any brand will do the trick for the wood part, but oak and mesquite are your best choices. Then, you need to add 7.5lbs of unbleached flour, and some dry yeast.",
+          "The first step is to pour out and expand the pellets with water, and then turn it into sawdust. Warm water works best with this step, but cold will do just fine.",
+          "Then you pour the flour into the expanded pellets, along with a table spoon of yeast. You want to mix throughly here, so there isn't huge clumps of flour - an occasional small piece here and there is fine. ",
+          "The end result should be damp, but not wet. You can check it by squeezing the substrate. It should form a clump and not fall apart when released, all the while having no water come out. If you made it too wet, leave it in somewhere sunny for a few days and stir more often, you will be fine.",
+          "Now the waiting game begins. In this stage, you want to mix up the substrate at least once in 2 days (once a day is better). You should notice the substrate heating up, if it does not heat up, simply add more yeast.",
+          "It will be about 3 weeks to a month before the soil is ready. Be sure to wait till the substrate is fully cooled down. ",
+          "Yay, now you have flake soil! The rest of beetle keeping will be a breeze!",
+          "​"
+        ],
+        "source_styles": {
+          "heading": "text-align:center; line-height:1.35em; font-size:40px;",
+          "subtitle": "text-align:center; line-height:1.75em; font-size:18px;",
+          "paragraphs": [
+            "line-height:1.875em; text-align:center; font-size:15px;",
+            "line-height:1.875em; text-align:center; font-size:15px;",
+            "line-height:1.875em; text-align:center; font-size:15px;",
+            "line-height:1.875em; text-align:center; font-size:15px;",
+            "line-height:1.875em; text-align:center; font-size:15px;",
+            "line-height:1.875em; text-align:center; font-size:15px;",
+            "line-height:1.875em; text-align:center; font-size:15px;",
+            "line-height:1.875em; text-align:center; font-size:15px;",
+            "line-height:1.875em; text-align:center; font-size:15px;",
+            "line-height:1.875em; text-align:center; font-size:15px;"
+          ]
+        }
+      }
+    ],
+    "photos": [
+      {
+        "file": "substrate-guide-wang.jpg",
+        "width": 1440,
+        "height": 1598,
+        "alt": "A hand holds a brown rhinoceros beetle above coarse, crumbly substrate.",
+        "credit": "Junkai Wang",
+        "license": "Used with permission",
+        "url": "https://junkaiwangisme.wixsite.com/usbeetlebreeding/beetle-basics",
+        "original_url": "https://static.wixstatic.com/media/72e972_b13a1f9ba4c143f08d91f87e8d8f0abd~mv2.jpg",
+        "source_alt": "18221250883136326.jpg",
+        "section": "Beetle Substrate Guide"
+      }
+    ]
+  }
 }

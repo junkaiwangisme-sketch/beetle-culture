@@ -1,0 +1,86 @@
+{
+  "scientific_name": "Strategus aloeus",
+  "taxon_id": 199942,
+  "date": "2026-11-18",
+  "filtered_url": "https://www.inaturalist.org/observations?place_id=97394&quality_grade=research&captive=false&geo=true&taxon_id=199942&view=map",
+  "api": "https://api.inaturalist.org/v2/observations",
+  "filters": {
+    "place_id": 97394,
+    "quality_grade": "research",
+    "captive": "false",
+    "geo": "true",
+    "taxon_id": 199942,
+    "id_below": 415162745
+  },
+  "geography": "Official iNaturalist North America place 97394, including Mexico, Central America and the Caribbean. Each figure is framed around the plotted observations.",
+  "api_total_at_start": 6934,
+  "retrieved_count": 6934,
+  "mapped_count": 6933,
+  "excluded_as_extreme_outlier": 1,
+  "missing_public_coordinate_ids": [],
+  "outlier_screen": "Group public positions into 0.25° longitude–latitude cells. Flag cells with one or two observations whose center is at least 500 km (great-circle distance) from every other occupied cell for that species. Omit an observation only when the review also finds substantive evidence against its use in the distribution plot. Document each decision, including retained candidates.",
+  "outlier_audit": [
+    {
+      "cell_center": [
+        -77.125,
+        18.375
+      ],
+      "observation_ids": [
+        191268362
+      ],
+      "nearest_occupied_cell_km": 677.4,
+      "review": [
+        {
+          "id": 191268362,
+          "decision": "exclude_from_map",
+          "reason": "An isolated Ocho Rios report, 677 km from the nearest other occupied cell. The recent distribution catalogue lists Grenada and Trinidad and Tobago but omits Jamaica. Jamaica has endemic congeners. Species identity or an independent Jamaican record would support reinstatement.",
+          "sources": [
+            "https://rev-mex-biodivers.mx/2023/05/02/catalog-and-distribution-atlas/",
+            "https://d-nb.info/1138288268/34",
+            "https://www.inaturalist.org/observations/191268362"
+          ]
+        }
+      ]
+    }
+  ],
+  "precision": "Filled symbols represent public, unobscured coordinates with reported public positional accuracy at most 10 km. Open symbols represent obscured coordinates or larger/unknown accuracy. All positions come from the anonymous public API.",
+  "precision_counts": {
+    "precise": 5101,
+    "coarse_or_unknown": 1832,
+    "obscured": 461
+  },
+  "projection": {
+    "name": "Spherical Albers equal-area conic",
+    "standard_parallels_deg": [
+      20,
+      50
+    ],
+    "central_meridian_deg": -98.15,
+    "earth_radius_km": 6371.0088
+  },
+  "interpretation": "Points show reported occurrences. Sampling effort varies across the map. The record count includes coincident and overlapping locations.",
+  "sources": [
+    {
+      "title": "iNaturalist observations",
+      "url": "https://www.inaturalist.org/observations?place_id=97394&quality_grade=research&captive=false&geo=true&taxon_id=199942&view=map"
+    },
+    {
+      "title": "Region boundary (North America, iNaturalist place 97394)",
+      "url": "https://www.inaturalist.org/places/north-america"
+    },
+    {
+      "title": "iNaturalist geoprivacy",
+      "url": "https://www.inaturalist.org/pages/geoprivacy"
+    },
+    {
+      "title": "Natural Earth boundaries",
+      "url": "https://www.naturalearthdata.com/downloads/50m-cultural-vectors/"
+    }
+  ],
+  "regional_method": "Provisional regional assignments follow the January 2026 breeding account. Arizona and New Mexico represent the western candidate. Texas, Louisiana, Mississippi, Alabama, Georgia and Florida form the documented southern corridor used here for the eastern candidate. Location is a proxy for stock identity. Only unobscured records with public accuracy ≤10 km and farther from the state polygon boundary than the larger of 5 km and their public accuracy receive a candidate label. All remaining records are unassigned.",
+  "regional_counts": {
+    "Unassigned": 4195,
+    "Eastern": 2397,
+    "Western": 341
+  }
+}

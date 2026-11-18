@@ -1,0 +1,79 @@
+{
+  "scientific_name": "Dynastes tityus",
+  "taxon_id": 83804,
+  "date": "2026-11-18",
+  "filtered_url": "https://www.inaturalist.org/observations?place_id=97394&quality_grade=research&captive=false&geo=true&taxon_id=83804&view=map",
+  "api": "https://api.inaturalist.org/v2/observations",
+  "filters": {
+    "place_id": 97394,
+    "quality_grade": "research",
+    "captive": "false",
+    "geo": "true",
+    "taxon_id": 83804,
+    "id_below": 415267123
+  },
+  "geography": "Official iNaturalist North America place 97394, including Mexico, Central America and the Caribbean. Each figure is framed around the plotted observations.",
+  "api_total_at_start": 11994,
+  "retrieved_count": 11994,
+  "mapped_count": 11993,
+  "excluded_as_extreme_outlier": 1,
+  "missing_public_coordinate_ids": [],
+  "outlier_screen": "Group public positions into 0.25° longitude–latitude cells. Flag cells with one or two observations whose center is at least 500 km (great-circle distance) from every other occupied cell for that species. Omit an observation only when the review also finds substantive evidence against its use in the distribution plot. Document each decision, including retained candidates.",
+  "outlier_audit": [
+    {
+      "cell_center": [
+        -105.125,
+        39.875
+      ],
+      "observation_ids": [
+        379086644
+      ],
+      "nearest_occupied_cell_km": 760.0,
+      "review": [
+        {
+          "id": 379086644,
+          "decision": "exclude_from_map",
+          "reason": "The observer reported recent travel to Arkansas and found the beetle dead in Colorado. An identifier described it as a stowaway. The Colorado locality is outside the range reviewed by Bunch and Evans (2020).",
+          "sources": [
+            "https://www.inaturalist.org/observations/379086644",
+            "https://virginianaturalhistorysociety.com/wp-content/uploads/sites/28/2022/11/Observations_on_the_Behavior_Biology_and_Distribution_of_the_Eastern_Hercules_Beetle_Bunch.pdf"
+          ]
+        }
+      ]
+    }
+  ],
+  "precision": "Filled symbols represent public, unobscured coordinates with reported public positional accuracy at most 10 km. Open symbols represent obscured coordinates or larger/unknown accuracy. All positions come from the anonymous public API.",
+  "precision_counts": {
+    "coarse_or_unknown": 2989,
+    "precise": 9004,
+    "obscured": 1157
+  },
+  "projection": {
+    "name": "Spherical Albers equal-area conic",
+    "standard_parallels_deg": [
+      20,
+      50
+    ],
+    "central_meridian_deg": -82.41,
+    "earth_radius_km": 6371.0088
+  },
+  "interpretation": "Points show reported occurrences. Sampling effort varies across the map. The record count includes coincident and overlapping locations.",
+  "sources": [
+    {
+      "title": "iNaturalist observations",
+      "url": "https://www.inaturalist.org/observations?place_id=97394&quality_grade=research&captive=false&geo=true&taxon_id=83804&view=map"
+    },
+    {
+      "title": "Region boundary (North America, iNaturalist place 97394)",
+      "url": "https://www.inaturalist.org/places/north-america"
+    },
+    {
+      "title": "iNaturalist geoprivacy",
+      "url": "https://www.inaturalist.org/pages/geoprivacy"
+    },
+    {
+      "title": "Natural Earth boundaries",
+      "url": "https://www.naturalearthdata.com/downloads/50m-cultural-vectors/"
+    }
+  ]
+}
