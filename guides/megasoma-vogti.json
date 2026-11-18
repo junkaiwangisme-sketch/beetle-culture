@@ -70,5 +70,6 @@
     "caption": "43 of 43 wild, research-grade iNaturalist observations in North America are plotted at their public coordinates.",
     "data_file": "map-data-megasoma-vogti.json",
     "alt": "Megasoma vogti in North America. The map plots 43 public observation locations. Filled dots indicate uncertainty of 10 km or less. Open circles indicate obscured locations or larger or unknown uncertainty."
-  }
+  },
+  "draft": true
 }

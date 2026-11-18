@@ -44,5 +44,6 @@
     "caption": "322 of 322 wild, research-grade iNaturalist observations in North America are plotted at their public coordinates.",
     "data_file": "map-data-platycerus-oregonensis.json",
     "alt": "Platycerus oregonensis in North America. The map plots 322 public observation locations. Filled dots indicate uncertainty of 10 km or less. Open circles indicate obscured locations or larger or unknown uncertainty."
-  }
+  },
+  "draft": true
 }
