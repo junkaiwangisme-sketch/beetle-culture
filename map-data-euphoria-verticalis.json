@@ -1,10 +1,60 @@
 {
   "scientific_name": "Euphoria verticalis",
-  "map_type": "Reported administrative regions",
-  "date_compiled": "2026-11-18",
-  "coverage": "Selected North American jurisdictions in the cited sources. The extent of suitable habitat, geographic continuity, abundance and establishment status are not represented.",
-  "caption": "The highlighted state contains a photographed field record from Santa Cruz County, Arizona.",
+  "taxon_id": 560817,
+  "date": "2026-11-18",
+  "filtered_url": "https://www.inaturalist.org/observations?place_id=97394&quality_grade=research&captive=false&geo=true&taxon_id=560817&view=map",
+  "api": "https://api.inaturalist.org/v2/observations",
+  "filters": {
+    "place_id": 97394,
+    "quality_grade": "research",
+    "captive": "false",
+    "geo": "true",
+    "taxon_id": 560817,
+    "id_below": 411833729
+  },
+  "geography": "Official iNaturalist North America place 97394, including Mexico, Central America and the Caribbean. Each figure is framed around the plotted observations.",
+  "api_total_at_start": 62,
+  "retrieved_count": 62,
+  "mapped_count": 62,
+  "excluded_as_extreme_outlier": 0,
+  "missing_public_coordinate_ids": [],
+  "outlier_screen": "Group public positions into 0.25° longitude–latitude cells. Flag cells with one or two observations whose center is at least 500 km (great-circle distance) from every other occupied cell for that species. Omit an observation only when the review also finds substantive evidence against its use in the distribution plot. Document each decision, including retained candidates.",
+  "outlier_audit": [],
+  "precision": "Filled symbols represent public, unobscured coordinates with reported public positional accuracy at most 10 km. Open symbols represent obscured coordinates or larger/unknown accuracy. All positions come from the anonymous public API.",
+  "precision_counts": {
+    "coarse_or_unknown": 14,
+    "precise": 48,
+    "obscured": 1
+  },
+  "projection": {
+    "name": "Spherical Albers equal-area conic",
+    "standard_parallels_deg": [
+      20,
+      50
+    ],
+    "central_meridian_deg": -110.79,
+    "earth_radius_km": 6371.0088
+  },
+  "interpretation": "Points show reported occurrences. Sampling effort varies across the map. The record count includes coincident and overlapping locations.",
   "sources": [
+    {
+      "title": "iNaturalist observations",
+      "url": "https://www.inaturalist.org/observations?place_id=97394&quality_grade=research&captive=false&geo=true&taxon_id=560817&view=map"
+    },
+    {
+      "title": "Region boundary (North America, iNaturalist place 97394)",
+      "url": "https://www.inaturalist.org/places/north-america"
+    },
+    {
+      "title": "iNaturalist geoprivacy",
+      "url": "https://www.inaturalist.org/pages/geoprivacy"
+    },
+    {
+      "title": "Natural Earth boundaries",
+      "url": "https://www.naturalearthdata.com/downloads/50m-cultural-vectors/"
+    }
+  ],
+  "regional_references": [
     {
       "title": "Texas A&M AgriLife, Santa Cruz County field record",
       "url": "https://elp.tamu.edu/ipm/bugs/order-coleoptera-beetles/family-scarabaeidae-scarab-beetles/coleoptera-scarabaeidae-euphoria-verticalis-fruit-and-flower-chafers-e/",
@@ -14,18 +64,6 @@
           "name": "Arizona"
         }
       ]
-    }
-  ],
-  "current_observation_map": "https://www.inaturalist.org/observations?place_id=97394&quality_grade=research&captive=false&geo=true&view=map&taxon_id=560817",
-  "projection": "Albers equal-area conic (standard parallels 20°N and 50°N, central meridian -111.941°).",
-  "boundary_sources": [
-    {
-      "title": "Natural Earth, 1:50m cultural vectors",
-      "url": "https://www.naturalearthdata.com/downloads/50m-cultural-vectors/"
-    },
-    {
-      "title": "Mexico boundaries from Highsoft map collection, based on Natural Earth",
-      "url": "https://code.highcharts.com/mapdata/countries/mx/mx-all.topo.json"
     }
   ]
 }

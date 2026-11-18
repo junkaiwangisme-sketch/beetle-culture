@@ -93,24 +93,14 @@
   ],
   "distribution": {
     "slug": "hemiphileurus-illatus",
-    "kind": "regional",
     "file": "map-hemiphileurus-illatus.png",
+    "count": 619,
+    "raw_count": 619,
+    "excluded_count": 0,
     "date": "2026-11-18",
+    "url": "https://www.inaturalist.org/observations?place_id=97394&quality_grade=research&captive=false&geo=true&taxon_id=267016&view=map",
+    "caption": "619 of 619 wild, research-grade iNaturalist observations in North America are plotted at their public coordinates.",
     "data_file": "map-data-hemiphileurus-illatus.json",
-    "caption": "Selected field records document the species in Arizona and on islands off Sinaloa, Mexico.",
-    "alt": "Documented regions for Hemiphileurus illatus: Arizona, Sinaloa.",
-    "url": "https://www.bugguide.net/node/view/1988288",
-    "link_label": "Distribution source",
-    "data_label": "Mapped regions and sources",
-    "observations_url": "https://www.inaturalist.org/observations?quality_grade=research&captive=false&geo=true&place_id=97394&view=map&taxon_id=267016",
-    "live": {
-      "taxon_id": 267016,
-      "bounds": [
-        -114.84,
-        22.5,
-        -105.39,
-        37.0
-      ]
-    }
+    "alt": "Hemiphileurus illatus in North America. The map plots 619 public observation locations. Filled dots indicate uncertainty of 10 km or less. Open circles indicate obscured locations or larger or unknown uncertainty."
   }
 }

@@ -63,24 +63,14 @@
   ],
   "distribution": {
     "slug": "gibbium-aequinoctiale",
-    "kind": "regional",
     "file": "map-gibbium-aequinoctiale.png",
+    "count": 486,
+    "raw_count": 486,
+    "excluded_count": 0,
     "date": "2026-11-18",
+    "url": "https://www.inaturalist.org/observations?place_id=97394&quality_grade=research&captive=false&geo=true&taxon_id=220380&view=map",
+    "caption": "486 of 486 wild, research-grade iNaturalist observations in North America are plotted at their public coordinates.",
     "data_file": "map-data-gibbium-aequinoctiale.json",
-    "caption": "North American photo and specimen records include the eastern United States, Texas and Ontario. Indoor records can reflect transport in stored materials.",
-    "alt": "Documented regions for Gibbium aequinoctiale: Connecticut, Illinois, Missouri, New Hampshire, New York, Ohio, Ontario, Pennsylvania, Texas, Wisconsin.",
-    "url": "https://bugguide.net/node/view/55820/data",
-    "link_label": "Distribution source",
-    "data_label": "Mapped regions and sources",
-    "observations_url": "https://www.inaturalist.org/observations?quality_grade=research&captive=false&geo=true&place_id=97394&view=map&taxon_id=220380",
-    "live": {
-      "taxon_id": 220380,
-      "bounds": [
-        -106.67,
-        25.87,
-        -70.73,
-        56.85
-      ]
-    }
+    "alt": "Gibbium aequinoctiale in North America. The map plots 486 public observation locations. Filled dots indicate uncertainty of 10 km or less. Open circles indicate obscured locations or larger or unknown uncertainty."
   }
 }

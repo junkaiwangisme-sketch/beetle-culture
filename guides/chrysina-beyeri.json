@@ -87,24 +87,14 @@
   ],
   "distribution": {
     "slug": "chrysina-beyeri",
-    "kind": "regional",
     "file": "map-chrysina-beyeri.png",
+    "count": 559,
+    "raw_count": 559,
+    "excluded_count": 0,
     "date": "2026-11-18",
+    "url": "https://www.inaturalist.org/observations?place_id=97394&quality_grade=research&captive=false&geo=true&taxon_id=324754&view=map",
+    "caption": "559 of 559 wild, research-grade iNaturalist observations in North America are plotted at their public coordinates.",
     "data_file": "map-data-chrysina-beyeri.json",
-    "caption": "Moore and colleagues list Arizona in the United States and Chihuahua, Sinaloa and Sonora in Mexico.",
-    "alt": "Documented regions for Chrysina beyeri: Arizona, Chihuahua, Sinaloa, Sonora.",
-    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5534527/",
-    "link_label": "Distribution source",
-    "data_label": "Mapped regions and sources",
-    "observations_url": "https://www.inaturalist.org/observations?quality_grade=research&captive=false&geo=true&place_id=97394&view=map&taxon_id=324754",
-    "live": {
-      "taxon_id": 324754,
-      "bounds": [
-        -115.04,
-        22.5,
-        -103.31,
-        37.0
-      ]
-    }
+    "alt": "Chrysina beyeri in North America. The map plots 559 public observation locations. Filled dots indicate uncertainty of 10 km or less. Open circles indicate obscured locations or larger or unknown uncertainty."
   }
 }

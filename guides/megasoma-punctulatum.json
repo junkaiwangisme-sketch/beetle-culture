@@ -87,24 +87,14 @@
   ],
   "distribution": {
     "slug": "megasoma-punctulatum",
-    "kind": "regional",
     "file": "map-megasoma-punctulatum.png",
+    "count": 60,
+    "raw_count": 60,
+    "excluded_count": 0,
     "date": "2026-11-18",
+    "url": "https://www.inaturalist.org/observations?place_id=97394&quality_grade=research&captive=false&geo=true&taxon_id=503454&view=map",
+    "caption": "60 of 60 wild, research-grade iNaturalist observations in North America are plotted at their public coordinates.",
     "data_file": "map-data-megasoma-punctulatum.json",
-    "caption": "The University of Nebraska State Museum lists Arizona for this species.",
-    "alt": "Documented regions for Megasoma punctulatum: Arizona.",
-    "url": "https://unsm-ento.unl.edu/Guide/Scarabaeoidea/Scarabaeidae/Dynastinae/Dynastinae-Tribes/Dynastini/Megasoma/Megasoma%20punctulatus/Mpunctulatus.html",
-    "link_label": "Distribution source",
-    "data_label": "Mapped regions and sources",
-    "observations_url": "https://www.inaturalist.org/observations?quality_grade=research&captive=false&geo=true&place_id=97394&view=map&taxon_id=503454",
-    "live": {
-      "taxon_id": 503454,
-      "bounds": [
-        -116.84,
-        31.32,
-        -107.05,
-        37.0
-      ]
-    }
+    "alt": "Megasoma punctulatum in North America. The map plots 60 public observation locations. Filled dots indicate uncertainty of 10 km or less. Open circles indicate obscured locations or larger or unknown uncertainty."
   }
 }

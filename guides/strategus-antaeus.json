@@ -79,24 +79,14 @@
   ],
   "distribution": {
     "slug": "strategus-antaeus",
-    "kind": "regional",
     "file": "map-strategus-antaeus.png",
+    "count": 3266,
+    "raw_count": 3266,
+    "excluded_count": 0,
     "date": "2026-11-18",
+    "url": "https://www.inaturalist.org/observations?place_id=97394&quality_grade=research&captive=false&geo=true&taxon_id=196309&view=map",
+    "caption": "3,266 of 3,266 wild, research-grade iNaturalist observations in North America are plotted at their public coordinates.",
     "data_file": "map-data-strategus-antaeus.json",
-    "caption": "Photo records place this species in the eastern and southern United States, including Gulf and Atlantic coastal states.",
-    "alt": "Documented regions for Strategus antaeus: Alabama, Arkansas, Delaware, Florida, Georgia, Louisiana, Maryland, Massachusetts, Mississippi, Missouri, New Jersey, New York, North Carolina, South Carolina, Texas.",
-    "url": "https://www.bugguide.net/node/view/21204/data",
-    "link_label": "Distribution source",
-    "data_label": "Mapped regions and sources",
-    "observations_url": "https://www.inaturalist.org/observations?quality_grade=research&captive=false&geo=true&place_id=97394&view=map&taxon_id=196309",
-    "live": {
-      "taxon_id": 196309,
-      "bounds": [
-        -106.67,
-        24.54,
-        -69.93,
-        45.01
-      ]
-    }
+    "alt": "Strategus antaeus in North America. The map plots 3,266 public observation locations. Filled dots indicate uncertainty of 10 km or less. Open circles indicate obscured locations or larger or unknown uncertainty."
   }
 }

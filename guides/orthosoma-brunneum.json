@@ -75,24 +75,14 @@
   ],
   "distribution": {
     "slug": "orthosoma-brunneum",
-    "kind": "regional",
     "file": "map-orthosoma-brunneum.png",
+    "count": 11011,
+    "raw_count": 11011,
+    "excluded_count": 0,
     "date": "2026-11-18",
+    "url": "https://www.inaturalist.org/observations?place_id=97394&quality_grade=research&captive=false&geo=true&taxon_id=143662&view=map",
+    "caption": "11,011 of 11,011 wild, research-grade iNaturalist observations in North America are plotted at their public coordinates.",
     "data_file": "map-data-orthosoma-brunneum.json",
-    "caption": "Photo records document this longhorn across much of the eastern United States and southeastern Canada.",
-    "alt": "Documented regions for Orthosoma brunneum: Alabama, Arkansas, Connecticut, Delaware, Florida, Georgia, Illinois, Indiana, Iowa, Kansas, Kentucky, Louisiana, Maine, Maryland, Massachusetts, Michigan, Minnesota, Mississippi, Missouri, Nebraska, New Hampshire, New Jersey, New York, North Carolina, Nova Scotia, Ohio, Ontario, Pennsylvania, Québec, Rhode Island, South Carolina, Tennessee, Texas, Vermont, Virginia, West Virginia, Wisconsin.",
-    "url": "https://www.bugguide.net/node/view/5031/data",
-    "link_label": "Distribution source",
-    "data_label": "Mapped regions and sources",
-    "observations_url": "https://www.inaturalist.org/observations?quality_grade=research&captive=false&geo=true&place_id=97394&view=map&taxon_id=143662",
-    "live": {
-      "taxon_id": 143662,
-      "bounds": [
-        -106.67,
-        24.54,
-        -57.1,
-        62.57
-      ]
-    }
+    "alt": "Orthosoma brunneum in North America. The map plots 11,011 public observation locations. Filled dots indicate uncertainty of 10 km or less. Open circles indicate obscured locations or larger or unknown uncertainty."
   }
 }

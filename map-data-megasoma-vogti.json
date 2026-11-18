@@ -1,10 +1,60 @@
 {
   "scientific_name": "Megasoma vogti",
-  "map_type": "Reported administrative regions",
-  "date_compiled": "2026-11-18",
-  "coverage": "Selected North American jurisdictions in the cited sources. The extent of suitable habitat, geographic continuity, abundance and establishment status are not represented.",
-  "caption": "The museum account places this scarab in Texas and Tamaulipas, Mexico. In Texas it occupies southern thornscrub.",
+  "taxon_id": 267027,
+  "date": "2026-11-18",
+  "filtered_url": "https://www.inaturalist.org/observations?place_id=97394&quality_grade=research&captive=false&geo=true&taxon_id=267027&view=map",
+  "api": "https://api.inaturalist.org/v2/observations",
+  "filters": {
+    "place_id": 97394,
+    "quality_grade": "research",
+    "captive": "false",
+    "geo": "true",
+    "taxon_id": 267027,
+    "id_below": 409881759
+  },
+  "geography": "Official iNaturalist North America place 97394, including Mexico, Central America and the Caribbean. Each figure is framed around the plotted observations.",
+  "api_total_at_start": 43,
+  "retrieved_count": 43,
+  "mapped_count": 43,
+  "excluded_as_extreme_outlier": 0,
+  "missing_public_coordinate_ids": [],
+  "outlier_screen": "Group public positions into 0.25° longitude–latitude cells. Flag cells with one or two observations whose center is at least 500 km (great-circle distance) from every other occupied cell for that species. Omit an observation only when the review also finds substantive evidence against its use in the distribution plot. Document each decision, including retained candidates.",
+  "outlier_audit": [],
+  "precision": "Filled symbols represent public, unobscured coordinates with reported public positional accuracy at most 10 km. Open symbols represent obscured coordinates or larger/unknown accuracy. All positions come from the anonymous public API.",
+  "precision_counts": {
+    "precise": 30,
+    "coarse_or_unknown": 13,
+    "obscured": 3
+  },
+  "projection": {
+    "name": "Spherical Albers equal-area conic",
+    "standard_parallels_deg": [
+      20,
+      50
+    ],
+    "central_meridian_deg": -99.99,
+    "earth_radius_km": 6371.0088
+  },
+  "interpretation": "Points show reported occurrences. Sampling effort varies across the map. The record count includes coincident and overlapping locations.",
   "sources": [
+    {
+      "title": "iNaturalist observations",
+      "url": "https://www.inaturalist.org/observations?place_id=97394&quality_grade=research&captive=false&geo=true&taxon_id=267027&view=map"
+    },
+    {
+      "title": "Region boundary (North America, iNaturalist place 97394)",
+      "url": "https://www.inaturalist.org/places/north-america"
+    },
+    {
+      "title": "iNaturalist geoprivacy",
+      "url": "https://www.inaturalist.org/pages/geoprivacy"
+    },
+    {
+      "title": "Natural Earth boundaries",
+      "url": "https://www.naturalearthdata.com/downloads/50m-cultural-vectors/"
+    }
+  ],
+  "regional_references": [
     {
       "title": "University of Nebraska State Museum, M. vogti",
       "url": "https://unsm-ento.unl.edu/Guide/Scarabaeoidea/Scarabaeidae/Dynastinae/Dynastinae-Tribes/Dynastini/Megasoma/Megasoma%20vogti/Mvogti.html",
@@ -18,18 +68,6 @@
           "name": "Tamaulipas"
         }
       ]
-    }
-  ],
-  "current_observation_map": "https://www.inaturalist.org/observations?place_id=97394&quality_grade=research&captive=false&geo=true&view=map&taxon_id=267027",
-  "projection": "Albers equal-area conic (standard parallels 20°N and 50°N, central meridian -100.099°).",
-  "boundary_sources": [
-    {
-      "title": "Natural Earth, 1:50m cultural vectors",
-      "url": "https://www.naturalearthdata.com/downloads/50m-cultural-vectors/"
-    },
-    {
-      "title": "Mexico boundaries from Highsoft map collection, based on Natural Earth",
-      "url": "https://code.highcharts.com/mapdata/countries/mx/mx-all.topo.json"
     }
   ]
 }

@@ -54,24 +54,14 @@
   ],
   "distribution": {
     "slug": "euphoria-sepulcralis",
-    "kind": "regional",
     "file": "map-euphoria-sepulcralis.png",
+    "count": 13056,
+    "raw_count": 13058,
+    "excluded_count": 2,
     "date": "2026-11-18",
+    "url": "https://www.inaturalist.org/observations?place_id=97394&quality_grade=research&captive=false&geo=true&taxon_id=53340&view=map",
+    "caption": "13,056 of 13,058 wild, research-grade iNaturalist observations in North America are plotted at their public coordinates. The geographic review excluded 2 remote reports.",
     "data_file": "map-data-euphoria-sepulcralis.json",
-    "caption": "The map shows U.S. states with contributed photographs of this flower scarab. Its distribution also extends outside the mapped records.",
-    "alt": "Documented regions for Euphoria sepulcralis: Alabama, Arkansas, Delaware, Florida, Georgia, Illinois, Indiana, Iowa, Kansas, Kentucky, Louisiana, Maryland, Mississippi, Missouri, Nebraska, New Jersey, North Carolina, Ohio, Oklahoma, Pennsylvania, South Carolina, Tennessee, Texas, Virginia, West Virginia.",
-    "url": "https://www.bugguide.net/node/view/3769/data",
-    "link_label": "Distribution source",
-    "data_label": "Mapped regions and sources",
-    "observations_url": "https://www.inaturalist.org/observations?quality_grade=research&captive=false&geo=true&place_id=97394&view=map&taxon_id=53340",
-    "live": {
-      "taxon_id": 53340,
-      "bounds": [
-        -106.67,
-        24.54,
-        -73.91,
-        43.5
-      ]
-    }
+    "alt": "Euphoria sepulcralis in North America. The map plots 13,056 public observation locations. Filled dots indicate uncertainty of 10 km or less. Open circles indicate obscured locations or larger or unknown uncertainty."
   }
 }

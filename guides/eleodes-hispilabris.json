@@ -55,24 +55,14 @@
   "gallery": [],
   "distribution": {
     "slug": "eleodes-hispilabris",
-    "kind": "regional",
     "file": "map-eleodes-hispilabris.png",
+    "count": 3294,
+    "raw_count": 3294,
+    "excluded_count": 0,
     "date": "2026-11-18",
+    "url": "https://www.inaturalist.org/observations?place_id=97394&quality_grade=research&captive=false&geo=true&taxon_id=218969&view=map",
+    "caption": "3,294 of 3,294 wild, research-grade iNaturalist observations in North America are plotted at their public coordinates.",
     "data_file": "map-data-eleodes-hispilabris.json",
-    "caption": "Published records span the Canadian prairies, the western and central United States, and northern Mexico.",
-    "alt": "Documented regions for Eleodes hispilabris: Alberta, Arizona, California, Chihuahua, Coahuila, Colorado, Idaho, Kansas, Manitoba, Montana, Nebraska, Nevada, New Mexico, North Dakota, Nuevo León, Oklahoma, Oregon, Saskatchewan, Sonora, South Dakota, Tamaulipas, Texas, Utah, Washington, Wyoming.",
-    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5799738/",
-    "link_label": "Distribution source",
-    "data_label": "Mapped regions and sources",
-    "observations_url": "https://www.inaturalist.org/observations?quality_grade=research&captive=false&geo=true&place_id=97394&view=map&taxon_id=218969",
-    "live": {
-      "taxon_id": 218969,
-      "bounds": [
-        -124.71,
-        22.22,
-        -88.95,
-        60.0
-      ]
-    }
+    "alt": "Eleodes hispilabris in North America. The map plots 3,294 public observation locations. Filled dots indicate uncertainty of 10 km or less. Open circles indicate obscured locations or larger or unknown uncertainty."
   }
 }

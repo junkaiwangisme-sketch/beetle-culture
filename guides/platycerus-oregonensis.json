@@ -35,24 +35,14 @@
   "gallery": [],
   "distribution": {
     "slug": "platycerus-oregonensis",
-    "kind": "regional",
     "file": "map-platycerus-oregonensis.png",
+    "count": 322,
+    "raw_count": 322,
+    "excluded_count": 0,
     "date": "2026-11-18",
+    "url": "https://www.inaturalist.org/observations?place_id=97394&quality_grade=research&captive=false&geo=true&taxon_id=244813&view=map",
+    "caption": "322 of 322 wild, research-grade iNaturalist observations in North America are plotted at their public coordinates.",
     "data_file": "map-data-platycerus-oregonensis.json",
-    "caption": "Paulsen and Caterino document this western stag beetle in British Columbia, Washington, Oregon and California.",
-    "alt": "Documented regions for Platycerus oregonensis: British Columbia, California, Oregon, Washington.",
-    "url": "https://treatment.plazi.org/GgServer/xhtml/644C8795FFA4FFA6FF72FF77FEAFFEC6/4",
-    "link_label": "Distribution source",
-    "data_label": "Mapped regions and sources",
-    "observations_url": "https://www.inaturalist.org/observations?quality_grade=research&captive=false&geo=true&place_id=97394&view=map&taxon_id=244813",
-    "live": {
-      "taxon_id": 244813,
-      "bounds": [
-        -139.06,
-        32.53,
-        -114.05,
-        60.0
-      ]
-    }
+    "alt": "Platycerus oregonensis in North America. The map plots 322 public observation locations. Filled dots indicate uncertainty of 10 km or less. Open circles indicate obscured locations or larger or unknown uncertainty."
   }
 }

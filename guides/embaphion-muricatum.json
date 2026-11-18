@@ -91,24 +91,14 @@
   ],
   "distribution": {
     "slug": "embaphion-muricatum",
-    "kind": "regional",
     "file": "map-embaphion-muricatum.png",
+    "count": 246,
+    "raw_count": 246,
+    "excluded_count": 0,
     "date": "2026-11-18",
+    "url": "https://www.inaturalist.org/observations?place_id=97394&quality_grade=research&captive=false&geo=true&taxon_id=69727&view=map",
+    "caption": "246 of 246 wild, research-grade iNaturalist observations in North America are plotted at their public coordinates.",
     "data_file": "map-data-embaphion-muricatum.json",
-    "caption": "The cataloged range extends from Alberta and Saskatchewan south through the Great Plains to Texas and Tamaulipas.",
-    "alt": "Documented regions for Embaphion muricatum: Alberta, Colorado, Kansas, Nebraska, Saskatchewan, South Dakota, Tamaulipas, Texas.",
-    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5799738/",
-    "link_label": "Distribution source",
-    "data_label": "Mapped regions and sources",
-    "observations_url": "https://www.inaturalist.org/observations?quality_grade=research&captive=false&geo=true&place_id=97394&view=map&taxon_id=69727",
-    "live": {
-      "taxon_id": 69727,
-      "bounds": [
-        -120.0,
-        22.22,
-        -93.53,
-        60.0
-      ]
-    }
+    "alt": "Embaphion muricatum in North America. The map plots 246 public observation locations. Filled dots indicate uncertainty of 10 km or less. Open circles indicate obscured locations or larger or unknown uncertainty."
   }
 }

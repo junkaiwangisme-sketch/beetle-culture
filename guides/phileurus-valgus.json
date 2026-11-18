@@ -129,24 +129,14 @@
   ],
   "distribution": {
     "slug": "phileurus-valgus",
-    "kind": "regional",
     "file": "map-phileurus-valgus.png",
+    "count": 2341,
+    "raw_count": 2341,
+    "excluded_count": 0,
     "date": "2026-11-18",
+    "url": "https://www.inaturalist.org/observations?place_id=97394&quality_grade=research&captive=false&geo=true&taxon_id=301519&view=map",
+    "caption": "2,341 of 2,341 wild, research-grade iNaturalist observations in North America are plotted at their public coordinates.",
     "data_file": "map-data-phileurus-valgus.json",
-    "caption": "The species ranges from the United States through Mexico, Central America and the Caribbean into South America. The map shows selected North American records.",
-    "alt": "Documented regions for Phileurus valgus: Alabama, Antigua and Barbuda, Arkansas, Barbados, Belize, Cayman Islands, Chiapas, Costa Rica, Cuba, Dominica, Dominican Republic, Durango, El Salvador, Florida, Georgia, Grenada, Guatemala, Guerrero, Hidalgo, Honduras, Illinois, Jalisco, Jamaica, Kansas, Kentucky, Louisiana, Maryland, Mexico City, Michoacán, Mississippi, Missouri, Montserrat, Morelos, Nayarit, Nebraska, Nicaragua, North Carolina, Nuevo León, Oaxaca, Oklahoma, Panama, Puebla, Puerto Rico, Querétaro, Quintana Roo, Saint Kitts and Nevis, Saint Lucia, Saint Vincent and the Grenadines, Sinaloa, Sonora, South Carolina, Tabasco, Tamaulipas, Tennessee, Texas, The Bahamas, United States Virgin Islands, Veracruz, Virginia, Yucatán.",
-    "url": "https://www.bugguide.net/node/view/11453/data",
-    "link_label": "Distribution source",
-    "data_label": "Mapped regions and sources",
-    "observations_url": "https://www.inaturalist.org/observations?quality_grade=research&captive=false&geo=true&place_id=97394&view=map&taxon_id=301519",
-    "live": {
-      "taxon_id": 301519,
-      "bounds": [
-        -115.04,
-        7.22,
-        -59.43,
-        43.0
-      ]
-    }
+    "alt": "Phileurus valgus in North America. The map plots 2,341 public observation locations. Filled dots indicate uncertainty of 10 km or less. Open circles indicate obscured locations or larger or unknown uncertainty."
   }
 }

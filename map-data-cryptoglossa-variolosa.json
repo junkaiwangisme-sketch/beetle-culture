@@ -1,10 +1,60 @@
 {
   "scientific_name": "Cryptoglossa variolosa",
-  "map_type": "Reported administrative regions",
-  "date_compiled": "2026-11-18",
-  "coverage": "Selected North American jurisdictions in the cited sources. The extent of suitable habitat, geographic continuity, abundance and establishment status are not represented.",
-  "caption": "The North American darkling beetle catalog lists California, Arizona and New Mexico in the United States and Sinaloa and Sonora in Mexico.",
+  "taxon_id": 428610,
+  "date": "2026-11-18",
+  "filtered_url": "https://www.inaturalist.org/observations?place_id=97394&quality_grade=research&captive=false&geo=true&taxon_id=428610&view=map",
+  "api": "https://api.inaturalist.org/v2/observations",
+  "filters": {
+    "place_id": 97394,
+    "quality_grade": "research",
+    "captive": "false",
+    "geo": "true",
+    "taxon_id": 428610,
+    "id_below": 412290763
+  },
+  "geography": "Official iNaturalist North America place 97394, including Mexico, Central America and the Caribbean. Each figure is framed around the plotted observations.",
+  "api_total_at_start": 904,
+  "retrieved_count": 904,
+  "mapped_count": 904,
+  "excluded_as_extreme_outlier": 0,
+  "missing_public_coordinate_ids": [],
+  "outlier_screen": "Group public positions into 0.25° longitude–latitude cells. Flag cells with one or two observations whose center is at least 500 km (great-circle distance) from every other occupied cell for that species. Omit an observation only when the review also finds substantive evidence against its use in the distribution plot. Document each decision, including retained candidates.",
+  "outlier_audit": [],
+  "precision": "Filled symbols represent public, unobscured coordinates with reported public positional accuracy at most 10 km. Open symbols represent obscured coordinates or larger/unknown accuracy. All positions come from the anonymous public API.",
+  "precision_counts": {
+    "precise": 642,
+    "coarse_or_unknown": 262,
+    "obscured": 61
+  },
+  "projection": {
+    "name": "Spherical Albers equal-area conic",
+    "standard_parallels_deg": [
+      20,
+      50
+    ],
+    "central_meridian_deg": -110.98,
+    "earth_radius_km": 6371.0088
+  },
+  "interpretation": "Points show reported occurrences. Sampling effort varies across the map. The record count includes coincident and overlapping locations.",
   "sources": [
+    {
+      "title": "iNaturalist observations",
+      "url": "https://www.inaturalist.org/observations?place_id=97394&quality_grade=research&captive=false&geo=true&taxon_id=428610&view=map"
+    },
+    {
+      "title": "Region boundary (North America, iNaturalist place 97394)",
+      "url": "https://www.inaturalist.org/places/north-america"
+    },
+    {
+      "title": "iNaturalist geoprivacy",
+      "url": "https://www.inaturalist.org/pages/geoprivacy"
+    },
+    {
+      "title": "Natural Earth boundaries",
+      "url": "https://www.naturalearthdata.com/downloads/50m-cultural-vectors/"
+    }
+  ],
+  "regional_references": [
     {
       "title": "Bousquet et al. (2018), Catalogue of Tenebrionidae of North America",
       "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5799738/",
@@ -30,18 +80,6 @@
           "name": "Sonora"
         }
       ]
-    }
-  ],
-  "current_observation_map": "https://www.inaturalist.org/observations?place_id=97394&quality_grade=research&captive=false&geo=true&view=map&taxon_id=428610",
-  "projection": "Albers equal-area conic (standard parallels 20°N and 50°N, central meridian -113.686°).",
-  "boundary_sources": [
-    {
-      "title": "Natural Earth, 1:50m cultural vectors",
-      "url": "https://www.naturalearthdata.com/downloads/50m-cultural-vectors/"
-    },
-    {
-      "title": "Mexico boundaries from Highsoft map collection, based on Natural Earth",
-      "url": "https://code.highcharts.com/mapdata/countries/mx/mx-all.topo.json"
     }
   ]
 }

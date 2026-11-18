@@ -56,24 +56,14 @@
   ],
   "distribution": {
     "slug": "cryptoglossa-variolosa",
-    "kind": "regional",
     "file": "map-cryptoglossa-variolosa.png",
+    "count": 904,
+    "raw_count": 904,
+    "excluded_count": 0,
     "date": "2026-11-18",
+    "url": "https://www.inaturalist.org/observations?place_id=97394&quality_grade=research&captive=false&geo=true&taxon_id=428610&view=map",
+    "caption": "904 of 904 wild, research-grade iNaturalist observations in North America are plotted at their public coordinates.",
     "data_file": "map-data-cryptoglossa-variolosa.json",
-    "caption": "The North American darkling beetle catalog lists California, Arizona and New Mexico in the United States and Sinaloa and Sonora in Mexico.",
-    "alt": "Documented regions for Cryptoglossa variolosa: Arizona, California, New Mexico, Sinaloa, Sonora.",
-    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5799738/",
-    "link_label": "Distribution source",
-    "data_label": "Mapped regions and sources",
-    "observations_url": "https://www.inaturalist.org/observations?quality_grade=research&captive=false&geo=true&place_id=97394&view=map&taxon_id=428610",
-    "live": {
-      "taxon_id": 428610,
-      "bounds": [
-        -124.37,
-        22.5,
-        -103.0,
-        42.0
-      ]
-    }
+    "alt": "Cryptoglossa variolosa in North America. The map plots 904 public observation locations. Filled dots indicate uncertainty of 10 km or less. Open circles indicate obscured locations or larger or unknown uncertainty."
   }
 }

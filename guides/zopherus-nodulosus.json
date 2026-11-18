@@ -82,24 +82,14 @@
   ],
   "distribution": {
     "slug": "zopherus-nodulosus",
-    "kind": "regional",
     "file": "map-zopherus-nodulosus.png",
+    "count": 4993,
+    "raw_count": 4994,
+    "excluded_count": 1,
     "date": "2026-11-18",
+    "url": "https://www.inaturalist.org/observations?place_id=97394&quality_grade=research&captive=false&geo=true&taxon_id=126476&view=map",
+    "caption": "4,993 of 4,994 wild, research-grade iNaturalist observations in North America are plotted at their public coordinates. The geographic review excluded 1 remote report.",
     "data_file": "map-data-zopherus-nodulosus.json",
-    "caption": "A USNM review illustrates the nominate form from Sonora and the subspecies haldemani from Texas.",
-    "alt": "Documented regions for Zopherus nodulosus: Sonora, Texas.",
-    "url": "https://www.govinfo.gov/content/pkg/GOVPUB-SI-PURL-gpo28752/pdf/GOVPUB-SI-PURL-gpo28752.pdf",
-    "link_label": "Distribution source",
-    "data_label": "Mapped regions and sources",
-    "observations_url": "https://www.inaturalist.org/observations?quality_grade=research&captive=false&geo=true&place_id=97394&view=map&taxon_id=126476",
-    "live": {
-      "taxon_id": 126476,
-      "bounds": [
-        -115.04,
-        25.87,
-        -93.53,
-        36.5
-      ]
-    }
+    "alt": "Zopherus nodulosus in North America. The map plots 4,993 public observation locations. Filled dots indicate uncertainty of 10 km or less. Open circles indicate obscured locations or larger or unknown uncertainty."
   }
 }

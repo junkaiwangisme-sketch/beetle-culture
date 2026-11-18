@@ -191,8 +191,8 @@ home+='<section class="wrap block home-index" id="families"><div class="section-
 
 page('index.html','Beetle breeding guides and photography','Explore beetle breeding by family and species, with photographs, larval care, adult diets, and documented rearing observations.',home,'WebSite',hero)
 if any(record.get('distribution') for record in guides):
-    method_intro=intro('Mapping methods','How the guides map wild observations and published regional records.',[(None,'Mapping methods')])
-    method_body='<div class="wrap block"><article class="article"><section><h2>Observations</h2><p>Point maps use wild, research-grade, georeferenced observations in the iNaturalist North America place, including Mexico, Central America and the Caribbean. Points represent public observation coordinates. Locations can overlap. Sampling intensity varies, and gaps between observations do not establish absence.</p></section><section><h2>Location precision</h2><p>Filled symbols indicate unobscured public locations with a reported uncertainty of 10 km or less. Open symbols indicate an obscured location or a larger or unknown uncertainty. The public coordinate is retained for obscured records.</p></section><section><h2>Outlier review</h2><p>We grouped observations in 0.25° latitude–longitude cells. A cell with one or two records was flagged when its center was at least 500 km from every other occupied cell for that species. Flagged records were checked against taxonomic and geographic sources. The species data file lists each reviewed observation and the reason for retaining or excluding it.</p></section><section><h2>Map projection</h2><p>Static figures use an Albers equal-area conic projection with standard parallels at 20° and 50° N and Natural Earth boundaries. The geographic extent is shown on each figure.</p></section><section><h2>Regional records</h2><p>Shading identifies states, provinces or islands named by a cited source. Within a highlighted region, a species may occupy only one mountain range, habitat or locality. Each figure links to its list of mapped regions and sources.</p></section><section><h2>Live occurrence maps</h2><p>Alongside regional maps, iNaturalist supplies an independent layer of wild, research-grade observations at public coordinates. Record totals refer to the North America filter and update as observations change. Select the continental view to see records outside the initial map window. These live records have not undergone the outlier review used for the static point maps.</p></section></article></div>'
+    method_intro=intro('Mapping methods','How to read the dots, understand location uncertainty and check a record.',[(None,'Mapping methods')])
+    method_body='<div class="wrap block"><article class="article"><section><h2>Observations</h2><p>Point maps use wild, research-grade, georeferenced observations in the iNaturalist North America place, including Mexico, Central America and the Caribbean. Points represent public observation coordinates. Locations can overlap. Sampling intensity varies, and gaps between observations do not establish absence.</p></section><section><h2>Location precision</h2><p>Filled symbols indicate unobscured public locations with a reported uncertainty of 10 km or less. Open symbols indicate an obscured location or a larger or unknown uncertainty. The public coordinate is retained for obscured records.</p></section><section><h2>Outlier review</h2><p>We grouped observations in 0.25° latitude–longitude cells. A cell with one or two records was flagged when its center was at least 500 km from every other occupied cell for that species. The review compared isolated records with available geographic or taxonomic evidence. A distant locality alone does not establish an error. The species data file lists each reviewed observation and the reason for retaining or excluding it.</p></section><section><h2>Map projection</h2><p>Static figures use an Albers equal-area conic projection with standard parallels at 20° and 50° N and Natural Earth boundaries. The geographic extent is shown on each figure.</p></section></article></div>'
     page('distribution.html','Distribution mapping methods','Data selection, positional uncertainty and outlier decisions for the beetle occurrence maps.',method_intro+method_body)
 page('groups.html','Beetle family directory','Browse beetle breeding guides by family and scarab subfamily.',intro('Family directory','Choose a group to open its species guides.',[(None,'Families')])+'<section class="wrap block">'+group_rows()+'</section>','CollectionPage',active='groups')
 for k,g in groups.items():
@@ -264,20 +264,18 @@ for s in guides:
         body+='</section>'
     dist=s.get('distribution')
     if dist:
-        filename=e(dist['file'])
-        regional = dist.get('kind') == 'regional'
-        heading = 'Documented range' if regional else 'Distribution records'
+        filename=e(asset(dist['file']))
+        heading = 'Distribution records'
         toc.append('<li>'+link('#distribution',heading)+'</li>')
         caption=e(dist.get('caption',''))
         alt=e(dist.get('alt', 'North American iNaturalist occurrence map for '+name))
-        body+=f'<section id="distribution"><h2>{heading}</h2><figure class="distribution-map"><a href="{filename}"><img loading="lazy" src="{filename}" alt="{alt}"></a><figcaption>{caption}</figcaption></figure>'
-        date_label = 'Compiled ' if regional else 'Retrieved '
-        body+='<p class="mapmeta">'+date_label+e(dist['date'])+' · '+link(dist['url'],dist.get('link_label','View observations on iNaturalist'))
+        body+=f'<section id="distribution"><h2 id="observations">{heading}</h2><figure class="distribution-map"><a href="{filename}"><img loading="lazy" src="{filename}" alt="{alt}"></a><figcaption>{caption}</figcaption></figure>'
+        body+='<p class="mapmeta">Retrieved '+e(dist['date'])+' · '+link(dist['url'],dist.get('link_label','View observations on iNaturalist'))
         if dist.get('data_file'):
             body+=' · '+link(dist['data_file'],dist.get('data_label','Map data and outlier decisions'))
         body+=' · '+link('distribution.html','Mapping methods')+'</p></section>'
-    if not dist or dist.get('live'):
-        frame=(dist or {}).get('live') or {'bounds':[-170,6,-49,72]}
+    else:
+        frame={'bounds':[-170,6,-49,72]}
         toc.append('<li>'+link('#observations', 'Wild observations')+'</li>')
         body+='<section id="observations">'+observation_map(name, frame)+'</section>'
         body+=f'<script defer src="{asset("observation-map.js")}"></script>'

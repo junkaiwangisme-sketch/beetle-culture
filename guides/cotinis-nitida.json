@@ -51,24 +51,14 @@
   ],
   "distribution": {
     "slug": "cotinis-nitida",
-    "kind": "regional",
     "file": "map-cotinis-nitida.png",
+    "count": 36644,
+    "raw_count": 36644,
+    "excluded_count": 0,
     "date": "2026-11-18",
+    "url": "https://www.inaturalist.org/observations?place_id=97394&quality_grade=research&captive=false&geo=true&taxon_id=118538&view=map",
+    "caption": "36,644 of 36,644 wild, research-grade iNaturalist observations in North America are plotted at their public coordinates.",
     "data_file": "map-data-cotinis-nitida.json",
-    "caption": "Contributed photographs document the green June beetle across the central and eastern United States.",
-    "alt": "Documented regions for Cotinis nitida: Alabama, Arkansas, Connecticut, Delaware, District of Columbia, Florida, Georgia, Illinois, Indiana, Iowa, Kansas, Kentucky, Louisiana, Maryland, Massachusetts, Michigan, Mississippi, Missouri, Nebraska, New Jersey, New York, North Carolina, Ohio, Oklahoma, Pennsylvania, Rhode Island, South Carolina, Tennessee, Texas, Virginia, West Virginia.",
-    "url": "https://www.bugguide.net/node/view/520/data",
-    "link_label": "Distribution source",
-    "data_label": "Mapped regions and sources",
-    "observations_url": "https://www.inaturalist.org/observations?quality_grade=research&captive=false&geo=true&place_id=97394&view=map&taxon_id=118538",
-    "live": {
-      "taxon_id": 118538,
-      "bounds": [
-        -106.67,
-        24.54,
-        -69.93,
-        48.3
-      ]
-    }
+    "alt": "Cotinis nitida in North America. The map plots 36,644 public observation locations. Filled dots indicate uncertainty of 10 km or less. Open circles indicate obscured locations or larger or unknown uncertainty."
   }
 }
