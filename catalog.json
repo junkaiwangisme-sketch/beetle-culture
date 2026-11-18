@@ -1060,7 +1060,7 @@
       "name": "Stenodontes chevrolati",
       "common": "",
       "group": "cerambycidae",
-      "intro": "Larvae reached maturity in approximately eight months on kinshi, compared with 18–24 months on raw hardwood sawdust in the same breeding account.",
+      "intro": "Stenodontes chevrolati is a large prionine longhorn native to southern Florida and parts of the Caribbean. I used to see it only rarely in collections. Captive breeding has made it easier to obtain, and I find it fairly straightforward to rear once I have an active pair. The step I pay closest attention to is separating the young larvae as soon as they hatch.",
       "facts": [
         {
           "title": "Range",
@@ -1076,33 +1076,41 @@
         },
         {
           "title": "Larval period",
-          "text": "1–3 years in the breeder’s general account, with faster growth on kinshi"
+          "text": "Usually 1–3 years overall. About 8 months on kinshi in my fastest cultures."
         },
         {
           "title": "Pupal period",
           "text": "About one month"
         },
         {
-          "title": "Dormancy",
+          "title": "Adult resting period",
           "text": "About three weeks"
         },
         {
-          "title": "Egg count",
+          "title": "Typical egg count",
           "text": "20–50"
         },
         {
-          "title": "Breeder’s difficulty rating",
+          "title": "Rearing difficulty",
           "text": "3 out of 10"
         }
       ],
       "sections": [
         {
-          "title": "Larval diet and housing",
-          "text": "The reported larval substrates were raw hardwood sawdust, kinshi (fungus-colonized substrate), and lightly fermented flake soil. The breeder recommended a minimum container volume of 0.95 L (32 US fl oz) and preferred 3.8 L (one US gallon)."
+          "title": "Pairing the adults",
+          "text": "I have never seen my adults feed. They appear to live on reserves accumulated as larvae, and some of mine have lived as long as four months. Once both beetles are active, I introduce the male to the female and watch for mating. My pairs usually mate almost immediately. One mating seems sufficient for the female to lay fertile eggs for the rest of her life. I remove the male afterward because he will keep trying to mate while she is trying to lay."
         },
         {
-          "title": "Adult feeding",
-          "text": "Adult feeding was not observed in this culture."
+          "title": "Egg laying and the first galleries",
+          "text": "For one mated female, I pack raw hardwood sawdust into a container of at least 32 US fl oz (about 0.95 L) and lay a paper towel over the surface. She deposits her eggs on or just below the surface of the sawdust. I expect them to hatch in about a month. The first sign I look for is a set of tiny galleries against the container wall. As soon as I see them, I take the laying box apart and gently sift through the sawdust. I move each hatchling to its own container because the larvae readily cannibalize one another."
+        },
+        {
+          "title": "Choosing a larval substrate",
+          "text": "I rear each larva in at least 32 fl oz of substrate and prefer a one-gallon jar (3.8 L). I use raw hardwood sawdust, lightly fermented sawdust that has gone through one fermentation, or kinshi, which is sawdust colonized by fungal mycelium. My larvae grew fastest on kinshi, followed by lightly fermented sawdust. On raw sawdust they took about 18–24 months to mature. On kinshi they could reach the same stage in about eight months."
+        },
+        {
+          "title": "Changing food and recognizing pupation",
+          "text": "With kinshi, I look through the sides of the bottle. When I can no longer see fungus-colonized substrate at the wall, I move the larva to a fresh bottle. With raw or lightly fermented sawdust, I can usually leave the jar for six to eight months between changes. A full-grown larva builds a pupal cell and may spend several months inside. The pupal stage itself lasts about a month. I leave the cell intact and wait for the new adults to become active before introducing another pair."
         }
       ],
       "sources": [
@@ -1152,7 +1160,8 @@
         "url": "https://www.inaturalist.org/observations?place_id=97394&quality_grade=research&captive=false&geo=true&taxon_id=231552&view=map",
         "caption": "56 of 56 wild, research-grade iNaturalist observations in North America are plotted at their public coordinates.",
         "data_file": "map-data-stenodontes-chevrolati.json"
-      }
+      },
+      "account_credit": "First-person breeding account adapted from Alan’s culture notes"
     },
     {
       "slug": "dynastes-grantii",

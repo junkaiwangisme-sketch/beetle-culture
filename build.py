@@ -163,6 +163,8 @@ for k,g in groups.items():
 for s in guides:
     g=groups[s['group']]; name=s['name']; common=s.get('common',''); ps=getphotos(s)
     body=intro(name,s['intro'],[('groups.html','Families'),(glink(s['group']),g['name']),(None,name)],g['name']+' · Species account',common).replace('class="page-title"','class="page-title species-title"').replace('class="sciname"','class="common-name"')
+    if s.get('account_credit'):
+        body += '<div class="wrap account-credit"><p>'+e(s['account_credit'])+'</p></div>'
     facts = s.get('facts', [])
     summary = ('<section class="facts"><h2>Life-history data</h2><dl class="factlist">'+''.join('<div><dt>'+e(x['title'])+'</dt><dd>'+e(x['text'])+'</dd></div>' for x in facts)+'</dl></section>') if facts else ''
     parts=[];toc=[]
