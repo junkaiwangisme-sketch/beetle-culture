@@ -4,6 +4,8 @@ from pathlib import Path
 from html import escape
 import json
 import re
+import argparse
+import shutil
 import xml.etree.ElementTree as ET
 
 ROOT = Path(__file__).resolve().parent
@@ -129,3 +131,15 @@ for url in pages: ET.SubElement(ET.SubElement(sitemap,'url'),'loc').text=url
 write('sitemap.xml',ET.tostring(sitemap,encoding='unicode'))
 write('robots.txt','User-agent: *\nAllow: /\nSitemap: '+BASE+'sitemap.xml\n')
 print(f'Built {len(pages)} pages for {len(guides)} species, {len(groups)} groups, {len(photos)} images.')
+
+parser = argparse.ArgumentParser(description=__doc__)
+parser.add_argument('--publish-dir', type=Path, help='Copy public pages and photographs into this directory')
+output = parser.parse_args().publish_dir
+if output:
+    output.mkdir(parents=True, exist_ok=True)
+    public = {'index.html', 'style.css', 'search.js', 'sitemap.xml', 'robots.txt'} | files
+    public.update(url[len(BASE):] for url in pages if url != BASE)
+    for filename in sorted(public):
+        dest = output / filename
+        dest.parent.mkdir(parents=True, exist_ok=True)
+        shutil.copy2(ROOT / filename, dest)

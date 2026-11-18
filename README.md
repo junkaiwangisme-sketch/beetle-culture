@@ -29,4 +29,4 @@ To add a family or scarab subfamily, copy a `groups` entry and edit its name, sl
 
 Run `python3 build.py` in this directory. The homepage, family directories, individual species pages, search index, photography credits, and sitemap all regenerate from the catalog. Open `index.html` in a browser to preview locally. The search works locally too.
 
-For a GitHub Pages site published from the root of the main branch, commit the updated catalog, any photographs and all regenerated pages together. The catalog’s `url` controls absolute links in the sitemap and search metadata.
+On GitHub, save the updated catalog and any new photographs to the main branch. GitHub Actions runs the build automatically and publishes all resulting pages. Generated HTML files are included in the local review folder. The catalog’s `url` controls absolute links in the sitemap and search metadata.
