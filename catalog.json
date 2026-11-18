@@ -127,6 +127,27 @@
           "url": "https://www.inaturalist.org/taxa/84443"
         }
       ]
+    },
+    {
+      "slug": "dermestidae",
+      "name": "Dermestidae",
+      "common": "Hide, carpet and odd beetles",
+      "description": "I keep these scavengers on dry animal material. The accounts cover how I recovered odd beetle larvae from an insect collection and how my marbled Dermestes began breeding in temporary housing.",
+      "rank": "Family"
+    },
+    {
+      "slug": "ptinidae",
+      "name": "Ptinidae",
+      "common": "Spider and deathwatch beetles",
+      "description": "I bred two kinds of spider beetle on dog food. The guides show how to tell the adults apart, when to check for them and how long the two colonies took to establish.",
+      "rank": "Family"
+    },
+    {
+      "slug": "zopheridae",
+      "name": "Zopheridae",
+      "common": "Ironclad beetles",
+      "description": "I keep Texas ironclads on lichen-bearing bark. My account follows their feeding and a breeding trial using spent mushroom logs.",
+      "rank": "Family"
     }
   ],
   "species": [
@@ -2732,6 +2753,364 @@
       ],
       "account_credit": "Breeding notes by Junkai Wang and Alan Jeon",
       "primary_url": "https://discord.com/channels/1285685926340726887/1384034410046689341/1411149251592982630"
+    },
+    {
+      "name": "Embaphion muricatum",
+      "slug": "embaphion-muricatum",
+      "group": "tenebrionidae",
+      "common": "Pie-dish beetle",
+      "intro": "The upturned rim of this beetle’s back is what first caught my eye. I kept pie-dish beetles in December 2021 and had larvae of Embaphion muricatum available by March 2022. In 2024 Alan reared a fresh group to its first adult. The young are slender soil-dwellers, quite unlike the broad, shallow-dished adults.",
+      "facts": [
+        {
+          "title": "Our stock",
+          "text": "Larvae in March 2022, new adult in July 2024"
+        },
+        {
+          "title": "Successful substrate",
+          "text": "About 3 in (7.5 cm) of ReptiSoil mixed with excavator clay"
+        },
+        {
+          "title": "Food to try",
+          "text": "Wheat, hulless oats or rye"
+        },
+        {
+          "title": "Pupation site",
+          "text": "An earthen cell below the surface"
+        }
+      ],
+      "sections": [
+        {
+          "title": "A substrate that produced an adult",
+          "text": "Alan’s account from July 2024: I received fresh stock earlier that year and set it up in a gasket-sealed tub. I mixed ReptiSoil with excavator clay and gave the beetles about three inches (7.5 cm) of this mixture. I did not add rotten wood. On July 10 I saw the first adult from that group. This is the setup I would start with for another batch of pie-dish larvae."
+        },
+        {
+          "title": "Starting with adults",
+          "text": "I would give the adults cover they can walk under and a bed of diggable soil deep enough for the larvae to disappear into it. My Eleodes hispilabris setup offers one way to arrange a darkling enclosure. For pie-dish beetles I would leave a slightly damp area below the surface so a full-grown larva can form a cell that holds its shape. I would keep the feeding area accessible for checks without turning over the whole enclosure."
+        },
+        {
+          "title": "Feeding the larvae",
+          "text": "Wheat, hulless oats and rye are useful foods to start with. Both adults and larvae accepted seeds in laboratory feeding trials. I would offer a small amount at a recognizable spot and check the grains as well as the soil beneath them. A larva can eat into a seed from below while leaving little sign at the surface."
+        },
+        {
+          "title": "Following pupation",
+          "text": "Once I have larger larvae, I would leave part of the bed undisturbed and check through the side of the container. The finished cell is fragile, so I would wait for the adult to leave it before moving the beetle. In Kansas both larvae and adults have been found overwintering. My March 2022 larvae establish which stage I had that spring, but the interval after my December account is not a measured egg-to-larva time."
+        }
+      ],
+      "sources": [
+        {
+          "title": "My December 2021 pie-dish beetles",
+          "url": "https://beetleforum.net/threads/pie-dish-beetles.5767/"
+        },
+        {
+          "title": "Alan’s July 2024 rearing setup and first adult",
+          "url": "https://discord.com/channels/1080588087836549221/1126904652856827934/1260794865818669097"
+        },
+        {
+          "title": "My March 2022 larvae",
+          "url": "https://beetleforum.net/threads/some-beetles-and-various-other-things-for-trade-no-sales.5923/"
+        },
+        {
+          "title": "Wade and Böving, Biology of Embaphion muricatum",
+          "url": "https://cache.eurekamag.com/research/013/320/013320153.php"
+        },
+        {
+          "title": "Kansas State University, soil stages of false wireworms",
+          "url": "https://entomology.k-state.edu/doc/extension--crop-pests/false-wireworms.pdf"
+        },
+        {
+          "title": "Bouchard and Bousquet, Darkling Beetles of Canadian Grasslands",
+          "url": "https://studyres.com/doc/16621141/darkling-beetles--coleoptera--tenebrionidae--of-canadian-..."
+        }
+      ],
+      "account_credit": "Breeding notes by Junkai Wang and Alan Jeon",
+      "related_species": [
+        "eleodes-hispilabris"
+      ],
+      "primary_url": "https://beetleforum.net/threads/pie-dish-beetles.5767/"
+    },
+    {
+      "name": "Thylodrias contractus",
+      "slug": "thylodrias-contractus",
+      "group": "dermestidae",
+      "common": "Odd beetle",
+      "intro": "I started my odd beetle culture with about 30 living larvae that I recovered from a damaged insect collection in February 2026. The beetles were especially common around moths and orthopterans. By mid-March several had matured. Two months later I nearly wrote the culture off before I spotted the tiny larvae of the next generation.",
+      "facts": [
+        {
+          "title": "Starting group",
+          "text": "About 30 larvae in February 2026"
+        },
+        {
+          "title": "First adults",
+          "text": "Several matured by March 15"
+        },
+        {
+          "title": "Next generation",
+          "text": "Small larvae seen May 19"
+        },
+        {
+          "title": "North American status",
+          "text": "Established in collections and buildings"
+        }
+      ],
+      "sections": [
+        {
+          "title": "Moving the larvae",
+          "text": "I first look beneath damaged specimens and in the loose debris around them. That was where I could recover living larvae among the remains. For a new colony I would move some of the material on which the larvae have already been feeding to a separate, close-fitting container. I considered crickets as a substitute for the dried insects. The damage I actually observed was to moths and orthopterans in the collection. I keep a live culture well away from pinned specimens."
+        },
+        {
+          "title": "Recognizing adults of both sexes",
+          "text": "An adult female can look so much like a larva that it is easy to overlook her during a count. Females are wingless throughout adult life. Males have wing covers, but the hind wings underneath vary considerably in size. I look for both forms when checking for maturity, then use the appearance of a new size class of small larvae as evidence of reproduction."
+        },
+        {
+          "title": "When the enclosure looks empty",
+          "text": "Several larvae had matured during the two weeks before my March 15 check. On May 19, small larvae finally caught my eye in the enclosure. I would keep an apparently quiet container and examine the remaining food under magnification before starting over. A laboratory study found a typical life cycle of 12.8 months, with individuals ranging from about six and a half months to more than 46 months. My February founders were already larvae when I collected them, so their March emergence tells me when the first adults appeared, but not their total age."
+        }
+      ],
+      "sources": [
+        {
+          "title": "My February founders",
+          "url": "https://discord.com/channels/1285685926340726887/1286131091987763264/1476770413118750851"
+        },
+        {
+          "title": "My March adults",
+          "url": "https://discord.com/channels/1285685926340726887/1286131091987763264/1482606101101936842"
+        },
+        {
+          "title": "My first new larvae",
+          "url": "https://discord.com/channels/1080588087836549221/1338191341045415986/1506200340964573244"
+        },
+        {
+          "title": "Later summer observations",
+          "url": "https://discord.com/channels/1285685926340726887/1286131091987763264/1524864508420559040"
+        },
+        {
+          "title": "Mertins (1981), life history and morphology",
+          "url": "https://doi.org/10.1093/aesa/74.6.576"
+        },
+        {
+          "title": "Biggs, Herrmann and Cognato (2022), North American dermestids",
+          "url": "https://doi.org/10.3752/cjai.2022.46"
+        }
+      ],
+      "account_credit": "Breeding account by Alan Jeon",
+      "related_species": [
+        "dermestes-marmoratus"
+      ],
+      "primary_url": "https://discord.com/channels/1285685926340726887/1286131091987763264/1476770413118750851"
+    },
+    {
+      "name": "Dermestes marmoratus",
+      "slug": "dermestes-marmoratus",
+      "group": "dermestidae",
+      "common": "Common carrion beetle",
+      "intro": "Of the four or so Dermestes species I had seen by August 2025, this was the largest. My beetles began breeding in their temporary enclosure. I photographed an adult in September. Its mottled wing covers make a good field mark to look for when checking which species has established in a box.",
+      "facts": [
+        {
+          "title": "Captive result",
+          "text": "Breeding in the holding enclosure by August 29, 2025"
+        },
+        {
+          "title": "Adult size",
+          "text": "9–13 mm in the North American identification key"
+        },
+        {
+          "title": "Natural foods",
+          "text": "Carrion and dried animal material"
+        }
+      ],
+      "sections": [
+        {
+          "title": "Starting a colony",
+          "text": "I would begin with a small amount of dry animal material and leave the group together. The food history of this species gives me a better starting point than a fruit or jelly feeder. Its published records include carrion and accumulations of dead insects. I would supply a separate piece of dry material to lift when I check the box so I can find young larvae without disturbing the whole group."
+        },
+        {
+          "title": "Checking the holding box",
+          "text": "My first breeding result came while the group was still in temporary housing. For that reason I check the food, loose debris and sheltered edges before moving the adults into a permanent setup. Small larvae can remain behind when the conspicuous adults have all been transferred. I keep this colony separate from the dry insects in my specimen collection."
+        },
+        {
+          "title": "Recognizing the adults",
+          "text": "Under good light I look for a marbled pattern of dark and pale hairs on the wing covers. A paler band extends inward from behind each shoulder. Several North American Dermestes are mottled, so I use the identification key when starting with new field material. The September photograph shows the appearance of my own adult."
+        }
+      ],
+      "sources": [
+        {
+          "title": "My breeding result",
+          "url": "https://discord.com/channels/1080588087836549221/1338191341045415986/1410971980454301777"
+        },
+        {
+          "title": "My September adult",
+          "url": "https://discord.com/channels/1285685926340726887/1286131091987763264/1417166422076952657"
+        },
+        {
+          "title": "Biggs, Herrmann and Cognato (2022), diagnosis and natural history",
+          "url": "https://doi.org/10.3752/cjai.2022.46"
+        }
+      ],
+      "account_credit": "Breeding account by Alan Jeon",
+      "related_species": [
+        "thylodrias-contractus"
+      ],
+      "primary_url": "https://discord.com/channels/1080588087836549221/1338191341045415986/1410971980454301777"
+    },
+    {
+      "name": "Gibbium aequinoctiale",
+      "slug": "gibbium-aequinoctiale",
+      "group": "ptinidae",
+      "common": "Smooth spider beetle",
+      "intro": "My smooth spider beetles were slow to establish. In July 2024, around two years after I remembered starting the culture, I counted roughly 30 adults. I had raised Mezium affine on the same food, and that colony built up much sooner. The two are similar enough in the hand that I like to compare them under magnification.",
+      "facts": [
+        {
+          "title": "Food in my colony",
+          "text": "Dog food"
+        },
+        {
+          "title": "Colony count",
+          "text": "Roughly 30 adults in July 2024"
+        },
+        {
+          "title": "Adult length",
+          "text": "About 2.1–2.7 mm"
+        }
+      ],
+      "sections": [
+        {
+          "title": "Feeding and checking the colony",
+          "text": "I used dog food for both of my spider beetle species. With Gibbium I also considered trying oats and artificial pollen. The food I can recommend from my own breeding result is dog food. I would offer it in small pieces that I can lift and inspect, and keep the crumbs in the culture until I have checked them for tiny beetles. A close-fitting lid and fine ventilation are worthwhile with adults this small."
+        },
+        {
+          "title": "Allowing for a slow start",
+          "text": "By my July 21 check I could see about 30 adults. The culture took roughly three times as long to get established as my Mezium affine. The adults seemed short-lived to me, although I could not tell whether a delay during the egg or larval stage accounted for the slow buildup. I use the two-year figure to describe the history of my colony. It does not represent the developmental time of an individual. I once thought I had lost the culture because I could hardly find adults during the day. A night check showed they were still active."
+        },
+        {
+          "title": "Telling my two cultures apart",
+          "text": "I check the head and the narrow shield just behind it. Both are smooth in Gibbium, as are the shiny, swollen wing covers. In Mezium affine, the head and shield have conspicuous pale hairs. These are widespread spider beetles associated with stored materials and found in North America. I label each culture before moving food or beetles between containers."
+        }
+      ],
+      "sources": [
+        {
+          "title": "My foods for both spider beetles",
+          "url": "https://discord.com/channels/1080588087836549221/1080588087836549224/1167601633019039754"
+        },
+        {
+          "title": "My July colony count and comparison",
+          "url": "https://discord.com/channels/1080588087836549221/1080588087836549224/1264435882891411456"
+        },
+        {
+          "title": "Arango and Young, Death-Watch and Spider Beetles of Wisconsin",
+          "url": "https://research.fs.usda.gov/download/treesearch/41369.pdf"
+        },
+        {
+          "title": "My night check",
+          "url": "https://discord.com/channels/1080588087836549221/1080588087836549224/1162625310496407643"
+        }
+      ],
+      "account_credit": "Breeding account by Alan Jeon",
+      "related_species": [
+        "mezium-affine"
+      ],
+      "primary_url": "https://discord.com/channels/1080588087836549221/1080588087836549224/1167601633019039754"
+    },
+    {
+      "name": "Mezium affine",
+      "slug": "mezium-affine",
+      "group": "ptinidae",
+      "common": "Shiny spider beetle",
+      "intro": "I bred this small, round spider beetle on dog food. Of the two spider beetles I kept, Mezium affine was the quicker to build into an established colony. Its polished wing covers look much like those of Gibbium aequinoctiale, but a hand lens shows that the front of the body is covered in hairs.",
+      "facts": [
+        {
+          "title": "Food in my colony",
+          "text": "Dog food"
+        },
+        {
+          "title": "Comparison culture",
+          "text": "Established sooner than Gibbium aequinoctiale"
+        },
+        {
+          "title": "Adult length",
+          "text": "About 2.5–3.4 mm"
+        }
+      ],
+      "sections": [
+        {
+          "title": "Care and feeding",
+          "text": "I use the same staple food that worked for my Gibbium colony. I would keep small portions of dog food in a secure container and check the food and crumbs together. I use a pale tray for looking through a small sample. Against a light surface it is easier to see the tiny, reddish-brown adults move away from the food. Before replacing the bottom material, I would keep a portion with the established group. In October 2025 I found grain mites in my Mezium culture. Since both can be present in the crumbs, I would check them under magnification before moving material to a fresh box."
+        },
+        {
+          "title": "Following the colony",
+          "text": "I compare the numbers of adults I can see at successive checks. My Mezium became established substantially sooner than the Gibbium, which took roughly three times as long to build up. That comparison is about the time it took my cultures to become productive. I did not follow a single egg through to adulthood in that comparison."
+        },
+        {
+          "title": "Recognizing the species",
+          "text": "For a quick comparison, I look immediately behind the head. A coat of pale hairs covers the head and pronotum, while the much larger wing covers have a glossy surface. I check those characters before transferring beetles between cultures. The species occurs in North America and elsewhere in stored animal and plant products, which fits its readiness to use dog food in my care."
+        }
+      ],
+      "sources": [
+        {
+          "title": "My foods for both spider beetles",
+          "url": "https://discord.com/channels/1080588087836549221/1080588087836549224/1167601633019039754"
+        },
+        {
+          "title": "My July colony count and comparison",
+          "url": "https://discord.com/channels/1080588087836549221/1080588087836549224/1264435882891411456"
+        },
+        {
+          "title": "Arango and Young, Death-Watch and Spider Beetles of Wisconsin",
+          "url": "https://research.fs.usda.gov/download/treesearch/41369.pdf"
+        },
+        {
+          "title": "My October 2025 grain mite observation",
+          "url": "https://discord.com/channels/1080588087836549221/1338191341045415986/1426988269018546268"
+        }
+      ],
+      "account_credit": "Breeding account by Alan Jeon",
+      "related_species": [
+        "gibbium-aequinoctiale"
+      ],
+      "primary_url": "https://discord.com/channels/1080588087836549221/1080588087836549224/1167601633019039754"
+    },
+    {
+      "name": "Zopherus nodulosus",
+      "slug": "zopherus-nodulosus",
+      "group": "zopheridae",
+      "common": "Texas ironclad beetle",
+      "intro": "The Texas ironclads in my enclosure gathered on lichen and fed readily. I keep the black-and-white Texas form, Zopherus nodulosus haldemani. In my latest breeding trial I changed how I arranged the wood, standing spent mushroom logs upright to give the beetles access to the sides as well as the ends.",
+      "facts": [
+        {
+          "title": "Form in my care",
+          "text": "Zopherus nodulosus haldemani"
+        },
+        {
+          "title": "Observed adult food",
+          "text": "Lichen"
+        },
+        {
+          "title": "Breeding trial",
+          "text": "Spent mushroom logs stood vertically"
+        }
+      ],
+      "sections": [
+        {
+          "title": "Feeding the adults",
+          "text": "I offer lichen on its supporting bark so I can see where the beetles have been feeding. In the photograph, several adults are gathered on the same piece. For another group I would keep a feeding surface accessible at the front of the enclosure."
+        },
+        {
+          "title": "The upright-log trial",
+          "text": "For my November 2026 setup I stacked spent mushroom logs vertically. I wanted to see whether wood already worked by the fungus would support the larvae. I would keep the logs stable while checking the adults and retain any piece that shows signs of tunnelling. Feeding was the result I had confirmed when I photographed the setup. I was still waiting to rear larvae from the wood."
+        }
+      ],
+      "sources": [
+        {
+          "title": "My adults and upright-log trial",
+          "url": "https://www.instagram.com/p/Dfffig3JR3b/"
+        },
+        {
+          "title": "Texas A&M AgriLife, Texas ironclad identification",
+          "url": "https://elp.tamu.edu/ipm/bugs/order-coleoptera-beetles/coleoptera-zopheridae-zopherus-nodulosus-ironclad-beetles-b/"
+        }
+      ],
+      "account_credit": "Breeding notes by Junkai Wang",
+      "related_species": [],
+      "primary_url": "https://www.instagram.com/p/Dfffig3JR3b/"
     }
   ],
   "photos": [
@@ -3933,6 +4312,78 @@
       "preferred": false
     },
     {
+      "file": "dermestes-marmoratus-september-alan.jpg",
+      "species": "Dermestes marmoratus",
+      "stage": "Adults",
+      "credit": "Alan Jeon",
+      "url": "https://discord.com/channels/1285685926340726887/1286131091987763264/1417166422076952657",
+      "caption": "Adult marbled hide beetle in September 2025.",
+      "alt": "A small dark Dermestes marmoratus with a mottled pattern of pale markings rests on an open palm.",
+      "width": 2992,
+      "height": 2992,
+      "preferred": true
+    },
+    {
+      "file": "dermestes-marmoratus-brood-alan.jpg",
+      "species": "Dermestes marmoratus",
+      "stage": "Breeding setup",
+      "credit": "Alan Jeon",
+      "url": "https://discord.com/channels/1080588087836549221/1338191341045415986/1410971980454301777",
+      "caption": "Temporary enclosure where the beetles bred in August 2025.",
+      "alt": "A clear rearing cup holding folded white paper, a dark layer at the bottom and small beetles.",
+      "width": 2992,
+      "height": 2992,
+      "preferred": false
+    },
+    {
+      "file": "gibbium-aequinoctiale-culture-alan.jpg",
+      "species": "Gibbium aequinoctiale",
+      "stage": "Adults",
+      "credit": "Alan Jeon",
+      "url": "https://discord.com/channels/1080588087836549221/1080588087836549224/1264435632130756620",
+      "caption": "The Gibbium colony in July 2024, when about 30 adults were visible.",
+      "alt": "Round reddish-brown Gibbium adults walk among the pieces of dry food in a clear culture cup.",
+      "width": 2992,
+      "height": 2992,
+      "preferred": true
+    },
+    {
+      "file": "mezium-affine-culture-alan.jpg",
+      "species": "Mezium affine",
+      "stage": "Adults",
+      "credit": "Alan Jeon",
+      "url": "https://discord.com/channels/1080588087836549221/1080588087836549224/1264436686847479849",
+      "caption": "Adults in the Mezium colony, July 2024.",
+      "alt": "Small, round, shiny brown spider beetles are scattered among chunks of dry food in a clear container.",
+      "width": 2992,
+      "height": 2992,
+      "preferred": true
+    },
+    {
+      "file": "thylodrias-contractus-march-1-alan.jpg",
+      "species": "Thylodrias contractus",
+      "stage": "Culture",
+      "credit": "Alan Jeon",
+      "url": "https://discord.com/channels/1285685926340726887/1286131091987763264/1482606101101936842",
+      "caption": "The odd beetle culture in March, when several adults had matured.",
+      "alt": "Small brown, banded odd beetles among pale food pellets and insect remains.",
+      "width": 1642,
+      "height": 1642,
+      "preferred": false
+    },
+    {
+      "file": "thylodrias-contractus-august-alan.jpg",
+      "species": "Thylodrias contractus",
+      "stage": "Culture",
+      "credit": "Alan Jeon",
+      "url": "https://discord.com/channels/1285685926340726887/1286131091987763264/1536764933155459182",
+      "caption": "The culture photographed in August 2026.",
+      "alt": "Odd beetles scattered among pale pellets and dried insect remains in the round rearing cup.",
+      "width": 2992,
+      "height": 2992,
+      "preferred": false
+    },
+    {
       "file": "pelidnota-punctata-key-largo-wang.jpg",
       "species": "Pelidnota punctata",
       "stage": "Adults",
@@ -3943,6 +4394,18 @@
       "width": 594,
       "height": 640,
       "preferred": true
+    },
+    {
+      "file": "instagram-texas-ironclads.jpg",
+      "species": "Zopherus nodulosus",
+      "stage": "Adults",
+      "caption": "My Texas ironclads feeding together on lichen, November 2026.",
+      "alt": "Black-and-white Texas ironclads clustered on a piece of lichen-covered bark.",
+      "credit": "Junkai Wang",
+      "show_credit": true,
+      "url": "https://www.instagram.com/p/Dfffig3JR3b/",
+      "width": 480,
+      "height": 640
     },
     {
       "file": "rutela-formosa-255556376-alan.jpg",
@@ -3971,6 +4434,21 @@
       "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
       "url": "https://www.inaturalist.org/observations/288921424",
       "photo_url": "https://www.inaturalist.org/photos/519625208",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "file": "thylodrias-contractus-363161168-alan.jpg",
+      "species": "Thylodrias contractus",
+      "stage": "Culture",
+      "caption": "May 2026 observation in East Lansing, Michigan.",
+      "alt": "A small brown odd beetle against the pale blue surface of a lid.",
+      "credit": "Alan Jeon",
+      "show_credit": true,
+      "license": "CC0 1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "url": "https://www.inaturalist.org/observations/363161168",
+      "photo_url": "https://www.inaturalist.org/photos/662889363",
       "width": 1024,
       "height": 1024
     }
