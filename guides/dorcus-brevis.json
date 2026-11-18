@@ -55,24 +55,14 @@
   ],
   "distribution": {
     "slug": "dorcus-brevis",
-    "kind": "regional",
     "file": "map-dorcus-brevis.png",
+    "count": 231,
+    "raw_count": 231,
+    "excluded_count": 0,
     "date": "2026-11-18",
+    "url": "https://www.inaturalist.org/observations?place_id=97394&quality_grade=research&captive=false&geo=true&taxon_id=635155&view=map",
+    "caption": "231 of 231 wild, research-grade iNaturalist observations in North America are plotted at their public coordinates.",
     "data_file": "map-data-dorcus-brevis.json",
-    "caption": "Paulsen examined specimens from twelve U.S. states. The map follows those specimen determinations.",
-    "alt": "Documented regions for Dorcus brevis: Alabama, Illinois, Indiana, Iowa, Maryland, Michigan, Nebraska, New York, Ohio, South Carolina, Tennessee, Virginia.",
-    "url": "https://doi.org/10.3897/zookeys.34.292",
-    "link_label": "Distribution source",
-    "data_label": "Mapped regions and sources",
-    "observations_url": "https://www.inaturalist.org/observations?quality_grade=research&captive=false&geo=true&place_id=97394&view=map&taxon_id=635155",
-    "live": {
-      "taxon_id": 635155,
-      "bounds": [
-        -104.03,
-        30.23,
-        -71.9,
-        48.3
-      ]
-    }
+    "alt": "Dorcus brevis in North America. The map plots 231 public observation locations. Filled dots indicate uncertainty of 10 km or less. Open circles indicate obscured locations or larger or unknown uncertainty."
   }
 }

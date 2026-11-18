@@ -76,24 +76,14 @@
   },
   "distribution": {
     "slug": "chalcolepidius-smaragdinus",
-    "kind": "regional",
     "file": "map-chalcolepidius-smaragdinus.png",
+    "count": 100,
+    "raw_count": 100,
+    "excluded_count": 0,
     "date": "2026-11-18",
+    "url": "https://www.inaturalist.org/observations?place_id=97394&quality_grade=research&captive=false&geo=true&taxon_id=625240&view=map",
+    "caption": "100 of 100 wild, research-grade iNaturalist observations in North America are plotted at their public coordinates.",
     "data_file": "map-data-chalcolepidius-smaragdinus.json",
-    "caption": "Casari records Arizona and New Mexico in the United States and Sonora in Mexico.",
-    "alt": "Documented regions for Chalcolepidius smaragdinus: Arizona, New Mexico, Sonora.",
-    "url": "https://doi.org/10.1590/S0085-56262002000300007",
-    "link_label": "Distribution source",
-    "data_label": "Mapped regions and sources",
-    "observations_url": "https://www.inaturalist.org/observations?quality_grade=research&captive=false&geo=true&place_id=97394&view=map&taxon_id=625240",
-    "live": {
-      "taxon_id": 625240,
-      "bounds": [
-        -115.04,
-        26.24,
-        -103.0,
-        37.0
-      ]
-    }
+    "alt": "Chalcolepidius smaragdinus in North America. The map plots 100 public observation locations. Filled dots indicate uncertainty of 10 km or less. Open circles indicate obscured locations or larger or unknown uncertainty."
   }
 }

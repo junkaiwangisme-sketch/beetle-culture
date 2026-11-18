@@ -71,24 +71,14 @@
   ],
   "distribution": {
     "slug": "callipogon-proletarius",
-    "kind": "regional",
     "file": "map-callipogon-proletarius.png",
+    "count": 78,
+    "raw_count": 78,
+    "excluded_count": 0,
     "date": "2026-11-18",
+    "url": "https://www.inaturalist.org/observations?place_id=97394&quality_grade=research&captive=false&geo=true&taxon_id=560868&view=map",
+    "caption": "78 of 78 wild, research-grade iNaturalist observations in North America are plotted at their public coordinates.",
     "data_file": "map-data-callipogon-proletarius.json",
-    "caption": "Monné lists Puerto Rico and Martinique for the nominate form and Cuba for the subspecies shulzhenkoi.",
-    "alt": "Documented regions for Callipogon proletarius: Cuba, Martinique, Puerto Rico.",
-    "url": "https://cerambycids.com/catalog/Monne_Jun2024_NeotropicalCat_part_III.pdf",
-    "link_label": "Distribution source",
-    "data_label": "Mapped regions and sources",
-    "observations_url": "https://www.inaturalist.org/observations?quality_grade=research&captive=false&geo=true&place_id=97394&view=map&taxon_id=560868",
-    "live": {
-      "taxon_id": 560868,
-      "bounds": [
-        -84.89,
-        14.43,
-        -60.83,
-        23.19
-      ]
-    }
+    "alt": "Callipogon proletarius in North America. The map plots 78 public observation locations. Filled dots indicate uncertainty of 10 km or less. Open circles indicate obscured locations or larger or unknown uncertainty."
   }
 }

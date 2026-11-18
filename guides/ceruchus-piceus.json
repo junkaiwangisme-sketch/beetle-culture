@@ -51,24 +51,14 @@
   ],
   "distribution": {
     "slug": "ceruchus-piceus",
-    "kind": "regional",
     "file": "map-ceruchus-piceus.png",
+    "count": 1594,
+    "raw_count": 1594,
+    "excluded_count": 0,
     "date": "2026-11-18",
+    "url": "https://www.inaturalist.org/observations?place_id=97394&quality_grade=research&captive=false&geo=true&taxon_id=216534&view=map",
+    "caption": "1,594 of 1,594 wild, research-grade iNaturalist observations in North America are plotted at their public coordinates.",
     "data_file": "map-data-ceruchus-piceus.json",
-    "caption": "This eastern North American stag beetle ranges into southeastern Canada. The map combines regional photo records with published Maritime records.",
-    "alt": "Documented regions for Ceruchus piceus: Delaware, Georgia, Illinois, Indiana, Iowa, Kentucky, Maine, Maryland, Massachusetts, Michigan, Minnesota, Nebraska, New Brunswick, New Hampshire, New Jersey, New York, North Carolina, North Dakota, Nova Scotia, Ohio, Ontario, Pennsylvania, Québec, Rhode Island, Virginia, West Virginia, Wisconsin.",
-    "url": "https://www.bugguide.net/node/view/14896/data",
-    "link_label": "Distribution source",
-    "data_label": "Mapped regions and sources",
-    "observations_url": "https://www.inaturalist.org/observations?quality_grade=research&captive=false&geo=true&place_id=97394&view=map&taxon_id=216534",
-    "live": {
-      "taxon_id": 216534,
-      "bounds": [
-        -104.03,
-        30.37,
-        -57.1,
-        62.57
-      ]
-    }
+    "alt": "Ceruchus piceus in North America. The map plots 1,594 public observation locations. Filled dots indicate uncertainty of 10 km or less. Open circles indicate obscured locations or larger or unknown uncertainty."
   }
 }

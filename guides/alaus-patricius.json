@@ -98,24 +98,14 @@
   ],
   "distribution": {
     "slug": "alaus-patricius",
-    "kind": "regional",
     "file": "map-alaus-patricius.png",
+    "count": 14,
+    "raw_count": 14,
+    "excluded_count": 0,
     "date": "2026-11-18",
+    "url": "https://www.inaturalist.org/observations?place_id=97394&quality_grade=research&captive=false&geo=true&taxon_id=465469&view=map",
+    "caption": "14 of 14 wild, research-grade iNaturalist observations in North America are plotted at their public coordinates.",
     "data_file": "map-data-alaus-patricius.json",
-    "caption": "The species occurs in the Florida Keys and Cuba. The Florida highlight represents the state containing the Keys.",
-    "alt": "Documented regions for Alaus patricius: Cuba, Florida.",
-    "url": "https://edis.ifas.ufl.edu/publication/IN242/pdf",
-    "link_label": "Distribution source",
-    "data_label": "Mapped regions and sources",
-    "observations_url": "https://www.inaturalist.org/observations?quality_grade=research&captive=false&geo=true&place_id=97394&view=map&taxon_id=465469",
-    "live": {
-      "taxon_id": 465469,
-      "bounds": [
-        -87.61,
-        19.86,
-        -74.14,
-        31.0
-      ]
-    }
+    "alt": "Alaus patricius in North America. The map plots 14 public observation locations. Filled dots indicate uncertainty of 10 km or less. Open circles indicate obscured locations or larger or unknown uncertainty."
   }
 }

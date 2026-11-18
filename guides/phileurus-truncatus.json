@@ -98,24 +98,14 @@
   ],
   "distribution": {
     "slug": "phileurus-truncatus",
-    "kind": "regional",
     "file": "map-phileurus-truncatus.png",
+    "count": 2124,
+    "raw_count": 2124,
+    "excluded_count": 0,
     "date": "2026-11-18",
+    "url": "https://www.inaturalist.org/observations?place_id=97394&quality_grade=research&captive=false&geo=true&taxon_id=301518&view=map",
+    "caption": "2,124 of 2,124 wild, research-grade iNaturalist observations in North America are plotted at their public coordinates.",
     "data_file": "map-data-phileurus-truncatus.json",
-    "caption": "Selected U.S. and Mexican records are shown by state. In Mexico the species is recorded on both coastal slopes.",
-    "alt": "Documented regions for Phileurus truncatus: Alabama, Arizona, Arkansas, Chiapas, Florida, Georgia, Hidalgo, Jalisco, Louisiana, Michoacán, Mississippi, Nayarit, North Carolina, Nuevo León, Oaxaca, Oklahoma, Puebla, Quintana Roo, Sinaloa, Sonora, South Carolina, Tamaulipas, Tennessee, Texas, Veracruz, Virginia.",
-    "url": "https://www.bugguide.net/node/view/4705/data",
-    "link_label": "Distribution source",
-    "data_label": "Mapped regions and sources",
-    "observations_url": "https://www.inaturalist.org/observations?quality_grade=research&captive=false&geo=true&place_id=97394&view=map&taxon_id=301518",
-    "live": {
-      "taxon_id": 301518,
-      "bounds": [
-        -115.04,
-        14.55,
-        -75.23,
-        39.45
-      ]
-    }
+    "alt": "Phileurus truncatus in North America. The map plots 2,124 public observation locations. Filled dots indicate uncertainty of 10 km or less. Open circles indicate obscured locations or larger or unknown uncertainty."
   }
 }

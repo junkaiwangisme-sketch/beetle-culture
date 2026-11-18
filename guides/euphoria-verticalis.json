@@ -50,24 +50,14 @@
   ],
   "distribution": {
     "slug": "euphoria-verticalis",
-    "kind": "regional",
     "file": "map-euphoria-verticalis.png",
+    "count": 62,
+    "raw_count": 62,
+    "excluded_count": 0,
     "date": "2026-11-18",
+    "url": "https://www.inaturalist.org/observations?place_id=97394&quality_grade=research&captive=false&geo=true&taxon_id=560817&view=map",
+    "caption": "62 of 62 wild, research-grade iNaturalist observations in North America are plotted at their public coordinates.",
     "data_file": "map-data-euphoria-verticalis.json",
-    "caption": "The highlighted state contains a photographed field record from Santa Cruz County, Arizona.",
-    "alt": "Documented regions for Euphoria verticalis: Arizona.",
-    "url": "https://elp.tamu.edu/ipm/bugs/order-coleoptera-beetles/family-scarabaeidae-scarab-beetles/coleoptera-scarabaeidae-euphoria-verticalis-fruit-and-flower-chafers-e/",
-    "link_label": "Distribution source",
-    "data_label": "Mapped regions and sources",
-    "observations_url": "https://www.inaturalist.org/observations?quality_grade=research&captive=false&geo=true&place_id=97394&view=map&taxon_id=560817",
-    "live": {
-      "taxon_id": 560817,
-      "bounds": [
-        -116.84,
-        31.32,
-        -107.05,
-        37.0
-      ]
-    }
+    "alt": "Euphoria verticalis in North America. The map plots 62 public observation locations. Filled dots indicate uncertainty of 10 km or less. Open circles indicate obscured locations or larger or unknown uncertainty."
   }
 }

@@ -108,24 +108,14 @@
   ],
   "distribution": {
     "slug": "stenodontes-exsertus",
-    "kind": "regional",
     "file": "map-stenodontes-exsertus.png",
+    "count": 205,
+    "raw_count": 205,
+    "excluded_count": 0,
     "date": "2026-11-18",
+    "url": "https://www.inaturalist.org/observations?place_id=97394&quality_grade=research&captive=false&geo=true&taxon_id=491452&view=map",
+    "caption": "205 of 205 wild, research-grade iNaturalist observations in North America are plotted at their public coordinates.",
     "data_file": "map-data-stenodontes-exsertus.json",
-    "caption": "Monné records the species on Hispaniola and Puerto Rico. The two countries on Hispaniola are shaded together to identify the island.",
-    "alt": "Documented regions for Stenodontes exsertus: Dominican Republic, Haiti, Puerto Rico.",
-    "url": "https://cerambycids.com/catalog/Monne_Jun2024_NeotropicalCat_part_III.pdf",
-    "link_label": "Distribution source",
-    "data_label": "Mapped regions and sources",
-    "observations_url": "https://www.inaturalist.org/observations?quality_grade=research&captive=false&geo=true&place_id=97394&view=map&taxon_id=491452",
-    "live": {
-      "taxon_id": 491452,
-      "bounds": [
-        -74.48,
-        16.14,
-        -65.29,
-        21.59
-      ]
-    }
+    "alt": "Stenodontes exsertus in North America. The map plots 205 public observation locations. Filled dots indicate uncertainty of 10 km or less. Open circles indicate obscured locations or larger or unknown uncertainty."
   }
 }

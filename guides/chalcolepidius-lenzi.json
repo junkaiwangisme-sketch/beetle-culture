@@ -47,24 +47,14 @@
   "gallery": [],
   "distribution": {
     "slug": "chalcolepidius-lenzi",
-    "kind": "regional",
     "file": "map-chalcolepidius-lenzi.png",
+    "count": 20,
+    "raw_count": 20,
+    "excluded_count": 0,
     "date": "2026-11-18",
+    "url": "https://www.inaturalist.org/observations?place_id=97394&quality_grade=research&captive=false&geo=true&taxon_id=489426&view=map",
+    "caption": "20 of 20 wild, research-grade iNaturalist observations in North America are plotted at their public coordinates.",
     "data_file": "map-data-chalcolepidius-lenzi.json",
-    "caption": "Casari records this species in California and Arizona, with Mexican records extending south to Colima and Veracruz.",
-    "alt": "Documented regions for Chalcolepidius lenzi: Arizona, California, Colima, Nuevo León, Sinaloa, Sonora, Veracruz.",
-    "url": "https://doi.org/10.1590/S0085-56262002000300007",
-    "link_label": "Distribution source",
-    "data_label": "Mapped regions and sources",
-    "observations_url": "https://www.inaturalist.org/observations?quality_grade=research&captive=false&geo=true&place_id=97394&view=map&taxon_id=489426",
-    "live": {
-      "taxon_id": 489426,
-      "bounds": [
-        -124.37,
-        17.15,
-        -93.59,
-        42.0
-      ]
-    }
+    "alt": "Chalcolepidius lenzi in North America. The map plots 20 public observation locations. Filled dots indicate uncertainty of 10 km or less. Open circles indicate obscured locations or larger or unknown uncertainty."
   }
 }

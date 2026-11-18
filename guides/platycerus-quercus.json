@@ -51,24 +51,14 @@
   ],
   "distribution": {
     "slug": "platycerus-quercus",
-    "kind": "regional",
     "file": "map-platycerus-quercus.png",
+    "count": 933,
+    "raw_count": 933,
+    "excluded_count": 0,
     "date": "2026-11-18",
+    "url": "https://www.inaturalist.org/observations?place_id=97394&quality_grade=research&captive=false&geo=true&taxon_id=564015&view=map",
+    "caption": "933 of 933 wild, research-grade iNaturalist observations in North America are plotted at their public coordinates.",
     "data_file": "map-data-platycerus-quercus.json",
-    "caption": "The oak stag beetle occurs in eastern and central North America. The map marks two states with published field collections.",
-    "alt": "Documented regions for Platycerus quercus: Georgia, Maryland.",
-    "url": "https://doi.org/10.3897/zookeys.1232.143989",
-    "link_label": "Distribution source",
-    "data_label": "Mapped regions and sources",
-    "observations_url": "https://www.inaturalist.org/observations?quality_grade=research&captive=false&geo=true&place_id=97394&view=map&taxon_id=564015",
-    "live": {
-      "taxon_id": 564015,
-      "bounds": [
-        -85.62,
-        30.37,
-        -75.04,
-        39.72
-      ]
-    }
+    "alt": "Platycerus quercus in North America. The map plots 933 public observation locations. Filled dots indicate uncertainty of 10 km or less. Open circles indicate obscured locations or larger or unknown uncertainty."
   }
 }

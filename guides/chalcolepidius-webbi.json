@@ -80,24 +80,14 @@
   ],
   "distribution": {
     "slug": "chalcolepidius-webbi",
-    "kind": "regional",
     "file": "map-chalcolepidius-webbi.png",
+    "count": 60,
+    "raw_count": 60,
+    "excluded_count": 0,
     "date": "2026-11-18",
+    "url": "https://www.inaturalist.org/observations?place_id=97394&quality_grade=research&captive=false&geo=true&taxon_id=183001&view=map",
+    "caption": "60 of 60 wild, research-grade iNaturalist observations in North America are plotted at their public coordinates.",
     "data_file": "map-data-chalcolepidius-webbi.json",
-    "caption": "Casari lists California, Arizona and New Mexico, together with Sonora and Durango in Mexico.",
-    "alt": "Documented regions for Chalcolepidius webbi: Arizona, California, Durango, New Mexico, Sonora.",
-    "url": "https://doi.org/10.1590/S0085-56262002000300007",
-    "link_label": "Distribution source",
-    "data_label": "Mapped regions and sources",
-    "observations_url": "https://www.inaturalist.org/observations?quality_grade=research&captive=false&geo=true&place_id=97394&view=map&taxon_id=183001",
-    "live": {
-      "taxon_id": 183001,
-      "bounds": [
-        -124.37,
-        22.32,
-        -102.49,
-        42.0
-      ]
-    }
+    "alt": "Chalcolepidius webbi in North America. The map plots 60 public observation locations. Filled dots indicate uncertainty of 10 km or less. Open circles indicate obscured locations or larger or unknown uncertainty."
   }
 }

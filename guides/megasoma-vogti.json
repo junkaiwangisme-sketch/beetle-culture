@@ -61,24 +61,14 @@
   ],
   "distribution": {
     "slug": "megasoma-vogti",
-    "kind": "regional",
     "file": "map-megasoma-vogti.png",
+    "count": 43,
+    "raw_count": 43,
+    "excluded_count": 0,
     "date": "2026-11-18",
+    "url": "https://www.inaturalist.org/observations?place_id=97394&quality_grade=research&captive=false&geo=true&taxon_id=267027&view=map",
+    "caption": "43 of 43 wild, research-grade iNaturalist observations in North America are plotted at their public coordinates.",
     "data_file": "map-data-megasoma-vogti.json",
-    "caption": "The museum account places this scarab in Texas and Tamaulipas, Mexico. In Texas it occupies southern thornscrub.",
-    "alt": "Documented regions for Megasoma vogti: Tamaulipas, Texas.",
-    "url": "https://unsm-ento.unl.edu/Guide/Scarabaeoidea/Scarabaeidae/Dynastinae/Dynastinae-Tribes/Dynastini/Megasoma/Megasoma%20vogti/Mvogti.html",
-    "link_label": "Distribution source",
-    "data_label": "Mapped regions and sources",
-    "observations_url": "https://www.inaturalist.org/observations?quality_grade=research&captive=false&geo=true&place_id=97394&view=map&taxon_id=267027",
-    "live": {
-      "taxon_id": 267027,
-      "bounds": [
-        -106.67,
-        22.22,
-        -93.53,
-        36.5
-      ]
-    }
+    "alt": "Megasoma vogti in North America. The map plots 43 public observation locations. Filled dots indicate uncertainty of 10 km or less. Open circles indicate obscured locations or larger or unknown uncertainty."
   }
 }

@@ -56,24 +56,14 @@
   ],
   "distribution": {
     "slug": "alaus-oculatus",
-    "kind": "regional",
     "file": "map-alaus-oculatus.png",
+    "count": 27307,
+    "raw_count": 27308,
+    "excluded_count": 1,
     "date": "2026-11-18",
+    "url": "https://www.inaturalist.org/observations?place_id=97394&quality_grade=research&captive=false&geo=true&taxon_id=81706&view=map",
+    "caption": "27,307 of 27,308 wild, research-grade iNaturalist observations in North America are plotted at their public coordinates. The geographic review excluded 1 remote report.",
     "data_file": "map-data-alaus-oculatus.json",
-    "caption": "Woodruff reports the eyed click beetle across the eastern United States, including Texas, and in southern Ontario and Québec. The map highlights jurisdictions named in the account.",
-    "alt": "Documented regions for Alaus oculatus: Florida, Georgia, Indiana, New York, Ontario, Québec, Texas.",
-    "url": "https://edis.ifas.ufl.edu/publication/IN242/pdf",
-    "link_label": "Distribution source",
-    "data_label": "Mapped regions and sources",
-    "observations_url": "https://www.inaturalist.org/observations?quality_grade=research&captive=false&geo=true&place_id=97394&view=map&taxon_id=81706",
-    "live": {
-      "taxon_id": 81706,
-      "bounds": [
-        -106.67,
-        24.54,
-        -57.1,
-        62.57
-      ]
-    }
+    "alt": "Alaus oculatus in North America. The map plots 27,307 public observation locations. Filled dots indicate uncertainty of 10 km or less. Open circles indicate obscured locations or larger or unknown uncertainty."
   }
 }

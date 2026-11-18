@@ -98,24 +98,14 @@
   ],
   "distribution": {
     "slug": "thylodrias-contractus",
-    "kind": "regional",
     "file": "map-thylodrias-contractus.png",
+    "count": 87,
+    "raw_count": 87,
+    "excluded_count": 0,
     "date": "2026-11-18",
+    "url": "https://www.inaturalist.org/observations?place_id=97394&quality_grade=research&captive=false&geo=true&taxon_id=232585&view=map",
+    "caption": "87 of 87 wild, research-grade iNaturalist observations in North America are plotted at their public coordinates.",
     "data_file": "map-data-thylodrias-contractus.json",
-    "caption": "The odd beetle has been introduced to North America. The map marks selected Canadian reports and a published Wisconsin specimen.",
-    "alt": "Documented regions for Thylodrias contractus: Alberta, Québec, Wisconsin, Yukon.",
-    "url": "https://publications.gc.ca/collections/collection_2015/aac-aafc/A43-1837-1989-eng.pdf",
-    "link_label": "Distribution source",
-    "data_label": "Mapped regions and sources",
-    "observations_url": "https://www.inaturalist.org/observations?quality_grade=research&captive=false&geo=true&place_id=97394&view=map&taxon_id=232585",
-    "live": {
-      "taxon_id": 232585,
-      "bounds": [
-        -141.0,
-        42.49,
-        -57.1,
-        69.65
-      ]
-    }
+    "alt": "Thylodrias contractus in North America. The map plots 87 public observation locations. Filled dots indicate uncertainty of 10 km or less. Open circles indicate obscured locations or larger or unknown uncertainty."
   }
 }

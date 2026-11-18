@@ -48,24 +48,14 @@
   "gallery": [],
   "distribution": {
     "slug": "megasoma-sleeperi",
-    "kind": "regional",
     "file": "map-megasoma-sleeperi.png",
+    "count": 14,
+    "raw_count": 14,
+    "excluded_count": 0,
     "date": "2026-11-18",
+    "url": "https://www.inaturalist.org/observations?place_id=97394&quality_grade=research&captive=false&geo=true&taxon_id=321482&view=map",
+    "caption": "14 of 14 wild, research-grade iNaturalist observations in North America are plotted at their public coordinates.",
     "data_file": "map-data-megasoma-sleeperi.json",
-    "caption": "The documented range is in southern California. State shading locates those southern records.",
-    "alt": "Documented regions for Megasoma sleeperi: California.",
-    "url": "https://unsm-ento.unl.edu/Guide/Scarabaeoidea/Scarabaeidae/Dynastinae/Dynastinae-Tribes/Dynastini/Megasoma/Megasoma%20sleeperi/Msleeperi.html",
-    "link_label": "Distribution source",
-    "data_label": "Mapped regions and sources",
-    "observations_url": "https://www.inaturalist.org/observations?quality_grade=research&captive=false&geo=true&place_id=97394&view=map&taxon_id=321482",
-    "live": {
-      "taxon_id": 321482,
-      "bounds": [
-        -124.37,
-        32.53,
-        -114.12,
-        42.0
-      ]
-    }
+    "alt": "Megasoma sleeperi in North America. The map plots 14 public observation locations. Filled dots indicate uncertainty of 10 km or less. Open circles indicate obscured locations or larger or unknown uncertainty."
   }
 }

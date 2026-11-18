@@ -107,24 +107,14 @@
   ],
   "distribution": {
     "slug": "rutela-formosa",
-    "kind": "regional",
     "file": "map-rutela-formosa.png",
+    "count": 34,
+    "raw_count": 34,
+    "excluded_count": 0,
     "date": "2026-11-18",
+    "url": "https://www.inaturalist.org/observations?place_id=97394&quality_grade=research&captive=false&geo=true&taxon_id=230339&view=map",
+    "caption": "34 of 34 wild, research-grade iNaturalist observations in North America are plotted at their public coordinates.",
     "data_file": "map-data-rutela-formosa.json",
-    "caption": "The American Beetles account records Florida, Georgia, the Bahamas and Cuba. The Florida Keys contain documented breeding sites.",
-    "alt": "Documented regions for Rutela formosa: Cuba, Florida, Georgia, The Bahamas.",
-    "url": "https://api.pageplace.de/preview/DT0400.9781420041231_A24583113/preview-9781420041231_A24583113.pdf",
-    "link_label": "Distribution source",
-    "data_label": "Mapped regions and sources",
-    "observations_url": "https://www.inaturalist.org/observations?quality_grade=research&captive=false&geo=true&place_id=97394&view=map&taxon_id=230339",
-    "live": {
-      "taxon_id": 230339,
-      "bounds": [
-        -87.61,
-        19.86,
-        -72.75,
-        35.0
-      ]
-    }
+    "alt": "Rutela formosa in North America. The map plots 34 public observation locations. Filled dots indicate uncertainty of 10 km or less. Open circles indicate obscured locations or larger or unknown uncertainty."
   }
 }

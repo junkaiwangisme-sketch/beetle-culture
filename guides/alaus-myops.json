@@ -73,24 +73,14 @@
   ],
   "distribution": {
     "slug": "alaus-myops",
-    "kind": "regional",
     "file": "map-alaus-myops.png",
+    "count": 2270,
+    "raw_count": 2270,
+    "excluded_count": 0,
     "date": "2026-11-18",
+    "url": "https://www.inaturalist.org/observations?place_id=97394&quality_grade=research&captive=false&geo=true&taxon_id=212921&view=map",
+    "caption": "2,270 of 2,270 wild, research-grade iNaturalist observations in North America are plotted at their public coordinates.",
     "data_file": "map-data-alaus-myops.json",
-    "caption": "Woodruff reports the species primarily in the southeastern United States, with northern records reaching New York, southern Manitoba and the Montréal area.",
-    "alt": "Documented regions for Alaus myops: Florida, Georgia, Indiana, Manitoba, New York, Québec.",
-    "url": "https://edis.ifas.ufl.edu/publication/IN242/pdf",
-    "link_label": "Distribution source",
-    "data_label": "Mapped regions and sources",
-    "observations_url": "https://www.inaturalist.org/observations?quality_grade=research&captive=false&geo=true&place_id=97394&view=map&taxon_id=212921",
-    "live": {
-      "taxon_id": 212921,
-      "bounds": [
-        -102.0,
-        24.54,
-        -57.1,
-        62.57
-      ]
-    }
+    "alt": "Alaus myops in North America. The map plots 2,270 public observation locations. Filled dots indicate uncertainty of 10 km or less. Open circles indicate obscured locations or larger or unknown uncertainty."
   }
 }

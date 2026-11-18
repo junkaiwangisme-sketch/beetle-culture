@@ -67,24 +67,14 @@
   ],
   "distribution": {
     "slug": "dermestes-marmoratus",
-    "kind": "regional",
     "file": "map-dermestes-marmoratus.png",
+    "count": 185,
+    "raw_count": 185,
+    "excluded_count": 0,
     "date": "2026-11-18",
+    "url": "https://www.inaturalist.org/observations?place_id=97394&quality_grade=research&captive=false&geo=true&taxon_id=82465&view=map",
+    "caption": "185 of 185 wild, research-grade iNaturalist observations in North America are plotted at their public coordinates.",
     "data_file": "map-data-dermestes-marmoratus.json",
-    "caption": "Biggs and colleagues report records in Canada and the United States, including the western interior, the Gulf states and New Brunswick.",
-    "alt": "Documented regions for Dermestes marmoratus: Alabama, Alberta, British Columbia, California, Colorado, Idaho, Kansas, Manitoba, Mississippi, Montana, Nevada, New Brunswick, New Mexico, North Dakota, Oklahoma, Oregon, Saskatchewan, South Dakota, Texas, Utah, Washington, Wyoming.",
-    "url": "https://doi.org/10.3752/cjai.2022.46",
-    "link_label": "Distribution source",
-    "data_label": "Mapped regions and sources",
-    "observations_url": "https://www.inaturalist.org/observations?quality_grade=research&captive=false&geo=true&place_id=97394&view=map&taxon_id=82465",
-    "live": {
-      "taxon_id": 82465,
-      "bounds": [
-        -139.06,
-        25.87,
-        -63.83,
-        60.0
-      ]
-    }
+    "alt": "Dermestes marmoratus in North America. The map plots 185 public observation locations. Filled dots indicate uncertainty of 10 km or less. Open circles indicate obscured locations or larger or unknown uncertainty."
   }
 }

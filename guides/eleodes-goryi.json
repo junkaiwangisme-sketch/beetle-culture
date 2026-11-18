@@ -54,24 +54,14 @@
   ],
   "distribution": {
     "slug": "eleodes-goryi",
-    "kind": "regional",
     "file": "map-eleodes-goryi.png",
+    "count": 4480,
+    "raw_count": 4481,
+    "excluded_count": 1,
     "date": "2026-11-18",
+    "url": "https://www.inaturalist.org/observations?place_id=97394&quality_grade=research&captive=false&geo=true&taxon_id=334271&view=map",
+    "caption": "4,480 of 4,481 wild, research-grade iNaturalist observations in North America are plotted at their public coordinates. The geographic review excluded 1 remote report.",
     "data_file": "map-data-eleodes-goryi.json",
-    "caption": "Bousquet and colleagues list New Mexico and Texas, and the Mexican states of Puebla, Tamaulipas and Veracruz.",
-    "alt": "Documented regions for Eleodes goryi: New Mexico, Puebla, Tamaulipas, Texas, Veracruz.",
-    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5799738/",
-    "link_label": "Distribution source",
-    "data_label": "Mapped regions and sources",
-    "observations_url": "https://www.inaturalist.org/observations?quality_grade=research&captive=false&geo=true&place_id=97394&view=map&taxon_id=334271",
-    "live": {
-      "taxon_id": 334271,
-      "bounds": [
-        -109.05,
-        17.15,
-        -93.53,
-        37.0
-      ]
-    }
+    "alt": "Eleodes goryi in North America. The map plots 4,480 public observation locations. Filled dots indicate uncertainty of 10 km or less. Open circles indicate obscured locations or larger or unknown uncertainty."
   }
 }
