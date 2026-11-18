@@ -190,12 +190,18 @@ for s in guides:
             content+='<h3>'+e(section['title'])+'</h3><p>'+prose(section['text'])+'</p>'
         if trial.get('url') and public_reference(trial['url']):content+='<p>'+link(trial['url'],'Original account')+'</p>'
         parts.insert(1 if len(parts)>1 else len(parts),f'<section id="{anchor}" class="trial"><h2>{e(trial["title"])}</h2>{content}</section>')
-    body+='<div class="wrap article-layout"><article class="article">'+(galleryfig(ps[0], lead=True) if ps else '')+summary+''.join(parts)
-    if len(ps)>1:
+    adult_lead = ps[0] if ps and ps[0].get('stage') == 'Adults' else None
+    gallery_photos = ps[1:] if adult_lead else ps
+    body+='<div class="wrap article-layout"><article class="article">'+(galleryfig(adult_lead, lead=True) if adult_lead else '')+summary+''.join(parts)
+    if g['slug'] in ('lucanidae', 'dynastinae', 'rutelinae', 'cetoniinae') or s['slug'] == 'stenodontes-chevrolati':
+        body += '<p class="guide-related">'+link('substrate.html', 'How I prepare hardwood flake soil')+'</p>'
+    if s['slug'] == 'strategus-aloeus':
+        body += '<p class="guide-related">'+link('species-chrysina-woodi.html', 'My clay layer for pupating Chrysina woodi')+'</p>'
+    if gallery_photos:
         toc.append('<li>'+link('#photographs','Photographs')+'</li>')
         body+='<section id="photographs"><h2>Photographs</h2>'
         for stage in ('Eggs','Larvae','Prepupae and pupae','Adults','Additional views'):
-            group_photos=[p for p in ps[1:] if (p.get('stage') or 'Additional views')==stage]
+            group_photos=[p for p in gallery_photos if (p.get('stage') or 'Additional views')==stage]
             if group_photos:
                 body+='<h3>'+e(stage)+'</h3><div class="gallery">'+''.join(galleryfig(p) for p in group_photos)+'</div>'
         body+='</section>'
@@ -217,8 +223,8 @@ for s in guides:
         body+=' · '+link('distribution.html','Mapping methods')+'</p></section>'
     references = srcs(s)
     if references:
-        toc.append('<li>'+link('#references', 'Rearing references')+'</li>')
-        body += '<section id="references"><h2>Rearing references</h2><ul class="sources">'+references+'</ul></section>'
+        toc.append('<li>'+link('#references', 'Sources')+'</li>')
+        body += '<section id="references"><h2>Sources</h2><ul class="sources">'+references+'</ul></section>'
     body+=classification(s.get('classification',[]))
     body+='</article><aside class="toc"><div class="onthis">In this guide</div><ol>'+''.join(toc)+'</ol>'+link(glink(s['group']),'All '+g['name']+' guides')+'</aside></div>'
     page(slink(s),((common+' ('+name+')') if common else name)+' breeding guide',s['intro'],body,'Article',ps[0] if ps else None,article=s)
@@ -239,7 +245,7 @@ if substrate:
                 block+='<p>'+prose(paragraph)+'</p>'
             credit=substrate['credit_after']
             if credit['section']==title and credit['paragraph_index']==index:
-                block+='<p class="ratio-note"><strong>15 lb of unbleached flour per 40 lb of sawdust.</strong> Flour ratio revised by Leg and Leaf.</p>'
+                block+='<p class="ratio-note"><strong>15 lb of unbleached flour per 40 lb of sawdust.</strong> <a href="https://legandleaf.com/product-category/beetles/">Leg and Leaf</a> developed this flour-to-sawdust ratio.</p>'
         for picture in substrate.get('photos',[]):
             if picture.get('section')==title:block+=galleryfig(picture)
         blocks.append(block+'</section>')
