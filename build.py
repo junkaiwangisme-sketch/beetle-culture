@@ -245,7 +245,7 @@ if substrate:
                 block+='<p>'+prose(paragraph)+'</p>'
             credit=substrate['credit_after']
             if credit['section']==title and credit['paragraph_index']==index:
-                block+='<p class="ratio-note"><strong>15 lb of unbleached flour per 40 lb of sawdust.</strong> <a href="https://legandleaf.com/product-category/beetles/">Leg and Leaf</a> developed this flour-to-sawdust ratio.</p>'
+                block+='<p class="ratio-note"><strong>15 lb of unbleached flour per 40 lb of sawdust.</strong> '+link(substrate["credit_url"], "Leg and Leaf")+' developed this flour-to-sawdust ratio.</p>'
         for picture in substrate.get('photos',[]):
             if picture.get('section')==title:block+=galleryfig(picture)
         blocks.append(block+'</section>')
