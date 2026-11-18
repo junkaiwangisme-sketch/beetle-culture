@@ -1,0 +1,60 @@
+{
+  "name": "Phileurus valgus",
+  "slug": "phileurus-valgus",
+  "common": "Lesser triceratops beetle",
+  "group": "dynastinae",
+  "intro": "This was the first rhinoceros beetle I reared after coming to the United States. I followed it from egg to adult, starting each female in a small laying cup and moving her eggs to a larger box. In Michigan, Junkai also kept this species alongside Phileurus truncatus.",
+  "facts": [
+    {
+      "title": "Laying container",
+      "text": "32 US fl oz (about 950 mL) per female"
+    },
+    {
+      "title": "Substrate depth",
+      "text": "About three-quarters of the container"
+    },
+    {
+      "title": "Egg checks",
+      "text": "Monthly in Alan’s colony"
+    }
+  ],
+  "sections": [
+    {
+      "title": "Setting up the female",
+      "text": "I give each female a 32 oz (about 950 mL) container and fill it about three-quarters full with substrate. I check roughly once a month and move the eggs I find to a larger container. Keeping each female in her own laying cup lets me follow her output across successive checks. High in a tree one summer I found a pair with first-instar larvae. I have also seen remains in pieces that fell out of the canopy."
+    },
+    {
+      "title": "Feeding and recognizing adults",
+      "text": "My adults eat dog food, and I photographed one feeding. When I try to sex them I examine the final abdominal segment. The differences looked similar to those in Phileurus truncatus, but I had only a few males available for comparison. I would check that tentative identification against mating or laying. The last adult of my 2013 series emerged in autumn."
+    },
+    {
+      "title": "Recognizing pupation",
+      "text": "A study by Ibarra-Polesel and colleagues measured development in a separate population from northeastern Argentina. Before pupation the mature grub built a cell from wood particles and its own droppings. Under their laboratory conditions the third instar lasted 38–42 days, the prepupal period 6–9 days and the pupal stage 11–13 days. Seven adults lived about three months. I would leave any intact cell in place when checking the box. These figures describe a particular rearing series and give a point of comparison for a North American brood."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Alan Jeon’s complete captive series and laying containers",
+      "url": "https://beetleforum.net/threads/phileurus-valgus.1613/"
+    },
+    {
+      "title": "My captive adults in Michigan",
+      "url": "https://beetleforum.net/threads/any-possible-michigan-breeders.5280/"
+    },
+    {
+      "title": "Ibarra-Polesel and colleagues (2017), immature stages and development in Argentina",
+      "url": "https://doi.org/10.11646/zootaxa.4290.3.10"
+    }
+  ],
+  "primary_url": "https://beetleforum.net/threads/phileurus-valgus.1613/",
+  "account_credit": "Breeding account by Alan Jeon · Additional stock kept by Junkai Wang",
+  "gallery": [
+    {
+      "file": "phileurus-valgus-352697471-alan.jpg",
+      "stage": "Adults",
+      "caption": "An adult in its bark habitat.",
+      "alt": "Shiny black Phileurus valgus crawling down the fissured bark of a tree.",
+      "credit": "Alan Jeon"
+    }
+  ]
+}

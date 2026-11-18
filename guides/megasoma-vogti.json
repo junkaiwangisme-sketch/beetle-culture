@@ -1,0 +1,62 @@
+{
+  "name": "Megasoma vogti",
+  "slug": "megasoma-vogti",
+  "group": "dynastinae",
+  "common": "Vogt’s elephant beetle",
+  "intro": "When I photographed my recently acquired Megasoma vogti larvae, they were still in their second instar. I was surprised they had not advanced further. I use that image as a record of a known larval stage, alongside the separately documented third instar of a beetle reared from a Texas female’s egg.",
+  "facts": [
+    {
+      "title": "Stage in my photograph",
+      "text": "Second instar (L2)"
+    },
+    {
+      "title": "Published brood origin",
+      "text": "Female collected in Live Oak County, Texas"
+    },
+    {
+      "title": "Adult habitat",
+      "text": "Mesquite scrub in southern Texas and northeastern Mexico"
+    }
+  ],
+  "sections": [
+    {
+      "title": "Starting with larvae",
+      "text": "The grubs were already in their second instar when they came to me. I would put the arrival date and observed instar on the container together. Without a laying date it is easy to mistake the time a beetle has been in one’s care for its age. If a later molt is visible, that is a more useful point for comparing growth with a second brood. My photograph shows the larvae I had at that check."
+    },
+    {
+      "title": "A Texas reference for the third instar",
+      "text": "Ratcliffe and Morón described a third-instar larva reared from an egg laid by a female collected in Live Oak County in October 1989. Their description and illustrations provide a reference for the next stage after the one in my photograph. In the field, adults have been recorded from July through October around mesquite, thorn shrubs and cacti. Both sexes have been observed at lights, on the ground and on mesquite branches. An adult on mesquite documents where it was found. I would want a larval feeding observation before treating that tree as a required rearing substrate."
+    }
+  ],
+  "sources": [
+    {
+      "title": "My second-instar larvae",
+      "url": "https://beetleforum.net/threads/megasoma-vogti-l2-larvae.6037/"
+    },
+    {
+      "title": "Ratcliffe and Morón (2005), third instar reared from an egg of a Texas female",
+      "url": "https://www.researchgate.net/publication/232669332_Larval_Descriptions_of_Eight_Species_of_Megasoma_Kirby_Coleoptera_Scarabaeidae_Dynastinae_with_a_Key_for_Identification_and_Notes_on_Biology"
+    },
+    {
+      "title": "University of Nebraska State Museum, Megasoma vogti",
+      "url": "https://unsm-ento.unl.edu/Guide/Scarabaeoidea/Scarabaeidae/Dynastinae/Dynastinae-Tribes/Dynastini/Megasoma/Megasoma%20vogti/Mvogti.html"
+    }
+  ],
+  "primary_url": "https://beetleforum.net/threads/megasoma-vogti-l2-larvae.6037/",
+  "related_species": [
+    "megasoma-punctulatum",
+    "megasoma-sleeperi",
+    "chrysina-woodi"
+  ],
+  "account_credit": "Breeding notes by Junkai Wang and Alan Jeon",
+  "gallery": [
+    {
+      "file": "megasoma-vogti-second-instar-wang.jpg",
+      "stage": "Larvae",
+      "caption": "Second-instar larvae in my care in July 2022.",
+      "alt": "Several pale, curled Megasoma vogti larvae on the surface of a rearing box.",
+      "credit": "Junkai Wang",
+      "preferred": false
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "name": "Euphoria monticola",
+  "slug": "euphoria-monticola",
+  "common": "Flower chafer",
+  "group": "cetoniinae",
+  "intro": "I started my Euphoria monticola culture with several grubs I found beneath decomposing leaves in Arizona. They are difficult to find in the wild. The adults fly in the canopy and visit sap flows, so they can be easy to miss from the ground. I raised my larvae to adults and obtained one captive generation. I rate the species 6 out of 10 for difficulty.",
+  "facts": [
+    {
+      "title": "Localities",
+      "text": "Arizona and New Mexico"
+    },
+    {
+      "title": "Adult length",
+      "text": "10–15 mm"
+    },
+    {
+      "title": "Adult lifespan",
+      "text": "1–3 months"
+    },
+    {
+      "title": "Larval period",
+      "text": "Approximately 18 months"
+    },
+    {
+      "title": "Egg count",
+      "text": "30 or more"
+    },
+    {
+      "title": "Adult feeding in our collection",
+      "text": "Offer beetle jelly every five days, or apple or banana."
+    }
+  ],
+  "sections": [
+    {
+      "title": "Adults and egg laying",
+      "text": "These southwestern flower chafers occur in Arizona and New Mexico and range south into Mexico. Adults measure about 10–15 mm. The two beetles pictured here give a sense of the color variation, one metallic green and the other blue-black. Mine readily accepted fruit and beetle jelly and lived about one to three months. I recommend a breeding container that holds at least 1.75 US gallons (6.6 L). Offer the adult food at the surface and give females flake soil or an organic substrate of decaying hardwood and well-decomposed leaves in which to lay. They can produce 30 or more eggs."
+    },
+    {
+      "title": "Feeding the larvae",
+      "text": "The hatchlings can start feeding in the same material their mother laid in. I allow about 18 months for the larval stage, so keep enough of the same food on hand for substrate changes. I lost the next generation after moving the young grubs to potting soil. I can’t say exactly what caused the loss. For another brood I’d keep the grubs on flake soil or replenish the mixture of decayed wood and leaves that supported them earlier."
+    },
+    {
+      "title": "Autumn cocoons and spring emergence",
+      "text": "The hardest part for me was getting the mature larvae through winter. All of them built cocoons in autumn, then spent several months inside as larvae. Only after I moved the cocoons into a cold garage for winter did the larvae become prepupae. They pupated when the weather warmed in spring, and adults appeared within about a month. I have no measured garage temperature to recommend, and the length of pupation and dormancy varies. If you are following a brood of your own, note when a cell first appears and leave it in place. The larva may spend a season inside before it actually pupates."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Species-specific breeding account, June 2025",
+      "url": "https://discord.com/channels/1285685926340726887/1379292918245756968"
+    },
+    {
+      "title": "J. Orozco (2012), variation and distribution of Euphoria monticola, figure 17",
+      "url": "https://doi.org/10.5281/zenodo.4907268"
+    }
+  ],
+  "primary_url": "https://discord.com/channels/1285685926340726887/1379292918245756968",
+  "record_type": "Breeding account",
+  "classification": [
+    {
+      "title": "BugGuide — Euphoria monticola",
+      "url": "https://www.bugguide.net/node/view/738513"
+    },
+    {
+      "title": "iNaturalist — Euphoria monticola",
+      "url": "https://www.inaturalist.org/taxa/301565-Euphoria-monticola"
+    }
+  ],
+  "native_status": {
+    "text": "Native to the southwestern United States and Mexico. The U.S. range includes southeastern Arizona.",
+    "status": "native",
+    "sources": [
+      {
+        "title": "Orozco (2012), Euphoria monticola distribution map",
+        "url": "https://doi.org/10.5281/zenodo.4907268"
+      },
+      {
+        "title": "BugGuide, Euphoria monticola",
+        "url": "https://www.bugguide.net/node/view/738513"
+      },
+      {
+        "title": "iNaturalist, regional establishment status",
+        "url": "https://www.inaturalist.org/taxa/301565-Euphoria-monticola#status-tab"
+      }
+    ]
+  },
+  "distribution": {
+    "slug": "euphoria-monticola",
+    "file": "map-euphoria-monticola.png",
+    "count": 226,
+    "raw_count": 226,
+    "excluded_count": 0,
+    "date": "2026-11-18",
+    "url": "https://www.inaturalist.org/observations?place_id=97394&quality_grade=research&captive=false&geo=true&taxon_id=301565&view=map",
+    "caption": "226 of 226 wild, research-grade iNaturalist observations in North America are plotted at their public coordinates.",
+    "data_file": "map-data-euphoria-monticola.json"
+  },
+  "account_credit": "Breeding notes by Junkai Wang and Alan Jeon",
+  "gallery": [
+    {
+      "file": "guide-1379292918245756968-01.jpg",
+      "alt": "Euphoria monticola. Metallic green adult in dorsal view.",
+      "caption": "Metallic green adult in dorsal view.",
+      "credit": "@alan69.",
+      "stage": "Adults"
+    },
+    {
+      "file": "guide-1379292918245756968-02.jpg",
+      "alt": "Euphoria monticola. Blue-black adult viewed from above.",
+      "caption": "Blue-black adult viewed from above.",
+      "credit": "@alan69.",
+      "stage": "Adults"
+    }
+  ]
+}

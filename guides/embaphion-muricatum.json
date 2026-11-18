@@ -1,0 +1,92 @@
+{
+  "name": "Embaphion muricatum",
+  "slug": "embaphion-muricatum",
+  "group": "tenebrionidae",
+  "common": "Pie-dish beetle",
+  "intro": "The upturned rim of this beetle’s back is what first caught my eye. I kept pie-dish beetles in December 2021 and had larvae of Embaphion muricatum available by March 2022. In 2024 Alan reared a fresh group to its first adult. The young are slender soil-dwellers, quite unlike the broad, shallow-dished adults.",
+  "facts": [
+    {
+      "title": "Our stock",
+      "text": "Larvae in March 2022, new adult in July 2024"
+    },
+    {
+      "title": "Successful substrate",
+      "text": "About 3 in (7.5 cm) of ReptiSoil mixed with excavator clay"
+    },
+    {
+      "title": "Food to try",
+      "text": "Wheat, hulless oats or rye"
+    },
+    {
+      "title": "Pupation site",
+      "text": "An earthen cell below the surface"
+    }
+  ],
+  "sections": [
+    {
+      "title": "A substrate that produced an adult",
+      "text": "Alan’s account from July 2024: I received fresh stock earlier that year and set it up in a gasket-sealed tub. I mixed ReptiSoil with excavator clay and gave the beetles about three inches (7.5 cm) of this mixture. I did not add rotten wood. On July 10 I saw the first adult from that group. This is the setup I would start with for another batch of pie-dish larvae."
+    },
+    {
+      "title": "Starting with adults",
+      "text": "I would give the adults cover they can walk under and a bed of diggable soil deep enough for the larvae to disappear into it. My Eleodes hispilabris setup offers one way to arrange a darkling enclosure. For pie-dish beetles I would leave a slightly damp area below the surface so a full-grown larva can form a cell that holds its shape. I would keep the feeding area accessible for checks without turning over the whole enclosure."
+    },
+    {
+      "title": "Feeding the larvae",
+      "text": "Wheat, hulless oats and rye are useful foods to start with. Both adults and larvae accepted seeds in laboratory feeding trials. I would offer a small amount at a recognizable spot and check the grains as well as the soil beneath them. A larva can eat into a seed from below while leaving little sign at the surface."
+    },
+    {
+      "title": "Following pupation",
+      "text": "Once I have larger larvae, I would leave part of the bed undisturbed and check through the side of the container. The finished cell is fragile, so I would wait for the adult to leave it before moving the beetle. In Kansas both larvae and adults have been found overwintering. My March 2022 larvae establish which stage I had that spring, but the interval after my December account is not a measured egg-to-larva time."
+    }
+  ],
+  "sources": [
+    {
+      "title": "My December 2021 pie-dish beetles",
+      "url": "https://beetleforum.net/threads/pie-dish-beetles.5767/"
+    },
+    {
+      "title": "Alan’s July 2024 rearing setup and first adult",
+      "url": "https://discord.com/channels/1080588087836549221/1126904652856827934/1260794865818669097"
+    },
+    {
+      "title": "My March 2022 larvae",
+      "url": "https://beetleforum.net/threads/some-beetles-and-various-other-things-for-trade-no-sales.5923/"
+    },
+    {
+      "title": "Wade and Böving, Biology of Embaphion muricatum",
+      "url": "https://cache.eurekamag.com/research/013/320/013320153.php"
+    },
+    {
+      "title": "Kansas State University, soil stages of false wireworms",
+      "url": "https://entomology.k-state.edu/doc/extension--crop-pests/false-wireworms.pdf"
+    },
+    {
+      "title": "Bouchard and Bousquet, Darkling Beetles of Canadian Grasslands",
+      "url": "https://studyres.com/doc/16621141/darkling-beetles--coleoptera--tenebrionidae--of-canadian-..."
+    }
+  ],
+  "account_credit": "Breeding notes by Junkai Wang and Alan Jeon",
+  "related_species": [
+    "eleodes-hispilabris"
+  ],
+  "primary_url": "https://beetleforum.net/threads/pie-dish-beetles.5767/",
+  "gallery": [
+    {
+      "file": "embaphion-muricatum-january-1-immanus.jpg",
+      "stage": "Adults",
+      "credit": "Junkai Wang",
+      "caption": "Adult photographed in January 2023.",
+      "alt": "Oblique view of a glossy black Embaphion muricatum on a pale twig among sand and small pebbles.",
+      "preferred": true
+    },
+    {
+      "file": "embaphion-muricatum-january-2-immanus.jpg",
+      "stage": "Adults",
+      "credit": "Junkai Wang",
+      "caption": "A second, dorsal view of the same adult.",
+      "alt": "Dorsal view of the dark pie-dish beetle beside a pale twig, showing the outlines of the pronotum and wing covers.",
+      "preferred": false
+    }
+  ]
+}

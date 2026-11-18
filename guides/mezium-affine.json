@@ -1,0 +1,68 @@
+{
+  "name": "Mezium affine",
+  "slug": "mezium-affine",
+  "group": "ptinidae",
+  "common": "Shiny spider beetle",
+  "intro": "I bred this small, round spider beetle on dog food. Of the two spider beetles I kept, Mezium affine was the quicker to build into an established colony. Its polished wing covers look much like those of Gibbium aequinoctiale, but a hand lens shows that the front of the body is covered in hairs.",
+  "facts": [
+    {
+      "title": "Food in my colony",
+      "text": "Dog food"
+    },
+    {
+      "title": "Comparison culture",
+      "text": "Established sooner than Gibbium aequinoctiale"
+    },
+    {
+      "title": "Adult length",
+      "text": "About 2.5–3.4 mm"
+    }
+  ],
+  "sections": [
+    {
+      "title": "Care and feeding",
+      "text": "I use the same staple food that worked for my Gibbium colony. I would keep small portions of dog food in a secure container and check the food and crumbs together. I use a pale tray for looking through a small sample. Against a light surface it is easier to see the tiny, reddish-brown adults move away from the food. Before replacing the bottom material, I would keep a portion with the established group. In October 2025 I found grain mites in my Mezium culture. Since both can be present in the crumbs, I would check them under magnification before moving material to a fresh box."
+    },
+    {
+      "title": "Following the colony",
+      "text": "I compare the numbers of adults I can see at successive checks. My Mezium became established substantially sooner than the Gibbium, which took roughly three times as long to build up. That comparison is about the time it took my cultures to become productive. I did not follow a single egg through to adulthood in that comparison."
+    },
+    {
+      "title": "Recognizing the species",
+      "text": "For a quick comparison, I look immediately behind the head. A coat of pale hairs covers the head and pronotum, while the much larger wing covers have a glossy surface. I check those characters before transferring beetles between cultures. The species occurs in North America and elsewhere in stored animal and plant products, which fits its readiness to use dog food in my care."
+    }
+  ],
+  "sources": [
+    {
+      "title": "My foods for both spider beetles",
+      "url": "https://discord.com/channels/1080588087836549221/1080588087836549224/1167601633019039754"
+    },
+    {
+      "title": "My July colony count and comparison",
+      "url": "https://discord.com/channels/1080588087836549221/1080588087836549224/1264435882891411456"
+    },
+    {
+      "title": "Arango and Young, Death-Watch and Spider Beetles of Wisconsin",
+      "url": "https://research.fs.usda.gov/download/treesearch/41369.pdf"
+    },
+    {
+      "title": "My October 2025 grain mite observation",
+      "url": "https://discord.com/channels/1080588087836549221/1338191341045415986/1426988269018546268"
+    }
+  ],
+  "account_credit": "Breeding account by Alan Jeon",
+  "related_species": [
+    "gibbium-aequinoctiale"
+  ],
+  "primary_url": "https://discord.com/channels/1080588087836549221/1080588087836549224/1167601633019039754",
+  "gallery": [
+    {
+      "file": "mezium-affine-culture-alan.jpg",
+      "stage": "Adults",
+      "credit": "Alan Jeon",
+      "caption": "Adults in the Mezium colony, July 2024.",
+      "alt": "Small, round, shiny brown spider beetles are scattered among chunks of dry food in a clear container.",
+      "preferred": true
+    }
+  ]
+}

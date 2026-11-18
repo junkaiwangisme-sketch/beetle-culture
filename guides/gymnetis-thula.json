@@ -1,0 +1,132 @@
+{
+  "slug": "gymnetis-thula",
+  "name": "Gymnetis thula",
+  "common": "Harlequin flower beetle",
+  "group": "cetoniinae",
+  "intro": "I reared a group of harlequin flower beetles on used aspen shavings from a snake enclosure mixed with sand. Every larva survived and the adults were average-sized. I use the photographs below to show what the mix looked like.",
+  "sections": [
+    {
+      "title": "Feeding the adults",
+      "text": "For active adults, my usual food is beetle jelly. I replace it about every five days. Pieces of banana or apple also work as adult food. I keep the feeding spot accessible at the surface so I can change the food without disturbing the substrate below. In the wild, adults visit flowers and sap flows. In Texas they have been observed at sap on false willow. These beetles take flight readily, especially when disturbed, so check the lid for adults as you open the enclosure."
+    },
+    {
+      "title": "Setting up for eggs and larvae",
+      "text": "In my aspen trial I used bedding that had already been used in a snake enclosure. I mixed the shavings with sand and kept the grubs in that mixture through development. If I use a different substrate, I look for decaying plant matter. In the field females lay in compost or fermenting oak, and the grubs also occupy organic matter inside tree hollows. I check the bedding below the surface when judging moisture."
+    },
+    {
+      "title": "Pupal cells and new adults",
+      "text": "The white, curved grubs pass through three instars and can reach roughly 25 mm. A mature larva builds an oval chamber for pupation. When working through older substrate, look for intact cells before breaking up lumps or throwing out material. I recommend leaving each cell supported on all sides until its occupant emerges. Supply beetle jelly again when the adults become active. The cream pattern on the head, thorax and wing covers varies considerably among beetles of this species."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Louisiana State University AgCenter, Gymnetis thula, Harlequin Flower Beetle",
+      "url": "https://www.lsuagcenter.com/profiles/averywilliams/articles/page1791230872900"
+    },
+    {
+      "title": "Junkai Wang, North American beetles in culture, January 2021",
+      "url": "https://discord.com/channels/794287611614462013/794289535726256190/795913723897708554"
+    },
+    {
+      "title": "My aspen-shaving and sand trial",
+      "url": "https://www.facebook.com/junkai.wang.1694/posts/pfbid0v7Gdrmm2jUWLa5DQsJHC6mg9LBFepExooHpWsd1FY374EPb7YjPeZRJs2QkCDoBRl"
+    }
+  ],
+  "facts": [
+    {
+      "title": "My larval substrate",
+      "text": "Used aspen shavings mixed with sand"
+    },
+    {
+      "title": "Outcome in this trial",
+      "text": "All larvae survived and produced average-sized adults"
+    },
+    {
+      "title": "Larval instars",
+      "text": "3"
+    },
+    {
+      "title": "Adult longevity",
+      "text": "Up to 8 months in captivity"
+    },
+    {
+      "title": "Seasonal activity",
+      "text": "Most adult observations fall between May and July"
+    },
+    {
+      "title": "Adult feeding in our collection",
+      "text": "Offer beetle jelly every five days, or apple or banana."
+    }
+  ],
+  "classification": [
+    {
+      "title": "BugGuide — Gymnetis thula",
+      "url": "https://www.bugguide.net/node/view/68158"
+    },
+    {
+      "title": "iNaturalist — Gymnetis thula",
+      "url": "https://www.inaturalist.org/taxa/884494"
+    }
+  ],
+  "native_status": {
+    "text": "Native to Texas, Louisiana and the adjoining U.S.–Mexico border region. Introduced in Florida, where the state recorded it in 2003.",
+    "status": "native; introduced in Florida",
+    "sources": [
+      {
+        "title": "Skelley et al. (2025), Florida adventive arthropod records",
+        "url": "https://www1.montpellier.inrae.fr/CBGP/spmweb/pdf/Authors_S/Skelley_et_al_2025.pdf"
+      },
+      {
+        "title": "Ratcliffe (2018), Gymnetis revision and original description",
+        "url": "https://marketplace.unl.edu/default/genus-gymnetis.html"
+      },
+      {
+        "title": "iNaturalist, regional establishment status",
+        "url": "https://www.inaturalist.org/taxa/884494#status-tab"
+      },
+      {
+        "title": "BugGuide, Gymnetis thula",
+        "url": "https://www.bugguide.net/node/view/68158"
+      }
+    ]
+  },
+  "distribution": {
+    "slug": "gymnetis-thula",
+    "file": "map-gymnetis-thula.png",
+    "count": 1497,
+    "raw_count": 1497,
+    "excluded_count": 0,
+    "date": "2026-11-18",
+    "url": "https://www.inaturalist.org/observations?place_id=97394&quality_grade=research&captive=false&geo=true&taxon_id=884494&view=map",
+    "caption": "1,497 of 1,497 wild, research-grade iNaturalist observations in North America are plotted at their public coordinates.",
+    "data_file": "map-data-gymnetis-thula.json"
+  },
+  "account_credit": "Breeding notes by Junkai Wang and Alan Jeon",
+  "primary_url": "https://www.lsuagcenter.com/profiles/averywilliams/articles/page1791230872900",
+  "gallery": [
+    {
+      "file": "gymnetis-thula-adult-wang.jpg",
+      "stage": "Adults",
+      "caption": "An adult harlequin flower beetle I photographed at an expo.",
+      "alt": "Black and cream Gymnetis thula resting on bright yellow fabric beside a printed beetle.",
+      "preferred": true,
+      "credit": "Junkai Wang"
+    },
+    {
+      "file": "gymnetis-thula-trial-1-wang.jpg",
+      "stage": "Additional views",
+      "caption": "The used aspen shavings and sand from my rearing trial.",
+      "alt": "Close view of the brown rearing substrate with individual pieces of aspen visible.",
+      "preferred": false,
+      "credit": "Junkai Wang"
+    },
+    {
+      "file": "gymnetis-thula-trial-2-wang.jpg",
+      "stage": "Additional views",
+      "caption": "A closer look at material from the same rearing trial.",
+      "alt": "Several compact clumps of substrate together in a clear container.",
+      "preferred": false,
+      "credit": "Junkai Wang"
+    }
+  ]
+}

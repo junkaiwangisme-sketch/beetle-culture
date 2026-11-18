@@ -1,0 +1,88 @@
+{
+  "name": "Alaus patricius",
+  "slug": "alaus-patricius",
+  "group": "elateridae",
+  "common": "Florida Keys eyed click beetle",
+  "intro": "Small eyespots and a mottled coat give this click beetle a different appearance from the more familiar eastern eyed click beetle. The species is known from the Florida Keys and Cuba. I raised adults from eggs in about a year. The early larvae required the closest attention because they were tiny and prone to eating one another.",
+  "facts": [
+    {
+      "title": "Range",
+      "text": "Florida Keys and Cuba"
+    },
+    {
+      "title": "Reported adult length",
+      "text": "30–35 mm"
+    },
+    {
+      "title": "Egg to adult in my culture",
+      "text": "About one year"
+    },
+    {
+      "title": "Egg laying",
+      "text": "Into the substrate"
+    }
+  ],
+  "sections": [
+    {
+      "title": "Recognizing an adult",
+      "text": "The paired spots are on the pronotum, the plate just behind the head. They are particularly small in A. patricius. The pale areas on the dark body are patches of tiny scales, and at the tip of each wing cover there are two points. The Florida specimens described by R. E. Woodruff measured 30–35 mm. Several were collected at ultraviolet light in May."
+    },
+    {
+      "title": "Egg laying and the first two instars",
+      "text": "My Alaus laid directly into the substrate. Once the eggs hatched, the difficult part was locating and separating the young. The first- and second-instar click beetles I worked with were so small that I compared them to springtails. They would readily eat one another, so I separated them early. This was the most exacting part of rearing the group."
+    },
+    {
+      "title": "Following the brood to adulthood",
+      "text": "I photographed A. patricius in March 2023, when I was hoping my remaining group would produce a pair for another generation. I recorded the beetles in their rearing cups in May and photographed the mottled adults together in June. The development time I measured from egg to adult was about one year. I do not have a separate incubation or pupal duration for this group."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Breeding group, March 2023 (Discord)",
+      "url": "https://discord.com/channels/1080588087836549221/1080588087836549224/1090839787721740408"
+    },
+    {
+      "title": "Oviposition and early larval cannibalism (Discord)",
+      "url": "https://discord.com/channels/1080588087836549221/1080588087836549224/1090843962832584764"
+    },
+    {
+      "title": "May 2023 rearing photograph (Discord)",
+      "url": "https://discord.com/channels/1080588087836549221/1080588087836549224/1108768709012623400"
+    },
+    {
+      "title": "Adults and recorded time from egg to maturity (Discord)",
+      "url": "https://discord.com/channels/1080588087836549221/1080588087836549224/1120795587500052512"
+    },
+    {
+      "title": "R. E. Woodruff, University of Florida, Florida Alaus identification and distribution",
+      "url": "https://edis.ifas.ufl.edu/publication/IN242/pdf"
+    }
+  ],
+  "account_credit": "Breeding account by Alan Jeon",
+  "primary_url": "https://discord.com/channels/1080588087836549221/1080588087836549224/1090839787721740408",
+  "gallery": [
+    {
+      "file": "alaus-patricius-adults-alan.jpg",
+      "stage": "Adults",
+      "credit": "Alan Jeon",
+      "caption": "A group of adults raised in captivity, June 2023.",
+      "alt": "Three mottled Alaus patricius in a clear cup, showing two dorsal views and one underside.",
+      "preferred": true
+    },
+    {
+      "file": "alaus-patricius-may-alan.jpg",
+      "stage": "Rearing cell",
+      "credit": "Alan Jeon",
+      "caption": "A developing beetle inside its rearing cell in May 2023.",
+      "alt": "A pale yellow Alaus patricius visible through an opening in the brown cell material.",
+      "preferred": false
+    },
+    {
+      "file": "alaus-patricius-263951493-alan.jpg",
+      "stage": "Adults",
+      "caption": "Adult in a field observation.",
+      "alt": "Pale mottled Alaus patricius held just above rough ground.",
+      "credit": "Alan Jeon"
+    }
+  ]
+}

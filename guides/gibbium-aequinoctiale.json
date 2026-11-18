@@ -1,0 +1,68 @@
+{
+  "name": "Gibbium aequinoctiale",
+  "slug": "gibbium-aequinoctiale",
+  "group": "ptinidae",
+  "common": "Smooth spider beetle",
+  "intro": "My smooth spider beetles were slow to establish. In July 2024, around two years after I remembered starting the culture, I counted roughly 30 adults. I had raised Mezium affine on the same food, and that colony built up much sooner. The two are similar enough in the hand that I like to compare them under magnification.",
+  "facts": [
+    {
+      "title": "Food in my colony",
+      "text": "Dog food"
+    },
+    {
+      "title": "Colony count",
+      "text": "Roughly 30 adults in July 2024"
+    },
+    {
+      "title": "Adult length",
+      "text": "About 2.1–2.7 mm"
+    }
+  ],
+  "sections": [
+    {
+      "title": "Feeding and checking the colony",
+      "text": "I used dog food for both of my spider beetle species. With Gibbium I also considered trying oats and artificial pollen. The food I can recommend from my own breeding result is dog food. I would offer it in small pieces that I can lift and inspect, and keep the crumbs in the culture until I have checked them for tiny beetles. A close-fitting lid and fine ventilation are worthwhile with adults this small."
+    },
+    {
+      "title": "Allowing for a slow start",
+      "text": "By my July 21 check I could see about 30 adults. The culture took roughly three times as long to get established as my Mezium affine. The adults seemed short-lived to me, although I could not tell whether a delay during the egg or larval stage accounted for the slow buildup. I use the two-year figure to describe the history of my colony. It does not represent the developmental time of an individual. I once thought I had lost the culture because I could hardly find adults during the day. A night check showed they were still active."
+    },
+    {
+      "title": "Telling my two cultures apart",
+      "text": "I check the head and the narrow shield just behind it. Both are smooth in Gibbium, as are the shiny, swollen wing covers. In Mezium affine, the head and shield have conspicuous pale hairs. These are widespread spider beetles associated with stored materials and found in North America. I label each culture before moving food or beetles between containers."
+    }
+  ],
+  "sources": [
+    {
+      "title": "My foods for both spider beetles",
+      "url": "https://discord.com/channels/1080588087836549221/1080588087836549224/1167601633019039754"
+    },
+    {
+      "title": "My July colony count and comparison",
+      "url": "https://discord.com/channels/1080588087836549221/1080588087836549224/1264435882891411456"
+    },
+    {
+      "title": "Arango and Young, Death-Watch and Spider Beetles of Wisconsin",
+      "url": "https://research.fs.usda.gov/download/treesearch/41369.pdf"
+    },
+    {
+      "title": "My night check",
+      "url": "https://discord.com/channels/1080588087836549221/1080588087836549224/1162625310496407643"
+    }
+  ],
+  "account_credit": "Breeding account by Alan Jeon",
+  "related_species": [
+    "mezium-affine"
+  ],
+  "primary_url": "https://discord.com/channels/1080588087836549221/1080588087836549224/1167601633019039754",
+  "gallery": [
+    {
+      "file": "gibbium-aequinoctiale-culture-alan.jpg",
+      "stage": "Adults",
+      "credit": "Alan Jeon",
+      "caption": "The Gibbium colony in July 2024, when about 30 adults were visible.",
+      "alt": "Round reddish-brown Gibbium adults walk among the pieces of dry food in a clear culture cup.",
+      "preferred": true
+    }
+  ]
+}

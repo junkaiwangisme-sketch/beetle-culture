@@ -1,0 +1,116 @@
+{
+  "slug": "pelidnota-punctata",
+  "name": "Pelidnota punctata",
+  "common": "Grapevine beetle",
+  "group": "rutelinae",
+  "intro": "For grapevine beetles I prepare two foods before introducing a pair. Adults feed mainly on the foliage of wild and cultivated grapes. Their young spend the winter inside decaying hardwood, where a newly hatched grub can begin tunneling as soon as it leaves the egg.",
+  "sections": [
+    {
+      "title": "Adult food and pairing",
+      "text": "I would give the adults fresh grape cuttings with enough foliage to perch on while feeding. They also eat the grapes themselves and sometimes feed on Virginia creeper. During the day they often rest on the host plant. After dark they fly, come to lights and pair on the vines, so evening is a good time to check for mating. The arrangement of spots can look quite different between beetles. Northern adults tend to have dark legs and conspicuous markings, while Florida and Texas adults can have pale legs and almost no spots. I would keep the locality with each pair.\nI photographed the reddish form from Key Largo, Florida, in June. That beetle had almost no visible spotting on its back. Its color is a good example of why I keep the locality with my stock."
+    },
+    {
+      "title": "The laying site and eggs",
+      "text": "For a laying site I recommend placing moist soil against soft, decomposing hardwood. In the field, females lay singly in the soil beneath rotten logs or beside decaying stumps. Sometimes a female encloses an egg in a small ball of earth, which breaks easily when the surrounding soil is disturbed. I would leave the soil and wood together through hatching. The short distance to food matters here because a new grub can immediately bore into the adjacent wood."
+    },
+    {
+      "title": "Larval food and emergence",
+      "text": "I would use lightly fermented hardwood flake soil for the grubs and include a piece of well-decayed hardwood. In nature the larvae feed in old logs and stumps or tunnel along their decaying roots. Elm, walnut, cherry and birch are among their recorded hardwoods. For timing I use a field-based estimate from Lexington, Kentucky, where larvae overwintered and the life cycle appeared to take about two years. That is a regional benchmark for planning how long to keep a brood. I would record the hatching and emergence dates for each locality before settling on a timetable for my own stock.\nI have kept grapevine beetles using the same general arrangement I use for Dynastes and have reared them to the pupal stage. I leave a formed chamber intact while the adult develops inside.\nWhen setting up feeding grubs, I also use my Chrysina woodi guide as a reference for choosing lightly fermented hardwood material. For grapevine beetles I include decayed wood; my own captive pupa and the wood occupied by wild grubs are my reference points for this species."
+    }
+  ],
+  "sources": [
+    {
+      "title": "W. P. Hayes (1925), Kansas Agricultural Experiment Station, Technical Bulletin 16",
+      "url": "https://extension.k-state.edu/historicpublications/pubs/STB016.pdf"
+    },
+    {
+      "title": "Moore and colleagues (2017), Synopsis of the pelidnotine scarabs, ZooKeys 666. Pelidnota punctata species account",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5534527/"
+    },
+    {
+      "title": "My red Key Largo adult",
+      "url": "https://beetleforum.net/threads/red-phase-key-largo-grapevine-beetle.6128/"
+    },
+    {
+      "title": "My captive pupa",
+      "url": "https://beetleforum.net/threads/pelidnota-punctata-pupa.911/"
+    }
+  ],
+  "facts": [
+    {
+      "title": "Adult host",
+      "text": "Grape (Vitis)"
+    },
+    {
+      "title": "Larval habitat",
+      "text": "Decaying hardwood and roots"
+    },
+    {
+      "title": "Kentucky life cycle",
+      "text": "About two years in the published Lexington, Kentucky account"
+    }
+  ],
+  "classification": [
+    {
+      "title": "BugGuide — Pelidnota punctata",
+      "url": "https://www.bugguide.net/node/view/3139"
+    },
+    {
+      "title": "iNaturalist — Pelidnota punctata",
+      "url": "https://www.inaturalist.org/taxa/48259"
+    }
+  ],
+  "native_status": {
+    "text": "Native to eastern North America, including the eastern United States and southern Canada.",
+    "status": "native",
+    "sources": [
+      {
+        "title": "Animal Diversity Web, geographic range",
+        "url": "https://animaldiversity.org/accounts/Pelidnota_punctata/"
+      },
+      {
+        "title": "iNaturalist, regional establishment status",
+        "url": "https://www.inaturalist.org/taxa/48259#status-tab"
+      },
+      {
+        "title": "BugGuide, Pelidnota punctata",
+        "url": "https://www.bugguide.net/node/view/3139"
+      }
+    ]
+  },
+  "distribution": {
+    "slug": "pelidnota-punctata",
+    "file": "map-pelidnota-punctata.png",
+    "count": 26329,
+    "raw_count": 26331,
+    "excluded_count": 2,
+    "date": "2026-11-18",
+    "url": "https://www.inaturalist.org/observations?place_id=97394&quality_grade=research&captive=false&geo=true&taxon_id=48259&view=map",
+    "caption": "26,329 of 26,331 wild, research-grade iNaturalist observations in North America are plotted at their public coordinates. The geographic review excluded 2 remote reports.",
+    "data_file": "map-data-pelidnota-punctata.json"
+  },
+  "account_credit": "Breeding notes by Junkai Wang and Alan Jeon",
+  "substrate_recipe": true,
+  "primary_url": "https://extension.k-state.edu/historicpublications/pubs/STB016.pdf",
+  "related_species": [
+    "chrysina-woodi",
+    "rutela-formosa"
+  ],
+  "gallery": [
+    {
+      "file": "pelidnota-punctata-key-largo-wang.jpg",
+      "stage": "Adults",
+      "credit": "Junkai Wang",
+      "caption": "The red form of the grapevine beetle from Key Largo, Florida.",
+      "alt": "Reddish orange adult Pelidnota punctata viewed from above on pale fabric, with almost unmarked wing covers.",
+      "preferred": true
+    },
+    {
+      "file": "pelidnota-punctata-288921424-alan.jpg",
+      "stage": "Adults",
+      "caption": "A second adult for comparison with the red Key Largo beetle.",
+      "alt": "A tan grapevine beetle held between the fingers, showing the wing covers from above.",
+      "credit": "Alan Jeon"
+    }
+  ]
+}

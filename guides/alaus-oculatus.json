@@ -1,0 +1,61 @@
+{
+  "name": "Alaus oculatus",
+  "slug": "alaus-oculatus",
+  "group": "elateridae",
+  "common": "Eastern eyed click beetle",
+  "intro": "The two black spots on the thorax make an adult eastern eyed click beetle easy to notice on a log. The stage that matters most in a rearing enclosure is hidden inside it. The larva is a predator with a large appetite for other beetle larvae.",
+  "facts": [
+    {
+      "title": "Larval habitat",
+      "text": "Decaying hardwood, especially stumps of oak, cherry and apple"
+    },
+    {
+      "title": "Documented prey",
+      "text": "Wood-boring beetle larvae, including longhorn grubs"
+    },
+    {
+      "title": "Adult identification",
+      "text": "A black background with large white-rimmed false eyespots on the thorax"
+    }
+  ],
+  "sections": [
+    {
+      "title": "Setting up adults",
+      "text": "I would follow my general Alaus setup and provide moist organic material with a textured surface, cover and room for a female to investigate the upper layers. In my family guide I describe eggs laid near the surface and adults accepting jelly or fruit. Those are starting points from work with click beetles. For this species I would also include a piece of softened hardwood, consistent with its recorded larval habitat. When pairing adults, check the spots on the shield behind the head. Each occupies about one-third of the shield’s length in this species. The true eyes are on the head."
+    },
+    {
+      "title": "Feeding an individual larva",
+      "text": "I would move each hatchling to its own container early and offer appropriately sized invertebrate prey. The wood provides shelter and a place to hunt. In records summarized by R. E. Woodruff, caged larvae each consumed more than 200 longhorn beetle larvae over the course of development. That figure gives a sense of the food needed over a larva’s lifetime. I would use whether the last prey item was taken and the appearance of the larva to decide when to feed again."
+    },
+    {
+      "title": "Identifying a larva from wood",
+      "text": "A mature larva can approach 5 cm. The body is elongate and hard, with a dark head, prominent jaws and a pair of forked terminal projections. In fallen hardwood I would keep a potential predator away from any wood-feeding longhorn grubs I intend to rear. Alan’s adult photograph and published larval illustrations give two points of comparison when an adult emerges from an individually labeled piece of wood."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Alan Jeon’s adult photograph",
+      "url": "https://www.inaturalist.org/observations/351890166"
+    },
+    {
+      "title": "Junkai Wang, click beetle care in Beetles by Family",
+      "url": "https://junkaiwangisme.wixsite.com/usbeetlebreeding/beetles-by-family"
+    },
+    {
+      "title": "Woodruff, click beetles of the genus Alaus and observations of larval feeding",
+      "url": "https://edis.ifas.ufl.edu/publication/IN242/pdf"
+    }
+  ],
+  "related_species": [],
+  "account_credit": "Adult photograph by Alan Jeon · Natural history and care notes by Junkai Wang and Alan Jeon",
+  "primary_url": "https://www.inaturalist.org/observations/351890166",
+  "gallery": [
+    {
+      "file": "alaus-oculatus-351890166-alan.jpg",
+      "stage": "Adults",
+      "caption": "An adult eyed click beetle.",
+      "alt": "Black and white Alaus oculatus with two large dark eyespots across the pronotum.",
+      "credit": "Alan Jeon"
+    }
+  ]
+}

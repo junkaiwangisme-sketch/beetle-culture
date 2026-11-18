@@ -1,0 +1,80 @@
+{
+  "name": "Strategus antaeus",
+  "slug": "strategus-antaeus",
+  "common": "Ox beetle",
+  "group": "dynastinae",
+  "intro": "In July 2020, more than a dozen Strategus antaeus came to my light in Ocala National Forest, Florida. Only four were males. I bred offspring from those wild adults and raised a male on flake soil alone. Getting the females to lay consistently proved harder than raising the grubs.",
+  "facts": [
+    {
+      "title": "Breeding substrate for the Ocala stock",
+      "text": "40% flake soil, 30% raised-bed soil and 30% lake sand"
+    },
+    {
+      "title": "Larval substrate",
+      "text": "Flake soil alone supported growth to adulthood"
+    },
+    {
+      "title": "Hatchling care",
+      "text": "Separate eggs before they hatch"
+    }
+  ],
+  "sections": [
+    {
+      "title": "Recognizing and housing adults",
+      "text": "For a Florida ox beetle, I check the wing covers as well as the horns. Strategus antaeus lacks the fine longitudinal groove immediately beside the line where the wing covers meet. That feature is particularly useful on a female or a small male whose horns are less conspicuous. Large males carry three horns on the pronotum, just behind the head. The University of Florida describes males using them in contests with other males. A single male in the breeding enclosure avoids those encounters."
+    },
+    {
+      "title": "The laying mix I used for the Ocala stock",
+      "text": "I used a mix of 40% flake soil, 30% raised-bed soil and 30% lake sand for my breeding adults. The raised-bed soil was the same material that worked on its own for my eastern Hercules beetles. With my Ocala ox beetles, the sandy mix produced offspring, although the brood was smaller than I hoped. The sex ratio also appeared to favor females. I would retain the collection locality with a breeding line so that another keeper can compare results with beetles from the same habitat. For feeding the adults, the University of Florida recommends soft fruit and leaves."
+    },
+    {
+      "title": "Individual containers for the larvae",
+      "text": "I found that the Florida larvae could grow on flake soil alone. The sand belonged to my adult breeding setup. One of the captive-bred males I photographed came through on flake soil. The grubs were far more inclined to eat one another than the Strategus aloeus I kept, which tolerated some crowding. I separate eggs before they hatch so that even the first-instar grubs have individual space. I would set up and label the individual cups while checking the laying box, then give each hatchling its own feeding space from the start."
+    },
+    {
+      "title": "A firm layer for pupation",
+      "text": "As the grubs approach full size, I provide clay-like soil beneath the feeding substrate. I use the same principle as in my Chrysina woodi setup: a larva needs material that holds together when it presses the walls of its cell. Once a grub settles in that layer, I leave the chamber undisturbed. The lake sand in my Ocala egg-laying mix served a different purpose."
+    }
+  ],
+  "sources": [
+    {
+      "title": "My captive offspring, Ocala substrate mix and larval trial",
+      "url": "https://beetleforum.net/threads/frustrating-florida-locality-strategus-antaeus.5991/"
+    },
+    {
+      "title": "My Ocala National Forest adults",
+      "url": "https://beetleforum.net/threads/ox-beetle-strategus-antaeus.4443/"
+    },
+    {
+      "title": "Alan Jeon on first-instar cannibalism",
+      "url": "https://beetleforum.net/threads/strategus-antaeus.1849/"
+    },
+    {
+      "title": "My 2021 larval culture",
+      "url": "https://beetleforum.net/threads/any-possible-michigan-breeders.5280/"
+    },
+    {
+      "title": "UF/IFAS, Guide to Collecting and Maintaining Live Arthropods for Classroom Display",
+      "url": "https://ask.ifas.ufl.edu/publication/IN759"
+    },
+    {
+      "title": "BugGuide, identification and biology of Strategus antaeus",
+      "url": "https://www.bugguide.net/node/view/21204"
+    }
+  ],
+  "primary_url": "https://beetleforum.net/threads/frustrating-florida-locality-strategus-antaeus.5991/",
+  "account_credit": "Breeding notes by Junkai Wang and Alan Jeon",
+  "related_species": [
+    "chrysina-woodi",
+    "strategus-aloeus"
+  ],
+  "gallery": [
+    {
+      "file": "strategus-antaeus-236539204-alan.jpg",
+      "stage": "Adults",
+      "caption": "Adult in the field.",
+      "alt": "Glossy dark brown Strategus antaeus on pale stony ground.",
+      "credit": "Alan Jeon"
+    }
+  ]
+}

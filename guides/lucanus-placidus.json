@@ -1,0 +1,137 @@
+{
+  "name": "Lucanus placidus",
+  "slug": "lucanus-placidus",
+  "group": "lucanidae",
+  "common": "Smooth stag beetle",
+  "intro": "I recovered 54 larvae from one smooth stag beetle female. The most conspicuous change came much later, when grubs that had seemed stalled for months began making the transition to prepupae. A productive laying box is worth preparing for, and a quiet larval container can reward patience.",
+  "facts": [
+    {
+      "title": "Brood recovered",
+      "text": "54 larvae from one female"
+    },
+    {
+      "title": "Substrate",
+      "text": "Aged hardwood sawdust or less-fermented hardwood flake soil"
+    },
+    {
+      "title": "Pupation in my culture",
+      "text": "Prepupae observed July 26 and a pupa by July 31"
+    }
+  ],
+  "sections": [
+    {
+      "title": "Adults and the laying box",
+      "text": "I have seen this species fly readily in May. The male’s mandibles generally have several small teeth along their inner edge, and both sexes have dark femora. Those characters help distinguish them from the reddish-brown stag beetle. Check for active adults after dusk. I offer beetle jelly every five days, with apple or banana as alternatives. I use aged hardwood sawdust with this species. For a breeding female I recommend a container of less-fermented hardwood flake soil and some decaying hardwood, with bark at the surface for climbing.\nOne autumn my captive-bred males were active by the end of October, but I had no female ready to pair with them. I check activity in both sexes before planning the next laying box. My females have laid in the same flake soil I normally use for stag beetles."
+    },
+    {
+      "title": "Housing a brood",
+      "text": "I like to have the rearing containers and a supply of the same woody food ready before inspecting a laying box. My count of 54 is the number of larvae I found from that particular female. Work through the bedding in small portions so newly hatched grubs are easy to spot. As larvae grow, watch the balance of edible wood and fecal pellets. Refresh the feeding material while they are active. Once a mature larva settles in one place and starts pressing the substrate into an oval chamber, leave that section alone."
+    },
+    {
+      "title": "Timing pupation",
+      "text": "My larvae remained apparently stalled for several months. Then a faulty air conditioner made the room unusually cool for a few days. On July 26 all the stalled larvae had become prepupae, and by July 31 I had a pupa. I did not measure the temperature during that cool spell. For a documented individual timeline, A. A. Girault followed a Virginia grub that became a prepupa around August 1, pupated on August 3 and molted to an adult on October 6. A cell can therefore remain occupied for weeks after the grub has finished feeding."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Pupa, 31 July 2025",
+      "url": "https://discord.com/channels/1285685926340726887/1286131091987763264/1400484325639585873"
+    },
+    {
+      "title": "Transition to prepupae, 26 July 2025",
+      "url": "https://discord.com/channels/1285685926340726887/1286131091987763264/1398829436912275552"
+    },
+    {
+      "title": "My brood of 54 larvae from one female",
+      "url": "https://discord.com/channels/1285685926340726887/1369529410440659025/1416240576168460309"
+    },
+    {
+      "title": "A. A. Girault (1913), Duration of the pupal stadium of Lucanus placidus, Entomological News 24, p. 195",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Entomological_news_%28IA_n05entomologicalnew24acaduoft%29.pdf"
+    },
+    {
+      "title": "Autumn activity in my captive-bred males",
+      "url": "https://beetleforum.net/threads/wb-lucanus-placidus-female.2693/"
+    }
+  ],
+  "record_type": "Rearing observations",
+  "primary_url": "https://discord.com/channels/1285685926340726887/1286131091987763264/1400484325639585873",
+  "classification": [
+    {
+      "title": "BugGuide — Lucanus placidus",
+      "url": "https://www.bugguide.net/node/view/4180"
+    },
+    {
+      "title": "iNaturalist — Lucanus placidus",
+      "url": "https://www.inaturalist.org/taxa/224156"
+    }
+  ],
+  "native_status": {
+    "text": "Native to the central and eastern United States and southern Canada, including Ontario.",
+    "status": "native",
+    "sources": [
+      {
+        "title": "University of Nebraska State Museum, Lucanus placidus distribution",
+        "url": "https://unsm-ento.unl.edu/Guide/Scarabaeoidea/Lucanidae/LUC/LUCA/placidus/placidus.html"
+      },
+      {
+        "title": "The family Lucanidae in Louisiana, geographic distribution of Lucanus placidus",
+        "url": "https://www.academia.edu/69627435/THE_FAMILY_LUCANIDAE_LATREILLE_1804_COLEOPTERA_IN_LOUISIANA"
+      },
+      {
+        "title": "iNaturalist, regional establishment status",
+        "url": "https://www.inaturalist.org/taxa/224156#status-tab"
+      },
+      {
+        "title": "BugGuide, Lucanus placidus",
+        "url": "https://www.bugguide.net/node/view/4180"
+      }
+    ]
+  },
+  "distribution": {
+    "slug": "lucanus-placidus",
+    "file": "map-lucanus-placidus.png",
+    "count": 2964,
+    "raw_count": 2964,
+    "excluded_count": 0,
+    "date": "2026-11-18",
+    "url": "https://www.inaturalist.org/observations?place_id=97394&quality_grade=research&captive=false&geo=true&taxon_id=224156&view=map",
+    "caption": "2,964 of 2,964 wild, research-grade iNaturalist observations in North America are plotted at their public coordinates.",
+    "data_file": "map-data-lucanus-placidus.json"
+  },
+  "account_credit": "Breeding notes by Junkai Wang and Alan Jeon",
+  "substrate_recipe": true,
+  "gallery": [
+    {
+      "file": "guide-1400484325639585873-01.jpg",
+      "alt": "Lucanus placidus. Pupa of the smooth stag beetle.",
+      "caption": "Pupa of the smooth stag beetle.",
+      "credit": "@alan69.",
+      "stage": "Prepupae and pupae"
+    },
+    {
+      "file": "lucanus-placidus-field-1-alan.jpg",
+      "stage": "Adults",
+      "credit": "Alan Jeon",
+      "caption": "Adult smooth stag beetle on deeply fissured bark.",
+      "alt": "Adult Lucanus placidus on deeply fissured gray bark at night.",
+      "preferred": true
+    },
+    {
+      "file": "lucanus-placidus-field-2-alan.jpg",
+      "stage": "Adults",
+      "credit": "Alan Jeon",
+      "caption": "A second view from the June field series.",
+      "alt": "Adult Lucanus placidus clinging to a pale vertical surface at night.",
+      "preferred": false
+    },
+    {
+      "file": "lucanus-placidus-june-alan.jpg",
+      "stage": "Larvae",
+      "credit": "Alan Jeon",
+      "caption": "Larva visible through the wall of its rearing cup.",
+      "alt": "Cream-colored Lucanus placidus larva against a clear cup beneath distinct dark and pale substrate layers.",
+      "preferred": false
+    }
+  ]
+}

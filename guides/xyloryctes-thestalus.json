@@ -1,0 +1,109 @@
+{
+  "slug": "xyloryctes-thestalus",
+  "name": "Xyloryctes thestalus",
+  "common": "Western rhinoceros beetle",
+  "group": "dynastinae",
+  "intro": "After three years of trying to breed the western rhinoceros beetle, I finally reared adults from eggs laid in captivity. The surprise was the timing. My adults produced just one egg before winter. Most of the breeding happened the following spring, after beetles that had spent months underground returned to the surface and began feeding again.",
+  "sections": [
+    {
+      "title": "Setting up and feeding the adults",
+      "text": "I used a well-ventilated enclosure with 4–5 in (10–13 cm) of lightly fermented flake soil and pieces of bark across the surface. I kept the flake soil slightly moist, around the moisture level I use for stag beetles and a little drier than I ordinarily use for rhinoceros beetles. The adults showed a clear preference for apple and other firm fruits over softer foods."
+    },
+    {
+      "title": "Overwintering and spring egg laying",
+      "text": "By late October the adults had buried themselves and stopped eating. I kept the enclosure at about 68–75 °F (20–24 °C) throughout the winter. They stayed below the surface until April. When they came back up, they fed again and breeding activity increased. The single egg laid before winter eventually produced a male. All the other eggs and larvae I recovered came from April through July. On June 30, 2023, I found both fresh eggs and young grubs in the enclosure of my Fort Davis, Texas stock.\nI would keep an apparently unproductive autumn setup through the following spring. Some of the wild adults I collected on August 5, 2022, were still alive more than a year later. Their ability to resume feeding and breeding after such a long interval underground made it worth keeping the colony together."
+    },
+    {
+      "title": "Choosing flake soil for the next generation",
+      "text": "I keep the laying and larval substrates separate in my notes. The 4–5 inches of lightly fermented flake soil and the slightly drier surface were the conditions in which my adults laid. For a separate larval container, my usual starting point for rhinoceros beetles is a more thoroughly fermented hardwood flake soil. I follow each larva’s feeding and leave a formed pupal chamber intact. The result that mattered most in this culture was finding eggs and larvae again in spring after the long winter pause."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Breeding Xyloryctes thestalus at last!!!! (August 25, 2023, updated October 19, 2023)",
+      "url": "https://junkaiwangisme.wixsite.com/usbeetlebreeding/post/breeding-xyloryctes-thestalus-at-last"
+    },
+    {
+      "title": "Junkai Wang, eggs and larvae from the Fort Davis breeding group",
+      "url": "https://www.facebook.com/junkai.wang.1694/posts/pfbid024JSgSacS4vnTcipZ67ikiDL2QbpATZcHPMxgPZw31aDuBHUuvJHKW7NwGHFN7f1Dl"
+    }
+  ],
+  "record_type": "Original breeding account",
+  "observer": "Junkai Wang",
+  "primary_url": "https://junkaiwangisme.wixsite.com/usbeetlebreeding/post/breeding-xyloryctes-thestalus-at-last",
+  "facts": [
+    {
+      "title": "Oviposition substrate",
+      "text": "10–13 cm (4–5 in) of lightly fermented flake soil"
+    },
+    {
+      "title": "Overwintering temperature",
+      "text": "Approximately 20–24 °C (68–75 °F)"
+    },
+    {
+      "title": "Seasonal inactivity",
+      "text": "Late October to April in the observed colony"
+    },
+    {
+      "title": "Adult survival after collection",
+      "text": "More than 1 year for some wild-caught adults"
+    }
+  ],
+  "classification": [
+    {
+      "title": "BugGuide — Xyloryctes thestalus",
+      "url": "https://www.bugguide.net/node/view/345795"
+    },
+    {
+      "title": "iNaturalist — Xyloryctes thestalus",
+      "url": "https://www.inaturalist.org/taxa/267012"
+    }
+  ],
+  "native_status": {
+    "text": "Native from the southwestern United States through Mexico to Guatemala. The 2009 revision distinguishes it from the eastern U.S. species Xyloryctes jamaicensis.",
+    "status": "native",
+    "sources": [
+      {
+        "title": "Ratcliffe (2009), Xyloryctes in the United States",
+        "url": "https://digitalcommons.unl.edu/insectamundi/624/"
+      },
+      {
+        "title": "iNaturalist, regional establishment status",
+        "url": "https://www.inaturalist.org/taxa/267012#status-tab"
+      },
+      {
+        "title": "BugGuide, Xyloryctes thestalus",
+        "url": "https://www.bugguide.net/node/view/345795"
+      }
+    ]
+  },
+  "distribution": {
+    "slug": "xyloryctes-thestalus",
+    "file": "map-xyloryctes-thestalus.png",
+    "count": 1759,
+    "raw_count": 1760,
+    "excluded_count": 1,
+    "date": "2026-11-18",
+    "url": "https://www.inaturalist.org/observations?place_id=97394&quality_grade=research&captive=false&geo=true&taxon_id=267012&view=map",
+    "caption": "1,759 of 1,760 wild, research-grade iNaturalist observations in North America are plotted at their public coordinates. The geographic review excluded 1 remote report.",
+    "data_file": "map-data-xyloryctes-thestalus.json"
+  },
+  "account_credit": "Breeding notes by Junkai Wang and Alan Jeon",
+  "substrate_recipe": true,
+  "gallery": [
+    {
+      "file": "xyloryctes-thestalus-wang.jpg",
+      "alt": "A glossy, dark Xyloryctes thestalus adult seen from above on a pale surface.",
+      "credit": "Junkai Wang",
+      "stage": "Adults"
+    },
+    {
+      "file": "xyloryctes-brood-b-wang.jpg",
+      "caption": "Young larvae from my Fort Davis breeding group in June 2023.",
+      "alt": "Several curved pale Xyloryctes thestalus grubs exposed in dark rearing substrate.",
+      "stage": "Larvae",
+      "credit": "Junkai Wang",
+      "preferred": false
+    }
+  ]
+}

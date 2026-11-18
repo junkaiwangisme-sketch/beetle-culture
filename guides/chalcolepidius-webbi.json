@@ -1,0 +1,81 @@
+{
+  "name": "Chalcolepidius webbi",
+  "slug": "chalcolepidius-webbi",
+  "group": "elateridae",
+  "common": "Black-and-white click beetle",
+  "intro": "My adults had dark metallic green backs bordered with white, bright enough to pick them out at a glance in a clear rearing cup. This southwestern click beetle gave me one of my clearest observations of where a female lays. I found eggs on bark and on paper towel, and I raised adults from eggs in about a year.",
+  "facts": [
+    {
+      "title": "Range",
+      "text": "California, Arizona and New Mexico, south to Sonora and Durango"
+    },
+    {
+      "title": "Laying surfaces",
+      "text": "Bark and paper towel"
+    },
+    {
+      "title": "Early larval care",
+      "text": "Separate the small, cannibalistic larvae"
+    },
+    {
+      "title": "Egg to adult in my culture",
+      "text": "About one year"
+    }
+  ],
+  "sections": [
+    {
+      "title": "Where to look for the eggs",
+      "text": "In my culture, C. webbi females laid on pieces of bark or on paper towel. These were the first surfaces I checked for eggs. The Alaus I was rearing alongside them laid into the substrate. Looking for the eggs in the right place mattered because the young larvae were so small that they became difficult to recover once dispersed."
+    },
+    {
+      "title": "Separating young larvae",
+      "text": "The first two instars of the click beetles I raised were about the size of springtails, and cannibalism was common. I separated the larvae early, despite the work involved in finding and moving them. When recording a brood I distinguish the number of larvae I recover from the number of eggs a female may have laid."
+    },
+    {
+      "title": "Adult emergence and markings",
+      "text": "I photographed a developing beetle in its rearing cup in May 2023. By June I could show four adults together, with the white bands standing out clearly against the green. The interval from egg to maturity in my culture was about a year. Published specimens show variation in the width of the pale markings. Some have white scales over much of the pronotum or wing covers."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Laying on bark or paper towel, March 2023 (Discord)",
+      "url": "https://discord.com/channels/1080588087836549221/1080588087836549224/1090843962832584764"
+    },
+    {
+      "title": "Size and cannibalism of early click beetle instars (Discord)",
+      "url": "https://discord.com/channels/1080588087836549221/1080588087836549224/1090843719516819477"
+    },
+    {
+      "title": "May 2023 rearing photograph (Discord)",
+      "url": "https://discord.com/channels/1080588087836549221/1080588087836549224/1108768448437293076"
+    },
+    {
+      "title": "Reared adults and egg-to-adult interval (Discord)",
+      "url": "https://discord.com/channels/1080588087836549221/1080588087836549224/1120795587500052512"
+    },
+    {
+      "title": "Review of the genus Chalcolepidius, distribution and variation",
+      "url": "https://www.scielo.br/j/rbent/a/x5zR9P9RYtgjtPyLFWqwQkL/?format=pdf&lang=en"
+    }
+  ],
+  "account_credit": "Breeding account by Alan Jeon",
+  "primary_url": "https://discord.com/channels/1080588087836549221/1080588087836549224/1090843962832584764",
+  "gallery": [
+    {
+      "file": "chalcolepidius-webbi-adults-alan.jpg",
+      "stage": "Adults",
+      "credit": "Alan Jeon",
+      "caption": "Four reared adults in June 2023.",
+      "alt": "Four metallic green and white Chalcolepidius webbi adults together in a clear cup.",
+      "preferred": true
+    },
+    {
+      "file": "chalcolepidius-webbi-may-alan.jpg",
+      "stage": "Rearing cell",
+      "credit": "Alan Jeon",
+      "caption": "View of the culture in May 2023.",
+      "alt": "A pale developing Chalcolepidius webbi visible in the upper edge of a substrate-filled clear cup.",
+      "preferred": false
+    }
+  ]
+}

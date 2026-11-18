@@ -1,0 +1,150 @@
+{
+  "name": "Chrysina gloriosa",
+  "slug": "chrysina-gloriosa",
+  "common": "Glorious jewel scarab",
+  "group": "rutelinae",
+  "intro": "I set up my glorious jewel scarabs for breeding as soon as I have active adults. Their one to three months above ground leave little time to spare. Getting eggs is only the beginning. I rate this species 8 out of 10 for difficulty because maintaining it through successive generations has proved much harder.",
+  "facts": [
+    {
+      "title": "Range",
+      "text": "Arizona, New Mexico and western Texas"
+    },
+    {
+      "title": "Adult length",
+      "text": "20–30 mm"
+    },
+    {
+      "title": "Adult lifespan",
+      "text": "1–3 months"
+    },
+    {
+      "title": "Larval period",
+      "text": "1.5–3 years"
+    },
+    {
+      "title": "Pupal period",
+      "text": "Approximately one month"
+    },
+    {
+      "title": "Egg count",
+      "text": "20–60 or more"
+    }
+  ],
+  "sections": [
+    {
+      "title": "Sexing and feeding a pair",
+      "text": "My adults measure about 20–30 mm. Males tend to be smaller, but I check the underside of the abdomen when choosing a pair. In a female, the last abdominal segment has a pointed, V-shaped outline. In a male, it is more rounded or U-shaped, with a narrow slit visible at the tip. I provide juniper cuttings in a breeding bin of at least 1.75 US gallons (6.6 L). Eastern red cedar (Juniperus virginiana) works well. I change the cuttings every three days and keep old foliage out of the bin. My adults have been prone to fungal and bacterial problems when cuttings are left to deteriorate. I have also found adults flying at night in August even under extremely dry field conditions."
+    },
+    {
+      "title": "Recognizing the laying cycle",
+      "text": "I leave the eggs where the female lays them. A female typically spends several days feeding on the juniper, burrows for about a day, then comes up to feed again. This cycle can repeat several times. I keep the foliage fresh even when the beetles are below ground. I expect roughly 20–60 eggs, sometimes more. My adults have left the eggs alone, and the grubs can hatch directly into the shared substrate. In one season I photographed eggs on May 31 and had second-generation hatchlings by June 4. Those were dates for the culture as a whole. The following July I had third-generation offspring."
+    },
+    {
+      "title": "Feeding the grubs",
+      "text": "I raise the grubs on lightly fermented hardwood flake soil. In the wild, the larvae also use decaying hardwood. In southeastern Arizona, for example, they have been found in rotting Arizona sycamore (Platanus wrightii). The juniper I give the parents belongs above ground as fresh foliage. The young need the decomposing wood below. My larvae generally reach the latter part of their third and final instar by autumn. I allow 1½–3 years for the larval stage and about a month for the pupa."
+    },
+    {
+      "title": "Overwintering and pairing the next generation",
+      "text": "I keep late third instars cool through the winter, from the low 40s into the 50s °F (roughly 5–15 °C). When I skipped winter cooling, larvae often failed to pupate, or adults emerged so far apart that I could not pair them. I warm the containers in spring and wait. The adults come to the surface on their own after a few months. I keep a newly surfaced female away from males for the first several days and give her fresh juniper to feed on. Persistent mating attempts at this vulnerable stage can kill her."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Species-specific breeding account, May–June 2025",
+      "url": "https://discord.com/channels/1285685926340726887/1378579300441264178"
+    },
+    {
+      "title": "My August field observations",
+      "url": "https://www.facebook.com/junkai.wang.1694/posts/pfbid02XDpZqMhNooabndNiFYf5TMJpwXaVnNwGY8gjfxXqpLdQUCDCJKN12Ve4xhCxkjAKl"
+    }
+  ],
+  "primary_url": "https://discord.com/channels/1285685926340726887/1378579300441264178",
+  "record_type": "Breeding account",
+  "classification": [
+    {
+      "title": "BugGuide — Chrysina gloriosa",
+      "url": "https://www.bugguide.net/node/view/6605"
+    },
+    {
+      "title": "iNaturalist — Chrysina gloriosa",
+      "url": "https://www.inaturalist.org/taxa/325790-Chrysina-gloriosa"
+    }
+  ],
+  "native_status": {
+    "text": "Native to the southwestern United States and northern Mexico. Documented populations include Arizona, western Texas, Chihuahua and Sonora.",
+    "status": "native",
+    "sources": [
+      {
+        "title": "University of Nebraska State Museum, glorious scarab",
+        "url": "https://unsm-ento.unl.edu/Guide/Scarabaeoidea/Scarabaeidae/Rutelinae/Rutelinae-Tribes/Rutelini/Chrysina/Chrysina-species/C-gloriosa/Cgloriosa.html"
+      },
+      {
+        "title": "BugGuide, Chrysina gloriosa",
+        "url": "https://www.bugguide.net/node/view/6605"
+      }
+    ]
+  },
+  "distribution": {
+    "slug": "chrysina-gloriosa",
+    "file": "map-chrysina-gloriosa.png",
+    "count": 1323,
+    "raw_count": 1323,
+    "excluded_count": 0,
+    "date": "2026-11-18",
+    "url": "https://www.inaturalist.org/observations?place_id=97394&quality_grade=research&captive=false&geo=true&taxon_id=325790&view=map",
+    "caption": "1,323 of 1,323 wild, research-grade iNaturalist observations in North America are plotted at their public coordinates.",
+    "data_file": "map-data-chrysina-gloriosa.json"
+  },
+  "account_credit": "Breeding notes by Junkai Wang and Alan Jeon",
+  "substrate_recipe": true,
+  "gallery": [
+    {
+      "file": "chrysina-gloriosa-adult-wang.jpg",
+      "stage": "Adults",
+      "caption": "Two adults I found flying on a dry August night.",
+      "alt": "Two metallic green Chrysina gloriosa with silver stripes resting on my hand.",
+      "preferred": true,
+      "credit": "Junkai Wang"
+    },
+    {
+      "file": "chrysina-gloriosa-eggs-alan.jpg",
+      "stage": "Eggs",
+      "credit": "Alan Jeon",
+      "caption": "Eggs exposed on the surface of a plug of laying substrate.",
+      "alt": "Round pale Chrysina gloriosa eggs scattered against dark substrate in a clear cup.",
+      "preferred": false
+    },
+    {
+      "file": "chrysina-gloriosa-f3-alan.jpg",
+      "stage": "Eggs",
+      "credit": "Alan Jeon",
+      "caption": "A third captive generation recorded in July 2026.",
+      "alt": "Pale eggs visible against loose brown substrate in a clear Chrysina gloriosa rearing container.",
+      "preferred": false
+    },
+    {
+      "file": "chrysina-gloriosa-hatching-alan.jpg",
+      "stage": "Larvae",
+      "credit": "Alan Jeon",
+      "caption": "Early hatching in the second captive generation.",
+      "alt": "Tiny pale Chrysina gloriosa brood visible through the side of a dark, substrate-filled cup.",
+      "preferred": false
+    },
+    {
+      "file": "chrysina-gloriosa-june-1-alan.jpg",
+      "stage": "Prepupae and pupae",
+      "credit": "Alan Jeon",
+      "caption": "A view into a cell in June 2025.",
+      "alt": "An opening in the cell wall reveals the pale metallic underside of a Chrysina gloriosa.",
+      "preferred": false
+    },
+    {
+      "file": "chrysina-gloriosa-emerged-alan.jpg",
+      "stage": "Adults",
+      "credit": "Alan Jeon",
+      "caption": "New adults emerging in their individual rearing cups in June 2026.",
+      "alt": "Three green and silver-striped Chrysina gloriosa adults visible through the sides of clear substrate cups.",
+      "preferred": false
+    }
+  ]
+}

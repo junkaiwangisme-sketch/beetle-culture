@@ -1,0 +1,144 @@
+{
+  "name": "Osmoderma scabrum",
+  "slug": "osmoderma-scabrum",
+  "group": "cetoniinae",
+  "common": "Rough hermit beetle",
+  "intro": "My rough hermit beetles were in dormancy cells in late January. When I find one of those occupied chambers, I leave it supported by the surrounding substrate. The larva uses pieces of the material it has lived in to build the chamber wall, so an ordinary-looking clump can hold a resting beetle.",
+  "facts": [
+    {
+      "title": "Dormancy record",
+      "text": "24 January 2026"
+    },
+    {
+      "title": "Adult feeding in our collection",
+      "text": "Offer beetle jelly every five days, or apple or banana."
+    }
+  ],
+  "sections": [
+    {
+      "title": "Choosing larval food",
+      "text": "I have seen adults feeding at sap flows in the wild. For a larval enclosure I recommend soft, decayed hardwood with enough texture left for cell construction. William Saunders recorded the white, reddish-headed grubs in rotten portions of apple and cherry trees. A tree can still be alive and have a pocket of suitable decay inside it. The grubs feed within that softened wood. Saunders described mature larvae gathering fragments and binding them together into oval cells in autumn."
+    },
+    {
+      "title": "Recognizing dormancy",
+      "text": "I photographed my beetles in their cells on January 24, 2026. A completed chamber can contain a resting larva before pupation, and I leave the occupant undisturbed through this interval. If you uncover the wall while renewing food elsewhere in the enclosure, keep the material immediately around it in place. Date the first visible cell separately from the day an adult appears at the surface."
+    },
+    {
+      "title": "Watching the adults",
+      "text": "In field observations, adults sheltered during the day and visited sap after dark. Saunders found them active in July. For a captive group, I recommend checking the surface in the evening and waiting until the beetles have left their cells before selecting a pair. The wing covers are distinctly rough, a useful feature for distinguishing them from the smoother Osmoderma eremicola. Males can be recognized by conspicuous depressions on the head and pronotum. Older literature uses the spelling Osmoderma scabra."
+    },
+    {
+      "title": "The September adult and larvae",
+      "text": "In September 2025 I received an adult female alongside a group of larvae. I photographed her in a clear cup, then spread the larvae on the substrate for a second view. The female came with the group. I use that photograph to show the adult form, while the larval photographs document the stages I actually kept."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Dormancy cells in culture, 24 January 2026",
+      "url": "https://discord.com/channels/1285685926340726887/1286131091987763264/1464549636529197137"
+    },
+    {
+      "title": "W. Saunders, Insects Injurious to Fruits, The Rough Osmoderma, pp. 26–27",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Insects_injurious_to_fruits_%28IA_insectsinjurious01saun%29.pdf"
+    },
+    {
+      "title": "Steffek et al. (2024), Field and laboratory observations of North American Osmoderma and their pheromones",
+      "url": "https://www.life.illinois.edu/hanks/pdfs/Steffek%20et%20al%202024%20-%20Osmoderma%20pher%20-%20JCE%2050.pdf"
+    },
+    {
+      "title": "My field observation of adult feeding",
+      "url": "https://discord.com/channels/1285685926340726887/1286131091987763264/1494811339615375411"
+    },
+    {
+      "title": "My September 2025 female and larvae",
+      "url": "https://discord.com/channels/1080588087836549221/1080588087836549224/1416457300079542294"
+    }
+  ],
+  "record_type": "Rearing observations",
+  "primary_url": "https://discord.com/channels/1285685926340726887/1286131091987763264/1464549636529197137",
+  "classification": [
+    {
+      "title": "BugGuide — Osmoderma scabrum",
+      "url": "https://www.bugguide.net/node/view/15974"
+    },
+    {
+      "title": "iNaturalist — Osmoderma scabrum",
+      "url": "https://www.inaturalist.org/taxa/199455"
+    }
+  ],
+  "native_status": {
+    "text": "Native to eastern North America, including the eastern United States and southern Canada.",
+    "status": "native",
+    "sources": [
+      {
+        "title": "Steffek et al. (2024), North American Osmoderma",
+        "url": "https://www.life.illinois.edu/hanks/pdfs/Steffek%20et%20al%202024%20-%20Osmoderma%20pher%20-%20JCE%2050.pdf"
+      },
+      {
+        "title": "BugGuide, Osmoderma scabrum and spelling history",
+        "url": "https://www.bugguide.net/node/view/15974"
+      },
+      {
+        "title": "iNaturalist, regional establishment status",
+        "url": "https://www.inaturalist.org/taxa/199455#status-tab"
+      }
+    ]
+  },
+  "distribution": {
+    "slug": "osmoderma-scabrum",
+    "file": "map-osmoderma-scabrum.png",
+    "count": 5069,
+    "raw_count": 5069,
+    "excluded_count": 0,
+    "date": "2026-11-18",
+    "url": "https://www.inaturalist.org/observations?place_id=97394&quality_grade=research&captive=false&geo=true&taxon_id=199455&view=map",
+    "caption": "5,069 of 5,069 wild, research-grade iNaturalist observations in North America are plotted at their public coordinates.",
+    "data_file": "map-data-osmoderma-scabrum.json"
+  },
+  "aliases": [
+    "Osmoderma scabra"
+  ],
+  "account_credit": "Breeding notes by Junkai Wang and Alan Jeon",
+  "related_species": [
+    "osmoderma-eremicola",
+    "osmoderma-subplanatum"
+  ],
+  "gallery": [
+    {
+      "file": "guide-1464549636529197137-01.jpg",
+      "alt": "Osmoderma scabrum. First view of an individual in its dormancy cell.",
+      "caption": "First view of an individual in its dormancy cell.",
+      "credit": "@alan69."
+    },
+    {
+      "file": "guide-1464549636529197137-02.jpg",
+      "alt": "Osmoderma scabrum. Second view from the dormancy-cell series.",
+      "caption": "Second view from the dormancy-cell series.",
+      "credit": "@alan69."
+    },
+    {
+      "file": "osmoderma-scabrum-april-1-alan.jpg",
+      "stage": "Larvae",
+      "credit": "Alan Jeon",
+      "caption": "Larva exposed in a piece of decaying wood in April.",
+      "alt": "A curved cream-colored Osmoderma scabrum larva lies inside crumbling wood on the forest floor.",
+      "preferred": false
+    },
+    {
+      "file": "osmoderma-scabrum-september-1-alan.jpg",
+      "stage": "Adults",
+      "credit": "Alan Jeon",
+      "caption": "An adult female specimen received with the group of larvae in September 2025.",
+      "alt": "Dorsal view of a dark female Osmoderma scabrum in a clear specimen cup.",
+      "preferred": true
+    },
+    {
+      "file": "osmoderma-scabrum-september-2-alan.jpg",
+      "stage": "Larvae",
+      "credit": "Alan Jeon",
+      "caption": "Larvae received in the same September 2025 trade.",
+      "alt": "Several pale Osmoderma scabrum larvae on a mound of unpacked rearing substrate.",
+      "preferred": false
+    }
+  ]
+}

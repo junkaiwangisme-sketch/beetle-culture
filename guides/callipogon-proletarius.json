@@ -1,0 +1,80 @@
+{
+  "name": "Callipogon proletarius",
+  "slug": "callipogon-proletarius",
+  "group": "cerambycidae",
+  "common": "Puerto Rican longhorn beetle",
+  "intro": "This large Caribbean longhorn has long antennae and a broad head. I photographed an adult in January 2026 and recorded hatching later that month. My clearest result so far concerns the fungus used to rear the larvae. Two kinds of kinshi gave very different outcomes.",
+  "facts": [
+    {
+      "title": "Range",
+      "text": "The nominate form is recorded from Puerto Rico"
+    },
+    {
+      "title": "Hatching recorded",
+      "text": "January 30, 2026"
+    },
+    {
+      "title": "Successful larval substrate",
+      "text": "Turkey-tail kinshi supported growth"
+    },
+    {
+      "title": "Unsuccessful larval substrate",
+      "text": "All larvae in the oyster-kinshi group died"
+    }
+  ],
+  "sections": [
+    {
+      "title": "Adults and hatching",
+      "text": "The January adult shows the heavy build of this longhorn clearly. On January 30 I photographed a small rearing cup when I found that the eggs had hatched. Those two dates show when I saw an adult and when I found young larvae. I did not record when each egg was laid, so I cannot give an incubation time for this group."
+    },
+    {
+      "title": "Choosing kinshi for feeding larvae",
+      "text": "I kept larvae on two kinds of kinshi, a substrate of wood colonized by a fungus. By early November the larvae in turkey-tail kinshi were growing well. Every larva I kept on oyster-mushroom kinshi had died. Most of my Stenodontes exsertus larvae were doing well in that same oyster batch, which is why I keep a separate substrate record for each longhorn species. For another group of C. proletarius, I would begin with turkey-tail kinshi."
+    },
+    {
+      "title": "What the trial established",
+      "text": "I followed this group from hatching into the feeding stage. My November check established which of the two substrates had supported growth up to that point. I still have no measured larval period, pupal duration or adult emergence rate from that comparison."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Adult photograph, January 2026 (Discord)",
+      "url": "https://discord.com/channels/1285685926340726887/1286131091987763264/1458371033013686283"
+    },
+    {
+      "title": "Hatching record, January 2026 (Discord)",
+      "url": "https://discord.com/channels/1285685926340726887/1286131091987763264/1466688583049023508"
+    },
+    {
+      "title": "Oyster and turkey-tail kinshi outcomes, November 2026 (Discord)",
+      "url": "https://discord.com/channels/1285685926340726887/1509256945830465746/1567147284330971208"
+    },
+    {
+      "title": "Western Hemisphere Cerambycidae catalog, Callipogonini (Puerto Rican nominate form)",
+      "url": "https://bezbycids.com/byciddb/wbycidview.asp?tribe=Callipogonini&w=n"
+    }
+  ],
+  "account_credit": "Breeding notes by Junkai Wang and Alan Jeon",
+  "primary_url": "https://discord.com/channels/1285685926340726887/1286131091987763264/1458371033013686283",
+  "related_species": [
+    "stenodontes-exsertus"
+  ],
+  "gallery": [
+    {
+      "file": "callipogon-proletarius-january-alan.jpg",
+      "stage": "Adults",
+      "credit": "Alan Jeon",
+      "caption": "Adult photographed in January 2026.",
+      "alt": "Large brown Callipogon proletarius clinging to a stem, with a long antenna extended across the photograph.",
+      "preferred": true
+    },
+    {
+      "file": "callipogon-proletarius-hatching-alan.jpg",
+      "stage": "Larvae",
+      "credit": "Alan Jeon",
+      "caption": "The rearing cup at hatching on January 30, 2026.",
+      "alt": "A clear rearing cup viewed from below with several tiny pale marks against its dark substrate.",
+      "preferred": false
+    }
+  ]
+}

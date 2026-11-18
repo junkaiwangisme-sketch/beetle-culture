@@ -1,0 +1,60 @@
+{
+  "name": "Phileurus truncatus",
+  "slug": "phileurus-truncatus",
+  "common": "Triceratops beetle",
+  "group": "dynastinae",
+  "intro": "I have kept both Phileurus truncatus and Phileurus valgus. In truncatus, a horned beetle can be either sex. Before setting up a pair, I turn each adult over and look at the last visible abdominal segment. The photographs in my sexing guide show the male and female side by side.",
+  "facts": [
+    {
+      "title": "Adult sexing",
+      "text": "Compare the last visible abdominal segment"
+    },
+    {
+      "title": "Successful laying substrate",
+      "text": "Decayed white oak from a tree cavity"
+    },
+    {
+      "title": "Pairing interval",
+      "text": "Two weeks together in Alan’s successful trial"
+    }
+  ],
+  "sections": [
+    {
+      "title": "Feeding the adults",
+      "text": "I feed active adults moist, protein-rich food. They chew pre-killed insects and also take moistened dog food. For one breeding attempt I fed my female bess beetle pupae for several weeks before introducing the male. Mealworm or superworm pupae are practical alternatives I would offer if those are the feeders on hand."
+    },
+    {
+      "title": "Choosing the laying wood",
+      "text": "I repeatedly tried finely ground fermented sawdust and never found eggs in it. The setup that finally worked used material from a hollow white oak. I mixed the fine, reddish-brown decayed wood with the larger wood fragments and leaves from the same cavity. I would keep those coarse pieces when preparing another laying box."
+    },
+    {
+      "title": "Pairing and raising the brood",
+      "text": "Once the female had fed for several weeks, I put the pair in the breeding enclosure. After two weeks I removed the male. I left the female in place and began finding eggs a couple of weeks later. For feeding larvae I use rotten hardwood soft enough to break apart by hand. They can also be reared in organic potting soil. I favor a wood-rich diet and reserve the mix of cavity wood and larger fragments for the laying female."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Junkai Wang’s illustrated guide to sexing adults",
+      "url": "https://beetleforum.net/threads/sexing-determining-the-sex-of-phileurus-truncatus-triceratops-beetle.6438/"
+    },
+    {
+      "title": "Alan Jeon’s laying substrate, adult feeding and pairing trial",
+      "url": "https://beetleforum.net/threads/phileurus-truncatus-care.2450/"
+    },
+    {
+      "title": "My captive adults in 2021",
+      "url": "https://beetleforum.net/threads/any-possible-michigan-breeders.5280/"
+    }
+  ],
+  "primary_url": "https://beetleforum.net/threads/sexing-determining-the-sex-of-phileurus-truncatus-triceratops-beetle.6438/",
+  "account_credit": "Adult identification by Junkai Wang · Breeding account by Alan Jeon",
+  "gallery": [
+    {
+      "file": "phileurus-truncatus-295715476-alan.jpg",
+      "stage": "Adults",
+      "caption": "An adult triceratops beetle from a field observation.",
+      "alt": "Broad, dark Phileurus truncatus resting across two fingertips.",
+      "credit": "Alan Jeon"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "name": "Cotinis nitida",
+  "slug": "cotinis-nitida",
+  "group": "cetoniinae",
+  "common": "Green June beetle",
+  "intro": "When green June beetles are flying over open grass, I find it easiest to intercept them in flight. The adults are conspicuous by day. One adult I photographed on the ground shows the green back and pale golden margins along the wing covers.",
+  "sections": [
+    {
+      "title": "Finding adults",
+      "text": "I recommend watching the open space just above the grass. Adult activity is easier to follow there than among the leaves of a tree. In a discussion of baits I suggested that banana mixed with wine might also attract Cotinis. My recommendation was based on how easily the beetles can be met in open flight. I did not establish a catch rate for that bait."
+    },
+    {
+      "title": "Eggs, overwintering and emergence",
+      "text": "In North Carolina, females choose soil rich in organic matter and lay clusters of about 10–30 eggs. Hatching takes roughly two weeks. Grubs feed in the soil and may surface at night. They spend winter underground as larvae. Following spring pupation, adults develop in about two to three weeks. I use those published field intervals as seasonal reference points. The adult in the photograph is a field observation."
+    }
+  ],
+  "facts": [
+    {
+      "title": "Personal record",
+      "text": "Adult field photograph and field-collecting recommendation"
+    },
+    {
+      "title": "Published timing",
+      "text": "About two weeks to hatch and two to three weeks as a pupa in North Carolina"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Junkai Wang, finding flying Cotinis in open grassy fields",
+      "url": "https://beetleforum.net/threads/cotinis-bait.6194/"
+    },
+    {
+      "title": "Alan Jeon, adult green June beetle",
+      "url": "https://www.inaturalist.org/observations/397590022"
+    },
+    {
+      "title": "T. Billeisen, NC State Extension, Green June Beetles in Turfgrass",
+      "url": "https://www.turffiles.ncsu.edu/green-june-beetles/"
+    }
+  ],
+  "account_credit": "Breeding notes by Junkai Wang and Alan Jeon",
+  "primary_url": "https://beetleforum.net/threads/cotinis-bait.6194/",
+  "gallery": [
+    {
+      "file": "cotinis-nitida-397590022-alan.jpg",
+      "stage": "Adults",
+      "caption": "An adult on the ground.",
+      "alt": "A green June beetle at the base of a dark timber on coarse gravel.",
+      "credit": "Alan Jeon"
+    }
+  ]
+}

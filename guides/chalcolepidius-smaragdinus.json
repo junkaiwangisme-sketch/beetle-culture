@@ -1,0 +1,60 @@
+{
+  "name": "Chalcolepidius smaragdinus",
+  "slug": "chalcolepidius-smaragdinus",
+  "common": "Emerald metallic click beetle",
+  "group": "elateridae",
+  "intro": "I kept an adult female Chalcolepidius smaragdinus in August 2021. The first decisions were simple ones: enough ventilation, a moist floor, and pieces of bark that a long-bodied adult could use to get back on her feet.",
+  "account_credit": "Adult care by Junkai Wang",
+  "facts": [
+    {
+      "title": "Stage in my care",
+      "text": "One adult female"
+    },
+    {
+      "title": "Container",
+      "text": "One US gallon (3.8 L), well ventilated"
+    },
+    {
+      "title": "Floor",
+      "text": "1.3 in (3.3 cm) of moist coconut fiber with bark flats"
+    }
+  ],
+  "sections": [
+    {
+      "title": "My holding enclosure",
+      "text": "I used a one-gallon tub, about 3.8 liters, with good ventilation and roughly 1.3 inches (3.3 cm) of moist coconut fiber. I laid bark flats on the surface. My C. lenzi female had the same arrangement in a separate tub. Bark with an accessible underside would let me check for eggs without having to sift all the coir."
+    },
+    {
+      "title": "Planning a laying trial",
+      "text": "My account for this female ends at adult housing. For another attempt, I would offer both pieces of bark and folded paper towel. In our Chalcolepidius webbi culture, both materials received eggs. I would mark the date when I first saw eggs and the date the young actually hatched. The approximately one-year rearing period we recorded for webbi is a comparison for keeping those records, not a measured duration for smaragdinus."
+    },
+    {
+      "title": "Recognizing southwestern material",
+      "text": "Casari recorded this species from Arizona, New Mexico and Sonora. The museum type series includes an Arizona specimen from the Gila Valley. The beetle’s metallic appearance comes from scale-like hairs. I would keep a close dorsal photograph with the locality when documenting new material, because both the color and stripes vary among adults."
+    }
+  ],
+  "sources": [
+    {
+      "title": "My two adult housing trials, August 2021",
+      "url": "https://beetleforum.net/threads/chalcolepidius-breeding.5507/"
+    },
+    {
+      "title": "Our C. webbi laying surfaces",
+      "url": "https://discord.com/channels/1080588087836549221/1080588087836549224/1090843962832584764"
+    },
+    {
+      "title": "Casari (2002), revision of Chalcolepidius",
+      "url": "https://doi.org/10.1590/S0085-56262002000300007"
+    },
+    {
+      "title": "Museum of Comparative Zoology, Arizona specimen",
+      "url": "https://mczbase.mcz.harvard.edu/guid/MCZ%3AEnt%3A2382"
+    }
+  ],
+  "related_species": [
+    "chalcolepidius-lenzi",
+    "chalcolepidius-webbi"
+  ],
+  "primary_url": "https://beetleforum.net/threads/chalcolepidius-breeding.5507/",
+  "gallery": []
+}

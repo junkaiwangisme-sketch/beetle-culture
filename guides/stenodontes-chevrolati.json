@@ -1,0 +1,183 @@
+{
+  "slug": "stenodontes-chevrolati",
+  "name": "Stenodontes chevrolati",
+  "common": "",
+  "group": "cerambycidae",
+  "intro": "Stenodontes chevrolati is a large prionine longhorn native to southern Florida and parts of the Caribbean. I used to see it only rarely in collections. Captive breeding has made it easier to obtain, and I find it fairly straightforward to rear once I have an active pair. The step I pay closest attention to is separating the young larvae as soon as they hatch.",
+  "facts": [
+    {
+      "title": "Range",
+      "text": "South Florida and the Caribbean"
+    },
+    {
+      "title": "Typical adult length",
+      "text": "Males 45–75 mm, females 45–60 mm"
+    },
+    {
+      "title": "Adult lifespan",
+      "text": "1–4 months"
+    },
+    {
+      "title": "Larval period",
+      "text": "Usually 1–3 years overall. About 8 months on kinshi in my fastest cultures."
+    },
+    {
+      "title": "Pupal period",
+      "text": "About one month"
+    },
+    {
+      "title": "Adult resting period",
+      "text": "About three weeks"
+    },
+    {
+      "title": "Typical egg count",
+      "text": "20–50"
+    },
+    {
+      "title": "Rearing difficulty",
+      "text": "3 out of 10"
+    }
+  ],
+  "sections": [
+    {
+      "title": "Pairing the adults",
+      "text": "I have never seen my adults feed. They appear to live on reserves accumulated as larvae, and some of mine have lived as long as four months. Once both beetles are active, I introduce the male to the female and watch for mating. My pairs usually mate almost immediately. One mating seems sufficient for the female to lay fertile eggs for the rest of her life. I remove the male afterward because he will keep trying to mate while she is trying to lay."
+    },
+    {
+      "title": "Egg laying and the first galleries",
+      "text": "For one mated female, I pack raw hardwood sawdust into a container of at least 32 US fl oz (about 0.95 L) and lay a paper towel over the surface. She deposits her eggs on or just below the surface of the sawdust. I expect them to hatch in about a month. The first sign I look for is a set of tiny galleries against the container wall. As soon as I see them, I take the laying box apart and gently sift through the sawdust. I move each hatchling to its own container because the larvae readily cannibalize one another."
+    },
+    {
+      "title": "Choosing a larval substrate",
+      "text": "I give each larva a container of at least 32 fl oz and prefer a one-gallon jar (3.8 L). I use raw hardwood sawdust, lightly fermented sawdust that has gone through one fermentation, or kinshi, which is sawdust colonized by fungal mycelium. My larvae grew fastest on kinshi, followed by lightly fermented sawdust. On raw sawdust they took about 18–24 months to mature. On kinshi they could reach the same stage in about eight months.\nI have also collected larvae in the Florida Keys. For following the growth of those wood-boring grubs in captivity, an individual clear-sided jar lets me see the tunnels without opening the substrate each time."
+    },
+    {
+      "title": "Changing food and recognizing pupation",
+      "text": "With kinshi, I look through the sides of the bottle. When I can no longer see fungus-colonized substrate at the wall, I move the larva to a fresh bottle. With raw or lightly fermented sawdust, I can usually leave the jar for six to eight months between changes. A full-grown larva builds a pupal cell and may spend several months inside. The pupal stage itself lasts about a month. I leave the cell intact and wait for the new adults to become active before introducing another pair."
+    },
+    {
+      "title": "Male size in culture",
+      "text": "The male I photographed in February 2024 measured about 75 mm. My largest male measured 78 mm. I have kept this species alongside Mallodon dasystomus, another prionine I breed. Even an average male Mallodon can look small when the two are side by side."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Stenodontes chevrolati breeding account and follow-up, January 21–22, 2026 (Discord)",
+      "url": "https://discord.com/channels/1285685926340726887/1463425635379843248"
+    },
+    {
+      "title": "Junkai Wang, adult size in culture",
+      "url": "https://www.facebook.com/groups/468667609851798/?multi_permalinks=7952762238108927"
+    },
+    {
+      "title": "Larvae from the Florida Keys",
+      "url": "https://beetleforum.net/threads/stenodontes-chevrolati-larvae.5742/"
+    }
+  ],
+  "record_type": "Breeder’s account",
+  "observer": "@alan69.",
+  "primary_url": "https://discord.com/channels/1285685926340726887/1463425635379843248",
+  "classification": [
+    {
+      "title": "BugGuide — Stenodontes chevrolati",
+      "url": "https://www.bugguide.net/node/view/774233"
+    },
+    {
+      "title": "iNaturalist — Stenodontes chevrolati",
+      "url": "https://www.inaturalist.org/taxa/231552"
+    }
+  ],
+  "native_status": {
+    "text": "Native to southern Florida and the Caribbean. Published records include Cuba, the Bahamas and the Cayman Islands. ITIS lists the species as native in the continental United States.",
+    "status": "native",
+    "sources": [
+      {
+        "title": "ITIS, jurisdictional origin for Stenodontes chevrolati",
+        "url": "https://www.itis.gov/ITISWebService/jsonservice/getJurisdictionalOriginFromTSN?tsn=703281"
+      },
+      {
+        "title": "Catalogue of the Cerambycidae of the Neotropical Region, Prioninae",
+        "url": "https://cerambycidae.cl/bibliografia/Parte3_Prioninae_Lepturinae_2018.pdf"
+      },
+      {
+        "title": "BugGuide, Stenodontes chevrolati",
+        "url": "https://www.bugguide.net/node/view/774233"
+      }
+    ]
+  },
+  "distribution": {
+    "slug": "stenodontes-chevrolati",
+    "file": "map-stenodontes-chevrolati.png",
+    "count": 56,
+    "raw_count": 56,
+    "excluded_count": 0,
+    "date": "2026-11-18",
+    "url": "https://www.inaturalist.org/observations?place_id=97394&quality_grade=research&captive=false&geo=true&taxon_id=231552&view=map",
+    "caption": "56 of 56 wild, research-grade iNaturalist observations in North America are plotted at their public coordinates.",
+    "data_file": "map-data-stenodontes-chevrolati.json"
+  },
+  "account_credit": "Breeding notes by Junkai Wang and Alan Jeon",
+  "related_species": [
+    "stenodontes-exsertus"
+  ],
+  "gallery": [
+    {
+      "file": "guide-1463425635379843248-03.jpg",
+      "alt": "Stenodontes chevrolati. Adult pair in the rearing enclosure.",
+      "caption": "Adult pair in the rearing enclosure.",
+      "credit": "@alan69.",
+      "stage": "Adults",
+      "preferred": false
+    },
+    {
+      "file": "guide-1463425635379843248-01.jpg",
+      "alt": "Stenodontes chevrolati. Larva viewed from the side on a hand.",
+      "caption": "Larva viewed from the side on a hand.",
+      "credit": "@alan69.",
+      "stage": "Larvae"
+    },
+    {
+      "file": "guide-1463425635379843248-02.jpg",
+      "alt": "Stenodontes chevrolati. Larval head and mandibles visible against the palm.",
+      "caption": "Larval head and mandibles visible against the palm.",
+      "credit": "@alan69.",
+      "stage": "Larvae"
+    },
+    {
+      "file": "guide-1463425635379843248-04.jpg",
+      "alt": "Stenodontes chevrolati. Pupa in a chamber against the wall of a one-gallon jar.",
+      "caption": "Pupa in a chamber against the wall of a one-gallon jar.",
+      "credit": "@alan69.",
+      "stage": "Prepupae and pupae"
+    },
+    {
+      "file": "guide-1463425635379843248-05.jpg",
+      "alt": "Stenodontes chevrolati. A small male alongside a larger adult.",
+      "caption": "A small male alongside a larger adult.",
+      "credit": "@alan69.",
+      "stage": "Adults"
+    },
+    {
+      "file": "guide-1463425635379843248-06.jpg",
+      "alt": "Stenodontes chevrolati. Major male in dorsal view.",
+      "caption": "Major male in dorsal view.",
+      "credit": "@alan69.",
+      "stage": "Adults"
+    },
+    {
+      "file": "guide-1463425635379843248-07.jpg",
+      "alt": "Stenodontes chevrolati. Larva visible near the base of a substrate-filled rearing container.",
+      "caption": "Larva visible near the base of a substrate-filled rearing container.",
+      "credit": "@alan69.",
+      "stage": "Larvae"
+    },
+    {
+      "file": "stenodontes-male-wang.jpg",
+      "caption": "A male from my culture, about 75 mm long. Photograph by Junkai Wang.",
+      "alt": "Large, glossy dark male Stenodontes chevrolati with its open mandibles against pale substrate.",
+      "stage": "Adults",
+      "credit": "Junkai Wang",
+      "preferred": true
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "name": "Lucanus mazama",
+  "slug": "lucanus-mazama",
+  "group": "lucanidae",
+  "common": "Cottonwood stag beetle",
+  "intro": "I have had good adult emergence with the cottonwood stag beetle, sometimes with a whole group of beetles coming up together. Some of my males were noticeably larger than others. This is a productive species on hardwood flake soil. A single female gave me 46 larvae when I opened her laying box.",
+  "facts": [
+    {
+      "title": "Brood recovered",
+      "text": "46 larvae from one female"
+    },
+    {
+      "title": "Laying substrate",
+      "text": "Hardwood flake soil"
+    },
+    {
+      "title": "Published pupal duration",
+      "text": "31–35 days in seven individuals"
+    }
+  ],
+  "sections": [
+    {
+      "title": "Pairing and egg laying",
+      "text": "The male’s inward-curving mandibles are larger than the female’s. I set up the laying substrate before introducing an active pair. I use aged hardwood sawdust with this species, and it has bred on flake soil. For a new box I recommend the less-fermented hardwood mix described on the Substrate page. My longstanding flake recipe uses sawdust, flour, yeast and a little oatmeal, stirred over one to two months. Offer active adults beetle jelly every five days, or a piece of apple or banana."
+    },
+    {
+      "title": "Finding and feeding the brood",
+      "text": "Have the larval containers ready before you open the laying box. I found animals throughout the substrate, so I work through the full depth in small portions. The September brood of 46 was the number I recovered from one female at that check. Return feeding larvae to aged hardwood or flake soil, with enough substrate to burrow. Cottonwood is the common name, but oak is also a natural food. Reyes-Castillo and colleagues found late-stage grubs in a decaying oak stump in Chihuahua."
+    },
+    {
+      "title": "Pupation and emergence",
+      "text": "As a grub matures, check the sides and base of its enclosure before loosening the substrate. The Mexican study followed third instars through the rest of development. They pupated in wood debris. Five individuals took five to eight days to pass from prepupa to pupa, and seven took another 31–35 days from pupa to adult. Some adults spent much of their time below a log even after completing the molt. I wait for my beetles to become active on their own before moving them to a pairing enclosure.\nIn earlier broods I lost pupae, and some newly emerged adults had enlarged abdomens that extended beyond the wing covers. Those adults later died following infection. In my 2026 brood I kept the substrate drier as larvae began to pupate. Most of the adults emerged without those deformities."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Larval recovery, 22 September 2025",
+      "url": "https://discord.com/channels/1285685926340726887/1286131091987763264/1419733822483730474"
+    },
+    {
+      "title": "Breeding on flake soil, 22 July 2025",
+      "url": "https://discord.com/channels/1285685926340726887/1384034410046689341/1397101097981837322"
+    },
+    {
+      "title": "Reyes-Castillo, Martínez and Castillo (2003), biological notes on Mexican Lucanus mazama",
+      "url": "https://beta.biodiversitylibrary.org/partpdf/11991"
+    },
+    {
+      "title": "My adults at emergence",
+      "url": "https://www.instagram.com/p/DfhWduXB528/"
+    },
+    {
+      "title": "Adult emergence in my culture",
+      "url": "https://discord.com/channels/1285685926340726887/1286131091987763264/1568471345673805837"
+    },
+    {
+      "title": "My 2026 pupation trial",
+      "url": "https://discord.com/channels/1285685926340726887/1286131091987763264/1568318642683117793"
+    }
+  ],
+  "record_type": "Rearing observations",
+  "primary_url": "https://discord.com/channels/1285685926340726887/1286131091987763264/1419733822483730474",
+  "classification": [
+    {
+      "title": "BugGuide — Lucanus mazama",
+      "url": "https://www.bugguide.net/node/view/93340"
+    },
+    {
+      "title": "iNaturalist — Lucanus mazama",
+      "url": "https://www.inaturalist.org/taxa/60817"
+    }
+  ],
+  "native_status": {
+    "text": "Native to the southwestern United States and Mexico, including the mountains of Arizona and New Mexico.",
+    "status": "native",
+    "sources": [
+      {
+        "title": "University of Nebraska State Museum, cottonwood stag beetle",
+        "url": "https://unsm-ento.unl.edu/Guide/Scarabaeoidea/Lucanidae/LUC/LUCA/mazama/mazama.html"
+      },
+      {
+        "title": "Animal Diversity Web, native range of Lucanus mazama",
+        "url": "https://animaldiversity.org/accounts/Lucanus_mazama/"
+      },
+      {
+        "title": "iNaturalist, regional establishment status",
+        "url": "https://www.inaturalist.org/taxa/60817#status-tab"
+      },
+      {
+        "title": "BugGuide, Lucanus mazama",
+        "url": "https://www.bugguide.net/node/view/93340"
+      }
+    ]
+  },
+  "distribution": {
+    "slug": "lucanus-mazama",
+    "file": "map-lucanus-mazama.png",
+    "count": 1397,
+    "raw_count": 1397,
+    "excluded_count": 0,
+    "date": "2026-11-18",
+    "url": "https://www.inaturalist.org/observations?place_id=97394&quality_grade=research&captive=false&geo=true&taxon_id=60817&view=map",
+    "caption": "1,397 of 1,397 wild, research-grade iNaturalist observations in North America are plotted at their public coordinates.",
+    "data_file": "map-data-lucanus-mazama.json"
+  },
+  "account_credit": "Breeding notes by Junkai Wang and Alan Jeon",
+  "substrate_recipe": true,
+  "gallery": [
+    {
+      "file": "guide-1419733822483730474-01.jpg",
+      "alt": "Lucanus mazama. First photograph from the larval recovery series.",
+      "caption": "First photograph from the larval recovery series.",
+      "credit": "@alan69.",
+      "stage": "Larvae"
+    },
+    {
+      "file": "guide-1419733822483730474-02.jpg",
+      "alt": "Lucanus mazama. Second photograph from the same enclosure.",
+      "caption": "Second photograph from the same enclosure.",
+      "credit": "@alan69."
+    },
+    {
+      "file": "lucanus-mazama-emergence-wang-instagram.jpg",
+      "alt": "A group of dark reddish-brown adult stag beetles clustered in a round rearing container.",
+      "caption": "A group of my newly emerged cottonwood stag beetles.",
+      "credit": "Junkai Wang (@beetlescholar)",
+      "stage": "Adults",
+      "preferred": true
+    }
+  ]
+}

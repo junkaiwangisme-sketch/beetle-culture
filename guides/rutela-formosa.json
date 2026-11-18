@@ -1,0 +1,92 @@
+{
+  "name": "Rutela formosa",
+  "slug": "rutela-formosa",
+  "group": "rutelinae",
+  "common": "Handsome flower scarab",
+  "intro": "I have found dozens of Rutela formosa on Key Largo. A mating pair and fresh beetle jelly were easy to provide. The harder part was finding the right place for the female to lay. My early setup with ordinary flake soil produced no brood. I later bred the species with a log resting on the substrate.",
+  "facts": [
+    {
+      "title": "Adult lifespan",
+      "text": "About one month in my care"
+    },
+    {
+      "title": "Adult food",
+      "text": "Beetle jelly, renewed every five days"
+    },
+    {
+      "title": "Laying material",
+      "text": "A decayed hardwood log on the surface of the substrate"
+    },
+    {
+      "title": "Larval food",
+      "text": "The interior of the breeding log"
+    }
+  ],
+  "sections": [
+    {
+      "title": "Feeding and pairing the adults",
+      "text": "I prepare the breeding enclosure before I introduce the pair because the adults live only about a month. Mine accept beetle jelly, which I renew on my usual five-day schedule. I put it on an accessible part of the surface so I can replace it while leaving the log in position. At Key Largo I have found adults in numbers, yet even an active group in captivity gave me no offspring when I offered only my usual flake soil."
+    },
+    {
+      "title": "What changed when I added a log",
+      "text": "In 2021, my standard flake-soil setup failed to produce a brood. By May 2022 I had at least four pairs on hand. I keep that count separate from my later breeding results. In my later culture I used the same basic arrangement I use for Dorcus: a breeding log resting on the surface of the substrate. I choose decaying hardwood that still holds together as a log. The solid piece matters throughout the brood’s development. Once the female has had access to it, I leave it in the enclosure, even if I cannot see any young at the surface."
+    },
+    {
+      "title": "Following larvae inside the wood",
+      "text": "My grubs fed through the log and hollowed it from within. I never saw them leave it, even in captivity. I would keep occupied wood intact when refreshing the surrounding material. An empty-looking layer of flake soil tells me very little about what is happening inside the log. In Florida, larvae, pupae and adults have also been found in the decayed heartwood of Bursera and Metopium logs. That field observation fits the way my grubs used the wood."
+    },
+    {
+      "title": "Adults in the field and in culture",
+      "text": "The striped adult on bark is from my collection in September 2025. The Florida field photograph in the gallery is from December 2024. It shows the markings in natural light and gives a sense of the beetle’s size on a hand. I keep these field dates separate from the time an adult spends active in a breeding box."
+    }
+  ],
+  "sources": [
+    {
+      "title": "My Key Largo adults and early laying trial",
+      "url": "https://beetleforum.net/threads/rutela-formosa.5122/"
+    },
+    {
+      "title": "Adult feeding and lifespan in my care",
+      "url": "https://beetleforum.net/threads/rutela-formosa.5743/"
+    },
+    {
+      "title": "My breeding-log culture",
+      "url": "https://discord.com/channels/1285685926340726887/1369529410440659025/1417662138973032469"
+    },
+    {
+      "title": "My established captive culture",
+      "url": "https://discord.com/channels/1285685926340726887/1369529410440659025/1417623023120289792"
+    },
+    {
+      "title": "M. L. Jameson, revision of the Rutela generic groups",
+      "url": "https://unsm-ento.unl.edu/Monographs/Rutela.pdf"
+    },
+    {
+      "title": "Key Largo field records of wood, larvae and pupae, Scarabaeus 6 (1982)",
+      "url": "https://unsm-ento.unl.edu/Scarabaeus/No06.pdf"
+    }
+  ],
+  "account_credit": "Breeding notes by Junkai Wang and Alan Jeon",
+  "primary_url": "https://beetleforum.net/threads/rutela-formosa.5122/",
+  "related_species": [
+    "dorcus-parallelus",
+    "pelidnota-punctata"
+  ],
+  "gallery": [
+    {
+      "file": "rutela-formosa-september-immanus.jpg",
+      "stage": "Adults",
+      "credit": "Junkai Wang",
+      "caption": "Adult from the culture, photographed in September 2025.",
+      "alt": "A gold and metallic green Rutela formosa adult, its wing covers marked with dark longitudinal stripes, standing on bark.",
+      "preferred": true
+    },
+    {
+      "file": "rutela-formosa-255556376-alan.jpg",
+      "stage": "Adults",
+      "caption": "Florida field observation, December 2024.",
+      "alt": "Adult Rutela formosa with metallic gold and dark stripes resting on a hand.",
+      "credit": "Alan Jeon"
+    }
+  ]
+}

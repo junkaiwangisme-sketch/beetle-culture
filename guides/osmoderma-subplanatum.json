@@ -1,0 +1,131 @@
+{
+  "name": "Osmoderma subplanatum",
+  "slug": "osmoderma-subplanatum",
+  "group": "cetoniinae",
+  "common": "Hermit flower beetle",
+  "intro": "My Osmoderma subplanatum larvae grew quickly on flake soil from Georgia Beetle Supplies. When I checked them in June, they were already third instars. A month earlier they had been first instars. For a new brood, that gives me a practical starting substrate and a reason to check early growth sooner than I might expect for a hermit beetle.",
+  "facts": [
+    {
+      "title": "First to third instar",
+      "text": "About one month from first to third instar"
+    },
+    {
+      "title": "Larval substrate",
+      "text": "Flake soil"
+    }
+  ],
+  "sections": [
+    {
+      "title": "Feeding young grubs",
+      "text": "I started with ten larvae one year and had adults breeding by June 8 the following year. In a second growth check, grubs that had been first instars a month earlier were already third instars. I keep prepared hardwood flake soil on hand as they consume it. If I use natural material, I choose well-decayed hardwood. In Nebraska, one standing ash contained about 45 third instars. Grubs have also been found in rotting maple and boxelder.\nFor the rest of the breeding setup I use my Osmoderma eremicola method. I keep softened wood mixed into the feeding substrate and leave closed cells intact. I follow the stages of the subplanatum brood itself when deciding when to look for adults."
+    },
+    {
+      "title": "Timing the final instar",
+      "text": "I would allow plenty of time after the first two molts. Ratcliffe followed Nebraska grubs collected as third instars in July. He recorded both pupae and adults in February, but four beetles were still larvae the following June. Survival was poor in that group. Those dates give a sense of how much individuals can differ even when they start at the same instar. A brood reaching the third instar in a month can still be months from adulthood."
+    },
+    {
+      "title": "Pupation and identification",
+      "text": "Pupae described from Nebraska measured 30–36 mm. They were pale at first and darkened toward brown before the adult molt. Keep the collection locality and parentage with each container until emergence. Third instars of this species and Osmoderma eremicola are difficult to separate even under magnification. An adult associated with the brood gives you much better grounds for confirming the identification. Older publications treat this beetle under the spelling Osmoderma subplanata. I found pupal cells in my culture in late October. Some adults I reared lacked red spots, and some of my O. eremicola had them. I keep the species and locality label with each brood because spotting alone has proved unreliable."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Larvae on flake soil, 19 June 2025",
+      "url": "https://discord.com/channels/1285685926340726887/1286131091987763264/1385137293320261742"
+    },
+    {
+      "title": "B. C. Ratcliffe (1977), Descriptions of the larva and pupa of Osmoderma subplanata and Cremastocheilus wheeleri",
+      "url": "https://www.antwiki.org/wiki/images/6/63/Ratcliffe_1977.pdf"
+    },
+    {
+      "title": "My original ten larvae reaching breeding age",
+      "url": "https://discord.com/channels/1285685926340726887/1369491131548827772/1381464869630640158"
+    },
+    {
+      "title": "Pupal cells in October",
+      "url": "https://discord.com/channels/1285685926340726887/1286131091987763264/1433651041668300982"
+    },
+    {
+      "title": "Markings on adults from my cultures",
+      "url": "https://discord.com/channels/1285685926340726887/1286131091987763264/1506541271949512735"
+    },
+    {
+      "title": "My method for the two hermit beetles",
+      "url": "https://discord.com/channels/1285685926340726887/1286131091987763264/1485430597907120290"
+    }
+  ],
+  "record_type": "Rearing observations",
+  "primary_url": "https://discord.com/channels/1285685926340726887/1286131091987763264/1385137293320261742",
+  "classification": [
+    {
+      "title": "BugGuide — Osmoderma subplanatum",
+      "url": "https://www.bugguide.net/node/view/212819"
+    },
+    {
+      "title": "iNaturalist — Osmoderma subplanatum",
+      "url": "https://www.inaturalist.org/taxa/226689"
+    }
+  ],
+  "native_status": {
+    "text": "Native to the Great Plains of North America. Its taxonomic relationship to the eastern Osmoderma eremicola remains under discussion.",
+    "status": "native",
+    "sources": [
+      {
+        "title": "Steffek et al. (2024), North American Osmoderma",
+        "url": "https://www.life.illinois.edu/hanks/pdfs/Steffek%20et%20al%202024%20-%20Osmoderma%20pher%20-%20JCE%2050.pdf"
+      },
+      {
+        "title": "BugGuide, Osmoderma subplanatum and spelling history",
+        "url": "https://www.bugguide.net/node/view/212819"
+      },
+      {
+        "title": "iNaturalist, regional establishment status",
+        "url": "https://www.inaturalist.org/taxa/226689#status-tab"
+      }
+    ]
+  },
+  "distribution": {
+    "slug": "osmoderma-subplanatum",
+    "file": "map-osmoderma-subplanatum.png",
+    "count": 432,
+    "raw_count": 432,
+    "excluded_count": 0,
+    "date": "2026-11-18",
+    "url": "https://www.inaturalist.org/observations?place_id=97394&quality_grade=research&captive=false&geo=true&taxon_id=226689&view=map",
+    "caption": "432 of 432 wild, research-grade iNaturalist observations in North America are plotted at their public coordinates.",
+    "data_file": "map-data-osmoderma-subplanatum.json"
+  },
+  "aliases": [
+    "Osmoderma subplanata"
+  ],
+  "account_credit": "Breeding notes by Junkai Wang and Alan Jeon",
+  "related_species": [
+    "osmoderma-eremicola",
+    "osmoderma-scabrum"
+  ],
+  "gallery": [
+    {
+      "file": "guide-1385137293320261742-01.jpg",
+      "alt": "Osmoderma subplanatum. Larvae from the flake-soil culture.",
+      "caption": "Larvae from the flake-soil culture.",
+      "credit": "@alan69.",
+      "stage": "Larvae"
+    },
+    {
+      "file": "osmoderma-subplanatum-adult-2-alan.jpg",
+      "stage": "Adults",
+      "credit": "Alan Jeon",
+      "caption": "Adult from the May 2025 captive series.",
+      "alt": "A glossy dark adult Osmoderma subplanatum rests across two fingertips above its rearing container.",
+      "preferred": true
+    },
+    {
+      "file": "osmoderma-subplanatum-adult-1-alan.jpg",
+      "stage": "Adults",
+      "credit": "Alan Jeon",
+      "caption": "Front view of an adult from the same culture.",
+      "alt": "Front view of a dark adult Osmoderma subplanatum gripping a fingertip.",
+      "preferred": false
+    }
+  ]
+}

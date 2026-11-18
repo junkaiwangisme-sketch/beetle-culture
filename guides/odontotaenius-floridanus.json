@@ -1,0 +1,146 @@
+{
+  "name": "Odontotaenius floridanus",
+  "slug": "odontotaenius-floridanus",
+  "common": "Florida bess beetle",
+  "group": "passalidae",
+  "intro": "I have bred the Florida bess beetle through three broods without giving my group a winter cooling period. Finding the beetles took considerably longer than getting them to breed. Between us, Alan and I spent at least eight days in the field over roughly six trips before we found them.",
+  "facts": [
+    {
+      "title": "Breeding result",
+      "text": "Three broods by September 2025"
+    },
+    {
+      "title": "Rearing material",
+      "text": "Breeding logs buried in homemade flake soil"
+    },
+    {
+      "title": "Brood size in my checks",
+      "text": "About four larvae per brood"
+    },
+    {
+      "title": "Winter treatment",
+      "text": "No deliberate cooling period in this culture"
+    }
+  ],
+  "sections": [
+    {
+      "title": "Preparing the wood",
+      "text": "I buried breeding logs in my homemade flake soil. This was the setup in which I saw the first brood in March 2025. I keep the wood in one piece so the adults can establish galleries and the young have somewhere to feed alongside them. When starting another enclosure, I would use softened hardwood with enough structure to keep those tunnels intact. I keep the wood and the material the adults have worked together when checking the culture."
+    },
+    {
+      "title": "Recognizing a brood",
+      "text": "I found a newly hatched first instar on April 14, 2025, and photographed a pupa on May 16. By June 7 the second brood was building pupal cells against the enclosure wall. I generally found around four larvae per brood. The April and May dates are separate checks rather than a measured developmental interval for one animal. In a bess beetle enclosure the parents and young share the wood, so I leave the family together. When I check on them, I look along an existing opening and preserve the chewed material around the gallery. For counting broods I use positive sightings of young. The adults can remain alive for a long time without producing offspring."
+    },
+    {
+      "title": "Keeping the culture going",
+      "text": "By September 2025 the colony had given me a third brood. I had given it no deliberate winter cooling period between broods. I keep wood available whenever the beetles have hollowed out much of the original piece, and I would place fresh wood alongside the occupied material. In April 2026 my first-generation adults were still alive, although I had yet to see them start a brood of their own. My result with this Florida species is quite different from the compacted-sawdust setup I tried with Odontotaenius disjunctus, in which the adults lived but I recovered no young. In November I estimated that the original adults usually gave me about two broods a year, with four or five larvae per brood. After I found that the parents had eaten a soft, newly emerged adult, I began separating teneral adults from the parents. I still leave feeding larvae with them in the wood."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Bess beetle breeding discussion, 12–13 September 2025",
+      "url": "https://discord.com/channels/1080588087836549221/1338191341045415986/1416297064798748804"
+    },
+    {
+      "title": "My breeding logs and first brood",
+      "url": "https://discord.com/channels/1080588087836549221/1338191341045415986/1352674559823970377"
+    },
+    {
+      "title": "My brood counts",
+      "url": "https://discord.com/channels/1080588087836549221/1338191341045415986/1371468605891285043"
+    },
+    {
+      "title": "Hatchling in April",
+      "url": "https://discord.com/channels/1080588087836549221/1338191341045415986/1361342965636923732"
+    },
+    {
+      "title": "Pupa in May",
+      "url": "https://discord.com/channels/1080588087836549221/1338191341045415986/1372902210253488280"
+    },
+    {
+      "title": "Second-brood cells",
+      "url": "https://discord.com/channels/1080588087836549221/1338191341045415986/1380894283263115265"
+    },
+    {
+      "title": "Third brood without cooling",
+      "url": "https://discord.com/channels/1080588087836549221/1338191341045415986/1416404856280715355"
+    },
+    {
+      "title": "F1 adults the next spring",
+      "url": "https://discord.com/channels/1080588087836549221/1338191341045415986/1489822938621284497"
+    },
+    {
+      "title": "Field effort and breeding outcome",
+      "url": "https://discord.com/channels/1285685926340726887/1369529410440659025/1417662138973032469"
+    },
+    {
+      "title": "My 2025 brood rate and care of teneral adults",
+      "url": "https://discord.com/channels/1080588087836549221/1338191341045415986/1439016430107623444"
+    }
+  ],
+  "primary_url": "https://discord.com/channels/1080588087836549221/1338191341045415986/1416297064798748804",
+  "record_type": "Breeding account",
+  "native_status": {
+    "text": "Endemic to the Lake Wales Ridge in central Florida. The Florida Natural Areas Inventory reports its range from Marion County south to Highlands County.",
+    "status": "native",
+    "sources": [
+      {
+        "title": "Florida Natural Areas Inventory, Archbold bess beetle range-wide distribution",
+        "url": "https://www.fnai.org/PDFs/FieldGuides/Odontotaenius_floridanus.pdf"
+      },
+      {
+        "title": "Schuster (1994), original description of Odontotaenius floridanus",
+        "url": "https://digitalcommons.unl.edu/entomologyother/131/"
+      }
+    ]
+  },
+  "distribution": {
+    "slug": "odontotaenius-floridanus",
+    "file": "map-odontotaenius-floridanus.png",
+    "count": 69,
+    "raw_count": 69,
+    "excluded_count": 0,
+    "date": "2026-11-18",
+    "url": "https://www.inaturalist.org/observations?place_id=97394&quality_grade=research&captive=false&geo=true&taxon_id=122923&view=map",
+    "caption": "69 of 69 wild, research-grade iNaturalist observations in North America are plotted at their public coordinates.",
+    "data_file": "map-data-odontotaenius-floridanus.json"
+  },
+  "account_credit": "Breeding notes by Junkai Wang and Alan Jeon",
+  "related_species": [
+    "odontotaenius-disjunctus"
+  ],
+  "gallery": [
+    {
+      "file": "odontotaenius-floridanus-f1-alan.jpg",
+      "stage": "Adults",
+      "credit": "Alan Jeon",
+      "caption": "First-generation adults from the colony in April 2026.",
+      "alt": "A group of glossy black Odontotaenius floridanus adults on the surface of their rearing substrate.",
+      "preferred": true
+    },
+    {
+      "file": "odontotaenius-floridanus-first-instar-alan.jpg",
+      "stage": "Larvae",
+      "credit": "Alan Jeon",
+      "caption": "A newly hatched first instar in the breeding enclosure in April 2025.",
+      "alt": "A tiny pale larva shows through the clear wall near a lower corner of the breeding container.",
+      "preferred": false
+    },
+    {
+      "file": "odontotaenius-floridanus-pupa-alan.jpg",
+      "stage": "Prepupae and pupae",
+      "credit": "Alan Jeon",
+      "caption": "A Florida bess beetle pupa in May 2025.",
+      "alt": "A cream-colored Odontotaenius floridanus pupa lies in an opening in the brown rearing substrate.",
+      "preferred": false
+    },
+    {
+      "file": "odontotaenius-floridanus-second-brood-cells-alan.jpg",
+      "stage": "Prepupae and pupae",
+      "credit": "Alan Jeon",
+      "caption": "The second brood building pupal cells in June 2025.",
+      "alt": "A pale patch in a developing pupal cell is visible through the wall at a bottom corner of the rearing box.",
+      "preferred": false
+    }
+  ]
+}

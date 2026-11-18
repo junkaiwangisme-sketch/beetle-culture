@@ -1,0 +1,76 @@
+{
+  "name": "Orthosoma brunneum",
+  "slug": "orthosoma-brunneum",
+  "group": "cerambycidae",
+  "common": "Brown prionid",
+  "intro": "I photographed an adult brown prionid on my hand, where its long antennae and ridged wing covers show clearly. Adults regularly come to lights across eastern North America. For anyone starting with an adult, a damp piece of already decaying wood gives the female a place to lay and the resulting larvae material they can eat for months.",
+  "account_credit": "Adult photograph by Alan Jeon · Natural history and care notes by Junkai Wang and Alan Jeon",
+  "facts": [
+    {
+      "title": "Adult size",
+      "text": "About 25–50 mm in length"
+    },
+    {
+      "title": "Egg-laying season",
+      "text": "May through late summer in Maryland"
+    },
+    {
+      "title": "Larval development",
+      "text": "Usually two to three years"
+    }
+  ],
+  "sections": [
+    {
+      "title": "Identifying and feeding adults",
+      "text": "I would check the shield behind the head for three sharp points on each side and look along the wing covers for the raised parallel lines. Adults are recorded from May through November in the eastern United States. Paula Shrewsbury reports that they feed on flowers, fruit and leaves. With a newly collected adult I would offer a little ripe fruit on a removable dish and check for feeding while the beetle is active."
+    },
+    {
+      "title": "Selecting wood for egg laying",
+      "text": "The tree species gives the keeper considerable choice. Recorded hardwoods include oak, hickory, walnut, chestnut, maple and basswood. Larvae also develop in pine, hemlock and fir. The feature I would select for first is decay in a piece that still holds moisture. I would set the wood partly into a damp substrate and leave some of its surface accessible. Published observations place eggs on or in decaying wood and sometimes in the surrounding soil, so I would keep that soil with the wood when moving the female."
+    },
+    {
+      "title": "Watching for larvae",
+      "text": "The pale, glossy larvae can reach about 50 mm. Their tunnels accumulate coarse, fibrous frass. If I exposed one of those galleries, I would leave most of it intact and record the kind of wood and its condition. Allow two to three years for larval development. Laboratory rearers have also raised this species using a formulated diet with host-plant material. That result gives a second rearing option for a keeper who can reproduce the published preparation."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Alan Jeon’s adult photograph",
+      "url": "https://www.inaturalist.org/observations/290595470"
+    },
+    {
+      "title": "Shrewsbury, brown prionid beetle, University of Maryland Extension (page 5)",
+      "url": "https://extension.umd.edu/sites/extension.umd.edu/files/2025-07/25Jul25L.pdf"
+    },
+    {
+      "title": "Lingafelter, Illustrated Guide to the Longhorned Woodboring Beetles of the Eastern United States",
+      "url": "https://www.coleopsoc.org/wp-content/uploads/2024/08/ColeopteristsSocietySpecialPublication3-optimized.pdf"
+    },
+    {
+      "title": "Robinson, Handbook of Urban Insects and Arachnids, brown prionid account",
+      "url": "https://ndl.ethernet.edu.et/bitstream/123456789/6168/1/62.pdf"
+    },
+    {
+      "title": "Keena, laboratory rearing of cerambycids, including Orthosoma (Table 7.1)",
+      "url": "https://www.fs.usda.gov/nrs/pubs/jrnl/2017/nrs_2017_keena_001.pdf"
+    },
+    {
+      "title": "Gardiner, rearing longhorn beetles on artificial diet",
+      "url": "https://doi.org/10.4039/Ent102113-1"
+    }
+  ],
+  "related_species": [
+    "stenodontes-chevrolati",
+    "mallodon-dasystomus"
+  ],
+  "primary_url": "https://www.inaturalist.org/observations/290595470",
+  "gallery": [
+    {
+      "file": "orthosoma-brunneum-290595470-alan.jpg",
+      "stage": "Adults",
+      "caption": "Adult brown prionid outdoors.",
+      "alt": "Elongate dark brown Orthosoma brunneum with long antennae on a hand.",
+      "credit": "Alan Jeon"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "name": "Stenodontes exsertus",
+  "slug": "stenodontes-exsertus",
+  "group": "cerambycidae",
+  "common": "Puerto Rican giant longhorn beetle",
+  "intro": "The Puerto Rican giant longhorn is a larger, redder relative of Stenodontes chevrolati. The adults I have seen have long, curved mandibles with a smooth inner edge. The species occurs on Puerto Rico and Hispaniola. My breeding notes come from Puerto Rican stock, and keeping the laying medium almost dry made a real difference to the eggs.",
+  "facts": [
+    {
+      "title": "Range",
+      "text": "Puerto Rico and Hispaniola"
+    },
+    {
+      "title": "Laying setup",
+      "text": "About 2 inches (5 cm) of nearly dry sawdust, with bark on top"
+    },
+    {
+      "title": "Larval foods tried",
+      "text": "Sawdust and fungus-colonized wood substrate (kinshi)"
+    },
+    {
+      "title": "Larvae rehoused",
+      "text": "At least 36 by February 23, 2026"
+    }
+  ],
+  "sections": [
+    {
+      "title": "A shallow, dry laying bed",
+      "text": "I put about 2 inches (5 cm) of sawdust in the breeding container and lay pieces of bark on the surface. The sawdust I use is very nearly bone dry. In a damp laying bed the eggs have molded and rotted, and young larvae have also rotted. For that reason I avoid using moist flake soil or white-rotten wood as the laying bed for my Puerto Rican stock. The bark gives the adult cover without having to wet the whole bed."
+    },
+    {
+      "title": "Moving the young larvae",
+      "text": "I can rear the larvae in the same sort of sawdust. By February 23, 2026, I had rehoused 36 of them and was still working through the group. That is a count of the larvae I moved that day. In late March the young larvae I had available measured about 7–10 mm. They are small enough at that stage that it is worth taking the sawdust apart carefully."
+    },
+    {
+      "title": "Results on kinshi",
+      "text": "I have also used kinshi, wood substrate colonized by a fungus, for the feeding larvae. Most of my S. exsertus were doing well on an oyster-mushroom batch when I checked them in November 2026. I had put Callipogon proletarius larvae on that same batch and lost every one of them. The contrast is worth keeping in mind when choosing a fungus for longhorn larvae. A substrate that supports a feeding larva also has a different job from the dry bed I give a laying female."
+    },
+    {
+      "title": "Recognizing the stock in the field",
+      "text": "I have reared unidentified longhorn larvae from fallen logs in Puerto Rico. The ones I took from those logs turned out to be Callipogon when they matured. Finding a large larva in a downed log was therefore a poor way for me to identify S. exsertus. A published host record for S. exsertus names Zanthoxylum, the prickly ashes."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Breeding setup, moisture and fungal losses, October 2026 (Discord)",
+      "url": "https://discord.com/channels/1285685926340726887/1384034410046689341/1563925498633916520"
+    },
+    {
+      "title": "Puerto Rican stock and fallen-log larvae, November 2026 (Discord)",
+      "url": "https://discord.com/channels/1285685926340726887/1509256945830465746/1568665315171246205"
+    },
+    {
+      "title": "Rehousing 36 larvae, February 2026 (Discord)",
+      "url": "https://discord.com/channels/1285685926340726887/1286131091987763264/1475654836249825381"
+    },
+    {
+      "title": "Puerto Rican larvae measured at 7–10 mm, March 2026 (Discord)",
+      "url": "https://discord.com/channels/1285685926340726887/1487261584983064697/1487261584983064697"
+    },
+    {
+      "title": "Oyster kinshi and adult identification, November 2026 (Discord)",
+      "url": "https://discord.com/channels/1285685926340726887/1509256945830465746/1567147284330971208"
+    },
+    {
+      "title": "Monné, Catalogue of the Cerambycidae of the Neotropical Region, Part III (range and host)",
+      "url": "https://cerambycids.com/catalog/Monne_Jun2024_NeotropicalCat_part_III.pdf"
+    }
+  ],
+  "account_credit": "Breeding notes by Junkai Wang and Alan Jeon",
+  "primary_url": "https://discord.com/channels/1285685926340726887/1384034410046689341/1563925498633916520",
+  "related_species": [
+    "stenodontes-chevrolati",
+    "callipogon-proletarius"
+  ],
+  "gallery": [
+    {
+      "file": "stenodontes-exsertus-january-alan.jpg",
+      "stage": "Adults",
+      "credit": "Alan Jeon",
+      "caption": "Adult from the Puerto Rican culture photographed in January 2026.",
+      "alt": "Dark red-brown Stenodontes exsertus with long curved jaws, held over a clear container.",
+      "preferred": true
+    }
+  ]
+}

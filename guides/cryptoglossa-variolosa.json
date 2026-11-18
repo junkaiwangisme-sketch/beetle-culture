@@ -1,0 +1,61 @@
+{
+  "name": "Cryptoglossa variolosa",
+  "slug": "cryptoglossa-variolosa",
+  "group": "tenebrionidae",
+  "common": "Death-feigning darkling beetle",
+  "intro": "I photographed two adult Cryptoglossa variolosa together on weathered wood. For a first enclosure I would pay particular attention to the ground and the refuges beneath it. The published records are strongest on habitat, defensive behavior and identification of the young.",
+  "facts": [
+    {
+      "title": "Documented habitat",
+      "text": "Arid southwestern North America, including the Sand Tank Mountains of Arizona"
+    },
+    {
+      "title": "Adult behavior",
+      "text": "Ground-dwelling, with shelter use and defensive postures documented in the genus"
+    },
+    {
+      "title": "Immature stages",
+      "text": "Described and keyed by Rolf Aalbu in his revision of the tribe"
+    }
+  ],
+  "sections": [
+    {
+      "title": "Cover and surface activity",
+      "text": "I would give adults a dry walking surface and low, stable shelters they can reach from more than one side. A piece of bark placed where the beetles can be seen from the side lets me inspect a refuge without dismantling it. Aalbu described retreat into shelter and a head-down defensive posture among Cryptoglossa. An adult disturbed while cover is lifted may also become motionless. I would set the cover back gently and watch the beetle when it resumes walking."
+    },
+    {
+      "title": "Choosing a starting setup",
+      "text": "The Sand Tank Mountains survey recorded both this species and Cryptoglossa muricata in the same Arizona mountain range. I would keep identified founders in separate groups and retain a photograph of each from above. I watched the two adults on the surface of the wood. For a laying trial I would also give them accessible soil and keep part of it undisturbed."
+    },
+    {
+      "title": "Documenting the young",
+      "text": "Aalbu’s illustrated treatment includes immature C. variolosa and provides a key to the young of several closely related species. I would use that work together with the identity of the parents if a larva appeared. The most helpful details to retain are the date and location of the first larva in the enclosure, its subsequent molts, and whether an adult ultimately emerges. I have no measured incubation or pupation schedule for these beetles."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Alan Jeon’s adult photograph",
+      "url": "https://www.inaturalist.org/observations/303464043"
+    },
+    {
+      "title": "Aalbu (2005), classification, behavior and biology of Cryptoglossini",
+      "url": "https://miiz.waw.pl/periodicals/annales-zoologici/abstracts/AZ_55-4abs.pdf"
+    },
+    {
+      "title": "Sand Tank Mountains specimen inventory and identification records",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10323768/"
+    }
+  ],
+  "related_species": [],
+  "account_credit": "Adult photograph by Alan Jeon · Natural history and care notes by Junkai Wang and Alan Jeon",
+  "primary_url": "https://www.inaturalist.org/observations/303464043",
+  "gallery": [
+    {
+      "file": "cryptoglossa-variolosa-303464043-alan.jpg",
+      "stage": "Adults",
+      "caption": "Two adults on weathered wood.",
+      "alt": "Two dark Cryptoglossa variolosa walking over a pale wooden surface.",
+      "credit": "Alan Jeon"
+    }
+  ]
+}

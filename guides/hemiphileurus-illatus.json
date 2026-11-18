@@ -1,0 +1,64 @@
+{
+  "name": "Hemiphileurus illatus",
+  "slug": "hemiphileurus-illatus",
+  "common": "",
+  "group": "dynastinae",
+  "intro": "I started with one male and two females from Arizona. I housed them the way I had kept Phileurus valgus. Within twelve days I found eggs in one female’s substrate, and by winter I could follow the brood into its pupal cells.",
+  "facts": [
+    {
+      "title": "Starting group",
+      "text": "One male and two females"
+    },
+    {
+      "title": "Setup documented",
+      "text": "July 24, 2013"
+    },
+    {
+      "title": "Eggs found",
+      "text": "August 5, in the substrate of one female"
+    },
+    {
+      "title": "November brood count",
+      "text": "25 living larvae"
+    },
+    {
+      "title": "February development",
+      "text": "About 80% in cells by February 21"
+    }
+  ],
+  "sections": [
+    {
+      "title": "Starting with a trio",
+      "text": "I set up the trio on July 24, 2013. When I checked one female’s substrate on August 5, I found eggs. If I were repeating the trial, I would keep each female’s laying material together through the first inspection. The twelve days describe the interval between two checks. The female may have laid well before I discovered the eggs."
+    },
+    {
+      "title": "Using the comparison with Phileurus valgus",
+      "text": "My starting point was my Phileurus valgus method. For valgus I fill a 32 oz (about 950 mL) container about three-quarters full for each female, then move the eggs into a larger rearing box at a monthly check. I used comparable conditions for H. illatus. This group already had eggs when I checked well before the end of the first month."
+    },
+    {
+      "title": "A brood through the winter",
+      "text": "By September 11 the earliest batch had reached the third instar. On November 7 all 25 larvae I was following were still alive. On February 21, 2014, about four out of five had made cells and I could already see pupae. I leave closed cells intact when checking a mixed group. Some larvae may still be feeding while their siblings have settled into chambers against the wall."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Alan Jeon’s July and August egg-laying trial",
+      "url": "https://beetleforum.net/threads/hemiphileurus-illatus.1626/"
+    },
+    {
+      "title": "Alan’s November census and February pupation observations",
+      "url": "https://beetleforum.net/threads/hemiphileurus-illatus.1636/"
+    },
+    {
+      "title": "Alan’s reference setup for Phileurus valgus",
+      "url": "https://beetleforum.net/threads/phileurus-valgus.1613/"
+    },
+    {
+      "title": "Ratcliffe, synopsis of Hemiphileurus and other New World Phileurini",
+      "url": "https://revistas.unal.edu.co/index.php/cal/article/download/104105/98308?inline=1"
+    }
+  ],
+  "primary_url": "https://beetleforum.net/threads/hemiphileurus-illatus.1626/",
+  "account_credit": "Breeding account by Alan Jeon",
+  "gallery": []
+}

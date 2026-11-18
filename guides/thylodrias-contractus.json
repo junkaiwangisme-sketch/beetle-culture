@@ -1,0 +1,103 @@
+{
+  "name": "Thylodrias contractus",
+  "slug": "thylodrias-contractus",
+  "group": "dermestidae",
+  "common": "Odd beetle",
+  "intro": "I started my odd beetle culture with about 30 living larvae that I recovered from a damaged insect collection in February 2026. The beetles were especially common around moths and orthopterans. By mid-March several had matured. Two months later I nearly wrote the culture off before I spotted the tiny larvae of the next generation.",
+  "facts": [
+    {
+      "title": "Starting group",
+      "text": "About 30 larvae in February 2026"
+    },
+    {
+      "title": "First adults",
+      "text": "Several matured by March 15"
+    },
+    {
+      "title": "Next generation",
+      "text": "Small larvae seen May 19"
+    },
+    {
+      "title": "North American status",
+      "text": "Established in collections and buildings"
+    }
+  ],
+  "sections": [
+    {
+      "title": "Moving the larvae",
+      "text": "I first look beneath damaged specimens and in the loose debris around them. That was where I could recover living larvae among the remains. For a new colony I would move some of the material on which the larvae have already been feeding to a separate, close-fitting container. I considered crickets as a substitute for the dried insects. The damage I actually observed was to moths and orthopterans in the collection. I keep a live culture well away from pinned specimens."
+    },
+    {
+      "title": "Recognizing adults of both sexes",
+      "text": "An adult female can look so much like a larva that it is easy to overlook her during a count. Females are wingless throughout adult life. Males have wing covers, but the hind wings underneath vary considerably in size. I look for both forms when checking for maturity, then use the appearance of a new size class of small larvae as evidence of reproduction."
+    },
+    {
+      "title": "When the enclosure looks empty",
+      "text": "Several larvae had matured during the two weeks before my March 15 check. On May 19, small larvae finally caught my eye in the enclosure. I would keep an apparently quiet container and examine the remaining food under magnification before starting over. A laboratory study found a typical life cycle of 12.8 months, with individuals ranging from about six and a half months to more than 46 months. My February founders were already larvae when I collected them, so their March emergence tells me when the first adults appeared, but not their total age."
+    }
+  ],
+  "sources": [
+    {
+      "title": "My February founders",
+      "url": "https://discord.com/channels/1285685926340726887/1286131091987763264/1476770413118750851"
+    },
+    {
+      "title": "My March adults",
+      "url": "https://discord.com/channels/1285685926340726887/1286131091987763264/1482606101101936842"
+    },
+    {
+      "title": "My first new larvae",
+      "url": "https://discord.com/channels/1080588087836549221/1338191341045415986/1506200340964573244"
+    },
+    {
+      "title": "Later summer observations",
+      "url": "https://discord.com/channels/1285685926340726887/1286131091987763264/1524864508420559040"
+    },
+    {
+      "title": "Mertins (1981), life history and morphology",
+      "url": "https://doi.org/10.1093/aesa/74.6.576"
+    },
+    {
+      "title": "Biggs, Herrmann and Cognato (2022), North American dermestids",
+      "url": "https://doi.org/10.3752/cjai.2022.46"
+    }
+  ],
+  "account_credit": "Breeding account by Alan Jeon",
+  "related_species": [
+    "dermestes-marmoratus"
+  ],
+  "primary_url": "https://discord.com/channels/1285685926340726887/1286131091987763264/1476770413118750851",
+  "gallery": [
+    {
+      "file": "thylodrias-contractus-march-1-alan.jpg",
+      "stage": "Culture",
+      "credit": "Alan Jeon",
+      "caption": "The odd beetle culture in March, when several adults had matured.",
+      "alt": "Small brown, banded odd beetles among pale food pellets and insect remains.",
+      "preferred": false
+    },
+    {
+      "file": "thylodrias-contractus-august-alan.jpg",
+      "stage": "Culture",
+      "credit": "Alan Jeon",
+      "caption": "The culture photographed in August 2026.",
+      "alt": "Odd beetles scattered among pale pellets and dried insect remains in the round rearing cup.",
+      "preferred": false
+    },
+    {
+      "file": "thylodrias-contractus-march-5-alan.jpg",
+      "stage": "Adults",
+      "credit": "Alan Jeon",
+      "caption": "A newly matured adult in the March culture.",
+      "alt": "A tiny, narrow adult odd beetle beside an insect wing among pale pellets in its culture cup.",
+      "preferred": true
+    },
+    {
+      "file": "thylodrias-contractus-363161168-alan.jpg",
+      "stage": "Culture",
+      "caption": "May 2026 observation in East Lansing, Michigan.",
+      "alt": "A small brown odd beetle against the pale blue surface of a lid.",
+      "credit": "Alan Jeon"
+    }
+  ]
+}

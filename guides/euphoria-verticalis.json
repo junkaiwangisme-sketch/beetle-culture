@@ -1,0 +1,40 @@
+{
+  "name": "Euphoria verticalis",
+  "slug": "euphoria-verticalis",
+  "group": "cetoniinae",
+  "common": "Flower scarab",
+  "intro": "I photographed a pinned adult of this dark flower scarab with its specimen label. I use this specimen as an adult comparison. The label and the beetle are visible together in the photograph.",
+  "sections": [
+    {
+      "title": "Comparing adults",
+      "text": "The photograph shows the outline of the beetle from above. Compare the rounded pronotum, the surface of the wing covers and the overall shape together. Orozco’s revision of Euphoria treats E. verticalis in its own species group and provides the comparative basis for identification. A specimen image of this kind is useful for checking an adult determination before assigning the same name to associated immature stages."
+    }
+  ],
+  "facts": [
+    {
+      "title": "Personal record",
+      "text": "Photograph of a preserved adult"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Alan Jeon, preserved Euphoria verticalis adult",
+      "url": "https://www.inaturalist.org/observations/253300577"
+    },
+    {
+      "title": "J. Orozco (2012), Monographic revision of the American genus Euphoria",
+      "url": "https://doi.org/10.1649/0010-066X-66.mo4.1"
+    }
+  ],
+  "account_credit": "Adult photograph by Alan Jeon · Natural history and care notes by Junkai Wang and Alan Jeon",
+  "primary_url": "https://www.inaturalist.org/observations/253300577",
+  "gallery": [
+    {
+      "file": "euphoria-verticalis-253300577-alan.jpg",
+      "stage": "Adults",
+      "caption": "A preserved adult specimen.",
+      "alt": "Dark oval Euphoria verticalis pinned above a specimen label.",
+      "credit": "Alan Jeon"
+    }
+  ]
+}

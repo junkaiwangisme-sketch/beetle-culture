@@ -1,0 +1,57 @@
+{
+  "name": "Sinodendron rugosum",
+  "slug": "sinodendron-rugosum",
+  "common": "Rugose stag beetle",
+  "group": "lucanidae",
+  "intro": "I tried breeding this small western stag beetle in both pieces of decaying wood and flake soil. The females readily bored into the logs. By the end of the trial I had found no larvae in either setup. A gallery was the clearest sign I saw of adult activity, but it was insufficient to establish a brood.",
+  "sections": [
+    {
+      "title": "Adults in wood",
+      "text": "These beetles reminded me of bess beetles in the way they worked into the wood. The adults appeared to eat it, although watching them excavate a tunnel could not tell me how much they actually swallowed. For another trial, I would keep intact pieces of wood available so the adults could continue boring and I could follow the occupied pieces separately."
+    },
+    {
+      "title": "What to try in a subsequent culture",
+      "text": "Wood species is one variable worth changing. Furniss and colleagues recorded this species emerging from decaying alder collected at Sheep Creek in Idaho. That gives me a specific wood to try and a reason to keep a note of its type and state of decay. In my earlier setups I saw females drill into logs, but I never found eggs or grubs to connect with those tunnels. For a repeat I would leave each occupied piece intact, check any loose material around it for young larvae, and record the first hatchling separately from the first sign of adult drilling."
+    }
+  ],
+  "facts": [
+    {
+      "title": "Media tried",
+      "text": "Decaying logs and flake soil"
+    },
+    {
+      "title": "Female activity",
+      "text": "Drilled into the logs"
+    },
+    {
+      "title": "Outcome",
+      "text": "No larvae recovered in either setup"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Junkai Wang, adults working in wood",
+      "url": "https://beetleforum.net/threads/s-rugosum.5885/post-31073"
+    },
+    {
+      "title": "Junkai Wang, outcome of breeding trial",
+      "url": "https://beetleforum.net/threads/s-rugosum.5885/post-32478"
+    },
+    {
+      "title": "Furniss and colleagues, decaying alder record from Idaho",
+      "url": "https://content-hub.uidaho.edu/api/public/content/f7f536d674204bd7956111a5558aa614?v=037dc3b9"
+    }
+  ],
+  "account_credit": "Breeding notes by Junkai Wang and Alan Jeon",
+  "primary_url": "https://beetleforum.net/threads/s-rugosum.5885/post-31073",
+  "gallery": [
+    {
+      "file": "sinodendron-rugosum-adult-wang.jpg",
+      "stage": "Adults",
+      "alt": "Black adult Sinodendron rugosum on a hand, showing its horn and cylindrical body.",
+      "caption": "An adult from my 2022 rhinoceros stag beetle series.",
+      "credit": "Junkai Wang",
+      "preferred": true
+    }
+  ]
+}

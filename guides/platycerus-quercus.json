@@ -1,0 +1,52 @@
+{
+  "name": "Platycerus quercus",
+  "slug": "platycerus-quercus",
+  "common": "Oak stag beetle",
+  "group": "lucanidae",
+  "intro": "I photographed an adult oak stag beetle small enough to rest on the palm of my hand. This is a field account. Decaying oak is a sensible starting point for working with the species, and spring records give a useful indication of when adults may be active.",
+  "sections": [
+    {
+      "title": "Where to look for adults",
+      "text": "Look in the crevices of decaying logs and under loose bark. Adult oak stag beetles have also been collected on blackberry flowers. In Maryland, Staines and Staines recorded two specimens in a funnel trap between April 5 and 13. Those captures provide a local example of early adult activity. I would check both the wood and the vegetation nearby when following a population through spring."
+    },
+    {
+      "title": "Wood for a rearing trial",
+      "text": "For a first trial I would retain a section of the occupied log and keep the softer, partly crumbled material in contact with it. Larvae attributed to the oak stag beetle have been reported feeding in decaying oak logs and stumps. The adults found on blossoms and the larvae feeding in wood use different parts of the habitat. An adult on a flower alone gives no information about the wood that supported it as a grub. My adult photograph documents the field identification. I do not have a brood count or a measured developmental interval for this species."
+    }
+  ],
+  "facts": [
+    {
+      "title": "Firsthand record",
+      "text": "Field-observed adult"
+    },
+    {
+      "title": "Larval habitat",
+      "text": "Decaying oak logs and stumps"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Alan Jeon, adult oak stag beetle",
+      "url": "https://www.inaturalist.org/observations/267762563"
+    },
+    {
+      "title": "Staines and Staines, Maryland records of Platycerus quercus",
+      "url": "https://virginianaturalhistorysociety.com/wp-content/uploads/sites/28/2023/07/Banisteria_56_Staines-Staines_SERC_Coleoptera_2021-22_supplement.pdf"
+    },
+    {
+      "title": "W. Saunders, oak logs and stumps as larval habitat",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Insects_injurious_to_fruits_%28IA_insectsinjurious01saun%29.pdf"
+    }
+  ],
+  "account_credit": "Breeding notes by Junkai Wang and Alan Jeon",
+  "primary_url": "https://www.inaturalist.org/observations/267762563",
+  "gallery": [
+    {
+      "file": "platycerus-quercus-267762563-alan.jpg",
+      "stage": "Adults",
+      "caption": "An adult oak stag beetle at hand scale.",
+      "alt": "Small dark Platycerus quercus resting on an open palm.",
+      "credit": "Alan Jeon"
+    }
+  ]
+}

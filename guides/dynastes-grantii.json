@@ -1,0 +1,179 @@
+{
+  "slug": "dynastes-grantii",
+  "name": "Dynastes grantii",
+  "common": "Western Hercules beetle",
+  "group": "dynastinae",
+  "aliases": [
+    "Grant’s Hercules beetle",
+    "Dynastes granti"
+  ],
+  "intro": "With western Hercules beetles, I prepare more than one laying box before I pair the adults. A single female can produce a large number of eggs, and the grubs from one brood can reach pupation weeks apart. I keep the laying date with each box so I can follow the brood even after I move the adults.",
+  "sections": [
+    {
+      "title": "Offering food and pairing the adults",
+      "text": "I offer active adults beetle jelly every five days, or apple or banana. I let a newly emerged beetle come up and start feeding before I introduce a mate. I keep the pair where I can see both beetles on the surface, with enough substrate below for the female to burrow. Once I have seen them pair, I can move the female to her own laying box. I like a clear-sided box because I can sometimes see eggs or a pupa without digging."
+    },
+    {
+      "title": "Eggs and the feeding substrate",
+      "text": "One female gave me 87 eggs. In a different box that originally held more than 80 eggs, I later found just 12 living larvae. I keep those counts separate when planning how many rearing containers I need. A large egg count tells me how much space to prepare, but the number of feeding grubs can be quite different.\nFor growing rhinoceros beetle larvae I recommend thoroughly fermented hardwood flake soil. I use a more fermented batch than I would for stag beetles or jewel scarabs. I check the substrate while the larva is still feeding so I can replace exhausted food before it begins making a cell."
+    },
+    {
+      "title": "Prepupae, pupae and emergence",
+      "text": "In one brood, a single grub reached the prepupal stage long before its siblings. In a display enclosure I could see a larva starting its pupal cell on September 23 and a pupa at the wall on October 17. I keep the cell intact and continue checking the slower grubs separately. When a chamber is visible through the side, I can follow the stages without lifting it out. I wait until a new adult comes out on its own and is feeding before I pair it.\nIn one earlier pair the male had already emerged while the female was still a pupa. She completed her adult molt the day I photographed the male. I keep each chamber intact even if its occupant appears to be behind the rest of the group."
+    },
+    {
+      "title": "Adult lifespan",
+      "text": "When planning for older adults, I keep in mind an unusually long-lived Arizona male documented by Krell and Krell. It survived nine months and one week after collection. That is a useful upper-end comparison when an active western Hercules beetle lives well beyond the breeding season."
+    }
+  ],
+  "sources": [
+    {
+      "title": "F.-T. Krell and V. H. I. Krell (2015). Longevity of the western Hercules beetle, Dynastes grantii Horn. The Coleopterists Bulletin 69, 760.",
+      "url": "https://doi.org/10.1649/0010-065X-69.4.760"
+    },
+    {
+      "title": "Egg count from one female, 24 May 2026",
+      "url": "https://discord.com/channels/1285685926340726887/1286131091987763264/1508290253901926563"
+    },
+    {
+      "title": "Prepupal development, 20 May 2025",
+      "url": "https://discord.com/channels/1285685926340726887/1286131091987763264/1374546943577165957"
+    },
+    {
+      "title": "Pupal cell construction, 23 September 2025",
+      "url": "https://discord.com/channels/1285685926340726887/1286131091987763264/1420192506674679828"
+    },
+    {
+      "title": "Pupation, 17 October 2025",
+      "url": "https://discord.com/channels/1285685926340726887/1286131091987763264/1428785524616990862"
+    },
+    {
+      "title": "Pair in development, 24 November 2025",
+      "url": "https://discord.com/channels/1285685926340726887/1286131091987763264/1442575367419465728"
+    },
+    {
+      "title": "Larvae recovered from an egg container, 11 July 2026",
+      "url": "https://discord.com/channels/1285685926340726887/1286131091987763264/1525425131634294846"
+    },
+    {
+      "title": "Emergence of a captive pair",
+      "url": "https://beetleforum.net/threads/dynastes-grantii-2013.1801/"
+    }
+  ],
+  "facts": [
+    {
+      "title": "Eggs from one female",
+      "text": "87"
+    },
+    {
+      "title": "Larval food",
+      "text": "More thoroughly fermented hardwood flake soil"
+    },
+    {
+      "title": "Adult food",
+      "text": "Beetle jelly every five days, or apple or banana"
+    },
+    {
+      "title": "Adult survival after collection",
+      "text": "9 months and 1 week for one Arizona male in a published record"
+    }
+  ],
+  "classification": [
+    {
+      "title": "BugGuide — Dynastes grantii",
+      "url": "https://www.bugguide.net/node/view/139578"
+    },
+    {
+      "title": "iNaturalist — Dynastes grantii",
+      "url": "https://www.inaturalist.org/taxa/424045-Dynastes-grantii"
+    }
+  ],
+  "native_status": {
+    "text": "Native to the southwestern United States and northern Mexico. The documented range includes Arizona, New Mexico, Utah and Chihuahua.",
+    "status": "native",
+    "sources": [
+      {
+        "title": "University of Nebraska State Museum, western Hercules beetle",
+        "url": "https://www.unsm-ento.unl.edu/Guide/Scarabaeoidea/Scarabaeidae/Dynastinae/Dynastinae-Tribes/Dynastini/Dynastes/D-granti/D_granti.html"
+      },
+      {
+        "title": "BugGuide, Dynastes grantii",
+        "url": "https://www.bugguide.net/node/view/139578"
+      }
+    ]
+  },
+  "distribution": {
+    "slug": "dynastes-grantii",
+    "file": "map-dynastes-grantii.png",
+    "count": 952,
+    "raw_count": 952,
+    "excluded_count": 0,
+    "date": "2026-11-18",
+    "url": "https://www.inaturalist.org/observations?place_id=97394&quality_grade=research&captive=false&geo=true&taxon_id=424045&view=map",
+    "caption": "952 of 952 wild, research-grade iNaturalist observations in North America are plotted at their public coordinates.",
+    "data_file": "map-data-dynastes-grantii.json"
+  },
+  "account_credit": "Breeding notes by Junkai Wang and Alan Jeon",
+  "substrate_recipe": true,
+  "primary_url": "https://doi.org/10.1649/0010-065X-69.4.760",
+  "gallery": [
+    {
+      "file": "guide-1508290253901926563-01.jpg",
+      "alt": "Dynastes grantii. Eggs recovered from the enclosure of a single female.",
+      "caption": "Eggs recovered from the enclosure of a single female.",
+      "credit": "@alan69.",
+      "stage": "Eggs"
+    },
+    {
+      "file": "guide-1374546943577165957-01.jpg",
+      "alt": "Dynastes grantii. Prepupa visible in an opened earthen cell.",
+      "caption": "Prepupa visible in an opened earthen cell.",
+      "credit": "@alan69.",
+      "stage": "Prepupae and pupae"
+    },
+    {
+      "file": "guide-1420192506674679828-01.jpg",
+      "alt": "Dynastes grantii. Larva at the edge of the enclosure during pupal cell construction.",
+      "caption": "Larva at the edge of the enclosure during pupal cell construction.",
+      "credit": "@alan69.",
+      "stage": "Prepupae and pupae"
+    },
+    {
+      "file": "guide-1428785524616990862-01.jpg",
+      "alt": "Dynastes grantii. Pupa visible through the side of the rearing enclosure.",
+      "caption": "Pupa visible through the side of the rearing enclosure.",
+      "credit": "@alan69.",
+      "stage": "Prepupae and pupae"
+    },
+    {
+      "file": "guide-1442575367419465728-01.jpg",
+      "alt": "Dynastes grantii. One pupa in ventral view alongside a second individual in its cell.",
+      "caption": "One pupa in ventral view alongside a second individual in its cell.",
+      "credit": "@alan69.",
+      "stage": "Prepupae and pupae"
+    },
+    {
+      "file": "guide-1525425131634294846-01.jpg",
+      "alt": "Dynastes grantii. Surviving larvae in a container of substrate.",
+      "caption": "Surviving larvae in a container of substrate.",
+      "credit": "@alan69.",
+      "stage": "Larvae"
+    },
+    {
+      "file": "grantii-front-wang.jpg",
+      "caption": "An adult male showing the pale wing covers and long, opposing horns.",
+      "alt": "Male Dynastes grantii viewed obliquely from above, its black horns extending beyond a pale spotted body.",
+      "stage": "Adults",
+      "credit": "Junkai Wang",
+      "preferred": true
+    },
+    {
+      "file": "grantii-side-wang.jpg",
+      "caption": "Lateral detail of the male’s horns.",
+      "alt": "The head and thoracic horns of a western Hercules beetle seen from the side.",
+      "stage": "Adults",
+      "credit": "Junkai Wang",
+      "preferred": false
+    }
+  ]
+}

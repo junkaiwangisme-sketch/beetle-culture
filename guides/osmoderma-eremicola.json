@@ -1,0 +1,131 @@
+{
+  "name": "Osmoderma eremicola",
+  "slug": "osmoderma-eremicola",
+  "common": "Hermit beetle",
+  "group": "cetoniinae",
+  "intro": "I give this eastern hermit beetle about two years, sometimes longer, to finish its larval development. Even the second-instar grubs can make chambers and stay inside for weeks. Mine came back out to feed, then molted again before their final winter rest. Despite the long life cycle, I rate the species 3 out of 10 for difficulty.",
+  "facts": [
+    {
+      "title": "Range",
+      "text": "Eastern United States"
+    },
+    {
+      "title": "Adult length",
+      "text": "25–30 mm"
+    },
+    {
+      "title": "Adult lifespan",
+      "text": "1–3 months"
+    },
+    {
+      "title": "Larval period",
+      "text": "About two years or longer"
+    },
+    {
+      "title": "Pupal period",
+      "text": "About one month"
+    },
+    {
+      "title": "Egg count",
+      "text": "30 or more"
+    },
+    {
+      "title": "Adult feeding in our collection",
+      "text": "Offer beetle jelly every five days, or apple or banana."
+    }
+  ],
+  "sections": [
+    {
+      "title": "Adults and breeding substrate",
+      "text": "Adults measure roughly 25–30 mm and live for about one to three months. They fly in the canopy and visit sap flows in the wild. I recommend a breeding container of at least 1.75 US gallons (6.6 L). In captivity I offer fruit or beetle jelly when they become active. Even unfed females laid eggs for me, but they lived for less time and produced fewer eggs than females with access to food. Egg counts can reach 30 or more. To select a pair, look at the head and the plate directly behind it, the pronotum. Steffek and colleagues used the conspicuous depressions in both structures to recognize males."
+    },
+    {
+      "title": "Feeding grubs and temporary chambers",
+      "text": "The grubs live in pockets of decayed hardwood inside tree cavities. One Wisconsin beetle was reared from rotting silver maple. I use flake soil, decayed wood, or a mixture with thoroughly decomposed hardwood leaves. Once the grubs have reduced their food to a pile of frass, give them fresh substrate. In summer or autumn my second instars made small chambers and remained inside for several weeks, sometimes a month. Leave these chambers alone. The grubs came back out, resumed feeding and quickly reached the third instar. They overwintered as third instars and reached full size by the end of the following year.\nI once accidentally broke the same larva’s chamber three times. It rebuilt each time and pupated in its fourth chamber. By the third attempt it was down to about two-thirds of its earlier size. The damp material held together like clay. Seeing the larva lose that much bulk is why I leave an intact cell supported by the surrounding substrate."
+    },
+    {
+      "title": "Overwintering mature larvae",
+      "text": "Once my third instars were fully grown, I moved them into a garage for about three months. Winter temperatures there were in the low 50s °F (roughly 10–12 °C). Overlapping emergence matters because the adults are relatively short-lived. The pupal stage lasts about a month, and the dormancy period is roughly three weeks. I leave each cell supported by its surrounding substrate. The wall can break simply from lifting it. When the adults emerge, move them into a fresh breeding bin and provide food for the next pairing."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Species-specific breeding account, June 2025",
+      "url": "https://discord.com/channels/1285685926340726887/1384712332667519138"
+    },
+    {
+      "title": "Steffek et al. (2024), Field and laboratory observations of North American Osmoderma and their pheromones",
+      "url": "https://www.life.illinois.edu/hanks/pdfs/Steffek%20et%20al%202024%20-%20Osmoderma%20pher%20-%20JCE%2050.pdf"
+    },
+    {
+      "title": "Four chambers built by one larva",
+      "url": "https://beetleforum.net/threads/osmoderma-eremicola.1451/"
+    }
+  ],
+  "primary_url": "https://discord.com/channels/1285685926340726887/1384712332667519138",
+  "record_type": "Breeding account",
+  "classification": [
+    {
+      "title": "BugGuide — Osmoderma eremicola",
+      "url": "https://www.bugguide.net/node/view/9891"
+    },
+    {
+      "title": "iNaturalist — Osmoderma eremicola",
+      "url": "https://www.inaturalist.org/taxa/226688-Osmoderma-eremicola"
+    }
+  ],
+  "native_status": {
+    "text": "Native to eastern North America, including the eastern United States and southern Canada.",
+    "status": "native",
+    "sources": [
+      {
+        "title": "Steffek et al. (2024), North American Osmoderma",
+        "url": "https://www.life.illinois.edu/hanks/pdfs/Steffek%20et%20al%202024%20-%20Osmoderma%20pher%20-%20JCE%2050.pdf"
+      },
+      {
+        "title": "Mountain Lake Biological Station, hermit flower beetle",
+        "url": "https://mlbs.virginia.edu/organism/hermit-flower-beetle"
+      },
+      {
+        "title": "iNaturalist, regional establishment status",
+        "url": "https://www.inaturalist.org/taxa/226688-Osmoderma-eremicola#status-tab"
+      },
+      {
+        "title": "BugGuide, Osmoderma eremicola",
+        "url": "https://www.bugguide.net/node/view/9891"
+      }
+    ]
+  },
+  "distribution": {
+    "slug": "osmoderma-eremicola",
+    "file": "map-osmoderma-eremicola.png",
+    "count": 3787,
+    "raw_count": 3787,
+    "excluded_count": 0,
+    "date": "2026-11-18",
+    "url": "https://www.inaturalist.org/observations?place_id=97394&quality_grade=research&captive=false&geo=true&taxon_id=226688&view=map",
+    "caption": "3,787 of 3,787 wild, research-grade iNaturalist observations in North America are plotted at their public coordinates.",
+    "data_file": "map-data-osmoderma-eremicola.json"
+  },
+  "account_credit": "Breeding notes by Junkai Wang and Alan Jeon",
+  "related_species": [
+    "osmoderma-subplanatum",
+    "osmoderma-scabrum"
+  ],
+  "gallery": [
+    {
+      "file": "guide-1384712332667519138-01.jpg",
+      "alt": "Osmoderma eremicola. Adults grouped in a specimen cup.",
+      "caption": "Adults grouped in a specimen cup.",
+      "credit": "@alan69.",
+      "stage": "Adults"
+    },
+    {
+      "file": "guide-1384712332667519138-02.jpg",
+      "alt": "Osmoderma eremicola. Second view of the adults in the specimen cup.",
+      "caption": "Second view of the adults in the specimen cup.",
+      "credit": "@alan69.",
+      "stage": "Adults"
+    }
+  ]
+}

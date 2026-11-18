@@ -1,0 +1,48 @@
+{
+  "name": "Euphoria sepulcralis",
+  "slug": "euphoria-sepulcralis",
+  "group": "cetoniinae",
+  "common": "Dark flower scarab",
+  "intro": "I photographed this small, mottled flower scarab between my fingertips. The body and wing covers are visible together, and the hand gives a sense of the adult’s size. My own record covers the adult stage.",
+  "sections": [
+    {
+      "title": "Seasonal observations",
+      "text": "Published records give a useful starting point for looking for a wild brood. In Kentucky the species has an annual life cycle. Pupation was recorded in August, with adults active from late summer into autumn and again the following spring. Florida records span much more of the year. When following adults in different parts of the range, I keep the locality with the date so that the seasonal records remain comparable."
+    },
+    {
+      "title": "Larval habitat",
+      "text": "Larvae have been found in soil beneath dead sod or manure. That habitat is quite different from the exposed flowers where adults are often encountered. If checking for immature stages, I would look in the organic soil below the dead plant material and keep its origin with any larval observation."
+    }
+  ],
+  "facts": [
+    {
+      "title": "Personal record",
+      "text": "Adult photograph"
+    },
+    {
+      "title": "Published life cycle",
+      "text": "One year in Kentucky"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Alan Jeon, adult dark flower scarab",
+      "url": "https://www.inaturalist.org/observations/202175081"
+    },
+    {
+      "title": "UF/IFAS, Euphoria sepulcralis, with Ritcher’s larval and seasonal observations",
+      "url": "https://ask.ifas.ufl.edu/publication/IN750"
+    }
+  ],
+  "account_credit": "Adult photograph by Alan Jeon · Natural history and care notes by Junkai Wang and Alan Jeon",
+  "primary_url": "https://www.inaturalist.org/observations/202175081",
+  "gallery": [
+    {
+      "file": "euphoria-sepulcralis-202175081-alan.jpg",
+      "stage": "Adults",
+      "caption": "Adult photographed outdoors.",
+      "alt": "Small brown mottled Euphoria sepulcralis held gently between two fingertips.",
+      "credit": "Alan Jeon"
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "name": "Dorcus parallelus",
+  "slug": "dorcus-parallelus",
+  "group": "lucanidae",
+  "common": "Antelope stag beetle",
+  "intro": "I started five antelope stag beetle larvae on prepared hardwood flake soil. All five survived and grew quickly, and by June some were already building pupal cells. That result is the reason I recommend fermented hardwood sawdust for the growing grubs.",
+  "facts": [
+    {
+      "title": "My flake-soil trial",
+      "text": "Five of five larvae survived"
+    },
+    {
+      "title": "Substrate",
+      "text": "Prepared hardwood flake soil"
+    },
+    {
+      "title": "Development",
+      "text": "Some larvae had started building pupal cells in June"
+    }
+  ],
+  "sections": [
+    {
+      "title": "Choosing a breeding pair",
+      "text": "If you keep eastern North American Dorcus, check the adults before you pair them. Dorcus parallelus resembles Dorcus brevis, and a small male can have short jaws. Look from above at the two rear corners of the pronotum, the shield immediately behind the head. In D. parallelus they sit well forward of the wing covers. In D. brevis the corners approach their bases. A male D. parallelus also has a dense brush of hairs on the inner surface of the hind tibia. I offer active adults beetle jelly every five days. Apple or banana can also be used."
+    },
+    {
+      "title": "Preparing the laying box",
+      "text": "I recommend less-fermented hardwood flake soil with pieces of decaying hardwood worked into it. Oak, maple and linden are all recorded as breeding woods in the field. Leave a range of textures, including wood firm enough to remain in one piece when the rest of the substrate is lifted. I found a larva in my breeding enclosure in September. When checking for young grubs, lift the wood over the box and sort the bedding in small portions. Return occupied wood to the enclosure so grubs inside can continue feeding.\nIn an earlier setup I used fermented oak sawdust with a chunk of rotten wood. I have also housed five females with two males for pairing. When I want an individual brood count, I give each female a separate laying box."
+    },
+    {
+      "title": "Feeding the larvae and recognizing pupation",
+      "text": "I counted five living grubs in May. At my June check all five larvae in the flake-soil trial were alive, and some were already shaping pupal cells. For a new brood I start with lightly fermented hardwood flake soil. Before loosening spent food, I check the container walls for cells, particularly once the grubs approach full size. When one has settled into a chamber, I leave that part of the container undisturbed while its siblings continue feeding."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Flake-soil culture, 12 June 2026",
+      "url": "https://discord.com/channels/1285685926340726887/1286131091987763264/1515001135667220541"
+    },
+    {
+      "title": "Larval census, 8 May 2026",
+      "url": "https://discord.com/channels/1285685926340726887/1286131091987763264/1502193244379807834"
+    },
+    {
+      "title": "M. J. Paulsen (2010), Stag beetles of the genus Dorcus in North America",
+      "url": "https://doi.org/10.3897/zookeys.34.292"
+    },
+    {
+      "title": "My fermented oak and rotten-wood setup",
+      "url": "https://beetleforum.net/threads/having-trouble-with-dorcus-parallelus.1345/"
+    },
+    {
+      "title": "My adult pairing group",
+      "url": "https://beetleforum.net/threads/fs-dorcus-parallelus.2799/"
+    }
+  ],
+  "record_type": "Rearing observations",
+  "primary_url": "https://discord.com/channels/1285685926340726887/1286131091987763264/1515001135667220541",
+  "classification": [
+    {
+      "title": "BugGuide — Dorcus parallelus",
+      "url": "https://www.bugguide.net/node/view/18864"
+    },
+    {
+      "title": "iNaturalist — Dorcus parallelus",
+      "url": "https://www.inaturalist.org/taxa/218677"
+    }
+  ],
+  "native_status": {
+    "text": "Native to the eastern United States and southeastern Canada.",
+    "status": "native",
+    "sources": [
+      {
+        "title": "University of Nebraska State Museum, Dorcus parallelus distribution",
+        "url": "https://unsm-ento.unl.edu/Guide/Scarabaeoidea/Lucanidae/LUC/DOR/parallelus.html"
+      },
+      {
+        "title": "Stag beetles of the genus Dorcus in North America",
+        "url": "https://pensoft.net/J_FILES/1/articles/292/292-G-1-layout.pdf"
+      },
+      {
+        "title": "iNaturalist, regional establishment status",
+        "url": "https://www.inaturalist.org/taxa/218677#status-tab"
+      },
+      {
+        "title": "BugGuide, Dorcus parallelus",
+        "url": "https://www.bugguide.net/node/view/18864"
+      }
+    ]
+  },
+  "distribution": {
+    "slug": "dorcus-parallelus",
+    "file": "map-dorcus-parallelus.png",
+    "count": 2349,
+    "raw_count": 2349,
+    "excluded_count": 0,
+    "date": "2026-11-18",
+    "url": "https://www.inaturalist.org/observations?place_id=97394&quality_grade=research&captive=false&geo=true&taxon_id=218677&view=map",
+    "caption": "2,349 of 2,349 wild, research-grade iNaturalist observations in North America are plotted at their public coordinates.",
+    "data_file": "map-data-dorcus-parallelus.json"
+  },
+  "account_credit": "Breeding notes by Junkai Wang and Alan Jeon",
+  "substrate_recipe": true,
+  "gallery": [
+    {
+      "file": "guide-1515001135667220541-01.jpg",
+      "alt": "Dorcus parallelus. First photograph from the flake-soil culture.",
+      "caption": "First photograph from the flake-soil culture.",
+      "credit": "@alan69."
+    },
+    {
+      "file": "guide-1515001135667220541-02.jpg",
+      "alt": "Dorcus parallelus. Second photograph from the same culture.",
+      "caption": "Second photograph from the same culture.",
+      "credit": "@alan69."
+    },
+    {
+      "file": "guide-1502193244379807834-01.jpg",
+      "alt": "Dorcus parallelus. First photograph of the larval group.",
+      "caption": "First photograph of the larval group.",
+      "credit": "@alan69.",
+      "stage": "Larvae"
+    },
+    {
+      "file": "guide-1502193244379807834-02.jpg",
+      "alt": "Dorcus parallelus. Second photograph from the May census.",
+      "caption": "Second photograph from the May census.",
+      "credit": "@alan69."
+    },
+    {
+      "file": "dorcus-parallelus-field-alan.jpg",
+      "caption": "Adult antelope stag beetle on moss-covered wood.",
+      "alt": "Dark adult Dorcus parallelus on weathered wood, surrounded by patches of green moss.",
+      "stage": "Adults",
+      "credit": "Alan Jeon",
+      "preferred": true
+    }
+  ]
+}

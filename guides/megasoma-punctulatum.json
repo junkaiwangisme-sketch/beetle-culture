@@ -1,0 +1,77 @@
+{
+  "name": "Megasoma punctulatum",
+  "slug": "megasoma-punctulatum",
+  "group": "dynastinae",
+  "common": "Arizona elephant beetle",
+  "intro": "I found a group of these small elephant beetles in Arizona in the summer of 2022. The females laid readily in captivity. By the time I checked the first batch, I had more than 30 eggs and females were still laying. The problem I ran into was mites on some of the eggs.",
+  "facts": [
+    {
+      "title": "Breeding result",
+      "text": "More than 30 eggs while the females were still laying"
+    },
+    {
+      "title": "Egg care in my trial",
+      "text": "Eggs separated after mites appeared"
+    },
+    {
+      "title": "Field season in southern Arizona",
+      "text": "July and August in published records"
+    }
+  ],
+  "sections": [
+    {
+      "title": "Starting a breeding group",
+      "text": "Both sexes come to lights in southern Arizona. Adults have also been observed on catclaw branches and trunks in desert scrub. The beetles I photographed were a group I found on the same evening. When keeping several females together, I record the eggs as a group count. The 30-plus eggs from my enclosure came from females that were still laying, so that count represents neither a finished brood nor the output of an individual female."
+    },
+    {
+      "title": "Separating the eggs",
+      "text": "During an egg check I saw mites on some of the eggs. I separated all the eggs and planned to wash the affected ones and use fresh substrate. Separating them let me track the condition of each egg while leaving the females free to lay more. When describing that trial, I count the eggs I recovered separately from the larvae that eventually hatch. My update was written at the egg stage, before I knew the outcome of the affected eggs."
+    },
+    {
+      "title": "Following the grubs",
+      "text": "Ratcliffe and Morón described two third-instar larvae reared from eggs laid by a female collected in Santa Cruz County, Arizona, in August 1997. The grubs were preserved in late August the following year. That gives a dated example of larvae still at the third instar about a year after the mother was collected. It is a useful reference when a brood spends a long time below the surface. Their study used the spelling punctulatus."
+    }
+  ],
+  "sources": [
+    {
+      "title": "My Arizona adults, egg count and mite observations",
+      "url": "https://beetleforum.net/threads/cute-arizona-megasoma.6229/"
+    },
+    {
+      "title": "Ratcliffe and Morón (2005), captive third instars and field habitat",
+      "url": "https://www.researchgate.net/publication/232669332_Larval_Descriptions_of_Eight_Species_of_Megasoma_Kirby_Coleoptera_Scarabaeidae_Dynastinae_with_a_Key_for_Identification_and_Notes_on_Biology"
+    }
+  ],
+  "primary_url": "https://beetleforum.net/threads/cute-arizona-megasoma.6229/",
+  "related_species": [
+    "megasoma-vogti",
+    "megasoma-sleeperi",
+    "chrysina-woodi"
+  ],
+  "account_credit": "Breeding notes by Junkai Wang and Alan Jeon",
+  "gallery": [
+    {
+      "file": "megasoma-punctulatum-bark-wang.jpg",
+      "stage": "Adults",
+      "caption": "An adult on bark in the Arizona series.",
+      "alt": "A single dark Megasoma punctulatum on illuminated bark at night.",
+      "credit": "Junkai Wang",
+      "preferred": false
+    },
+    {
+      "file": "megasoma-punctulatum-breeding-adults-wang.jpg",
+      "stage": "Adults",
+      "caption": "Two of my Arizona adults in a container.",
+      "alt": "Two black adult Megasoma punctulatum on the sandy floor of their container.",
+      "credit": "Junkai Wang",
+      "preferred": true
+    },
+    {
+      "file": "megasoma-punctulatum-305250088-alan.jpg",
+      "stage": "Adults",
+      "caption": "Two adults photographed together.",
+      "alt": "Two dark Megasoma punctulatum on an open hand.",
+      "credit": "Alan Jeon"
+    }
+  ]
+}

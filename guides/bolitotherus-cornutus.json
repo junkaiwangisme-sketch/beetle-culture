@@ -1,0 +1,61 @@
+{
+  "name": "Bolitotherus cornutus",
+  "slug": "bolitotherus-cornutus",
+  "group": "tenebrionidae",
+  "common": "Forked fungus beetle",
+  "intro": "I would build this setup around an intact shelf fungus. The bracket is the adults’ feeding and courtship site, the female’s laying surface and the food the young tunnel into. My photograph shows the rough, knobbly adult that hides against the surface of its host.",
+  "facts": [
+    {
+      "title": "Host fungi",
+      "text": "Ganoderma applanatum, Ganoderma tsugae and Fomes fomentarius"
+    },
+    {
+      "title": "Egg hatch",
+      "text": "About 16 days on average in published observations"
+    },
+    {
+      "title": "Pupation",
+      "text": "Inside the same type of bracket in which the larva feeds"
+    }
+  ],
+  "sections": [
+    {
+      "title": "Choosing the fungus",
+      "text": "I would favor a piece of host wood with a living bracket still attached. In their field study, Fornof and colleagues counted more egg-laying events on brackets with living growth. Large brackets drew more adult visits and courtship, but size alone did not predict where females laid. Give the beetles access to the underside as well as the upper surface. Adults commonly shelter under bark or in the fungus by day and come onto the surface after dark."
+    },
+    {
+      "title": "Recognizing a pair",
+      "text": "A male carries two forward-projecting horns on the segment behind the head, often with conspicuous yellow hairs underneath. A female has two low bumps there. During courtship the male climbs onto her facing the opposite way. This can last minutes to hours. A male can also remain with the female for several hours after mating, so a mounted pair seen on two successive checks could be the same encounter."
+    },
+    {
+      "title": "Following eggs through emergence",
+      "text": "Look on the bracket itself for individual eggs covered with a dark secretion. I would mark the position on a photograph and leave the covering in place. A hatchling bores directly into the fungal tissue. Four larval instars were observed in laboratory rearings. Pupation also occurs inside the bracket. Keeping occupied brackets intact makes it possible to connect a later emergence with the eggs laid there. Some beetles reach adulthood by late summer. Many overwinter as larvae and appear the following summer, so I would retain a bracket through winter even after adults have disappeared from its surface."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Alan Jeon’s adult photograph",
+      "url": "https://www.inaturalist.org/observations/313177985"
+    },
+    {
+      "title": "Somjee and Lucky, forked fungus beetle development, host fungi and courtship",
+      "url": "https://ask.ifas.ufl.edu/publication/IN1195.pdf"
+    },
+    {
+      "title": "Fornof and colleagues (2024), observations on living and dead brackets",
+      "url": "https://doi.org/10.1007/s00265-024-03494-z"
+    }
+  ],
+  "related_species": [],
+  "account_credit": "Adult photograph by Alan Jeon · Natural history and care notes by Junkai Wang and Alan Jeon",
+  "primary_url": "https://www.inaturalist.org/observations/313177985",
+  "gallery": [
+    {
+      "file": "bolitotherus-cornutus-313177985-alan.jpg",
+      "stage": "Adults",
+      "caption": "An adult forked fungus beetle.",
+      "alt": "Rough brown Bolitotherus cornutus resting on the tip of a finger near a log.",
+      "credit": "Alan Jeon"
+    }
+  ]
+}

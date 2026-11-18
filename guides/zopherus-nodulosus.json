@@ -1,0 +1,53 @@
+{
+  "name": "Zopherus nodulosus",
+  "slug": "zopherus-nodulosus",
+  "group": "zopheridae",
+  "common": "Texas ironclad beetle",
+  "intro": "The Texas ironclads in my enclosure gathered on lichen and fed readily. I keep the black-and-white Texas form, Zopherus nodulosus haldemani. In my latest breeding trial I changed how I arranged the wood, standing spent mushroom logs upright to give the beetles access to the sides as well as the ends.",
+  "facts": [
+    {
+      "title": "Form in my care",
+      "text": "Zopherus nodulosus haldemani"
+    },
+    {
+      "title": "Observed adult food",
+      "text": "Lichen"
+    },
+    {
+      "title": "Breeding trial",
+      "text": "Spent mushroom logs stood vertically"
+    }
+  ],
+  "sections": [
+    {
+      "title": "Feeding the adults",
+      "text": "I offer lichen on its supporting bark so I can see where the beetles have been feeding. In the photograph, several adults are gathered on the same piece. For another group I would keep a feeding surface accessible at the front of the enclosure."
+    },
+    {
+      "title": "The upright-log trial",
+      "text": "For my November 2026 setup I stacked spent mushroom logs vertically. I wanted to see whether wood already worked by the fungus would support the larvae. I would keep the logs stable while checking the adults and retain any piece that shows signs of tunnelling. Feeding was the result I had confirmed when I photographed the setup. I was still waiting to rear larvae from the wood."
+    }
+  ],
+  "sources": [
+    {
+      "title": "My adults and upright-log trial",
+      "url": "https://www.instagram.com/p/Dfffig3JR3b/"
+    },
+    {
+      "title": "Texas A&M AgriLife, Texas ironclad identification",
+      "url": "https://elp.tamu.edu/ipm/bugs/order-coleoptera-beetles/coleoptera-zopheridae-zopherus-nodulosus-ironclad-beetles-b/"
+    }
+  ],
+  "account_credit": "Breeding notes by Junkai Wang",
+  "related_species": [],
+  "primary_url": "https://www.instagram.com/p/Dfffig3JR3b/",
+  "gallery": [
+    {
+      "file": "zopherus-nodulosus-lichen-wang.jpg",
+      "stage": "Adults",
+      "caption": "My Texas ironclads feeding together on lichen, November 2026.",
+      "alt": "Black-and-white Texas ironclads clustered on a piece of lichen-covered bark.",
+      "credit": "Junkai Wang"
+    }
+  ]
+}

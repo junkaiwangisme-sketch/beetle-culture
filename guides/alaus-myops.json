@@ -1,0 +1,67 @@
+{
+  "name": "Alaus myops",
+  "slug": "alaus-myops",
+  "group": "elateridae",
+  "common": "Small-eyed click beetle",
+  "intro": "The small-eyed click beetle has a close association with dead pine. Its larvae follow other insects through the galleries under the bark. H. E. Savely’s study of North Carolina logs records what the young larvae ate and where to look as the wood aged.",
+  "account_credit": "Adult photograph by Alan Jeon · Natural history and care notes by Junkai Wang and Alan Jeon",
+  "facts": [
+    {
+      "title": "Larval habitat",
+      "text": "Under bark and inside beetle galleries in dead pine"
+    },
+    {
+      "title": "Documented prey",
+      "text": "Longhorn beetle and fire-colored beetle larvae"
+    },
+    {
+      "title": "Autumn observation",
+      "text": "A pupa and an adult in an approximately two-year-old pine stump in October"
+    }
+  ],
+  "sections": [
+    {
+      "title": "Recognizing the adult",
+      "text": "I look at the shield just behind the head. Each dark eyespot on A. myops measures less than a quarter of the shield’s length. Gray scales cover more than half the brown upper surface, giving the beetle the mottled appearance in my adult photograph. The familiar eastern eyed click beetle, A. oculatus, has larger spots, each about a third of the shield’s length, and sparse white scales over black."
+    },
+    {
+      "title": "What the young larvae hunt",
+      "text": "In pines that had died within the year, Savely found larvae up to about 10–15 mm long. He saw them take the longhorn Acanthocinus obsoletus, the fire-colored beetle Dendroides bicolor and other small larvae. For a young click beetle I would use a piece of pine with some bark still attached and offer small prey where the wood meets the bark. I would house it individually so I could tell what it had eaten."
+    },
+    {
+      "title": "Following a larva through the galleries",
+      "text": "Savely found larvae as long as 30 mm in second-year pine alongside larvae of 10 mm or less, suggesting females can lay eggs in a log after its first year. In third-year pine he still found them under bark and in tunnels made by longhorns and the darkling beetle Xylopinus rufipes. I would keep an occupied piece intact when adding fresh material, especially if the larva disappears from view in autumn. For a reared animal, I would record its hatch, pupation and emergence dates separately. Savely knew how long each tree had been dead, while the age of an individual beetle inside it could vary."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Alan Jeon’s adult photograph",
+      "url": "https://www.inaturalist.org/observations/252808697"
+    },
+    {
+      "title": "Savely, ecological relations of animals in dead pine and oak logs",
+      "url": "https://doi.org/10.2307/1943233"
+    },
+    {
+      "title": "Zubarán, review of Alaus field observations in pine and oak (page 149)",
+      "url": "https://fundacionazara.org.ar/img/revista-historia-natural/tercera-serie-volumen-13-3-2023/HN_13_2_135-154.pdf"
+    },
+    {
+      "title": "Woodruff, key to adult Alaus and larval habitat",
+      "url": "https://edis.ifas.ufl.edu/publication/IN242/pdf"
+    }
+  ],
+  "related_species": [
+    "alaus-oculatus"
+  ],
+  "primary_url": "https://www.inaturalist.org/observations/252808697",
+  "gallery": [
+    {
+      "file": "alaus-myops-252808697-alan.jpg",
+      "stage": "Adults",
+      "caption": "Adult on a fingertip.",
+      "alt": "Elongated gray speckled Alaus myops seen from above on a finger.",
+      "credit": "Alan Jeon"
+    }
+  ]
+}
