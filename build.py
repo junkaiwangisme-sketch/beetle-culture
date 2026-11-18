@@ -2,6 +2,7 @@
 from collections import Counter
 from pathlib import Path
 from html import escape
+from urllib.parse import urlsplit
 import json
 import hashlib
 import re
@@ -53,7 +54,10 @@ for p in photos:
 def glink(s): return 'group-' + s + '.html'
 def slink(s): return 'species-' + s['slug'] + '.html'
 def named(s): return s.get('common') or s['name']
-def srcs(s): return ''.join('<li><a href="%s">%s</a></li>' % (e(a['url']), e(a['title'])) for a in s['sources'])
+def public_reference(url):
+    host=(urlsplit(url).hostname or '').casefold()
+    return host not in ('discord.com','discordapp.com','junkaiwangisme.wixsite.com') and not host.endswith('.discord.com')
+def srcs(s): return ''.join('<li><a href="%s">%s</a></li>' % (e(a['url']), e(a['title'])) for a in s['sources'] if public_reference(a['url']))
 def link(url,label): return '<a href="%s">%s</a>' % (e(url),e(label))
 def getphotos(s):
     return [p for p in photos if p.get('species','').casefold()==s['name'].casefold()]
@@ -74,7 +78,7 @@ def page(file,title,desc,body,kind='WebPage',photo=None,active=None,article=None
             body=body.replace(f'src="{js}"', f'src="{asset(js)}"')
     full=BASE+('' if file=='index.html' else file)
     data={'@context':'https://schema.org','@type':kind,'url':full,'name':title,'description':desc,'inLanguage':'en'}
-    if article and article.get('observer'):
+    if article and article.get('primary_url') and public_reference(article['primary_url']):
         data['citation'] = article.get('primary_url')
     if article:
         data.update(headline=title,about={'@type':'Thing','name':article['name']},isPartOf={'@type':'WebSite','name':'North American Beetle Breeding','url':BASE})
@@ -137,8 +141,6 @@ for k,g in groups.items():
 for s in guides:
     g=groups[s['group']]; name=s['name']; common=s.get('common',''); ps=getphotos(s)
     body=intro(name,s['intro'],[('groups.html','Families'),(glink(s['group']),g['name']),(None,name)],g['name']+' · Species account',common).replace('class="page-title"','class="page-title species-title"').replace('class="sciname"','class="common-name"')
-    if s.get('primary_url'):
-        body += '<div class="wrap provenance"><strong>Original breeding record</strong> · '+link(s['primary_url'],'View primary source')+'</div>'
     facts = s.get('facts', [])
     summary = ('<section class="facts"><h2>Life-history data</h2><dl class="factlist">'+''.join('<div><dt>'+e(x['title'])+'</dt><dd>'+e(x['text'])+'</dd></div>' for x in facts)+'</dl></section>') if facts else ''
     parts=[];toc=[]
@@ -157,19 +159,20 @@ for s in guides:
             content+='<p><b>'+e(fact['title'])+'</b> · '+e(fact['text'])+'</p>'
         for section in trial.get('sections',[]):
             content+='<h3>'+e(section['title'])+'</h3><p>'+e(section['text'])+'</p>'
-        if trial.get('url'):content+='<p>'+link(trial['url'],'Original account')+'</p>'
+        if trial.get('url') and public_reference(trial['url']):content+='<p>'+link(trial['url'],'Original account')+'</p>'
         parts.insert(1 if len(parts)>1 else len(parts),f'<section id="{anchor}" class="trial"><h2>{e(trial["title"])}</h2>{content}</section>')
     body+='<div class="wrap article-layout"><article class="article">'+(galleryfig(ps[0]) if ps else '')+summary+''.join(parts)
     if len(ps)>1: body+='<section><h2>Photographs</h2><div class="gallery">'+''.join(galleryfig(p) for p in ps[1:])+'</div></section>'
     body+=classification(s.get('classification',[]))
-    body+='<section id="sources"><h2>Breeding references</h2><ul class="sources">'+srcs(s)+'</ul></section></article><aside class="toc"><div class="onthis">In this guide</div><ol>'+''.join(toc)+'<li>'+link('#sources','Sources')+'</li></ol>'+link(glink(s['group']),'All '+g['name']+' guides')+'</aside></div>'
+    body+='</article><aside class="toc"><div class="onthis">In this guide</div><ol>'+''.join(toc)+'</ol>'+link(glink(s['group']),'All '+g['name']+' guides')+'</aside></div>'
     page(slink(s),((common+' ('+name+')') if common else name)+' breeding guide',s['intro'],body,'Article',ps[0] if ps else None,article=s)
 opts=''.join(f'<option value="{k}">{e(g["name"])}</option>' for k,g in groups.items())
 body=intro('Species index','Find a breeding guide by scientific name, common name, or beetle family.',[(None,'Species')])
 body+=f'<section class="wrap block"><form class="filters" id="filterForm" hidden><label>Search species<input id="query" name="q" type="search" placeholder="e.g. Hercules, Lucanus, or flower beetle"></label><label>Family or subfamily<select id="group" name="group"><option value="">All groups</option>{opts}</select></label></form><p class="results" id="count" role="status">{len(guides)} species guides</p><div id="listing">'+''.join(listed(s) for s in guides)+'</div><p id="empty" class="noresults" hidden>No guides match your search. <button id="clear" type="button">Clear filters</button></p></section><script src="search.js" defer></script>'
 page('species.html','Search beetle species guides','Search the breeding guide directory by scientific name, common name, and family.',body,'CollectionPage',active='species')
-creditbody=intro('References','Primary accounts and taxonomic resources used in the species treatments.',[(None,'References')])+'<div class="wrap article-layout"><article class="article">'
+creditbody=intro('References','Published literature and publicly accessible rearing records cited in the species accounts.',[(None,'References')])+'<div class="wrap article-layout"><article class="article">'
 for s in guides:
+    if not srcs(s):continue
     creditbody += '<section><h2><i>'+e(s['name'])+'</i></h2><ul class="sources">'+srcs(s)+'</ul></section>'
 creditbody+='</article></div>'
 page('credits.html','References','Primary breeding accounts and species-specific references.',creditbody)

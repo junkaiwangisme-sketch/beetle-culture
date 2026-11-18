@@ -511,7 +511,7 @@
       "trials": [
         {
           "title": "First trial · West Texas, 2023",
-          "text": "A wild-caught female laid 122 eggs in one clutch in approximately 3.8 L of lightly fermented flake soil. All 122 hatched. Adults fed on hickory foliage. The account reports approximately six months to adulthood and recommends individual larval containers and red clay for pupation. Of two females retained after collection, one survived less than a week and the other more than a month.",
+          "text": "I collected four pairs in West Texas and kept two pairs for breeding. One female died within a week of collection. The other lived more than a month and laid 122 eggs in a single clutch. All 122 hatched. I used a well-ventilated enclosure containing about 3.8 L of lightly fermented flake soil and fed the adults hickory leaves. I recommend rearing the larvae individually with red clay for pupation. Development to adulthood took approximately six months.",
           "url": "https://junkaiwangisme.wixsite.com/usbeetlebreeding/post/breeding-chrysina-woodi-the-jewel-of-texas"
         }
       ]
@@ -521,15 +521,19 @@
       "name": "Xyloryctes thestalus",
       "common": "Western rhinoceros beetle",
       "group": "dynastinae",
-      "intro": "In one captive colony, adults burrowed and ceased feeding in autumn. Most reproduction followed their return to activity the next spring.",
+      "intro": "I reared adults from captive-bred larvae. Only one egg was laid before winter. I found the rest of the eggs and larvae between April and July, after the adults resumed feeding.",
       "sections": [
         {
-          "title": "Substrate and adult diet",
-          "text": "The rearing enclosure had ample ventilation and a layer of bark over lightly moist flake soil. Adults preferred firm fruit, including apple."
+          "title": "Breeding substrate",
+          "text": "I used a ventilated enclosure with 10–13 cm (4–5 in) of lightly fermented flake soil and placed bark on the surface. I kept the substrate slightly moist, drier than I usually keep it for other rhinoceros beetles."
         },
         {
-          "title": "Seasonal breeding",
-          "text": "A single egg laid before winter produced a male. All other eggs and larvae in the breeding record came from April through July, after adult activity resumed. The culture produced adult offspring."
+          "title": "Adult feeding and overwintering",
+          "text": "My adults preferred apple and other firm fruits. They burrowed in late October and did not feed again until April. I kept the enclosure at approximately 20–24 °C (68–75 °F) through winter. Some adults collected on August 5, 2022, were still alive more than a year later."
+        },
+        {
+          "title": "Offspring",
+          "text": "The one egg laid before winter produced a male. Breeding activity increased after the adults returned to the surface in spring."
         }
       ],
       "sources": [
@@ -575,19 +579,15 @@
       "name": "Strategus aloeus",
       "common": "Ox beetle",
       "group": "dynastinae",
-      "intro": "In a 2022 captive-rearing account, ox beetle larvae developed in raised-bed soil. A captive-bred male measured 53 mm.",
+      "intro": "I reared ox beetles from larvae to adults in less than a year using raised-bed soil. One of my captive-bred males measured 53 mm.",
       "sections": [
         {
-          "title": "Oviposition and pupation",
-          "text": "Females laid eggs in a variety of organic substrates. The account recommends compacted topsoil for pupation and reports that larvae can also complete development without it."
+          "title": "Oviposition and larval substrate",
+          "text": "My females laid eggs in several organic substrates. The larvae developed in raised-bed soil. I recommend firmly compacted topsoil for pupal cells, although development can be completed without it."
         },
         {
-          "title": "Adult feeding",
-          "text": "The adults consumed food rapidly. The account gives a feeding interval of three days."
-        },
-        {
-          "title": "Geographic scope",
-          "text": "In the United States the species ranges from southern California east to Florida and Georgia. The 2022 breeding stock has no published locality, so the captive measurements cannot be assigned to an eastern or western population."
+          "title": "Adult feeding and longevity",
+          "text": "I fed the adults every three days. Adult males can live up to two years. My longest-lived female survived approximately nine months."
         }
       ],
       "sources": [
@@ -644,15 +644,15 @@
       "name": "Mallodon dasystomus",
       "common": "Hardwood stump borer",
       "group": "cerambycidae",
-      "intro": "Hardwood stump borer females laid eggs in shallow, damp sawdust. Their larvae developed on hardwood sawdust prepared from expanded pellets.",
+      "intro": "I obtained eggs in a shallow layer of damp hardwood sawdust. The females laid in the sawdust without an intact log.",
       "sections": [
         {
           "title": "Oviposition",
-          "text": "Females deposited eggs in damp sawdust without an intact log. The reported substrate depth applies to the oviposition container."
+          "text": "I used about 1.3 cm (0.5 in) of damp sawdust in the egg-laying container. The eggs have a hard shell and resemble seeds."
         },
         {
-          "title": "Larval food",
-          "text": "Hardwood sawdust supported larval development. The account also reports rearing in kinshi, a sawdust substrate colonized by fungal mycelium. Larvae accepted supplementary protein."
+          "title": "Larval development",
+          "text": "I reared larvae on hardwood sawdust prepared from expanded pellets. Larvae also accept kinshi, a sawdust substrate colonized by fungal mycelium. The larval period ranges from one to three years under different rearing conditions. Larvae accepted supplementary protein and grew rapidly when it was available."
         }
       ],
       "sources": [
