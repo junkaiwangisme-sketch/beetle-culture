@@ -1,0 +1,115 @@
+name: Download beetle map records
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/download-map-records.yml'
+permissions:
+  contents: read
+jobs:
+  observations:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - name: Download public wild research-grade iNaturalist records
+        shell: python
+        run: |
+          """Fetch iNaturalist public occurrence coordinates. Run again to resume interrupted downloads."""
+          import concurrent.futures
+          import datetime
+          import gzip
+          import json
+          from pathlib import Path
+          import threading
+          import time
+          import urllib.error
+          import urllib.parse
+          import urllib.request
+
+          HERE = Path.cwd()
+          CACHE = HERE / 'cache'
+          API = 'https://api.inaturalist.org/v2/observations'
+          FILTERS = {'place_id':97394, 'quality_grade':'research', 'captive':'false', 'geo':'true'}
+          FIELDS = 'id,geojson,geoprivacy,taxon_geoprivacy,positional_accuracy,public_positional_accuracy,obscured'
+          RATE = threading.Lock()
+          LAST_REQUEST = 0.0
+
+          def request(params):
+              global LAST_REQUEST
+              url = API + '?' + urllib.parse.urlencode(params)
+              for attempt in range(7):
+                  with RATE:
+                      time.sleep(max(0, 1.25 - (time.monotonic() - LAST_REQUEST)))
+                      LAST_REQUEST = time.monotonic()
+                  try:
+                      req = urllib.request.Request(url,headers={'User-Agent':'North-American-Beetle-Breeding/1.0 (research-grade occurrence maps)', 'Accept-Encoding':'gzip'})
+                      with urllib.request.urlopen(req,timeout=60) as response:
+                          data = response.read()
+                          if response.headers.get('Content-Encoding') == 'gzip':
+                              data = gzip.decompress(data)
+                          return json.loads(data)
+                  except (OSError, ValueError) as exc:
+                      print('Retry',attempt+1,str(exc),flush=True)
+                      if isinstance(exc, urllib.error.HTTPError) and 400<=exc.code<500 and exc.code!=429: raise
+                      if attempt == 6: raise
+                      time.sleep(min(120, 2**attempt + 2))
+
+          def save(path, data):
+              tmp=path.with_suffix('.part')
+              tmp.write_bytes(gzip.compress(json.dumps(data,separators=(',',':')).encode(),mtime=0))
+              tmp.replace(path)
+
+          def load(path):
+              return json.loads(gzip.decompress(path.read_bytes()))
+
+          def snapshot(taxon):
+              slug, taxon_id = taxon
+              path = CACHE / slug / 'snapshot.gz'
+              path.parent.mkdir(parents=True,exist_ok=True)
+              if path.exists(): return slug, taxon_id, load(path)
+              result=request({**FILTERS, 'taxon_id':taxon_id, 'order_by':'id','order':'desc','per_page':1,'fields':'id'})
+              snap={'latest_id':result['results'][0]['id'] if result['results'] else 0, 'total_results':result['total_results'],'date':datetime.datetime.now(datetime.timezone.utc).isoformat()[:10]}
+              save(path,snap)
+              print(slug,snap,flush=True)
+              return slug,taxon_id,snap
+
+          def download(item):
+              slug, taxon_id, snap = item
+              cache=CACHE/slug
+              cursor=0
+              count=0
+              while cursor < snap['latest_id']:
+                  path=cache/('page-%012d.gz'%cursor)
+                  if path.exists():
+                      data=load(path)
+                  else:
+                      response=request({**FILTERS,'taxon_id':taxon_id,'order_by':'id','order':'asc','id_above':cursor,'id_below':snap['latest_id']+1,'per_page':200,'fields':FIELDS})
+                      data=response['results']
+                      save(path,data)
+                  if not data: break
+                  ids=[r['id'] for r in data]
+                  assert ids==sorted(set(ids)) and ids[0]>cursor and ids[-1]<=snap['latest_id']
+                  cursor=ids[-1]
+                  count+=len(ids)
+                  if count%2000==0: print(slug,count,'/',snap['total_results'],flush=True)
+              (cache/'complete.json').write_text(json.dumps({'count':count,'last_id':cursor})+'\n')
+              print('Finished',slug,count,'/',snap['total_results'],flush=True)
+
+          def taxa():
+              return {'alaus-myops': 212921, 'alaus-oculatus': 81706, 'alaus-patricius': 465469, 'bolitotherus-cornutus': 53814, 'callipogon-proletarius': 560868, 'ceruchus-piceus': 216534, 'chalcolepidius-lenzi': 489426, 'chalcolepidius-smaragdinus': 625240, 'chalcolepidius-webbi': 183001, 'chrysina-beyeri': 324754, 'cotinis-nitida': 118538, 'cryptoglossa-variolosa': 428610, 'dermestes-marmoratus': 82465, 'dorcus-brevis': 635155, 'eleodes-goryi': 334271, 'eleodes-hispilabris': 218969, 'embaphion-muricatum': 69727, 'euphoria-sepulcralis': 53340, 'euphoria-verticalis': 560817, 'gibbium-aequinoctiale': 220380, 'hemiphileurus-illatus': 267016, 'megasoma-punctulatum': 503454, 'megasoma-sleeperi': 321482, 'megasoma-vogti': 267027, 'mezium-affine': 225015, 'orthosoma-brunneum': 143662, 'phileurus-truncatus': 301518, 'phileurus-valgus': 301519, 'platycerus-oregonensis': 244813, 'platycerus-quercus': 564015, 'rutela-formosa': 230339, 'sinodendron-rugosum': 321486, 'stenodontes-exsertus': 491452, 'strategus-antaeus': 196309, 'thylodrias-contractus': 232585, 'zopherus-nodulosus': 126476}
+
+          if __name__=='__main__':
+              with concurrent.futures.ThreadPoolExecutor(max_workers=7) as pool:
+                  snapshots=list(pool.map(snapshot,taxa().items()))
+                  print('All counts',[(s[0],s[2]['total_results']) for s in snapshots],flush=True)
+                  print('Total',sum(s[2]['total_results'] for s in snapshots),flush=True)
+                  items=sorted(snapshots,key=lambda x:x[2]['total_results'])
+                  # Start the two largest accounts early while the others complete.
+                  if len(items)>2: items=items[-2:]+items[:-2]
+                  list(pool.map(download,items))
+      - name: Save the occurrence snapshots
+        uses: actions/upload-artifact@v4
+        with:
+          name: beetle-occurrence-records
+          path: cache/
+          retention-days: 14
