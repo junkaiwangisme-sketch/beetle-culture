@@ -32,12 +32,13 @@ content:
     operations: {create: true, delete: true, rename: false}
     view:
       primary: name
-      fields: [name, common, group]
+      fields: [name, common, group, draft]
       sort: [name, group]
       search: [name, common, group]
       default: {sort: name, order: asc}
     fields:
       - {name: name, label: Scientific name, type: string, required: true}
+      - {name: draft, label: Draft (hide from public site), type: boolean, default: false}
       - {name: common, label: Common name, type: string}
       - name: group
         label: Family or subfamily

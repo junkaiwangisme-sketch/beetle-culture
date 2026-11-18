@@ -22,7 +22,8 @@ def words(items):
 config = read('catalog.json')
 BASE = config['url'].rstrip('/') + '/'
 groups = {item['slug']: item for item in config['groups']}
-# Each guide file is a post. Removing the file unpublishes its page and index entries.
+# Drafts stay in the editor. Only published guides populate the public site.
+draft_guides = []
 by_slug = {}
 guide_dir = ROOT / 'guides'
 if not guide_dir.is_dir():
@@ -30,6 +31,9 @@ if not guide_dir.is_dir():
 for path in sorted(guide_dir.glob('*.json')):
     record = read(path)
     record['slug'] = path.stem
+    if record.get('draft', False):
+        draft_guides.append(record)
+        continue
     by_slug[path.stem] = record
 guides = words(by_slug.values())
 scientific_names=sorted({record['name'] for record in guides},key=len,reverse=True)
@@ -349,3 +353,14 @@ if output:
         dest = output / filename
         dest.parent.mkdir(parents=True, exist_ok=True)
         shutil.copy2(ROOT / filename, dest)
+    # A local preview may reuse a previous release directory. Retire only draft files
+    # that are no longer used by any published page. Never remove source assets.
+    if output.resolve() != ROOT:
+        for record in draft_guides:
+            distribution = record.get('distribution') or {}
+            retired = {slink(record), distribution.get('file'), distribution.get('data_file')}
+            for photo in record.get('gallery') or []:
+                retired.add((photo.get('upload') or photo.get('file') or '').lstrip('/'))
+            for filename in retired - public:
+                if filename and re.fullmatch(r'(?:uploads/)?[A-Za-z0-9][A-Za-z0-9_.-]*', filename):
+                    (output / filename).unlink(missing_ok=True)
