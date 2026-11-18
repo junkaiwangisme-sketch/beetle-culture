@@ -204,7 +204,9 @@ for s in guides:
     if gallery_photos:
         toc.append('<li>'+link('#photographs','Photographs')+'</li>')
         body+='<section id="photographs"><h2>Photographs</h2>'
-        for stage in ('Eggs','Larvae','Prepupae and pupae','Adults','Additional views'):
+        stage_order = ['Eggs', 'Larvae', 'Prepupae and pupae', 'Adults', 'Breeding setup', 'Culture', 'Additional views']
+        stage_order.extend(sorted({p['stage'] for p in gallery_photos if p.get('stage')} - set(stage_order)))
+        for stage in stage_order:
             group_photos=[p for p in gallery_photos if (p.get('stage') or 'Additional views')==stage]
             if group_photos:
                 body+='<h3>'+e(stage)+'</h3><div class="gallery">'+''.join(galleryfig(p) for p in group_photos)+'</div>'

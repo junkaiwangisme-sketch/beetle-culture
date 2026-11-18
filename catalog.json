@@ -148,6 +148,13 @@
       "common": "Ironclad beetles",
       "description": "I keep Texas ironclads on lichen-bearing bark. My account follows their feeding and a breeding trial using spent mushroom logs.",
       "rank": "Family"
+    },
+    {
+      "slug": "elateridae",
+      "name": "Elateridae",
+      "common": "Click beetles",
+      "description": "Rearing accounts for North American click beetles, with notes on housing adults and recognizing the predatory wireworms of Alaus.",
+      "rank": "Family"
     }
   ],
   "species": [
@@ -821,6 +828,10 @@
         {
           "title": "Larval food, winter cooling and pupation",
           "text": "I rear the grubs individually on lightly fermented hardwood flake soil. Decayed hardwood also serves as larval food. For a brood that reaches the late third instar in the fall, I put about 2 inches (5 cm) of clay or similarly textured pupation soil beneath the feeding layer. I keep the larvae in the low 40s to 50s °F (roughly 5–15 °C) through winter and warm them in spring. When I skipped cooling, some larvae failed to pupate and some adults emerged too far apart to pair. Adults surface on their own a few months after warming. I let new females feed away from males for several days before pairing them. In this seasonal setup, larval development took 1½–3 years and pupation about a month. My West Texas trial developed much faster.\nIn spring 2020, three of my adults emerged over the course of several weeks. I have the food plant ready before the first beetle surfaces so I can start feeding it while I wait for the others."
+        },
+        {
+          "title": "A West Texas series in 2018",
+          "text": "I had about 30 third-instar larvae from my West Texas culture on February 11, 2018. On March 4 I photographed a fully active adult walking on top of its substrate. This was a separate culture from my later 122-egg brood. I did not track the March adult back to an individual larva in the February count."
         }
       ],
       "sources": [
@@ -835,6 +846,10 @@
         {
           "title": "Three adults emerging in spring",
           "url": "https://beetleforum.net/threads/blue-legged-jewel-scarab-chrysina-woodi-f3.4317/post-24681"
+        },
+        {
+          "title": "My 2018 West Texas larvae and adult",
+          "url": "https://roachforum.com/threads/chrysina-woodii.7630/"
         }
       ],
       "primary_url": "https://discord.com/channels/1285685926340726887/1378941851217690644",
@@ -2485,7 +2500,7 @@
         },
         {
           "title": "Keeping the culture going",
-          "text": "By September 2025 the colony had given me a third brood. I had given it no deliberate winter cooling period between broods. I keep wood available whenever the beetles have hollowed out much of the original piece, and I would place fresh wood alongside the occupied material. In April 2026 my first-generation adults were still alive, although I had yet to see them start a brood of their own. My result with this Florida species is quite different from the compacted-sawdust setup I tried with Odontotaenius disjunctus, in which the adults lived but I recovered no young."
+          "text": "By September 2025 the colony had given me a third brood. I had given it no deliberate winter cooling period between broods. I keep wood available whenever the beetles have hollowed out much of the original piece, and I would place fresh wood alongside the occupied material. In April 2026 my first-generation adults were still alive, although I had yet to see them start a brood of their own. My result with this Florida species is quite different from the compacted-sawdust setup I tried with Odontotaenius disjunctus, in which the adults lived but I recovered no young. In November I estimated that the original adults usually gave me about two broods a year, with four or five larvae per brood. After I found that the parents had eaten a soft, newly emerged adult, I began separating teneral adults from the parents. I still leave feeding larvae with them in the wood."
         }
       ],
       "sources": [
@@ -2524,6 +2539,10 @@
         {
           "title": "Field effort and breeding outcome",
           "url": "https://discord.com/channels/1285685926340726887/1369529410440659025/1417662138973032469"
+        },
+        {
+          "title": "My 2025 brood rate and care of teneral adults",
+          "url": "https://discord.com/channels/1080588087836549221/1338191341045415986/1439016430107623444"
         }
       ],
       "primary_url": "https://discord.com/channels/1080588087836549221/1338191341045415986/1416297064798748804",
@@ -2557,6 +2576,132 @@
       "related_species": [
         "odontotaenius-disjunctus"
       ]
+    },
+    {
+      "name": "Alaus patricius",
+      "slug": "alaus-patricius",
+      "group": "elateridae",
+      "common": "Florida Keys eyed click beetle",
+      "intro": "Small eyespots and a mottled coat give this click beetle a different appearance from the more familiar eastern eyed click beetle. The species is known from the Florida Keys and Cuba. I raised adults from eggs in about a year. The early larvae required the closest attention because they were tiny and prone to eating one another.",
+      "facts": [
+        {
+          "title": "Range",
+          "text": "Florida Keys and Cuba"
+        },
+        {
+          "title": "Reported adult length",
+          "text": "30–35 mm"
+        },
+        {
+          "title": "Egg to adult in my culture",
+          "text": "About one year"
+        },
+        {
+          "title": "Egg laying",
+          "text": "Into the substrate"
+        }
+      ],
+      "sections": [
+        {
+          "title": "Recognizing an adult",
+          "text": "The paired spots are on the pronotum, the plate just behind the head. They are particularly small in A. patricius. The pale areas on the dark body are patches of tiny scales, and at the tip of each wing cover there are two points. The Florida specimens described by R. E. Woodruff measured 30–35 mm. Several were collected at ultraviolet light in May."
+        },
+        {
+          "title": "Egg laying and the first two instars",
+          "text": "My Alaus laid directly into the substrate. Once the eggs hatched, the difficult part was locating and separating the young. The first- and second-instar click beetles I worked with were so small that I compared them to springtails. They would readily eat one another, so I separated them early. This was the most exacting part of rearing the group."
+        },
+        {
+          "title": "Following the brood to adulthood",
+          "text": "I photographed A. patricius in March 2023, when I was hoping my remaining group would produce a pair for another generation. I recorded the beetles in their rearing cups in May and photographed the mottled adults together in June. The development time I measured from egg to adult was about one year. I do not have a separate incubation or pupal duration for this group."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Breeding group, March 2023 (Discord)",
+          "url": "https://discord.com/channels/1080588087836549221/1080588087836549224/1090839787721740408"
+        },
+        {
+          "title": "Oviposition and early larval cannibalism (Discord)",
+          "url": "https://discord.com/channels/1080588087836549221/1080588087836549224/1090843962832584764"
+        },
+        {
+          "title": "May 2023 rearing photograph (Discord)",
+          "url": "https://discord.com/channels/1080588087836549221/1080588087836549224/1108768709012623400"
+        },
+        {
+          "title": "Adults and recorded time from egg to maturity (Discord)",
+          "url": "https://discord.com/channels/1080588087836549221/1080588087836549224/1120795587500052512"
+        },
+        {
+          "title": "R. E. Woodruff, University of Florida, Florida Alaus identification and distribution",
+          "url": "https://edis.ifas.ufl.edu/publication/IN242/pdf"
+        }
+      ],
+      "account_credit": "Breeding notes by Junkai Wang and Alan Jeon",
+      "primary_url": "https://discord.com/channels/1080588087836549221/1080588087836549224/1090839787721740408"
+    },
+    {
+      "name": "Chalcolepidius webbi",
+      "slug": "chalcolepidius-webbi",
+      "group": "elateridae",
+      "common": "Black-and-white click beetle",
+      "intro": "My adults had dark metallic green backs bordered with white, bright enough to pick them out at a glance in a clear rearing cup. This southwestern click beetle gave me one of my clearest observations of where a female lays. I found eggs on bark and on paper towel, and I raised adults from eggs in about a year.",
+      "facts": [
+        {
+          "title": "Range",
+          "text": "California, Arizona and New Mexico, south to Sonora and Durango"
+        },
+        {
+          "title": "Laying surfaces",
+          "text": "Bark and paper towel"
+        },
+        {
+          "title": "Early larval care",
+          "text": "Separate the small, cannibalistic larvae"
+        },
+        {
+          "title": "Egg to adult in my culture",
+          "text": "About one year"
+        }
+      ],
+      "sections": [
+        {
+          "title": "Where to look for the eggs",
+          "text": "In my culture, C. webbi females laid on pieces of bark or on paper towel. These were the first surfaces I checked for eggs. The Alaus I was rearing alongside them laid into the substrate. Looking for the eggs in the right place mattered because the young larvae were so small that they became difficult to recover once dispersed."
+        },
+        {
+          "title": "Separating young larvae",
+          "text": "The first two instars of the click beetles I raised were about the size of springtails, and cannibalism was common. I separated the larvae early, despite the work involved in finding and moving them. When recording a brood I distinguish the number of larvae I recover from the number of eggs a female may have laid."
+        },
+        {
+          "title": "Adult emergence and markings",
+          "text": "I photographed a developing beetle in its rearing cup in May 2023. By June I could show four adults together, with the white bands standing out clearly against the green. The interval from egg to maturity in my culture was about a year. Published specimens show variation in the width of the pale markings. Some have white scales over much of the pronotum or wing covers."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Laying on bark or paper towel, March 2023 (Discord)",
+          "url": "https://discord.com/channels/1080588087836549221/1080588087836549224/1090843962832584764"
+        },
+        {
+          "title": "Size and cannibalism of early click beetle instars (Discord)",
+          "url": "https://discord.com/channels/1080588087836549221/1080588087836549224/1090843719516819477"
+        },
+        {
+          "title": "May 2023 rearing photograph (Discord)",
+          "url": "https://discord.com/channels/1080588087836549221/1080588087836549224/1108768448437293076"
+        },
+        {
+          "title": "Reared adults and egg-to-adult interval (Discord)",
+          "url": "https://discord.com/channels/1080588087836549221/1080588087836549224/1120795587500052512"
+        },
+        {
+          "title": "Review of the genus Chalcolepidius, distribution and variation",
+          "url": "https://www.scielo.br/j/rbent/a/x5zR9P9RYtgjtPyLFWqwQkL/?format=pdf&lang=en"
+        }
+      ],
+      "account_credit": "Breeding notes by Junkai Wang and Alan Jeon",
+      "primary_url": "https://discord.com/channels/1080588087836549221/1080588087836549224/1090843962832584764"
     },
     {
       "name": "Stenodontes exsertus",
@@ -2753,6 +2898,948 @@
       ],
       "account_credit": "Breeding notes by Junkai Wang and Alan Jeon",
       "primary_url": "https://discord.com/channels/1285685926340726887/1384034410046689341/1411149251592982630"
+    },
+    {
+      "name": "Phileurus truncatus",
+      "slug": "phileurus-truncatus",
+      "common": "Triceratops beetle",
+      "group": "dynastinae",
+      "intro": "I have kept both Phileurus truncatus and Phileurus valgus. In truncatus, a horned beetle can be either sex. Before setting up a pair, I turn each adult over and look at the last visible abdominal segment. The photographs in my sexing guide show the male and female side by side.",
+      "facts": [
+        {
+          "title": "Adult sexing",
+          "text": "Compare the last visible abdominal segment"
+        },
+        {
+          "title": "Successful laying substrate",
+          "text": "Decayed white oak from a tree cavity"
+        },
+        {
+          "title": "Pairing interval",
+          "text": "Two weeks together in Alan’s successful trial"
+        }
+      ],
+      "sections": [
+        {
+          "title": "Feeding the adults",
+          "text": "Alan offers moist, protein-rich foods to adults. Pre-killed insects and moistened dog food are two options they accept. For one breeding attempt he fed the female bess beetle pupae for several weeks before introducing the male. When asked about other feeder insects, he also recommended mealworm or superworm pupae. I would start with readily available feeder pupae and watch an adult feed."
+        },
+        {
+          "title": "Choosing the laying wood",
+          "text": "Alan repeatedly tried finely ground fermented sawdust without obtaining eggs. In the successful setup he used material from a hollow white oak. The fine wood had decayed to a reddish brown, and it was mixed with larger fragments of wood and leaves. I would keep those larger pieces in the box. This is a useful distinction when preparing the substrate. An oak cavity supplies several textures that a box of uniformly fine sawdust lacks."
+        },
+        {
+          "title": "Pairing and raising the brood",
+          "text": "Alan placed the pair together after feeding the female. He removed the male two weeks later and left the female in the same enclosure. Eggs became visible another couple of weeks later. For the larvae he recommended rotten hardwood soft enough to break apart by hand. He also reported that they could be reared on organic potting soil and preferred including plenty of wood in their diet. His comparison concerned the material in which adults would lay. A substrate that supports a feeding grub may still give poor results when offered to a female."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Junkai Wang’s illustrated guide to sexing adults",
+          "url": "https://beetleforum.net/threads/sexing-determining-the-sex-of-phileurus-truncatus-triceratops-beetle.6438/"
+        },
+        {
+          "title": "Alan Jeon’s laying substrate, adult feeding and pairing trial",
+          "url": "https://beetleforum.net/threads/phileurus-truncatus-care.2450/"
+        },
+        {
+          "title": "My captive adults in 2021",
+          "url": "https://beetleforum.net/threads/any-possible-michigan-breeders.5280/"
+        }
+      ],
+      "primary_url": "https://beetleforum.net/threads/sexing-determining-the-sex-of-phileurus-truncatus-triceratops-beetle.6438/",
+      "account_credit": "Breeding notes by Junkai Wang and Alan Jeon"
+    },
+    {
+      "name": "Phileurus valgus",
+      "slug": "phileurus-valgus",
+      "common": "Lesser triceratops beetle",
+      "group": "dynastinae",
+      "intro": "I kept Phileurus valgus alongside Phileurus truncatus in Michigan. Alan also established a breeding culture and followed it from egg laying to adult emergence. A practical feature of his setup is that he gives each female her own laying container, then moves the eggs to a larger rearing box.",
+      "facts": [
+        {
+          "title": "Laying container",
+          "text": "32 US fl oz (about 950 mL) per female"
+        },
+        {
+          "title": "Substrate depth",
+          "text": "About three-quarters of the container"
+        },
+        {
+          "title": "Egg checks",
+          "text": "Monthly in Alan’s colony"
+        }
+      ],
+      "sections": [
+        {
+          "title": "Setting up the female",
+          "text": "Alan fills a 32 oz container about three-quarters full with substrate for each female. He examines the substrate roughly once a month and moves any eggs into a larger container. Keeping each female separate makes it possible to follow her laying history across successive checks. In the field, Alan found a pair with first-instar larvae high in a tree. His find is a useful reminder that breeding wood can occur well above the forest floor."
+        },
+        {
+          "title": "Feeding and recognizing adults",
+          "text": "Alan photographed an adult feeding on dog food. When selecting a pair, the final abdominal segment is worth examining. Alan saw differences resembling the ones used to sex Phileurus truncatus, though his comparison involved few males. I would keep that identification provisional until mating or laying confirms it. In his captive series he recorded the last adult of the year emerging in autumn."
+        },
+        {
+          "title": "Recognizing pupation",
+          "text": "A study by Ibarra-Polesel and colleagues measured development in a separate population from northeastern Argentina. Before pupation the mature grub built a cell from wood particles and its own droppings. Under their laboratory conditions the third instar lasted 38–42 days, the prepupal period 6–9 days and the pupal stage 11–13 days. Seven adults lived about three months. I would leave any intact cell in place when checking the box. These figures describe a particular rearing series and give a point of comparison for a North American brood."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Alan Jeon’s complete captive series and laying containers",
+          "url": "https://beetleforum.net/threads/phileurus-valgus.1613/"
+        },
+        {
+          "title": "My captive adults in Michigan",
+          "url": "https://beetleforum.net/threads/any-possible-michigan-breeders.5280/"
+        },
+        {
+          "title": "Ibarra-Polesel and colleagues (2017), immature stages and development in Argentina",
+          "url": "https://doi.org/10.11646/zootaxa.4290.3.10"
+        }
+      ],
+      "primary_url": "https://beetleforum.net/threads/phileurus-valgus.1613/",
+      "account_credit": "Breeding notes by Junkai Wang and Alan Jeon"
+    },
+    {
+      "name": "Strategus antaeus",
+      "slug": "strategus-antaeus",
+      "common": "Ox beetle",
+      "group": "dynastinae",
+      "intro": "In July 2020, more than a dozen Strategus antaeus came to my light in Ocala National Forest, Florida. Only four were males. I bred offspring from those wild adults and raised a male on flake soil alone. Getting the females to lay consistently proved harder than raising the grubs.",
+      "facts": [
+        {
+          "title": "Breeding substrate for the Ocala stock",
+          "text": "40% flake soil, 30% raised-bed soil and 30% lake sand"
+        },
+        {
+          "title": "Larval substrate",
+          "text": "Flake soil alone supported growth to adulthood"
+        },
+        {
+          "title": "Hatchling care",
+          "text": "Separate eggs before they hatch"
+        }
+      ],
+      "sections": [
+        {
+          "title": "Recognizing and housing adults",
+          "text": "For a Florida ox beetle, I check the wing covers as well as the horns. Strategus antaeus lacks the fine longitudinal groove immediately beside the line where the wing covers meet. That feature is particularly useful on a female or a small male whose horns are less conspicuous. Large males carry three horns on the pronotum, just behind the head. The University of Florida describes males using them in contests with other males. A single male in the breeding enclosure avoids those encounters."
+        },
+        {
+          "title": "The laying mix I used for the Ocala stock",
+          "text": "I used a mix of 40% flake soil, 30% raised-bed soil and 30% lake sand for my breeding adults. The raised-bed soil was the same material that worked on its own for my eastern Hercules beetles. With my Ocala ox beetles, the sandy mix produced offspring, although the brood was smaller than I hoped. The sex ratio also appeared to favor females. I would retain the collection locality with a breeding line so that another keeper can compare results with beetles from the same habitat. For feeding the adults, the University of Florida recommends soft fruit and leaves."
+        },
+        {
+          "title": "Individual containers for the larvae",
+          "text": "I found that the Florida larvae could grow on flake soil alone. The sand belonged to my adult breeding setup. One of the captive-bred males I photographed came through on flake soil. The grubs were far more inclined to eat one another than the Strategus aloeus I kept, which tolerated some crowding. Alan recommends separating the eggs before the first-instar larvae emerge. I would set up and label the individual cups while checking the laying box, then give each hatchling its own feeding space from the start."
+        }
+      ],
+      "sources": [
+        {
+          "title": "My captive offspring, Ocala substrate mix and larval trial",
+          "url": "https://beetleforum.net/threads/frustrating-florida-locality-strategus-antaeus.5991/"
+        },
+        {
+          "title": "My Ocala National Forest adults",
+          "url": "https://beetleforum.net/threads/ox-beetle-strategus-antaeus.4443/"
+        },
+        {
+          "title": "Alan Jeon on first-instar cannibalism",
+          "url": "https://beetleforum.net/threads/strategus-antaeus.1849/"
+        },
+        {
+          "title": "My 2021 larval culture",
+          "url": "https://beetleforum.net/threads/any-possible-michigan-breeders.5280/"
+        },
+        {
+          "title": "UF/IFAS, Guide to Collecting and Maintaining Live Arthropods for Classroom Display",
+          "url": "https://ask.ifas.ufl.edu/publication/IN759"
+        },
+        {
+          "title": "BugGuide, identification and biology of Strategus antaeus",
+          "url": "https://www.bugguide.net/node/view/21204"
+        }
+      ],
+      "primary_url": "https://beetleforum.net/threads/frustrating-florida-locality-strategus-antaeus.5991/",
+      "account_credit": "Breeding notes by Junkai Wang and Alan Jeon"
+    },
+    {
+      "name": "Hemiphileurus illatus",
+      "slug": "hemiphileurus-illatus",
+      "common": "",
+      "group": "dynastinae",
+      "intro": "Alan started this southwestern rhinoceros beetle with one male and two females. He used a setup modeled on his Phileurus valgus culture, found eggs in early August and followed the brood all the way into its pupal cells over the winter.",
+      "facts": [
+        {
+          "title": "Starting group",
+          "text": "One male and two females"
+        },
+        {
+          "title": "Setup documented",
+          "text": "July 24, 2013"
+        },
+        {
+          "title": "Eggs found",
+          "text": "August 5, in the substrate of one female"
+        },
+        {
+          "title": "November brood count",
+          "text": "25 living larvae"
+        },
+        {
+          "title": "February development",
+          "text": "About 80% in cells by February 21"
+        }
+      ],
+      "sections": [
+        {
+          "title": "Starting with a trio",
+          "text": "On July 24 Alan set up his two females and one male. On August 5 he checked the substrate associated with one female and found eggs. For a repeat attempt, I would keep each female’s laying substrate together through the first check. This lets me tell which female produced a clutch and leave the other one undisturbed. The twelve days between his setup and that check are useful when planning the first inspection. He found eggs on August 5, so their individual laying dates remain open."
+        },
+        {
+          "title": "Using the comparison with Phileurus valgus",
+          "text": "For a repeat attempt, I would use Alan’s documented P. valgus setup as the reference. In that species he used a 32 oz container for each female, filled it roughly three-quarters with substrate, and moved the eggs to a larger box at his monthly check. For H. illatus he described using comparable conditions and actually found eggs well before a month had passed. The container volume and fill level are details from his valgus culture. The eggs found in early August are the result he documented for illatus."
+        },
+        {
+          "title": "A brood through the winter",
+          "text": "Alan counted 25 larvae still alive on November 7. By February 21, roughly four out of five had made cells, and he could already see pupae. That staggered transition matters during a substrate check. In a single box there can be both grubs that still need feeding material and others already enclosed in chambers. I would leave any firm, closed cell intact and check it from the outside if it is visible through the wall. For me, the condition of each grub or cell is a better guide to handling than giving every individual in a brood the same treatment on the same date."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Alan Jeon’s July and August egg-laying trial",
+          "url": "https://beetleforum.net/threads/hemiphileurus-illatus.1626/"
+        },
+        {
+          "title": "Alan’s November census and February pupation observations",
+          "url": "https://beetleforum.net/threads/hemiphileurus-illatus.1636/"
+        },
+        {
+          "title": "Alan’s reference setup for Phileurus valgus",
+          "url": "https://beetleforum.net/threads/phileurus-valgus.1613/"
+        },
+        {
+          "title": "Ratcliffe, synopsis of Hemiphileurus and other New World Phileurini",
+          "url": "https://revistas.unal.edu.co/index.php/cal/article/download/104105/98308?inline=1"
+        }
+      ],
+      "primary_url": "https://beetleforum.net/threads/hemiphileurus-illatus.1626/",
+      "account_credit": "Breeding notes by Junkai Wang and Alan Jeon"
+    },
+    {
+      "name": "Megasoma punctulatum",
+      "slug": "megasoma-punctulatum",
+      "group": "dynastinae",
+      "common": "Arizona elephant beetle",
+      "intro": "I found a group of these small elephant beetles in Arizona in the summer of 2022. The females laid readily in captivity. By the time I checked the first batch, I had more than 30 eggs and females were still laying. The problem I ran into was mites on some of the eggs.",
+      "facts": [
+        {
+          "title": "Breeding result",
+          "text": "More than 30 eggs while the females were still laying"
+        },
+        {
+          "title": "Egg care in my trial",
+          "text": "Eggs separated after mites appeared"
+        },
+        {
+          "title": "Field season in southern Arizona",
+          "text": "July and August in published records"
+        }
+      ],
+      "sections": [
+        {
+          "title": "Starting a breeding group",
+          "text": "Both sexes come to lights in southern Arizona. Adults have also been observed on catclaw branches and trunks in desert scrub. The beetles I photographed were a group I found on the same evening. When keeping several females together, I record the eggs as a group count. The 30-plus eggs from my enclosure came from females that were still laying, so that count represents neither a finished brood nor the output of an individual female."
+        },
+        {
+          "title": "Separating the eggs",
+          "text": "During an egg check I saw mites on some of the eggs. I separated all the eggs and planned to wash the affected ones and use fresh substrate. Separating them let me track the condition of each egg while leaving the females free to lay more. When describing that trial, I count the eggs I recovered separately from the larvae that eventually hatch. My update was written at the egg stage, before I knew the outcome of the affected eggs."
+        },
+        {
+          "title": "Following the grubs",
+          "text": "Ratcliffe and Morón described two third-instar larvae reared from eggs laid by a female collected in Santa Cruz County, Arizona, in August 1997. The grubs were preserved in late August the following year. That gives a dated example of larvae still at the third instar about a year after the mother was collected. It is a useful reference when a brood spends a long time below the surface. Their study used the spelling punctulatus."
+        }
+      ],
+      "sources": [
+        {
+          "title": "My Arizona adults, egg count and mite observations",
+          "url": "https://beetleforum.net/threads/cute-arizona-megasoma.6229/"
+        },
+        {
+          "title": "Ratcliffe and Morón (2005), captive third instars and field habitat",
+          "url": "https://www.researchgate.net/publication/232669332_Larval_Descriptions_of_Eight_Species_of_Megasoma_Kirby_Coleoptera_Scarabaeidae_Dynastinae_with_a_Key_for_Identification_and_Notes_on_Biology"
+        }
+      ],
+      "primary_url": "https://beetleforum.net/threads/cute-arizona-megasoma.6229/",
+      "related_species": [
+        "megasoma-vogti",
+        "megasoma-sleeperi",
+        "chrysina-woodi"
+      ],
+      "account_credit": "Breeding notes by Junkai Wang and Alan Jeon"
+    },
+    {
+      "name": "Megasoma vogti",
+      "slug": "megasoma-vogti",
+      "group": "dynastinae",
+      "common": "Vogt’s elephant beetle",
+      "intro": "When I photographed my recently acquired Megasoma vogti larvae, they were still in their second instar. I was surprised they had not advanced further. I use that image as a record of a known larval stage, alongside the separately documented third instar of a beetle reared from a Texas female’s egg.",
+      "facts": [
+        {
+          "title": "Stage in my photograph",
+          "text": "Second instar (L2)"
+        },
+        {
+          "title": "Published brood origin",
+          "text": "Female collected in Live Oak County, Texas"
+        },
+        {
+          "title": "Adult habitat",
+          "text": "Mesquite scrub in southern Texas and northeastern Mexico"
+        }
+      ],
+      "sections": [
+        {
+          "title": "Starting with larvae",
+          "text": "The grubs were already in their second instar when they came to me. I would put the arrival date and observed instar on the container together. Without a laying date it is easy to mistake the time a beetle has been in one’s care for its age. If a later molt is visible, that is a more useful point for comparing growth with a second brood. My photograph shows the larvae I had at that check."
+        },
+        {
+          "title": "A Texas reference for the third instar",
+          "text": "Ratcliffe and Morón described a third-instar larva reared from an egg laid by a female collected in Live Oak County in October 1989. Their description and illustrations provide a reference for the next stage after the one in my photograph. In the field, adults have been recorded from July through October around mesquite, thorn shrubs and cacti. Both sexes have been observed at lights, on the ground and on mesquite branches. An adult on mesquite documents where it was found. I would want a larval feeding observation before treating that tree as a required rearing substrate."
+        }
+      ],
+      "sources": [
+        {
+          "title": "My second-instar larvae",
+          "url": "https://beetleforum.net/threads/megasoma-vogti-l2-larvae.6037/"
+        },
+        {
+          "title": "Ratcliffe and Morón (2005), third instar reared from an egg of a Texas female",
+          "url": "https://www.researchgate.net/publication/232669332_Larval_Descriptions_of_Eight_Species_of_Megasoma_Kirby_Coleoptera_Scarabaeidae_Dynastinae_with_a_Key_for_Identification_and_Notes_on_Biology"
+        },
+        {
+          "title": "University of Nebraska State Museum, Megasoma vogti",
+          "url": "https://unsm-ento.unl.edu/Guide/Scarabaeoidea/Scarabaeidae/Dynastinae/Dynastinae-Tribes/Dynastini/Megasoma/Megasoma%20vogti/Mvogti.html"
+        }
+      ],
+      "primary_url": "https://beetleforum.net/threads/megasoma-vogti-l2-larvae.6037/",
+      "related_species": [
+        "megasoma-punctulatum",
+        "megasoma-sleeperi",
+        "chrysina-woodi"
+      ],
+      "account_credit": "Breeding notes by Junkai Wang and Alan Jeon"
+    },
+    {
+      "name": "Megasoma sleeperi",
+      "slug": "megasoma-sleeperi",
+      "group": "dynastinae",
+      "common": "Sleeper’s elephant beetle",
+      "intro": "I was keeping Megasoma sleeperi larvae in July 2021. For anyone starting with an egg or a young grub, the most useful comparison I know comes from a southern California series. Van Dam and colleagues followed larvae from eggs laid in captivity and recorded the food that carried three of them to their third instar.",
+      "facts": [
+        {
+          "title": "My captive stage",
+          "text": "Larvae, July 2021"
+        },
+        {
+          "title": "Published larval food",
+          "text": "Coast live oak leaf mulch"
+        },
+        {
+          "title": "Other documented larval food",
+          "text": "Rotten palo verde wood in captivity"
+        }
+      ],
+      "sections": [
+        {
+          "title": "The breeders and their young",
+          "text": "The published brood came from females collected near Glamis in Imperial County, California. The locality consisted of desert drainages with palo verde trees. Adults came to lights between dusk and roughly 11 p.m. The females laid eggs in captivity, which allowed the researchers to link their young to identified adults. I would keep the collection locality with any descendants. Three small North American Megasoma occur in the hobby, and an isolated grub is much harder to identify than a beetle with a documented parent."
+        },
+        {
+          "title": "Choosing a larval food",
+          "text": "The researchers raised their grubs on mulch made from coast live oak leaves. That oak does not grow at the collection site, making this a particularly useful rearing result. The same paper records larvae feeding on rotten palo verde wood in captivity. The food associated with the adult habitat and the food used in the documented larval series are therefore two distinct options. If I were setting up another group, I would keep the food type with the dates of each observed molt so the brood’s progress could be compared with the published series."
+        },
+        {
+          "title": "Recognizing mature larvae",
+          "text": "The third-instar description was based on three larvae, with a reported head-capsule width of 6.5 mm. That measurement and the accompanying illustrations are reference points for a grub already known to be this species. I would use an actual molt, where observed, to time the transition between instars."
+        }
+      ],
+      "sources": [
+        {
+          "title": "My captive larvae in 2021",
+          "url": "https://beetleforum.net/threads/any-possible-michigan-breeders.5280/"
+        },
+        {
+          "title": "Van Dam, Van Dam and Wilcox (2006), captive larval feeding and third-instar description",
+          "url": "https://zenodo.org/records/15195816"
+        }
+      ],
+      "primary_url": "https://beetleforum.net/threads/any-possible-michigan-breeders.5280/",
+      "related_species": [
+        "megasoma-punctulatum",
+        "megasoma-vogti",
+        "chrysina-woodi"
+      ],
+      "account_credit": "Breeding notes by Junkai Wang and Alan Jeon"
+    },
+    {
+      "name": "Cotinis nitida",
+      "slug": "cotinis-nitida",
+      "group": "cetoniinae",
+      "common": "Green June beetle",
+      "intro": "When green June beetles are flying over open grass, I find it easiest to intercept them in flight. The adults are conspicuous by day. One adult I photographed on the ground shows the green back and pale golden margins along the wing covers.",
+      "sections": [
+        {
+          "title": "Finding adults",
+          "text": "I recommend watching the open space just above the grass. Adult activity is easier to follow there than among the leaves of a tree. In a discussion of baits I suggested that banana mixed with wine might also attract Cotinis. My recommendation was based on how easily the beetles can be met in open flight. I did not establish a catch rate for that bait."
+        },
+        {
+          "title": "Eggs, overwintering and emergence",
+          "text": "In North Carolina, females choose soil rich in organic matter and lay clusters of about 10–30 eggs. Hatching takes roughly two weeks. Grubs feed in the soil and may surface at night. They spend winter underground as larvae. Following spring pupation, adults develop in about two to three weeks. I use those published field intervals as seasonal reference points. The adult in the photograph is a field observation."
+        }
+      ],
+      "facts": [
+        {
+          "title": "Personal record",
+          "text": "Adult field photograph and field-collecting recommendation"
+        },
+        {
+          "title": "Published timing",
+          "text": "About two weeks to hatch and two to three weeks as a pupa in North Carolina"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Junkai Wang, finding flying Cotinis in open grassy fields",
+          "url": "https://beetleforum.net/threads/cotinis-bait.6194/"
+        },
+        {
+          "title": "Alan Jeon, adult green June beetle",
+          "url": "https://www.inaturalist.org/observations/397590022"
+        },
+        {
+          "title": "T. Billeisen, NC State Extension, Green June Beetles in Turfgrass",
+          "url": "https://www.turffiles.ncsu.edu/green-june-beetles/"
+        }
+      ],
+      "account_credit": "Breeding notes by Junkai Wang and Alan Jeon",
+      "primary_url": "https://beetleforum.net/threads/cotinis-bait.6194/"
+    },
+    {
+      "name": "Euphoria sepulcralis",
+      "slug": "euphoria-sepulcralis",
+      "group": "cetoniinae",
+      "common": "Dark flower scarab",
+      "intro": "I photographed this small, mottled flower scarab between my fingertips. The body and wing covers are visible together, and the hand gives a sense of the adult’s size. My own record covers the adult stage.",
+      "sections": [
+        {
+          "title": "Seasonal observations",
+          "text": "Published records give a useful starting point for looking for a wild brood. In Kentucky the species has an annual life cycle. Pupation was recorded in August, with adults active from late summer into autumn and again the following spring. Florida records span much more of the year. When following adults in different parts of the range, I keep the locality with the date so that the seasonal records remain comparable."
+        },
+        {
+          "title": "Larval habitat",
+          "text": "Larvae have been found in soil beneath dead sod or manure. That habitat is quite different from the exposed flowers where adults are often encountered. If checking for immature stages, I would look in the organic soil below the dead plant material and keep its origin with any larval observation."
+        }
+      ],
+      "facts": [
+        {
+          "title": "Personal record",
+          "text": "Adult photograph"
+        },
+        {
+          "title": "Published life cycle",
+          "text": "One year in Kentucky"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Alan Jeon, adult dark flower scarab",
+          "url": "https://www.inaturalist.org/observations/202175081"
+        },
+        {
+          "title": "UF/IFAS, Euphoria sepulcralis, with Ritcher’s larval and seasonal observations",
+          "url": "https://ask.ifas.ufl.edu/publication/IN750"
+        }
+      ],
+      "account_credit": "Breeding notes by Junkai Wang and Alan Jeon",
+      "primary_url": "https://www.inaturalist.org/observations/202175081"
+    },
+    {
+      "name": "Euphoria verticalis",
+      "slug": "euphoria-verticalis",
+      "group": "cetoniinae",
+      "common": "Flower scarab",
+      "intro": "I photographed a pinned adult of this dark flower scarab with its specimen label. This is a reference for recognizing the adult stage. The record adds a documented specimen to the species directory.",
+      "sections": [
+        {
+          "title": "Comparing adults",
+          "text": "The photograph shows the outline of the beetle from above. Compare the rounded pronotum, the surface of the wing covers and the overall shape together. Orozco’s revision of Euphoria treats E. verticalis in its own species group and provides the comparative basis for identification. A specimen image of this kind is useful for checking an adult determination before assigning the same name to associated immature stages."
+        }
+      ],
+      "facts": [
+        {
+          "title": "Personal record",
+          "text": "Photograph of a preserved adult"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Alan Jeon, preserved Euphoria verticalis adult",
+          "url": "https://www.inaturalist.org/observations/253300577"
+        },
+        {
+          "title": "J. Orozco (2012), Monographic revision of the American genus Euphoria",
+          "url": "https://doi.org/10.1649/0010-066X-66.mo4.1"
+        }
+      ],
+      "account_credit": "Breeding notes by Junkai Wang and Alan Jeon",
+      "primary_url": "https://www.inaturalist.org/observations/253300577"
+    },
+    {
+      "name": "Chalcolepidius lenzi",
+      "slug": "chalcolepidius-lenzi",
+      "common": "Metallic click beetle",
+      "group": "elateridae",
+      "intro": "In August 2021 I set up a female Chalcolepidius lenzi in a ventilated gallon tub. I was keeping a female Chalcolepidius smaragdinus at the same time. Each had her own enclosure, which let me keep the two species separate from the start.",
+      "account_credit": "Adult care by Junkai Wang",
+      "facts": [
+        {
+          "title": "Stage in my care",
+          "text": "One adult female"
+        },
+        {
+          "title": "Container",
+          "text": "One US gallon (3.8 L), well ventilated"
+        },
+        {
+          "title": "Floor",
+          "text": "1.3 in (3.3 cm) of moist coconut fiber with bark flats"
+        }
+      ],
+      "sections": [
+        {
+          "title": "Setting up the female",
+          "text": "I gave the female about 1.3 inches (3.3 cm) of moist coconut fiber. I laid flat pieces of bark on top. They gave her a place to rest and something to push against when she landed on her back. If I repeated the trial, I would arrange the bark so I could lift a single piece and examine its underside while leaving the rest in place."
+        },
+        {
+          "title": "Where I would look for eggs",
+          "text": "My 2021 setup documents how I housed an adult. For a breeding attempt, my closest comparison is Chalcolepidius webbi. In that species Alan found eggs on bark or paper towel and reared the larvae individually. I would inspect those surfaces as well as the coir before replacing anything in a lenzi enclosure. I have no egg count or reared adult to assign to my 2021 female."
+        },
+        {
+          "title": "Comparing the adults",
+          "text": "When identifying another female, I would examine the antennae in addition to the body color. Casari describes the female antennae of C. lenzi as saw-toothed, with stronger teeth in the male. I keep locality and species labels with the enclosure because colors can vary in this genus."
+        }
+      ],
+      "sources": [
+        {
+          "title": "My two adult housing trials, August 2021",
+          "url": "https://beetleforum.net/threads/chalcolepidius-breeding.5507/"
+        },
+        {
+          "title": "Our C. webbi laying surfaces",
+          "url": "https://discord.com/channels/1080588087836549221/1080588087836549224/1090843962832584764"
+        },
+        {
+          "title": "Casari (2002), revision of Chalcolepidius",
+          "url": "https://doi.org/10.1590/S0085-56262002000300007"
+        }
+      ],
+      "related_species": [
+        "chalcolepidius-smaragdinus",
+        "chalcolepidius-webbi"
+      ],
+      "primary_url": "https://beetleforum.net/threads/chalcolepidius-breeding.5507/"
+    },
+    {
+      "name": "Chalcolepidius smaragdinus",
+      "slug": "chalcolepidius-smaragdinus",
+      "common": "Emerald metallic click beetle",
+      "group": "elateridae",
+      "intro": "I kept an adult female Chalcolepidius smaragdinus in August 2021. The first decisions were simple ones: enough ventilation, a moist floor, and pieces of bark that a long-bodied adult could use to get back on her feet.",
+      "account_credit": "Adult care by Junkai Wang",
+      "facts": [
+        {
+          "title": "Stage in my care",
+          "text": "One adult female"
+        },
+        {
+          "title": "Container",
+          "text": "One US gallon (3.8 L), well ventilated"
+        },
+        {
+          "title": "Floor",
+          "text": "1.3 in (3.3 cm) of moist coconut fiber with bark flats"
+        }
+      ],
+      "sections": [
+        {
+          "title": "My holding enclosure",
+          "text": "I used a one-gallon tub, about 3.8 liters, with good ventilation and roughly 1.3 inches (3.3 cm) of moist coconut fiber. I laid bark flats on the surface. My C. lenzi female had the same arrangement in a separate tub. Bark with an accessible underside would let me check for eggs without having to sift all the coir."
+        },
+        {
+          "title": "Planning a laying trial",
+          "text": "My account for this female ends at adult housing. For another attempt, I would offer both pieces of bark and folded paper towel. In our Chalcolepidius webbi culture, both materials received eggs. I would mark the date when I first saw eggs and the date the young actually hatched. The approximately one-year rearing period we recorded for webbi is a comparison for keeping those records, not a measured duration for smaragdinus."
+        },
+        {
+          "title": "Recognizing southwestern material",
+          "text": "Casari recorded this species from Arizona, New Mexico and Sonora. The museum type series includes an Arizona specimen from the Gila Valley. The beetle’s metallic appearance comes from scale-like hairs. I would keep a close dorsal photograph with the locality when documenting new material, because both the color and stripes vary among adults."
+        }
+      ],
+      "sources": [
+        {
+          "title": "My two adult housing trials, August 2021",
+          "url": "https://beetleforum.net/threads/chalcolepidius-breeding.5507/"
+        },
+        {
+          "title": "Our C. webbi laying surfaces",
+          "url": "https://discord.com/channels/1080588087836549221/1080588087836549224/1090843962832584764"
+        },
+        {
+          "title": "Casari (2002), revision of Chalcolepidius",
+          "url": "https://doi.org/10.1590/S0085-56262002000300007"
+        },
+        {
+          "title": "Museum of Comparative Zoology, Arizona specimen",
+          "url": "https://mczbase.mcz.harvard.edu/guid/MCZ%3AEnt%3A2382"
+        }
+      ],
+      "related_species": [
+        "chalcolepidius-lenzi",
+        "chalcolepidius-webbi"
+      ],
+      "primary_url": "https://beetleforum.net/threads/chalcolepidius-breeding.5507/"
+    },
+    {
+      "name": "Bolitotherus cornutus",
+      "slug": "bolitotherus-cornutus",
+      "group": "tenebrionidae",
+      "common": "Forked fungus beetle",
+      "intro": "I would build this setup around an intact shelf fungus. The bracket is the adults’ feeding and courtship site, the female’s laying surface and the food the young tunnel into. Alan’s photograph shows the rough, knobbly adult that hides against the surface of its host.",
+      "facts": [
+        {
+          "title": "Host fungi",
+          "text": "Ganoderma applanatum, Ganoderma tsugae and Fomes fomentarius"
+        },
+        {
+          "title": "Egg hatch",
+          "text": "About 16 days on average in published observations"
+        },
+        {
+          "title": "Pupation",
+          "text": "Inside the same type of bracket in which the larva feeds"
+        }
+      ],
+      "sections": [
+        {
+          "title": "Choosing the fungus",
+          "text": "I would favor a piece of host wood with a living bracket still attached. In their field study, Fornof and colleagues counted more egg-laying events on brackets with living growth. Large brackets drew more adult visits and courtship, but size alone did not predict where females laid. Give the beetles access to the underside as well as the upper surface. Adults commonly shelter under bark or in the fungus by day and come onto the surface after dark."
+        },
+        {
+          "title": "Recognizing a pair",
+          "text": "A male carries two forward-projecting horns on the segment behind the head, often with conspicuous yellow hairs underneath. A female has two low bumps there. During courtship the male climbs onto her facing the opposite way. This can last minutes to hours. A male can also remain with the female for several hours after mating, so a mounted pair seen on two successive checks could be the same encounter."
+        },
+        {
+          "title": "Following eggs through emergence",
+          "text": "Look on the bracket itself for individual eggs covered with a dark secretion. I would mark the position on a photograph and leave the covering in place. A hatchling bores directly into the fungal tissue. Four larval instars were observed in laboratory rearings. Pupation also occurs inside the bracket. Keeping occupied brackets intact makes it possible to connect a later emergence with the eggs laid there. Some beetles reach adulthood by late summer. Many overwinter as larvae and appear the following summer, so I would retain a bracket through winter even after adults have disappeared from its surface."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Alan Jeon’s adult photograph",
+          "url": "https://www.inaturalist.org/observations/313177985"
+        },
+        {
+          "title": "Somjee and Lucky, forked fungus beetle development, host fungi and courtship",
+          "url": "https://ask.ifas.ufl.edu/publication/IN1195.pdf"
+        },
+        {
+          "title": "Fornof and colleagues (2024), observations on living and dead brackets",
+          "url": "https://doi.org/10.1007/s00265-024-03494-z"
+        }
+      ],
+      "related_species": [],
+      "account_credit": "Breeding notes by Junkai Wang and Alan Jeon",
+      "primary_url": "https://www.inaturalist.org/observations/313177985"
+    },
+    {
+      "name": "Eleodes goryi",
+      "slug": "eleodes-goryi",
+      "group": "tenebrionidae",
+      "common": "Darkling beetle",
+      "intro": "I would start with an identified group of adults and keep its young together by locality. Alan’s photograph provides an adult comparison. A laboratory series from southern Texas shows that this species can lay readily in captivity, but many individuals were lost before their second larval instar.",
+      "facts": [
+        {
+          "title": "Source of the laboratory stock",
+          "text": "Mission, Hidalgo County, Texas"
+        },
+        {
+          "title": "Adult laying medium",
+          "text": "Sand"
+        },
+        {
+          "title": "Early survival",
+          "text": "25 of 460 eggs and larvae reached the second instar or beyond in the published series"
+        }
+      ],
+      "sections": [
+        {
+          "title": "Setting up a laying group",
+          "text": "Smith, Dornburg and Wheeler housed their wild-collected adults in plastic containers with sand. They kept different species, localities and collecting dates separate. I would follow that arrangement, especially with several similar-looking Eleodes in the collection. The researchers sifted each enclosure at intervals of one to two weeks and recovered both eggs and small larvae. Keeping the siftings from each date in a separate container gives a useful age window, even when individual eggs are hard to see."
+        },
+        {
+          "title": "Feeding and moisture below the surface",
+          "text": "The young were raised in a mixture of sand and food. To maintain moisture the study used either daily watering or a plaster base supplied with water through a short tube. The latter establishes a gradient from the bottom up. I would keep one corner available for checking the damp layer and observe where the young settle. The study pooled its description of the rearing methods across several species, so it does not establish which watering method gave the best survival for this particular stock."
+        },
+        {
+          "title": "Recognizing a growing larva",
+          "text": "The published account followed 460 eggs and larvae from adults collected at Bentsen–Rio Grande Valley State Park. Only 25 reached the second instar or later. I would therefore count young again after their first molt before judging the success of a laying group. Late larvae have conspicuously darker dorsal plates on the eighth and ninth abdominal segments. These were useful in separating them from the other Eleodes larvae in the study. The illustrated descriptions were based on larvae in roughly their eighth through eleventh instars."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Alan Jeon’s adult photograph",
+          "url": "https://www.inaturalist.org/observations/307509305"
+        },
+        {
+          "title": "Smith, Dornburg and Wheeler (2014), rearing methods and Eleodes goryi larval series",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4089825/"
+        }
+      ],
+      "related_species": [
+        "eleodes-hispilabris"
+      ],
+      "account_credit": "Breeding notes by Junkai Wang and Alan Jeon",
+      "primary_url": "https://www.inaturalist.org/observations/307509305"
+    },
+    {
+      "name": "Cryptoglossa variolosa",
+      "slug": "cryptoglossa-variolosa",
+      "group": "tenebrionidae",
+      "common": "Death-feigning darkling beetle",
+      "intro": "Alan photographed two adult Cryptoglossa variolosa together on weathered wood. For a first enclosure I would pay particular attention to the ground and the refuges beneath it. The published records are strongest on habitat, defensive behavior and identification of the young.",
+      "facts": [
+        {
+          "title": "Documented habitat",
+          "text": "Arid southwestern North America, including the Sand Tank Mountains of Arizona"
+        },
+        {
+          "title": "Adult behavior",
+          "text": "Ground-dwelling, with shelter use and defensive postures documented in the genus"
+        },
+        {
+          "title": "Immature stages",
+          "text": "Described and keyed by Rolf Aalbu in his revision of the tribe"
+        }
+      ],
+      "sections": [
+        {
+          "title": "Cover and surface activity",
+          "text": "I would give adults a dry walking surface and low, stable shelters they can reach from more than one side. A piece of bark placed where the beetles can be seen from the side lets me inspect a refuge without dismantling it. Aalbu described retreat into shelter and a head-down defensive posture among Cryptoglossa. An adult disturbed while cover is lifted may also become motionless. I would set the cover back gently and watch the beetle when it resumes walking."
+        },
+        {
+          "title": "Choosing a starting setup",
+          "text": "The Sand Tank Mountains survey recorded both this species and Cryptoglossa muricata in the same Arizona mountain range. I would keep identified founders in separate groups and retain a photograph of each from above. The adult pair on the wood in Alan’s photograph illustrates surface activity. It provides no evidence that the adults lay inside wood, so I would also provide accessible soil and leave part of it undisturbed."
+        },
+        {
+          "title": "Documenting the young",
+          "text": "Aalbu’s illustrated treatment includes immature C. variolosa and provides a key to the young of several closely related species. I would use that work together with the identity of the parents if a larva appeared. The most helpful details to retain are the date and location of the first larva in the enclosure, its subsequent molts, and whether an adult ultimately emerges. I have no measured incubation or pupation schedule for Alan’s photographed beetles."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Alan Jeon’s adult photograph",
+          "url": "https://www.inaturalist.org/observations/303464043"
+        },
+        {
+          "title": "Aalbu (2005), classification, behavior and biology of Cryptoglossini",
+          "url": "https://miiz.waw.pl/periodicals/annales-zoologici/abstracts/AZ_55-4abs.pdf"
+        },
+        {
+          "title": "Sand Tank Mountains specimen inventory and identification records",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10323768/"
+        }
+      ],
+      "related_species": [],
+      "account_credit": "Breeding notes by Junkai Wang and Alan Jeon",
+      "primary_url": "https://www.inaturalist.org/observations/303464043"
+    },
+    {
+      "name": "Alaus oculatus",
+      "slug": "alaus-oculatus",
+      "group": "elateridae",
+      "common": "Eastern eyed click beetle",
+      "intro": "The two black spots on the thorax make an adult eastern eyed click beetle easy to notice on a log. The stage that matters most in a rearing enclosure is hidden inside it. The larva is a predator with a large appetite for other beetle larvae.",
+      "facts": [
+        {
+          "title": "Larval habitat",
+          "text": "Decaying hardwood, especially stumps of oak, cherry and apple"
+        },
+        {
+          "title": "Documented prey",
+          "text": "Wood-boring beetle larvae, including longhorn grubs"
+        },
+        {
+          "title": "Adult identification",
+          "text": "A black background with large white-rimmed false eyespots on the thorax"
+        }
+      ],
+      "sections": [
+        {
+          "title": "Setting up adults",
+          "text": "I would follow my general Alaus setup and provide moist organic material with a textured surface, cover and room for a female to investigate the upper layers. In my family guide I describe eggs laid near the surface and adults accepting jelly or fruit. Those are starting points from work with click beetles. For this species I would also include a piece of softened hardwood, consistent with its recorded larval habitat. When pairing adults, check the spots on the shield behind the head. Each occupies about one-third of the shield’s length in this species. The true eyes are on the head."
+        },
+        {
+          "title": "Feeding an individual larva",
+          "text": "I would move each hatchling to its own container early and offer appropriately sized invertebrate prey. The wood provides shelter and a place to hunt. In records summarized by R. E. Woodruff, caged larvae each consumed more than 200 longhorn beetle larvae over the course of development. That figure gives a sense of the food needed over a larva’s lifetime. I would use whether the last prey item was taken and the appearance of the larva to decide when to feed again."
+        },
+        {
+          "title": "Identifying a larva from wood",
+          "text": "A mature larva can approach 5 cm. The body is elongate and hard, with a dark head, prominent jaws and a pair of forked terminal projections. In fallen hardwood I would keep a potential predator away from any wood-feeding longhorn grubs I intend to rear. Alan’s adult photograph and published larval illustrations give two points of comparison when an adult emerges from an individually labeled piece of wood."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Alan Jeon’s adult photograph",
+          "url": "https://www.inaturalist.org/observations/351890166"
+        },
+        {
+          "title": "Junkai Wang, click beetle care in Beetles by Family",
+          "url": "https://junkaiwangisme.wixsite.com/usbeetlebreeding/beetles-by-family"
+        },
+        {
+          "title": "Woodruff, click beetles of the genus Alaus and observations of larval feeding",
+          "url": "https://edis.ifas.ufl.edu/publication/IN242/pdf"
+        }
+      ],
+      "related_species": [],
+      "account_credit": "Breeding notes by Junkai Wang and Alan Jeon",
+      "primary_url": "https://www.inaturalist.org/observations/351890166"
+    },
+    {
+      "name": "Alaus myops",
+      "slug": "alaus-myops",
+      "group": "elateridae",
+      "common": "Small-eyed click beetle",
+      "intro": "The small-eyed click beetle has a close association with dead pine. Its larvae follow other insects through the galleries under the bark. H. E. Savely’s study of North Carolina logs records what the young larvae ate and where to look as the wood aged.",
+      "account_credit": "Adult photograph by Alan Jeon · Rearing guidance drawn from published species records",
+      "facts": [
+        {
+          "title": "Larval habitat",
+          "text": "Under bark and inside beetle galleries in dead pine"
+        },
+        {
+          "title": "Documented prey",
+          "text": "Longhorn beetle and fire-colored beetle larvae"
+        },
+        {
+          "title": "Autumn observation",
+          "text": "A pupa and an adult in an approximately two-year-old pine stump in October"
+        }
+      ],
+      "sections": [
+        {
+          "title": "Recognizing the adult",
+          "text": "I look at the shield just behind the head. Each dark eyespot on A. myops measures less than a quarter of the shield’s length. Gray scales cover more than half the brown upper surface, giving the beetle the mottled appearance in Alan’s photograph. The familiar eastern eyed click beetle, A. oculatus, has larger spots, each about a third of the shield’s length, and sparse white scales over black."
+        },
+        {
+          "title": "What the young larvae hunt",
+          "text": "In pines that had died within the year, Savely found larvae up to about 10–15 mm long. He saw them take the longhorn Acanthocinus obsoletus, the fire-colored beetle Dendroides bicolor and other small larvae. For a young click beetle I would use a piece of pine with some bark still attached and offer small prey where the wood meets the bark. I would house it individually so I could tell what it had eaten."
+        },
+        {
+          "title": "Following a larva through the galleries",
+          "text": "Savely found larvae as long as 30 mm in second-year pine alongside larvae of 10 mm or less, suggesting females can lay eggs in a log after its first year. In third-year pine he still found them under bark and in tunnels made by longhorns and the darkling beetle Xylopinus rufipes. I would keep an occupied piece intact when adding fresh material, especially if the larva disappears from view in autumn. For a reared animal, I would record its hatch, pupation and emergence dates separately. Savely knew how long each tree had been dead, while the age of an individual beetle inside it could vary."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Alan Jeon’s adult photograph",
+          "url": "https://www.inaturalist.org/observations/252808697"
+        },
+        {
+          "title": "Savely, ecological relations of animals in dead pine and oak logs",
+          "url": "https://doi.org/10.2307/1943233"
+        },
+        {
+          "title": "Zubarán, review of Alaus field observations in pine and oak (page 149)",
+          "url": "https://fundacionazara.org.ar/img/revista-historia-natural/tercera-serie-volumen-13-3-2023/HN_13_2_135-154.pdf"
+        },
+        {
+          "title": "Woodruff, key to adult Alaus and larval habitat",
+          "url": "https://edis.ifas.ufl.edu/publication/IN242/pdf"
+        }
+      ],
+      "related_species": [
+        "alaus-oculatus"
+      ],
+      "primary_url": "https://www.inaturalist.org/observations/252808697"
+    },
+    {
+      "name": "Orthosoma brunneum",
+      "slug": "orthosoma-brunneum",
+      "group": "cerambycidae",
+      "common": "Brown prionid",
+      "intro": "Alan’s photograph shows the long antennae and ridged wing covers of a brown prionid. Adults regularly come to lights across eastern North America. For anyone starting with an adult, a damp piece of already decaying wood gives the female a place to lay and the resulting larvae material they can eat for months.",
+      "account_credit": "Adult photograph by Alan Jeon · Rearing guidance drawn from published species records",
+      "facts": [
+        {
+          "title": "Adult size",
+          "text": "About 25–50 mm in length"
+        },
+        {
+          "title": "Egg-laying season",
+          "text": "May through late summer in Maryland"
+        },
+        {
+          "title": "Larval development",
+          "text": "Usually two to three years"
+        }
+      ],
+      "sections": [
+        {
+          "title": "Identifying and feeding adults",
+          "text": "I would check the shield behind the head for three sharp points on each side and look along the wing covers for the raised parallel lines. Adults are recorded from May through November in the eastern United States. Paula Shrewsbury reports that they feed on flowers, fruit and leaves. With a newly collected adult I would offer a little ripe fruit on a removable dish and check for feeding while the beetle is active."
+        },
+        {
+          "title": "Selecting wood for egg laying",
+          "text": "The tree species gives the keeper considerable choice. Recorded hardwoods include oak, hickory, walnut, chestnut, maple and basswood. Larvae also develop in pine, hemlock and fir. The feature I would select for first is decay in a piece that still holds moisture. I would set the wood partly into a damp substrate and leave some of its surface accessible. Published observations place eggs on or in decaying wood and sometimes in the surrounding soil, so I would keep that soil with the wood when moving the female."
+        },
+        {
+          "title": "Watching for larvae",
+          "text": "The pale, glossy larvae can reach about 50 mm. Their tunnels accumulate coarse, fibrous frass. If I exposed one of those galleries, I would leave most of it intact and record the kind of wood and its condition. Allow two to three years for larval development. Laboratory rearers have also raised this species using a formulated diet with host-plant material. That result gives a second rearing option for a keeper who can reproduce the published preparation."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Alan Jeon’s adult photograph",
+          "url": "https://www.inaturalist.org/observations/290595470"
+        },
+        {
+          "title": "Shrewsbury, brown prionid beetle, University of Maryland Extension (page 5)",
+          "url": "https://extension.umd.edu/sites/extension.umd.edu/files/2025-07/25Jul25L.pdf"
+        },
+        {
+          "title": "Lingafelter, Illustrated Guide to the Longhorned Woodboring Beetles of the Eastern United States",
+          "url": "https://www.coleopsoc.org/wp-content/uploads/2024/08/ColeopteristsSocietySpecialPublication3-optimized.pdf"
+        },
+        {
+          "title": "Robinson, Handbook of Urban Insects and Arachnids, brown prionid account",
+          "url": "https://ndl.ethernet.edu.et/bitstream/123456789/6168/1/62.pdf"
+        },
+        {
+          "title": "Keena, laboratory rearing of cerambycids, including Orthosoma (Table 7.1)",
+          "url": "https://www.fs.usda.gov/nrs/pubs/jrnl/2017/nrs_2017_keena_001.pdf"
+        },
+        {
+          "title": "Gardiner, rearing longhorn beetles on artificial diet",
+          "url": "https://doi.org/10.4039/Ent102113-1"
+        }
+      ],
+      "related_species": [
+        "stenodontes-chevrolati",
+        "mallodon-dasystomus"
+      ],
+      "primary_url": "https://www.inaturalist.org/observations/290595470"
     },
     {
       "name": "Embaphion muricatum",
@@ -4384,6 +5471,90 @@
       "preferred": false
     },
     {
+      "file": "thylodrias-contractus-march-5-alan.jpg",
+      "species": "Thylodrias contractus",
+      "stage": "Adults",
+      "credit": "Alan Jeon",
+      "url": "https://discord.com/channels/1285685926340726887/1286131091987763264/1482606101101936842",
+      "caption": "A newly matured adult in the March culture.",
+      "alt": "A tiny, narrow adult odd beetle beside an insect wing among pale pellets in its culture cup.",
+      "width": 1259,
+      "height": 1259,
+      "preferred": true
+    },
+    {
+      "file": "embaphion-muricatum-january-1-immanus.jpg",
+      "species": "Embaphion muricatum",
+      "stage": "Adults",
+      "credit": "Junkai Wang",
+      "url": "https://discord.com/channels/794287611614462013/908272057534517248/1063227831770947715",
+      "caption": "Adult photographed in January 2023.",
+      "alt": "Oblique view of a glossy black Embaphion muricatum on a pale twig among sand and small pebbles.",
+      "width": 3595,
+      "height": 3341,
+      "preferred": true
+    },
+    {
+      "file": "embaphion-muricatum-january-2-immanus.jpg",
+      "species": "Embaphion muricatum",
+      "stage": "Adults",
+      "credit": "Junkai Wang",
+      "url": "https://discord.com/channels/794287611614462013/908272057534517248/1063227831770947715",
+      "caption": "A second, dorsal view of the same adult.",
+      "alt": "Dorsal view of the dark pie-dish beetle beside a pale twig, showing the outlines of the pronotum and wing covers.",
+      "width": 3648,
+      "height": 4304,
+      "preferred": false
+    },
+    {
+      "file": "alaus-patricius-adults-alan.jpg",
+      "species": "Alaus patricius",
+      "stage": "Adults",
+      "credit": "Alan Jeon",
+      "url": "https://discord.com/channels/1080588087836549221/1080588087836549224/1120795587500052512",
+      "caption": "A group of adults raised in captivity, June 2023.",
+      "alt": "Three mottled Alaus patricius in a clear cup, showing two dorsal views and one underside.",
+      "width": 2992,
+      "height": 2992,
+      "preferred": true
+    },
+    {
+      "file": "chalcolepidius-webbi-adults-alan.jpg",
+      "species": "Chalcolepidius webbi",
+      "stage": "Adults",
+      "credit": "Alan Jeon",
+      "url": "https://discord.com/channels/1080588087836549221/1080588087836549224/1120795587500052512",
+      "caption": "Four reared adults in June 2023.",
+      "alt": "Four metallic green and white Chalcolepidius webbi adults together in a clear cup.",
+      "width": 2992,
+      "height": 2992,
+      "preferred": true
+    },
+    {
+      "file": "alaus-patricius-may-alan.jpg",
+      "species": "Alaus patricius",
+      "stage": "Rearing cell",
+      "credit": "Alan Jeon",
+      "url": "https://discord.com/channels/1080588087836549221/1080588087836549224/1108768709012623400",
+      "caption": "A developing beetle inside its rearing cell in May 2023.",
+      "alt": "A pale yellow Alaus patricius visible through an opening in the brown cell material.",
+      "width": 2992,
+      "height": 2992,
+      "preferred": false
+    },
+    {
+      "file": "chalcolepidius-webbi-may-alan.jpg",
+      "species": "Chalcolepidius webbi",
+      "stage": "Rearing cell",
+      "credit": "Alan Jeon",
+      "url": "https://discord.com/channels/1080588087836549221/1080588087836549224/1108768448437293076",
+      "caption": "View of the culture in May 2023.",
+      "alt": "A pale developing Chalcolepidius webbi visible in the upper edge of a substrate-filled clear cup.",
+      "width": 2992,
+      "height": 2992,
+      "preferred": false
+    },
+    {
       "file": "pelidnota-punctata-key-largo-wang.jpg",
       "species": "Pelidnota punctata",
       "stage": "Adults",
@@ -4396,7 +5567,46 @@
       "preferred": true
     },
     {
-      "file": "instagram-texas-ironclads.jpg",
+      "species": "Megasoma vogti",
+      "file": "megasoma-vogti-second-instar-wang.jpg",
+      "stage": "Larvae",
+      "caption": "Second-instar larvae in my care in July 2022.",
+      "alt": "Several pale, curled Megasoma vogti larvae on the surface of a rearing box.",
+      "credit": "Junkai Wang",
+      "url": "https://beetleforum.net/media/244ee3ee-1b80-4ce8-98ef-a5f8d97e5975-jpeg.604/",
+      "show_credit": true,
+      "preferred": false,
+      "width": 640,
+      "height": 640
+    },
+    {
+      "species": "Megasoma punctulatum",
+      "file": "megasoma-punctulatum-bark-wang.jpg",
+      "stage": "Adults",
+      "caption": "An adult on bark in the Arizona series.",
+      "alt": "A single dark Megasoma punctulatum on illuminated bark at night.",
+      "credit": "Junkai Wang",
+      "url": "https://beetleforum.net/media/2681c26a-2f6d-4cf3-acfb-60914dd33f4c-jpeg.618/",
+      "show_credit": true,
+      "preferred": false,
+      "width": 640,
+      "height": 480
+    },
+    {
+      "species": "Megasoma punctulatum",
+      "file": "megasoma-punctulatum-breeding-adults-wang.jpg",
+      "stage": "Adults",
+      "caption": "Two of my Arizona adults in a container.",
+      "alt": "Two black adult Megasoma punctulatum on the sandy floor of their container.",
+      "credit": "Junkai Wang",
+      "url": "https://beetleforum.net/media/c09ab595-ddb8-4657-b9b3-fc21781a3a01-jpeg.617/",
+      "show_credit": true,
+      "preferred": true,
+      "width": 640,
+      "height": 480
+    },
+    {
+      "file": "zopherus-nodulosus-lichen-wang.jpg",
       "species": "Zopherus nodulosus",
       "stage": "Adults",
       "caption": "My Texas ironclads feeding together on lichen, November 2026.",
@@ -4404,8 +5614,8 @@
       "credit": "Junkai Wang",
       "show_credit": true,
       "url": "https://www.instagram.com/p/Dfffig3JR3b/",
-      "width": 480,
-      "height": 640
+      "width": 1080,
+      "height": 1440
     },
     {
       "file": "rutela-formosa-255556376-alan.jpg",
@@ -4419,6 +5629,156 @@
       "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
       "url": "https://www.inaturalist.org/observations/255556376",
       "photo_url": "https://www.inaturalist.org/photos/457994562",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "file": "phileurus-truncatus-295715476-alan.jpg",
+      "species": "Phileurus truncatus",
+      "stage": "Adults",
+      "caption": "An adult triceratops beetle from a field observation.",
+      "alt": "Broad, dark Phileurus truncatus resting across two fingertips.",
+      "credit": "Alan Jeon",
+      "show_credit": true,
+      "license": "CC0 1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "url": "https://www.inaturalist.org/observations/295715476",
+      "photo_url": "https://www.inaturalist.org/photos/532383829",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "file": "phileurus-valgus-352697471-alan.jpg",
+      "species": "Phileurus valgus",
+      "stage": "Adults",
+      "caption": "An adult in its bark habitat.",
+      "alt": "Shiny black Phileurus valgus crawling down the fissured bark of a tree.",
+      "credit": "Alan Jeon",
+      "show_credit": true,
+      "license": "CC0 1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "url": "https://www.inaturalist.org/observations/352697471",
+      "photo_url": "https://www.inaturalist.org/photos/643660842",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "file": "bolitotherus-cornutus-313177985-alan.jpg",
+      "species": "Bolitotherus cornutus",
+      "stage": "Adults",
+      "caption": "An adult forked fungus beetle.",
+      "alt": "Rough brown Bolitotherus cornutus resting on the tip of a finger near a log.",
+      "credit": "Alan Jeon",
+      "show_credit": true,
+      "license": "CC0 1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "url": "https://www.inaturalist.org/observations/313177985",
+      "photo_url": "https://www.inaturalist.org/photos/565526900",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "file": "orthosoma-brunneum-290595470-alan.jpg",
+      "species": "Orthosoma brunneum",
+      "stage": "Adults",
+      "caption": "Adult brown prionid outdoors.",
+      "alt": "Elongate dark brown Orthosoma brunneum with long antennae on a hand.",
+      "credit": "Alan Jeon",
+      "show_credit": true,
+      "license": "CC0 1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "url": "https://www.inaturalist.org/observations/290595470",
+      "photo_url": "https://www.inaturalist.org/photos/522781358",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "file": "megasoma-punctulatum-305250088-alan.jpg",
+      "species": "Megasoma punctulatum",
+      "stage": "Adults",
+      "caption": "Two adults photographed together.",
+      "alt": "Two dark Megasoma punctulatum on an open hand.",
+      "credit": "Alan Jeon",
+      "show_credit": true,
+      "license": "CC0 1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "url": "https://www.inaturalist.org/observations/305250088",
+      "photo_url": "https://www.inaturalist.org/photos/550356423",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "file": "strategus-antaeus-236539204-alan.jpg",
+      "species": "Strategus antaeus",
+      "stage": "Adults",
+      "caption": "Adult in the field.",
+      "alt": "Glossy dark brown Strategus antaeus on pale stony ground.",
+      "credit": "Alan Jeon",
+      "show_credit": true,
+      "license": "CC0 1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "url": "https://www.inaturalist.org/observations/236539204",
+      "photo_url": "https://www.inaturalist.org/photos/420827582",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "file": "alaus-oculatus-351890166-alan.jpg",
+      "species": "Alaus oculatus",
+      "stage": "Adults",
+      "caption": "An adult eyed click beetle.",
+      "alt": "Black and white Alaus oculatus with two large dark eyespots across the pronotum.",
+      "credit": "Alan Jeon",
+      "show_credit": true,
+      "license": "CC0 1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "url": "https://www.inaturalist.org/observations/351890166",
+      "photo_url": "https://www.inaturalist.org/photos/642218858",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "file": "alaus-myops-252808697-alan.jpg",
+      "species": "Alaus myops",
+      "stage": "Adults",
+      "caption": "Adult on a fingertip.",
+      "alt": "Elongated gray speckled Alaus myops seen from above on a finger.",
+      "credit": "Alan Jeon",
+      "show_credit": true,
+      "license": "CC0 1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "url": "https://www.inaturalist.org/observations/252808697",
+      "photo_url": "https://www.inaturalist.org/photos/452597507",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "file": "alaus-patricius-263951493-alan.jpg",
+      "species": "Alaus patricius",
+      "stage": "Adults",
+      "caption": "Adult in a field observation.",
+      "alt": "Pale mottled Alaus patricius held just above rough ground.",
+      "credit": "Alan Jeon",
+      "show_credit": true,
+      "license": "CC0 1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "url": "https://www.inaturalist.org/observations/263951493",
+      "photo_url": "https://www.inaturalist.org/photos/474275778",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "file": "euphoria-verticalis-253300577-alan.jpg",
+      "species": "Euphoria verticalis",
+      "stage": "Adults",
+      "caption": "A preserved adult specimen.",
+      "alt": "Dark oval Euphoria verticalis pinned above a specimen label.",
+      "credit": "Alan Jeon",
+      "show_credit": true,
+      "license": "CC0 1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "url": "https://www.inaturalist.org/observations/253300577",
+      "photo_url": "https://www.inaturalist.org/photos/453519059",
       "width": 1024,
       "height": 1024
     },
@@ -4438,6 +5798,21 @@
       "height": 1024
     },
     {
+      "file": "euphoria-sepulcralis-202175081-alan.jpg",
+      "species": "Euphoria sepulcralis",
+      "stage": "Adults",
+      "caption": "Adult photographed outdoors.",
+      "alt": "Small brown mottled Euphoria sepulcralis held gently between two fingertips.",
+      "credit": "Alan Jeon",
+      "show_credit": true,
+      "license": "CC0 1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "url": "https://www.inaturalist.org/observations/202175081",
+      "photo_url": "https://www.inaturalist.org/photos/357018393",
+      "width": 1024,
+      "height": 1024
+    },
+    {
       "file": "thylodrias-contractus-363161168-alan.jpg",
       "species": "Thylodrias contractus",
       "stage": "Culture",
@@ -4449,6 +5824,51 @@
       "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
       "url": "https://www.inaturalist.org/observations/363161168",
       "photo_url": "https://www.inaturalist.org/photos/662889363",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "file": "eleodes-goryi-307509305-alan.jpg",
+      "species": "Eleodes goryi",
+      "stage": "Adults",
+      "caption": "An adult at hand scale.",
+      "alt": "A glossy dark Eleodes goryi with extended legs on an open palm.",
+      "credit": "Alan Jeon",
+      "show_credit": true,
+      "license": "CC0 1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "url": "https://www.inaturalist.org/observations/307509305",
+      "photo_url": "https://www.inaturalist.org/photos/554673726",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "file": "cryptoglossa-variolosa-303464043-alan.jpg",
+      "species": "Cryptoglossa variolosa",
+      "stage": "Adults",
+      "caption": "Two adults on weathered wood.",
+      "alt": "Two dark Cryptoglossa variolosa walking over a pale wooden surface.",
+      "credit": "Alan Jeon",
+      "show_credit": true,
+      "license": "CC0 1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "url": "https://www.inaturalist.org/observations/303464043",
+      "photo_url": "https://www.inaturalist.org/photos/546965057",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "file": "cotinis-nitida-397590022-alan.jpg",
+      "species": "Cotinis nitida",
+      "stage": "Adults",
+      "caption": "An adult on the ground.",
+      "alt": "A green June beetle at the base of a dark timber on coarse gravel.",
+      "credit": "Alan Jeon",
+      "show_credit": true,
+      "license": "CC0 1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "url": "https://www.inaturalist.org/observations/397590022",
+      "photo_url": "https://www.inaturalist.org/photos/729243537",
       "width": 1024,
       "height": 1024
     }
