@@ -147,7 +147,7 @@
         },
         {
           "title": "Larval food and emergence",
-          "text": "I would use lightly fermented hardwood flake soil for the grubs and include a piece of well-decayed hardwood. In nature the larvae feed in old logs and stumps or tunnel along their decaying roots. Elm, walnut, cherry and birch are among their recorded hardwoods. For timing I use a field-based estimate from Lexington, Kentucky, where larvae overwintered and the life cycle appeared to take about two years. That is a regional benchmark for planning how long to keep a brood. I would record the hatching and emergence dates for each locality before settling on a timetable for my own stock.\nI have kept grapevine beetles using the same general arrangement I use for Dynastes and have reared them to the pupal stage. I leave a formed chamber intact while the adult develops inside."
+          "text": "I would use lightly fermented hardwood flake soil for the grubs and include a piece of well-decayed hardwood. In nature the larvae feed in old logs and stumps or tunnel along their decaying roots. Elm, walnut, cherry and birch are among their recorded hardwoods. For timing I use a field-based estimate from Lexington, Kentucky, where larvae overwintered and the life cycle appeared to take about two years. That is a regional benchmark for planning how long to keep a brood. I would record the hatching and emergence dates for each locality before settling on a timetable for my own stock.\nI have kept grapevine beetles using the same general arrangement I use for Dynastes and have reared them to the pupal stage. I leave a formed chamber intact while the adult develops inside.\nWhen setting up feeding grubs, I also use my Chrysina woodi guide as a reference for choosing lightly fermented hardwood material. For grapevine beetles I include decayed wood; my own captive pupa and the wood occupied by wild grubs are my reference points for this species."
         }
       ],
       "sources": [
@@ -222,7 +222,12 @@
         "data_file": "map-data-pelidnota-punctata.json"
       },
       "account_credit": "Breeding notes by Junkai Wang and Alan Jeon",
-      "substrate_recipe": true
+      "substrate_recipe": true,
+      "primary_url": "https://extension.k-state.edu/historicpublications/pubs/STB016.pdf",
+      "related_species": [
+        "chrysina-woodi",
+        "rutela-formosa"
+      ]
     },
     {
       "slug": "odontotaenius-disjunctus",
@@ -311,7 +316,11 @@
         "caption": "30,988 of 30,989 wild, research-grade iNaturalist observations in North America are plotted at their public coordinates. The geographic review excluded 1 remote report.",
         "data_file": "map-data-odontotaenius-disjunctus.json"
       },
-      "account_credit": "Breeding notes by Junkai Wang and Alan Jeon"
+      "account_credit": "Breeding notes by Junkai Wang and Alan Jeon",
+      "primary_url": "https://ask.ifas.ufl.edu/publication/in879",
+      "related_species": [
+        "odontotaenius-floridanus"
+      ]
     },
     {
       "slug": "tenebrio-molitor",
@@ -392,7 +401,8 @@
         "caption": "548 of 548 wild, research-grade iNaturalist observations in North America are plotted at their public coordinates.",
         "data_file": "map-data-tenebrio-molitor.json"
       },
-      "account_credit": "Breeding notes by Junkai Wang and Alan Jeon"
+      "account_credit": "Breeding notes by Junkai Wang and Alan Jeon",
+      "primary_url": "https://www.nature.com/articles/s41598-020-67363-1"
     },
     {
       "slug": "gymnetis-thula",
@@ -497,7 +507,8 @@
         "caption": "1,497 of 1,497 wild, research-grade iNaturalist observations in North America are plotted at their public coordinates.",
         "data_file": "map-data-gymnetis-thula.json"
       },
-      "account_credit": "Breeding notes by Junkai Wang and Alan Jeon"
+      "account_credit": "Breeding notes by Junkai Wang and Alan Jeon",
+      "primary_url": "https://www.lsuagcenter.com/profiles/averywilliams/articles/page1791230872900"
     },
     {
       "slug": "dynastes-tityus",
@@ -639,7 +650,8 @@
         "data_file": "map-data-dynastes-tityus.json"
       },
       "account_credit": "Breeding notes by Junkai Wang and Alan Jeon",
-      "substrate_recipe": true
+      "substrate_recipe": true,
+      "primary_url": "https://discord.com/channels/1285685926340726887/1286131091987763264/1369773748776992869"
     },
     {
       "slug": "lucanus-elaphus",
@@ -650,7 +662,7 @@
       "sections": [
         {
           "title": "Setting up the adults",
-          "text": "For an active pair I recommend a laying box with decaying hardwood nestled into less-fermented hardwood flake soil. Keep the fine substrate in contact with the wood. In Mississippi, wild larvae feed both inside decaying logs and underneath them where damp wood meets soil. A piece of bark on the surface gives the adults footing. My usual food for active adults is beetle jelly, offered every five days. Apple or banana also works. Once a female buries herself, leave the wood in place and give her time to lay.\nFemales I collected at Auburn, Alabama, gave me a different clue about egg laying. I had tried logs, ordinary flake soil and potting soil with little success. When I offered these females much drier sawdust, about as dry as I use for my longhorn beetles, they laid readily and I recovered enough larvae for another generation. My L. placidus and L. capreolus laid well in my usual flake soil."
+          "text": "Females I collected at Auburn, Alabama, helped me work out how dry to keep the laying box. I had tried logs, ordinary flake soil and potting soil with little success. When I offered these females much drier sawdust, about as dry as I use for my longhorn beetles, they laid readily and I recovered enough larvae for another generation. My L. placidus and L. capreolus laid well in my usual flake soil.\nFor active adults I offer beetle jelly every five days, or apple or banana. A piece of bark on the surface gives the adults footing. Once the female buries herself, I leave her time to lay. In the wild, the larvae have also been found in decaying logs and underneath them at the wood–soil interface."
         },
         {
           "title": "Rearing larvae and checking for cells",
@@ -741,7 +753,8 @@
         "data_file": "map-data-lucanus-elaphus.json"
       },
       "account_credit": "Breeding notes by Junkai Wang and Alan Jeon",
-      "substrate_recipe": true
+      "substrate_recipe": true,
+      "primary_url": "https://research.fs.usda.gov/treesearch/54135"
     },
     {
       "name": "Chrysina woodi",
@@ -1286,7 +1299,10 @@
         "caption": "56 of 56 wild, research-grade iNaturalist observations in North America are plotted at their public coordinates.",
         "data_file": "map-data-stenodontes-chevrolati.json"
       },
-      "account_credit": "Breeding notes by Junkai Wang and Alan Jeon"
+      "account_credit": "Breeding notes by Junkai Wang and Alan Jeon",
+      "related_species": [
+        "stenodontes-exsertus"
+      ]
     },
     {
       "slug": "dynastes-grantii",
@@ -1404,7 +1420,8 @@
         "data_file": "map-data-dynastes-grantii.json"
       },
       "account_credit": "Breeding notes by Junkai Wang and Alan Jeon",
-      "substrate_recipe": true
+      "substrate_recipe": true,
+      "primary_url": "https://doi.org/10.1649/0010-065X-69.4.760"
     },
     {
       "name": "Euphoria monticola",
@@ -1614,7 +1631,11 @@
         "caption": "3,787 of 3,787 wild, research-grade iNaturalist observations in North America are plotted at their public coordinates.",
         "data_file": "map-data-osmoderma-eremicola.json"
       },
-      "account_credit": "Breeding notes by Junkai Wang and Alan Jeon"
+      "account_credit": "Breeding notes by Junkai Wang and Alan Jeon",
+      "related_species": [
+        "osmoderma-subplanatum",
+        "osmoderma-scabrum"
+      ]
     },
     {
       "name": "Chrysina gloriosa",
@@ -1735,7 +1756,7 @@
       "sections": [
         {
           "title": "Feeding young grubs",
-          "text": "I started with ten larvae one year and had adults breeding by June 8 the following year. In a second growth check, grubs that had been first instars a month earlier were already third instars. I keep prepared hardwood flake soil on hand as they consume it. If I use natural material, I choose well-decayed hardwood. In Nebraska, one standing ash contained about 45 third instars. Grubs have also been found in rotting maple and boxelder."
+          "text": "I started with ten larvae one year and had adults breeding by June 8 the following year. In a second growth check, grubs that had been first instars a month earlier were already third instars. I keep prepared hardwood flake soil on hand as they consume it. If I use natural material, I choose well-decayed hardwood. In Nebraska, one standing ash contained about 45 third instars. Grubs have also been found in rotting maple and boxelder.\nFor the rest of the breeding setup I use my Osmoderma eremicola method. I keep softened wood mixed into the feeding substrate and leave closed cells intact. I follow the stages of the subplanatum brood itself when deciding when to look for adults."
         },
         {
           "title": "Timing the final instar",
@@ -1816,7 +1837,11 @@
       "aliases": [
         "Osmoderma subplanata"
       ],
-      "account_credit": "Breeding notes by Junkai Wang and Alan Jeon"
+      "account_credit": "Breeding notes by Junkai Wang and Alan Jeon",
+      "related_species": [
+        "osmoderma-eremicola",
+        "osmoderma-scabrum"
+      ]
     },
     {
       "name": "Osmoderma scabrum",
@@ -1910,7 +1935,11 @@
       "aliases": [
         "Osmoderma scabra"
       ],
-      "account_credit": "Breeding notes by Junkai Wang and Alan Jeon"
+      "account_credit": "Breeding notes by Junkai Wang and Alan Jeon",
+      "related_species": [
+        "osmoderma-eremicola",
+        "osmoderma-subplanatum"
+      ]
     },
     {
       "name": "Lucanus mazama",
@@ -1943,7 +1972,7 @@
         },
         {
           "title": "Pupation and emergence",
-          "text": "As a grub matures, check the sides and base of its enclosure before loosening the substrate. The Mexican study followed third instars through the rest of development. They pupated in wood debris. Five individuals took five to eight days to pass from prepupa to pupa, and seven took another 31–35 days from pupa to adult. Some adults spent much of their time below a log even after completing the molt. I wait for my beetles to become active on their own before moving them to a pairing enclosure."
+          "text": "As a grub matures, check the sides and base of its enclosure before loosening the substrate. The Mexican study followed third instars through the rest of development. They pupated in wood debris. Five individuals took five to eight days to pass from prepupa to pupa, and seven took another 31–35 days from pupa to adult. Some adults spent much of their time below a log even after completing the molt. I wait for my beetles to become active on their own before moving them to a pairing enclosure.\nIn earlier broods I lost pupae, and some newly emerged adults had enlarged abdomens that extended beyond the wing covers. Those adults later died following infection. In my 2026 brood I kept the substrate drier as larvae began to pupate. Most of the adults emerged without those deformities."
         }
       ],
       "sources": [
@@ -1966,6 +1995,10 @@
         {
           "title": "Adult emergence in my culture",
           "url": "https://discord.com/channels/1285685926340726887/1286131091987763264/1568471345673805837"
+        },
+        {
+          "title": "My 2026 pupation trial",
+          "url": "https://discord.com/channels/1285685926340726887/1286131091987763264/1568318642683117793"
         }
       ],
       "record_type": "Rearing observations",
@@ -2320,6 +2353,385 @@
       },
       "account_credit": "Breeding notes by Junkai Wang and Alan Jeon",
       "substrate_recipe": true
+    },
+    {
+      "name": "Rutela formosa",
+      "slug": "rutela-formosa",
+      "group": "rutelinae",
+      "common": "Handsome flower scarab",
+      "intro": "I have found dozens of Rutela formosa on Key Largo. A mating pair and fresh beetle jelly were easy to provide. The harder part was finding the right place for the female to lay. My early setup with ordinary flake soil produced no brood. I later bred the species with a log resting on the substrate.",
+      "facts": [
+        {
+          "title": "Adult lifespan",
+          "text": "About one month in my care"
+        },
+        {
+          "title": "Adult food",
+          "text": "Beetle jelly, renewed every five days"
+        },
+        {
+          "title": "Laying material",
+          "text": "A decayed hardwood log on the surface of the substrate"
+        },
+        {
+          "title": "Larval food",
+          "text": "The interior of the breeding log"
+        }
+      ],
+      "sections": [
+        {
+          "title": "Feeding and pairing the adults",
+          "text": "I prepare the breeding enclosure before I introduce the pair because the adults live only about a month. Mine accept beetle jelly, which I renew on my usual five-day schedule. I put it on an accessible part of the surface so I can replace it while leaving the log in position. At Key Largo I have found adults in numbers, yet even an active group in captivity gave me no offspring when I offered only my usual flake soil."
+        },
+        {
+          "title": "What changed when I added a log",
+          "text": "In 2021, my standard flake-soil setup failed to produce a brood. By May 2022 I had at least four pairs on hand. I keep that count separate from my later breeding results. In my later culture I used the same basic arrangement I use for Dorcus: a breeding log resting on the surface of the substrate. I choose decaying hardwood that still holds together as a log. The solid piece matters throughout the brood’s development. Once the female has had access to it, I leave it in the enclosure, even if I cannot see any young at the surface."
+        },
+        {
+          "title": "Following larvae inside the wood",
+          "text": "My grubs fed through the log and hollowed it from within. I never saw them leave it, even in captivity. I would keep occupied wood intact when refreshing the surrounding material. An empty-looking layer of flake soil tells me very little about what is happening inside the log. In Florida, larvae, pupae and adults have also been found in the decayed heartwood of Bursera and Metopium logs. That field observation fits the way my grubs used the wood."
+        },
+        {
+          "title": "Adults in the field and in culture",
+          "text": "The striped adult on bark is from my collection in September 2025. The Florida field photograph in the gallery is from December 2024. It shows the markings in natural light and gives a sense of the beetle’s size on a hand. I keep these field dates separate from the time an adult spends active in a breeding box."
+        }
+      ],
+      "sources": [
+        {
+          "title": "My Key Largo adults and early laying trial",
+          "url": "https://beetleforum.net/threads/rutela-formosa.5122/"
+        },
+        {
+          "title": "Adult feeding and lifespan in my care",
+          "url": "https://beetleforum.net/threads/rutela-formosa.5743/"
+        },
+        {
+          "title": "My breeding-log culture",
+          "url": "https://discord.com/channels/1285685926340726887/1369529410440659025/1417662138973032469"
+        },
+        {
+          "title": "My established captive culture",
+          "url": "https://discord.com/channels/1285685926340726887/1369529410440659025/1417623023120289792"
+        },
+        {
+          "title": "M. L. Jameson, revision of the Rutela generic groups",
+          "url": "https://unsm-ento.unl.edu/Monographs/Rutela.pdf"
+        },
+        {
+          "title": "Key Largo field records of wood, larvae and pupae, Scarabaeus 6 (1982)",
+          "url": "https://unsm-ento.unl.edu/Scarabaeus/No06.pdf"
+        }
+      ],
+      "account_credit": "Breeding notes by Junkai Wang and Alan Jeon",
+      "primary_url": "https://beetleforum.net/threads/rutela-formosa.5122/",
+      "related_species": [
+        "dorcus-parallelus",
+        "pelidnota-punctata"
+      ]
+    },
+    {
+      "name": "Odontotaenius floridanus",
+      "slug": "odontotaenius-floridanus",
+      "common": "Florida bess beetle",
+      "group": "passalidae",
+      "intro": "I have bred the Florida bess beetle through three broods without giving my group a winter cooling period. Finding the beetles took considerably longer than getting them to breed. Between us, Alan and I spent at least eight days in the field over roughly six trips before we found them.",
+      "facts": [
+        {
+          "title": "Breeding result",
+          "text": "Three broods by September 2025"
+        },
+        {
+          "title": "Rearing material",
+          "text": "Breeding logs buried in homemade flake soil"
+        },
+        {
+          "title": "Brood size in my checks",
+          "text": "About four larvae per brood"
+        },
+        {
+          "title": "Winter treatment",
+          "text": "No deliberate cooling period in this culture"
+        }
+      ],
+      "sections": [
+        {
+          "title": "Preparing the wood",
+          "text": "I buried breeding logs in my homemade flake soil. This was the setup in which I saw the first brood in March 2025. I keep the wood in one piece so the adults can establish galleries and the young have somewhere to feed alongside them. When starting another enclosure, I would use softened hardwood with enough structure to keep those tunnels intact. I keep the wood and the material the adults have worked together when checking the culture."
+        },
+        {
+          "title": "Recognizing a brood",
+          "text": "I found a newly hatched first instar on April 14, 2025, and photographed a pupa on May 16. By June 7 the second brood was building pupal cells against the enclosure wall. I generally found around four larvae per brood. The April and May dates are separate checks rather than a measured developmental interval for one animal. In a bess beetle enclosure the parents and young share the wood, so I leave the family together. When I check on them, I look along an existing opening and preserve the chewed material around the gallery. For counting broods I use positive sightings of young. The adults can remain alive for a long time without producing offspring."
+        },
+        {
+          "title": "Keeping the culture going",
+          "text": "By September 2025 the colony had given me a third brood. I had given it no deliberate winter cooling period between broods. I keep wood available whenever the beetles have hollowed out much of the original piece, and I would place fresh wood alongside the occupied material. In April 2026 my first-generation adults were still alive, although I had yet to see them start a brood of their own. My result with this Florida species is quite different from the compacted-sawdust setup I tried with Odontotaenius disjunctus, in which the adults lived but I recovered no young."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Bess beetle breeding discussion, 12–13 September 2025",
+          "url": "https://discord.com/channels/1080588087836549221/1338191341045415986/1416297064798748804"
+        },
+        {
+          "title": "My breeding logs and first brood",
+          "url": "https://discord.com/channels/1080588087836549221/1338191341045415986/1352674559823970377"
+        },
+        {
+          "title": "My brood counts",
+          "url": "https://discord.com/channels/1080588087836549221/1338191341045415986/1371468605891285043"
+        },
+        {
+          "title": "Hatchling in April",
+          "url": "https://discord.com/channels/1080588087836549221/1338191341045415986/1361342965636923732"
+        },
+        {
+          "title": "Pupa in May",
+          "url": "https://discord.com/channels/1080588087836549221/1338191341045415986/1372902210253488280"
+        },
+        {
+          "title": "Second-brood cells",
+          "url": "https://discord.com/channels/1080588087836549221/1338191341045415986/1380894283263115265"
+        },
+        {
+          "title": "Third brood without cooling",
+          "url": "https://discord.com/channels/1080588087836549221/1338191341045415986/1416404856280715355"
+        },
+        {
+          "title": "F1 adults the next spring",
+          "url": "https://discord.com/channels/1080588087836549221/1338191341045415986/1489822938621284497"
+        },
+        {
+          "title": "Field effort and breeding outcome",
+          "url": "https://discord.com/channels/1285685926340726887/1369529410440659025/1417662138973032469"
+        }
+      ],
+      "primary_url": "https://discord.com/channels/1080588087836549221/1338191341045415986/1416297064798748804",
+      "record_type": "Breeding account",
+      "native_status": {
+        "text": "Endemic to the Lake Wales Ridge in central Florida. The Florida Natural Areas Inventory reports its range from Marion County south to Highlands County.",
+        "status": "native",
+        "sources": [
+          {
+            "title": "Florida Natural Areas Inventory, Archbold bess beetle range-wide distribution",
+            "url": "https://www.fnai.org/PDFs/FieldGuides/Odontotaenius_floridanus.pdf"
+          },
+          {
+            "title": "Schuster (1994), original description of Odontotaenius floridanus",
+            "url": "https://digitalcommons.unl.edu/entomologyother/131/"
+          }
+        ]
+      },
+      "distribution": {
+        "slug": "odontotaenius-floridanus",
+        "file": "map-odontotaenius-floridanus.png",
+        "count": 69,
+        "raw_count": 69,
+        "excluded_count": 0,
+        "date": "2026-11-18",
+        "url": "https://www.inaturalist.org/observations?place_id=97394&quality_grade=research&captive=false&geo=true&taxon_id=122923&view=map",
+        "caption": "69 of 69 wild, research-grade iNaturalist observations in North America are plotted at their public coordinates.",
+        "data_file": "map-data-odontotaenius-floridanus.json"
+      },
+      "account_credit": "Breeding notes by Junkai Wang and Alan Jeon",
+      "related_species": [
+        "odontotaenius-disjunctus"
+      ]
+    },
+    {
+      "name": "Stenodontes exsertus",
+      "slug": "stenodontes-exsertus",
+      "group": "cerambycidae",
+      "common": "Puerto Rican giant longhorn beetle",
+      "intro": "The Puerto Rican giant longhorn is a larger, redder relative of Stenodontes chevrolati. The adults I have seen have long, curved mandibles with a smooth inner edge. The species occurs on Puerto Rico and Hispaniola. My breeding notes come from Puerto Rican stock, and keeping the laying medium almost dry made a real difference to the eggs.",
+      "facts": [
+        {
+          "title": "Range",
+          "text": "Puerto Rico and Hispaniola"
+        },
+        {
+          "title": "Laying setup",
+          "text": "About 2 inches (5 cm) of nearly dry sawdust, with bark on top"
+        },
+        {
+          "title": "Larval foods tried",
+          "text": "Sawdust and fungus-colonized wood substrate (kinshi)"
+        },
+        {
+          "title": "Larvae rehoused",
+          "text": "At least 36 by February 23, 2026"
+        }
+      ],
+      "sections": [
+        {
+          "title": "A shallow, dry laying bed",
+          "text": "I put about 2 inches (5 cm) of sawdust in the breeding container and lay pieces of bark on the surface. The sawdust I use is very nearly bone dry. In a damp laying bed the eggs have molded and rotted, and young larvae have also rotted. For that reason I avoid using moist flake soil or white-rotten wood as the laying bed for my Puerto Rican stock. The bark gives the adult cover without having to wet the whole bed."
+        },
+        {
+          "title": "Moving the young larvae",
+          "text": "I can rear the larvae in the same sort of sawdust. By February 23, 2026, I had rehoused 36 of them and was still working through the group. That is a count of the larvae I moved that day. In late March the young larvae I had available measured about 7–10 mm. They are small enough at that stage that it is worth taking the sawdust apart carefully."
+        },
+        {
+          "title": "Results on kinshi",
+          "text": "I have also used kinshi, wood substrate colonized by a fungus, for the feeding larvae. Most of my S. exsertus were doing well on an oyster-mushroom batch when I checked them in November 2026. I had put Callipogon proletarius larvae on that same batch and lost every one of them. The contrast is worth keeping in mind when choosing a fungus for longhorn larvae. A substrate that supports a feeding larva also has a different job from the dry bed I give a laying female."
+        },
+        {
+          "title": "Recognizing the stock in the field",
+          "text": "I have reared unidentified longhorn larvae from fallen logs in Puerto Rico. The ones I took from those logs turned out to be Callipogon when they matured. Finding a large larva in a downed log was therefore a poor way for me to identify S. exsertus. A published host record for S. exsertus names Zanthoxylum, the prickly ashes."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Breeding setup, moisture and fungal losses, October 2026 (Discord)",
+          "url": "https://discord.com/channels/1285685926340726887/1384034410046689341/1563925498633916520"
+        },
+        {
+          "title": "Puerto Rican stock and fallen-log larvae, November 2026 (Discord)",
+          "url": "https://discord.com/channels/1285685926340726887/1509256945830465746/1568665315171246205"
+        },
+        {
+          "title": "Rehousing 36 larvae, February 2026 (Discord)",
+          "url": "https://discord.com/channels/1285685926340726887/1286131091987763264/1475654836249825381"
+        },
+        {
+          "title": "Puerto Rican larvae measured at 7–10 mm, March 2026 (Discord)",
+          "url": "https://discord.com/channels/1285685926340726887/1487261584983064697/1487261584983064697"
+        },
+        {
+          "title": "Oyster kinshi and adult identification, November 2026 (Discord)",
+          "url": "https://discord.com/channels/1285685926340726887/1509256945830465746/1567147284330971208"
+        },
+        {
+          "title": "Monné, Catalogue of the Cerambycidae of the Neotropical Region, Part III (range and host)",
+          "url": "https://cerambycids.com/catalog/Monne_Jun2024_NeotropicalCat_part_III.pdf"
+        }
+      ],
+      "account_credit": "Breeding notes by Junkai Wang and Alan Jeon",
+      "primary_url": "https://discord.com/channels/1285685926340726887/1384034410046689341/1563925498633916520",
+      "related_species": [
+        "stenodontes-chevrolati",
+        "callipogon-proletarius"
+      ]
+    },
+    {
+      "name": "Callipogon proletarius",
+      "slug": "callipogon-proletarius",
+      "group": "cerambycidae",
+      "common": "Puerto Rican longhorn beetle",
+      "intro": "This large Caribbean longhorn has long antennae and a broad head. I photographed an adult in January 2026 and recorded hatching later that month. My clearest result so far concerns the fungus used to rear the larvae. Two kinds of kinshi gave very different outcomes.",
+      "facts": [
+        {
+          "title": "Range",
+          "text": "The nominate form is recorded from Puerto Rico"
+        },
+        {
+          "title": "Hatching recorded",
+          "text": "January 30, 2026"
+        },
+        {
+          "title": "Successful larval substrate",
+          "text": "Turkey-tail kinshi supported growth"
+        },
+        {
+          "title": "Unsuccessful larval substrate",
+          "text": "All larvae in the oyster-kinshi group died"
+        }
+      ],
+      "sections": [
+        {
+          "title": "Adults and hatching",
+          "text": "The January adult shows the heavy build of this longhorn clearly. On January 30 I photographed a small rearing cup when I found that the eggs had hatched. Those two dates show when I saw an adult and when I found young larvae. I did not record when each egg was laid, so I cannot give an incubation time for this group."
+        },
+        {
+          "title": "Choosing kinshi for feeding larvae",
+          "text": "I kept larvae on two kinds of kinshi, a substrate of wood colonized by a fungus. By early November the larvae in turkey-tail kinshi were growing well. Every larva I kept on oyster-mushroom kinshi had died. Most of my Stenodontes exsertus larvae were doing well in that same oyster batch, which is why I keep a separate substrate record for each longhorn species. For another group of C. proletarius, I would begin with turkey-tail kinshi."
+        },
+        {
+          "title": "What the trial established",
+          "text": "I followed this group from hatching into the feeding stage. My November check established which of the two substrates had supported growth up to that point. I still have no measured larval period, pupal duration or adult emergence rate from that comparison."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Adult photograph, January 2026 (Discord)",
+          "url": "https://discord.com/channels/1285685926340726887/1286131091987763264/1458371033013686283"
+        },
+        {
+          "title": "Hatching record, January 2026 (Discord)",
+          "url": "https://discord.com/channels/1285685926340726887/1286131091987763264/1466688583049023508"
+        },
+        {
+          "title": "Oyster and turkey-tail kinshi outcomes, November 2026 (Discord)",
+          "url": "https://discord.com/channels/1285685926340726887/1509256945830465746/1567147284330971208"
+        },
+        {
+          "title": "Western Hemisphere Cerambycidae catalog, Callipogonini (Puerto Rican nominate form)",
+          "url": "https://bezbycids.com/byciddb/wbycidview.asp?tribe=Callipogonini&w=n"
+        }
+      ],
+      "account_credit": "Breeding notes by Junkai Wang and Alan Jeon",
+      "primary_url": "https://discord.com/channels/1285685926340726887/1286131091987763264/1458371033013686283",
+      "related_species": [
+        "stenodontes-exsertus"
+      ]
+    },
+    {
+      "name": "Eleodes hispilabris",
+      "slug": "eleodes-hispilabris",
+      "group": "tenebrionidae",
+      "common": "Rough-lipped darkling beetle",
+      "intro": "I kept this western North American darkling beetle through two captive generations in a single colony bin. I left the eggs and young with the adults. A deep bed of desert sand with a little wood mixed through it gave me a practical way to raise successive generations without searching for individual eggs.",
+      "facts": [
+        {
+          "title": "Range",
+          "text": "Western North America, from western Canada south to Arizona and Texas"
+        },
+        {
+          "title": "Breeding record",
+          "text": "Two captive generations by August 2025"
+        },
+        {
+          "title": "Container",
+          "text": "20-quart bin, half filled"
+        },
+        {
+          "title": "Colony foods",
+          "text": "Fish flakes and dog food"
+        }
+      ],
+      "sections": [
+        {
+          "title": "Building the colony enclosure",
+          "text": "I used a 20-quart bin and filled it about halfway with Exo Terra desert sand. I mixed a small amount of wood into the sand, then set pieces of bark on top. The wood was a minor part of the mixture. The adults lived and laid in this same enclosure."
+        },
+        {
+          "title": "Leaving the eggs in place",
+          "text": "When I was asked how I found the eggs, my answer was that I left them where the females had laid them. The eggs hatched in the adult enclosure. Substrate moisture was the detail I watched. I kept the sand from drying out completely, while also avoiding soaking it. I did not need separate incubation cups to get the next generation."
+        },
+        {
+          "title": "Feeding the colony",
+          "text": "I fed the beetles fish flakes and dog food. By August 2025 this arrangement had carried the culture through two generations. I followed the colony as a group, so I cannot attach a clutch size or a precise time from egg to adult to any one female."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Two-generation breeding record, August 2025 (Discord)",
+          "url": "https://discord.com/channels/1285685926340726887/1384034410046689341/1411149251592982630"
+        },
+        {
+          "title": "Colony enclosure, food, egg care and moisture, August 2025 (Discord)",
+          "url": "https://discord.com/channels/1285685926340726887/1384034410046689341/1411165633147568219"
+        },
+        {
+          "title": "Harvard Museum of Comparative Zoology, accepted species spelling",
+          "url": "https://mczbase.mcz.harvard.edu/name/Eleodes%2Bhispilabris"
+        },
+        {
+          "title": "BugGuide, species range and published references",
+          "url": "https://www.bugguide.net/node/view/52599"
+        }
+      ],
+      "account_credit": "Breeding notes by Junkai Wang and Alan Jeon",
+      "primary_url": "https://discord.com/channels/1285685926340726887/1384034410046689341/1411149251592982630"
     }
   ],
   "photos": [
@@ -3425,6 +3837,102 @@
       "preferred": false
     },
     {
+      "file": "rutela-formosa-september-immanus.jpg",
+      "species": "Rutela formosa",
+      "stage": "Adults",
+      "credit": "Junkai Wang",
+      "url": "https://discord.com/channels/1285685926340726887/1369529410440659025/1417539953369546833",
+      "caption": "Adult from the culture, photographed in September 2025.",
+      "alt": "A gold and metallic green Rutela formosa adult, its wing covers marked with dark longitudinal stripes, standing on bark.",
+      "width": 3024,
+      "height": 2830,
+      "preferred": true
+    },
+    {
+      "file": "callipogon-proletarius-january-alan.jpg",
+      "species": "Callipogon proletarius",
+      "stage": "Adults",
+      "credit": "Alan Jeon",
+      "url": "https://discord.com/channels/1285685926340726887/1286131091987763264/1458371033013686283",
+      "caption": "Adult photographed in January 2026.",
+      "alt": "Large brown Callipogon proletarius clinging to a stem, with a long antenna extended across the photograph.",
+      "width": 2992,
+      "height": 2992,
+      "preferred": true
+    },
+    {
+      "file": "callipogon-proletarius-hatching-alan.jpg",
+      "species": "Callipogon proletarius",
+      "stage": "Larvae",
+      "credit": "Alan Jeon",
+      "url": "https://discord.com/channels/1285685926340726887/1286131091987763264/1466688583049023508",
+      "caption": "The rearing cup at hatching on January 30, 2026.",
+      "alt": "A clear rearing cup viewed from below with several tiny pale marks against its dark substrate.",
+      "width": 2992,
+      "height": 2992,
+      "preferred": false
+    },
+    {
+      "file": "stenodontes-exsertus-january-alan.jpg",
+      "species": "Stenodontes exsertus",
+      "stage": "Adults",
+      "credit": "Alan Jeon",
+      "url": "https://discord.com/channels/1285685926340726887/1286131091987763264/1458371210030088262",
+      "caption": "Adult from the Puerto Rican culture photographed in January 2026.",
+      "alt": "Dark red-brown Stenodontes exsertus with long curved jaws, held over a clear container.",
+      "width": 2992,
+      "height": 2992,
+      "preferred": true
+    },
+    {
+      "file": "odontotaenius-floridanus-f1-alan.jpg",
+      "species": "Odontotaenius floridanus",
+      "stage": "Adults",
+      "credit": "Alan Jeon",
+      "url": "https://discord.com/channels/1080588087836549221/1338191341045415986/1489822938621284497",
+      "caption": "First-generation adults from the colony in April 2026.",
+      "alt": "A group of glossy black Odontotaenius floridanus adults on the surface of their rearing substrate.",
+      "width": 2992,
+      "height": 2992,
+      "preferred": true
+    },
+    {
+      "file": "odontotaenius-floridanus-first-instar-alan.jpg",
+      "species": "Odontotaenius floridanus",
+      "stage": "Larvae",
+      "credit": "Alan Jeon",
+      "url": "https://discord.com/channels/1080588087836549221/1338191341045415986/1361342965636923732",
+      "caption": "A newly hatched first instar in the breeding enclosure in April 2025.",
+      "alt": "A tiny pale larva shows through the clear wall near a lower corner of the breeding container.",
+      "width": 2992,
+      "height": 2992,
+      "preferred": false
+    },
+    {
+      "file": "odontotaenius-floridanus-pupa-alan.jpg",
+      "species": "Odontotaenius floridanus",
+      "stage": "Prepupae and pupae",
+      "credit": "Alan Jeon",
+      "url": "https://discord.com/channels/1080588087836549221/1338191341045415986/1372902210253488280",
+      "caption": "A Florida bess beetle pupa in May 2025.",
+      "alt": "A cream-colored Odontotaenius floridanus pupa lies in an opening in the brown rearing substrate.",
+      "width": 2992,
+      "height": 2992,
+      "preferred": false
+    },
+    {
+      "file": "odontotaenius-floridanus-second-brood-cells-alan.jpg",
+      "species": "Odontotaenius floridanus",
+      "stage": "Prepupae and pupae",
+      "credit": "Alan Jeon",
+      "url": "https://discord.com/channels/1080588087836549221/1338191341045415986/1380894283263115265",
+      "caption": "The second brood building pupal cells in June 2025.",
+      "alt": "A pale patch in a developing pupal cell is visible through the wall at a bottom corner of the rearing box.",
+      "width": 2992,
+      "height": 2992,
+      "preferred": false
+    },
+    {
       "file": "pelidnota-punctata-key-largo-wang.jpg",
       "species": "Pelidnota punctata",
       "stage": "Adults",
@@ -3435,6 +3943,36 @@
       "width": 594,
       "height": 640,
       "preferred": true
+    },
+    {
+      "file": "rutela-formosa-255556376-alan.jpg",
+      "species": "Rutela formosa",
+      "stage": "Adults",
+      "caption": "Florida field observation, December 2024.",
+      "alt": "Adult Rutela formosa with metallic gold and dark stripes resting on a hand.",
+      "credit": "Alan Jeon",
+      "show_credit": true,
+      "license": "CC0 1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "url": "https://www.inaturalist.org/observations/255556376",
+      "photo_url": "https://www.inaturalist.org/photos/457994562",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "file": "pelidnota-punctata-288921424-alan.jpg",
+      "species": "Pelidnota punctata",
+      "stage": "Adults",
+      "caption": "A second adult for comparison with the red Key Largo beetle.",
+      "alt": "A tan grapevine beetle held between the fingers, showing the wing covers from above.",
+      "credit": "Alan Jeon",
+      "show_credit": true,
+      "license": "CC0 1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "url": "https://www.inaturalist.org/observations/288921424",
+      "photo_url": "https://www.inaturalist.org/photos/519625208",
+      "width": 1024,
+      "height": 1024
     }
   ],
   "facebook_url": "https://www.facebook.com/junkai.wang.1694",
@@ -3554,5 +4092,43 @@
       }
     ],
     "credit_url": "https://legandleaf.com/product-category/beetles/"
+  },
+  "instagram_gallery": {
+    "handle": "beetlescholar",
+    "display_name": "Kai Wang",
+    "url": "https://www.instagram.com/beetlescholar/",
+    "avatar": "instagram-beetlescholar-avatar.jpg",
+    "posts": [
+      {
+        "file": "instagram-giant-stag.jpg",
+        "alt": "Adult male giant stag beetle with reddish mandibles on a hand",
+        "url": "https://www.instagram.com/p/Dfk0_DWmMTg/"
+      },
+      {
+        "file": "instagram-cottonwood-stags.jpg",
+        "alt": "Newly emerged cottonwood stag beetles together on wood",
+        "url": "https://www.instagram.com/p/DfhWduXB528/"
+      },
+      {
+        "file": "instagram-texas-ironclads.jpg",
+        "alt": "Black-and-white Texas ironclad beetles on bark",
+        "url": "https://www.instagram.com/p/Dfffig3JR3b/"
+      },
+      {
+        "file": "instagram-leaf-beetle.jpg",
+        "alt": "An iridescent green beetle beside a leaf",
+        "url": "https://www.instagram.com/p/DfdrBVuO-4o/"
+      },
+      {
+        "file": "instagram-feeding-beetle.jpg",
+        "alt": "A black beetle feeding at a red jelly cup",
+        "url": "https://www.instagram.com/p/DeLGphEuGwi/"
+      },
+      {
+        "file": "instagram-longhorn-pair.jpg",
+        "alt": "Two dark longhorn beetles resting on a hand",
+        "url": "https://www.instagram.com/p/DcqZFIeB35r/"
+      }
+    ]
   }
 }

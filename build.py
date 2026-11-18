@@ -197,6 +197,10 @@ for s in guides:
         body += '<p class="guide-related">'+link('substrate.html', 'How I prepare hardwood flake soil')+'</p>'
     if s['slug'] == 'strategus-aloeus':
         body += '<p class="guide-related">'+link('species-chrysina-woodi.html', 'My clay layer for pupating Chrysina woodi')+'</p>'
+    for related_slug in s.get('related_species', []):
+        related = by_slug.get(related_slug)
+        if related:
+            body += '<p class="guide-related">'+link(slink(related),'Breeding '+related['name'])+'</p>'
     if gallery_photos:
         toc.append('<li>'+link('#photographs','Photographs')+'</li>')
         body+='<section id="photographs"><h2>Photographs</h2>'
@@ -253,10 +257,15 @@ if substrate:
     page('substrate.html','Making substrate and flake soil','Preparing raised-bed soil mixes and fermented hardwood flake soil for beetle larvae.',body,active='substrate')
 about=intro('About me','',[(None,'About me')])
 about+='<div class="wrap block about-layout"><article class="article bio"><h2>Junkai Wang</h2><p>I’m a PhD student in entomology at Michigan State University. I study the diversity and evolution of bark beetles, particularly <i>Ips</i> and its relatives. I studied ecology and evolutionary biology and art and design at the University of Michigan.</p><p>I keep records of the beetles I rear, including the substrates I use, the eggs I recover, and when the adults emerge. This site brings those records and photographs together by species.</p><p>'+link('https://www.instagram.com/beetlescholar/','Instagram · @beetlescholar')+'</p>'+(' <p>'+link(config['facebook_url'],'Facebook · Junkai Wang')+'</p>' if config.get('facebook_url') else '')+'</article>'
-about+='<section class="social-panel" aria-labelledby="insta-title"><h2 id="insta-title">Instagram</h2><p>'+link('https://www.instagram.com/beetlescholar/','Open @beetlescholar on Instagram ↗')+'</p><div class="insta-scroll" tabindex="0" aria-label="Scrollable Instagram profile and posts"><iframe loading="lazy" title="Instagram profile of @beetlescholar" src="https://www.instagram.com/beetlescholar/embed/"></iframe>'
-for post in config.get('instagram_posts',[]):
-    about+='<iframe loading="lazy" title="'+e(post['title'])+'" src="'+e(post['url'].rstrip('/')+'/embed/')+'"></iframe>'
-about+='</div></section></div>'
+profile = config['instagram_gallery']
+files.add(profile['avatar'])
+about += '<section class="social-panel" aria-labelledby="insta-title"><h2 id="insta-title">Instagram</h2>'
+about += '<div class="instagram-card"><a class="instagram-profile" href="'+e(profile['url'])+'"><img src="'+e(profile['avatar'])+'" alt="Beetle portrait from the beetlescholar profile" width="62" height="62"><span><strong>@'+e(profile['handle'])+'</strong><span>'+e(profile['display_name'])+'</span></span><span class="profile-arrow" aria-hidden="true">↗</span></a>'
+about += '<div class="instagram-grid">'
+for post in profile['posts']:
+    files.add(post['file'])
+    about += '<a href="'+e(post['url'])+'"><img loading="lazy" width="320" height="320" src="'+e(post['file'])+'" alt="'+e(post['alt'])+'"></a>'
+about += '</div><a class="instagram-footer" href="'+e(profile['url'])+'">View full profile on Instagram ↗</a></div></section></div>'
 page('about.html','About Junkai Wang','About the creator of North American Beetle Breeding and photographs from @beetlescholar.',about,active='about')
 creditbody=intro('References','Published literature and publicly accessible rearing records cited in the species accounts.',[(None,'References')])+'<div class="wrap article-layout"><article class="article">'
 for s in guides:
