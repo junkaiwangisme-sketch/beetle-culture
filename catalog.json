@@ -1907,6 +1907,10 @@
         {
           "title": "Watching the adults",
           "text": "In field observations, adults sheltered during the day and visited sap after dark. Saunders found them active in July. For a captive group, I recommend checking the surface in the evening and waiting until the beetles have left their cells before selecting a pair. The wing covers are distinctly rough, a useful feature for distinguishing them from the smoother Osmoderma eremicola. Males can be recognized by conspicuous depressions on the head and pronotum. Older literature uses the spelling Osmoderma scabra."
+        },
+        {
+          "title": "The September adult and larvae",
+          "text": "In September 2025 I received an adult female alongside a group of larvae. I photographed her in a clear cup, then spread the larvae on the substrate for a second view. The female came with the group. I use that photograph to show the adult form, while the larval photographs document the stages I actually kept."
         }
       ],
       "sources": [
@@ -1925,6 +1929,10 @@
         {
           "title": "My field observation of adult feeding",
           "url": "https://discord.com/channels/1285685926340726887/1286131091987763264/1494811339615375411"
+        },
+        {
+          "title": "My September 2025 female and larvae",
+          "url": "https://discord.com/channels/1080588087836549221/1080588087836549224/1416457300079542294"
         }
       ],
       "record_type": "Rearing observations",
@@ -2637,7 +2645,7 @@
           "url": "https://edis.ifas.ufl.edu/publication/IN242/pdf"
         }
       ],
-      "account_credit": "Breeding notes by Junkai Wang and Alan Jeon",
+      "account_credit": "Breeding account by Alan Jeon",
       "primary_url": "https://discord.com/channels/1080588087836549221/1080588087836549224/1090839787721740408"
     },
     {
@@ -2700,7 +2708,7 @@
           "url": "https://www.scielo.br/j/rbent/a/x5zR9P9RYtgjtPyLFWqwQkL/?format=pdf&lang=en"
         }
       ],
-      "account_credit": "Breeding notes by Junkai Wang and Alan Jeon",
+      "account_credit": "Breeding account by Alan Jeon",
       "primary_url": "https://discord.com/channels/1080588087836549221/1080588087836549224/1090843962832584764"
     },
     {
@@ -2871,7 +2879,7 @@
         },
         {
           "title": "Leaving the eggs in place",
-          "text": "When I was asked how I found the eggs, my answer was that I left them where the females had laid them. The eggs hatched in the adult enclosure. Substrate moisture was the detail I watched. I kept the sand from drying out completely, while also avoiding soaking it. I did not need separate incubation cups to get the next generation."
+          "text": "I left the eggs where the females laid them. The eggs hatched in the adult enclosure. Substrate moisture was the detail I watched. I kept the sand from drying out completely, while also avoiding soaking it. I did not need separate incubation cups to get the next generation."
         },
         {
           "title": "Feeding the colony",
@@ -2922,15 +2930,15 @@
       "sections": [
         {
           "title": "Feeding the adults",
-          "text": "Alan offers moist, protein-rich foods to adults. Pre-killed insects and moistened dog food are two options they accept. For one breeding attempt he fed the female bess beetle pupae for several weeks before introducing the male. When asked about other feeder insects, he also recommended mealworm or superworm pupae. I would start with readily available feeder pupae and watch an adult feed."
+          "text": "I feed active adults moist, protein-rich food. They chew pre-killed insects and also take moistened dog food. For one breeding attempt I fed my female bess beetle pupae for several weeks before introducing the male. Mealworm or superworm pupae are practical alternatives I would offer if those are the feeders on hand."
         },
         {
           "title": "Choosing the laying wood",
-          "text": "Alan repeatedly tried finely ground fermented sawdust without obtaining eggs. In the successful setup he used material from a hollow white oak. The fine wood had decayed to a reddish brown, and it was mixed with larger fragments of wood and leaves. I would keep those larger pieces in the box. This is a useful distinction when preparing the substrate. An oak cavity supplies several textures that a box of uniformly fine sawdust lacks."
+          "text": "I repeatedly tried finely ground fermented sawdust and never found eggs in it. The setup that finally worked used material from a hollow white oak. I mixed the fine, reddish-brown decayed wood with the larger wood fragments and leaves from the same cavity. I would keep those coarse pieces when preparing another laying box."
         },
         {
           "title": "Pairing and raising the brood",
-          "text": "Alan placed the pair together after feeding the female. He removed the male two weeks later and left the female in the same enclosure. Eggs became visible another couple of weeks later. For the larvae he recommended rotten hardwood soft enough to break apart by hand. He also reported that they could be reared on organic potting soil and preferred including plenty of wood in their diet. His comparison concerned the material in which adults would lay. A substrate that supports a feeding grub may still give poor results when offered to a female."
+          "text": "Once the female had fed for several weeks, I put the pair in the breeding enclosure. After two weeks I removed the male. I left the female in place and began finding eggs a couple of weeks later. For feeding larvae I use rotten hardwood soft enough to break apart by hand. They can also be reared in organic potting soil. I favor a wood-rich diet and reserve the mix of cavity wood and larger fragments for the laying female."
         }
       ],
       "sources": [
@@ -2948,14 +2956,14 @@
         }
       ],
       "primary_url": "https://beetleforum.net/threads/sexing-determining-the-sex-of-phileurus-truncatus-triceratops-beetle.6438/",
-      "account_credit": "Breeding notes by Junkai Wang and Alan Jeon"
+      "account_credit": "Adult identification by Junkai Wang · Breeding account by Alan Jeon"
     },
     {
       "name": "Phileurus valgus",
       "slug": "phileurus-valgus",
       "common": "Lesser triceratops beetle",
       "group": "dynastinae",
-      "intro": "I kept Phileurus valgus alongside Phileurus truncatus in Michigan. Alan also established a breeding culture and followed it from egg laying to adult emergence. A practical feature of his setup is that he gives each female her own laying container, then moves the eggs to a larger rearing box.",
+      "intro": "This was the first rhinoceros beetle I reared after coming to the United States. I followed it from egg to adult, starting each female in a small laying cup and moving her eggs to a larger box. In Michigan, Junkai also kept this species alongside Phileurus truncatus.",
       "facts": [
         {
           "title": "Laying container",
@@ -2973,11 +2981,11 @@
       "sections": [
         {
           "title": "Setting up the female",
-          "text": "Alan fills a 32 oz container about three-quarters full with substrate for each female. He examines the substrate roughly once a month and moves any eggs into a larger container. Keeping each female separate makes it possible to follow her laying history across successive checks. In the field, Alan found a pair with first-instar larvae high in a tree. His find is a useful reminder that breeding wood can occur well above the forest floor."
+          "text": "I give each female a 32 oz (about 950 mL) container and fill it about three-quarters full with substrate. I check roughly once a month and move the eggs I find to a larger container. Keeping each female in her own laying cup lets me follow her output across successive checks. High in a tree one summer I found a pair with first-instar larvae. I have also seen remains in pieces that fell out of the canopy."
         },
         {
           "title": "Feeding and recognizing adults",
-          "text": "Alan photographed an adult feeding on dog food. When selecting a pair, the final abdominal segment is worth examining. Alan saw differences resembling the ones used to sex Phileurus truncatus, though his comparison involved few males. I would keep that identification provisional until mating or laying confirms it. In his captive series he recorded the last adult of the year emerging in autumn."
+          "text": "My adults eat dog food, and I photographed one feeding. When I try to sex them I examine the final abdominal segment. The differences looked similar to those in Phileurus truncatus, but I had only a few males available for comparison. I would check that tentative identification against mating or laying. The last adult of my 2013 series emerged in autumn."
         },
         {
           "title": "Recognizing pupation",
@@ -2999,7 +3007,7 @@
         }
       ],
       "primary_url": "https://beetleforum.net/threads/phileurus-valgus.1613/",
-      "account_credit": "Breeding notes by Junkai Wang and Alan Jeon"
+      "account_credit": "Breeding account by Alan Jeon · Additional stock kept by Junkai Wang"
     },
     {
       "name": "Strategus antaeus",
@@ -3032,7 +3040,11 @@
         },
         {
           "title": "Individual containers for the larvae",
-          "text": "I found that the Florida larvae could grow on flake soil alone. The sand belonged to my adult breeding setup. One of the captive-bred males I photographed came through on flake soil. The grubs were far more inclined to eat one another than the Strategus aloeus I kept, which tolerated some crowding. Alan recommends separating the eggs before the first-instar larvae emerge. I would set up and label the individual cups while checking the laying box, then give each hatchling its own feeding space from the start."
+          "text": "I found that the Florida larvae could grow on flake soil alone. The sand belonged to my adult breeding setup. One of the captive-bred males I photographed came through on flake soil. The grubs were far more inclined to eat one another than the Strategus aloeus I kept, which tolerated some crowding. I separate eggs before they hatch so that even the first-instar grubs have individual space. I would set up and label the individual cups while checking the laying box, then give each hatchling its own feeding space from the start."
+        },
+        {
+          "title": "A firm layer for pupation",
+          "text": "As the grubs approach full size, I provide clay-like soil beneath the feeding substrate. I use the same principle as in my Chrysina woodi setup: a larva needs material that holds together when it presses the walls of its cell. Once a grub settles in that layer, I leave the chamber undisturbed. The lake sand in my Ocala egg-laying mix served a different purpose."
         }
       ],
       "sources": [
@@ -3062,14 +3074,18 @@
         }
       ],
       "primary_url": "https://beetleforum.net/threads/frustrating-florida-locality-strategus-antaeus.5991/",
-      "account_credit": "Breeding notes by Junkai Wang and Alan Jeon"
+      "account_credit": "Breeding notes by Junkai Wang and Alan Jeon",
+      "related_species": [
+        "chrysina-woodi",
+        "strategus-aloeus"
+      ]
     },
     {
       "name": "Hemiphileurus illatus",
       "slug": "hemiphileurus-illatus",
       "common": "",
       "group": "dynastinae",
-      "intro": "Alan started this southwestern rhinoceros beetle with one male and two females. He used a setup modeled on his Phileurus valgus culture, found eggs in early August and followed the brood all the way into its pupal cells over the winter.",
+      "intro": "I started with one male and two females from Arizona. I housed them the way I had kept Phileurus valgus. Within twelve days I found eggs in one female’s substrate, and by winter I could follow the brood into its pupal cells.",
       "facts": [
         {
           "title": "Starting group",
@@ -3095,15 +3111,15 @@
       "sections": [
         {
           "title": "Starting with a trio",
-          "text": "On July 24 Alan set up his two females and one male. On August 5 he checked the substrate associated with one female and found eggs. For a repeat attempt, I would keep each female’s laying substrate together through the first check. This lets me tell which female produced a clutch and leave the other one undisturbed. The twelve days between his setup and that check are useful when planning the first inspection. He found eggs on August 5, so their individual laying dates remain open."
+          "text": "I set up the trio on July 24, 2013. When I checked one female’s substrate on August 5, I found eggs. If I were repeating the trial, I would keep each female’s laying material together through the first inspection. The twelve days describe the interval between two checks. The female may have laid well before I discovered the eggs."
         },
         {
           "title": "Using the comparison with Phileurus valgus",
-          "text": "For a repeat attempt, I would use Alan’s documented P. valgus setup as the reference. In that species he used a 32 oz container for each female, filled it roughly three-quarters with substrate, and moved the eggs to a larger box at his monthly check. For H. illatus he described using comparable conditions and actually found eggs well before a month had passed. The container volume and fill level are details from his valgus culture. The eggs found in early August are the result he documented for illatus."
+          "text": "My starting point was my Phileurus valgus method. For valgus I fill a 32 oz (about 950 mL) container about three-quarters full for each female, then move the eggs into a larger rearing box at a monthly check. I used comparable conditions for H. illatus. This group already had eggs when I checked well before the end of the first month."
         },
         {
           "title": "A brood through the winter",
-          "text": "Alan counted 25 larvae still alive on November 7. By February 21, roughly four out of five had made cells, and he could already see pupae. That staggered transition matters during a substrate check. In a single box there can be both grubs that still need feeding material and others already enclosed in chambers. I would leave any firm, closed cell intact and check it from the outside if it is visible through the wall. For me, the condition of each grub or cell is a better guide to handling than giving every individual in a brood the same treatment on the same date."
+          "text": "By September 11 the earliest batch had reached the third instar. On November 7 all 25 larvae I was following were still alive. On February 21, 2014, about four out of five had made cells and I could already see pupae. I leave closed cells intact when checking a mixed group. Some larvae may still be feeding while their siblings have settled into chambers against the wall."
         }
       ],
       "sources": [
@@ -3125,7 +3141,7 @@
         }
       ],
       "primary_url": "https://beetleforum.net/threads/hemiphileurus-illatus.1626/",
-      "account_credit": "Breeding notes by Junkai Wang and Alan Jeon"
+      "account_credit": "Breeding account by Alan Jeon"
     },
     {
       "name": "Megasoma punctulatum",
@@ -3362,7 +3378,7 @@
           "url": "https://ask.ifas.ufl.edu/publication/IN750"
         }
       ],
-      "account_credit": "Breeding notes by Junkai Wang and Alan Jeon",
+      "account_credit": "Adult photograph by Alan Jeon · Natural history and care notes by Junkai Wang and Alan Jeon",
       "primary_url": "https://www.inaturalist.org/observations/202175081"
     },
     {
@@ -3370,7 +3386,7 @@
       "slug": "euphoria-verticalis",
       "group": "cetoniinae",
       "common": "Flower scarab",
-      "intro": "I photographed a pinned adult of this dark flower scarab with its specimen label. This is a reference for recognizing the adult stage. The record adds a documented specimen to the species directory.",
+      "intro": "I photographed a pinned adult of this dark flower scarab with its specimen label. I use this specimen as an adult comparison. The label and the beetle are visible together in the photograph.",
       "sections": [
         {
           "title": "Comparing adults",
@@ -3393,7 +3409,7 @@
           "url": "https://doi.org/10.1649/0010-066X-66.mo4.1"
         }
       ],
-      "account_credit": "Breeding notes by Junkai Wang and Alan Jeon",
+      "account_credit": "Adult photograph by Alan Jeon · Natural history and care notes by Junkai Wang and Alan Jeon",
       "primary_url": "https://www.inaturalist.org/observations/253300577"
     },
     {
@@ -3515,7 +3531,7 @@
       "slug": "bolitotherus-cornutus",
       "group": "tenebrionidae",
       "common": "Forked fungus beetle",
-      "intro": "I would build this setup around an intact shelf fungus. The bracket is the adults’ feeding and courtship site, the female’s laying surface and the food the young tunnel into. Alan’s photograph shows the rough, knobbly adult that hides against the surface of its host.",
+      "intro": "I would build this setup around an intact shelf fungus. The bracket is the adults’ feeding and courtship site, the female’s laying surface and the food the young tunnel into. My photograph shows the rough, knobbly adult that hides against the surface of its host.",
       "facts": [
         {
           "title": "Host fungi",
@@ -3559,7 +3575,7 @@
         }
       ],
       "related_species": [],
-      "account_credit": "Breeding notes by Junkai Wang and Alan Jeon",
+      "account_credit": "Adult photograph by Alan Jeon · Natural history and care notes by Junkai Wang and Alan Jeon",
       "primary_url": "https://www.inaturalist.org/observations/313177985"
     },
     {
@@ -3567,7 +3583,7 @@
       "slug": "eleodes-goryi",
       "group": "tenebrionidae",
       "common": "Darkling beetle",
-      "intro": "I would start with an identified group of adults and keep its young together by locality. Alan’s photograph provides an adult comparison. A laboratory series from southern Texas shows that this species can lay readily in captivity, but many individuals were lost before their second larval instar.",
+      "intro": "I would start with an identified group of adults and keep its young together by locality. I photographed the glossy black adult on my palm, which gives a sense of its size. A laboratory series from southern Texas shows that this species can lay readily in captivity, but many individuals were lost before their second larval instar.",
       "facts": [
         {
           "title": "Source of the laboratory stock",
@@ -3609,7 +3625,7 @@
       "related_species": [
         "eleodes-hispilabris"
       ],
-      "account_credit": "Breeding notes by Junkai Wang and Alan Jeon",
+      "account_credit": "Adult photograph by Alan Jeon · Natural history and care notes by Junkai Wang and Alan Jeon",
       "primary_url": "https://www.inaturalist.org/observations/307509305"
     },
     {
@@ -3617,7 +3633,7 @@
       "slug": "cryptoglossa-variolosa",
       "group": "tenebrionidae",
       "common": "Death-feigning darkling beetle",
-      "intro": "Alan photographed two adult Cryptoglossa variolosa together on weathered wood. For a first enclosure I would pay particular attention to the ground and the refuges beneath it. The published records are strongest on habitat, defensive behavior and identification of the young.",
+      "intro": "I photographed two adult Cryptoglossa variolosa together on weathered wood. For a first enclosure I would pay particular attention to the ground and the refuges beneath it. The published records are strongest on habitat, defensive behavior and identification of the young.",
       "facts": [
         {
           "title": "Documented habitat",
@@ -3639,11 +3655,11 @@
         },
         {
           "title": "Choosing a starting setup",
-          "text": "The Sand Tank Mountains survey recorded both this species and Cryptoglossa muricata in the same Arizona mountain range. I would keep identified founders in separate groups and retain a photograph of each from above. The adult pair on the wood in Alan’s photograph illustrates surface activity. It provides no evidence that the adults lay inside wood, so I would also provide accessible soil and leave part of it undisturbed."
+          "text": "The Sand Tank Mountains survey recorded both this species and Cryptoglossa muricata in the same Arizona mountain range. I would keep identified founders in separate groups and retain a photograph of each from above. I watched the two adults on the surface of the wood. For a laying trial I would also give them accessible soil and keep part of it undisturbed."
         },
         {
           "title": "Documenting the young",
-          "text": "Aalbu’s illustrated treatment includes immature C. variolosa and provides a key to the young of several closely related species. I would use that work together with the identity of the parents if a larva appeared. The most helpful details to retain are the date and location of the first larva in the enclosure, its subsequent molts, and whether an adult ultimately emerges. I have no measured incubation or pupation schedule for Alan’s photographed beetles."
+          "text": "Aalbu’s illustrated treatment includes immature C. variolosa and provides a key to the young of several closely related species. I would use that work together with the identity of the parents if a larva appeared. The most helpful details to retain are the date and location of the first larva in the enclosure, its subsequent molts, and whether an adult ultimately emerges. I have no measured incubation or pupation schedule for these beetles."
         }
       ],
       "sources": [
@@ -3661,7 +3677,7 @@
         }
       ],
       "related_species": [],
-      "account_credit": "Breeding notes by Junkai Wang and Alan Jeon",
+      "account_credit": "Adult photograph by Alan Jeon · Natural history and care notes by Junkai Wang and Alan Jeon",
       "primary_url": "https://www.inaturalist.org/observations/303464043"
     },
     {
@@ -3713,7 +3729,7 @@
         }
       ],
       "related_species": [],
-      "account_credit": "Breeding notes by Junkai Wang and Alan Jeon",
+      "account_credit": "Adult photograph by Alan Jeon · Natural history and care notes by Junkai Wang and Alan Jeon",
       "primary_url": "https://www.inaturalist.org/observations/351890166"
     },
     {
@@ -3722,7 +3738,7 @@
       "group": "elateridae",
       "common": "Small-eyed click beetle",
       "intro": "The small-eyed click beetle has a close association with dead pine. Its larvae follow other insects through the galleries under the bark. H. E. Savely’s study of North Carolina logs records what the young larvae ate and where to look as the wood aged.",
-      "account_credit": "Adult photograph by Alan Jeon · Rearing guidance drawn from published species records",
+      "account_credit": "Adult photograph by Alan Jeon · Natural history and care notes by Junkai Wang and Alan Jeon",
       "facts": [
         {
           "title": "Larval habitat",
@@ -3740,7 +3756,7 @@
       "sections": [
         {
           "title": "Recognizing the adult",
-          "text": "I look at the shield just behind the head. Each dark eyespot on A. myops measures less than a quarter of the shield’s length. Gray scales cover more than half the brown upper surface, giving the beetle the mottled appearance in Alan’s photograph. The familiar eastern eyed click beetle, A. oculatus, has larger spots, each about a third of the shield’s length, and sparse white scales over black."
+          "text": "I look at the shield just behind the head. Each dark eyespot on A. myops measures less than a quarter of the shield’s length. Gray scales cover more than half the brown upper surface, giving the beetle the mottled appearance in my adult photograph. The familiar eastern eyed click beetle, A. oculatus, has larger spots, each about a third of the shield’s length, and sparse white scales over black."
         },
         {
           "title": "What the young larvae hunt",
@@ -3779,8 +3795,8 @@
       "slug": "orthosoma-brunneum",
       "group": "cerambycidae",
       "common": "Brown prionid",
-      "intro": "Alan’s photograph shows the long antennae and ridged wing covers of a brown prionid. Adults regularly come to lights across eastern North America. For anyone starting with an adult, a damp piece of already decaying wood gives the female a place to lay and the resulting larvae material they can eat for months.",
-      "account_credit": "Adult photograph by Alan Jeon · Rearing guidance drawn from published species records",
+      "intro": "I photographed an adult brown prionid on my hand, where its long antennae and ridged wing covers show clearly. Adults regularly come to lights across eastern North America. For anyone starting with an adult, a damp piece of already decaying wood gives the female a place to lay and the resulting larvae material they can eat for months.",
+      "account_credit": "Adult photograph by Alan Jeon · Natural history and care notes by Junkai Wang and Alan Jeon",
       "facts": [
         {
           "title": "Adult size",
@@ -4198,6 +4214,229 @@
       "account_credit": "Breeding notes by Junkai Wang",
       "related_species": [],
       "primary_url": "https://www.instagram.com/p/Dfffig3JR3b/"
+    },
+    {
+      "name": "Dorcus brevis",
+      "slug": "dorcus-brevis",
+      "common": "Eastern American stag beetle",
+      "group": "lucanidae",
+      "intro": "My first broods of Dorcus brevis grew to the third instar and then died. Getting eggs was only the first part of the problem. I kept working with this species and eventually raised it through the adult molt. In January 2021 I photographed one of my captive-bred adults.",
+      "sections": [
+        {
+          "title": "Selecting a pair",
+          "text": "Check the adults against Dorcus parallelus before pairing them. Viewed from above, the rear corners of the pronotum lie close to the bases of the wing covers in D. brevis. A small male can have short jaws and a narrow head. The shape of the mandibles is more useful than jaw length alone for deciding whether a beetle is female. I have seen a small male mistaken for a newly emerged female on just those grounds."
+        },
+        {
+          "title": "Laying and larval development",
+          "text": "For a pair I recommend a piece of decaying hardwood embedded in less-fermented hardwood flake soil, the general Dorcus setup described on the Substrate page. Offer active adults beetle jelly every five days, with apple or banana as alternatives. My early attempts produced larvae repeatedly, but they died during the third instar. By the time I was setting up my third attempt in 2014, I suspected that the larvae might need a seasonal rest. I had no tested chilling temperature or duration."
+        },
+        {
+          "title": "Recognizing success",
+          "text": "For any repeat of this culture I recommend recording three dates separately, when the larva last fed, when a pupa became visible and when the adult molted. The captive-bred adult I later photographed establishes that this species can complete its development in culture. I did not establish which change allowed the successful brood to pass the stage where my earlier broods failed."
+        }
+      ],
+      "facts": [
+        {
+          "title": "Early broods",
+          "text": "Larvae reached the third instar"
+        },
+        {
+          "title": "Successful endpoint",
+          "text": "Captive-bred adult documented in January 2021"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Alan Jeon, early breeding attempts",
+          "url": "https://beetleforum.net/threads/dorcus-brevis.2224/post-12538"
+        },
+        {
+          "title": "Alan Jeon, captive-bred adult",
+          "url": "https://beetleforum.net/threads/dorcus-brevis.4993/post-27536"
+        },
+        {
+          "title": "Junkai Wang, adults in culture",
+          "url": "https://beetleforum.net/threads/any-possible-michigan-breeders.5280/post-29415"
+        },
+        {
+          "title": "Paulsen (2010), North American Dorcus identification",
+          "url": "https://doi.org/10.3897/zookeys.34.292"
+        }
+      ],
+      "account_credit": "Breeding notes by Junkai Wang and Alan Jeon",
+      "primary_url": "https://beetleforum.net/threads/dorcus-brevis.2224/post-12538"
+    },
+    {
+      "name": "Platycerus oregonensis",
+      "slug": "platycerus-oregonensis",
+      "common": "Oregon stag beetle",
+      "group": "lucanidae",
+      "intro": "One pair of Oregon stag beetles produced approximately 13 larvae for me. One of those grubs spent months pale and motionless after constructing a chamber. It looked ready to pupate, but by the following March it had resumed feeding as a larva.",
+      "sections": [
+        {
+          "title": "Rearing the brood",
+          "text": "The larvae grew well at first. During summer the room repeatedly became hot, and all but one of the young beetles died. The survivor reached the third instar. My experience is a reason to pay attention to the warmest temperature in the rearing room, especially in a place that stays comfortable for most of the day but heats up for a few hours. I did not measure a maximum safe temperature. If repeating the setup, I would choose a place with less summer heat and keep pieces of the food wood with each feeding grub."
+        },
+        {
+          "title": "Watching a resting larva",
+          "text": "As the room cooled after summer, the survivor made a chamber. Its gut emptied and the body became visibly pale. I initially expected a pupa and waited for several months. When I checked in March, I could again see brown wood in its gut, and the larva had a bluish cast while it fed. From this one animal I learned to leave a quiet third instar and its chamber intact. An empty gut can precede a long pause followed by renewed feeding. Look for the actual pupal molt before marking that stage in your records."
+        }
+      ],
+      "facts": [
+        {
+          "title": "Brood from one pair",
+          "text": "Approximately 13 larvae"
+        },
+        {
+          "title": "After a hot summer",
+          "text": "One survivor reached the third instar"
+        },
+        {
+          "title": "Winter chamber",
+          "text": "The larva later resumed feeding"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Alan Jeon, breeding and overwintering observation",
+          "url": "https://beetleforum.net/threads/interesting-behavior-i-observed-on-oregon-stag-beetle.1922/post-10221"
+        }
+      ],
+      "account_credit": "Breeding notes by Junkai Wang and Alan Jeon",
+      "primary_url": "https://beetleforum.net/threads/interesting-behavior-i-observed-on-oregon-stag-beetle.1922/post-10221"
+    },
+    {
+      "name": "Sinodendron rugosum",
+      "slug": "sinodendron-rugosum",
+      "common": "Rugose stag beetle",
+      "group": "lucanidae",
+      "intro": "I tried breeding this small western stag beetle in both pieces of decaying wood and flake soil. The females readily bored into the logs. By the end of the trial I had found no larvae in either setup. A gallery was the clearest sign I saw of adult activity, but it was insufficient to establish a brood.",
+      "sections": [
+        {
+          "title": "Adults in wood",
+          "text": "These beetles reminded me of bess beetles in the way they worked into the wood. The adults appeared to eat it, although watching them excavate a tunnel could not tell me how much they actually swallowed. For another trial, I would keep intact pieces of wood available so the adults could continue boring and I could follow the occupied pieces separately."
+        },
+        {
+          "title": "What to try in a subsequent culture",
+          "text": "Wood species is one variable worth changing. Furniss and colleagues recorded this species emerging from decaying alder collected at Sheep Creek in Idaho. That gives me a specific wood to try and a reason to keep a note of its type and state of decay. In my earlier setups I saw females drill into logs, but I never found eggs or grubs to connect with those tunnels. For a repeat I would leave each occupied piece intact, check any loose material around it for young larvae, and record the first hatchling separately from the first sign of adult drilling."
+        }
+      ],
+      "facts": [
+        {
+          "title": "Media tried",
+          "text": "Decaying logs and flake soil"
+        },
+        {
+          "title": "Female activity",
+          "text": "Drilled into the logs"
+        },
+        {
+          "title": "Outcome",
+          "text": "No larvae recovered in either setup"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Junkai Wang, adults working in wood",
+          "url": "https://beetleforum.net/threads/s-rugosum.5885/post-31073"
+        },
+        {
+          "title": "Junkai Wang, outcome of breeding trial",
+          "url": "https://beetleforum.net/threads/s-rugosum.5885/post-32478"
+        },
+        {
+          "title": "Furniss and colleagues, decaying alder record from Idaho",
+          "url": "https://content-hub.uidaho.edu/api/public/content/f7f536d674204bd7956111a5558aa614?v=037dc3b9"
+        }
+      ],
+      "account_credit": "Breeding notes by Junkai Wang and Alan Jeon",
+      "primary_url": "https://beetleforum.net/threads/s-rugosum.5885/post-31073"
+    },
+    {
+      "name": "Ceruchus piceus",
+      "slug": "ceruchus-piceus",
+      "common": "Black stag beetle",
+      "group": "lucanidae",
+      "intro": "I photographed this small eastern stag beetle in the field. A decaying log can hold several stages of its life cycle, which makes the wood itself an important part of any attempt to keep it. My photograph documents an adult. The rearing suggestions below draw on its known habitat.",
+      "sections": [
+        {
+          "title": "Recognizing adults",
+          "text": "The body is glossy and black to dark reddish brown. Adult body length is approximately 10–14 mm without the mandibles. In males, look for the enlarged mandibles and a prominent tooth on the inner edge. I recommend photographing the beetle from above before it disappears back into a crevice. The mandibles and the outline of the head can then be checked together."
+        },
+        {
+          "title": "Choosing wood",
+          "text": "Published records include decaying logs of beech, birch, black cherry, oak and red pine. When selecting material for a trial, I would start with the species and condition of the wood in which the beetle was found. Keep some intact sections as well as loose decayed wood. A field account from the Université de Montréal describes pupation within a decomposing stump. If you encounter an occupied chamber, leave the surrounding walls in place and inspect only where the cell is already visible. I have a field record for this species and no measured egg-to-adult interval from my own culture."
+        }
+      ],
+      "facts": [
+        {
+          "title": "Firsthand record",
+          "text": "Field-observed adult"
+        },
+        {
+          "title": "Pupal site",
+          "text": "Decaying stump in a published field observation"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Alan Jeon, field observation and adult photograph",
+          "url": "https://www.inaturalist.org/observations/358782133"
+        },
+        {
+          "title": "Université de Montréal, Collection Ouellet-Robert species account",
+          "url": "https://qmor.umontreal.ca/en/ceruchus-piceus-weber-1801/"
+        },
+        {
+          "title": "Majka (2008), Maritime stag beetle records and host woods",
+          "url": "https://www.acadianes.org/journal/papers/majkalucanid_0806.pdf"
+        }
+      ],
+      "account_credit": "Breeding notes by Junkai Wang and Alan Jeon",
+      "primary_url": "https://www.inaturalist.org/observations/358782133"
+    },
+    {
+      "name": "Platycerus quercus",
+      "slug": "platycerus-quercus",
+      "common": "Oak stag beetle",
+      "group": "lucanidae",
+      "intro": "I photographed an adult oak stag beetle small enough to rest on the palm of my hand. This is a field account. Decaying oak is a sensible starting point for working with the species, and spring records give a useful indication of when adults may be active.",
+      "sections": [
+        {
+          "title": "Where to look for adults",
+          "text": "Look in the crevices of decaying logs and under loose bark. Adult oak stag beetles have also been collected on blackberry flowers. In Maryland, Staines and Staines recorded two specimens in a funnel trap between April 5 and 13. Those captures provide a local example of early adult activity. I would check both the wood and the vegetation nearby when following a population through spring."
+        },
+        {
+          "title": "Wood for a rearing trial",
+          "text": "For a first trial I would retain a section of the occupied log and keep the softer, partly crumbled material in contact with it. Larvae attributed to the oak stag beetle have been reported feeding in decaying oak logs and stumps. The adults found on blossoms and the larvae feeding in wood use different parts of the habitat. An adult on a flower alone gives no information about the wood that supported it as a grub. My adult photograph documents the field identification. I do not have a brood count or a measured developmental interval for this species."
+        }
+      ],
+      "facts": [
+        {
+          "title": "Firsthand record",
+          "text": "Field-observed adult"
+        },
+        {
+          "title": "Larval habitat",
+          "text": "Decaying oak logs and stumps"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Alan Jeon, adult oak stag beetle",
+          "url": "https://www.inaturalist.org/observations/267762563"
+        },
+        {
+          "title": "Staines and Staines, Maryland records of Platycerus quercus",
+          "url": "https://virginianaturalhistorysociety.com/wp-content/uploads/sites/28/2023/07/Banisteria_56_Staines-Staines_SERC_Coleoptera_2021-22_supplement.pdf"
+        },
+        {
+          "title": "W. Saunders, oak logs and stumps as larval habitat",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Insects_injurious_to_fruits_%28IA_insectsinjurious01saun%29.pdf"
+        }
+      ],
+      "account_credit": "Breeding notes by Junkai Wang and Alan Jeon",
+      "primary_url": "https://www.inaturalist.org/observations/267762563"
     }
   ],
   "photos": [
@@ -5555,6 +5794,30 @@
       "preferred": false
     },
     {
+      "file": "osmoderma-scabrum-september-1-alan.jpg",
+      "species": "Osmoderma scabrum",
+      "stage": "Adults",
+      "credit": "Alan Jeon",
+      "url": "https://discord.com/channels/1080588087836549221/1080588087836549224/1416457300079542294",
+      "caption": "An adult female specimen received with the group of larvae in September 2025.",
+      "alt": "Dorsal view of a dark female Osmoderma scabrum in a clear specimen cup.",
+      "width": 2992,
+      "height": 2992,
+      "preferred": true
+    },
+    {
+      "file": "osmoderma-scabrum-september-2-alan.jpg",
+      "species": "Osmoderma scabrum",
+      "stage": "Larvae",
+      "credit": "Alan Jeon",
+      "url": "https://discord.com/channels/1080588087836549221/1080588087836549224/1416457300079542294",
+      "caption": "Larvae received in the same September 2025 trade.",
+      "alt": "Several pale Osmoderma scabrum larvae on a mound of unpacked rearing substrate.",
+      "width": 2992,
+      "height": 2992,
+      "preferred": false
+    },
+    {
       "file": "pelidnota-punctata-key-largo-wang.jpg",
       "species": "Pelidnota punctata",
       "stage": "Adults",
@@ -5606,6 +5869,19 @@
       "height": 480
     },
     {
+      "species": "Sinodendron rugosum",
+      "file": "sinodendron-rugosum-adult-wang.jpg",
+      "stage": "Adults",
+      "alt": "Black adult Sinodendron rugosum on a hand, showing its horn and cylindrical body.",
+      "caption": "An adult from my 2022 rhinoceros stag beetle series.",
+      "credit": "Junkai Wang",
+      "url": "https://beetleforum.net/media/efff8c3a-a0c7-47d9-8a5f-824eecacfcc3-jpeg.595/",
+      "preferred": true,
+      "show_credit": true,
+      "width": 1200,
+      "height": 898
+    },
+    {
       "file": "zopherus-nodulosus-lichen-wang.jpg",
       "species": "Zopherus nodulosus",
       "stage": "Adults",
@@ -5629,6 +5905,21 @@
       "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
       "url": "https://www.inaturalist.org/observations/255556376",
       "photo_url": "https://www.inaturalist.org/photos/457994562",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "file": "ceruchus-piceus-358782133-alan.jpg",
+      "species": "Ceruchus piceus",
+      "stage": "Adults",
+      "caption": "An adult from a field observation.",
+      "alt": "Small black Ceruchus piceus seen from above on a hand beside decaying wood.",
+      "credit": "Alan Jeon",
+      "show_credit": true,
+      "license": "CC0 1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "url": "https://www.inaturalist.org/observations/358782133",
+      "photo_url": "https://www.inaturalist.org/photos/654546622",
       "width": 1024,
       "height": 1024
     },
@@ -5674,6 +5965,21 @@
       "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
       "url": "https://www.inaturalist.org/observations/313177985",
       "photo_url": "https://www.inaturalist.org/photos/565526900",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "file": "dorcus-brevis-268173013-alan.jpg",
+      "species": "Dorcus brevis",
+      "stage": "Adults",
+      "caption": "Adult at close range.",
+      "alt": "Black adult Dorcus brevis on soil-stained fingers against leaf litter.",
+      "credit": "Alan Jeon",
+      "show_credit": true,
+      "license": "CC0 1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "url": "https://www.inaturalist.org/observations/268173013",
+      "photo_url": "https://www.inaturalist.org/photos/482012338",
       "width": 1024,
       "height": 1024
     },
@@ -5794,6 +6100,21 @@
       "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
       "url": "https://www.inaturalist.org/observations/288921424",
       "photo_url": "https://www.inaturalist.org/photos/519625208",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "file": "platycerus-quercus-267762563-alan.jpg",
+      "species": "Platycerus quercus",
+      "stage": "Adults",
+      "caption": "An adult oak stag beetle at hand scale.",
+      "alt": "Small dark Platycerus quercus resting on an open palm.",
+      "credit": "Alan Jeon",
+      "show_credit": true,
+      "license": "CC0 1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "url": "https://www.inaturalist.org/observations/267762563",
+      "photo_url": "https://www.inaturalist.org/photos/481227776",
       "width": 1024,
       "height": 1024
     },
