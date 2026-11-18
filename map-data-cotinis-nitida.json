@@ -1,10 +1,82 @@
 {
   "scientific_name": "Cotinis nitida",
-  "map_type": "Reported administrative regions",
-  "date_compiled": "2026-11-18",
-  "coverage": "Selected North American jurisdictions in the cited sources. The extent of suitable habitat, geographic continuity, abundance and establishment status are not represented.",
-  "caption": "Contributed photographs document the green June beetle across the central and eastern United States.",
+  "taxon_id": 118538,
+  "date": "2026-11-18",
+  "filtered_url": "https://www.inaturalist.org/observations?place_id=97394&quality_grade=research&captive=false&geo=true&taxon_id=118538&view=map",
+  "api": "https://api.inaturalist.org/v2/observations",
+  "filters": {
+    "place_id": 97394,
+    "quality_grade": "research",
+    "captive": "false",
+    "geo": "true",
+    "taxon_id": 118538,
+    "id_below": 415373959
+  },
+  "geography": "Official iNaturalist North America place 97394, including Mexico, Central America and the Caribbean. Each figure is framed around the plotted observations.",
+  "api_total_at_start": 36644,
+  "retrieved_count": 36644,
+  "mapped_count": 36644,
+  "excluded_as_extreme_outlier": 0,
+  "missing_public_coordinate_ids": [],
+  "outlier_screen": "Group public positions into 0.25° longitude–latitude cells. Flag cells with one or two observations whose center is at least 500 km (great-circle distance) from every other occupied cell for that species. Omit an observation only when the review also finds substantive evidence against its use in the distribution plot. Document each decision, including retained candidates.",
+  "outlier_audit": [
+    {
+      "cell_center": [
+        -122.625,
+        45.375
+      ],
+      "observation_ids": [
+        349662253
+      ],
+      "nearest_occupied_cell_km": 1552.8,
+      "review": [
+        {
+          "id": 349662253,
+          "decision": "retain",
+          "reason": "Participants questioned this Portland record given the eastern distribution of the species and discussed confusion with Cotinis mutabilis. No corrected identification, transport event or location error was documented. The point remains provisional and does not establish an Oregon population.",
+          "sources": [
+            "https://www.bugguide.net/node/view/520/data",
+            "https://www.inaturalist.org/observations/349662253"
+          ]
+        }
+      ]
+    }
+  ],
+  "precision": "Filled symbols represent public, unobscured coordinates with reported public positional accuracy at most 10 km. Open symbols represent obscured coordinates or larger/unknown accuracy. All positions come from the anonymous public API.",
+  "precision_counts": {
+    "coarse_or_unknown": 9012,
+    "precise": 27632,
+    "obscured": 3221
+  },
+  "projection": {
+    "name": "Spherical Albers equal-area conic",
+    "standard_parallels_deg": [
+      20,
+      50
+    ],
+    "central_meridian_deg": -82.53,
+    "earth_radius_km": 6371.0088
+  },
+  "interpretation": "Points show reported occurrences. Sampling effort varies across the map. The record count includes coincident and overlapping locations.",
   "sources": [
+    {
+      "title": "iNaturalist observations",
+      "url": "https://www.inaturalist.org/observations?place_id=97394&quality_grade=research&captive=false&geo=true&taxon_id=118538&view=map"
+    },
+    {
+      "title": "Region boundary (North America, iNaturalist place 97394)",
+      "url": "https://www.inaturalist.org/places/north-america"
+    },
+    {
+      "title": "iNaturalist geoprivacy",
+      "url": "https://www.inaturalist.org/pages/geoprivacy"
+    },
+    {
+      "title": "Natural Earth boundaries",
+      "url": "https://www.naturalearthdata.com/downloads/50m-cultural-vectors/"
+    }
+  ],
+  "regional_references": [
     {
       "title": "BugGuide photo records",
       "url": "https://www.bugguide.net/node/view/520/data",
@@ -134,18 +206,6 @@
           "name": "West Virginia"
         }
       ]
-    }
-  ],
-  "current_observation_map": "https://www.inaturalist.org/observations?place_id=97394&quality_grade=research&captive=false&geo=true&view=map&taxon_id=118538",
-  "projection": "Albers equal-area conic (standard parallels 20°N and 50°N, central meridian -88.301°).",
-  "boundary_sources": [
-    {
-      "title": "Natural Earth, 1:50m cultural vectors",
-      "url": "https://www.naturalearthdata.com/downloads/50m-cultural-vectors/"
-    },
-    {
-      "title": "Mexico boundaries from Highsoft map collection, based on Natural Earth",
-      "url": "https://code.highcharts.com/mapdata/countries/mx/mx-all.topo.json"
     }
   ]
 }

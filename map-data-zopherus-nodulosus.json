@@ -1,10 +1,82 @@
 {
   "scientific_name": "Zopherus nodulosus",
-  "map_type": "Reported administrative regions",
-  "date_compiled": "2026-11-18",
-  "coverage": "Selected North American jurisdictions in the cited sources. The extent of suitable habitat, geographic continuity, abundance and establishment status are not represented.",
-  "caption": "A USNM review illustrates the nominate form from Sonora and the subspecies haldemani from Texas.",
+  "taxon_id": 126476,
+  "date": "2026-11-18",
+  "filtered_url": "https://www.inaturalist.org/observations?place_id=97394&quality_grade=research&captive=false&geo=true&taxon_id=126476&view=map",
+  "api": "https://api.inaturalist.org/v2/observations",
+  "filters": {
+    "place_id": 97394,
+    "quality_grade": "research",
+    "captive": "false",
+    "geo": "true",
+    "taxon_id": 126476,
+    "id_below": 414740385
+  },
+  "geography": "Official iNaturalist North America place 97394, including Mexico, Central America and the Caribbean. Each figure is framed around the plotted observations.",
+  "api_total_at_start": 4994,
+  "retrieved_count": 4994,
+  "mapped_count": 4993,
+  "excluded_as_extreme_outlier": 1,
+  "missing_public_coordinate_ids": [],
+  "outlier_screen": "Group public positions into 0.25° longitude–latitude cells. Flag cells with one or two observations whose center is at least 500 km (great-circle distance) from every other occupied cell for that species. Omit an observation only when the review also finds substantive evidence against its use in the distribution plot. Document each decision, including retained candidates.",
+  "outlier_audit": [
+    {
+      "cell_center": [
+        -117.875,
+        33.625
+      ],
+      "observation_ids": [
+        252517355
+      ],
+      "nearest_occupied_cell_km": 1480.0,
+      "review": [
+        {
+          "id": 252517355,
+          "decision": "exclude_from_map",
+          "reason": "The observer confirmed the Irvine locality but described a greenhouse receiving outside materials and discussed transported moss as a possible pathway. Omitted from the range figure as a possible greenhouse interception. Its origin remains unresolved.",
+          "sources": [
+            "https://www.govinfo.gov/content/pkg/GOVPUB-SI-PURL-gpo28752/pdf/GOVPUB-SI-PURL-gpo28752.pdf",
+            "https://www.inaturalist.org/observations/252517355"
+          ]
+        }
+      ]
+    }
+  ],
+  "precision": "Filled symbols represent public, unobscured coordinates with reported public positional accuracy at most 10 km. Open symbols represent obscured coordinates or larger/unknown accuracy. All positions come from the anonymous public API.",
+  "precision_counts": {
+    "precise": 3896,
+    "coarse_or_unknown": 1097,
+    "obscured": 315
+  },
+  "projection": {
+    "name": "Spherical Albers equal-area conic",
+    "standard_parallels_deg": [
+      20,
+      50
+    ],
+    "central_meridian_deg": -97.85,
+    "earth_radius_km": 6371.0088
+  },
+  "interpretation": "Points show reported occurrences. Sampling effort varies across the map. The record count includes coincident and overlapping locations.",
   "sources": [
+    {
+      "title": "iNaturalist observations",
+      "url": "https://www.inaturalist.org/observations?place_id=97394&quality_grade=research&captive=false&geo=true&taxon_id=126476&view=map"
+    },
+    {
+      "title": "Region boundary (North America, iNaturalist place 97394)",
+      "url": "https://www.inaturalist.org/places/north-america"
+    },
+    {
+      "title": "iNaturalist geoprivacy",
+      "url": "https://www.inaturalist.org/pages/geoprivacy"
+    },
+    {
+      "title": "Natural Earth boundaries",
+      "url": "https://www.naturalearthdata.com/downloads/50m-cultural-vectors/"
+    }
+  ],
+  "regional_references": [
     {
       "title": "Triplehorn, review of the genus Zopherus, plate 2",
       "url": "https://www.govinfo.gov/content/pkg/GOVPUB-SI-PURL-gpo28752/pdf/GOVPUB-SI-PURL-gpo28752.pdf",
@@ -18,18 +90,6 @@
           "name": "Sonora"
         }
       ]
-    }
-  ],
-  "current_observation_map": "https://www.inaturalist.org/observations?place_id=97394&quality_grade=research&captive=false&geo=true&view=map&taxon_id=126476",
-  "projection": "Albers equal-area conic (standard parallels 20°N and 50°N, central meridian -104.286°).",
-  "boundary_sources": [
-    {
-      "title": "Natural Earth, 1:50m cultural vectors",
-      "url": "https://www.naturalearthdata.com/downloads/50m-cultural-vectors/"
-    },
-    {
-      "title": "Mexico boundaries from Highsoft map collection, based on Natural Earth",
-      "url": "https://code.highcharts.com/mapdata/countries/mx/mx-all.topo.json"
     }
   ]
 }

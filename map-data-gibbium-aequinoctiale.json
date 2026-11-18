@@ -1,10 +1,105 @@
 {
   "scientific_name": "Gibbium aequinoctiale",
-  "map_type": "Reported administrative regions",
-  "date_compiled": "2026-11-18",
-  "coverage": "Selected North American jurisdictions in the cited sources. The extent of suitable habitat, geographic continuity, abundance and establishment status are not represented.",
-  "caption": "North American photo and specimen records include the eastern United States, Texas and Ontario. Indoor records can reflect transport in stored materials.",
+  "taxon_id": 220380,
+  "date": "2026-11-18",
+  "filtered_url": "https://www.inaturalist.org/observations?place_id=97394&quality_grade=research&captive=false&geo=true&taxon_id=220380&view=map",
+  "api": "https://api.inaturalist.org/v2/observations",
+  "filters": {
+    "place_id": 97394,
+    "quality_grade": "research",
+    "captive": "false",
+    "geo": "true",
+    "taxon_id": 220380,
+    "id_below": 413391594
+  },
+  "geography": "Official iNaturalist North America place 97394, including Mexico, Central America and the Caribbean. Each figure is framed around the plotted observations.",
+  "api_total_at_start": 486,
+  "retrieved_count": 486,
+  "mapped_count": 486,
+  "excluded_as_extreme_outlier": 0,
+  "missing_public_coordinate_ids": [],
+  "outlier_screen": "Group public positions into 0.25° longitude–latitude cells. Flag cells with one or two observations whose center is at least 500 km (great-circle distance) from every other occupied cell for that species. Omit an observation only when the review also finds substantive evidence against its use in the distribution plot. Document each decision, including retained candidates.",
+  "outlier_audit": [
+    {
+      "cell_center": [
+        -117.875,
+        33.625
+      ],
+      "observation_ids": [
+        56889441
+      ],
+      "nearest_occupied_cell_km": 1570.0,
+      "review": [
+        {
+          "id": 56889441,
+          "decision": "retain",
+          "reason": "The record is geographically isolated in California. The species is a cosmopolitan spider beetle associated with stored products, and the observation has no documented locality or identification correction.",
+          "sources": [
+            "https://bugguide.net/node/view/55820/data",
+            "https://research.fs.usda.gov/download/treesearch/41369.pdf",
+            "https://www.inaturalist.org/observations/56889441"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_center": [
+        -122.125,
+        47.375
+      ],
+      "observation_ids": [
+        202348892
+      ],
+      "nearest_occupied_cell_km": 1570.0,
+      "review": [
+        {
+          "id": 202348892,
+          "decision": "retain",
+          "reason": "The Washington record is geographically isolated. The species can occur in stored products across North America. The observation discussion expresses uncertainty without documenting a replacement identification.",
+          "sources": [
+            "https://bugguide.net/node/view/55820/data",
+            "https://research.fs.usda.gov/download/treesearch/41369.pdf",
+            "https://www.inaturalist.org/observations/202348892"
+          ]
+        }
+      ]
+    }
+  ],
+  "precision": "Filled symbols represent public, unobscured coordinates with reported public positional accuracy at most 10 km. Open symbols represent obscured coordinates or larger/unknown accuracy. All positions come from the anonymous public API.",
+  "precision_counts": {
+    "coarse_or_unknown": 154,
+    "obscured": 83,
+    "precise": 332
+  },
+  "projection": {
+    "name": "Spherical Albers equal-area conic",
+    "standard_parallels_deg": [
+      20,
+      50
+    ],
+    "central_meridian_deg": -74.01,
+    "earth_radius_km": 6371.0088
+  },
+  "interpretation": "Points show reported occurrences. Sampling effort varies across the map. The record count includes coincident and overlapping locations.",
   "sources": [
+    {
+      "title": "iNaturalist observations",
+      "url": "https://www.inaturalist.org/observations?place_id=97394&quality_grade=research&captive=false&geo=true&taxon_id=220380&view=map"
+    },
+    {
+      "title": "Region boundary (North America, iNaturalist place 97394)",
+      "url": "https://www.inaturalist.org/places/north-america"
+    },
+    {
+      "title": "iNaturalist geoprivacy",
+      "url": "https://www.inaturalist.org/pages/geoprivacy"
+    },
+    {
+      "title": "Natural Earth boundaries",
+      "url": "https://www.naturalearthdata.com/downloads/50m-cultural-vectors/"
+    }
+  ],
+  "regional_references": [
     {
       "title": "BugGuide photo records",
       "url": "https://bugguide.net/node/view/55820/data",
@@ -56,18 +151,6 @@
           "name": "Wisconsin"
         }
       ]
-    }
-  ],
-  "current_observation_map": "https://www.inaturalist.org/observations?place_id=97394&quality_grade=research&captive=false&geo=true&view=map&taxon_id=220380",
-  "projection": "Albers equal-area conic (standard parallels 20°N and 50°N, central meridian -88.701°).",
-  "boundary_sources": [
-    {
-      "title": "Natural Earth, 1:50m cultural vectors",
-      "url": "https://www.naturalearthdata.com/downloads/50m-cultural-vectors/"
-    },
-    {
-      "title": "Mexico boundaries from Highsoft map collection, based on Natural Earth",
-      "url": "https://code.highcharts.com/mapdata/countries/mx/mx-all.topo.json"
     }
   ]
 }
