@@ -135,15 +135,23 @@
       "name": "Pelidnota punctata",
       "common": "Grapevine beetle",
       "group": "rutelinae",
-      "intro": "Grapevine beetle adults feed on grape foliage. In Kansas, females laid eggs in moist soil beneath decaying logs, and the hatchlings bored into the adjacent wood.",
+      "intro": "For grapevine beetles I would set out two foods before introducing a pair. Adults feed mainly on the leaves of wild and cultivated grapes. The moment a grub hatches, it can bore into soft, decaying hardwood. William P. Hayes followed both stages in Kansas and recorded which hardwood carried a brood all the way to adulthood.",
       "sections": [
         {
-          "title": "Mating and oviposition",
-          "text": "Field observations in Kansas placed mating adults on wild grape at night. Females laid eggs singly between June 19 and August 17. Fresh eggs measured about 2.0 × 1.5 mm and became rounder as they developed."
+          "title": "Adult food and pairing",
+          "text": "I recommend fresh grape foliage for the adults. They also eat the grapes themselves and sometimes feed on Virginia creeper. During the day the beetles often rest on their host plants. After dark they take flight, sometimes coming to lights, and pairs meet on the vines. Evening is a good time to watch the foliage for mating. Hayes also saw a captive pair mate on the soil during the afternoon."
         },
         {
-          "title": "Development in decaying wood",
-          "text": "One egg laid in early July 1919 produced an adult on July 11, 1921. In a separate rearing, hatchlings placed in crumbled, decaying elm in July 1920 produced 12 adult males and 17 adult females by July 1922."
+          "title": "The laying site and eggs",
+          "text": "For the laying site I would put moist soil directly against soft, decomposed hardwood. Females place eggs singly in the soil under a log or beside a rotten stump, sometimes enclosing each egg in a small ball of earth. Kansas laying records ran from June 19 to August 17. A fresh egg is pearly white and oval, about 2.0 by 1.5 mm. It expands and rounds out before hatching. Incubation spanned 8–26 days in the laboratory and averaged about 15 days."
+        },
+        {
+          "title": "Feeding the grubs",
+          "text": "Rotten elm is my first choice when following Hayes’s method. Hayes placed hatchlings together in a large container of crumbled, decaying elm in July 1920 and left them undisturbed. When he examined the container two years later, it held 12 recently matured males and 17 females. In the wild, grubs also tunnel into the decayed roots of stumps. Walnut, cherry and birch are among the other hardwoods recorded. Larvae overwinter in the wood, and individuals can reach their third instar either before their first winter or the following year."
+        },
+        {
+          "title": "Pupation and the next adults",
+          "text": "I would allow about two full years from egg laying before expecting new adults. The inactive prepupal period lasted 3–9 days in Kansas. In a series of 21 pupae, the pupal stage lasted 13–24 days and averaged 19. One beetle tracked individually from an egg laid in early July 1919 became an adult on July 11, 1921, closely matching the two-year interval in the elm container."
         }
       ],
       "sources": [
@@ -219,15 +227,19 @@
       "name": "Odontotaenius disjunctus",
       "common": "Horned passalus",
       "group": "passalidae",
-      "intro": "Both parents tend the brood in galleries excavated in decaying wood. Young adults that remain in the natal log can contribute to the care of later broods.",
+      "intro": "A horned passalus family uses the same piece of decaying hardwood as a nest and a food supply. Both parents cut galleries, prepare food for the grubs and tend the brood through pupation. A section of occupied wood may therefore contain a breeding pair, larvae of several sizes and newly emerged adults together. For this species, I would start with a family and its occupied wood.",
       "sections": [
         {
-          "title": "Eggs and larval feeding",
-          "text": "Adults carry egg clutches between sites within the gallery. After hatching, larvae remain with the parents and feed on softened wood mixed with adult frass. Colonies have been maintained in moist, decayed oak."
+          "title": "Housing a family",
+          "text": "I would choose moist, well-decayed hardwood that still holds together well enough for tunnels. University of Florida keepers recommend using the rotted oak in which the beetles were found. Preserve the occupied galleries when moving a family, and add more softened wood as the adults consume it. Keep established broods together. In an experiment by King and Fashing, larval mortality was higher with adults that had never reproduced than with the larvae’s own parents or with unrelated adults already caring for young."
         },
         {
-          "title": "Pupal chambers",
-          "text": "Adults pack fragments of wood and other debris around the developing pupae and repair damaged chambers. Both parents and recently emerged adults can construct these cells."
+          "title": "Eggs and larval food",
+          "text": "Pairs mate inside the log. An early field account recorded about 20–35 eggs per pair over May and June, which explains why a single gallery can contain larvae of quite different ages. Clusters of eggs lie among the adults’ frass, and the parents can pick them up with their mandibles and move them within the nest. Individual eggs enlarge from about 3.0 × 2.4 mm at laying to 3.7 × 3.2 mm shortly before hatching.\nI would leave the fine material along the gallery walls in place. The grubs eat wood their parents have chewed, together with frass. A resting grub curls into a C. Its first two pairs of legs are conspicuous, while the hind pair is so reduced that the animal can appear to have only four legs."
+        },
+        {
+          "title": "Pupal chambers and young adults",
+          "text": "Adults enclose the developing pupae in chambers made with wood particles and other debris. They repair breaks in the chamber, and older siblings can help do this even while their own adult cuticle is still hardening. I would leave an intact chamber with the family, even if a young adult is sharing that section of the gallery. Newly emerged beetles are reddish and gradually darken to black. Depending on moisture and temperature, the life cycle can fit within a summer or extend to 14–16 months. Some pupae overwinter in the log."
         }
       ],
       "sources": [
@@ -238,6 +250,14 @@
         {
           "title": "UF/IFAS Extension, Guide to Collecting and Maintaining Live Arthropods for Classroom Display",
           "url": "https://ask.ifas.ufl.edu/publication/in759"
+        },
+        {
+          "title": "King and Fashing (2007), parental history and larval survival in Odontotaenius disjunctus",
+          "url": "https://doi.org/10.1007/s10905-007-9094-z"
+        },
+        {
+          "title": "Two divergent genetic lineages within the horned passalus beetle (2019), review of parental and sibling care",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6628224/"
         }
       ],
       "facts": [
@@ -299,15 +319,19 @@
       "name": "Tenebrio molitor",
       "common": "Yellow mealworm beetle",
       "group": "tenebrionidae",
-      "intro": "Yellow mealworm larvae feed within cereal substrates. A 2023 rearing study compared oat and wheat by-products and documented the adult breeding period separately from larval growth.",
+      "intro": "The yellow mealworm is the larval stage of a darkling beetle. Wheat bran can carry a colony through its entire life cycle. The adults lay in it, the hatchlings feed where they emerge, and mature larvae can be set aside to produce the next generation of beetles. For a small culture, I recommend dating each laying tray so the broods are easy to follow.",
       "sections": [
         {
-          "title": "Breeding substrate",
-          "text": "Each breeding tray contained 400 g of grain substrate. Adults oviposited for two weeks before removal, after which the larvae received a further 600 g of substrate. Carrot supplied moisture to both stages."
+          "title": "Preparing a breeding tray",
+          "text": "For the adults I would use a shallow, ventilated tray of dry wheat bran with small pieces of carrot for moisture. Give only as much carrot as the beetles will use before it spoils. A published wheat-bran colony at the University of Thessaly used fine mesh on the lid and fresh potato slices twice a week. Its beetles bred at 26 °C and 50% relative humidity in darkness. The researchers transferred the adults to fresh bran each week and left the eggs in the original tray. The laying interval gives a useful estimate of the ages of the young that appear later."
         },
         {
-          "title": "Larval development",
-          "text": "Larvae grew on either milled oat by-product or wheat bran. The wheat-bran cohort also supplied pupae and adults for the study. Ten weeks was the larval harvest age for analysis."
+          "title": "Eggs and growing larvae",
+          "text": "The females burrow and often deposit eggs near the tray floor. Retain the used grain even if it looks empty. For a large colony, a screen with openings around 2 mm wide lets females lay through it while keeping the adults away from the eggs. Adults can otherwise eat eggs in crowded trays.\nA Norwegian trial used about 500 adults in each 53.5 × 34.5 × 5.6 cm tray. Each group had 400 g of wheat bran or milled oat by-product for two weeks of laying. After removing the adults, the researchers added 600 g of the same feed and provided carrots for moisture. Both feeds supported larvae through the ten-week sampling age. The researchers kept the wheat-bran group longer to obtain pupae and adults."
+        },
+        {
+          "title": "Keeping the next generation",
+          "text": "To keep the colony going, I would set aside some large larvae to mature. Pupation can extend across several weeks in one tray. Pick out the pale pupae as they appear because feeding larvae can injure or eat them. Lay them in a single layer on a little bran. Inagro’s rearing guide reports adult emergence after about seven to eight days under its production conditions. Move the new beetles into a breeding tray with fresh bran and a moisture source to begin another dated batch."
         }
       ],
       "sources": [
@@ -322,6 +346,14 @@
         {
           "title": "EAZA, Management Guideline Manual for Invertebrate Live Food Species, mealworm account",
           "url": "https://www.amphibianark.org/fileadmin/uploads/aark/Husbandry_Library/2006_EAZA-Management-Guideline-Manual-for-Invertebrate-Live-Food-Species.pdf"
+        },
+        {
+          "title": "Evaluation of various commodities for the development of the yellow mealworm (2020), University of Thessaly colony methods",
+          "url": "https://www.nature.com/articles/s41598-020-67363-1"
+        },
+        {
+          "title": "David Deruytter (Inagro), practical guidelines for mealworm producers, SUSINCHAIN",
+          "url": "https://susinchain.eu/wp-content/uploads/2024/05/Deliverable-2.6_Practical-guideline-for-upscaling-and-improving-insect-rearing.pdf.pdf"
         }
       ],
       "facts": [
@@ -383,21 +415,33 @@
       "name": "Gymnetis thula",
       "common": "Harlequin flower beetle",
       "group": "cetoniinae",
-      "intro": "Adults of the harlequin flower beetle visit flowers and sap flows by day. The same decaying plant material in which females lay their eggs feeds the developing grubs.",
+      "intro": "For a colony of harlequin flower beetles, I plan for two appetites. The day-flying adults gather around ripe fruit at the surface. Beneath them, females lay in decomposing plant material, and the young grubs start feeding as soon as they hatch.",
       "sections": [
         {
-          "title": "Adult feeding",
-          "text": "Adults consume fruit and plant exudates. In Texas, feeding adults have been recorded at sap flows on false willow (Baccharis neglecta)."
+          "title": "Feeding and watching the adults",
+          "text": "I recommend starting with soft banana or apple, both favorites in the Roach Crossing colony. Rosamond Gifford Zoo also feeds its beetles ripe fruit and vegetable scraps. Outdoors, adults visit flowers and feed at sap flows, including those of false willow in Texas. They are quick to take wing if disturbed, so use a covered enclosure and check the underside of the lid as you lift it. Captive adults have lived as long as eight months. A colony may still have actively feeding adults well after its first larvae appear."
         },
         {
-          "title": "Oviposition and larval habitat",
-          "text": "Females lay in compost, fermenting oak and other decaying plant material. Larvae have also been found in tree hollows containing decomposed vegetation."
+          "title": "Preparing the breeding substrate",
+          "text": "Prepare a loose bed of decayed plant matter below the fruit. Females lay in compost or fermenting oak, and larvae will eat the material surrounding the eggs. In the wild, grubs occupy decomposed material in tree cavities, including hollows in post oak and mesquite. In culture, rotting wood and compost make good starting materials. The Roach Crossing colony also consumed decomposing yard vegetation. Aim for a moist mixture loose enough for the larvae to move through. Check below the surface when judging moisture, especially in a shallow enclosure."
+        },
+        {
+          "title": "Recognizing pupation",
+          "text": "The white, curved grubs grow through three instars and can reach about 25 mm. When replacing old substrate, check for oval cells before breaking up the lumps. These larvae can build chambers from their own frass, so what looks like spent substrate can contain a pupa. Leave each occupied cell in place. In the Roach Crossing colony, adults emerged several weeks after pupating. Once the beetles appear at the surface, offer fresh fruit again. The amount of cream on the head, thorax and wing covers varies from one adult to the next."
         }
       ],
       "sources": [
         {
           "title": "Louisiana State University AgCenter, Gymnetis thula, Harlequin Flower Beetle",
           "url": "https://www.lsuagcenter.com/profiles/averywilliams/articles/page1791230872900"
+        },
+        {
+          "title": "Rosamond Gifford Zoo, Harlequin flower beetle",
+          "url": "https://www.rosamondgiffordzoo.org/visit/animals/invertebrates/harlequin-flower-beetle/"
+        },
+        {
+          "title": "Roach Crossing, Harlequin flower beetle colony observations",
+          "url": "https://www.roachcrossing.com/for-sale/non-roach/harlequin-flower-beetle/"
         }
       ],
       "facts": [
@@ -412,6 +456,10 @@
         {
           "title": "Seasonal activity",
           "text": "Most adult observations fall between May and July"
+        },
+        {
+          "title": "Adult feeding in our collection",
+          "text": "Offer beetle jelly every five days, or apple or banana."
         }
       ],
       "classification": [
@@ -463,15 +511,23 @@
       "name": "Dynastes tityus",
       "common": "Eastern Hercules beetle",
       "group": "dynastinae",
-      "intro": "Eastern Hercules beetle larvae feed on decaying hardwood, particularly the loose wood debris in cavities at the bases of oaks. Adults have been observed taking sap from wounds on ash trees.",
+      "intro": "I have raised hundreds of eastern Hercules beetles in Michigan. I can rear a large brood on organic raised-bed soil, and I have also raised sizeable males on used substrate. A newly formed adult may sit through the winter in its pupal chamber, so I plan the next pairing around when the beetles actually come up and feed.",
       "sections": [
         {
-          "title": "Captive reproduction",
-          "text": "The Kentucky account describes a laying chamber containing at least one US gallon (3.8 L) of moist substrate, with two parts soil to one part decayed hardwood. Adults accepted apple, orange and overripe banana."
+          "title": "Feeding and pairing active adults",
+          "text": "I keep an active male and female together. I offer beetle jelly every five days, or a piece of apple or banana. I watch for the female to feed and burrow before checking for eggs. I prefer to see a mating when I can. In my experience, roughly a third of the wild-caught females I have worked with appeared to be unmated. A female from the Texas Sandhills was one of them.\nSeason matters when putting a pair together. Adults I collected in northern Florida in 2024 became active in late May the following year. I wait for both beetles to be active before pairing them."
         },
         {
-          "title": "Seasonal development",
-          "text": "Females lay eggs in summer. Newly formed adults can remain in their pupal cells through winter and emerge above ground in June or July."
+          "title": "Choosing substrate for a large brood",
+          "text": "When I was raising hundreds at once, I used a locally available organic raised-bed soil as a cheaper alternative to flake soil. It worked for my Michigan colony, although I had to change it more often. Products sold as raised-bed soil vary from place to place. Before using a whole bag for a brood, I would try a small batch and follow how well the grubs feed and grow. The major males I raised this way measured about 55–62 mm. I never reached 65 mm with that method.\nI have also obtained males over 55 mm on spent substrate that the larvae had reduced almost entirely to dry frass. That was a separate trial. For a new brood I would start with fresh larval food and replace it as the grubs consume it."
+        },
+        {
+          "title": "Wood in the field and in culture",
+          "text": "Tree cavities are a good place to look for the loose material the larvae eat. I have seen this species use standing dead pine. In 2021 I received Alabama beetles from Alan that had been found in pine and raised on potting soil. I keep that distinction in mind when choosing a substrate. The material a grub came from in the woods and the food it developed on afterward can be quite different."
+        },
+        {
+          "title": "Pupal chambers and overwintering",
+          "text": "Once a grub finishes shaping its chamber, I leave it intact. Alan found wild adults still inside their chambers on three separate occasions, in October, November and April. He gives about two to three years for larval development in the wild. Inside a clear container, I can follow a chamber at the wall without opening it. I begin offering food once the adult leaves the chamber and comes to the surface."
         }
       ],
       "sources": [
@@ -494,20 +550,56 @@
         {
           "title": "A large captive-reared male, 17 November 2025",
           "url": "https://discord.com/channels/1285685926340726887/1286131091987763264/1440152216483790880"
+        },
+        {
+          "title": "J. D. Glaser (1976). The biology of Dynastes tityus in Maryland. The Coleopterists’ Bulletin 30, 133–138.",
+          "url": "https://www.biodiversitylibrary.org/part/371976"
+        },
+        {
+          "title": "M. R. Moore, University of Nebraska State Museum. Dynastes tityus, biology and seasonal activity.",
+          "url": "https://www.unsm-ento.unl.edu/Guide/Scarabaeoidea/Scarabaeidae/Dynastinae/Dynastinae-Tribes/Dynastini/Dynastes/D-tityus/Dtityus.html"
+        },
+        {
+          "title": "Junkai Wang, northern Florida adults becoming active in May",
+          "url": "https://www.facebook.com/junkai.wang.1694/posts/pfbid0v5dd7jSQoh38vJ3SwvDnE51ox13GZWJXew98yYzGhGsCzd2vEM7FdGWT4KSfsMLFl"
+        },
+        {
+          "title": "Junkai Wang, Alabama stock from Alan raised on potting soil",
+          "url": "https://www.facebook.com/junkai.wang.1694/posts/pfbid02dz6wS74jfxW8qoNHu1YUdRanvaGxRFmzjAHR6bfmPUvz5LkgbZkcuPPWmBDh1MMVl"
+        },
+        {
+          "title": "Organic raised-bed soil and male size in my Michigan colony",
+          "url": "https://discord.com/channels/1285685926340726887/1286131091987763264/1466364758516305961"
+        },
+        {
+          "title": "Size of males reared on spent substrate",
+          "url": "https://discord.com/channels/1285685926340726887/1286131091987763264/1423511321961300008"
+        },
+        {
+          "title": "Pairing and wild-caught females",
+          "url": "https://discord.com/channels/1285685926340726887/1286131091987763264/1557060876006199317"
         }
       ],
       "facts": [
         {
-          "title": "Oviposition",
-          "text": "Up to 40 eggs per female in a Kentucky captive-rearing account"
+          "title": "Adult food",
+          "text": "Beetle jelly every five days, or apple or banana"
         },
         {
-          "title": "Egg incubation",
-          "text": "Approximately 1 month under the reported captive conditions"
+          "title": "Michigan rearing substrate",
+          "text": "Organic raised-bed soil"
         },
         {
-          "title": "Development in nature",
-          "text": "May take 2–3 years"
+          "title": "Major males on raised-bed soil",
+          "text": "About 55–62 mm"
+        },
+        {
+          "title": "Wild larval development",
+          "text": "About 2–3 years"
+        },
+        {
+          "title": "Seasonal activity",
+          "text": "My northern Florida adults became active in late May"
         }
       ],
       "classification": [
@@ -518,37 +610,6 @@
         {
           "title": "iNaturalist — Dynastes tityus",
           "url": "https://www.inaturalist.org/taxa/83804"
-        }
-      ],
-      "trials": [
-        {
-          "title": "Captive breeding observations",
-          "intro": "A Florida adult series, a separate collection of forest larvae and a historical photograph of a captive-reared male document the species at two life stages.",
-          "facts": [
-            {
-              "title": "Documented adult locality",
-              "text": "Bristol, Florida"
-            },
-            {
-              "title": "Life stages photographed",
-              "text": "Larva and adult"
-            }
-          ],
-          "sections": [
-            {
-              "title": "Florida adults",
-              "text": "The May 2025 Bristol series records the adult male from several angles. The photographs show the shape of the paired horns and the distribution of dark spots on the yellow wing covers."
-            },
-            {
-              "title": "Forest larvae",
-              "text": "Five larvae were photographed after removal from a forest scheduled for development. The locality was not specified in that report."
-            },
-            {
-              "title": "Horn development",
-              "text": "A photograph shared in November 2025 shows the largest male the breeder had reared, more than a decade earlier. The breeder remarked on the unusual horn profile of this individual. No length measurement accompanied the photograph."
-            }
-          ],
-          "url": "https://discord.com/channels/1285685926340726887/1286131091987763264/1369773748776992869"
         }
       ],
       "native_status": {
@@ -590,15 +651,23 @@
       "name": "Lucanus elaphus",
       "common": "Giant stag beetle",
       "group": "lucanidae",
-      "intro": "In Mississippi floodplain forests, giant stag beetle larvae fed both inside fallen logs and at the boundary between wood and soil. The occupied logs varied in size and type of decay.",
+      "intro": "I started my giant stag beetle line with wild adults from North Carolina. By fall I had a brood of larvae, and I raised them to adulthood. To get that captive-bred generation reproducing, I gave the adults a long, cool rest. Their eggs hatched, and I now have second-generation grubs from the original North Carolina beetles.",
       "sections": [
         {
-          "title": "Oviposition and feeding",
-          "text": "A published captive account places the eggs in the substrate beside pieces of decayed wood. Larvae developed on either white-rotted wood or fermented substrate."
+          "title": "Setting up a laying female",
+          "text": "I recommend a shoebox-sized container of flake soil and pieces of decaying hardwood. The Mantis Menagerie used one such box for each of four wild females that had flown to a light shortly after sunset. A few months later those females had produced dozens of larvae. Offer active adults ripe fruit for its sugary juice. Leave the wood embedded in the bedding while a female is laying. When you lift a piece, check the fine material against its sides and underside. Benjamin Harink has described eggs in precisely that position."
         },
         {
-          "title": "Field observations",
-          "text": "In Mississippi, larvae tunnelled through wood or fed on its underside where the log rested on soil. Larvae occurred in more than one type of rot."
+          "title": "Feeding the grubs",
+          "text": "Use white-rotted hardwood or a fermented wood substrate. A measured alternative comes from Ulyshen and colleagues, who found wild larvae feeding inside damp Mississippi logs and underneath them at the soil surface. For each grub they filled a ventilated container with about 500 mL of an equal-parts mix of slightly decayed oak chips and thoroughly decayed, crumbly oak. Add enough water that a squeezed handful releases some moisture and the mix holds its water when left alone. The team kept these containers at 21–23 °C."
+        },
+        {
+          "title": "Watching for pupation",
+          "text": "Check the underside of the container before opening it. Most grubs in the Mississippi study built their chambers against the bottom, where the pupal molt could be seen through the wall. Among beetles that pupated within a year of collection, females averaged about 29 days as pupae and males 31. Sixteen males stayed larvae for an extra year. Alan waited several months for prepupae in his culture. His stalled grubs entered that stage together after a faulty air conditioner cooled the room for several days in July. Allow one to two years for development and give slower individuals time."
+        },
+        {
+          "title": "Overwintering my adults",
+          "text": "I kept my captive-bred adults in a wine cooler for eight months at about 55 °F (13 °C). They laid eggs over the next two months, roughly ten months after reaching adulthood. Seeing those eggs hatch is why I recommend repeating that cool rest with this North Carolina line."
         }
       ],
       "sources": [
@@ -609,6 +678,18 @@
         {
           "title": "Benjamin Harink, Ben’s Beetle Breeding Pages, Lucanus elaphus",
           "url": "https://www.beetlebreeding.ch/lucanus-elephus/"
+        },
+        {
+          "title": "The Mantis Menagerie (2021), breeding four wild-caught female giant stag beetles",
+          "url": "https://themantismenagerie.com/2021/02/19/summer-collection-update-part-2/"
+        },
+        {
+          "title": "Animal Diversity Web, Lucanus elaphus adult feeding and behavior",
+          "url": "https://animaldiversity.org/accounts/Lucanus_elaphus/"
+        },
+        {
+          "title": "Junkai Wang, second-generation larvae from my North Carolina line",
+          "url": "https://www.instagram.com/p/Dfk0_DWmMTg/"
         }
       ],
       "facts": [
@@ -623,6 +704,10 @@
         {
           "title": "Captive larval food",
           "text": "White-rotted wood or fermented wood substrate"
+        },
+        {
+          "title": "Adult feeding in our collection",
+          "text": "Offer beetle jelly every five days, or apple or banana."
         }
       ],
       "classification": [
@@ -674,10 +759,10 @@
       "slug": "chrysina-woodi",
       "common": "Wood’s jewel scarab",
       "group": "rutelinae",
-      "intro": "Adults accepted foliage of walnuts and hickories in captivity. Late third instars overwintered above a layer of clay, which the larvae used for pupation.",
+      "intro": "The first thing I notice about a live Chrysina woodi is the contrast between its emerald-green back and its metallic blue feet. I bred this scarab from West Texas adults. A pair needs fresh foliage throughout the laying period, and a mature grub needs a place to build its pupal cell below its food.",
       "facts": [
         {
-          "title": "Region in the account",
+          "title": "Range",
           "text": "New Mexico and western Texas"
         },
         {
@@ -690,29 +775,29 @@
         },
         {
           "title": "Larval period",
-          "text": "1.5–3 years"
+          "text": "1.5–3 years in the seasonally cooled culture. My West Texas stock reached adulthood in about six months."
         },
         {
           "title": "Pupal period",
           "text": "Approximately one month"
         },
         {
-          "title": "Egg count reported",
-          "text": "20–60 or more"
+          "title": "Egg count",
+          "text": "20–60 or more in the seasonal culture. One West Texas female laid 122 eggs."
         }
       ],
       "sections": [
         {
-          "title": "Adult feeding and oviposition",
-          "text": "The account records adults flying along mountain arroyos on cloudy days and at night. Captive adults fed on cut branches of Juglans and Carya, including pecan. Fresh foliage replaced old cuttings every three days. The breeding enclosure contained about 3 in (7.5 cm) of moist, loosely placed flake soil. Adults alternated several days of feeding with periods below the surface during egg laying."
+          "title": "Choosing and feeding the adults",
+          "text": "I start with fresh hickory foliage. My West Texas adults fed on it readily. Alan uses walnut or hickory and recommends pecan as an alternative in the eastern United States. He keeps spare cuttings in a closed bag in the refrigerator for about a week and gives the beetles fresh branches every three days. Outdoors, adults fly along mountain arroyos on cloudy days and at night, particularly in humid summer weather. To sex a pair, look underneath the tip of the abdomen. Alan distinguishes females by a fine line down the middle of the terminal segment. Males have a dark segment that is absent in females. Adults measure about 25–35 mm."
         },
         {
-          "title": "Overwintering and pupation",
-          "text": "The reported method used flake soil or decayed wood for larval development. A layer of clay about 2 in (5 cm) deep was added beneath the substrate for mature third instars. The larvae were kept cool through winter and moved to warmer conditions in spring. Emergence was less synchronous when the winter cooling period was omitted."
+          "title": "Setting up a laying enclosure",
+          "text": "I favor a well-ventilated enclosure and the lightly fermented flake soil used for stag beetles. Alan recommends a medium-size ventilated Critter Keeper or larger, with at least 1.75 US gallons (6.6 L) of enclosure capacity. Add 3 inches (7.5 cm) of loose flake soil. Leave it uncompacted, with just enough water that a handful holds together when squeezed and releases no drops. Females may spend several days feeding, disappear into the substrate to lay, then return to the branches. He leaves the eggs in place to hatch because his adults leave them unharmed. Alan gives an egg count of 20–60 or more and an adult lifespan of one to three months. He rates this species 8 out of 10 for breeding difficulty."
         },
         {
-          "title": "Adult sex characters",
-          "text": "In ventral view, females had a fine median line on the terminal abdominal segment. Males showed a dark segment absent in females, according to the account."
+          "title": "Larval food, winter cooling and pupation",
+          "text": "I recommend raising the grubs individually. Flake soil and decayed wood both serve as larval food. In fall, Alan places about 2 inches (5 cm) of clay or similarly textured pupation soil beneath the feeding layer once the grubs reach the late third instar. He keeps them through winter from the low 40s into the 50s °F (roughly 5–15 °C), then warms them in spring. Without cooling, some grubs failed to pupate and some adults emerged too far apart to pair. After spring warming, adults come to the surface on their own over the next few months. Alan lets newly surfaced females feed away from males for several days before pairing them. He gives 1½–3 years for the larval stage in his culture and about a month as a pupa. My West Texas stock developed much faster."
         }
       ],
       "sources": [
@@ -723,6 +808,10 @@
         {
           "title": "Breeding Chrysina woodi, the jewel of Texas! (October 19, 2023)",
           "url": "https://junkaiwangisme.wixsite.com/usbeetlebreeding/post/breeding-chrysina-woodi-the-jewel-of-texas"
+        },
+        {
+          "title": "New Mexico Department of Wildlife, Wood’s Jewel Scarab",
+          "url": "https://swap.dgf.nm.gov/species/woods-jewel-scarab/"
         }
       ],
       "primary_url": "https://discord.com/channels/1285685926340726887/1378941851217690644",
@@ -775,25 +864,33 @@
       "name": "Xyloryctes thestalus",
       "common": "Western rhinoceros beetle",
       "group": "dynastinae",
-      "intro": "I reared adults from captive-bred larvae. Only one egg was laid before winter. I found the rest of the eggs and larvae between April and July, after the adults resumed feeding.",
+      "intro": "After three years of trying to breed the western rhinoceros beetle, I finally reared adults from eggs laid in captivity. The surprise was the timing. My adults produced just one egg before winter. Most of the breeding happened the following spring, after beetles that had spent months underground returned to the surface and began feeding again.",
       "sections": [
         {
-          "title": "Breeding substrate",
-          "text": "I used a ventilated enclosure with 10–13 cm (4–5 in) of lightly fermented flake soil and placed bark on the surface. I kept the substrate slightly moist, drier than I usually keep it for other rhinoceros beetles."
+          "title": "Setting up and feeding the adults",
+          "text": "I used a well-ventilated enclosure with 4–5 in (10–13 cm) of lightly fermented flake soil and pieces of bark across the surface. I kept the flake soil slightly moist, around the moisture level I use for stag beetles and a little drier than I ordinarily use for rhinoceros beetles. The adults showed a clear preference for apple and other firm fruits over softer foods."
         },
         {
-          "title": "Adult feeding and overwintering",
-          "text": "My adults preferred apple and other firm fruits. They burrowed in late October and did not feed again until April. I kept the enclosure at approximately 20–24 °C (68–75 °F) through winter. Some adults collected on August 5, 2022, were still alive more than a year later."
+          "title": "Overwintering and spring egg laying",
+          "text": "By late October the adults had buried themselves and stopped eating. I kept the enclosure at about 68–75 °F (20–24 °C) throughout the winter. They stayed below the surface until April. When they came back up, they fed again and breeding activity increased. The single egg laid before winter eventually produced a male. All the other eggs and larvae I recovered came from April through July. On June 30, 2023, I found both fresh eggs and young grubs in the enclosure of my Fort Davis, Texas stock.\nI would keep an apparently unproductive autumn setup through the following spring. Some of the wild adults I collected on August 5, 2022, were still alive more than a year later. Their ability to resume feeding and breeding after such a long interval underground made it worth keeping the colony together."
         },
         {
-          "title": "Offspring",
-          "text": "The one egg laid before winter produced a male. Breeding activity increased after the adults returned to the surface in spring."
+          "title": "Burrowing and larval food in the wild",
+          "text": "Morón and Zaragoza observed adults near Villa de Allende, Mexico, excavating individual daytime retreats in soft soil, both in the field and in captivity. The galleries reached 20–25 cm below the surface. In the same area they found third-instar larvae 10–20 cm beneath oak leaf litter, feeding on the older, decomposing leaves. This field record documents a larval food alongside the lightly fermented flake soil used in my breeding enclosure."
         }
       ],
       "sources": [
         {
           "title": "Breeding Xyloryctes thestalus at last!!!! (August 25, 2023, updated October 19, 2023)",
           "url": "https://junkaiwangisme.wixsite.com/usbeetlebreeding/post/breeding-xyloryctes-thestalus-at-last"
+        },
+        {
+          "title": "M. Á. Morón and S. Zaragoza (1976). Field observations of Xyloryctes thestalus at Villa de Allende, Estado de México, pp. 100–101.",
+          "url": "https://anales.ib.unam.mx/index.php/SerZool/article/download/1586/1644"
+        },
+        {
+          "title": "Junkai Wang, eggs and larvae from the Fort Davis breeding group",
+          "url": "https://www.facebook.com/junkai.wang.1694/posts/pfbid024JSgSacS4vnTcipZ67ikiDL2QbpATZcHPMxgPZw31aDuBHUuvJHKW7NwGHFN7f1Dl"
         }
       ],
       "record_type": "Original breeding account",
@@ -862,15 +959,23 @@
       "name": "Strategus aloeus",
       "common": "Ox beetle",
       "group": "dynastinae",
-      "intro": "I reared ox beetles from larvae to adults in less than a year using raised-bed soil. One of my captive-bred males measured 53 mm.",
+      "intro": "One of the males I bred measured 53 mm. For such a substantial beetle, the ox beetle has a surprisingly short larval period and a long adult life. My larvae reached adulthood in less than a year on organic raised-bed soil. Once the adults were active, keeping up with their appetite took more attention than preparing the breeding substrate.",
       "sections": [
         {
-          "title": "Oviposition and larval substrate",
-          "text": "My females laid eggs in several organic substrates. The larvae developed in raised-bed soil. I recommend firmly compacted topsoil for pupal cells, although development can be completed without it."
+          "title": "Adult care and laying",
+          "text": "My adults ate heavily, so I supplied fresh food every three days. Beetle jelly, apple and banana are my usual choices for fruit-feeding adults. Adult males can live as long as two years. The longest-lived female in my own colony survived about nine months. My females accepted several organic substrates for laying, so I was able to use a simple setup. In July, Alan photographed the eggs of a wild-caught female through the clear wall of her enclosure. One male I had photographed as a pupa in January 2022 was still alive and well the following January."
         },
         {
-          "title": "Adult feeding and longevity",
-          "text": "I fed the adults every three days. Adult males can live up to two years. My longest-lived female survived approximately nine months."
+          "title": "Rearing the grubs and providing a pupal cell",
+          "text": "Organic raised-bed soil carried my grubs through to adulthood. Alan also documented captive-bred larvae feeding in flake soil, a fermented sawdust substrate. Those series offer two practical starting points. As the grubs approach pupation, I like to provide a layer of very firmly packed topsoil where they can construct their chambers. I have also had adults develop without that layer. The photograph of my pupa and Alan’s photographs of male and female pupae show the stage between the feeding grub and the heavily built adult."
+        },
+        {
+          "title": "Developmental timing in a published colony",
+          "text": "Ahumada and colleagues measured each stage in beetles from Puerto Wilches, Colombia, reared at 29–32 °C. Eggs averaged about 15 days to hatch. Of the three larval instars, the first averaged 24 days, the second 42 days and the third about 201 days. Pupation averaged another 27 days, bringing the egg-to-adult interval to about 308 days. That long final instar accounts for much of the wait after a grub has become conspicuously large. For comparison, my own larvae completed development in raised-bed soil in less than a year."
+        },
+        {
+          "title": "Keeping eastern and western stocks separate",
+          "text": "I keep locality labels with each line and pair beetles from the same regional stock. I treat the eastern and western populations as two putative species within the Strategus aloeus complex. I group Arizona and New Mexico with the western stock, and western Texas eastward with the eastern stock. I cannot assign my 2022 captive series to either group from its locality data."
         }
       ],
       "sources": [
@@ -905,6 +1010,14 @@
         {
           "title": "Pupal sex comparison, 22 November 2025",
           "url": "https://discord.com/channels/1285685926340726887/1286131091987763264/1441944304535732385"
+        },
+        {
+          "title": "M. L. Ahumada and colleagues (1995). Biología y comportamiento de Strategus aloeus en Puerto Wilches, Santander. Palmas 16, 9–16.",
+          "url": "https://publicaciones.fedepalma.org/index.php/palmas/article/view/476"
+        },
+        {
+          "title": "Junkai Wang, captive male one year after pupation",
+          "url": "https://www.facebook.com/junkai.wang.1694/posts/pfbid02xGRZ5onbDKEcqfoJWdsXZyEpKHo9pyB1kadcCYGRTUx3KE8yxNLpaDsgEVcCQxYcl"
         }
       ],
       "record_type": "Original breeding account",
@@ -938,18 +1051,6 @@
           "url": "https://www.inaturalist.org/taxa/199942"
         }
       ],
-      "trials": [
-        {
-          "title": "Eastern and western populations",
-          "text": "I treat the eastern and western populations as two putative species within the Strategus aloeus complex. For the locality assignments, I follow a January 2026 breeding record that placed Arizona and New Mexico stocks in the western group and stocks from western Texas eastward in the eastern group. Breeding lines were kept separately. The locality of my 2022 series was not recorded in the original account.",
-          "url": "https://discord.com/channels/1285685926340726887/1286131091987763264/1461064771502870602"
-        },
-        {
-          "title": "Oviposition and larval substrate",
-          "text": "Eggs were photographed in the substrate of a wild-caught female in July 2025. A later photographic series documented captive-bred larvae reared on flake soil. The collection locality of the photographed stocks was not specified.",
-          "url": "https://discord.com/channels/1285685926340726887/1286131091987763264/1461064771502870602"
-        }
-      ],
       "native_status": {
         "text": "Native across the southern United States, including the Southwest and Southeast. Its range continues through Mexico and Central America into South America.",
         "status": "native",
@@ -981,21 +1082,37 @@
       "name": "Mallodon dasystomus",
       "common": "Hardwood stump borer",
       "group": "cerambycidae",
-      "intro": "I obtained eggs in a shallow layer of damp hardwood sawdust. The females laid in the sawdust without an intact log.",
+      "intro": "A large hardwood stump borer can approach 5 cm in length. I consider it a good first longhorn to rear because the females accept a simple bed of damp sawdust and the larvae feed on hardwood pellets after they have been expanded into sawdust. The main commitment is time. The larvae can spend several years feeding before they mature.",
       "sections": [
         {
-          "title": "Oviposition",
-          "text": "I used about 1.3 cm (0.5 in) of damp sawdust in the egg-laying container. The eggs have a hard shell and resemble seeds."
+          "title": "Pairing adults",
+          "text": "Adults are nocturnal, and their behavior is easiest to interpret once the two beetles have made contact. In laboratory pairings observed under red light, a male first touched the female with his antennae, paused, turned his body into line with hers, mounted and curled his abdomen beneath hers. Fifteen of 17 males showed this complete sequence. The other encounters included indifference or aggression, and males sometimes bit a female’s legs or wing covers. When I introduce a pair, I stay close enough to separate them if one starts biting the other."
         },
         {
-          "title": "Larval development",
-          "text": "I reared larvae on hardwood sawdust prepared from expanded pellets. Larvae also accept kinshi, a sawdust substrate colonized by fungal mycelium. The larval period ranges from one to three years under different rearing conditions. Larvae accepted supplementary protein and grew rapidly when it was available."
+          "title": "Egg laying and egg recognition",
+          "text": "In the field, females lay where hardwood is exposed, often at a wound near the base of a stressed tree. In my setup, about half an inch (1.3 cm) of damp sawdust was sufficient for laying. I could check that shallow layer for eggs without taking a log apart. The eggs have a hard shell and can look surprisingly like seeds among the wood particles. The half-inch measurement applies to the female’s laying container."
+        },
+        {
+          "title": "Larval food and development",
+          "text": "I reared the larvae on plain hardwood sawdust from expanded pellets. They also accept kinshi, a block of sawdust colonized by fungal mycelium. In my experience the larvae took supplementary protein and could grow quickly when it was available. I allow about one to three years for the larval stage, depending on the rearing conditions.\nField records give a useful comparison. Young larvae feed beneath the bark before boring through the sapwood and into the heartwood. Recorded hosts include oak, hickory, sweetgum, sugarberry and willow. Development in a tree commonly takes three to four years. The emerging adult leaves a large oval hole in the wood."
         }
       ],
       "sources": [
         {
           "title": "Keeping Mallodon dasystomus – The Hardwood Stump Borer (December 1, 2022)",
           "url": "https://junkaiwangisme.wixsite.com/usbeetlebreeding/post/keeping-mallodon-dasystomus-the-hardwood-stump-borer"
+        },
+        {
+          "title": "Spikes and colleagues (2010), courtship and mate recognition in the hardwood stump borer",
+          "url": "https://research.fs.usda.gov/download/treesearch/36280.pdf"
+        },
+        {
+          "title": "Paschen, Schiff and Ginzel (2012), host use, adult activity and mate location",
+          "url": "https://doi.org/10.1007/s10905-012-9321-0"
+        },
+        {
+          "title": "Mankin and colleagues (2018), larval feeding and galleries in hardwoods",
+          "url": "https://www.ars.usda.gov/ARSUserFiles/3559/publications/mdasystomusdetectflaent18.pdf"
         }
       ],
       "record_type": "Original breeding account",
@@ -1111,6 +1228,10 @@
         {
           "title": "Changing food and recognizing pupation",
           "text": "With kinshi, I look through the sides of the bottle. When I can no longer see fungus-colonized substrate at the wall, I move the larva to a fresh bottle. With raw or lightly fermented sawdust, I can usually leave the jar for six to eight months between changes. A full-grown larva builds a pupal cell and may spend several months inside. The pupal stage itself lasts about a month. I leave the cell intact and wait for the new adults to become active before introducing another pair."
+        },
+        {
+          "title": "Male size in my collection · Junkai Wang",
+          "text": "The male I photographed in February 2024 measured about 75 mm. My largest male measured 78 mm. I have kept this species alongside Mallodon dasystomus, another prionine I breed. Even an average male Mallodon can look small when the two are side by side."
         }
       ],
       "sources": [
@@ -1161,7 +1282,7 @@
         "caption": "56 of 56 wild, research-grade iNaturalist observations in North America are plotted at their public coordinates.",
         "data_file": "map-data-stenodontes-chevrolati.json"
       },
-      "account_credit": "First-person breeding account adapted from Alan’s culture notes"
+      "account_credit": "Culture account adapted from Alan"
     },
     {
       "slug": "dynastes-grantii",
@@ -1172,15 +1293,19 @@
         "Grant’s Hercules beetle",
         "Dynastes granti"
       ],
-      "intro": "Captive western Hercules beetles pass through three larval instars. A separate longevity record follows a wild-caught Arizona male for more than nine months after collection.",
+      "intro": "Western Hercules beetles appear at lights in the southwestern United States from late summer into autumn. Adults have been observed feeding at velvet ash by day, while grubs have been found in rotten sycamore. When planning a brood, I would set aside a second laying box before introducing the adults. Eggs can take months to hatch, and the female can keep laying while her first clutch develops.",
       "sections": [
         {
-          "title": "Oviposition and larval habitat",
-          "text": "The captive-rearing account describes oviposition in 15–25 cm of moist substrate. Field records place feeding larvae in rotten wood, including sycamore."
+          "title": "Pairing and preparing the laying box",
+          "text": "J. Kim used one male with one or two females in a container deep enough for 15–25 cm (6–10 in) of premoistened substrate. Adults took beetle jelly or ripe banana. Wild-caught adults often paired promptly, whereas newly emerged captive beetles sometimes needed more time. After seeing two or three matings, Kim removed the male so the female could burrow and lay without further disturbance."
         },
         {
-          "title": "Adult longevity",
-          "text": "A male collected at the Southwestern Research Station in Cochise County, Arizona, on August 20, 2014, survived until May 26, 2015. It remained at room temperature with bark and wood chips, received fresh apple about every four days and remained active through the winter."
+          "title": "Waiting for eggs to hatch",
+          "text": "Kim’s eggs took anywhere from about two weeks to three months to hatch. To protect a clutch, I would lift the female out when she surfaces and leave the eggs where she laid them. The substrate should stay moist throughout incubation. Date each box when the female goes in and when she comes out. I would count eggs and surviving grubs separately. One of Alan’s females produced 87 eggs. In a separate box holding more than 80 eggs, he eventually recovered 12 living grubs. With a long incubation, I keep each laying box labeled even after moving the adults on."
+        },
+        {
+          "title": "Larval development and adult longevity",
+          "text": "The grubs pass through three instars before making a pupal chamber. In one of Alan’s broods a larva reached the prepupal stage well ahead of its siblings. In a display enclosure, cell building was visible on September 23 and a pupa was visible on October 17. When a cell lies against the wall, I would leave it intact and follow the beetle through the side of the enclosure. Kim reported about 12–15 months from egg to adult in his setup.\nAdult longevity also varies. Krell and Krell followed a male collected at Arizona’s Southwestern Research Station on August 20, 2014. Kept at room temperature with bark and wood chips, it ate fresh apple about every four days and remained active through winter. It survived nine months and one week after collection, unusually long beside the two to four months commonly reported for the species."
         }
       ],
       "sources": [
@@ -1219,6 +1344,10 @@
         {
           "title": "Larvae recovered from an egg container, 11 July 2026",
           "url": "https://discord.com/channels/1285685926340726887/1286131091987763264/1525425131634294846"
+        },
+        {
+          "title": "M. R. Moore, University of Nebraska State Museum. Dynastes grantii, feeding and seasonal records.",
+          "url": "https://www.unsm-ento.unl.edu/Guide/Scarabaeoidea/Scarabaeidae/Dynastinae/Dynastinae-Tribes/Dynastini/Dynastes/D-granti/D_granti.html"
         }
       ],
       "facts": [
@@ -1233,6 +1362,10 @@
         {
           "title": "Adult survival after collection",
           "text": "9 months and 1 week in one Arizona male"
+        },
+        {
+          "title": "Adult feeding in our collection",
+          "text": "Offer beetle jelly every five days, or apple or banana."
         }
       ],
       "classification": [
@@ -1243,37 +1376,6 @@
         {
           "title": "iNaturalist — Dynastes grantii",
           "url": "https://www.inaturalist.org/taxa/424045-Dynastes-grantii"
-        }
-      ],
-      "trials": [
-        {
-          "title": "Captive breeding observations",
-          "intro": "One female produced 87 eggs in a captive enclosure examined in May 2026. Photographs from other cohorts document variation in developmental timing and the transition from prepupa to pupa.",
-          "facts": [
-            {
-              "title": "Eggs recovered from one female",
-              "text": "87"
-            },
-            {
-              "title": "Life stages photographed",
-              "text": "Egg, larva, prepupa and pupa"
-            }
-          ],
-          "sections": [
-            {
-              "title": "Oviposition",
-              "text": "On 24 May 2026, 87 eggs were recovered when the enclosure of a single female was examined. The count describes one female."
-            },
-            {
-              "title": "Pupal cell construction",
-              "text": "In one group, a larva reached the prepupal stage well ahead of its siblings. Another individual began forming a pupal cell in an exhibit enclosure on 23 September 2025. A pupa was photographed in the enclosure on 17 October. Those dates document observations and do not fix the duration of the prepupal stage."
-            },
-            {
-              "title": "Recovery from stored eggs",
-              "text": "In July 2026, a separate report recorded 12 surviving larvae in a misplaced container that had held more than 80 eggs. The history of the container was incomplete, so the count cannot distinguish failure to hatch from larval mortality."
-            }
-          ],
-          "url": "https://discord.com/channels/1285685926340726887/1286131091987763264/1508290253901926563"
         }
       ],
       "native_status": {
@@ -1307,10 +1409,10 @@
       "slug": "euphoria-monticola",
       "common": "Flower chafer",
       "group": "cetoniinae",
-      "intro": "Larvae collected in Arizona reached adulthood and produced one captive generation. The culture was lost after the next generation of larvae was transferred to potting soil.",
+      "intro": "I started my Euphoria monticola culture with several grubs I found beneath decomposing leaves in Arizona. They are difficult to find in the wild. The adults fly in the canopy and visit sap flows, so they can be easy to miss from the ground. I raised my larvae to adults and obtained one captive generation. I rate the species 6 out of 10 for difficulty.",
       "facts": [
         {
-          "title": "Localities in the account",
+          "title": "Localities",
           "text": "Arizona and New Mexico"
         },
         {
@@ -1326,24 +1428,36 @@
           "text": "Approximately 18 months"
         },
         {
-          "title": "Egg count reported",
+          "title": "Egg count",
           "text": "30 or more"
+        },
+        {
+          "title": "Adult feeding in our collection",
+          "text": "Offer beetle jelly every five days, or apple or banana."
         }
       ],
       "sections": [
         {
-          "title": "Feeding and oviposition",
-          "text": "Wild larvae were found beneath decomposing leaf litter. Adults fed at sap flows in the field and accepted fruit and beetle jelly in captivity. The breeding account describes egg laying in flake soil or in a mixture of decayed wood and decomposed leaves. The larvae fed in the same material."
+          "title": "Adults and egg laying",
+          "text": "These southwestern flower chafers occur in Arizona and New Mexico and range south into Mexico. Adults measure about 10–15 mm. The two beetles pictured here give a sense of the color variation, one metallic green and the other blue-black. Mine readily accepted fruit and beetle jelly and lived about one to three months. I recommend a breeding container that holds at least 1.75 US gallons (6.6 L). Offer the adult food at the surface and give females flake soil or an organic substrate of decaying hardwood and well-decomposed leaves in which to lay. They can produce 30 or more eggs."
         },
         {
-          "title": "Pupation and emergence",
-          "text": "Larvae constructed cocoons in autumn and remained inside for several months without pupating. After the cocoons were moved to a cold garage for winter, larvae entered the prepupal stage. Pupation followed spring warming, and adults appeared within about a month. The account gives no measured winter temperature."
+          "title": "Feeding the larvae",
+          "text": "The hatchlings can start feeding in the same material their mother laid in. I allow about 18 months for the larval stage, so keep enough of the same food on hand for substrate changes. I lost the next generation after moving the young grubs to potting soil. I can’t say exactly what caused the loss. For another brood I’d keep the grubs on flake soil or replenish the mixture of decayed wood and leaves that supported them earlier."
+        },
+        {
+          "title": "Autumn cocoons and spring emergence",
+          "text": "The hardest part for me was getting the mature larvae through winter. All of them built cocoons in autumn, then spent several months inside as larvae. Only after I moved the cocoons into a cold garage for winter did the larvae become prepupae. They pupated when the weather warmed in spring, and adults appeared within about a month. I have no measured garage temperature to recommend, and the length of pupation and dormancy varies. If you are following a brood of your own, note when a cell first appears and leave it in place. The larva may spend a season inside before it actually pupates."
         }
       ],
       "sources": [
         {
           "title": "Species-specific breeding account, June 2025",
           "url": "https://discord.com/channels/1285685926340726887/1379292918245756968"
+        },
+        {
+          "title": "J. Orozco (2012), variation and distribution of Euphoria monticola, figure 17",
+          "url": "https://doi.org/10.5281/zenodo.4907268"
         }
       ],
       "primary_url": "https://discord.com/channels/1285685926340726887/1379292918245756968",
@@ -1386,17 +1500,18 @@
         "url": "https://www.inaturalist.org/observations?place_id=97394&quality_grade=research&captive=false&geo=true&taxon_id=301565&view=map",
         "caption": "226 of 226 wild, research-grade iNaturalist observations in North America are plotted at their public coordinates.",
         "data_file": "map-data-euphoria-monticola.json"
-      }
+      },
+      "account_credit": "Culture account adapted from Alan"
     },
     {
       "name": "Osmoderma eremicola",
       "slug": "osmoderma-eremicola",
       "common": "Hermit beetle",
       "group": "cetoniinae",
-      "intro": "Second-instar larvae built temporary chambers before resuming growth. Mature third-instar larvae later spent a winter in the cold before pupating. Distinguishing the two periods helps explain the roughly two-year larval cycle reported for this culture.",
+      "intro": "I give this eastern hermit beetle about two years, sometimes longer, to finish its larval development. Even the second-instar grubs can make chambers and stay inside for weeks. Mine came back out to feed, then molted again before their final winter rest. Despite the long life cycle, I rate the species 3 out of 10 for difficulty.",
       "facts": [
         {
-          "title": "Region in the account",
+          "title": "Range",
           "text": "Eastern United States"
         },
         {
@@ -1416,28 +1531,36 @@
           "text": "About one month"
         },
         {
-          "title": "Egg count reported",
+          "title": "Egg count",
           "text": "30 or more"
+        },
+        {
+          "title": "Adult feeding in our collection",
+          "text": "Offer beetle jelly every five days, or apple or banana."
         }
       ],
       "sections": [
         {
-          "title": "Food and substrate",
-          "text": "Field observations place larvae in tree cavities and adults at sap flows. Captive adults accepted fruit and beetle jelly. Adults also laid eggs without feeding, but lived for less time and laid fewer eggs. The reported larval substrates were flake soil, decayed wood, or a mixture with well-decomposed hardwood leaves."
+          "title": "Adults and breeding substrate",
+          "text": "Adults measure roughly 25–30 mm and live for about one to three months. They fly in the canopy and visit sap flows in the wild. I recommend a breeding container of at least 1.75 US gallons (6.6 L). In captivity I offer fruit or beetle jelly when they become active. Even unfed females laid eggs for me, but they lived for less time and produced fewer eggs than females with access to food. Egg counts can reach 30 or more. To select a pair, look at the head and the plate directly behind it, the pronotum. Steffek and colleagues used the conspicuous depressions in both structures to recognize males."
         },
         {
-          "title": "Larval development",
-          "text": "Second-instar larvae occupied small chambers for several weeks to a month in summer or autumn. When left undisturbed, they emerged, fed and reached the third instar. The substrate was renewed as larvae consumed it."
+          "title": "Feeding grubs and temporary chambers",
+          "text": "The grubs live in pockets of decayed hardwood inside tree cavities. One Wisconsin beetle was reared from rotting silver maple. I use flake soil, decayed wood, or a mixture with thoroughly decomposed hardwood leaves. Once the grubs have reduced their food to a pile of frass, give them fresh substrate. In summer or autumn my second instars made small chambers and remained inside for several weeks, sometimes a month. Leave these chambers alone. The grubs came back out, resumed feeding and quickly reached the third instar. They overwintered as third instars and reached full size by the end of the following year."
         },
         {
-          "title": "Overwintering and pupation",
-          "text": "Mature third instars spent about three months in a garage where winter temperatures were in the low 50s °F (approximately 10–12 °C). Adults emerged close enough together to pair. The pupal cells were fragile and could break when lifted. The culture was left undisturbed during this stage."
+          "title": "Overwintering mature larvae",
+          "text": "Once my third instars were fully grown, I moved them into a garage for about three months. Winter temperatures there were in the low 50s °F (roughly 10–12 °C). A friend also had adults emerge together after keeping the larvae in the mid-60s °F (about 18 °C). Overlapping emergence matters because the adults are relatively short-lived. The pupal stage lasts about a month, and the dormancy period is roughly three weeks. I leave each cell supported by its surrounding substrate. The wall can break simply from lifting it. When the adults emerge, move them into a fresh breeding bin and provide food for the next pairing."
         }
       ],
       "sources": [
         {
           "title": "Species-specific breeding account, June 2025",
           "url": "https://discord.com/channels/1285685926340726887/1384712332667519138"
+        },
+        {
+          "title": "Steffek et al. (2024), Field and laboratory observations of North American Osmoderma and their pheromones",
+          "url": "https://www.life.illinois.edu/hanks/pdfs/Steffek%20et%20al%202024%20-%20Osmoderma%20pher%20-%20JCE%2050.pdf"
         }
       ],
       "primary_url": "https://discord.com/channels/1285685926340726887/1384712332667519138",
@@ -1484,17 +1607,18 @@
         "url": "https://www.inaturalist.org/observations?place_id=97394&quality_grade=research&captive=false&geo=true&taxon_id=226688&view=map",
         "caption": "3,787 of 3,787 wild, research-grade iNaturalist observations in North America are plotted at their public coordinates.",
         "data_file": "map-data-osmoderma-eremicola.json"
-      }
+      },
+      "account_credit": "Culture account adapted from Alan"
     },
     {
       "name": "Chrysina gloriosa",
       "slug": "chrysina-gloriosa",
       "common": "Glorious jewel scarab",
       "group": "rutelinae",
-      "intro": "Adults fed on juniper foliage, whereas the larvae developed on decayed hardwood or flake soil. The breeding account describes repeated attempts to maintain successive captive generations.",
+      "intro": "I set up my glorious jewel scarabs for breeding as soon as I have active adults. Their one to three months above ground leave little time to spare. Getting eggs is only the beginning. I rate this species 8 out of 10 for difficulty because maintaining it through successive generations has proved much harder.",
       "facts": [
         {
-          "title": "Region in the account",
+          "title": "Range",
           "text": "Arizona, New Mexico and western Texas"
         },
         {
@@ -1514,28 +1638,48 @@
           "text": "Approximately one month"
         },
         {
-          "title": "Egg count reported",
+          "title": "Egg count",
           "text": "20–60 or more"
         }
       ],
       "sections": [
         {
-          "title": "Adult feeding and egg laying",
-          "text": "Fresh juniper cuttings were provided every three days. Eastern red cedar (Juniperus virginiana) was accepted in captivity. Adults fed for several days, then burrowed for about a day before returning to the surface. Eggs were left in the enclosure and hatched there."
+          "title": "Sexing and feeding a pair",
+          "text": "My adults measure about 20–30 mm. Males tend to be smaller, but I check the underside of the abdomen when choosing a pair. In a female, the last abdominal segment has a pointed, V-shaped outline. In a male, it is more rounded or U-shaped, with a narrow slit visible at the tip. I provide juniper cuttings in a breeding bin of at least 1.75 US gallons (6.6 L). Eastern red cedar (Juniperus virginiana) works well. I change the cuttings every three days and keep old foliage out of the bin. My adults have been prone to fungal and bacterial problems when cuttings are left to deteriorate."
         },
         {
-          "title": "Larval development",
-          "text": "The account describes raising larvae on flake soil. Wild larvae develop in decaying hardwood. The captive larvae generally reached the late third instar by autumn."
+          "title": "Recognizing the laying cycle",
+          "text": "I leave the eggs where the female lays them. A female typically spends several days feeding on the juniper, burrows for about a day, then comes up to feed again. This cycle can repeat several times. I keep the foliage fresh even when the beetles are below ground. I expect roughly 20–60 eggs, sometimes more. My adults have left the eggs alone, and the grubs can hatch directly into the shared substrate."
         },
         {
-          "title": "Adult sex characters",
-          "text": "The terminal abdominal segment in ventral view was more V-shaped in females and more U-shaped in males. A slit at the tip of the terminal segment was visible in males. Males were usually the smaller sex in the culture."
+          "title": "Feeding the grubs",
+          "text": "I use regular flake soil and have raised larvae on it through to adulthood. The adult food plant is a poor guide to the grub’s diet. Field workers in southeastern Arizona found larvae in decaying Arizona sycamore (Platanus wrightii), and J. Kim reared them on rotten oak. My larvae generally reach the latter part of their third and final instar by autumn. I allow 1½–3 years for the larval stage and about a month for the pupa."
+        },
+        {
+          "title": "Overwintering and pairing the next generation",
+          "text": "I keep late third instars cool through the winter, from the low 40s into the 50s °F (roughly 5–15 °C). When I skipped winter cooling, larvae often failed to pupate, or adults emerged so far apart that I could not pair them. I warm the containers in spring and wait. The adults come to the surface on their own after a few months. I keep a newly surfaced female away from males for the first several days and give her fresh juniper to feed on. Persistent mating attempts at this vulnerable stage can kill her."
         }
       ],
       "sources": [
         {
           "title": "Species-specific breeding account, May–June 2025",
           "url": "https://discord.com/channels/1285685926340726887/1378579300441264178"
+        },
+        {
+          "title": "Population Structure of the Jewel Scarab Chrysina gloriosa, Genome Biology and Evolution (2026)",
+          "url": "https://doi.org/10.1093/gbe/evag123"
+        },
+        {
+          "title": "J. Kim, Chrysina gloriosa, captive developmental stages (2016)",
+          "url": "https://junsukkim.wordpress.com/2016/09/18/chrysina-gloriosa-leconte-1854-coleoptera-scarabaeidae-rutelinae/"
+        },
+        {
+          "title": "BugGuide, Glorious Scarab, larval habitat and pupation records",
+          "url": "https://www.bugguide.net/node/view/6605"
+        },
+        {
+          "title": "Sylvester and colleagues, A reference quality genome assembly for the jewel scarab Chrysina gloriosa (2024)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11152064/"
         }
       ],
       "primary_url": "https://discord.com/channels/1285685926340726887/1378579300441264178",
@@ -1574,34 +1718,51 @@
         "url": "https://www.inaturalist.org/observations?place_id=97394&quality_grade=research&captive=false&geo=true&taxon_id=325790&view=map",
         "caption": "1,323 of 1,323 wild, research-grade iNaturalist observations in North America are plotted at their public coordinates.",
         "data_file": "map-data-chrysina-gloriosa.json"
-      }
+      },
+      "account_credit": "Culture account adapted from Alan"
     },
     {
       "name": "Osmoderma subplanatum",
       "slug": "osmoderma-subplanatum",
       "group": "cetoniinae",
       "common": "Hermit flower beetle",
-      "intro": "Larvae fed flake soil advanced from the first to the third instar in approximately one month.",
+      "intro": "For young Osmoderma subplanatum I recommend starting with flake soil. Alan’s grubs reached the third instar about a month after he first saw them as first instars. That early growth is encouraging, but leave room in the rearing schedule for a much longer final instar.",
       "facts": [
         {
-          "title": "Recorded interval",
+          "title": "First to third instar",
           "text": "About one month from first to third instar"
         },
         {
-          "title": "Recorded substrate",
+          "title": "Larval substrate",
           "text": "Flake soil"
         }
       ],
       "sections": [
         {
-          "title": "Larval development",
-          "text": "The June 2025 record identifies the larvae as first instars one month before they were photographed as third instars. They developed in commercially prepared flake soil. The interval records growth of this group under its rearing conditions."
+          "title": "Substrate for growing larvae",
+          "text": "Alan’s brood completed its first two molts on commercially prepared flake soil. For an alternative larval food, choose well-decayed hardwood. Brett Ratcliffe found about 45 third instars together inside one decayed standing ash in Lincoln, Nebraska. Other Nebraska larvae came from rotting maple and boxelder. Ash can therefore support a brood where decay has softened the wood, and suitable material also occurs in other hardwood trees."
+        },
+        {
+          "title": "From third instar to adult",
+          "text": "Ratcliffe reared larvae collected in July on pieces of wood from their original ash. He kept them at 27 ± 2 °C in a chamber humidified by evaporation from open water containers. The following February he recovered two pupae and four adults. By June, four individuals were still larvae and many had died. I mention the temperature because it puts those dates in context. Survival was poor in that trial, so I’d use the wood choice and the range of developmental times as guides rather than treating that temperature as optimal."
+        },
+        {
+          "title": "Recognizing and documenting the stages",
+          "text": "Ratcliffe’s pupae measured 30–36 mm long. They were pale at first and darkened to brown as adult emergence approached. I recommend keeping the collection locality and brood identity on the container through emergence. The third instars of this beetle and Osmoderma eremicola look very much alike, with substantial overlap even in the fine characters of the head. Rearing the Nebraska beetles to adults let Ratcliffe confirm the identification. If you look up his original account, you will find it under the earlier spelling Osmoderma subplanata."
         }
       ],
       "sources": [
         {
           "title": "Larvae on flake soil, 19 June 2025",
           "url": "https://discord.com/channels/1285685926340726887/1286131091987763264/1385137293320261742"
+        },
+        {
+          "title": "B. C. Ratcliffe (1977), Descriptions of the larva and pupa of Osmoderma subplanata and Cremastocheilus wheeleri",
+          "url": "https://www.antwiki.org/wiki/images/6/63/Ratcliffe_1977.pdf"
+        },
+        {
+          "title": "BugGuide, Osmoderma subplanatum nomenclature and identification",
+          "url": "https://www.bugguide.net/node/view/212819"
         }
       ],
       "record_type": "Rearing observations",
@@ -1654,23 +1815,47 @@
       "slug": "osmoderma-scabrum",
       "group": "cetoniinae",
       "common": "Rough hermit beetle",
-      "intro": "In January, individuals in a captive group were photographed within dormancy cells.",
+      "intro": "For rough hermit beetle larvae, I recommend decayed hardwood with some of its original texture. A grub feeds on the wood, then binds pieces together to make a chamber in which it can spend the winter. Alan’s beetles were in their cells in January.",
       "facts": [
         {
           "title": "Dormancy record",
           "text": "24 January 2026"
+        },
+        {
+          "title": "Adult feeding in our collection",
+          "text": "Offer beetle jelly every five days, or apple or banana."
         }
       ],
       "sections": [
         {
-          "title": "Dormancy cells",
-          "text": "The January photographs record individuals occupying cells in the rearing substrate. The observation establishes the presence of a dormant period in this group. Its duration and temperature were not recorded in the post."
+          "title": "Larval food and cell construction",
+          "text": "William Saunders found large white grubs with reddish heads feeding inside decaying apple and cherry wood. Even a tree that still bears leaves can have a soft pocket of rot inside. For the enclosure, choose wood decayed enough for the grubs to eat, and leave some of its original texture for the mature larvae to build with. Saunders described them gathering bits of wood in autumn and cementing the pieces into an oval cell. When you change the substrate late in the season, look for these structures before crumbling an apparently solid lump."
+        },
+        {
+          "title": "Winter observations",
+          "text": "If you uncover a cell, keep the wall and the wood that supports it together. A larva can still be inside after it finishes building. I recommend recording the date you first see the cell and the date the adult comes to the surface separately. In Alan’s culture, individuals were resting in their cells on January 24, 2026. In Saunders’s field observations, grubs built cells in autumn and adults appeared the following summer. A substantial part of the winter interval can therefore pass before an adult is ready to emerge."
+        },
+        {
+          "title": "Adult activity and pairing",
+          "text": "Saunders observed adults in July. They sheltered by day and fed on sap after dark, so evening is a good time to look for an active beetle at the surface. Adults have coarsely sculptured wing covers, which distinguish them from the smoother Osmoderma eremicola. To select a pair, wait until the beetles surface. Steffek and colleagues distinguished males by the conspicuous depressions on the head and pronotum, the plate immediately behind the head. If you consult older accounts of the rough hermit beetle, look for the spelling Osmoderma scabra."
         }
       ],
       "sources": [
         {
           "title": "Dormancy cells in culture, 24 January 2026",
           "url": "https://discord.com/channels/1285685926340726887/1286131091987763264/1464549636529197137"
+        },
+        {
+          "title": "W. Saunders, Insects Injurious to Fruits, The Rough Osmoderma, pp. 26–27",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Insects_injurious_to_fruits_%28IA_insectsinjurious01saun%29.pdf"
+        },
+        {
+          "title": "Steffek et al. (2024), Field and laboratory observations of North American Osmoderma and their pheromones",
+          "url": "https://www.life.illinois.edu/hanks/pdfs/Steffek%20et%20al%202024%20-%20Osmoderma%20pher%20-%20JCE%2050.pdf"
+        },
+        {
+          "title": "BugGuide, Osmoderma scabrum",
+          "url": "https://www.bugguide.net/node/view/15974"
         }
       ],
       "record_type": "Rearing observations",
@@ -1723,25 +1908,33 @@
       "slug": "lucanus-mazama",
       "group": "lucanidae",
       "common": "Cottonwood stag beetle",
-      "intro": "A breeding enclosure yielded 46 larvae when dismantled in September 2025. A separate observation records successful breeding on flake soil.",
+      "intro": "I had good emergence in my cottonwood stag beetles, with a number of adults coming out together. The newly emerged adults were dark and fairly understated, but seeing a whole group mature together was one of my favorite parts of keeping them. For breeding, flake soil works as a laying substrate. For the larvae, decaying oak offers a second, particularly well documented option.",
       "facts": [
         {
-          "title": "Larval count",
-          "text": "46 in one enclosure"
+          "title": "Brood from one female",
+          "text": "46 larvae"
         },
         {
           "title": "Breeding substrate",
           "text": "Flake soil"
+        },
+        {
+          "title": "Adult feeding in our collection",
+          "text": "Offer beetle jelly every five days, or apple or banana."
         }
       ],
       "sections": [
         {
-          "title": "Breeding substrate",
-          "text": "In July 2025, the breeder reported that this species reproduced on flake soil. The substrate formulation was not specified."
+          "title": "Pairing and egg laying",
+          "text": "Choose an active male and female. The male’s short, inward-curving mandibles are noticeably larger than the female’s. In Colorado adults are most often seen from mid-July to mid-August, sometimes at lights. Prepare the laying box with flake soil before introducing the pair. Captive beetles have reproduced on it, and IB Exotic notes that females can start depositing eggs directly into substrate within a week of mating. You can set up a pair this way even if you have no intact rotten log."
         },
         {
-          "title": "Brood recovery",
-          "text": "The breeder dismantled a separate enclosure on 22 September and counted 46 larvae. The number of founding females was not stated, so the count applies to the enclosure."
+          "title": "Sorting and feeding the brood",
+          "text": "Have containers ready when you open the laying box. Alan recovered 46 larvae from one enclosure, enough to make an unplanned transfer quite a job. To raise grubs on wood, Reyes-Castillo and colleagues reared third instars from a decaying oak stump in Chihuahua. They supplied plenty of decaying oak and gumbo-limbo wood and debris. At an average of 23.3 °C and 80% relative humidity, the grubs stayed buried and fed in the woody material. Of 16 larvae, nine pupated and seven reached adulthood."
+        },
+        {
+          "title": "Pupation and adult activity",
+          "text": "Leave a layer of woody debris in place as the larvae mature. In the Mexican group they pupated in this debris, apparently without building a cocoon. Five prepupae took five to eight days to become pupae, and seven pupae molted into adults after a further 31–35 days. Newly formed beetles can remain out of sight beneath a log. The captive adults in this study spent much of their time there and fed infrequently, with some surviving up to 18 months. IB Exotic gives approximately one year for the complete cycle in its breeding account."
         }
       ],
       "sources": [
@@ -1752,6 +1945,22 @@
         {
           "title": "Breeding on flake soil, 22 July 2025",
           "url": "https://discord.com/channels/1285685926340726887/1384034410046689341/1397101097981837322"
+        },
+        {
+          "title": "Reyes-Castillo, Martínez and Castillo (2003), Biological notes on Mexican Lucanus (Pseudolucanus) mazama",
+          "url": "https://beta.biodiversitylibrary.org/partpdf/11991"
+        },
+        {
+          "title": "IB Exotic (2020), Lucanus mazama breeding notes",
+          "url": "https://www.ibexotic.com/post/lucanidae-lucanus-mazama-leconte-1861"
+        },
+        {
+          "title": "Colorado State University Extension, Southwestern stag beetle",
+          "url": "https://wci.extension.colostate.edu/wp-content/uploads/sites/14/2017/03/SouthwesternStagBeetle.pdf"
+        },
+        {
+          "title": "Junkai Wang, a group of captive Lucanus mazama at emergence",
+          "url": "https://www.instagram.com/p/DfhWduXB528/"
         }
       ],
       "record_type": "Rearing observations",
@@ -1805,21 +2014,29 @@
       "slug": "lucanus-capreolus",
       "group": "lucanidae",
       "common": "Reddish-brown stag beetle",
-      "intro": "A September brood census recorded 65 larvae. Photographs also documented adult emergence, although later individuals in culture developed abdominal abnormalities.",
+      "intro": "For a reddish-brown stag beetle laying box, I recommend setting pieces of rotten hardwood into fine fermented wood substrate. The material touching each piece is worth a close look when you sort the brood. A female can leave eggs tucked right against the wood, with food already within reach of the hatchlings.",
       "facts": [
         {
-          "title": "Brood count",
-          "text": "65 larvae in the reported census"
+          "title": "Brood from one female",
+          "text": "65 larvae"
+        },
+        {
+          "title": "Adult feeding in our collection",
+          "text": "Offer beetle jelly every five days, or apple or banana."
         }
       ],
       "sections": [
         {
-          "title": "Brood census",
-          "text": "The September 2025 count was posted alongside a separate census for Lucanus mazama. Both counts refer to larvae recovered from breeding enclosures."
+          "title": "Preparing the pair and laying box",
+          "text": "Look for the pale and dark areas on the femora when confirming the adults’ identity. The similar smooth stag beetle, Lucanus placidus, has uniformly dark femora. I often see fungal growth on wild reddish-brown stags, so I look over each adult when selecting a pair. Wild adults visit sap, and captive adults will drink diluted maple syrup or sugar water. Give a laying female access to both the wood and surrounding substrate. Benjamin Harink describes eggs beside rotten wood in fine material including fermented sawdust. Eggs have also been found in the decaying wood itself, so keep occupied pieces intact while checking the loose material."
         },
         {
-          "title": "Adult emergence",
-          "text": "Adults were photographed after emergence on 17 September. In a later report, the breeder described abdominal abnormalities in a number of newly emerged adults. The cause was undetermined."
+          "title": "Housing and feeding larvae",
+          "text": "Set up cups before taking down a productive box. Alan found young grubs in August 2025 and recovered 65 larvae when he took down a September breeding enclosure. For a brood that size, I recommend the individual setup that Leg & Leaf uses with captive-bred grubs. Fill a 16 fl oz cup with lightly packed, damp flake soil or decayed hardwood for a younger grub. Move a third instar into at least 24 fl oz. Check the food every two to three months. When fecal pellets accumulate on the surface, replenish the feeding substrate."
+        },
+        {
+          "title": "Development and dormancy",
+          "text": "Expect the largest change in your timetable at the third instar. Leg & Leaf gives about a month for the first instar, one to two months for the second and 10–22 months for the third. The head capsule enlarges with each molt. Mature larvae can pupate in soil beside the feeding wood. Allow one to two months for the pupa, then four to six months of adult dormancy in Leg & Leaf’s stock. Wait until the beetles become active before pairing them. Alan obtained adults in September and later encountered abdominal abnormalities in some freshly emerged beetles. He could not identify a cause."
         }
       ],
       "sources": [
@@ -1834,6 +2051,18 @@
         {
           "title": "Emergence difficulties, 12 January 2026",
           "url": "https://discord.com/channels/1285685926340726887/1286131091987763264/1460410684524462161"
+        },
+        {
+          "title": "Leg & Leaf, captive-bred Lucanus capreolus larvae and development",
+          "url": "https://legandleaf.com/product/lucanus-capreolus-larva/"
+        },
+        {
+          "title": "Benjamin Harink, Lucanus capreolus breeding notes",
+          "url": "https://www.beetlebreeding.ch/lucanus-capreolus/"
+        },
+        {
+          "title": "BugGuide, Lucanus capreolus identification and natural history",
+          "url": "https://www.bugguide.net/node/view/3107"
         }
       ],
       "record_type": "Rearing observations",
@@ -1876,25 +2105,37 @@
       "slug": "lucanus-placidus",
       "group": "lucanidae",
       "common": "Smooth stag beetle",
-      "intro": "Several months elapsed before larvae entered the prepupal stage. The transition followed a brief period of cooler room temperatures in July.",
+      "intro": "I recovered 54 larvae from a single smooth stag beetle female. With a brood that size, I like to have the next set of cups ready before I open the laying box. The long wait comes later, when the grubs finish feeding and start shaping their individual pupal cells.",
       "facts": [
         {
-          "title": "Stage documented",
+          "title": "Brood from one female",
+          "text": "54 larvae"
+        },
+        {
+          "title": "Stages in culture",
           "text": "Prepupa and pupa"
         },
         {
-          "title": "Pupa photographed",
+          "title": "Pupa in culture",
           "text": "31 July 2025"
+        },
+        {
+          "title": "Adult feeding in our collection",
+          "text": "Offer beetle jelly every five days, or apple or banana."
         }
       ],
       "sections": [
         {
-          "title": "Timing of prepupation",
-          "text": "During a period of cooler room temperatures, larvae of both Lucanus placidus and L. elaphus entered the prepupal stage after several months without doing so. No temperature measurements or comparison group were reported."
+          "title": "Adults and activity",
+          "text": "I see these beetles fly readily in May. Check for adult activity after dusk. Wild adults dig burrows several inches deep and can spend the day out of sight, with males sometimes meeting and fighting on open ground. Both sexes resemble the reddish-brown stag beetle, Lucanus capreolus. In the smooth stag the femora are uniformly dark, and the inner edge of a male’s mandible usually carries several teeth. Butterfly Wings N’ Wishes feeds its captive adults banana, watermelon or beetle jelly. Field observations suggest that females may lay eggs in sod, with grubs feeding underground near stumps or roots."
         },
         {
-          "title": "Pupation",
-          "text": "A photograph from 31 July documents a pupa of L. placidus, five days after the prepupal observation. The reports do not establish the pupation interval of an individual."
+          "title": "Feeding individual grubs",
+          "text": "For older larvae, I recommend starting with the birch-based setup used by Butterfly Wings N’ Wishes. House one grub in a 16 fl oz cup with flake soil and decaying hardwood, keep the substrate slightly damp and hold at 18–22 °C. Watch how the feeding layer changes. Crumbly wood gradually gives way to dark, flattened pellets. When pellets occupy most of the cup, mix fresh, soft decayed hardwood through the feeding layer. The facility estimates eight to ten months for the larval period under those conditions."
+        },
+        {
+          "title": "Pupal cells and emergence",
+          "text": "A mature larva may work its body rhythmically against the substrate to form an oval chamber near the bottom of the cup. Stop mixing the substrate at this stage. On July 26 Alan found that all his previously stalled larvae had become prepupae after a faulty air conditioner cooled the room for several days. By July 31 he had a pupa. The room temperature was not measured, so I would let an undisturbed chamber develop at the usual rearing temperature. A. A. Girault tracked one nearly grown grub from a Virginia stump through the full transition. It became a prepupa around August 1, pupated on August 3 and reached the adult molt on October 6. Give the intact cell time even if several weeks pass with little visible change."
         }
       ],
       "sources": [
@@ -1905,6 +2146,22 @@
         {
           "title": "Transition to prepupae, 26 July 2025",
           "url": "https://discord.com/channels/1285685926340726887/1286131091987763264/1398829436912275552"
+        },
+        {
+          "title": "Butterfly Wings N’ Wishes, Pleasing stag beetle care instructions",
+          "url": "https://img1.wsimg.com/blobby/go/c71c569e-808b-4d71-a730-35fd6bd2d601/downloads/1%202024%20PLEASING%20STAG%20BEETLE.pdf?ver=1707158266657"
+        },
+        {
+          "title": "A. A. Girault (1913), Duration of the pupal stadium of Lucanus placidus, Entomological News 24, p. 195",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Entomological_news_%28IA_n05entomologicalnew24acaduoft%29.pdf"
+        },
+        {
+          "title": "University of Wisconsin–Milwaukee Field Station, Stag beetle Lucanus placidus",
+          "url": "https://uwm.edu/field-station/bug-of-the-week/stag-beetle-lucanus-placidus/"
+        },
+        {
+          "title": "BugGuide, Lucanus placidus identification and natural history",
+          "url": "https://www.bugguide.net/node/view/4180"
         }
       ],
       "record_type": "Rearing observations",
@@ -1958,21 +2215,33 @@
       "slug": "dorcus-parallelus",
       "group": "lucanidae",
       "common": "Antelope stag beetle",
-      "intro": "A May census recorded five surviving larvae. A separate June culture was photographed on flake soil.",
+      "intro": "For breeding the antelope stag beetle, I recommend putting decaying hardwood into the laying box in pieces large enough to keep their shape. A female can lay inside wood that still feels fairly solid. Once the larvae are feeding, prepared flake soil gives you a way to rear them on fermented hardwood sawdust.",
       "facts": [
         {
-          "title": "May census",
+          "title": "Grubs in the May culture",
           "text": "Five larvae remaining"
         },
         {
-          "title": "Larval substrate recorded",
+          "title": "Larval substrate",
           "text": "Flake soil"
+        },
+        {
+          "title": "Adult feeding in our collection",
+          "text": "Offer beetle jelly every five days, or apple or banana."
         }
       ],
       "sections": [
         {
-          "title": "Larval rearing",
-          "text": "Five larvae remained in the culture examined on 8 May 2026. In June, the breeder photographed the species on a prepared flake-soil formulation. The starting number of larvae and the composition of the substrate were not reported in these messages."
+          "title": "Choosing a pair",
+          "text": "Start by checking both adults from above. Dorcus parallelus and Dorcus brevis overlap in parts of eastern North America, and a small male can have surprisingly short jaws. Look at the rear corners of the pronotum, the shield immediately behind the head. In D. parallelus the corners sit well forward of the wing covers. In D. brevis they come close to the wing covers. M. J. Paulsen also illustrates a dense patch of hairs on the inner face of each hind tibia in male D. parallelus."
+        },
+        {
+          "title": "Setting up the laying box",
+          "text": "Oak, maple and linden are all recorded breeding woods. Choose pieces at different stages of decay and pack partly fermented wood substrate around them. My reason for offering a choice is that females have used wood of different consistencies in captivity. Steven of Beetle-Experience found his eggs inside the firmer pieces of rotten log. KevinD also lists soft, white-rotted wood and compacted substrate for this species. When inspecting the box, lift each piece with the material against it still in place. Set any wood that may hold eggs back in the enclosure. A piece can look intact from the outside even when a female has laid inside it."
+        },
+        {
+          "title": "Rearing the grubs",
+          "text": "For a growing grub I recommend prepared flake soil or the decaying hardwood it is already feeding in. If a grub is exposed when you lift a log, retain some of its feeding wood when transferring it. Alan saw a larva in his breeding enclosure in September 2025. In May 2026 he counted five surviving grubs in one culture, and his June setup used flake soil prepared to @doctorderange’s recipe. The Bull Run Mountains Natural Area Preserve puts the larval feeding period at roughly one to two years in nature. Plan for a long supply of decaying hardwood and leave a mature grub’s pupal chamber intact when checking its container."
         }
       ],
       "sources": [
@@ -1983,6 +2252,26 @@
         {
           "title": "Larval census, 8 May 2026",
           "url": "https://discord.com/channels/1285685926340726887/1286131091987763264/1502193244379807834"
+        },
+        {
+          "title": "M. J. Paulsen (2010), Stag beetles of the genus Dorcus in North America",
+          "url": "https://doi.org/10.3897/zookeys.34.292"
+        },
+        {
+          "title": "Staines and Staines, The Coleoptera of Eastern Neck National Wildlife Refuge",
+          "url": "https://virginianaturalhistorysociety.com/wp-content/uploads/sites/28/2023/07/Banisteria_57_Staines-Staines_ENNWR_Coleoptera.pdf"
+        },
+        {
+          "title": "Steven, Beetle-Experience (2019), observations of egg placement in D. parallelus",
+          "url": "https://beetleforum.net/threads/oviposition-wood.4073/"
+        },
+        {
+          "title": "KevinD (2018), notes on substrates used for Dorcus oviposition",
+          "url": "https://beetleforum.net/threads/preparing-your-materials.903/page-2"
+        },
+        {
+          "title": "Bull Run Mountains Natural Area Preserve (2022), Antelope stag beetle",
+          "url": "https://www.inaturalist.org/posts/68341-biodiversity-highlight-series-1-lucanidae-of-the-bull-run-mountains-part-two"
         }
       ],
       "record_type": "Rearing observations",
@@ -2046,7 +2335,8 @@
       "license": "Used with permission",
       "license_url": "",
       "original_url": "https://static.wixstatic.com/media/72e972_a84e288b7d3848148abfc32caf8af295~mv2.jpg",
-      "hero": true
+      "hero": true,
+      "stage": "Adults"
     },
     {
       "file": "xyloryctes-thestalus-wang.jpg",
@@ -2093,7 +2383,8 @@
       "license": "Used with permission",
       "license_url": "",
       "original_url": "https://static.wixstatic.com/media/72e972_59ca1eaf977a4ead802c13ac7f35a94d~mv2.jpg",
-      "hero": false
+      "hero": false,
+      "stage": "Adults"
     },
     {
       "file": "strategus-aloeus-pupa-wang.jpg",
@@ -2223,7 +2514,8 @@
       "url": "https://discord.com/channels/1285685926340726887/1463425635379843248",
       "credit": "@alan69.",
       "hero": false,
-      "stage": "Adults"
+      "stage": "Adults",
+      "preferred": true
     },
     {
       "file": "guide-1463425635379843248-01.jpg",
@@ -2733,7 +3025,8 @@
       "caption": "Second view from the emergence series.",
       "url": "https://discord.com/channels/1285685926340726887/1286131091987763264/1417728693908013147",
       "credit": "@alan69.",
-      "hero": false
+      "hero": false,
+      "stage": "Adults"
     },
     {
       "file": "guide-1400484325639585873-01.jpg",
@@ -2791,6 +3084,128 @@
       "url": "https://discord.com/channels/1285685926340726887/1286131091987763264/1502193244379807834",
       "credit": "@alan69.",
       "hero": false
+    },
+    {
+      "file": "lucanus-elaphus-adult-wang-instagram.jpg",
+      "species": "Lucanus elaphus",
+      "width": 1080,
+      "height": 1080,
+      "alt": "Male giant stag beetle held on a hand, showing the chestnut wing covers and long, toothed mandibles.",
+      "caption": "Adult male from my North Carolina line.",
+      "url": "https://www.instagram.com/p/Dfk0_DWmMTg/",
+      "credit": "Junkai Wang (@beetlescholar)",
+      "hero": false,
+      "stage": "Adults",
+      "preferred": true
+    },
+    {
+      "file": "lucanus-elaphus-larvae-wang-instagram.jpg",
+      "species": "Lucanus elaphus",
+      "width": 1080,
+      "height": 1080,
+      "alt": "Small pale grubs curled beside dark substrate in the individual cells of a clear tray.",
+      "caption": "Second-generation larvae from my North Carolina line.",
+      "url": "https://www.instagram.com/p/Dfk0_DWmMTg/",
+      "credit": "Junkai Wang (@beetlescholar)",
+      "hero": false,
+      "stage": "Larvae"
+    },
+    {
+      "file": "lucanus-mazama-emergence-wang-instagram.jpg",
+      "species": "Lucanus mazama",
+      "width": 1080,
+      "height": 1040,
+      "alt": "A group of dark reddish-brown adult stag beetles clustered in a round rearing container.",
+      "caption": "A group of my newly emerged cottonwood stag beetles.",
+      "url": "https://www.instagram.com/p/DfhWduXB528/",
+      "credit": "Junkai Wang (@beetlescholar)",
+      "hero": false,
+      "stage": "Adults",
+      "preferred": true
+    },
+    {
+      "file": "stenodontes-male-wang.jpg",
+      "species": "Stenodontes chevrolati",
+      "width": 2048,
+      "height": 1772,
+      "caption": "A male from my culture, about 75 mm long. Photograph by Junkai Wang.",
+      "alt": "Large, glossy dark male Stenodontes chevrolati with its open mandibles against pale substrate.",
+      "stage": "Adults",
+      "credit": "Junkai Wang",
+      "url": "https://www.facebook.com/photo/?fbid=1590413118382307",
+      "preferred": false
+    },
+    {
+      "file": "mallodon-major-wang.jpg",
+      "species": "Mallodon dasystomus",
+      "width": 1440,
+      "height": 1440,
+      "caption": "A major male showing the broad head and mandibles.",
+      "alt": "Adult male Mallodon dasystomus held between two fingers, its antennae and mandibles spread.",
+      "stage": "Adults",
+      "credit": "Junkai Wang",
+      "url": "https://www.facebook.com/photo/?fbid=1191487644941525",
+      "preferred": false
+    },
+    {
+      "file": "tityus-florida-wang.jpg",
+      "species": "Dynastes tityus",
+      "width": 1080,
+      "height": 1226,
+      "caption": "A male from my northern Florida stock, active in May 2025.",
+      "alt": "Northern Florida male Dynastes tityus on bark with dark spots on cream elytra and a long projecting horn.",
+      "stage": "Adults",
+      "credit": "Junkai Wang",
+      "url": "https://www.facebook.com/photo/?fbid=1910162629740686",
+      "preferred": true
+    },
+    {
+      "file": "tityus-alabama-1-wang.jpg",
+      "species": "Dynastes tityus",
+      "width": 1440,
+      "height": 1440,
+      "caption": "Male from the Alabama stock I received from Alan.",
+      "alt": "Oblique view of a male eastern Hercules beetle reared on potting soil, showing the spots on its olive elytra.",
+      "stage": "Adults",
+      "credit": "Junkai Wang",
+      "url": "https://www.facebook.com/photo/?fbid=1057499438340347",
+      "preferred": false
+    },
+    {
+      "file": "grantii-front-wang.jpg",
+      "species": "Dynastes grantii",
+      "width": 1440,
+      "height": 1440,
+      "caption": "An adult male showing the pale wing covers and long, opposing horns.",
+      "alt": "Male Dynastes grantii viewed obliquely from above, its black horns extending beyond a pale spotted body.",
+      "stage": "Adults",
+      "credit": "Junkai Wang",
+      "url": "https://www.facebook.com/photo/?fbid=1283307882426167",
+      "preferred": true
+    },
+    {
+      "file": "grantii-side-wang.jpg",
+      "species": "Dynastes grantii",
+      "width": 1440,
+      "height": 1440,
+      "caption": "Lateral detail of the male’s horns.",
+      "alt": "The head and thoracic horns of a western Hercules beetle seen from the side.",
+      "stage": "Adults",
+      "credit": "Junkai Wang",
+      "url": "https://www.facebook.com/photo/?fbid=1283307879092834",
+      "preferred": false
+    },
+    {
+      "file": "xyloryctes-brood-b-wang.jpg",
+      "species": "Xyloryctes thestalus",
+      "width": 1219,
+      "height": 914,
+      "caption": "Young larvae from my Fort Davis breeding group in June 2023.",
+      "alt": "Several curved pale Xyloryctes thestalus grubs exposed in dark rearing substrate.",
+      "stage": "Larvae",
+      "credit": "Junkai Wang",
+      "url": "https://www.facebook.com/photo/?fbid=1467199900703630",
+      "preferred": false
     }
   ],
   "facebook_url": "https://www.facebook.com/junkai.wang.1694",

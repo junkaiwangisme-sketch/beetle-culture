@@ -409,3 +409,10 @@ section.block { padding-block: clamp(43px, 5.5vw, 85px); }
 @media(max-width:740px){.bar {flex-wrap:wrap;padding-block:10px}.bar nav{flex-wrap:wrap}}
 
 .classlinks{padding-bottom:40px}.classlinks h2{font: 26px var(--serif)}.factlist div{display:grid;grid-template-columns:minmax(100px,1fr) 2fr;gap:15px;padding:9px 0;border-bottom:1px solid var(--line)}.factlist dd{margin:0}.editor-form label{display:grid;gap:6px;margin:16px 0}.editor-form textarea,.editor-form input,.editor-form select{width:100%;padding:10px;font:inherit;background:#151715;color:#eee;border:1px solid #687065}.editor-form{max-width:640px}.hero-figure img{object-position:50% 55%}
+.account-credit p {
+  margin: 1rem 0 0;
+  color: var(--muted);
+  font-size: .95rem;
+  font-style: italic;
+}
+.articlepic figcaption a { text-decoration: underline; text-underline-offset: .15em; }

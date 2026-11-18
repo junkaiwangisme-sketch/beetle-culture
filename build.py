@@ -72,7 +72,9 @@ def public_reference(url):
 def srcs(s): return ''.join('<li><a href="%s">%s</a></li>' % (e(a['url']), e(a['title'])) for a in s['sources'] if public_reference(a['url']))
 def link(url,label): return '<a href="%s">%s</a>' % (e(url),e(label))
 def getphotos(s):
-    return [p for p in photos if p.get('species','').casefold()==s['name'].casefold()]
+    pictures = [p for p in photos if p.get('species', '').casefold() == s['name'].casefold()]
+    # Keep the original sequence within each group and use a verified adult as the lead.
+    return sorted(pictures, key=lambda p: (p.get('stage') != 'Adults', not p.get('preferred')))
 def image(p,lazy=True):
     return '<img src="%s" alt="%s"%s%s%s>' % (e(p['file']),e(p['alt']),' loading="lazy"' if lazy else ' fetchpriority="high"',' width="%s"' % int(p['width']) if p.get('width') else '', ' height="%s"' % int(p['height']) if p.get('height') else '')
 def cred(p):
@@ -131,8 +133,11 @@ def classification(references):
     if not references: return ''
     return '<section class="classification"><h2>Classification</h2><ul class="sources">'+''.join('<li>'+link(r['url'],r['title'])+'</li>' for r in references)+'</ul></section>'
 
-def galleryfig(p):
-    return f'<figure class="articlepic"><a href="{e(p["file"])}">{image(p)}</a><figcaption>{e(p.get("caption") or p["alt"])} </figcaption></figure>'
+def galleryfig(p, lead=False):
+    caption = e(p.get('caption') or p['alt'])
+    if p.get('show_credit'):
+        caption += ' · ' + cred(p)
+    return f'<figure class="articlepic"><a href="{e(p["file"])}">{image(p, lazy=not lead)}</a><figcaption>{caption}</figcaption></figure>'
 hero=next((p for p in photos if p.get('hero')),photos[0] if photos else None)
 owner=next((s for s in guides if hero and s['name']==hero.get('species')),None)
 visual=''
@@ -185,7 +190,7 @@ for s in guides:
             content+='<h3>'+e(section['title'])+'</h3><p>'+prose(section['text'])+'</p>'
         if trial.get('url') and public_reference(trial['url']):content+='<p>'+link(trial['url'],'Original account')+'</p>'
         parts.insert(1 if len(parts)>1 else len(parts),f'<section id="{anchor}" class="trial"><h2>{e(trial["title"])}</h2>{content}</section>')
-    body+='<div class="wrap article-layout"><article class="article">'+(galleryfig(ps[0]) if ps else '')+summary+''.join(parts)
+    body+='<div class="wrap article-layout"><article class="article">'+(galleryfig(ps[0], lead=True) if ps else '')+summary+''.join(parts)
     if len(ps)>1:
         toc.append('<li>'+link('#photographs','Photographs')+'</li>')
         body+='<section id="photographs"><h2>Photographs</h2>'
@@ -210,6 +215,10 @@ for s in guides:
         body+='<p class="mapmeta">Retrieved '+e(dist['date'])+' UTC · '+link(dist['url'],'View observations on iNaturalist')
         if dist.get('data_file'):body+=' · '+link(dist['data_file'],'Map data and outlier decisions')
         body+=' · '+link('distribution.html','Mapping methods')+'</p></section>'
+    references = srcs(s)
+    if references:
+        toc.append('<li>'+link('#references', 'Rearing references')+'</li>')
+        body += '<section id="references"><h2>Rearing references</h2><ul class="sources">'+references+'</ul></section>'
     body+=classification(s.get('classification',[]))
     body+='</article><aside class="toc"><div class="onthis">In this guide</div><ol>'+''.join(toc)+'</ol>'+link(glink(s['group']),'All '+g['name']+' guides')+'</aside></div>'
     page(slink(s),((common+' ('+name+')') if common else name)+' breeding guide',s['intro'],body,'Article',ps[0] if ps else None,article=s)
