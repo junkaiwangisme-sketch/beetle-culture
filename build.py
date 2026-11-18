@@ -2,7 +2,7 @@
 from collections import Counter
 from pathlib import Path
 from html import escape
-from urllib.parse import urlsplit
+from urllib.parse import urlsplit, urlencode
 import json
 import hashlib
 import re
@@ -97,7 +97,7 @@ def getphotos(s):
 def image(p,lazy=True):
     return '<img src="%s" alt="%s"%s%s%s>' % (e(p['file']),e(p['alt']),' loading="lazy"' if lazy else ' fetchpriority="high"',' width="%s"' % int(p['width']) if p.get('width') else '', ' height="%s"' % int(p['height']) if p.get('height') else '')
 def cred(p):
-    credit=link(p['url'],p.get('credit') or 'Photograph source') if p.get('url') else e(p.get('credit',''))
+    credit=link(p['url'],p.get('credit') or 'Photograph source') if p.get('url') and public_reference(p['url']) else e(p.get('credit',''))
     if p.get('license_url'): credit += ' · ' + link(p['license_url'],p['license'])
     elif p.get('license'): credit += ' · ' + e(p['license'])
     return credit
@@ -152,6 +152,24 @@ def classification(references):
     if not references: return ''
     return '<section class="classification"><h2>Classification</h2><ul class="sources">'+''.join('<li>'+link(r['url'],r['title'])+'</li>' for r in references)+'</ul></section>'
 
+def observation_map(name, frame):
+    """Return species-specific markup. Load observation-map.js once on matching guide pages."""
+    values=dict(place_id=97394,quality_grade='research',captive='false',geo='true',view='map')
+    taxon=frame.get('taxon_id')
+    values['taxon_id' if taxon else 'taxon_name']=taxon or name
+    url='https://www.inaturalist.org/observations?'+urlencode(values)
+    url=escape(url,quote=True)
+    name=escape(name,quote=True)
+    bounds=','.join(str(n) for n in frame['bounds'])
+    return (f'<div class="occurrence-view" data-name="{name}" data-taxon="{taxon or ""}" data-bounds="{bounds}" style="margin:1.4rem 0">'
+        '<h2>Wild observations</h2>'
+        f'<svg viewBox="0 0 960 520" role="img" aria-label="Wild research-grade iNaturalist observations of {name}" width="960" height="520" '
+        'class="occurrence-canvas" hidden></svg>'
+        '<p class="mapmeta" role="status">Wild, research-grade iNaturalist records with public coordinates.</p>'
+        '<button type="button" class="occurrence-extent" hidden>Show North America</button> '
+        f'<a class="observation-link" href="{url}">Explore records on iNaturalist</a></div>')
+
+
 def galleryfig(p, lead=False):
     caption = e(p.get('caption') or p['alt'])
     if p.get('show_credit'):
@@ -173,8 +191,8 @@ home+='<section class="wrap block home-index" id="families"><div class="section-
 
 page('index.html','Beetle breeding guides and photography','Explore beetle breeding by family and species, with photographs, larval care, adult diets, and documented rearing observations.',home,'WebSite',hero)
 if any(record.get('distribution') for record in guides):
-    method_intro=intro('Mapping methods','North American occurrence records and the treatment of geographic outliers.',[(None,'Mapping methods')])
-    method_body='<div class="wrap block"><article class="article"><section><h2>Observations</h2><p>Each species map uses wild, research-grade, georeferenced observations in the iNaturalist North America place, including Mexico, Central America and the Caribbean. Points represent public observation coordinates. Locations can overlap. Sampling intensity varies, and gaps between observations do not establish absence.</p></section><section><h2>Location precision</h2><p>Filled symbols indicate unobscured public locations with a reported uncertainty of 10 km or less. Open symbols indicate an obscured location or a larger or unknown uncertainty. The public coordinate is retained for obscured records.</p></section><section><h2>Outlier review</h2><p>We grouped observations in 0.25° latitude–longitude cells. A cell with one or two records was flagged when its center was at least 500 km from every other occupied cell for that species. Flagged records were checked against taxonomic and geographic sources. The species data file lists each reviewed observation and the reason for retaining or excluding it.</p></section><section><h2>Map projection</h2><p>Figures use an Albers equal-area conic projection with standard parallels at 20° and 50° N and Natural Earth boundaries. The scale bar and geographic extent are shown on each figure.</p></section></article></div>'
+    method_intro=intro('Mapping methods','How the guides map wild observations and published regional records.',[(None,'Mapping methods')])
+    method_body='<div class="wrap block"><article class="article"><section><h2>Observations</h2><p>Point maps use wild, research-grade, georeferenced observations in the iNaturalist North America place, including Mexico, Central America and the Caribbean. Points represent public observation coordinates. Locations can overlap. Sampling intensity varies, and gaps between observations do not establish absence.</p></section><section><h2>Location precision</h2><p>Filled symbols indicate unobscured public locations with a reported uncertainty of 10 km or less. Open symbols indicate an obscured location or a larger or unknown uncertainty. The public coordinate is retained for obscured records.</p></section><section><h2>Outlier review</h2><p>We grouped observations in 0.25° latitude–longitude cells. A cell with one or two records was flagged when its center was at least 500 km from every other occupied cell for that species. Flagged records were checked against taxonomic and geographic sources. The species data file lists each reviewed observation and the reason for retaining or excluding it.</p></section><section><h2>Map projection</h2><p>Static figures use an Albers equal-area conic projection with standard parallels at 20° and 50° N and Natural Earth boundaries. The geographic extent is shown on each figure.</p></section><section><h2>Regional records</h2><p>Shading identifies states, provinces or islands named by a cited source. Within a highlighted region, a species may occupy only one mountain range, habitat or locality. Each figure links to its list of mapped regions and sources.</p></section><section><h2>Live occurrence maps</h2><p>Alongside regional maps, iNaturalist supplies an independent layer of wild, research-grade observations at public coordinates. Record totals refer to the North America filter and update as observations change. Select the continental view to see records outside the initial map window. These live records have not undergone the outlier review used for the static point maps.</p></section></article></div>'
     page('distribution.html','Distribution mapping methods','Data selection, positional uncertainty and outlier decisions for the beetle occurrence maps.',method_intro+method_body)
 page('groups.html','Beetle family directory','Browse beetle breeding guides by family and scarab subfamily.',intro('Family directory','Choose a group to open its species guides.',[(None,'Families')])+'<section class="wrap block">'+group_rows()+'</section>','CollectionPage',active='groups')
 for k,g in groups.items():
@@ -192,10 +210,17 @@ for s in guides:
     facts = s.get('facts', [])
     summary = ('<section class="facts"><h2>Life-history data</h2><dl class="factlist">'+''.join('<div><dt>'+e(x['title'])+'</dt><dd>'+e(x['text'])+'</dd></div>' for x in facts)+'</dl></section>') if facts else ''
     parts=[];toc=[]
+    section_photos = set()
     for i,item in enumerate(s['sections'],1):
-        anchor='section-'+str(i)
+        anchor=item.get('anchor') or 'section-'+str(i)
         toc.append('<li>'+link('#'+anchor,item['title'])+'</li>')
         text=''.join('<p>'+prose(t)+'</p>' for t in item['text'].split('\n') if t.strip())
+        inline_photos = [photo for file in item.get('photos', []) for photo in ps if photo['file'] == file]
+        if inline_photos:
+            section_photos.update(photo['file'] for photo in inline_photos)
+            text += '<div class="gallery">'+''.join(galleryfig(photo) for photo in inline_photos)+'</div>'
+        for reference in item.get('links', []):
+            text += '<p>'+link(reference['url'], reference['title'])+'</p>'
         parts.append(f'<section id="{anchor}"><h2>{e(item["title"])}</h2>{text}</section>')
     if facts:
         summary=summary.replace('class="facts"','class="facts" id="life-history"');toc.insert(0,'<li>'+link('#life-history','Life-history data')+'</li>')
@@ -210,7 +235,7 @@ for s in guides:
         if trial.get('url') and public_reference(trial['url']):content+='<p>'+link(trial['url'],'Original account')+'</p>'
         parts.insert(1 if len(parts)>1 else len(parts),f'<section id="{anchor}" class="trial"><h2>{e(trial["title"])}</h2>{content}</section>')
     adult_lead = ps[0] if ps and ps[0].get('stage') == 'Adults' else None
-    gallery_photos = ps[1:] if adult_lead else ps
+    gallery_photos = [p for p in ps if p is not adult_lead and p['file'] not in section_photos]
     body+='<div class="wrap article-layout"><article class="article">'+(galleryfig(adult_lead, lead=True) if adult_lead else '')+summary+''.join(parts)
     if g['slug'] in ('lucanidae', 'dynastinae', 'rutelinae', 'cetoniinae') or s['slug'] == 'stenodontes-chevrolati':
         body += '<p class="guide-related">'+link('substrate.html', 'How I prepare hardwood flake soil')+'</p>'
@@ -240,12 +265,23 @@ for s in guides:
     dist=s.get('distribution')
     if dist:
         filename=e(dist['file'])
-        toc.append('<li>'+link('#distribution','Distribution records')+'</li>')
+        regional = dist.get('kind') == 'regional'
+        heading = 'Documented range' if regional else 'Distribution records'
+        toc.append('<li>'+link('#distribution',heading)+'</li>')
         caption=e(dist.get('caption',''))
-        body+='<section id="distribution"><h2>Distribution records</h2><figure class="distribution-map"><a href="'+filename+'"><img loading="lazy" src="'+filename+'" alt="'+e('North American iNaturalist occurrence map for '+name)+'"></a><figcaption>'+caption+'</figcaption></figure>'
-        body+='<p class="mapmeta">Retrieved '+e(dist['date'])+' UTC · '+link(dist['url'],'View observations on iNaturalist')
-        if dist.get('data_file'):body+=' · '+link(dist['data_file'],'Map data and outlier decisions')
+        alt=e(dist.get('alt', 'North American iNaturalist occurrence map for '+name))
+        body+=f'<section id="distribution"><h2>{heading}</h2><figure class="distribution-map"><a href="{filename}"><img loading="lazy" src="{filename}" alt="{alt}"></a><figcaption>{caption}</figcaption></figure>'
+        date_label = 'Compiled ' if regional else 'Retrieved '
+        body+='<p class="mapmeta">'+date_label+e(dist['date'])+' · '+link(dist['url'],dist.get('link_label','View observations on iNaturalist'))
+        if dist.get('data_file'):
+            body+=' · '+link(dist['data_file'],dist.get('data_label','Map data and outlier decisions'))
         body+=' · '+link('distribution.html','Mapping methods')+'</p></section>'
+    if not dist or dist.get('live'):
+        frame=(dist or {}).get('live') or {'bounds':[-170,6,-49,72]}
+        toc.append('<li>'+link('#observations', 'Wild observations')+'</li>')
+        body+='<section id="observations">'+observation_map(name, frame)+'</section>'
+        body+=f'<script defer src="{asset("observation-map.js")}"></script>'
+        files.update(('observation-map.js','observation-basemap.svg'))
     references = srcs(s)
     if references:
         toc.append('<li>'+link('#references', 'Sources')+'</li>')

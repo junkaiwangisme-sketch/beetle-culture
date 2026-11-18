@@ -94,6 +94,12 @@ content:
         label: Classification links
         component: reference
         list: {collapsible: {collapsed: true, summary: '{title}'}}
+      - name: native_status
+        label: Geographic range
+        type: object
+        fields:
+          - {name: text, label: Range description, type: text}
+          - {name: sources, label: Range sources, component: reference, list: true}
       - name: aliases
         label: Other names for search
         type: string

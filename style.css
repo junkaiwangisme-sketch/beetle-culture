@@ -443,3 +443,9 @@ section.block { padding-block: clamp(43px, 5.5vw, 85px); }
   .bar .owner-login { grid-column: 2; grid-row: 1; justify-self: end; }
   .bar nav { grid-column: 1/-1; grid-row: 2; margin: 0; gap: 1rem; flex-wrap: wrap; }
 }
+
+.occurrence-view .occurrence-canvas:not([hidden]) {display:block;width:100%;height:auto;border:1px solid #abbcaf;background:#e5eeed}
+.occurrence-view [hidden] {display:none}
+.occurrence-view .occurrence-extent {background:transparent;color:var(--ink);border:1px solid var(--line);padding:.6em 1em;margin-right:.8em;border-radius:4px;font:inherit;cursor:pointer}
+.occurrence-view .occurrence-extent:hover {border-color:var(--ink)}
+.occurrence-view .observation-link {display:inline-block;margin-top:.5em}
