@@ -22,21 +22,40 @@ def words(items):
 config = read('catalog.json')
 BASE = config['url'].rstrip('/') + '/'
 groups = {item['slug']: item for item in config['groups']}
-by_slug = {record['slug']: record for record in config['species']}
-for path in sorted(ROOT.glob('post-*.json')):
-    record = read(path.name)
-    if path.name != 'post-' + record['slug'] + '.json':
-        raise ValueError('Post filename does not match its slug: ' + path.name)
-    by_slug[record['slug']] = record
+# Each guide file is a post. Removing the file unpublishes its page and index entries.
+by_slug = {}
+guide_dir = ROOT / 'guides'
+if not guide_dir.is_dir():
+    raise ValueError('Missing guides directory')
+for path in sorted(guide_dir.glob('*.json')):
+    record = read(path)
+    record['slug'] = path.stem
+    by_slug[path.stem] = record
 guides = words(by_slug.values())
 scientific_names=sorted({record['name'] for record in guides},key=len,reverse=True)
 name_pattern=re.compile(r'(?<![A-Za-z])('+'|'.join(map(re.escape,scientific_names))+r')(?![A-Za-z])')
 def prose(text):
-    return name_pattern.sub(lambda m:'<i>'+m.group(0)+'</i>',e(text))
-photos = list(config['photos'])
+    return name_pattern.sub(lambda m:'<i>'+m.group(0)+'</i>',e(text)) if guides else e(text)
+# Original source and licensing metadata follows the photograph even if the owner
+# revises its caption or the scientific name. The post controls gallery membership.
+originals = {p['file']: p for p in config['photos']}
+photos = [p for p in originals.values() if not p.get('species')]
+original_order = {name: i for i, name in enumerate(originals)}
 for record in guides:
-    for picture in record.get('additional_photos', []):
-        photos.append({**picture, 'species':record['name']})
+    for item in record.get('gallery') or []:
+        upload = item.get('upload')
+        if upload:
+            if not upload.startswith('/uploads/'):
+                raise ValueError('Invalid upload path for '+record['name'])
+            photo = {**item, 'file': upload[1:], 'show_credit': bool(item.get('credit'))}
+        else:
+            filename = item.get('file', '')
+            photo = {**originals.get(filename, {}), **item}
+        if not photo.get('file'):
+            raise ValueError('Select a photograph for '+record['name'])
+        photos.append({**photo, 'species':record['name']})
+# Preserve the existing home and family covers when the site first adopts the editor.
+photos.sort(key=lambda p: original_order.get(p['file'], len(original_order)))
 pages = []
 files = {item['file'] for item in photos} | {f['file'] for f in config.get('substrate',{}).get('photos',[])}
 for record in guides:
@@ -57,10 +76,10 @@ for item in [*guides, *groups.values()]:
     if not re.fullmatch(r'[a-z0-9]+(?:-[a-z0-9]+)*', item['slug']):
         raise ValueError('Invalid slug ' + item['slug'])
 for s in guides:
-    if s['group'] not in groups or not s['sections'] or not s['sources']:
-        raise ValueError('Check the group, sections and sources for ' + s['name'])
+    if s['group'] not in groups or not s['sections']:
+        raise ValueError('Check the group and sections for ' + s['name'])
 for p in photos:
-    if not re.fullmatch(r'[A-Za-z0-9][A-Za-z0-9_.-]*\.(jpg|jpeg|png|webp|avif)',p['file'],re.I) or not p.get('alt') or not (ROOT / p['file']).is_file():
+    if not re.fullmatch(r'(?:uploads/)?[A-Za-z0-9][A-Za-z0-9_.-]*\.(jpg|jpeg|png|webp|avif)',p['file'],re.I) or not p.get('alt') or not (ROOT / p['file']).is_file():
         raise ValueError('Check image and alt text for ' + p['file'])
 
 def glink(s): return 'group-' + s + '.html'
@@ -68,13 +87,13 @@ def slink(s): return 'species-' + s['slug'] + '.html'
 def named(s): return s.get('common') or s['name']
 def public_reference(url):
     host=(urlsplit(url).hostname or '').casefold()
-    return host not in ('discord.com','discordapp.com','junkaiwangisme.wixsite.com') and not host.endswith('.discord.com')
-def srcs(s): return ''.join('<li><a href="%s">%s</a></li>' % (e(a['url']), e(a['title'])) for a in s['sources'] if public_reference(a['url']))
+    return urlsplit(url).scheme in ('https','http') and bool(host) and host not in ('discord.com','discordapp.com','junkaiwangisme.wixsite.com') and not host.endswith('.discord.com')
+def srcs(s): return ''.join('<li><a href="%s">%s</a></li>' % (e(a['url']), e(a['title'])) for a in s.get('sources') or [] if public_reference(a['url']))
 def link(url,label): return '<a href="%s">%s</a>' % (e(url),e(label))
 def getphotos(s):
     pictures = [p for p in photos if p.get('species', '').casefold() == s['name'].casefold()]
     # Keep the original sequence within each group and use a verified adult as the lead.
-    return sorted(pictures, key=lambda p: (p.get('stage') != 'Adults', not p.get('preferred')))
+    return sorted(pictures, key=lambda p: (p.get('stage') != 'Adults', not p.get('preferred'), not bool(p.get('upload') and p.get('preferred'))))
 def image(p,lazy=True):
     return '<img src="%s" alt="%s"%s%s%s>' % (e(p['file']),e(p['alt']),' loading="lazy"' if lazy else ' fetchpriority="high"',' width="%s"' % int(p['width']) if p.get('width') else '', ' height="%s"' % int(p['height']) if p.get('height') else '')
 def cred(p):
@@ -87,7 +106,7 @@ def asset(filename):
     return filename+'?v='+version
 
 def page(file,title,desc,body,kind='WebPage',photo=None,active=None,article=None):
-    for js in ('search.js','editor.js','editor-data.js'):
+    for js in ('search.js',):
         if f'src="{js}"' in body:
             body=body.replace(f'src="{js}"', f'src="{asset(js)}"')
     full=BASE+('' if file=='index.html' else file)
@@ -99,7 +118,7 @@ def page(file,title,desc,body,kind='WebPage',photo=None,active=None,article=None
     if photo: data['image']=BASE+photo['file']
     def nav(url,label,key,cls=''):
         return f'<a href="{url}" class="{cls}"'+(' aria-current="page"' if active==key else '')+'>'+label+'</a>'
-    top='<a class="skip" href="#main">Skip to content</a><header><div class="wrap bar"><a class="brand" href="index.html" aria-label="North American Beetle Breeding home"><span class="crest" aria-hidden="true">B</span> North American Beetle Breeding</a><nav aria-label="Main navigation">'+nav('groups.html','Families','groups')+nav('species.html','Species','species')+nav('substrate.html','Substrate','substrate')+nav('about.html','About me','about')+nav('species.html#query','<span class="glass" aria-hidden="true"></span><span class="sr">Search guides</span><span class="searchtext" aria-hidden="true">Search</span>','search','searchlink')+'</nav></div></header>'
+    top='<a class="skip" href="#main">Skip to content</a><header><div class="wrap bar"><a class="brand" href="index.html" aria-label="North American Beetle Breeding home"><span class="crest" aria-hidden="true">B</span> North American Beetle Breeding</a><nav aria-label="Main navigation">'+nav('groups.html','Families','groups')+nav('species.html','Species','species')+nav('substrate.html','Substrate','substrate')+nav('about.html','About me','about')+nav('species.html#query','<span class="glass" aria-hidden="true"></span><span class="sr">Search guides</span><span class="searchtext" aria-hidden="true">Search</span>','search','searchlink')+'</nav>'+nav('editor.html','Log in','editor','owner-login')+'</div></header>'
     foot='<footer class="footer"><div class="wrap foot"><span class="brand">North American Beetle Breeding</span><div class="footlinks">'+link('groups.html','Family directory')+link('species.html','Species index')+link('credits.html','References')+link('substrate.html','Substrate')+link('about.html','About me')+link('editor.html','Manage posts')+'</div></div></footer>'
     og=(f'<meta property="og:image" content="{e(BASE+photo["file"])}"><meta property="og:image:alt" content="{e(photo["alt"])}">' if photo else '')
     stylesheet=asset('style.css')
@@ -195,7 +214,7 @@ for s in guides:
     body+='<div class="wrap article-layout"><article class="article">'+(galleryfig(adult_lead, lead=True) if adult_lead else '')+summary+''.join(parts)
     if g['slug'] in ('lucanidae', 'dynastinae', 'rutelinae', 'cetoniinae') or s['slug'] == 'stenodontes-chevrolati':
         body += '<p class="guide-related">'+link('substrate.html', 'How I prepare hardwood flake soil')+'</p>'
-    if s['slug'] == 'strategus-aloeus':
+    if s['slug'] == 'strategus-aloeus' and 'chrysina-woodi' in by_slug:
         body += '<p class="guide-related">'+link('species-chrysina-woodi.html', 'My clay layer for pupating Chrysina woodi')+'</p>'
     for related_slug in s.get('related_species', []):
         related = by_slug.get(related_slug)
@@ -276,9 +295,8 @@ for s in guides:
 creditbody+='</article></div>'
 page('credits.html','References','Primary breeding accounts and species-specific references.',creditbody)
 edit_template=(ROOT/'editor-template.html').read_text()
-edit_template=edit_template.replace('%%SPECIES%%',''.join('<option value="'+e(s['slug'])+'">'+e(s['name'])+'</option>' for s in guides)).replace('%%GROUPS%%',opts)
-write('editor-data.js','window.guideEditor = '+json.dumps({'species':guides},ensure_ascii=False).replace('<','\\u003c')+';')
-page('editor.html','Manage species posts','Prepare a new or revised species post for publication.',intro('Manage species posts','',[(None,'Manage posts')])+edit_template)
+page('editor.html','Owner login','Sign in to manage species posts and photographs.',
+     intro('Owner login','',[(None,'Owner login')])+edit_template, active='editor')
 
 sitemap=ET.Element('urlset',xmlns='http://www.sitemaps.org/schemas/sitemap/0.9')
 for url in pages: ET.SubElement(ET.SubElement(sitemap,'url'),'loc').text=url
@@ -291,7 +309,7 @@ parser.add_argument('--publish-dir', type=Path, help='Copy public pages and phot
 output = parser.parse_args().publish_dir
 if output:
     output.mkdir(parents=True, exist_ok=True)
-    public = {'index.html', 'style.css', 'search.js', 'editor-data.js','editor.js', 'sitemap.xml', 'robots.txt'} | files
+    public = {'index.html', 'style.css', 'search.js', 'sitemap.xml', 'robots.txt'} | files
     public.update(url[len(BASE):] for url in pages if url != BASE)
     for filename in sorted(public):
         dest = output / filename

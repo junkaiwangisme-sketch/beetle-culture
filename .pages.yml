@@ -1,0 +1,100 @@
+media:
+  input: uploads
+  output: /uploads
+  extensions: [jpg, jpeg, png, webp, avif]
+  rename: random
+settings:
+  content:
+    merge: true
+components:
+  paragraph:
+    type: object
+    fields:
+      - {name: title, label: Heading, type: string, required: true}
+      - {name: text, label: Text, type: text, required: true}
+  reference:
+    type: object
+    fields:
+      - {name: title, label: Title, type: string, required: true}
+      - name: url
+        label: Link
+        type: string
+        required: true
+        pattern: '^https?://'
+content:
+  - name: guides
+    label: Species posts
+    type: collection
+    path: guides
+    format: json
+    subfolders: false
+    filename: '{primary}.json'
+    operations: {create: true, delete: true, rename: false}
+    view:
+      primary: name
+      fields: [name, common, group]
+      sort: [name, group]
+      search: [name, common, group]
+      default: {sort: name, order: asc}
+    fields:
+      - {name: name, label: Scientific name, type: string, required: true}
+      - {name: common, label: Common name, type: string}
+      - name: group
+        label: Family or subfamily
+        type: select
+        required: true
+        options:
+          values: [dynastinae, lucanidae, rutelinae, cetoniinae, cerambycidae, tenebrionidae, passalidae, dermestidae, ptinidae, zopheridae, elateridae]
+      - {name: intro, label: Introduction, type: text, required: true}
+      - {name: account_credit, label: Byline, type: string}
+      - name: sections
+        label: Breeding account
+        component: paragraph
+        required: true
+        list: {min: 1, collapsible: {collapsed: true, summary: '{title}'}}
+      - name: facts
+        label: Life-history data
+        component: paragraph
+        list: {collapsible: {collapsed: true, summary: '{title}'}}
+      - name: gallery
+        label: Photographs
+        type: object
+        list: {collapsible: {collapsed: true, summary: '{stage} · {alt}'}}
+        fields:
+          - name: file
+            label: Original photograph
+            type: string
+            readonly: true
+          - name: upload
+            label: Choose or upload a photograph
+            type: image
+            description: Select an image for a new photograph, or leave this empty to keep the original.
+          - {name: alt, label: Image description, type: string, required: true}
+          - {name: caption, label: Caption, type: text}
+          - {name: credit, label: Photographer, type: string}
+          - name: stage
+            label: Life stage
+            type: select
+            options:
+              values: [Adults, Eggs, Larvae, Prepupae and pupae, Breeding setup, Culture, Rearing cell, Additional views]
+          - {name: preferred, label: Preferred lead photograph, type: boolean}
+      - name: trials
+        label: Additional breeding trials
+        type: object
+        list: {collapsible: {collapsed: true, summary: '{title}'}}
+        fields:
+          - {name: title, label: Trial title, type: string, required: true}
+          - {name: text, label: Observations, type: text, required: true}
+          - {name: url, label: Source link, type: string, pattern: '^https?://'}
+      - name: sources
+        label: Sources
+        component: reference
+        list: {collapsible: {collapsed: true, summary: '{title}'}}
+      - name: classification
+        label: Classification links
+        component: reference
+        list: {collapsible: {collapsed: true, summary: '{title}'}}
+      - name: aliases
+        label: Other names for search
+        type: string
+        list: true

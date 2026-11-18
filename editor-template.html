@@ -1,17 +1,6 @@
-<section class="wrap block"><form class="editor-form" id="record-editor">
-<p>Add a species or revise its existing post. Download the post file here, then publish it with the GitHub account that manages this site.</p>
-<label>Existing post<select name="existing"><option value="">New species</option>%%SPECIES%%</select></label>
-<label>Scientific name<input name="name" required placeholder="Genus species"></label>
-<label>Common name<input name="common"></label>
-<label>Family or subfamily<select name="group" required><option value="">Select a group</option>%%GROUPS%%</select></label>
-<label>Summary<textarea name="intro" required rows="3"></textarea></label>
-<label>Life-history data<textarea name="facts" rows="5" placeholder="Adult lifespan | 1–4 months"></textarea></label>
-<label>Account sections<textarea name="sections" required rows="9" placeholder="Oviposition&#10;Enter the observation here.&#10;&#10;Larval development&#10;Enter the next observation here."></textarea></label>
-<fieldset id="trial-fields"><legend>Additional breeding accounts</legend><div id="trial-list"></div><button type="button" id="new-trial">Add an account on this page</button></fieldset>
-<label>Sources<textarea name="sources" required rows="4" placeholder="Title and date | https://..."></textarea></label>
-<label>Classification references<textarea name="taxonomy" rows="2" placeholder="BugGuide | https://...&#10;iNaturalist | https://..."></textarea></label>
-<label>Additional photographs<textarea name="pictures" rows="3" placeholder="female-dorsal.jpg | Adult female in dorsal view"></textarea></label>
-<p>Enter one image filename and description per line. Upload those original image files together with the downloaded post file. The description is used as the caption and alt text.</p>
-<button type="submit" class="cta">Download post file</button><p id="editor-status" role="status"></p>
-<a class="more" href="https://github.com/junkaiwangisme-sketch/beetle-culture/upload/main" target="_blank" rel="noopener">Sign in to GitHub and upload the post ↗</a>
-</form></section><script src="editor-data.js" defer></script><script src="editor.js" defer></script>
+<section class="wrap owner-entry" aria-labelledby="manage-heading">
+  <h2 id="manage-heading">Species posts</h2>
+  <p>Sign in with the site owner’s GitHub account to add or delete posts, edit a breeding account, or upload photographs. On GitHub, you can choose <strong>Continue with Google</strong>.</p>
+  <a class="cta" href="https://app.pagescms.org/junkaiwangisme-sketch/beetle-culture/main">Open the editor <span aria-hidden="true">↗</span></a>
+  <p class="owner-back"><a href="species.html">Back to the species guides</a></p>
+</section>
