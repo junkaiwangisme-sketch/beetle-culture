@@ -381,5 +381,13 @@ section.block { padding-block: clamp(43px, 5.5vw, 85px); }
 @media (prefers-reduced-motion: reduce) {
   .guide img, .row { transition: none; }
 }
+.species-title {font-style:italic}
+.common-name,.card-common {color:var(--muted)}
+.common-name {font:400 1.1rem var(--sans);margin-top:.6rem}
+.guide .card-common {margin-top:.2rem;display:block;font:400 .9rem/1.4 var(--sans)}
+.editor-form input[type=file] {padding:.5rem}
+.article .trial {margin-block:2.4rem;padding:1.4rem 1.6rem;border-left:2px solid var(--fern);background:var(--surface)}
+.article .trial h2 {font-size:1.55rem;margin-top:0}
+.article .trial p:last-child {margin-bottom:0}
 
 .classlinks{padding-bottom:40px}.classlinks h2{font: 26px var(--serif)}.factlist div{display:grid;grid-template-columns:minmax(100px,1fr) 2fr;gap:15px;padding:9px 0;border-bottom:1px solid var(--line)}.factlist dd{margin:0}.editor-form label{display:grid;gap:6px;margin:16px 0}.editor-form textarea,.editor-form input,.editor-form select{width:100%;padding:10px;font:inherit;background:#151715;color:#eee;border:1px solid #687065}.editor-form{max-width:640px}.hero-figure img{object-position:50% 55%}

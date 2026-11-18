@@ -135,19 +135,15 @@
       "name": "Pelidnota punctata",
       "common": "Grapevine beetle",
       "group": "rutelinae",
-      "intro": "A grape leaf feeds the adult, but a newly hatched grub needs decayed wood. A Kansas rearing study followed this spotted scarab from egg to adult over roughly two years.",
+      "intro": "Grapevine beetle adults feed on grape foliage. In Kansas, females laid eggs in moist soil beneath decaying logs, and the hatchlings bored into the adjacent wood.",
       "sections": [
         {
-          "title": "Adult food and egg laying",
-          "text": "Offer pesticide-free grape leaves to the adults. Pair the beetles where they can climb onto the foliage and watch at dusk, when they often mate. Set damp soil against decomposed hardwood for the female. Eggs have been recorded individually in moist soil beneath decaying wood."
+          "title": "Mating and oviposition",
+          "text": "Field observations in Kansas placed mating adults on wild grape at night. Females laid eggs singly between June 19 and August 17. Fresh eggs measured about 2.0 × 1.5 mm and became rounder as they developed."
         },
         {
-          "title": "Raising the grubs",
-          "text": "Use soft, decomposed hardwood as the larval food. In Kansas, William Hayes placed hatchlings with crumbled, rotten elm in a large container and left the wood intact as the grubs developed. Elm is a documented choice. Grubs also occur in the decaying stumps and roots of other hardwoods."
-        },
-        {
-          "title": "Timing the next generation",
-          "text": "Date the enclosure when eggs are laid and expect a long larval stage. Hayes followed one egg laid in early July to an adult in July two years later. In a larger sample of 21 pupae, the pupal stage lasted 13–24 days. These observations give two different time scales to track in a rearing log."
+          "title": "Development in decaying wood",
+          "text": "One egg laid in early July 1919 produced an adult on July 11, 1921. In a separate rearing, hatchlings placed in crumbled, decaying elm in July 1920 produced 12 adult males and 17 adult females by July 1922."
         }
       ],
       "sources": [
@@ -162,6 +158,20 @@
         {
           "title": "University of Minnesota Extension, Scarab beetles",
           "url": "https://extension.umn.edu/garden-and-home/yard-and-garden/yard-and-garden-insects/scarab-beetles"
+        }
+      ],
+      "facts": [
+        {
+          "title": "Egg incubation",
+          "text": "8–26 days, mean 14.9 days in Kansas laboratory observations"
+        },
+        {
+          "title": "Pupal duration",
+          "text": "13–24 days, mean 19 days (21 pupae)"
+        },
+        {
+          "title": "Egg to adult",
+          "text": "Approximately 2 years in a Kansas rearing study"
         }
       ],
       "classification": [
@@ -180,19 +190,15 @@
       "name": "Odontotaenius disjunctus",
       "common": "Horned passalus",
       "group": "passalidae",
-      "intro": "Also called a bess beetle, this species raises its young in family galleries. The parents prepare food for the larvae and repair damaged pupal chambers.",
+      "intro": "Both parents tend the brood in galleries excavated in decaying wood. Young adults that remain in the natal log can contribute to the care of later broods.",
       "sections": [
         {
-          "title": "Set up a family log",
-          "text": "Give the family moist, rotted oak with enough intact wood for galleries. The University of Florida uses the same decayed oak in which the beetles were found for its classroom colonies. Maintain the moisture and add softened wood as the beetles consume it."
+          "title": "Eggs and larval feeding",
+          "text": "Adults carry egg clutches between sites within the gallery. After hatching, larvae remain with the parents and feed on softened wood mixed with adult frass. Colonies have been maintained in moist, decayed oak."
         },
         {
-          "title": "Leave eggs with their parents",
-          "text": "Both adults tend the brood. They relocate eggs within the tunnels, and hatchlings share softened wood mixed with the colony’s frass. Preserve occupied galleries and their contents when adding food. Moving individual eggs or cleaning out all the frass takes away part of the rearing environment."
-        },
-        {
-          "title": "Recognize pupal cells and new adults",
-          "text": "The family packs debris around each pupa. Leave those cells in place, including when an adult appears inside. Newly emerged adults are reddish and gradually turn black. Older siblings may help with brood care while they still share the log."
+          "title": "Pupal chambers",
+          "text": "Adults pack fragments of wood and other debris around the developing pupae and repair damaged chambers. Both parents and recently emerged adults can construct these cells."
         }
       ],
       "sources": [
@@ -203,6 +209,20 @@
         {
           "title": "UF/IFAS Extension, Guide to Collecting and Maintaining Live Arthropods for Classroom Display",
           "url": "https://ask.ifas.ufl.edu/publication/in759"
+        }
+      ],
+      "facts": [
+        {
+          "title": "Egg size at laying",
+          "text": "Approximately 3.0 × 2.4 mm"
+        },
+        {
+          "title": "Egg size before hatching",
+          "text": "Approximately 3.7 × 3.2 mm"
+        },
+        {
+          "title": "Development",
+          "text": "A single summer in some conditions, up to 14–16 months in others"
         }
       ],
       "classification": [
@@ -221,19 +241,15 @@
       "name": "Tenebrio molitor",
       "common": "Yellow mealworm beetle",
       "group": "tenebrionidae",
-      "intro": "A mealworm is the larva of a darkling beetle. With separate containers for breeding adults, growing larvae, and pupae, each stage is easy to follow.",
+      "intro": "Yellow mealworm larvae feed within cereal substrates. A 2023 rearing study compared oat and wheat by-products and documented the adult breeding period separately from larval growth.",
       "sections": [
         {
-          "title": "Prepare the trays",
-          "text": "Use a ventilated container with rolled oats or wheat bran. The grain serves as bedding and food. Add a small piece of carrot or potato as a moisture source and replace it before it spoils. Keep the containers covered so the grain stays clean."
+          "title": "Breeding substrate",
+          "text": "Each breeding tray contained 400 g of grain substrate. Adults oviposited for two weeks before removal, after which the larvae received a further 600 g of substrate. Carrot supplied moisture to both stages."
         },
         {
-          "title": "Start a dated batch",
-          "text": "Place adults on fresh bedding for an egg-laying period, then transfer the adults to a second tray. Label the first tray with the dates. The eggs and first larvae are tiny, so keep the used bedding even when it looks empty. One published rearing system used two-week laying periods."
-        },
-        {
-          "title": "Collect pupae and emerging adults",
-          "text": "As larvae mature, pale, curled pupae appear among the grain. Move pupae to a ventilated container and transfer emerged beetles to an adult tray. The first pale adults will darken over several days. Keeping track of the trays lets you identify which adults produced each batch."
+          "title": "Larval development",
+          "text": "Larvae grew on either milled oat by-product or wheat bran. The wheat-bran cohort also supplied pupae and adults for the study. Ten weeks was the larval harvest age for analysis."
         }
       ],
       "sources": [
@@ -248,6 +264,20 @@
         {
           "title": "EAZA, Management Guideline Manual for Invertebrate Live Food Species, mealworm account",
           "url": "https://www.amphibianark.org/fileadmin/uploads/aark/Husbandry_Library/2006_EAZA-Management-Guideline-Manual-for-Invertebrate-Live-Food-Species.pdf"
+        }
+      ],
+      "facts": [
+        {
+          "title": "Breeding period",
+          "text": "2 weeks per cohort in the published tray study"
+        },
+        {
+          "title": "Adult density",
+          "text": "Approximately 500 adults per 53.5 × 34.5 cm tray in that study"
+        },
+        {
+          "title": "Larval sampling age",
+          "text": "Approximately 10 weeks"
         }
       ],
       "classification": [
@@ -266,25 +296,35 @@
       "name": "Gymnetis thula",
       "common": "Harlequin flower beetle",
       "group": "cetoniinae",
-      "intro": "Adults visit flowers and feed on ripe fruit. The grubs grow in decaying plant material, where they eventually make a firm, oval chamber.",
+      "intro": "Adults of the harlequin flower beetle visit flowers and sap flows by day. The same decaying plant material in which females lay their eggs feeds the developing grubs.",
       "sections": [
         {
-          "title": "House and feed the adults",
-          "text": "Use a covered enclosure with space above the substrate for the active beetles. They fly readily during the day. Offer ripe fruit for adult feeding. Wild individuals also visit sap flows and flowers."
+          "title": "Adult feeding",
+          "text": "Adults consume fruit and plant exudates. In Texas, feeding adults have been recorded at sap flows on false willow (Baccharis neglecta)."
         },
         {
-          "title": "Provide a laying substrate",
-          "text": "Place decayed plant matter such as compost or fermenting oak wood below the feeding area. Females lay in this material and the hatchlings eat it. Keep a dated sample of the original substrate when checking for offspring so small larvae can continue to feed."
-        },
-        {
-          "title": "Protect the pupal chambers",
-          "text": "Larvae pass through three instars before making oval earthen pupal cells. Set aside substrate containing complete cells and leave them intact through emergence. The LSU species account gives records of adults living up to eight months. Its detailed larval stage durations refer to other Gymnetis species, so use your own dates to track a G. thula brood."
+          "title": "Oviposition and larval habitat",
+          "text": "Females lay in compost, fermenting oak and other decaying plant material. Larvae have also been found in tree hollows containing decomposed vegetation."
         }
       ],
       "sources": [
         {
           "title": "Louisiana State University AgCenter, Gymnetis thula, Harlequin Flower Beetle",
           "url": "https://www.lsuagcenter.com/profiles/averywilliams/articles/page1791230872900"
+        }
+      ],
+      "facts": [
+        {
+          "title": "Larval instars",
+          "text": "3"
+        },
+        {
+          "title": "Adult longevity",
+          "text": "Up to 8 months in captivity"
+        },
+        {
+          "title": "Seasonal activity",
+          "text": "Most adult observations fall between May and July"
         }
       ],
       "classification": [
@@ -303,19 +343,15 @@
       "name": "Dynastes tityus",
       "common": "Eastern Hercules beetle",
       "group": "dynastinae",
-      "intro": "Oak cavities supply this rhinoceros beetle’s grubs with a deep accumulation of decayed wood. The University of Kentucky has reared the species in a soil-and-wood mixture.",
+      "intro": "Eastern Hercules beetle larvae feed on decaying hardwood, particularly the loose wood debris in cavities at the bases of oaks. Adults have been observed taking sap from wounds on ash trees.",
       "sections": [
         {
-          "title": "Prepare a laying enclosure",
-          "text": "House a mated female in a secure, ventilated enclosure with room to burrow. The University of Kentucky guide uses at least a gallon of substrate and mixes two parts soil with one part rotten wood. Choose soil without pesticides or fertilizer. Provide pieces of bark or wood the adults can grip."
+          "title": "Captive reproduction",
+          "text": "The Kentucky account describes a laying chamber containing at least one US gallon (3.8 L) of moist substrate, with two parts soil to one part decayed hardwood. Adults accepted apple, orange and overripe banana."
         },
         {
-          "title": "Support larval feeding",
-          "text": "The grubs feed on the wood component as they grow. Keep enough soft, decayed hardwood in the enclosure to supply the larvae. In the wild they feed on the crumbly wood debris that gathers in oak cavities. Field development can span two or three years."
-        },
-        {
-          "title": "Watch for a wandering grub",
-          "text": "When a mature grub begins wandering, the Kentucky rearing guide moves it into its own container with substrate for a pupal cell. A newly formed adult can remain below the surface for some time while its cuticle hardens. Record pupation and first surface activity as separate events."
+          "title": "Seasonal development",
+          "text": "Females lay eggs in summer. Newly formed adults can remain in their pupal cells through winter and emerge above ground in June or July."
         }
       ],
       "sources": [
@@ -326,6 +362,20 @@
         {
           "title": "University of Arkansas Arthropod Museum, Eastern Hercules beetle",
           "url": "https://arthropod.uark.edu/eastern-hercules-beetle/"
+        }
+      ],
+      "facts": [
+        {
+          "title": "Oviposition",
+          "text": "Up to 40 eggs per female in a Kentucky captive-rearing account"
+        },
+        {
+          "title": "Egg incubation",
+          "text": "Approximately 1 month under the reported captive conditions"
+        },
+        {
+          "title": "Development in nature",
+          "text": "May take 2–3 years"
         }
       ],
       "classification": [
@@ -344,19 +394,15 @@
       "name": "Lucanus elaphus",
       "common": "Giant stag beetle",
       "group": "lucanidae",
-      "intro": "In Mississippi floodplain forests, researchers found giant stag beetle larvae both inside rotten logs and underneath them, where the wood touches soil.",
+      "intro": "In Mississippi floodplain forests, giant stag beetle larvae fed both inside fallen logs and at the boundary between wood and soil. The occupied logs varied in size and type of decay.",
       "sections": [
         {
-          "title": "Build a wood–substrate interface",
-          "text": "Place pieces of moist, rotten hardwood in contact with the substrate. Benjamin Harink’s breeding account describes females laying eggs in the material beside the wood. Give the female access to both surfaces and keep track of the date she enters the laying enclosure."
+          "title": "Oviposition and feeding",
+          "text": "A published captive account places the eggs in the substrate beside pieces of decayed wood. Larvae developed on either white-rotted wood or fermented substrate."
         },
         {
-          "title": "Feed developing larvae",
-          "text": "Harink reports raising the grubs on white-rotted wood or fermented beetle substrate. The Mississippi field study found larvae in logs with more than one kind of decay. Keep the food in contact with moist substrate and record which material each brood actually uses."
-        },
-        {
-          "title": "Track identity through emergence",
-          "text": "Label each brood with its parentage. Closely related stag beetles can have very similar grubs. Researchers used DNA to confirm the identities of larvae from the wild. If you start from a known captive pairing, retain the link between each grub and its adults as it develops."
+          "title": "Field observations",
+          "text": "In Mississippi, larvae tunnelled through wood or fed on its underside where the log rested on soil. Larvae occurred in more than one type of rot."
         }
       ],
       "sources": [
@@ -367,6 +413,20 @@
         {
           "title": "Benjamin Harink, Ben’s Beetle Breeding Pages, Lucanus elaphus",
           "url": "https://www.beetlebreeding.ch/lucanus-elephus/"
+        }
+      ],
+      "facts": [
+        {
+          "title": "Development",
+          "text": "Estimated at 1–2 years in the Mississippi field study"
+        },
+        {
+          "title": "Oviposition substrate",
+          "text": "Material adjacent to pieces of rotten wood in a captive account"
+        },
+        {
+          "title": "Captive larval food",
+          "text": "White-rotted wood or fermented wood substrate"
         }
       ],
       "classification": [
@@ -381,34 +441,63 @@
       ]
     },
     {
-      "slug": "chrysina-woodi",
       "name": "Chrysina woodi",
+      "slug": "chrysina-woodi",
       "common": "Wood’s jewel scarab",
       "group": "rutelinae",
-      "intro": "One West Texas female laid 122 eggs in a single clutch. All 122 hatched in captivity.",
+      "intro": "Adults accepted foliage of walnuts and hickories in captivity. Late third instars overwintered above a layer of clay, which the larvae used for pupation.",
+      "facts": [
+        {
+          "title": "Region in the account",
+          "text": "New Mexico and western Texas"
+        },
+        {
+          "title": "Adult length",
+          "text": "25–35 mm"
+        },
+        {
+          "title": "Adult lifespan",
+          "text": "1–3 months"
+        },
+        {
+          "title": "Larval period",
+          "text": "1.5–3 years"
+        },
+        {
+          "title": "Pupal period",
+          "text": "Approximately one month"
+        },
+        {
+          "title": "Egg count reported",
+          "text": "20–60 or more"
+        }
+      ],
       "sections": [
         {
-          "title": "Oviposition",
-          "text": "The breeder housed the adults in a ventilated enclosure with approximately one gallon of lightly fermented flake soil. One female deposited her entire clutch in this substrate."
+          "title": "Adult feeding and oviposition",
+          "text": "The account records adults flying along mountain arroyos on cloudy days and at night. Captive adults fed on cut branches of Juglans and Carya, including pecan. Fresh foliage replaced old cuttings every three days. The breeding enclosure contained about 3 in (7.5 cm) of moist, loosely placed flake soil. Adults alternated several days of feeding with periods below the surface during egg laying."
         },
         {
-          "title": "Adult diet",
-          "text": "Adults fed on hickory foliage. The account also lists walnut and pecan as possible food plants. His account documents feeding on hickory."
+          "title": "Overwintering and pupation",
+          "text": "The reported method used flake soil or decayed wood for larval development. A layer of clay about 2 in (5 cm) deep was added beneath the substrate for mature third instars. The larvae were kept cool through winter and moved to warmer conditions in spring. Emergence was less synchronous when the winter cooling period was omitted."
         },
         {
-          "title": "Larval development",
-          "text": "The original account recommends rearing larvae individually and providing red clay for pupation. He reports development to adulthood in approximately six months. Two wild-caught females survived for about one week and more than one month, respectively, after collection."
+          "title": "Adult sex characters",
+          "text": "In ventral view, females had a fine median line on the terminal abdominal segment. Males showed a dark segment absent in females, according to the account."
         }
       ],
       "sources": [
+        {
+          "title": "Species-specific breeding account, June 2025",
+          "url": "https://discord.com/channels/1285685926340726887/1378941851217690644"
+        },
         {
           "title": "Breeding Chrysina woodi, the jewel of Texas! (October 19, 2023)",
           "url": "https://junkaiwangisme.wixsite.com/usbeetlebreeding/post/breeding-chrysina-woodi-the-jewel-of-texas"
         }
       ],
-      "record_type": "Original breeding account",
-      "observer": "Junkai Wang",
-      "primary_url": "https://junkaiwangisme.wixsite.com/usbeetlebreeding/post/breeding-chrysina-woodi-the-jewel-of-texas",
+      "primary_url": "https://discord.com/channels/1285685926340726887/1378941851217690644",
+      "record_type": "Breeding account",
       "classification": [
         {
           "title": "BugGuide — Chrysina woodi",
@@ -418,6 +507,13 @@
           "title": "iNaturalist — Chrysina woodi",
           "url": "https://www.inaturalist.org/taxa/1507967"
         }
+      ],
+      "trials": [
+        {
+          "title": "First trial · West Texas, 2023",
+          "text": "A wild-caught female laid 122 eggs in one clutch in approximately 3.8 L of lightly fermented flake soil. All 122 hatched. Adults fed on hickory foliage. The account reports approximately six months to adulthood and recommends individual larval containers and red clay for pupation. Of two females retained after collection, one survived less than a week and the other more than a month.",
+          "url": "https://junkaiwangisme.wixsite.com/usbeetlebreeding/post/breeding-chrysina-woodi-the-jewel-of-texas"
+        }
       ]
     },
     {
@@ -425,19 +521,15 @@
       "name": "Xyloryctes thestalus",
       "common": "Western rhinoceros beetle",
       "group": "dynastinae",
-      "intro": "In the documented culture, adults ceased feeding from late October until April. Most eggs and larvae appeared between April and July.",
+      "intro": "In one captive colony, adults burrowed and ceased feeding in autumn. Most reproduction followed their return to activity the next spring.",
       "sections": [
         {
-          "title": "Breeding substrate",
-          "text": "The breeder used a ventilated enclosure with 4–5 inches (10–13 cm) of lightly fermented flake soil and bark on the surface. He kept the substrate slightly drier than that used for his other rhinoceros beetles."
+          "title": "Substrate and adult diet",
+          "text": "The rearing enclosure had ample ventilation and a layer of bark over lightly moist flake soil. Adults preferred firm fruit, including apple."
         },
         {
-          "title": "Adult feeding and seasonal inactivity",
-          "text": "Adults fed on apple and other firm fruits. They burrowed in late October and resumed feeding in April. The enclosure remained at approximately 68–75 °F (20–24 °C) during this period. Some wild-caught adults survived more than a year after collection."
-        },
-        {
-          "title": "Offspring",
-          "text": "One egg laid before winter produced a male. The account records the remaining eggs or larvae between April and July and confirmed that captive-bred offspring reached adulthood."
+          "title": "Seasonal breeding",
+          "text": "A single egg laid before winter produced a male. All other eggs and larvae in the breeding record came from April through July, after adult activity resumed. The culture produced adult offspring."
         }
       ],
       "sources": [
@@ -449,6 +541,24 @@
       "record_type": "Original breeding account",
       "observer": "Junkai Wang",
       "primary_url": "https://junkaiwangisme.wixsite.com/usbeetlebreeding/post/breeding-xyloryctes-thestalus-at-last",
+      "facts": [
+        {
+          "title": "Oviposition substrate",
+          "text": "10–13 cm (4–5 in) of lightly fermented flake soil"
+        },
+        {
+          "title": "Overwintering temperature",
+          "text": "Approximately 20–24 °C (68–75 °F)"
+        },
+        {
+          "title": "Seasonal inactivity",
+          "text": "Late October to April in the observed colony"
+        },
+        {
+          "title": "Adult survival after collection",
+          "text": "More than 1 year for some wild-caught adults"
+        }
+      ],
       "classification": [
         {
           "title": "BugGuide — Xyloryctes thestalus",
@@ -465,30 +575,52 @@
       "name": "Strategus aloeus",
       "common": "Ox beetle",
       "group": "dynastinae",
-      "intro": "Ox beetles were reared from larvae to adults in less than a year. One captive-bred male measured 53 mm.",
+      "intro": "In a 2022 captive-rearing account, ox beetle larvae developed in raised-bed soil. A captive-bred male measured 53 mm.",
       "sections": [
         {
-          "title": "Adult feeding and oviposition",
-          "text": "The account reports substantial adult food consumption and recommended checking food at least every three days. Females laid eggs in several organic substrates."
+          "title": "Oviposition and pupation",
+          "text": "Females laid eggs in a variety of organic substrates. The account recommends compacted topsoil for pupation and reports that larvae can also complete development without it."
         },
         {
-          "title": "Larval substrate and pupation",
-          "text": "Larvae developed in organic raised-bed soil. The account recommends compacted topsoil for construction of pupal cells, although adults also emerged from containers without an added topsoil layer."
+          "title": "Adult feeding",
+          "text": "The adults consumed food rapidly. The account gives a feeding interval of three days."
         },
         {
-          "title": "Adult longevity",
-          "text": "The account records adult males surviving up to two years. The longest-lived female in his culture survived approximately nine months."
+          "title": "Geographic scope",
+          "text": "In the United States the species ranges from southern California east to Florida and Georgia. The 2022 breeding stock has no published locality, so the captive measurements cannot be assigned to an eastern or western population."
         }
       ],
       "sources": [
         {
           "title": "Strategus aloeus – the Ox Beetle (December 3, 2022)",
           "url": "https://junkaiwangisme.wixsite.com/usbeetlebreeding/post/strategus-aloeus-the-ox-beetle"
+        },
+        {
+          "title": "Regional stocks and their geographic limits, 14 January 2026",
+          "url": "https://discord.com/channels/1285685926340726887/1286131091987763264/1461064771502870602"
         }
       ],
       "record_type": "Original breeding account",
       "observer": "Junkai Wang",
       "primary_url": "https://junkaiwangisme.wixsite.com/usbeetlebreeding/post/strategus-aloeus-the-ox-beetle",
+      "facts": [
+        {
+          "title": "Larval development",
+          "text": "Less than 1 year to adulthood in the captive account"
+        },
+        {
+          "title": "Adult male longevity",
+          "text": "Up to 2 years in the captive account"
+        },
+        {
+          "title": "Adult female longevity",
+          "text": "Longest reported female approximately 9 months"
+        },
+        {
+          "title": "Adult size",
+          "text": "53 mm in one captive-bred male"
+        }
+      ],
       "classification": [
         {
           "title": "BugGuide — Strategus aloeus",
@@ -498,6 +630,13 @@
           "title": "iNaturalist — Strategus aloeus",
           "url": "https://www.inaturalist.org/taxa/199942"
         }
+      ],
+      "trials": [
+        {
+          "title": "Eastern and western breeding stocks · 2026",
+          "text": "The January 2026 account groups Arizona and New Mexico material as western stock and material from western Texas eastward as eastern stock. Both were maintained as Strategus aloeus, with a recommendation to keep cultures separate and retain their locality records. The collection locality of the 2022 trial is unknown.",
+          "url": "https://discord.com/channels/1285685926340726887/1286131091987763264/1461064771502870602"
+        }
       ]
     },
     {
@@ -505,19 +644,15 @@
       "name": "Mallodon dasystomus",
       "common": "Hardwood stump borer",
       "group": "cerambycidae",
-      "intro": "Eggs were deposited in damp sawdust. Larvae developed on hardwood sawdust prepared from pellets.",
+      "intro": "Hardwood stump borer females laid eggs in shallow, damp sawdust. Their larvae developed on hardwood sawdust prepared from expanded pellets.",
       "sections": [
         {
           "title": "Oviposition",
-          "text": "Adults laid eggs in approximately half an inch (1.3 cm) of damp sawdust. The account describes the eggs as hard-shelled and seed-like. This measurement refers to the laying layer."
+          "text": "Females deposited eggs in damp sawdust without an intact log. The reported substrate depth applies to the oviposition container."
         },
         {
           "title": "Larval food",
-          "text": "Larvae fed on hardwood sawdust prepared from expanded pellets. The original account also reported development in kinshi, sawdust colonized by fungal mycelium."
-        },
-        {
-          "title": "Development",
-          "text": "The account gives a larval period of one to three years, depending on rearing conditions. The account reports that that larvae accepted supplementary protein and grew rapidly. The account does not specify the supplement or feeding schedule."
+          "text": "Hardwood sawdust supported larval development. The account also reports rearing in kinshi, a sawdust substrate colonized by fungal mycelium. Larvae accepted supplementary protein."
         }
       ],
       "sources": [
@@ -529,6 +664,20 @@
       "record_type": "Original breeding account",
       "observer": "Junkai Wang",
       "primary_url": "https://junkaiwangisme.wixsite.com/usbeetlebreeding/post/keeping-mallodon-dasystomus-the-hardwood-stump-borer",
+      "facts": [
+        {
+          "title": "Oviposition layer",
+          "text": "Approximately 1.3 cm (0.5 in) of damp sawdust"
+        },
+        {
+          "title": "Egg appearance",
+          "text": "Hard-shelled and seed-like"
+        },
+        {
+          "title": "Larval duration",
+          "text": "1–3 years, depending on rearing conditions"
+        }
+      ],
       "classification": [
         {
           "title": "BugGuide — Mallodon dasystomus",
@@ -543,9 +692,9 @@
     {
       "slug": "stenodontes-chevrolati",
       "name": "Stenodontes chevrolati",
-      "common": "Longhorn beetle",
+      "common": "",
       "group": "cerambycidae",
-      "intro": "In captivity, larvae reached maturity in about eight months on kinshi. Those reared on raw hardwood sawdust took about a year and a half to two years.",
+      "intro": "Larvae reached maturity in approximately eight months on kinshi, compared with 18–24 months on raw hardwood sawdust in the same breeding account.",
       "facts": [
         {
           "title": "Range",
@@ -582,8 +731,8 @@
       ],
       "sections": [
         {
-          "title": "Larval food and housing",
-          "text": "The breeder lists raw hardwood sawdust, kinshi (fungus-colonized substrate), and lightly fermented flake soil as larval foods. They recommend containers of at least 32 US fluid ounces (about 0.95 L) and prefer one-gallon jars (about 3.8 L)."
+          "title": "Larval diet and housing",
+          "text": "The reported larval substrates were raw hardwood sawdust, kinshi (fungus-colonized substrate), and lightly fermented flake soil. The breeder recommended a minimum container volume of 0.95 L (32 US fl oz) and preferred 3.8 L (one US gallon)."
         },
         {
           "title": "Adult feeding",
@@ -619,19 +768,15 @@
         "Grant’s Hercules beetle",
         "Dynastes granti"
       ],
-      "intro": "Larvae develop in decayed wood. In captivity, eggs can remain unhatched for several weeks after the female has finished laying.",
+      "intro": "Captive western Hercules beetles pass through three larval instars. A separate longevity record follows a wild-caught Arizona male for more than nine months after collection.",
       "sections": [
         {
-          "title": "Egg laying and incubation",
-          "text": "Kim (2015) describes a breeding enclosure with 15–25 cm of moist substrate. After mating, he recommends moving the female to a second enclosure and leaving the eggs in place. His account gives an incubation interval of about two weeks to three months."
+          "title": "Oviposition and larval habitat",
+          "text": "The captive-rearing account describes oviposition in 15–25 cm of moist substrate. Field records place feeding larvae in rotten wood, including sycamore."
         },
         {
-          "title": "Larval development",
-          "text": "BugGuide records larvae in rotten wood, including sycamore. Kim (2015) reports three larval instars and about 12–15 months from egg to adult under captive conditions."
-        },
-        {
-          "title": "Adult feeding and longevity",
-          "text": "Krell and Krell (2015) kept one wild-caught male from Cochise County, Arizona, at room temperature with bark and wood chips and offered fresh apple approximately every four days. It survived nine months and one week after collection. Its age at capture was unknown."
+          "title": "Adult longevity",
+          "text": "A male collected at the Southwestern Research Station in Cochise County, Arizona, on August 20, 2014, survived until May 26, 2015. It remained at room temperature with bark and wood chips, received fresh apple about every four days and remained active through the winter."
         }
       ],
       "sources": [
@@ -648,6 +793,20 @@
           "url": "https://www.bugguide.net/node/view/139578"
         }
       ],
+      "facts": [
+        {
+          "title": "Egg incubation",
+          "text": "Approximately 2 weeks to 3 months in captive rearing"
+        },
+        {
+          "title": "Egg to adult",
+          "text": "12–15 months under the reported rearing conditions"
+        },
+        {
+          "title": "Adult survival after collection",
+          "text": "9 months and 1 week in one Arizona male"
+        }
+      ],
       "classification": [
         {
           "title": "BugGuide — Dynastes grantii",
@@ -656,6 +815,193 @@
         {
           "title": "iNaturalist — Dynastes grantii",
           "url": "https://www.inaturalist.org/taxa/424045-Dynastes-grantii"
+        }
+      ]
+    },
+    {
+      "name": "Euphoria monticola",
+      "slug": "euphoria-monticola",
+      "common": "Flower chafer",
+      "group": "cetoniinae",
+      "intro": "Larvae collected in Arizona reached adulthood and produced one captive generation. The culture was lost after the next generation of larvae was transferred to potting soil.",
+      "facts": [
+        {
+          "title": "Localities in the account",
+          "text": "Arizona and New Mexico"
+        },
+        {
+          "title": "Adult length",
+          "text": "10–15 mm"
+        },
+        {
+          "title": "Adult lifespan",
+          "text": "1–3 months"
+        },
+        {
+          "title": "Larval period",
+          "text": "Approximately 18 months"
+        },
+        {
+          "title": "Egg count reported",
+          "text": "30 or more"
+        }
+      ],
+      "sections": [
+        {
+          "title": "Feeding and oviposition",
+          "text": "Wild larvae were found beneath decomposing leaf litter. Adults fed at sap flows in the field and accepted fruit and beetle jelly in captivity. The breeding account describes egg laying in flake soil or in a mixture of decayed wood and decomposed leaves. The larvae fed in the same material."
+        },
+        {
+          "title": "Pupation and emergence",
+          "text": "Larvae constructed cocoons in autumn and remained inside for several months without pupating. After the cocoons were moved to a cold garage for winter, larvae entered the prepupal stage. Pupation followed spring warming, and adults appeared within about a month. The account gives no measured winter temperature."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Species-specific breeding account, June 2025",
+          "url": "https://discord.com/channels/1285685926340726887/1379292918245756968"
+        }
+      ],
+      "primary_url": "https://discord.com/channels/1285685926340726887/1379292918245756968",
+      "record_type": "Breeding account",
+      "classification": [
+        {
+          "title": "BugGuide — Euphoria monticola",
+          "url": "https://www.bugguide.net/node/view/738513"
+        },
+        {
+          "title": "iNaturalist — Euphoria monticola",
+          "url": "https://www.inaturalist.org/taxa/301565-Euphoria-monticola"
+        }
+      ]
+    },
+    {
+      "name": "Osmoderma eremicola",
+      "slug": "osmoderma-eremicola",
+      "common": "Hermit beetle",
+      "group": "cetoniinae",
+      "intro": "Second-instar larvae built temporary chambers before resuming growth. Mature third-instar larvae later spent a winter in the cold before pupating. Distinguishing the two periods helps explain the roughly two-year larval cycle reported for this culture.",
+      "facts": [
+        {
+          "title": "Region in the account",
+          "text": "Eastern United States"
+        },
+        {
+          "title": "Adult length",
+          "text": "25–30 mm"
+        },
+        {
+          "title": "Adult lifespan",
+          "text": "1–3 months"
+        },
+        {
+          "title": "Larval period",
+          "text": "About two years or longer"
+        },
+        {
+          "title": "Pupal period",
+          "text": "About one month"
+        },
+        {
+          "title": "Egg count reported",
+          "text": "30 or more"
+        }
+      ],
+      "sections": [
+        {
+          "title": "Food and substrate",
+          "text": "Field observations place larvae in tree cavities and adults at sap flows. Captive adults accepted fruit and beetle jelly. Adults also laid eggs without feeding, but lived for less time and laid fewer eggs. The reported larval substrates were flake soil, decayed wood, or a mixture with well-decomposed hardwood leaves."
+        },
+        {
+          "title": "Larval development",
+          "text": "Second-instar larvae occupied small chambers for several weeks to a month in summer or autumn. When left undisturbed, they emerged, fed and reached the third instar. The substrate was renewed as larvae consumed it."
+        },
+        {
+          "title": "Overwintering and pupation",
+          "text": "Mature third instars spent about three months in a garage where winter temperatures were in the low 50s °F (approximately 10–12 °C). Adults emerged close enough together to pair. The pupal cells were fragile and could break when lifted. The culture was left undisturbed during this stage."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Species-specific breeding account, June 2025",
+          "url": "https://discord.com/channels/1285685926340726887/1384712332667519138"
+        }
+      ],
+      "primary_url": "https://discord.com/channels/1285685926340726887/1384712332667519138",
+      "record_type": "Breeding account",
+      "classification": [
+        {
+          "title": "BugGuide — Osmoderma eremicola",
+          "url": "https://www.bugguide.net/node/view/9891"
+        },
+        {
+          "title": "iNaturalist — Osmoderma eremicola",
+          "url": "https://www.inaturalist.org/taxa/226688-Osmoderma-eremicola"
+        }
+      ]
+    },
+    {
+      "name": "Chrysina gloriosa",
+      "slug": "chrysina-gloriosa",
+      "common": "Glorious jewel scarab",
+      "group": "rutelinae",
+      "intro": "Adults fed on juniper foliage, whereas the larvae developed on decayed hardwood or flake soil. The breeding account describes repeated attempts to maintain successive captive generations.",
+      "facts": [
+        {
+          "title": "Region in the account",
+          "text": "Arizona, New Mexico and western Texas"
+        },
+        {
+          "title": "Adult length",
+          "text": "20–30 mm"
+        },
+        {
+          "title": "Adult lifespan",
+          "text": "1–3 months"
+        },
+        {
+          "title": "Larval period",
+          "text": "1.5–3 years"
+        },
+        {
+          "title": "Pupal period",
+          "text": "Approximately one month"
+        },
+        {
+          "title": "Egg count reported",
+          "text": "20–60 or more"
+        }
+      ],
+      "sections": [
+        {
+          "title": "Adult feeding and egg laying",
+          "text": "Fresh juniper cuttings were provided every three days. Eastern red cedar (Juniperus virginiana) was accepted in captivity. Adults fed for several days, then burrowed for about a day before returning to the surface. Eggs were left in the enclosure and hatched there."
+        },
+        {
+          "title": "Larval development",
+          "text": "The account describes raising larvae on flake soil. Wild larvae develop in decaying hardwood. The captive larvae generally reached the late third instar by autumn."
+        },
+        {
+          "title": "Adult sex characters",
+          "text": "The terminal abdominal segment in ventral view was more V-shaped in females and more U-shaped in males. A slit at the tip of the terminal segment was visible in males. Males were usually the smaller sex in the culture."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Species-specific breeding account, May–June 2025",
+          "url": "https://discord.com/channels/1285685926340726887/1378579300441264178"
+        }
+      ],
+      "primary_url": "https://discord.com/channels/1285685926340726887/1378579300441264178",
+      "record_type": "Breeding account",
+      "classification": [
+        {
+          "title": "BugGuide — Chrysina gloriosa",
+          "url": "https://www.bugguide.net/node/view/6605"
+        },
+        {
+          "title": "iNaturalist — Chrysina gloriosa",
+          "url": "https://www.inaturalist.org/taxa/325790-Chrysina-gloriosa"
         }
       ]
     }
@@ -840,13 +1186,125 @@
       "hero": false
     },
     {
-      "file": "stenodontes-larva.jpg",
+      "file": "guide-1463425635379843248-03.jpg",
       "species": "Stenodontes chevrolati",
-      "width": 1800,
-      "height": 1800,
-      "alt": "Larva of Stenodontes chevrolati in the original breeding record.",
-      "credit": "Original guide",
-      "url": "https://discord.com/channels/1285685926340726887/1463425635379843248"
+      "width": 2992,
+      "height": 2992,
+      "alt": "Stenodontes chevrolati. Adult pair in the rearing enclosure.",
+      "caption": "Adult pair in the rearing enclosure.",
+      "url": "https://discord.com/channels/1285685926340726887/1463425635379843248",
+      "credit": "@alan69.",
+      "hero": false
+    },
+    {
+      "file": "guide-1463425635379843248-01.jpg",
+      "species": "Stenodontes chevrolati",
+      "width": 2992,
+      "height": 2992,
+      "alt": "Stenodontes chevrolati. Larva viewed from the side on a hand.",
+      "caption": "Larva viewed from the side on a hand.",
+      "url": "https://discord.com/channels/1285685926340726887/1463425635379843248",
+      "credit": "@alan69.",
+      "hero": false
+    },
+    {
+      "file": "guide-1463425635379843248-02.jpg",
+      "species": "Stenodontes chevrolati",
+      "width": 2992,
+      "height": 2992,
+      "alt": "Stenodontes chevrolati. Larval head and mandibles visible against the palm.",
+      "caption": "Larval head and mandibles visible against the palm.",
+      "url": "https://discord.com/channels/1285685926340726887/1463425635379843248",
+      "credit": "@alan69.",
+      "hero": false
+    },
+    {
+      "file": "guide-1463425635379843248-04.jpg",
+      "species": "Stenodontes chevrolati",
+      "width": 2992,
+      "height": 2992,
+      "alt": "Stenodontes chevrolati. Pupa in a chamber against the wall of a one-gallon jar.",
+      "caption": "Pupa in a chamber against the wall of a one-gallon jar.",
+      "url": "https://discord.com/channels/1285685926340726887/1463425635379843248",
+      "credit": "@alan69.",
+      "hero": false
+    },
+    {
+      "file": "guide-1463425635379843248-05.jpg",
+      "species": "Stenodontes chevrolati",
+      "width": 2992,
+      "height": 2992,
+      "alt": "Stenodontes chevrolati. A small male alongside a larger adult.",
+      "caption": "A small male alongside a larger adult.",
+      "url": "https://discord.com/channels/1285685926340726887/1463425635379843248",
+      "credit": "@alan69.",
+      "hero": false
+    },
+    {
+      "file": "guide-1463425635379843248-06.jpg",
+      "species": "Stenodontes chevrolati",
+      "width": 2992,
+      "height": 2992,
+      "alt": "Stenodontes chevrolati. Major male in dorsal view.",
+      "caption": "Major male in dorsal view.",
+      "url": "https://discord.com/channels/1285685926340726887/1463425635379843248",
+      "credit": "@alan69.",
+      "hero": false
+    },
+    {
+      "file": "guide-1463425635379843248-07.jpg",
+      "species": "Stenodontes chevrolati",
+      "width": 2992,
+      "height": 2992,
+      "alt": "Stenodontes chevrolati. Larva visible near the base of a substrate-filled rearing container.",
+      "caption": "Larva visible near the base of a substrate-filled rearing container.",
+      "url": "https://discord.com/channels/1285685926340726887/1463425635379843248",
+      "credit": "@alan69.",
+      "hero": false
+    },
+    {
+      "file": "guide-1379292918245756968-01.jpg",
+      "species": "Euphoria monticola",
+      "width": 2992,
+      "height": 2992,
+      "alt": "Euphoria monticola. Metallic green adult in dorsal view.",
+      "caption": "Metallic green adult in dorsal view.",
+      "url": "https://discord.com/channels/1285685926340726887/1379292918245756968",
+      "credit": "@alan69.",
+      "hero": false
+    },
+    {
+      "file": "guide-1379292918245756968-02.jpg",
+      "species": "Euphoria monticola",
+      "width": 2992,
+      "height": 2992,
+      "alt": "Euphoria monticola. Blue-black adult viewed from above.",
+      "caption": "Blue-black adult viewed from above.",
+      "url": "https://discord.com/channels/1285685926340726887/1379292918245756968",
+      "credit": "@alan69.",
+      "hero": false
+    },
+    {
+      "file": "guide-1384712332667519138-01.jpg",
+      "species": "Osmoderma eremicola",
+      "width": 2992,
+      "height": 2992,
+      "alt": "Osmoderma eremicola. Adults grouped in a specimen cup.",
+      "caption": "Adults grouped in a specimen cup.",
+      "url": "https://discord.com/channels/1285685926340726887/1384712332667519138",
+      "credit": "@alan69.",
+      "hero": false
+    },
+    {
+      "file": "guide-1384712332667519138-02.jpg",
+      "species": "Osmoderma eremicola",
+      "width": 2992,
+      "height": 2992,
+      "alt": "Osmoderma eremicola. Second view of the adults in the specimen cup.",
+      "caption": "Second view of the adults in the specimen cup.",
+      "url": "https://discord.com/channels/1285685926340726887/1384712332667519138",
+      "credit": "@alan69.",
+      "hero": false
     }
   ]
 }

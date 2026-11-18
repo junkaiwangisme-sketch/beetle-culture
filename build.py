@@ -3,6 +3,7 @@ from collections import Counter
 from pathlib import Path
 from html import escape
 import json
+import hashlib
 import re
 import argparse
 import shutil
@@ -27,7 +28,10 @@ for path in sorted(ROOT.glob('post-*.json')):
         raise ValueError('Post filename does not match its slug: ' + path.name)
     by_slug[record['slug']] = record
 guides = words(by_slug.values())
-photos = config['photos']
+photos = list(config['photos'])
+for record in guides:
+    for picture in record.get('additional_photos', []):
+        photos.append({**picture, 'species':record['name']})
 pages = []
 files = {item['file'] for item in photos}
 if len(groups) != len(config['groups']):
@@ -43,7 +47,7 @@ for s in guides:
     if s['group'] not in groups or not s['sections'] or not s['sources']:
         raise ValueError('Check the group, sections and sources for ' + s['name'])
 for p in photos:
-    if not p.get('alt') or not (ROOT / p['file']).is_file():
+    if not re.fullmatch(r'[A-Za-z0-9][A-Za-z0-9_.-]*\.(jpg|jpeg|png|webp|avif)',p['file'],re.I) or not p.get('alt') or not (ROOT / p['file']).is_file():
         raise ValueError('Check image and alt text for ' + p['file'])
 
 def glink(s): return 'group-' + s + '.html'
@@ -60,7 +64,14 @@ def cred(p):
     if p.get('license_url'): credit += ' · ' + link(p['license_url'],p['license'])
     elif p.get('license'): credit += ' · ' + e(p['license'])
     return credit
+def asset(filename):
+    version=hashlib.sha256((ROOT/filename).read_bytes()).hexdigest()[:10]
+    return filename+'?v='+version
+
 def page(file,title,desc,body,kind='WebPage',photo=None,active=None,article=None):
+    for js in ('search.js','editor.js','editor-data.js'):
+        if f'src="{js}"' in body:
+            body=body.replace(f'src="{js}"', f'src="{asset(js)}"')
     full=BASE+('' if file=='index.html' else file)
     data={'@context':'https://schema.org','@type':kind,'url':full,'name':title,'description':desc,'inLanguage':'en'}
     if article and article.get('observer'):
@@ -73,8 +84,9 @@ def page(file,title,desc,body,kind='WebPage',photo=None,active=None,article=None
     top='<a class="skip" href="#main">Skip to content</a><header><div class="wrap bar"><a class="brand" href="index.html" aria-label="North American Beetle Breeding home"><span class="crest" aria-hidden="true">B</span> North American Beetle Breeding</a><nav aria-label="Main navigation">'+nav('groups.html','Families','groups')+nav('species.html','Species','species')+nav('species.html#query','<span class="glass" aria-hidden="true"></span><span class="sr">Search guides</span><span class="searchtext" aria-hidden="true">Search</span>','search','searchlink')+'</nav></div></header>'
     foot='<footer class="footer"><div class="wrap foot"><span class="brand">North American Beetle Breeding</span><div class="footlinks">'+link('groups.html','Family directory')+link('species.html','Species index')+link('credits.html','References')+link('editor.html','Manage posts')+'</div></div></footer>'
     og=(f'<meta property="og:image" content="{e(BASE+photo["file"])}"><meta property="og:image:alt" content="{e(photo["alt"])}">' if photo else '')
+    stylesheet=asset('style.css')
     payload=json.dumps(data,ensure_ascii=False).replace('<','\\u003c')
-    write(file,f'<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>{e(title)} | North American Beetle Breeding</title><meta name="description" content="{e(desc)}"><meta name="theme-color" content="#153a2c"><link rel="canonical" href="{e(full)}"><meta property="og:title" content="{e(title)}"><meta property="og:description" content="{e(desc)}"><meta property="og:type" content="{"article" if article else "website"}"><meta property="og:url" content="{e(full)}">{og}<link rel="stylesheet" href="style.css"><script type="application/ld+json">{payload}</script></head><body>{top}<main id="main">{body}</main>{foot}</body></html>')
+    write(file,f'<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>{e(title)} | North American Beetle Breeding</title><meta name="description" content="{e(desc)}"><meta name="theme-color" content="#080908"><link rel="canonical" href="{e(full)}"><meta property="og:title" content="{e(title)}"><meta property="og:description" content="{e(desc)}"><meta property="og:type" content="{"article" if article else "website"}"><meta property="og:url" content="{e(full)}">{og}<link rel="stylesheet" href="{stylesheet}"><script type="application/ld+json">{payload}</script></head><body>{top}<main id="main">{body}</main>{foot}</body></html>')
     pages.append(full)
 def crumbs(items):
     return '<nav class="crumb" aria-label="Breadcrumb">'+link('index.html','Home')+''.join(' <span aria-hidden="true">/</span> '+(link(u,t) if u else e(t)) for u,t in items)+'</nav>'
@@ -91,7 +103,9 @@ def group_rows():
     return '<div class="groups">'+''.join(chunks)+'</div>'
 def card(s):
     pics=getphotos(s)
-    return f'<a class="guide{"" if pics else " textcard"}" href="{slink(s)}">'+(f'<span class="image">{image(pics[0])}</span>' if pics else '')+f'<span class="kicker">{e(groups[s["group"]]["name"])}</span><strong>{e(named(s))}</strong><em>{e(s["name"])}</em></a>'
+    common=f'<span class="card-common">{e(s["common"])}</span>' if s.get('common') else ''
+    return f'<a class="guide{"" if pics else " textcard"}" href="{slink(s)}">'+(f'<span class="image">{image(pics[0])}</span>' if pics else '')+f'<span class="kicker">{e(groups[s["group"]]["name"])}</span><strong><i>{e(s["name"])}</i></strong>{common}</a>'
+
 def listed(s):
     group=groups[s['group']]
     terms=' '.join([s['name'],s.get('common',''),group['name'],group['common'],*group.get('aliases',[]),*s.get('aliases',[])])
@@ -108,7 +122,7 @@ owner=next((s for s in guides if hero and s['name']==hero.get('species')),None)
 visual=''
 if hero:
     visual=f'<figure class="hero-figure"><a href="{slink(owner) if owner else "credits.html"}">{image(hero,False)}</a><figcaption><i>{e(hero.get("species") or hero.get("caption") or "Beetle photography")}</i></figcaption></figure>'
-selected=[s for s in guides if s.get('observer')=='Junkai Wang'][:4]
+selected=[s for s in guides if any('wixsite.com' in ref['url'] for ref in s['sources']) and getphotos(s)][:4]
 home=f'<section class="hero"><div class="hero-inner"><div class="hero-copy"><span class="eyebrow">Coleoptera · Life history</span><h1>North American <em>Beetle Breeding</em></h1><p>Captive breeding records and photographs, with observations on oviposition, larval substrates, and adult emergence.</p><a class="cta" href="groups.html">Browse beetle families <span class="arrow" aria-hidden="true">↗</span></a></div>{visual}</div></section>'
 home+='<section class="wrap block home-index" id="families"><div class="section-head"><div><h2>Explore by family</h2><p class="section-note">Choose a family or scarab subfamily to find its species guides.</p></div></div>'+group_rows()+'</section><section class="wrap block"><div class="section-head"><h2>Original breeding accounts</h2><a class="more" href="species.html">All species ↗</a></div><div class="guidegrid originals">'+''.join(card(s) for s in selected)+'</div></section>'
 page('index.html','Beetle breeding guides and photography','Explore beetle breeding by family and species, with photographs, larval care, adult diets, and documented rearing observations.',home,'WebSite',hero)
@@ -122,7 +136,7 @@ for k,g in groups.items():
     page(glink(k),g['name']+' breeding guides',desc,body,'CollectionPage',active='groups')
 for s in guides:
     g=groups[s['group']]; name=s['name']; common=s.get('common',''); ps=getphotos(s)
-    body=intro(common or name,s['intro'],[('groups.html','Families'),(glink(s['group']),g['name']),(None,name)],g['name']+' · Species guide',name if common else '')
+    body=intro(name,s['intro'],[('groups.html','Families'),(glink(s['group']),g['name']),(None,name)],g['name']+' · Species account',common).replace('class="page-title"','class="page-title species-title"').replace('class="sciname"','class="common-name"')
     if s.get('primary_url'):
         body += '<div class="wrap provenance"><strong>Original breeding record</strong> · '+link(s['primary_url'],'View primary source')+'</div>'
     facts = s.get('facts', [])
@@ -133,6 +147,18 @@ for s in guides:
         toc.append('<li>'+link('#'+anchor,item['title'])+'</li>')
         text=''.join('<p>'+e(t)+'</p>' for t in item['text'].split('\n') if t.strip())
         parts.append(f'<section id="{anchor}"><h2>{e(item["title"])}</h2>{text}</section>')
+    if facts:
+        summary=summary.replace('class="facts"','class="facts" id="life-history"');toc.insert(0,'<li>'+link('#life-history','Life-history data')+'</li>')
+    for i,trial in enumerate(s.get('trials',[]),1):
+        anchor=f'trial-{i}'
+        toc.append('<li>'+link('#'+anchor,trial['title'])+'</li>')
+        content='<p>'+e(trial.get('text') or trial.get('intro',''))+'</p>'
+        for fact in trial.get('facts',[]):
+            content+='<p><b>'+e(fact['title'])+'</b> · '+e(fact['text'])+'</p>'
+        for section in trial.get('sections',[]):
+            content+='<h3>'+e(section['title'])+'</h3><p>'+e(section['text'])+'</p>'
+        if trial.get('url'):content+='<p>'+link(trial['url'],'Original account')+'</p>'
+        parts.insert(1 if len(parts)>1 else len(parts),f'<section id="{anchor}" class="trial"><h2>{e(trial["title"])}</h2>{content}</section>')
     body+='<div class="wrap article-layout"><article class="article">'+(galleryfig(ps[0]) if ps else '')+summary+''.join(parts)
     if len(ps)>1: body+='<section><h2>Photographs</h2><div class="gallery">'+''.join(galleryfig(p) for p in ps[1:])+'</div></section>'
     body+=classification(s.get('classification',[]))
@@ -149,8 +175,9 @@ creditbody+='</article></div>'
 page('credits.html','References','Primary breeding accounts and species-specific references.',creditbody)
 edit_template=(ROOT/'editor-template.html').read_text()
 edit_template=edit_template.replace('%%SPECIES%%',''.join('<option value="'+e(s['slug'])+'">'+e(s['name'])+'</option>' for s in guides)).replace('%%GROUPS%%',opts)
-page('editor.html','Manage species posts','Prepare a new or revised species post for publication.',intro('Manage species posts','',[(None,'Manage posts')])+edit_template)
 write('editor-data.js','window.guideEditor = '+json.dumps({'species':guides},ensure_ascii=False).replace('<','\\u003c')+';')
+page('editor.html','Manage species posts','Prepare a new or revised species post for publication.',intro('Manage species posts','',[(None,'Manage posts')])+edit_template)
+
 sitemap=ET.Element('urlset',xmlns='http://www.sitemaps.org/schemas/sitemap/0.9')
 for url in pages: ET.SubElement(ET.SubElement(sitemap,'url'),'loc').text=url
 write('sitemap.xml',ET.tostring(sitemap,encoding='unicode'))

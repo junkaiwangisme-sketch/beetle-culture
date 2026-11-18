@@ -1,32 +1,18 @@
 # North American Beetle Breeding
 
-A photographic, searchable beetle-breeding field guide. Visitors can browse a family or scarab subfamily, open a species guide, and follow the sources for each account.
+Open `index.html` to review the site locally. The family directory, species pages, photographs and species search work offline. Source links open the original publications and breeding accounts when online.
 
-## Add a species
+## Publish a species account
 
-Edit `catalog.json`. Copy a record in the `species` list and update these fields:
+1. Open **Manage posts** in the website footer. Select an existing species to revise its page, or select **New species**.
+2. Enter the scientific name, family or scarab subfamily, summary, life-history data and observations. Give each source a title and a URL. Use the classification fields for the corresponding BugGuide and iNaturalist pages.
+3. To add photographs, enter each filename and its description under **Additional photographs**. Use distinct filenames for different photographs. Existing catalogue photographs stay available.
+4. Choose **Download post file**, then **Sign in to GitHub and upload the post**. Upload the downloaded JSON file and any new photographs together. Use the repository owner's account, review the files and select **Commit changes**. GitHub publishes the revision after the Pages workflow finishes.
 
-| Field | What to enter |
-| --- | --- |
-| `name` | Scientific name with genus capitalized and species lowercase |
-| `slug` | A permanent URL name such as `dynastes-tityus` |
-| `common` | An established English name, or an empty string |
-| `group` | A slug from the `groups` list |
-| `intro` | A short introduction to that species |
-| `sections` | A list of objects with `title` and `text`, with husbandry observations attributed in the text where needed |
-| `sources` | A list of objects with each source’s `title` and `url` |
-| `aliases` | Optional list of searchable previous names or alternate common names |
+Editing an existing post keeps its URL. The published post automatically appears in its family, the species index and the sitemap. Visitors can prepare a draft locally. Only accounts with write access to the GitHub repository can publish.
 
-Check the species index before adding a record. Add new observations to the existing record when the species already has a page. Preserve the guide’s slug so its URL stays stable.
+## Local edits and new families
 
-## Add a photograph or family
+Keep downloaded `post-*.json` files and their photographs alongside `build.py`. Run `python3 build.py` from this folder to regenerate the HTML and search data. To build just the public site in a separate directory, run `python3 build.py --publish-dir ../public`.
 
-Place each authorized, clearly identified photograph in the same directory as the catalog. Copy a similar entry in the catalog’s `photos` list. Match `species` to the guide’s scientific name, set `file`, and include the actual width, height, descriptive alt text, credit and source link. Record the license and its URL when applicable. The first photo listed for a species is its main guide image. Set `hero` to true on one high-resolution landscape photo for the homepage.
-
-To add a family or scarab subfamily, copy a `groups` entry and edit its name, slug, rank, common name, and description. New species can then reference its slug.
-
-## Build and preview
-
-Run `python3 build.py` in this directory. The homepage, family directories, individual species pages, search index, photography credits, and sitemap all regenerate from the catalog. Open `index.html` in a browser to preview locally. The search works locally too.
-
-On GitHub, save the updated catalog and any new photographs to the main branch. GitHub Actions runs the build automatically and publishes all resulting pages. Generated HTML files are included in the local review folder. The catalog’s `url` controls absolute links in the sitemap and search metadata.
+To add a family or subfamily, copy an entry in the `groups` list in `catalog.json`. Enter its name, rank, stable slug, common name, overview and classification links. Rebuild the site. The new group will appear in the directory and the post editor. Existing posts with separate `post-*.json` files take precedence over the original catalogue records.
