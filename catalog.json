@@ -289,7 +289,18 @@
           "title": "iNaturalist — Tenebrio molitor",
           "url": "https://www.inaturalist.org/taxa/131970"
         }
-      ]
+      ],
+      "distribution": {
+        "slug": "tenebrio-molitor",
+        "file": "map-tenebrio-molitor.png",
+        "count": 548,
+        "raw_count": 548,
+        "excluded_count": 0,
+        "date": "2026-11-18",
+        "url": "https://www.inaturalist.org/observations?place_id=97394&quality_grade=research&captive=false&geo=true&taxon_id=131970&view=map",
+        "caption": "548 of 548 wild, research-grade iNaturalist observations in North America are plotted at their public coordinates.",
+        "data_file": "map-data-tenebrio-molitor.json"
+      }
     },
     {
       "slug": "gymnetis-thula",
@@ -336,7 +347,18 @@
           "title": "iNaturalist — Gymnetis thula",
           "url": "https://www.inaturalist.org/taxa/884494"
         }
-      ]
+      ],
+      "distribution": {
+        "slug": "gymnetis-thula",
+        "file": "map-gymnetis-thula.png",
+        "count": 1497,
+        "raw_count": 1497,
+        "excluded_count": 0,
+        "date": "2026-11-18",
+        "url": "https://www.inaturalist.org/observations?place_id=97394&quality_grade=research&captive=false&geo=true&taxon_id=884494&view=map",
+        "caption": "1,497 of 1,497 wild, research-grade iNaturalist observations in North America are plotted at their public coordinates.",
+        "data_file": "map-data-gymnetis-thula.json"
+      }
     },
     {
       "slug": "dynastes-tityus",
@@ -362,6 +384,18 @@
         {
           "title": "University of Arkansas Arthropod Museum, Eastern Hercules beetle",
           "url": "https://arthropod.uark.edu/eastern-hercules-beetle/"
+        },
+        {
+          "title": "Bristol, Florida adults, 7 May 2025",
+          "url": "https://discord.com/channels/1285685926340726887/1286131091987763264/1369773748776992869"
+        },
+        {
+          "title": "Forest larvae, 28 May 2025",
+          "url": "https://discord.com/channels/1285685926340726887/1286131091987763264/1377160749536907274"
+        },
+        {
+          "title": "A large captive-reared male, 17 November 2025",
+          "url": "https://discord.com/channels/1285685926340726887/1286131091987763264/1440152216483790880"
         }
       ],
       "facts": [
@@ -386,6 +420,37 @@
         {
           "title": "iNaturalist — Dynastes tityus",
           "url": "https://www.inaturalist.org/taxa/83804"
+        }
+      ],
+      "trials": [
+        {
+          "title": "Captive breeding observations",
+          "intro": "A Florida adult series, a separate collection of forest larvae and a historical photograph of a captive-reared male document the species at two life stages.",
+          "facts": [
+            {
+              "title": "Documented adult locality",
+              "text": "Bristol, Florida"
+            },
+            {
+              "title": "Life stages photographed",
+              "text": "Larva and adult"
+            }
+          ],
+          "sections": [
+            {
+              "title": "Florida adults",
+              "text": "The May 2025 Bristol series records the adult male from several angles. The photographs show the shape of the paired horns and the distribution of dark spots on the yellow wing covers."
+            },
+            {
+              "title": "Forest larvae",
+              "text": "Five larvae were photographed after removal from a forest scheduled for development. The locality was not specified in that report."
+            },
+            {
+              "title": "Horn development",
+              "text": "A photograph shared in November 2025 shows the largest male the breeder had reared, more than a decade earlier. The breeder remarked on the unusual horn profile of this individual. No length measurement accompanied the photograph."
+            }
+          ],
+          "url": "https://discord.com/channels/1285685926340726887/1286131091987763264/1369773748776992869"
         }
       ]
     },
@@ -438,7 +503,18 @@
           "title": "iNaturalist — Lucanus elaphus",
           "url": "https://www.inaturalist.org/taxa/84834"
         }
-      ]
+      ],
+      "distribution": {
+        "slug": "lucanus-elaphus",
+        "file": "map-lucanus-elaphus.png",
+        "count": 3815,
+        "raw_count": 3815,
+        "excluded_count": 0,
+        "date": "2026-11-18",
+        "url": "https://www.inaturalist.org/observations?place_id=97394&quality_grade=research&captive=false&geo=true&taxon_id=84834&view=map",
+        "caption": "3,815 of 3,815 wild, research-grade iNaturalist observations in North America are plotted at their public coordinates.",
+        "data_file": "map-data-lucanus-elaphus.json"
+      }
     },
     {
       "name": "Chrysina woodi",
@@ -514,7 +590,18 @@
           "text": "I collected four pairs in West Texas and kept two pairs for breeding. One female died within a week of collection. The other lived more than a month and laid 122 eggs in a single clutch. All 122 hatched. I used a well-ventilated enclosure containing about 3.8 L of lightly fermented flake soil and fed the adults hickory leaves. I recommend rearing the larvae individually with red clay for pupation. Development to adulthood took approximately six months.",
           "url": "https://junkaiwangisme.wixsite.com/usbeetlebreeding/post/breeding-chrysina-woodi-the-jewel-of-texas"
         }
-      ]
+      ],
+      "distribution": {
+        "slug": "chrysina-woodi",
+        "file": "map-chrysina-woodi.png",
+        "count": 289,
+        "raw_count": 289,
+        "excluded_count": 0,
+        "date": "2026-11-18",
+        "url": "https://www.inaturalist.org/observations?place_id=97394&quality_grade=research&captive=false&geo=true&taxon_id=1507967&view=map",
+        "caption": "289 of 289 wild, research-grade iNaturalist observations in North America are plotted at their public coordinates.",
+        "data_file": "map-data-chrysina-woodi.json"
+      }
     },
     {
       "slug": "xyloryctes-thestalus",
@@ -572,7 +659,18 @@
           "title": "iNaturalist — Xyloryctes thestalus",
           "url": "https://www.inaturalist.org/taxa/267012"
         }
-      ]
+      ],
+      "distribution": {
+        "slug": "xyloryctes-thestalus",
+        "file": "map-xyloryctes-thestalus.png",
+        "count": 1759,
+        "raw_count": 1760,
+        "excluded_count": 1,
+        "date": "2026-11-18",
+        "url": "https://www.inaturalist.org/observations?place_id=97394&quality_grade=research&captive=false&geo=true&taxon_id=267012&view=map",
+        "caption": "1,759 of 1,760 wild, research-grade iNaturalist observations in North America are plotted at their public coordinates. The geographic review excluded 1 remote report.",
+        "data_file": "map-data-xyloryctes-thestalus.json"
+      }
     },
     {
       "slug": "strategus-aloeus",
@@ -598,6 +696,30 @@
         {
           "title": "Regional stocks and their geographic limits, 14 January 2026",
           "url": "https://discord.com/channels/1285685926340726887/1286131091987763264/1461064771502870602"
+        },
+        {
+          "title": "Eggs in substrate, 15 July 2025",
+          "url": "https://discord.com/channels/1285685926340726887/1286131091987763264/1394714323632521327"
+        },
+        {
+          "title": "Eggs from a wild-caught female, 25 July 2025",
+          "url": "https://discord.com/channels/1285685926340726887/1286131091987763264/1398163127065116774"
+        },
+        {
+          "title": "Larval record, 11 September 2025",
+          "url": "https://discord.com/channels/1285685926340726887/1286131091987763264/1415671851656544417"
+        },
+        {
+          "title": "Larval group, 12 September 2025",
+          "url": "https://discord.com/channels/1285685926340726887/1286131091987763264/1416157937428336651"
+        },
+        {
+          "title": "Captive larvae raised on flake soil, 3 October 2025",
+          "url": "https://discord.com/channels/1285685926340726887/1286131091987763264/1423671129922338818"
+        },
+        {
+          "title": "Pupal sex comparison, 22 November 2025",
+          "url": "https://discord.com/channels/1285685926340726887/1286131091987763264/1441944304535732385"
         }
       ],
       "record_type": "Original breeding account",
@@ -633,8 +755,13 @@
       ],
       "trials": [
         {
-          "title": "Eastern and western breeding stocks · 2026",
-          "text": "The January 2026 account groups Arizona and New Mexico material as western stock and material from western Texas eastward as eastern stock. Both were maintained as Strategus aloeus, with a recommendation to keep cultures separate and retain their locality records. The collection locality of the 2022 trial is unknown.",
+          "title": "Eastern and western populations",
+          "text": "I treat the eastern and western populations as two putative species within the Strategus aloeus complex. For the locality assignments, I follow a January 2026 breeding record that placed Arizona and New Mexico stocks in the western group and stocks from western Texas eastward in the eastern group. Breeding lines were kept separately. The locality of my 2022 series was not recorded in the original account.",
+          "url": "https://discord.com/channels/1285685926340726887/1286131091987763264/1461064771502870602"
+        },
+        {
+          "title": "Oviposition and larval substrate",
+          "text": "Eggs were photographed in the substrate of a wild-caught female in July 2025. A later photographic series documented captive-bred larvae reared on flake soil. The collection locality of the photographed stocks was not specified.",
           "url": "https://discord.com/channels/1285685926340726887/1286131091987763264/1461064771502870602"
         }
       ]
@@ -687,7 +814,18 @@
           "title": "iNaturalist — Mallodon dasystomus",
           "url": "https://www.inaturalist.org/taxa/269875"
         }
-      ]
+      ],
+      "distribution": {
+        "slug": "mallodon-dasystomus",
+        "file": "map-mallodon-dasystomus.png",
+        "count": 6451,
+        "raw_count": 6451,
+        "excluded_count": 0,
+        "date": "2026-11-18",
+        "url": "https://www.inaturalist.org/observations?place_id=97394&quality_grade=research&captive=false&geo=true&taxon_id=269875&view=map",
+        "caption": "6,451 of 6,451 wild, research-grade iNaturalist observations in North America are plotted at their public coordinates.",
+        "data_file": "map-data-mallodon-dasystomus.json"
+      }
     },
     {
       "slug": "stenodontes-chevrolati",
@@ -757,7 +895,18 @@
           "title": "iNaturalist — Stenodontes chevrolati",
           "url": "https://www.inaturalist.org/taxa/231552"
         }
-      ]
+      ],
+      "distribution": {
+        "slug": "stenodontes-chevrolati",
+        "file": "map-stenodontes-chevrolati.png",
+        "count": 56,
+        "raw_count": 56,
+        "excluded_count": 0,
+        "date": "2026-11-18",
+        "url": "https://www.inaturalist.org/observations?place_id=97394&quality_grade=research&captive=false&geo=true&taxon_id=231552&view=map",
+        "caption": "56 of 56 wild, research-grade iNaturalist observations in North America are plotted at their public coordinates.",
+        "data_file": "map-data-stenodontes-chevrolati.json"
+      }
     },
     {
       "slug": "dynastes-grantii",
@@ -791,6 +940,30 @@
         {
           "title": "BugGuide, Dynastes grantii. Food and life history.",
           "url": "https://www.bugguide.net/node/view/139578"
+        },
+        {
+          "title": "Egg count from one female, 24 May 2026",
+          "url": "https://discord.com/channels/1285685926340726887/1286131091987763264/1508290253901926563"
+        },
+        {
+          "title": "Prepupal development, 20 May 2025",
+          "url": "https://discord.com/channels/1285685926340726887/1286131091987763264/1374546943577165957"
+        },
+        {
+          "title": "Pupal cell construction, 23 September 2025",
+          "url": "https://discord.com/channels/1285685926340726887/1286131091987763264/1420192506674679828"
+        },
+        {
+          "title": "Pupation, 17 October 2025",
+          "url": "https://discord.com/channels/1285685926340726887/1286131091987763264/1428785524616990862"
+        },
+        {
+          "title": "Pair in development, 24 November 2025",
+          "url": "https://discord.com/channels/1285685926340726887/1286131091987763264/1442575367419465728"
+        },
+        {
+          "title": "Larvae recovered from an egg container, 11 July 2026",
+          "url": "https://discord.com/channels/1285685926340726887/1286131091987763264/1525425131634294846"
         }
       ],
       "facts": [
@@ -816,7 +989,49 @@
           "title": "iNaturalist — Dynastes grantii",
           "url": "https://www.inaturalist.org/taxa/424045-Dynastes-grantii"
         }
-      ]
+      ],
+      "trials": [
+        {
+          "title": "Captive breeding observations",
+          "intro": "One female produced 87 eggs in a captive enclosure examined in May 2026. Photographs from other cohorts document variation in developmental timing and the transition from prepupa to pupa.",
+          "facts": [
+            {
+              "title": "Eggs recovered from one female",
+              "text": "87"
+            },
+            {
+              "title": "Life stages photographed",
+              "text": "Egg, larva, prepupa and pupa"
+            }
+          ],
+          "sections": [
+            {
+              "title": "Oviposition",
+              "text": "On 24 May 2026, 87 eggs were recovered when the enclosure of a single female was examined. The count describes one female."
+            },
+            {
+              "title": "Pupal cell construction",
+              "text": "In one group, a larva reached the prepupal stage well ahead of its siblings. Another individual began forming a pupal cell in an exhibit enclosure on 23 September 2025. A pupa was photographed in the enclosure on 17 October. Those dates document observations and do not fix the duration of the prepupal stage."
+            },
+            {
+              "title": "Recovery from stored eggs",
+              "text": "In July 2026, a separate report recorded 12 surviving larvae in a misplaced container that had held more than 80 eggs. The history of the container was incomplete, so the count cannot distinguish failure to hatch from larval mortality."
+            }
+          ],
+          "url": "https://discord.com/channels/1285685926340726887/1286131091987763264/1508290253901926563"
+        }
+      ],
+      "distribution": {
+        "slug": "dynastes-grantii",
+        "file": "map-dynastes-grantii.png",
+        "count": 952,
+        "raw_count": 952,
+        "excluded_count": 0,
+        "date": "2026-11-18",
+        "url": "https://www.inaturalist.org/observations?place_id=97394&quality_grade=research&captive=false&geo=true&taxon_id=424045&view=map",
+        "caption": "952 of 952 wild, research-grade iNaturalist observations in North America are plotted at their public coordinates.",
+        "data_file": "map-data-dynastes-grantii.json"
+      }
     },
     {
       "name": "Euphoria monticola",
@@ -873,7 +1088,18 @@
           "title": "iNaturalist — Euphoria monticola",
           "url": "https://www.inaturalist.org/taxa/301565-Euphoria-monticola"
         }
-      ]
+      ],
+      "distribution": {
+        "slug": "euphoria-monticola",
+        "file": "map-euphoria-monticola.png",
+        "count": 226,
+        "raw_count": 226,
+        "excluded_count": 0,
+        "date": "2026-11-18",
+        "url": "https://www.inaturalist.org/observations?place_id=97394&quality_grade=research&captive=false&geo=true&taxon_id=301565&view=map",
+        "caption": "226 of 226 wild, research-grade iNaturalist observations in North America are plotted at their public coordinates.",
+        "data_file": "map-data-euphoria-monticola.json"
+      }
     },
     {
       "name": "Osmoderma eremicola",
@@ -938,7 +1164,18 @@
           "title": "iNaturalist — Osmoderma eremicola",
           "url": "https://www.inaturalist.org/taxa/226688-Osmoderma-eremicola"
         }
-      ]
+      ],
+      "distribution": {
+        "slug": "osmoderma-eremicola",
+        "file": "map-osmoderma-eremicola.png",
+        "count": 3787,
+        "raw_count": 3787,
+        "excluded_count": 0,
+        "date": "2026-11-18",
+        "url": "https://www.inaturalist.org/observations?place_id=97394&quality_grade=research&captive=false&geo=true&taxon_id=226688&view=map",
+        "caption": "3,787 of 3,787 wild, research-grade iNaturalist observations in North America are plotted at their public coordinates.",
+        "data_file": "map-data-osmoderma-eremicola.json"
+      }
     },
     {
       "name": "Chrysina gloriosa",
@@ -1003,7 +1240,18 @@
           "title": "iNaturalist — Chrysina gloriosa",
           "url": "https://www.inaturalist.org/taxa/325790-Chrysina-gloriosa"
         }
-      ]
+      ],
+      "distribution": {
+        "slug": "chrysina-gloriosa",
+        "file": "map-chrysina-gloriosa.png",
+        "count": 1323,
+        "raw_count": 1323,
+        "excluded_count": 0,
+        "date": "2026-11-18",
+        "url": "https://www.inaturalist.org/observations?place_id=97394&quality_grade=research&captive=false&geo=true&taxon_id=325790&view=map",
+        "caption": "1,323 of 1,323 wild, research-grade iNaturalist observations in North America are plotted at their public coordinates.",
+        "data_file": "map-data-chrysina-gloriosa.json"
+      }
     }
   ],
   "photos": [
@@ -1303,6 +1551,270 @@
       "alt": "Osmoderma eremicola. Second view of the adults in the specimen cup.",
       "caption": "Second view of the adults in the specimen cup.",
       "url": "https://discord.com/channels/1285685926340726887/1384712332667519138",
+      "credit": "@alan69.",
+      "hero": false
+    },
+    {
+      "file": "guide-1369773748776992869-01.jpg",
+      "species": "Dynastes tityus",
+      "width": 2992,
+      "height": 2992,
+      "alt": "Dynastes tityus. Male in a clear container, viewed obliquely from above.",
+      "caption": "Male in a clear container, viewed obliquely from above.",
+      "url": "https://discord.com/channels/1285685926340726887/1286131091987763264/1369773748776992869",
+      "credit": "@alan69.",
+      "hero": false
+    },
+    {
+      "file": "guide-1369773748776992869-02.jpg",
+      "species": "Dynastes tityus",
+      "width": 2992,
+      "height": 2992,
+      "alt": "Dynastes tityus. Dorsal view of the same male in the container.",
+      "caption": "Dorsal view of the same male in the container.",
+      "url": "https://discord.com/channels/1285685926340726887/1286131091987763264/1369773748776992869",
+      "credit": "@alan69.",
+      "hero": false
+    },
+    {
+      "file": "guide-1369773748776992869-03.jpg",
+      "species": "Dynastes tityus",
+      "width": 2992,
+      "height": 2992,
+      "alt": "Dynastes tityus. Male resting on the palm, showing the yellow elytra and dark spots.",
+      "caption": "Male resting on the palm, showing the yellow elytra and dark spots.",
+      "url": "https://discord.com/channels/1285685926340726887/1286131091987763264/1369773748776992869",
+      "credit": "@alan69.",
+      "hero": false
+    },
+    {
+      "file": "guide-1369773748776992869-04.jpg",
+      "species": "Dynastes tityus",
+      "width": 2992,
+      "height": 2992,
+      "alt": "Dynastes tityus. Adult male viewed along the midline of the body.",
+      "caption": "Adult male viewed along the midline of the body.",
+      "url": "https://discord.com/channels/1285685926340726887/1286131091987763264/1369773748776992869",
+      "credit": "@alan69.",
+      "hero": false
+    },
+    {
+      "file": "guide-1369773748776992869-05.jpg",
+      "species": "Dynastes tityus",
+      "width": 2992,
+      "height": 2992,
+      "alt": "Dynastes tityus. Oblique view of the male, showing the markings on the wing covers.",
+      "caption": "Oblique view of the male, showing the markings on the wing covers.",
+      "url": "https://discord.com/channels/1285685926340726887/1286131091987763264/1369773748776992869",
+      "credit": "@alan69.",
+      "hero": false
+    },
+    {
+      "file": "guide-1377160749536907274-01.jpg",
+      "species": "Dynastes tityus",
+      "width": 2992,
+      "height": 2992,
+      "alt": "Dynastes tityus. Five larvae recovered from a forest site.",
+      "caption": "Five larvae recovered from a forest site.",
+      "url": "https://discord.com/channels/1285685926340726887/1286131091987763264/1377160749536907274",
+      "credit": "@alan69.",
+      "hero": false
+    },
+    {
+      "file": "guide-1377160749536907274-02.jpg",
+      "species": "Dynastes tityus",
+      "width": 2992,
+      "height": 2992,
+      "alt": "Dynastes tityus. Second view of the five larvae in substrate.",
+      "caption": "Second view of the five larvae in substrate.",
+      "url": "https://discord.com/channels/1285685926340726887/1286131091987763264/1377160749536907274",
+      "credit": "@alan69.",
+      "hero": false
+    },
+    {
+      "file": "guide-1440152216483790880-01.jpg",
+      "species": "Dynastes tityus",
+      "width": 960,
+      "height": 720,
+      "alt": "Dynastes tityus. Large male in profile, showing the curvature of the two horns.",
+      "caption": "Large male in profile, showing the curvature of the two horns.",
+      "url": "https://discord.com/channels/1285685926340726887/1286131091987763264/1440152216483790880",
+      "credit": "@alan69.",
+      "hero": false
+    },
+    {
+      "file": "guide-1508290253901926563-01.jpg",
+      "species": "Dynastes grantii",
+      "width": 2992,
+      "height": 2992,
+      "alt": "Dynastes grantii. Eggs recovered from the enclosure of a single female.",
+      "caption": "Eggs recovered from the enclosure of a single female.",
+      "url": "https://discord.com/channels/1285685926340726887/1286131091987763264/1508290253901926563",
+      "credit": "@alan69.",
+      "hero": false
+    },
+    {
+      "file": "guide-1374546943577165957-01.jpg",
+      "species": "Dynastes grantii",
+      "width": 2992,
+      "height": 2992,
+      "alt": "Dynastes grantii. Prepupa visible in an opened earthen cell.",
+      "caption": "Prepupa visible in an opened earthen cell.",
+      "url": "https://discord.com/channels/1285685926340726887/1286131091987763264/1374546943577165957",
+      "credit": "@alan69.",
+      "hero": false
+    },
+    {
+      "file": "guide-1420192506674679828-01.jpg",
+      "species": "Dynastes grantii",
+      "width": 2992,
+      "height": 2992,
+      "alt": "Dynastes grantii. Larva at the edge of the enclosure during pupal cell construction.",
+      "caption": "Larva at the edge of the enclosure during pupal cell construction.",
+      "url": "https://discord.com/channels/1285685926340726887/1286131091987763264/1420192506674679828",
+      "credit": "@alan69.",
+      "hero": false
+    },
+    {
+      "file": "guide-1428785524616990862-01.jpg",
+      "species": "Dynastes grantii",
+      "width": 2992,
+      "height": 2992,
+      "alt": "Dynastes grantii. Pupa visible through the side of the rearing enclosure.",
+      "caption": "Pupa visible through the side of the rearing enclosure.",
+      "url": "https://discord.com/channels/1285685926340726887/1286131091987763264/1428785524616990862",
+      "credit": "@alan69.",
+      "hero": false
+    },
+    {
+      "file": "guide-1442575367419465728-01.jpg",
+      "species": "Dynastes grantii",
+      "width": 2992,
+      "height": 2992,
+      "alt": "Dynastes grantii. One pupa in ventral view alongside a second individual in its cell.",
+      "caption": "One pupa in ventral view alongside a second individual in its cell.",
+      "url": "https://discord.com/channels/1285685926340726887/1286131091987763264/1442575367419465728",
+      "credit": "@alan69.",
+      "hero": false
+    },
+    {
+      "file": "guide-1525425131634294846-01.jpg",
+      "species": "Dynastes grantii",
+      "width": 2992,
+      "height": 2992,
+      "alt": "Dynastes grantii. Surviving larvae in a container of substrate.",
+      "caption": "Surviving larvae in a container of substrate.",
+      "url": "https://discord.com/channels/1285685926340726887/1286131091987763264/1525425131634294846",
+      "credit": "@alan69.",
+      "hero": false
+    },
+    {
+      "file": "guide-1394714323632521327-01.jpg",
+      "species": "Strategus aloeus",
+      "width": 2992,
+      "height": 2992,
+      "alt": "Strategus aloeus. Eggs visible on and in the substrate.",
+      "caption": "Eggs visible on and in the substrate.",
+      "url": "https://discord.com/channels/1285685926340726887/1286131091987763264/1394714323632521327",
+      "credit": "@alan69.",
+      "hero": false
+    },
+    {
+      "file": "guide-1398163127065116774-01.jpg",
+      "species": "Strategus aloeus",
+      "width": 2992,
+      "height": 2992,
+      "alt": "Strategus aloeus. Eggs visible against the side of the rearing container.",
+      "caption": "Eggs visible against the side of the rearing container.",
+      "url": "https://discord.com/channels/1285685926340726887/1286131091987763264/1398163127065116774",
+      "credit": "@alan69.",
+      "hero": false
+    },
+    {
+      "file": "guide-1415671851656544417-01.jpg",
+      "species": "Strategus aloeus",
+      "width": 2992,
+      "height": 2992,
+      "alt": "Strategus aloeus. Larva resting on fingertips.",
+      "caption": "Larva resting on fingertips.",
+      "url": "https://discord.com/channels/1285685926340726887/1286131091987763264/1415671851656544417",
+      "credit": "@alan69.",
+      "hero": false
+    },
+    {
+      "file": "guide-1416157937428336651-01.jpg",
+      "species": "Strategus aloeus",
+      "width": 2992,
+      "height": 2992,
+      "alt": "Strategus aloeus. Group of larvae in a shallow tray.",
+      "caption": "Group of larvae in a shallow tray.",
+      "url": "https://discord.com/channels/1285685926340726887/1286131091987763264/1416157937428336651",
+      "credit": "@alan69.",
+      "hero": false
+    },
+    {
+      "file": "guide-1416157937428336651-02.jpg",
+      "species": "Strategus aloeus",
+      "width": 2992,
+      "height": 2992,
+      "alt": "Strategus aloeus. Second view of the larval group.",
+      "caption": "Second view of the larval group.",
+      "url": "https://discord.com/channels/1285685926340726887/1286131091987763264/1416157937428336651",
+      "credit": "@alan69.",
+      "hero": false
+    },
+    {
+      "file": "guide-1423671129922338818-01.jpg",
+      "species": "Strategus aloeus",
+      "width": 2992,
+      "height": 2992,
+      "alt": "Strategus aloeus. Larvae reared on flake soil.",
+      "caption": "Larvae reared on flake soil.",
+      "url": "https://discord.com/channels/1285685926340726887/1286131091987763264/1423671129922338818",
+      "credit": "@alan69.",
+      "hero": false
+    },
+    {
+      "file": "guide-1423671129922338818-02.jpg",
+      "species": "Strategus aloeus",
+      "width": 2992,
+      "height": 2992,
+      "alt": "Strategus aloeus. Larva viewed from the side.",
+      "caption": "Larva viewed from the side.",
+      "url": "https://discord.com/channels/1285685926340726887/1286131091987763264/1423671129922338818",
+      "credit": "@alan69.",
+      "hero": false
+    },
+    {
+      "file": "guide-1423671129922338818-03.jpg",
+      "species": "Strategus aloeus",
+      "width": 2992,
+      "height": 2992,
+      "alt": "Strategus aloeus. One larva in the hand above the rest of the group.",
+      "caption": "One larva in the hand above the rest of the group.",
+      "url": "https://discord.com/channels/1285685926340726887/1286131091987763264/1423671129922338818",
+      "credit": "@alan69.",
+      "hero": false
+    },
+    {
+      "file": "guide-1441944304535732385-01.jpg",
+      "species": "Strategus aloeus",
+      "width": 740,
+      "height": 555,
+      "alt": "Strategus aloeus. Pupa viewed obliquely from below.",
+      "caption": "Pupa viewed obliquely from below.",
+      "url": "https://discord.com/channels/1285685926340726887/1286131091987763264/1441944304535732385",
+      "credit": "@alan69.",
+      "hero": false
+    },
+    {
+      "file": "guide-1441944304535732385-02.jpg",
+      "species": "Strategus aloeus",
+      "width": 740,
+      "height": 555,
+      "alt": "Strategus aloeus. Male and female pupae viewed from below.",
+      "caption": "Male and female pupae viewed from below.",
+      "url": "https://discord.com/channels/1285685926340726887/1286131091987763264/1441944304535732385",
       "credit": "@alan69.",
       "hero": false
     }

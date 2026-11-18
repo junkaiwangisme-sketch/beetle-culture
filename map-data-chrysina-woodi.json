@@ -1,0 +1,57 @@
+{
+  "scientific_name": "Chrysina woodi",
+  "taxon_id": 1507967,
+  "date": "2026-11-18",
+  "filtered_url": "https://www.inaturalist.org/observations?place_id=97394&quality_grade=research&captive=false&geo=true&taxon_id=1507967&view=map",
+  "api": "https://api.inaturalist.org/v2/observations",
+  "filters": {
+    "place_id": 97394,
+    "quality_grade": "research",
+    "captive": "false",
+    "geo": "true",
+    "taxon_id": 1507967,
+    "id_below": 412995932
+  },
+  "geography": "Official iNaturalist North America place 97394, including Mexico, Central America and the Caribbean. Each figure is framed around the plotted observations.",
+  "api_total_at_start": 289,
+  "retrieved_count": 289,
+  "mapped_count": 289,
+  "excluded_as_extreme_outlier": 0,
+  "missing_public_coordinate_ids": [],
+  "outlier_screen": "Group public positions into 0.25° longitude–latitude cells. Flag cells with one or two observations whose center is at least 500 km (great-circle distance) from every other occupied cell for that species. Omit an observation only when the review also finds substantive evidence against its use in the distribution plot. Document each decision, including retained candidates.",
+  "outlier_audit": [],
+  "precision": "Filled symbols represent public, unobscured coordinates with reported public positional accuracy at most 10 km. Open symbols represent obscured coordinates or larger/unknown accuracy. All positions come from the anonymous public API.",
+  "precision_counts": {
+    "precise": 161,
+    "coarse_or_unknown": 128,
+    "obscured": 50
+  },
+  "projection": {
+    "name": "Spherical Albers equal-area conic",
+    "standard_parallels_deg": [
+      20,
+      50
+    ],
+    "central_meridian_deg": -104.1,
+    "earth_radius_km": 6371.0088
+  },
+  "interpretation": "Points show reported occurrences. Sampling effort varies across the map. The record count includes coincident and overlapping locations.",
+  "sources": [
+    {
+      "title": "iNaturalist observations",
+      "url": "https://www.inaturalist.org/observations?place_id=97394&quality_grade=research&captive=false&geo=true&taxon_id=1507967&view=map"
+    },
+    {
+      "title": "Region boundary (North America, iNaturalist place 97394)",
+      "url": "https://www.inaturalist.org/places/north-america"
+    },
+    {
+      "title": "iNaturalist geoprivacy",
+      "url": "https://www.inaturalist.org/pages/geoprivacy"
+    },
+    {
+      "title": "Natural Earth boundaries",
+      "url": "https://www.naturalearthdata.com/downloads/50m-cultural-vectors/"
+    }
+  ]
+}

@@ -389,5 +389,15 @@ section.block { padding-block: clamp(43px, 5.5vw, 85px); }
 .article .trial {margin-block:2.4rem;padding:1.4rem 1.6rem;border-left:2px solid var(--fern);background:var(--surface)}
 .article .trial h2 {font-size:1.55rem;margin-top:0}
 .article .trial p:last-child {margin-bottom:0}
+.distribution-map {margin:1.5rem 0}
+.distribution-map img {display:block;width:100%;height:auto}
+.distribution-map figcaption {margin-block:.8rem;color:var(--muted);font-size:.9rem;line-height:1.5}
+.gallery {display:grid;grid-template-columns:repeat(auto-fit,minmax(min(220px,100%),1fr));gap:1.1rem}
+.gallery .articlepic {margin:0}
+.gallery .articlepic img {height:auto;aspect-ratio:4/3;object-fit:contain}
+.gallery .articlepic a {display:block;background:var(--surface)}
+.editor-form fieldset {border:1px solid var(--line);padding:1rem;margin:1rem 0}
+.editor-form legend {padding-inline:.4rem}
+.editor-form button:not(.cta) {color:var(--ink);background:var(--surface);border:1px solid var(--line);padding:.5em .9em;cursor:pointer}
 
 .classlinks{padding-bottom:40px}.classlinks h2{font: 26px var(--serif)}.factlist div{display:grid;grid-template-columns:minmax(100px,1fr) 2fr;gap:15px;padding:9px 0;border-bottom:1px solid var(--line)}.factlist dd{margin:0}.editor-form label{display:grid;gap:6px;margin:16px 0}.editor-form textarea,.editor-form input,.editor-form select{width:100%;padding:10px;font:inherit;background:#151715;color:#eee;border:1px solid #687065}.editor-form{max-width:640px}.hero-figure img{object-position:50% 55%}

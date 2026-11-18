@@ -1,0 +1,100 @@
+{
+  "scientific_name": "Tenebrio molitor",
+  "taxon_id": 131970,
+  "date": "2026-11-18",
+  "filtered_url": "https://www.inaturalist.org/observations?place_id=97394&quality_grade=research&captive=false&geo=true&taxon_id=131970&view=map",
+  "api": "https://api.inaturalist.org/v2/observations",
+  "filters": {
+    "place_id": 97394,
+    "quality_grade": "research",
+    "captive": "false",
+    "geo": "true",
+    "taxon_id": 131970,
+    "id_below": 388196266
+  },
+  "geography": "Official iNaturalist North America place 97394, including Mexico, Central America and the Caribbean. Each figure is framed around the plotted observations.",
+  "api_total_at_start": 548,
+  "retrieved_count": 548,
+  "mapped_count": 548,
+  "excluded_as_extreme_outlier": 0,
+  "missing_public_coordinate_ids": [],
+  "outlier_screen": "Group public positions into 0.25° longitude–latitude cells. Flag cells with one or two observations whose center is at least 500 km (great-circle distance) from every other occupied cell for that species. Omit an observation only when the review also finds substantive evidence against its use in the distribution plot. Document each decision, including retained candidates.",
+  "outlier_audit": [
+    {
+      "cell_center": [
+        -89.125,
+        13.875
+      ],
+      "observation_ids": [
+        66750126
+      ],
+      "nearest_occupied_cell_km": 1205.0,
+      "review": [
+        {
+          "id": 66750126,
+          "decision": "retain",
+          "reason": "An isolated El Salvador report of a cosmopolitan stored-product beetle. Geographic isolation alone provides insufficient evidence to exclude it.",
+          "sources": [
+            "https://ageconsearch.umn.edu/record/156679/files/tb95.pdf",
+            "https://www.inaturalist.org/observations/66750126"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_center": [
+        -52.625,
+        47.375
+      ],
+      "observation_ids": [
+        177206364
+      ],
+      "nearest_occupied_cell_km": 587.8,
+      "review": [
+        {
+          "id": 177206364,
+          "decision": "retain",
+          "reason": "The Newfoundland observer described a beetle crawling indoors. This is consistent with the cosmopolitan, often synanthropic biology of this species.",
+          "sources": [
+            "https://ageconsearch.umn.edu/record/156679/files/tb95.pdf",
+            "https://www.inaturalist.org/observations/177206364"
+          ]
+        }
+      ]
+    }
+  ],
+  "precision": "Filled symbols represent public, unobscured coordinates with reported public positional accuracy at most 10 km. Open symbols represent obscured coordinates or larger/unknown accuracy. All positions come from the anonymous public API.",
+  "precision_counts": {
+    "precise": 411,
+    "coarse_or_unknown": 137,
+    "obscured": 49
+  },
+  "projection": {
+    "name": "Spherical Albers equal-area conic",
+    "standard_parallels_deg": [
+      20,
+      50
+    ],
+    "central_meridian_deg": -84.93,
+    "earth_radius_km": 6371.0088
+  },
+  "interpretation": "Points show reported occurrences. Sampling effort varies across the map. The record count includes coincident and overlapping locations.",
+  "sources": [
+    {
+      "title": "iNaturalist observations",
+      "url": "https://www.inaturalist.org/observations?place_id=97394&quality_grade=research&captive=false&geo=true&taxon_id=131970&view=map"
+    },
+    {
+      "title": "Region boundary (North America, iNaturalist place 97394)",
+      "url": "https://www.inaturalist.org/places/north-america"
+    },
+    {
+      "title": "iNaturalist geoprivacy",
+      "url": "https://www.inaturalist.org/pages/geoprivacy"
+    },
+    {
+      "title": "Natural Earth boundaries",
+      "url": "https://www.naturalearthdata.com/downloads/50m-cultural-vectors/"
+    }
+  ]
+}

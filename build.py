@@ -29,12 +29,24 @@ for path in sorted(ROOT.glob('post-*.json')):
         raise ValueError('Post filename does not match its slug: ' + path.name)
     by_slug[record['slug']] = record
 guides = words(by_slug.values())
+scientific_names=sorted({record['name'] for record in guides},key=len,reverse=True)
+name_pattern=re.compile(r'(?<![A-Za-z])('+'|'.join(map(re.escape,scientific_names))+r')(?![A-Za-z])')
+def prose(text):
+    return name_pattern.sub(lambda m:'<i>'+m.group(0)+'</i>',e(text))
 photos = list(config['photos'])
 for record in guides:
     for picture in record.get('additional_photos', []):
         photos.append({**picture, 'species':record['name']})
 pages = []
 files = {item['file'] for item in photos}
+for record in guides:
+    distribution=record.get('distribution',{})
+    for key in ('file','data_file'):
+        filename=distribution.get(key)
+        if filename:
+            if Path(filename).name != filename or not (ROOT/filename).is_file():
+                raise ValueError('Missing or invalid distribution file: '+filename)
+            files.add(filename)
 if len(groups) != len(config['groups']):
     raise ValueError('Duplicate group slug')
 for key in ('name', 'slug'):
@@ -95,7 +107,7 @@ def page(file,title,desc,body,kind='WebPage',photo=None,active=None,article=None
 def crumbs(items):
     return '<nav class="crumb" aria-label="Breadcrumb">'+link('index.html','Home')+''.join(' <span aria-hidden="true">/</span> '+(link(u,t) if u else e(t)) for u,t in items)+'</nav>'
 def intro(title,desc,path,kicker='',italic=''):
-    return '<div class="intro"><div class="wrap">'+crumbs(path)+(f'<div class="kicker">{e(kicker)}</div>' if kicker else '')+f'<h1 class="page-title">{e(title)}</h1>'+(f'<div class="sciname">{e(italic)}</div>' if italic else '')+(f'<p class="lead">{e(desc)}</p>' if desc else '')+'</div></div>'
+    return '<div class="intro"><div class="wrap">'+crumbs(path)+(f'<div class="kicker">{e(kicker)}</div>' if kicker else '')+f'<h1 class="page-title">{e(title)}</h1>'+(f'<div class="sciname">{e(italic)}</div>' if italic else '')+(f'<p class="lead">{prose(desc)}</p>' if desc else '')+'</div></div>'
 def group_rows():
     counts=Counter(s['group'] for s in guides)
     chunks=[]
@@ -130,6 +142,10 @@ selected=[s for s in guides if any('wixsite.com' in ref['url'] for ref in s['sou
 home=f'<section class="hero"><div class="hero-inner"><div class="hero-copy"><span class="eyebrow">Coleoptera · Life history</span><h1>North American <em>Beetle Breeding</em></h1><p>Captive breeding records and photographs, with observations on oviposition, larval substrates, and adult emergence.</p><a class="cta" href="groups.html">Browse beetle families <span class="arrow" aria-hidden="true">↗</span></a></div>{visual}</div></section>'
 home+='<section class="wrap block home-index" id="families"><div class="section-head"><div><h2>Explore by family</h2><p class="section-note">Choose a family or scarab subfamily to find its species guides.</p></div></div>'+group_rows()+'</section><section class="wrap block"><div class="section-head"><h2>Original breeding accounts</h2><a class="more" href="species.html">All species ↗</a></div><div class="guidegrid originals">'+''.join(card(s) for s in selected)+'</div></section>'
 page('index.html','Beetle breeding guides and photography','Explore beetle breeding by family and species, with photographs, larval care, adult diets, and documented rearing observations.',home,'WebSite',hero)
+if any(record.get('distribution') for record in guides):
+    method_intro=intro('Mapping methods','North American occurrence records and the treatment of geographic outliers.',[(None,'Mapping methods')])
+    method_body='<div class="wrap block"><article class="article"><section><h2>Observations</h2><p>Each species map uses wild, research-grade, georeferenced observations in the iNaturalist North America place, including Mexico, Central America and the Caribbean. Points represent public observation coordinates. Locations can overlap. Sampling intensity varies, and gaps between observations do not establish absence.</p></section><section><h2>Location precision</h2><p>Filled symbols indicate unobscured public locations with a reported uncertainty of 10 km or less. Open symbols indicate an obscured location or a larger or unknown uncertainty. The public coordinate is retained for obscured records.</p></section><section><h2>Outlier review</h2><p>We grouped observations in 0.25° latitude–longitude cells. A cell with one or two records was flagged when its center was at least 500 km from every other occupied cell for that species. Flagged records were checked against taxonomic and geographic sources. The species data file lists each reviewed observation and the reason for retaining or excluding it.</p></section><section><h2>Map projection</h2><p>Figures use an Albers equal-area conic projection with standard parallels at 20° and 50° N and Natural Earth boundaries. The scale bar and geographic extent are shown on each figure.</p></section></article></div>'
+    page('distribution.html','Distribution mapping methods','Data selection, positional uncertainty and outlier decisions for the beetle occurrence maps.',method_intro+method_body)
 page('groups.html','Beetle family directory','Browse beetle breeding guides by family and scarab subfamily.',intro('Family directory','Choose a group to open its species guides.',[(None,'Families')])+'<section class="wrap block">'+group_rows()+'</section>','CollectionPage',active='groups')
 for k,g in groups.items():
     items=[s for s in guides if s['group']==k]
@@ -147,22 +163,40 @@ for s in guides:
     for i,item in enumerate(s['sections'],1):
         anchor='section-'+str(i)
         toc.append('<li>'+link('#'+anchor,item['title'])+'</li>')
-        text=''.join('<p>'+e(t)+'</p>' for t in item['text'].split('\n') if t.strip())
+        text=''.join('<p>'+prose(t)+'</p>' for t in item['text'].split('\n') if t.strip())
         parts.append(f'<section id="{anchor}"><h2>{e(item["title"])}</h2>{text}</section>')
     if facts:
         summary=summary.replace('class="facts"','class="facts" id="life-history"');toc.insert(0,'<li>'+link('#life-history','Life-history data')+'</li>')
     for i,trial in enumerate(s.get('trials',[]),1):
         anchor=f'trial-{i}'
         toc.append('<li>'+link('#'+anchor,trial['title'])+'</li>')
-        content='<p>'+e(trial.get('text') or trial.get('intro',''))+'</p>'
+        content='<p>'+prose(trial.get('text') or trial.get('intro',''))+'</p>'
         for fact in trial.get('facts',[]):
             content+='<p><b>'+e(fact['title'])+'</b> · '+e(fact['text'])+'</p>'
         for section in trial.get('sections',[]):
-            content+='<h3>'+e(section['title'])+'</h3><p>'+e(section['text'])+'</p>'
+            content+='<h3>'+e(section['title'])+'</h3><p>'+prose(section['text'])+'</p>'
         if trial.get('url') and public_reference(trial['url']):content+='<p>'+link(trial['url'],'Original account')+'</p>'
         parts.insert(1 if len(parts)>1 else len(parts),f'<section id="{anchor}" class="trial"><h2>{e(trial["title"])}</h2>{content}</section>')
     body+='<div class="wrap article-layout"><article class="article">'+(galleryfig(ps[0]) if ps else '')+summary+''.join(parts)
-    if len(ps)>1: body+='<section><h2>Photographs</h2><div class="gallery">'+''.join(galleryfig(p) for p in ps[1:])+'</div></section>'
+    if len(ps)>1:
+        toc.append('<li>'+link('#photographs','Photographs')+'</li>')
+        body+='<section id="photographs"><h2>Photographs</h2><div class="gallery">'+''.join(galleryfig(p) for p in ps[1:])+'</div></section>'
+    native=s.get('native_status')
+    if native:
+        toc.append('<li>'+link('#geography','Geographic status')+'</li>')
+        body+='<section id="geography"><h2>Geographic status</h2><p>'+prose(native['text'])+'</p>'
+        if native.get('sources'):
+            body+='<ul class="sources">'+srcs(native)+'</ul>'
+        body+='</section>'
+    dist=s.get('distribution')
+    if dist:
+        filename=e(dist['file'])
+        toc.append('<li>'+link('#distribution','Distribution records')+'</li>')
+        caption=e(dist.get('caption',''))
+        body+='<section id="distribution"><h2>Distribution records</h2><figure class="distribution-map"><a href="'+filename+'"><img loading="lazy" src="'+filename+'" alt="'+e('North American iNaturalist occurrence map for '+name)+'"></a><figcaption>'+caption+'</figcaption></figure>'
+        body+='<p class="mapmeta">Retrieved '+e(dist['date'])+' UTC · '+link(dist['url'],'View observations on iNaturalist')
+        if dist.get('data_file'):body+=' · '+link(dist['data_file'],'Map data and outlier decisions')
+        body+=' · '+link('distribution.html','Mapping methods')+'</p></section>'
     body+=classification(s.get('classification',[]))
     body+='</article><aside class="toc"><div class="onthis">In this guide</div><ol>'+''.join(toc)+'</ol>'+link(glink(s['group']),'All '+g['name']+' guides')+'</aside></div>'
     page(slink(s),((common+' ('+name+')') if common else name)+' breeding guide',s['intro'],body,'Article',ps[0] if ps else None,article=s)

@@ -3,7 +3,34 @@ const current = form.elements;
 const records = window.guideEditor.species;
 const known = new Map(records.map(r => [r.slug,r]));
 const rows = (items, sep) => (items || []).map(x => x.title + sep + (x.text || x.url)).join('\n');
+const trialList=document.querySelector('#trial-list');
+function addTrial(trial={}) {
+  const group=document.createElement('fieldset');
+  group.className='trial-editor';
+  const legend=document.createElement('legend');
+  legend.textContent='Breeding account';
+  group.append(legend);
+  for(const [key,labelText] of [['title','Account title'],['text','Account text']]) {
+    const label=document.createElement('label');
+    const field=document.createElement(key==='title'?'input':'textarea');
+    label.textContent=labelText;
+    field.dataset.field=key;
+    field.value=key==='text' ? (trial.text || [trial.intro,...(trial.facts||[]).map(f=>f.title+' · '+f.text),...(trial.sections||[]).map(s=>s.title+' — '+s.text)].filter(Boolean).join('\n\n')) : (trial[key] || '');
+    field.required=true;
+    label.append(field);
+    group.append(label);
+  }
+  group.original=trial;
+  group.initialText=group.querySelector('textarea').value;
+  const remove=document.createElement('button');
+  remove.type='button';remove.textContent='Remove this account from draft';
+  remove.addEventListener('click',()=>group.remove());group.append(remove);
+  trialList.append(group);
+}
+document.querySelector('#new-trial').addEventListener('click',()=>addTrial());
 function setRecord(record) {
+  trialList.replaceChildren();
+  for(const trial of record.trials || [])addTrial(trial);
   for (const key of ['name','common','intro','group']) current[key].value = record[key] || '';
   current.sections.value = (record.sections || []).map(s => s.title + '\n' + s.text).join('\n\n');
   current.facts.value = rows(record.facts,' | ');
@@ -38,7 +65,14 @@ form.addEventListener('submit',event=>{
       if(!/^[a-z0-9][a-z0-9_.-]*\.(jpe?g|png|webp|avif)$/i.test(p.title))throw Error('Use a photograph filename containing letters, digits, hyphens, underscores and a supported image extension.');
       return {file:p.title,alt:p.text,caption:p.text};
     });
-    const record={...prior,slug,name,classification,additional_photos,common:current.common.value.trim(),group:current.group.value,intro:current.intro.value.trim(),facts:pairs(current.facts.value,'text'),sections,sources};
+    const trials=[...trialList.children].map(group=>{
+      const title=group.querySelector('input').value.trim();
+      const value=group.querySelector('textarea').value.trim();
+      if(!title || !value)throw Error('Each additional account needs a title and its observations.');
+      if(value===group.initialText)return {...group.original,title};
+      return {title,text:value,...(group.original.url ? {url:group.original.url} : {})};
+    });
+    const record={...prior,slug,name,trials,classification,additional_photos,common:current.common.value.trim(),group:current.group.value,intro:current.intro.value.trim(),facts:pairs(current.facts.value,'text'),sections,sources};
     const blob=new Blob([JSON.stringify(record,null,2)+'\n'],{type:'application/json'});
     const url=URL.createObjectURL(blob);const a=document.createElement('a');a.href=url;a.download='post-'+slug+'.json';a.click();
     setTimeout(()=>URL.revokeObjectURL(url),10000);
