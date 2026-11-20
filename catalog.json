@@ -78,7 +78,7 @@
       "name": "Cerambycidae",
       "common": "Longhorn beetles",
       "rank": "Family",
-      "description": "Cerambycidae are longhorn beetles. The two accounts below concern members of Prioninae whose larvae develop in wood or wood-based substrates.",
+      "description": "The longhorns in these guides belong to Prioninae. Their larvae bore into wood, but the females use different laying sites. Mallodon dasystomus accepts damp sawdust, while Callipogon proletarius lays in cracks in white-rotted hardwood logs. The Callipogon guide also describes how Lee et al. (2021) reared the Asian relict longhorn in individual containers.",
       "classification": [
         {
           "title": "BugGuide — Cerambycidae",
@@ -6349,5 +6349,31 @@
         "url": "https://www.instagram.com/p/DcqZFIeB35r/"
       }
     ]
-  }
+  },
+  "observation_localities": {
+    "https://www.inaturalist.org/observations/202175081": "Harris County, Texas",
+    "https://www.inaturalist.org/observations/236539204": "Autauga County, Alabama",
+    "https://www.inaturalist.org/observations/252808697": "Montgomery County, Alabama",
+    "https://www.inaturalist.org/observations/253300577": "Doña Ana County, New Mexico",
+    "https://www.inaturalist.org/observations/255556376": "Monroe County, Florida",
+    "https://www.inaturalist.org/observations/263951493": "Monroe County, Florida",
+    "https://www.inaturalist.org/observations/267762563": "Morgan County, Alabama",
+    "https://www.inaturalist.org/observations/268173013": "Madison County, Alabama",
+    "https://www.inaturalist.org/observations/288921424": "Montgomery County, Alabama",
+    "https://www.inaturalist.org/observations/290595470": "Montgomery County, Alabama",
+    "https://www.inaturalist.org/observations/295715476": "Montgomery County, Alabama",
+    "https://www.inaturalist.org/observations/303464043": "Pima County, Arizona",
+    "https://www.inaturalist.org/observations/305250088": "Santa Cruz County, Arizona",
+    "https://www.inaturalist.org/observations/307509305": "Bexar County, Texas",
+    "https://www.inaturalist.org/observations/313177985": "Lee County, Alabama",
+    "https://www.inaturalist.org/observations/351890166": "Osage County, Oklahoma",
+    "https://www.inaturalist.org/observations/352697471": "Cherokee County, Oklahoma",
+    "https://www.inaturalist.org/observations/358782133": "Ingham County, Michigan",
+    "https://www.inaturalist.org/observations/363161168": "Ingham County, Michigan",
+    "https://www.inaturalist.org/observations/397590022": "Baldwin County, Alabama"
+  },
+  "additional_scientific_names": [
+    "Callipogon relictus",
+    "Pleurotus florida"
+  ]
 }

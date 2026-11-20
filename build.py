@@ -36,7 +36,7 @@ for path in sorted(guide_dir.glob('*.json')):
         continue
     by_slug[path.stem] = record
 guides = words(by_slug.values())
-scientific_names=sorted({record['name'] for record in guides},key=len,reverse=True)
+scientific_names=sorted({record['name'] for record in guides} | set(config.get('additional_scientific_names', [])),key=len,reverse=True)
 name_pattern=re.compile(r'(?<![A-Za-z])('+'|'.join(map(re.escape,scientific_names))+r')(?![A-Za-z])')
 def prose(text):
     return name_pattern.sub(lambda m:'<i>'+m.group(0)+'</i>',e(text)) if guides else e(text)
@@ -89,10 +89,18 @@ for p in photos:
 def glink(s): return 'group-' + s + '.html'
 def slink(s): return 'species-' + s['slug'] + '.html'
 def named(s): return s.get('common') or s['name']
+contributor_name = re.compile(r'\b(?:Junkai Wang|Kai Wang|Alan Jeon|beetlescholar|alan69|immanus|junkaiwangisme)\b', re.I)
+contributor_photo_urls = {p['url'] for p in photos if p.get('url') and contributor_name.search(p.get('credit') or '')}
+photo_localities = config.get('observation_localities', {})
+
 def public_reference(url):
     host=(urlsplit(url).hostname or '').casefold()
     return urlsplit(url).scheme in ('https','http') and bool(host) and host not in ('discord.com','discordapp.com','junkaiwangisme.wixsite.com') and not host.endswith('.discord.com')
-def srcs(s): return ''.join('<li><a href="%s">%s</a></li>' % (e(a['url']), e(a['title'])) for a in s.get('sources') or [] if public_reference(a['url']))
+def cited_sources(record):
+    return [source for source in record.get('sources') or []
+            if public_reference(source['url']) and source['url'] not in contributor_photo_urls
+            and not contributor_name.search(source['title'])]
+def srcs(s): return ''.join('<li><a href="%s">%s</a></li>' % (e(a['url']), e(a['title'])) for a in cited_sources(s))
 def link(url,label): return '<a href="%s">%s</a>' % (e(url),e(label))
 def getphotos(s):
     pictures = [p for p in photos if p.get('species', '').casefold() == s['name'].casefold()]
@@ -101,7 +109,9 @@ def getphotos(s):
 def image(p,lazy=True):
     return '<img src="%s" alt="%s"%s%s%s>' % (e(p['file']),e(p['alt']),' loading="lazy"' if lazy else ' fetchpriority="high"',' width="%s"' % int(p['width']) if p.get('width') else '', ' height="%s"' % int(p['height']) if p.get('height') else '')
 def cred(p):
-    credit=link(p['url'],p.get('credit') or 'Photograph source') if p.get('url') and public_reference(p['url']) else e(p.get('credit',''))
+    credit = e(p.get('credit') or '')
+    if p.get('url') and public_reference(p['url']) and not contributor_name.search(p.get('credit') or ''):
+        credit = link(p['url'], p.get('credit') or 'Photograph source')
     if p.get('license_url'): credit += ' · ' + link(p['license_url'],p['license'])
     elif p.get('license'): credit += ' · ' + e(p['license'])
     return credit
@@ -115,9 +125,10 @@ def page(file,title,desc,body,kind='WebPage',photo=None,active=None,article=None
             body=body.replace(f'src="{js}"', f'src="{asset(js)}"')
     full=BASE+('' if file=='index.html' else file)
     data={'@context':'https://schema.org','@type':kind,'url':full,'name':title,'description':desc,'inLanguage':'en'}
-    if article and article.get('primary_url') and public_reference(article['primary_url']):
-        data['citation'] = article.get('primary_url')
     if article:
+        citations = [source['url'] for source in cited_sources(article)]
+        if citations:
+            data['citation'] = citations
         data.update(headline=title,about={'@type':'Thing','name':article['name']},isPartOf={'@type':'WebSite','name':'North American Beetle Breeding','url':BASE})
     if photo: data['image']=BASE+photo['file']
     def nav(url,label,key,cls=''):
@@ -145,7 +156,9 @@ def group_rows():
 def card(s):
     pics=getphotos(s)
     common=f'<span class="card-common">{e(s["common"])}</span>' if s.get('common') else ''
-    return f'<a class="guide{"" if pics else " textcard"}" href="{slink(s)}">'+(f'<span class="image">{image(pics[0])}</span>' if pics else '')+f'<span class="kicker">{e(groups[s["group"]]["name"])}</span><strong><i>{e(s["name"])}</i></strong>{common}</a>'
+    locality = photo_localities.get(pics[0].get('url')) if pics else None
+    photo_note = f'<span class="card-common">Photo from {e(locality)}</span>' if locality else ''
+    return f'<a class="guide{"" if pics else " textcard"}" href="{slink(s)}">'+(f'<span class="image">{image(pics[0])}</span>' if pics else '')+f'<span class="kicker">{e(groups[s["group"]]["name"])}</span><strong><i>{e(s["name"])}</i></strong>{common}{photo_note}</a>'
 
 def listed(s):
     group=groups[s['group']]
@@ -176,6 +189,9 @@ def observation_map(name, frame):
 
 def galleryfig(p, lead=False):
     caption = e(p.get('caption') or p['alt'])
+    locality = photo_localities.get(p.get('url'))
+    if locality:
+        caption += ' · ' + e(locality)
     if p.get('show_credit'):
         caption += ' · ' + cred(p)
     return f'<figure class="articlepic"><a href="{e(p["file"])}">{image(p, lazy=not lead)}</a><figcaption>{caption}</figcaption></figure>'
