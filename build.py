@@ -192,7 +192,7 @@ def galleryfig(p, lead=False):
     locality = photo_localities.get(p.get('url'))
     if locality:
         caption += ' · ' + e(locality)
-    if p.get('show_credit'):
+    if p.get('show_credit') or (locality and p.get('credit')):
         caption += ' · ' + cred(p)
     return f'<figure class="articlepic"><a href="{e(p["file"])}">{image(p, lazy=not lead)}</a><figcaption>{caption}</figcaption></figure>'
 hero=next((p for p in photos if p.get('hero')),photos[0] if photos else None)
