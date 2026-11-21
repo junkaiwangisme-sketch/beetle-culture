@@ -125,6 +125,15 @@ def page(file,title,desc,body,kind='WebPage',photo=None,active=None,article=None
             body=body.replace(f'src="{js}"', f'src="{asset(js)}"')
     full=BASE+('' if file=='index.html' else file)
     data={'@context':'https://schema.org','@type':kind,'url':full,'name':title,'description':desc,'inLanguage':'en'}
+    is_home = file == 'index.html'
+    site_name = 'North American Beetle Breeding'
+    browser_title = title if is_home else f'{title} | {site_name}'
+    head_extra = ''
+    if is_home:
+        data['name'] = site_name
+        head_extra = '<meta name="google-site-verification" content="WSEbzCdQcKnMqMdd1pj8De-8JCRtycig_j8HUop0bEk">'
+    elif file == 'editor.html':
+        head_extra = '<meta name="robots" content="noindex">'
     if article:
         citations = [source['url'] for source in cited_sources(article)]
         if citations:
@@ -133,15 +142,15 @@ def page(file,title,desc,body,kind='WebPage',photo=None,active=None,article=None
     if photo: data['image']=BASE+photo['file']
     def nav(url,label,key,cls=''):
         return f'<a href="{url}" class="{cls}"'+(' aria-current="page"' if active==key else '')+'>'+label+'</a>'
-    top='<a class="skip" href="#main">Skip to content</a><header><div class="wrap bar"><a class="brand" href="index.html" aria-label="North American Beetle Breeding home"><span class="crest" aria-hidden="true">B</span> North American Beetle Breeding</a><nav aria-label="Main navigation">'+nav('groups.html','Families','groups')+nav('species.html','Species','species')+nav('substrate.html','Substrate','substrate')+nav('about.html','About me','about')+nav('species.html#query','<span class="glass" aria-hidden="true"></span><span class="sr">Search guides</span><span class="searchtext" aria-hidden="true">Search</span>','search','searchlink')+'</nav>'+nav('editor.html','Log in','editor','owner-login')+'</div></header>'
-    foot='<footer class="footer"><div class="wrap foot"><span class="brand">North American Beetle Breeding</span><div class="footlinks">'+link('groups.html','Family directory')+link('species.html','Species index')+link('credits.html','References')+link('substrate.html','Substrate')+link('about.html','About me')+link('editor.html','Manage posts')+'</div></div></footer>'
+    top='<a class="skip" href="#main">Skip to content</a><header><div class="wrap bar"><a class="brand" href="./" aria-label="North American Beetle Breeding home"><span class="crest" aria-hidden="true">B</span> North American Beetle Breeding</a><nav aria-label="Main navigation">'+nav('groups.html','Families','groups')+nav('species.html','Species','species')+nav('substrate.html','Substrate','substrate')+nav('about.html','About me','about')+nav('species.html#query','<span class="glass" aria-hidden="true"></span><span class="sr">Search guides</span><span class="searchtext" aria-hidden="true">Search</span>','search','searchlink')+'</nav>'+nav('editor.html','Log in','editor','owner-login')+'</div></header>'
+    foot='<footer class="footer"><div class="wrap foot"><span class="brand">North American Beetle Breeding</span><div class="footlinks">'+link('beetle-breeding-guide.html','How to breed beetles')+link('groups.html','Family directory')+link('species.html','Species index')+link('credits.html','References')+link('substrate.html','Substrate')+link('about.html','About me')+link('editor.html','Manage posts')+'</div></div></footer>'
     og=(f'<meta property="og:image" content="{e(BASE+photo["file"])}"><meta property="og:image:alt" content="{e(photo["alt"])}">' if photo else '')
     stylesheet=asset('style.css')
     payload=json.dumps(data,ensure_ascii=False).replace('<','\\u003c')
-    write(file,f'<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>{e(title)} | North American Beetle Breeding</title><meta name="description" content="{e(desc)}"><meta name="theme-color" content="#080908"><link rel="canonical" href="{e(full)}"><meta property="og:title" content="{e(title)}"><meta property="og:description" content="{e(desc)}"><meta property="og:type" content="{"article" if article else "website"}"><meta property="og:url" content="{e(full)}">{og}<link rel="stylesheet" href="{stylesheet}"><script type="application/ld+json">{payload}</script></head><body>{top}<main id="main">{body}</main>{foot}</body></html>')
+    write(file,f'<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>{e(browser_title)}</title>{head_extra}<meta name="description" content="{e(desc)}"><meta name="theme-color" content="#080908"><link rel="canonical" href="{e(full)}"><meta property="og:site_name" content="{e(site_name)}"><meta property="og:title" content="{e(title)}"><meta property="og:description" content="{e(desc)}"><meta property="og:type" content="{"article" if article else "website"}"><meta property="og:url" content="{e(full)}">{og}<link rel="stylesheet" href="{stylesheet}"><script type="application/ld+json">{payload}</script></head><body>{top}<main id="main">{body}</main>{foot}</body></html>')
     pages.append(full)
 def crumbs(items):
-    return '<nav class="crumb" aria-label="Breadcrumb">'+link('index.html','Home')+''.join(' <span aria-hidden="true">/</span> '+(link(u,t) if u else e(t)) for u,t in items)+'</nav>'
+    return '<nav class="crumb" aria-label="Breadcrumb">'+link('./','Home')+''.join(' <span aria-hidden="true">/</span> '+(link(u,t) if u else e(t)) for u,t in items)+'</nav>'
 def intro(title,desc,path,kicker='',italic=''):
     return '<div class="intro"><div class="wrap">'+crumbs(path)+(f'<div class="kicker">{e(kicker)}</div>' if kicker else '')+f'<h1 class="page-title">{e(title)}</h1>'+(f'<div class="sciname">{e(italic)}</div>' if italic else '')+(f'<p class="lead">{prose(desc)}</p>' if desc else '')+'</div></div>'
 def group_rows():
@@ -200,7 +209,7 @@ owner=next((s for s in guides if hero and s['name']==hero.get('species')),None)
 visual=''
 if hero:
     visual=f'<figure class="hero-figure"><a href="{slink(owner) if owner else "credits.html"}">{image(hero,False)}</a><figcaption><i>{e(hero.get("species") or hero.get("caption") or "Beetle photography")}</i></figcaption></figure>'
-home=f'<section class="hero"><div class="hero-inner"><div class="hero-copy"><span class="eyebrow">Coleoptera · Life history</span><h1>North American <em>Beetle Breeding</em></h1><p>Captive breeding records and photographs, with observations on oviposition, larval substrates, and adult emergence.</p><a class="cta" href="groups.html">Browse beetle families <span class="arrow" aria-hidden="true">↗</span></a></div>{visual}</div></section>'
+home=f'<section class="hero"><div class="hero-inner"><div class="hero-copy"><span class="eyebrow">Coleoptera · Life history</span><h1>North American <em>Beetle Breeding</em></h1><p>Find out where North American beetles lay their eggs, what their larvae eat, and when adults emerge. Explore {len(guides)} species guides with breeding records and photographs.</p><a class="cta" href="beetle-breeding-guide.html">How to breed beetles <span class="arrow" aria-hidden="true">↗</span></a></div>{visual}</div></section>'
 def browse_form():
     return '<form class="filters" id="filterForm" hidden><label>Search species<input id="query" name="q" type="search" placeholder="Scientific or common name"></label><label>Family or subfamily<select id="group" name="group"><option value="">All groups</option>'+''.join(f'<option value="{key}">{e(group["name"])}</option>' for key,group in groups.items())+'</select></label></form>'
 def browse_list(compact=False):
@@ -209,19 +218,45 @@ def browse_list(compact=False):
     return browse_form()+f'<p id="count" class="results" role="status">{len(guides)} species guides</p><div id="listing"{limit}>'+''.join(listed(s) for s in guides)+'</div>'+button+'<p id="empty" class="noresults" hidden>No species match your search. <button id="clear" type="button">Clear filters</button></p><script src="search.js" defer></script>'
 home+='<section class="wrap block home-index" id="families"><div class="section-head"><h2>Explore by family</h2></div>'+group_rows()+'</section><section class="wrap block" id="browse-species"><div class="section-head"><h2>Browse by species</h2><a class="more" href="species.html">Species index ↗</a></div>'+browse_list(True)+'</section>'
 
-page('index.html','Beetle breeding guides and photography','Explore beetle breeding by family and species, with photographs, larval care, adult diets, and documented rearing observations.',home,'WebSite',hero)
+page('index.html', 'Beetle Breeding Guides for North American Species',
+     'Learn how to breed North American beetles, from stag beetles to Hercules beetles. Find species guides, larval substrates, photographs, and firsthand rearing records.',
+     home, 'WebSite', hero)
+
+basics = read('breeding-basics.json')
+overview = intro('How to breed beetles',
+                 'Follow a brood from egg laying to adult emergence. These examples come from North American species with different foods, laying sites, and life cycles.',
+                 [(None, 'How to breed beetles')])
+sections = []
+contents = []
+for step in basics:
+    anchor = re.sub(r'[^a-z0-9]+', '-', step['title'].lower()).strip('-')
+    contents.append('<li>'+link('#'+anchor, step['title'])+'</li>')
+    examples = []
+    for item in step['examples']:
+        record = by_slug.get(item['species'])
+        if record:
+            examples.append('<p><strong>'+link(slink(record), item['label'])+'</strong>. '+prose(item['text'])+'</p>')
+    sections.append(f'<section id="{anchor}"><h2>{e(step["title"])}</h2><p>{e(step["text"])}</p>'+''.join(examples)+'</section>')
+overview += ('<div class="wrap article-layout"><article class="article">'+''.join(sections)
+             +'<p>'+link('species.html','Browse all species breeding guides')+'</p></article>'
+             +'<aside class="toc"><div class="onthis">In this guide</div><ol>'+''.join(contents)+'</ol>'
+             +link('substrate.html','Preparing beetle substrate')+'</aside></div>')
+page('beetle-breeding-guide.html', 'How to Breed Beetles',
+     'A beginner’s beetle breeding guide to choosing a species, setting up for egg laying, feeding larvae, and following a brood through pupation and adult emergence.',
+     overview)
 if any(record.get('distribution') for record in guides):
     method_intro=intro('Mapping methods','How to read the dots, understand location uncertainty and check a record.',[(None,'Mapping methods')])
     method_body='<div class="wrap block"><article class="article"><section><h2>Observations</h2><p>Point maps use wild, research-grade, georeferenced observations in the iNaturalist North America place, including Mexico, Central America and the Caribbean. Points represent public observation coordinates. Locations can overlap. Sampling intensity varies, and gaps between observations do not establish absence.</p></section><section><h2>Location precision</h2><p>Filled symbols indicate unobscured public locations with a reported uncertainty of 10 km or less. Open symbols indicate an obscured location or a larger or unknown uncertainty. The public coordinate is retained for obscured records.</p></section><section><h2>Outlier review</h2><p>We grouped observations in 0.25° latitude–longitude cells. A cell with one or two records was flagged when its center was at least 500 km from every other occupied cell for that species. The review compared isolated records with available geographic or taxonomic evidence. A distant locality alone does not establish an error. The species data file lists each reviewed observation and the reason for retaining or excluding it.</p></section><section><h2>Map projection</h2><p>Static figures use an Albers equal-area conic projection with standard parallels at 20° and 50° N and Natural Earth boundaries. The geographic extent is shown on each figure.</p></section></article></div>'
     page('distribution.html','Distribution mapping methods','Data selection, positional uncertainty and outlier decisions for the beetle occurrence maps.',method_intro+method_body)
-page('groups.html','Beetle family directory','Browse beetle breeding guides by family and scarab subfamily.',intro('Family directory','Choose a group to open its species guides.',[(None,'Families')])+'<section class="wrap block">'+group_rows()+'</section>','CollectionPage',active='groups')
+page('groups.html','Beetle breeding guides by family','Find breeding guides for stag beetles, rhinoceros beetles, flower chafers, longhorn beetles, and other North American groups.',intro('Breeding guides by family','Choose a family or scarab subfamily to see its species guides.',[(None,'Families')])+'<section class="wrap block">'+group_rows()+'</section>','CollectionPage',active='groups')
 for k,g in groups.items():
     items=[s for s in guides if s['group']==k]
     desc=g['description']
-    body=intro(g['name'],desc,[('groups.html','Families'),(None,g['name'])],g['rank']+(' · Scarabaeidae' if g['rank']=='Subfamily' else '')+' · '+g['common'])
+    group_title = 'Breeding '+g['common'].lower()
+    body=intro(group_title,desc,[('groups.html','Families'),(None,g['name'])],g['rank']+' · '+g['name']+(' · Scarabaeidae' if g['rank']=='Subfamily' else ''))
     body+='<section class="wrap block"><div class="section-head"><h2>Species guides</h2></div><div class="guidegrid">'+''.join(card(s) for s in items)+'</div></section>'
     body += '<div class="wrap classlinks">'+classification(g.get('classification',[]))+'</div>'
-    page(glink(k),g['name']+' breeding guides',desc,body,'CollectionPage',active='groups')
+    page(glink(k),group_title+' ('+g['name']+')',desc,body,'CollectionPage',active='groups')
 for s in guides:
     g=groups[s['group']]; name=s['name']; common=s.get('common',''); ps=getphotos(s)
     body=intro(name,s['intro'],[('groups.html','Families'),(glink(s['group']),g['name']),(None,name)],g['name']+' · Species account',common).replace('class="page-title"','class="page-title species-title"').replace('class="sciname"','class="common-name"')
@@ -310,10 +345,10 @@ for s in guides:
 opts=''.join(f'<option value="{k}">{e(g["name"])}</option>' for k,g in groups.items())
 body=intro('Species index','Find a breeding guide by scientific name, common name, or beetle family.',[(None,'Species')])
 body+='<section class="wrap block">'+browse_list()+'</section>'
-page('species.html','Search beetle species guides','Search the breeding guide directory by scientific name, common name, and family.',body,'CollectionPage',active='species')
+page('species.html','Beetle breeding guides by species','Find North American beetle breeding guides by common or scientific name. Browse captive rearing records, photographs, and notes on eggs, larvae, and adults.',body,'CollectionPage',active='species')
 substrate=config.get('substrate')
 if substrate:
-    body=intro('Making substrate','',[(None,'Substrate')])
+    body=intro('Beetle substrate and flake soil','',[(None,'Substrate')])
     contents=[]; blocks=[]
     for number,section in enumerate(substrate['sections'],1):
         title=section['title']; anchor='substrate-'+str(number)
@@ -329,7 +364,7 @@ if substrate:
             if picture.get('section')==title:block+=galleryfig(picture)
         blocks.append(block+'</section>')
     body+='<div class="wrap article-layout"><article class="article">'+''.join(blocks)+'</article><aside class="toc"><div class="onthis">On this page</div><ol>'+''.join(contents)+'</ol></aside></div>'
-    page('substrate.html','Making substrate and flake soil','Preparing raised-bed soil mixes and fermented hardwood flake soil for beetle larvae.',body,active='substrate')
+    page('substrate.html','How to make beetle substrate and flake soil','Prepare raised-bed soil mixes and ferment hardwood sawdust into flake soil for beetle larvae. Includes the flour-to-sawdust ratio used in this recipe.',body,active='substrate')
 about=intro('About me','',[(None,'About me')])
 about+='<div class="wrap block about-layout"><article class="article bio"><h2>Junkai Wang</h2><p>I’m a PhD student in entomology at Michigan State University. I study the diversity and evolution of bark beetles, particularly <i>Ips</i> and its relatives. I studied ecology and evolutionary biology and art and design at the University of Michigan.</p><p>I keep records of the beetles I rear, including the substrates I use, the eggs I recover, and when the adults emerge. This site brings those records and photographs together by species.</p><p>'+link('https://www.instagram.com/beetlescholar/','Instagram · @beetlescholar')+'</p>'+(' <p>'+link(config['facebook_url'],'Facebook · Junkai Wang')+'</p>' if config.get('facebook_url') else '')+'</article>'
 profile = config['instagram_gallery']
@@ -353,7 +388,9 @@ page('editor.html','Owner login','Sign in to manage species posts and photograph
      intro('Owner login','',[(None,'Owner login')])+edit_template, active='editor')
 
 sitemap=ET.Element('urlset',xmlns='http://www.sitemaps.org/schemas/sitemap/0.9')
-for url in pages: ET.SubElement(ET.SubElement(sitemap,'url'),'loc').text=url
+for url in pages:
+    if url != BASE+'editor.html':
+        ET.SubElement(ET.SubElement(sitemap,'url'),'loc').text=url
 write('sitemap.xml',ET.tostring(sitemap,encoding='unicode'))
 write('robots.txt','User-agent: *\nAllow: /\nSitemap: '+BASE+'sitemap.xml\n')
 print(f'Built {len(pages)} pages for {len(guides)} species, {len(groups)} groups, {len(photos)} images.')

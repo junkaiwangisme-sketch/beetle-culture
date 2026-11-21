@@ -1,0 +1,34 @@
+[
+  {
+    "title": "Choose a species",
+    "text": "Start with the beetle you intend to breed. Check what the adults eat, where the female lays eggs, and what the newly hatched larvae feed on. Those can be three different things.",
+    "examples": [
+      {"species": "dynastes-tityus", "label": "Eastern Hercules beetle", "text": "Adults took beetle jelly or fruit. In the Michigan colony, the grubs developed on organic raised-bed soil. The guide explains why a new batch is worth testing before using it for a whole brood."},
+      {"species": "chrysina-beyeri", "label": "Beyer’s jewel scarab", "text": "The adults eat fresh oak leaves. The guide describes a separate feeding layer of decayed hardwood for the grubs and a clay layer for pupal cells."}
+    ]
+  },
+  {
+    "title": "Set up for egg laying",
+    "text": "Use the species account to decide where to look for eggs. A female can spend time buried even when the enclosure offers no suitable laying site. Record which material she used and whether the eggs hatched.",
+    "examples": [
+      {"species": "lucanus-elaphus", "label": "Giant stag beetle", "text": "Females collected in Alabama laid in relatively dry sawdust after earlier trials with logs and other substrates yielded few results."},
+      {"species": "callipogon-proletarius", "label": "Puerto Rican longhorn beetle", "text": "Females laid in cracks in white-rotted hardwood. Eggs were collected from the cracks before the cannibalistic hatchlings could reach one another."}
+    ]
+  },
+  {
+    "title": "Rear the larvae",
+    "text": "Match the larval food and housing to the species. Before changing substrate, check it for small larvae and intact cells. Keep notes on the food used, the date, and how many larvae survive to the next stage.",
+    "examples": [
+      {"species": "gymnetis-thula", "label": "Harlequin flower beetle", "text": "In one trial, every grub raised in a mix of used aspen shavings and sand reached adulthood. The photographs show the mixture and the adults it produced."},
+      {"species": "odontotaenius-disjunctus", "label": "Horned passalus", "text": "Parents and larvae share galleries in decayed wood, where adults prepare food for their young. Compacted sawdust kept the adults alive in one trial, but they produced no brood."}
+    ]
+  },
+  {
+    "title": "Follow the brood to adulthood",
+    "text": "Record when a larva builds its chamber, when it pupates, and when the adult comes out and starts feeding. A beetle can spend weeks or months in its chamber after reaching adulthood. Dates for each stage make it easier to compare broods and plan the next pairing.",
+    "examples": [
+      {"species": "dynastes-tityus", "label": "Eastern Hercules beetle emergence", "text": "Wild adults were found inside their chambers in October, November, and April. An adult visible through the side of a rearing container may still have a long wait before surface activity."},
+      {"species": "lucanus-elaphus", "label": "Giant stag beetle overwintering", "text": "Captive-bred adults from a North Carolina line received eight months at 55 °F (about 13 °C). Eggs laid afterward hatched into a second generation."}
+    ]
+  }
+]
